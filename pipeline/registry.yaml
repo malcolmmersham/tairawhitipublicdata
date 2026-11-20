@@ -75,9 +75,106 @@ sources:
     cadence: annual
     check_every_days: 7
 
+  statsnz_monthly:
+    name: Stats NZ – Employment indicators and building consents
+    url: https://www.stats.govt.nz/
+    attribution: "This work includes Stats NZ data licensed for reuse under CC BY 4.0"
+    cadence: monthly
+    check_every_days: 7
+  mbie_accommodation:
+    name: MBIE – Accommodation Data Programme
+    url: https://teic.mbie.govt.nz/teiccategories/datareleases/adp/
+    attribution: "Source: MBIE Accommodation Data Programme, licensed under CC BY 4.0"
+    cadence: monthly
+    check_every_days: 7
+  statsnz_census_households:
+    name: Stats NZ – Census families and households
+    url: https://tools.summaries.stats.govt.nz/places/rc/gisborne-region
+    attribution: "This work includes Stats NZ data licensed for reuse under CC BY 4.0"
+    cadence: five-yearly
+    check_every_days: 30
+
+  ea_residential:
+    name: Electricity Authority – EMI residential consumption
+    url: https://www.emi.ea.govt.nz/Retail/Reports/ZSZG4D
+    attribution: "Source: Electricity Authority, licensed under CC BY 4.0"
+    cadence: annual
+    check_every_days: 7
+
 indicators:
+  gisborne_residential_electricity:
+    name: Average residential electricity consumption
+    domain: Ōhanga
+    topic: Electricity
+    direction: neutral
+    headline: false
+    format: dec1
+    caveat: "Average kilowatt-hours drawn from the grid per residential connection in Gisborne Region. Self-consumed generation and weather adjustments are excluded."
+
+  gisborne_filled_jobs:
+    name: Filled jobs
+    domain: Ōhanga
+    topic: Employment
+    direction: up
+    headline: false
+    format: int
+    url: https://www.stats.govt.nz/topics/employment-and-unemployment/
+    caveat: "Actual monthly filled jobs in Gisborne Region from Stats NZ employment indicators. Jobs are counted rather than individual people. Recent months may be revised."
+  gisborne_new_dwellings_consented:
+    name: New dwellings consented
+    domain: Ōhanga
+    topic: Construction
+    direction: neutral
+    headline: false
+    format: int
+    url: https://www.stats.govt.nz/topics/building/
+    caveat: "Monthly counts for Gisborne District. A consent is an approval and does not record a completed dwelling."
+  gisborne_building_consent_value:
+    name: Value of building consents
+    domain: Ōhanga
+    topic: Construction
+    direction: neutral
+    headline: false
+    format: currency
+    url: https://www.stats.govt.nz/topics/building/
+    caveat: "New and altered construction combined for Gisborne District, at current prices in New Zealand dollars."
+  gisborne_guest_nights:
+    name: Commercial accommodation guest nights
+    domain: Ōhanga
+    topic: Tourism
+    direction: neutral
+    headline: false
+    format: int
+    caveat: "Gisborne Region estimates cover commercial accommodation with at least six stay units. Monthly figures are estimates and may be revised."
+  gisborne_active_accommodation:
+    name: Active commercial accommodation establishments
+    domain: Ōhanga
+    topic: Tourism
+    direction: neutral
+    headline: false
+    format: int
+    caveat: "Gisborne Region estimates cover commercial accommodation with at least six stay units."
+  gisborne_census_families:
+    name: Families in occupied private dwellings
+    domain: Hapori
+    topic: Census households
+    display: snapshot
+    direction: neutral
+    headline: false
+    format: int
+    caveat: "Published census counts for Gisborne Region. Stats NZ applies random rounding. Census methods changed across the 2013, 2018 and 2023 releases."
+  gisborne_census_households:
+    name: Households in occupied private dwellings
+    domain: Hapori
+    topic: Census households
+    display: snapshot
+    direction: neutral
+    headline: false
+    format: int
+    caveat: "Published census counts for Gisborne Region. Stats NZ applies random rounding. Census methods changed across the 2013, 2018 and 2023 releases."
+
   gisborne_nominal_gdp:
-    name: Regional GDP at current prices
+    name: Regional GDP at current prices (NZ$ million)
     domain: Ōhanga
     topic: Regional economy
     direction: neutral

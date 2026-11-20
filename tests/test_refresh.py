@@ -1,4 +1,5 @@
 import csv
+import datetime as dt
 import json
 import unittest
 from pathlib import Path
@@ -73,6 +74,16 @@ class RefreshTest(unittest.TestCase):
                 with self.assertRaisesRegex(ValueError, error):
                     run.build()
                 self.assertEqual(dashboard.read_bytes(), prior)
+
+    def test_scheduled_refresh_skips_recent_source_but_manual_run_checks_it(self):
+        self.seed("statsnz_regional_gdp", "gisborne_nominal_gdp")
+        checked = dt.datetime.now(dt.timezone.utc).isoformat()
+        run.write_json(self.status, {"statsnz_regional_gdp": {"ok": True, "checked": checked}})
+        with patch.object(run, "run_source", return_value=run.RunResult("statsnz_regional_gdp", False)) as refresh:
+            run.main(["--scheduled", "statsnz_regional_gdp"])
+            refresh.assert_not_called()
+            run.main(["statsnz_regional_gdp"])
+            refresh.assert_called_once_with("statsnz_regional_gdp")
 
 
 if __name__ == "__main__":

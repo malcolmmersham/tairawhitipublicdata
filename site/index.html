@@ -299,7 +299,7 @@ function card(ind) {
     el("h3", { text: meta.name }),
     h ? el("div", { class: "now" }, fmt(h.last[1], meta.format), el("small", { text: periodLabel(h.last[0], h.s.period_type) })) : null));
   c.append(el("div", { class: "note", text: lines[0].label }));
-  const attribution = el("span", {}, src.attribution || "", " · ", el("a", { href: src.url || "#", target: "_blank", rel: "noopener", text: "Publisher" }));
+  const attribution = el("span", {}, src.attribution || "", " · ", el("a", { href: meta.url || src.url || "#", target: "_blank", rel: "noopener", text: "Publisher" }));
   if (meta.display === "snapshot") {
     c.append(table(lines, meta));
     if (meta.caveat) c.append(el("p", { class: "note", text: meta.caveat }));
@@ -377,16 +377,16 @@ function viewLibrary() {
   f.append(el("div", { class: "filters downloads" },
     el("a", { href: "data/observations.csv", download: "observations.csv", text: "Download observations (CSV)" }),
     el("a", { href: "data/indicators.csv", download: "indicators.csv", text: "Download indicator definitions (CSV)" })));
-  const sel = (id, label, opts) => el("label", {}, label + " ", el("select", { id }, el("option", { value: "", text: "All" }), opts.map(o => el("option", { value: o, text: o }))));
-  const filt = el("div", { class: "filters" }, sel("f-dom", "Domain", [...new Set(cat.map(c => c.domain))]), sel("f-st", "Status", Object.keys(DATASET_STATES)), sel("f-ph", "Phase", ["1", "2", "3", "4"]));
+  const sel = (id, label, opts, labels = {}) => el("label", {}, label + " ", el("select", { id }, el("option", { value: "", text: "All" }), opts.map(o => el("option", { value: o, text: labels[o] || o }))));
+  const filt = el("div", { class: "filters" }, sel("f-dom", "Domain", [...new Set(cat.map(c => c.domain))]), sel("f-st", "Status", Object.keys(DATASET_STATES), DATASET_STATES), sel("f-rel", "Release", [...new Set(cat.map(c => c.release).filter(Boolean))].sort().map(String)));
   const box = el("div", { class: "tbl-wrap", style: "max-height:none" });
   const render = () => {
-    const d = $("#f-dom", filt).value, s = $("#f-st", filt).value, p = $("#f-ph", filt).value;
-    const rows = cat.filter(c => (!d || c.domain === d) && (!s || c.status === s) && (!p || String(c.phase) === p));
+    const d = $("#f-dom", filt).value, s = $("#f-st", filt).value, release = $("#f-rel", filt).value;
+    const rows = cat.filter(c => (!d || c.domain === d) && (!s || c.status === s) && (!release || String(c.release) === release));
     box.innerHTML = "";
-    box.append(el("table", {}, el("thead", {}, el("tr", {}, ["ID", "Dataset", "Publisher", "Domain", "Frequency", "Phase", "Status", "Notes"].map(h => el("th", { text: h })))),
+    box.append(el("table", {}, el("thead", {}, el("tr", {}, ["ID", "Dataset", "Publisher", "Domain", "Frequency", "Release", "Status", "Notes"].map(h => el("th", { text: h })))),
       el("tbody", {}, rows.map(c => el("tr", {}, el("td", { text: c.id }), el("td", { text: c.name }), el("td", { text: c.publisher }), el("td", { text: c.domain }),
-        el("td", { text: c.frequency }), el("td", { text: String(c.phase) }), el("td", {}, el("span", { class: "pill " + c.status, text: DATASET_STATES[c.status] || c.status })),
+        el("td", { text: c.frequency }), el("td", { text: c.release || "–" }), el("td", {}, el("span", { class: "pill " + c.status, text: DATASET_STATES[c.status] || c.status })),
         el("td", {}, c.note || "", c.url ? el("a", { href: c.url, text: " Publisher" }) : null))))));
   };
   filt.addEventListener("change", render); render();

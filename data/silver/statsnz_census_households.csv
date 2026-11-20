@@ -1,0 +1,7 @@
+indicator_id,geo_type,geo_code,geo_name,period_start,period_end,period_type,year_basis,value,unit,measure,ethnicity,age,sex,suppression_flag,quality_flag,source_id,vintage_date,licence
+gisborne_census_families,region,05,Gisborne Region,2013-01-01,2013-12-31,year,calendar,11370,families,count,Total,Total,Total,,,statsnz_census_households,2026-11-20,CC BY 4.0
+gisborne_census_families,region,05,Gisborne Region,2018-01-01,2018-12-31,year,calendar,11469,families,count,Total,Total,Total,,,statsnz_census_households,2026-11-20,CC BY 4.0
+gisborne_census_families,region,05,Gisborne Region,2023-01-01,2023-12-31,year,calendar,12258,families,count,Total,Total,Total,,,statsnz_census_households,2026-11-20,CC BY 4.0
+gisborne_census_households,region,05,Gisborne Region,2013-01-01,2013-12-31,year,calendar,15993,households,count,Total,Total,Total,,,statsnz_census_households,2026-11-20,CC BY 4.0
+gisborne_census_households,region,05,Gisborne Region,2018-01-01,2018-12-31,year,calendar,16410,households,count,Total,Total,Total,,,statsnz_census_households,2026-11-20,CC BY 4.0
+gisborne_census_households,region,05,Gisborne Region,2023-01-01,2023-12-31,year,calendar,17124,households,count,Total,Total,Total,,,statsnz_census_households,2026-11-20,CC BY 4.0

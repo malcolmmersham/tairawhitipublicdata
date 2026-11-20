@@ -22,12 +22,26 @@ copied to `data/raw/` during a run. That folder is ignored by Git and is tempora
 | H1, E3 | Population estimates and median age; business locations and employees | Stats NZ ADE | 1996 → / 2000 → | Annual | Automated (needs `STATSNZ_API_KEY` secret in GitHub) |
 | H11 | Rental bonds | MBIE Tenancy Services | Feb 1993 → | Monthly | Automated with manual fallback |
 | T6 | Gross regional greenhouse gas emissions | Stats NZ | 2007 → | Annual | Automated |
-| M1 | Regular school attendance by term | Ministry of Education | 2019 → | Termly | Automated with manual fallback |
+| M1 | Regular school attendance by term | Ministry of Education | 2019 → | Termly | Reviewed workbook fallback |
+| M3 | NCEA Level 2 or above | Ministry of Education | 2015 → | Annual | Reviewed workbook fallback |
+| E1 | Regional GDP and GDP per person at current prices | Stats NZ | 2000 → | Annual | Automated |
+| H8, H9 | House price to income ratio and changes in housing affordability | HUD | 2001 → | Quarterly | Automated |
 | R5 | Gisborne mayoral turnout | Department of Internal Affairs | 2022 and 2025 | Triennial | Reviewed snapshots |
 | R4 | People who can speak te reo Māori | Stats NZ | 2023 Census | Five-yearly | Reviewed snapshot |
 
 The dataset catalogue and coverage are available on the dashboard's **Data library** tab,
 along with downloads for the observations and indicator definitions.
+
+## Catalogue and release review
+
+- The catalogue records the rollout release for each planned connector. A reference entry links
+  to the publisher. A deferred entry records what evidence or permission would reopen it.
+- The repository maintainer, `@malcolmmersham`, coordinates reviewed manual releases. Compare the
+  first and latest periods and a local value to the publisher, record the licence, confirm source
+  geography and suppression, then rebuild. Verify the chart and both CSVs after the workflow deploys.
+- For the Trust survey, start from the [public Trust dashboard](https://trusttairawhiti.nz/what-we-do/wellbeing-data).
+  A Trust-approved aggregate export must identify the survey years, weighting method, permitted
+  breakdowns, and suppression rules. Keep response data and working files outside this repository.
 
 ## How it fits together
 
@@ -93,6 +107,8 @@ workflow by hand from the **Actions** tab, optionally naming sources.
 - If a connector fails, check its refresh log and the dashboard's **Data status** tab for the last
   successful check. Successful sources still publish, and the workflow reports the failure after
   deployment. Rerun **Refresh data** on `main` with the affected source ID after resolving it.
+- Scheduled runs skip recently successful sources with a longer check interval. A manual run always
+  checks the selected sources. A failed source stays eligible for the next scheduled retry.
 - If validation fails, the workflow stops before publishing. For a published bad revision, revert
   the offending data commit on `main` and run **Refresh data** with **Rebuild and publish from the
   committed data** selected. Run a normal refresh after correcting the underlying issue.
