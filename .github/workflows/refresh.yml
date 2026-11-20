@@ -79,14 +79,12 @@ jobs:
             git push
           fi
       - name: Upload site
-        if: vars.ENABLE_PAGES == 'true'
         uses: actions/upload-pages-artifact@v3
         with:
           path: site
 
   deploy:
     needs: refresh
-    if: vars.ENABLE_PAGES == 'true'
     runs-on: ubuntu-latest
     permissions:
       pages: write

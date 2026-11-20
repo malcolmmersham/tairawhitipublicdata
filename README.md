@@ -56,9 +56,9 @@ publisher's file starts producing a different set of indicators.
 
 1. **Stats NZ key.** Register for a free key at the [Stats NZ API Portal](https://portal.apis.stats.govt.nz/how-to-subscribe). In GitHub, go to
    *Settings → Secrets and variables → Actions* and add a repository secret named `STATSNZ_API_KEY`.
-2. **GitHub Pages.** Select *Settings → Pages → Source → GitHub Actions* and add a repository
-   Actions variable `ENABLE_PAGES` with value `true`. Open *Actions → Refresh data → Run workflow*
-   on `main` and leave the sources field empty for the first refresh.
+2. **GitHub Pages.** Select *Settings → Pages → Source → GitHub Actions*. Open
+   *Actions → Refresh data → Run workflow* on `main` and leave the sources field empty for the
+   first refresh. The workflow publishes after each validated refresh.
 3. **MBIE rental bonds (optional override).** The connector discovers the monthly territorial
    authority CSV on the Tenancy Services website. Set `MBIE_BOND_CSV_URL` to try a direct CSV URL
    first, or save the file to `data/manual/mbie_bonds/` as a fallback (see `data/manual/README.md`).
