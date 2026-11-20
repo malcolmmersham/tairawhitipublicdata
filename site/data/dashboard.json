@@ -1,6 +1,24 @@
 {
- "generated": "2026-11-20T08:19:53+00:00",
+ "generated": "2026-11-20T08:24:23+00:00",
  "indicators": {
+  "regional_ghg_emissions": {
+   "name": "Gross greenhouse gas emissions",
+   "domain": "Taiao",
+   "topic": "Climate",
+   "direction": "down",
+   "headline": false,
+   "format": "dec1",
+   "caveat": "Gisborne Region industry and household emissions, in kilotonnes of CO₂ equivalent. Uses the production approach and the residence principle. Excludes consumption-based emissions. Earlier years can be revised."
+  },
+  "regular_school_attendance": {
+   "name": "Students attending school regularly",
+   "domain": "Mātauranga",
+   "topic": "School attendance",
+   "direction": "up",
+   "headline": false,
+   "format": "pct",
+   "caveat": "Percentage of students in Gisborne Region state and state-integrated schools who attended more than 90% of the term. COVID-19 affected comparability in 2020 and 2021. Reporting changed from Term 1 2025. CSV dates are the corresponding calendar-quarter boundaries for indexing by term."
+  },
   "pop_estimate": {
    "name": "Estimated resident population",
    "domain": "Hapori",
@@ -292,6 +310,18 @@
    "url": "https://www.tenancy.govt.nz/about-tenancy-services/data-and-statistics/rental-bond-data/",
    "attribution": "Source: MBIE Tenancy Services, licensed under CC BY 3.0 NZ",
    "cadence": "monthly"
+  },
+  "statsnz_emissions": {
+   "name": "Stats NZ – Regional greenhouse gas emissions",
+   "url": "https://www.stats.govt.nz/tools/how-are-my-regions-emissions-tracking/",
+   "attribution": "This work includes Stats NZ data licensed for reuse under CC BY 4.0",
+   "cadence": "annual"
+  },
+  "moe_attendance": {
+   "name": "Ministry of Education – Education Counts regular attendance",
+   "url": "https://www.educationcounts.govt.nz/statistics/attendance",
+   "attribution": "Source: Ministry of Education, Education Counts, licensed under CC BY 4.0",
+   "cadence": "termly"
   }
  },
  "series": [
@@ -13931,6 +13961,172 @@
    ]
   },
   {
+   "indicator": "regular_school_attendance",
+   "geo": "05",
+   "geo_name": "Gisborne Region",
+   "ethnicity": "Total",
+   "source": "moe_attendance",
+   "period_type": "term",
+   "unit": "percent",
+   "points": [
+    [
+     "2019-03-31",
+     61.8,
+     null
+    ],
+    [
+     "2019-06-30",
+     40.7,
+     null
+    ],
+    [
+     "2019-09-30",
+     47.2,
+     null
+    ],
+    [
+     "2019-12-31",
+     47.5,
+     null
+    ],
+    [
+     "2020-03-31",
+     56.0,
+     "COVID-19 affected comparability"
+    ],
+    [
+     "2020-06-30",
+     52.2,
+     "COVID-19 affected comparability"
+    ],
+    [
+     "2020-09-30",
+     47.7,
+     "COVID-19 affected comparability"
+    ],
+    [
+     "2020-12-31",
+     45.4,
+     "COVID-19 affected comparability"
+    ],
+    [
+     "2021-03-31",
+     52.6,
+     "COVID-19 affected comparability"
+    ],
+    [
+     "2021-06-30",
+     43.7,
+     "COVID-19 affected comparability"
+    ],
+    [
+     "2021-09-30",
+     48.2,
+     "COVID-19 affected comparability"
+    ],
+    [
+     "2021-12-31",
+     40.9,
+     "COVID-19 affected comparability"
+    ],
+    [
+     "2022-03-31",
+     38.0,
+     null
+    ],
+    [
+     "2022-06-30",
+     30.2,
+     null
+    ],
+    [
+     "2022-09-30",
+     34.2,
+     null
+    ],
+    [
+     "2022-12-31",
+     32.2,
+     null
+    ],
+    [
+     "2023-03-31",
+     39.4,
+     null
+    ],
+    [
+     "2023-06-30",
+     34.1,
+     null
+    ],
+    [
+     "2023-09-30",
+     39.7,
+     null
+    ],
+    [
+     "2023-12-31",
+     41.9,
+     null
+    ],
+    [
+     "2024-03-31",
+     53.0,
+     null
+    ],
+    [
+     "2024-06-30",
+     38.7,
+     null
+    ],
+    [
+     "2024-09-30",
+     42.4,
+     null
+    ],
+    [
+     "2024-12-31",
+     44.7,
+     null
+    ],
+    [
+     "2025-03-31",
+     52.9,
+     null
+    ],
+    [
+     "2025-06-30",
+     47.5,
+     null
+    ],
+    [
+     "2025-09-30",
+     38.6,
+     null
+    ],
+    [
+     "2025-12-31",
+     43.2,
+     null
+    ],
+    [
+     "2026-03-31",
+     57.0,
+     null
+    ],
+    [
+     "2026-06-30",
+     51.4,
+     null
+    ],
+    [
+     "2026-09-30",
+     34.0,
+     null
+    ]
+   ]
+  },
+  {
    "indicator": "msd_jobseeker",
    "geo": "05",
    "geo_name": "Gisborne / Tairāwhiti",
@@ -17225,6 +17421,112 @@
      null
     ]
    ]
+  },
+  {
+   "indicator": "regional_ghg_emissions",
+   "geo": "05",
+   "geo_name": "Gisborne Region",
+   "ethnicity": "Total",
+   "source": "statsnz_emissions",
+   "period_type": "year",
+   "unit": "kt CO₂-e",
+   "points": [
+    [
+     "2007-12-31",
+     1582.0,
+     null
+    ],
+    [
+     "2008-12-31",
+     1559.09,
+     null
+    ],
+    [
+     "2009-12-31",
+     1442.51,
+     null
+    ],
+    [
+     "2010-12-31",
+     1441.1,
+     null
+    ],
+    [
+     "2011-12-31",
+     1462.94,
+     null
+    ],
+    [
+     "2012-12-31",
+     1482.47,
+     null
+    ],
+    [
+     "2013-12-31",
+     1446.26,
+     null
+    ],
+    [
+     "2014-12-31",
+     1505.26,
+     null
+    ],
+    [
+     "2015-12-31",
+     1377.86,
+     null
+    ],
+    [
+     "2016-12-31",
+     1393.48,
+     null
+    ],
+    [
+     "2017-12-31",
+     1347.74,
+     null
+    ],
+    [
+     "2018-12-31",
+     1403.51,
+     null
+    ],
+    [
+     "2019-12-31",
+     1365.78,
+     null
+    ],
+    [
+     "2020-12-31",
+     1360.29,
+     null
+    ],
+    [
+     "2021-12-31",
+     1423.36,
+     null
+    ],
+    [
+     "2022-12-31",
+     1323.64,
+     null
+    ],
+    [
+     "2023-12-31",
+     1281.07,
+     null
+    ],
+    [
+     "2024-12-31",
+     1247.75,
+     null
+    ],
+    [
+     "2025-12-31",
+     1224.51,
+     null
+    ]
+   ]
   }
  ],
  "status": {
@@ -17287,6 +17589,26 @@
    "checked": "2026-11-20T08:19:53+00:00",
    "last_success": "2026-11-20T08:19:53+00:00",
    "schema_hash": "5333e7f5e7"
+  },
+  "statsnz_emissions": {
+   "source_id": "statsnz_emissions",
+   "ok": true,
+   "rows": 19,
+   "latest_period": "2025-12-31",
+   "message": "ok",
+   "checked": "2026-11-20T08:24:23+00:00",
+   "last_success": "2026-11-20T08:24:23+00:00",
+   "schema_hash": "2c54a02a42"
+  },
+  "moe_attendance": {
+   "source_id": "moe_attendance",
+   "ok": true,
+   "rows": 31,
+   "latest_period": "2026-09-30",
+   "message": "ok",
+   "checked": "2026-11-20T08:24:23+00:00",
+   "last_success": "2026-11-20T08:24:23+00:00",
+   "schema_hash": "24635db9f2"
   }
  },
  "catalogue": [
@@ -17696,8 +18018,8 @@
    "domain": "Mātauranga",
    "frequency": "Termly",
    "phase": 1,
-   "status": "planned",
-   "note": "educationcounts.govt.nz returned 403 to automated requests – test from GitHub Actions or use manual drop"
+   "status": "live",
+   "note": "Gisborne Region regular attendance from 2019. Publisher workbooks with a manual fallback."
   },
   {
    "id": "M2",
@@ -17818,7 +18140,8 @@
    "domain": "Taiao",
    "frequency": "Annual",
    "phase": 2,
-   "status": "planned"
+   "status": "live",
+   "note": "Published industry and household total for Gisborne Region from 2007."
   },
   {
    "id": "T7",
@@ -17874,7 +18197,8 @@
    "domain": "Tūtangata",
    "frequency": "Five-yearly",
    "phase": 2,
-   "status": "planned"
+   "status": "planned",
+   "note": "Stats NZ publishes a Gisborne Region te reo Māori estimate. Verify a consistent census denominator across years before release."
   },
   {
    "id": "R5",
@@ -17883,7 +18207,8 @@
    "domain": "Tūhono",
    "frequency": "Triennial",
    "phase": 3,
-   "status": "borderline"
+   "status": "borderline",
+   "note": "Gisborne mayoral turnout verified for 2022 and 2025. Check comparable contested mayoral rows in earlier releases."
   },
   {
    "id": "R6",

@@ -34,8 +34,35 @@ sources:
     url: https://www.tenancy.govt.nz/about-tenancy-services/data-and-statistics/rental-bond-data/
     attribution: "Source: MBIE Tenancy Services, licensed under CC BY 3.0 NZ"
     cadence: monthly
+  statsnz_emissions:
+    name: Stats NZ – Regional greenhouse gas emissions
+    url: https://www.stats.govt.nz/tools/how-are-my-regions-emissions-tracking/
+    attribution: "This work includes Stats NZ data licensed for reuse under CC BY 4.0"
+    cadence: annual
+  moe_attendance:
+    name: Ministry of Education – Education Counts regular attendance
+    url: https://www.educationcounts.govt.nz/statistics/attendance
+    attribution: "Source: Ministry of Education, Education Counts, licensed under CC BY 4.0"
+    cadence: termly
 
 indicators:
+  regional_ghg_emissions:
+    name: Gross greenhouse gas emissions
+    domain: Taiao
+    topic: Climate
+    direction: down
+    headline: false
+    format: dec1
+    caveat: "Gisborne Region industry and household emissions, in kilotonnes of CO₂ equivalent. Uses the production approach and the residence principle. Excludes consumption-based emissions. Earlier years can be revised."
+  regular_school_attendance:
+    name: Students attending school regularly
+    domain: Mātauranga
+    topic: School attendance
+    direction: up
+    headline: false
+    format: pct
+    caveat: "Percentage of students in Gisborne Region state and state-integrated schools who attended more than 90% of the term. COVID-19 affected comparability in 2020 and 2021. Reporting changed from Term 1 2025. CSV dates are the corresponding calendar-quarter boundaries for indexing by term."
+
   # ---- Hapori: population ----
   pop_estimate:
     name: Estimated resident population

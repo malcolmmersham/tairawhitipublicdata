@@ -43,7 +43,7 @@
 - {id: H25, name: Adults with finalised charges / convicted, publisher: MoJ / Stats NZ, domain: Hapori, frequency: Annual, phase: 1, status: planned}
 - {id: H26, name: Oranga Tamariki / Corrections, publisher: OT / Corrections, domain: Hapori, frequency: Quarterly, phase: 3, status: borderline}
 - {id: H27, name: Motor Vehicle Register; traffic counts, publisher: NZTA, domain: Hapori, frequency: Monthly, phase: 2, status: planned}
-- {id: M1, name: School attendance, publisher: Ministry of Education, domain: Mātauranga, frequency: Termly, phase: 1, status: planned, note: "educationcounts.govt.nz returned 403 to automated requests – test from GitHub Actions or use manual drop"}
+- {id: M1, name: School attendance, publisher: Ministry of Education, domain: Mātauranga, frequency: Termly, phase: 1, status: live, note: "Gisborne Region regular attendance from 2019. Publisher workbooks with a manual fallback."}
 - {id: M2, name: Daily attendance dashboard, publisher: Ministry of Education, domain: Mātauranga, frequency: Weekly, phase: 2, status: borderline}
 - {id: M3, name: School leavers' attainment, publisher: Ministry of Education, domain: Mātauranga, frequency: Annual, phase: 2, status: planned}
 - {id: M4, name: NZQA secondary statistics, publisher: NZQA, domain: Mātauranga, frequency: Annual, phase: 2, status: planned}
@@ -56,14 +56,14 @@
 - {id: T3, name: LAWA groundwater and lakes, publisher: GDC via LAWA, domain: Taiao, frequency: Annual, phase: 2, status: planned}
 - {id: T4, name: GDC Hilltop hydrology, publisher: Gisborne District Council, domain: Taiao, frequency: Near-real-time, phase: 3, status: planned, note: Endpoint to confirm with GDC}
 - {id: T5, name: National Climate Database (DataHub), publisher: Earth Sciences NZ, domain: Taiao, frequency: Monthly, phase: 3, status: planned}
-- {id: T6, name: GHG emissions by region, publisher: Stats NZ, domain: Taiao, frequency: Annual, phase: 2, status: planned}
+- {id: T6, name: GHG emissions by region, publisher: Stats NZ, domain: Taiao, frequency: Annual, phase: 2, status: live, note: "Published industry and household total for Gisborne Region from 2007."}
 - {id: T7, name: Land cover / LUCAS, publisher: MfE / Stats NZ, domain: Taiao, frequency: Irregular, phase: 3, status: borderline}
 - {id: T8, name: GDC Geoportal layers, publisher: Gisborne District Council, domain: Taiao, frequency: Static, phase: 3, status: borderline, note: Reference layers}
 - {id: R1, name: Tairāwhiti Wellbeing Survey, publisher: Trust Tairāwhiti, domain: Tūhono, frequency: Annual, phase: 1, status: planned, note: "In-house (Zoho); join on the same schema"}
 - {id: R2, name: General Social Survey, publisher: Stats NZ, domain: Tūhono, frequency: Biennial, phase: 3, status: borderline}
 - {id: R3, name: Te Kupenga, publisher: Stats NZ, domain: Tūtangata, frequency: Five-yearly, phase: 3, status: borderline}
-- {id: R4, name: Census iwi affiliation and te reo, publisher: Stats NZ, domain: Tūtangata, frequency: Five-yearly, phase: 2, status: planned}
-- {id: R5, name: Local election turnout, publisher: DIA / GDC, domain: Tūhono, frequency: Triennial, phase: 3, status: borderline}
+- {id: R4, name: Census iwi affiliation and te reo, publisher: Stats NZ, domain: Tūtangata, frequency: Five-yearly, phase: 2, status: planned, note: "Stats NZ publishes a Gisborne Region te reo Māori estimate. Verify a consistent census denominator across years before release."}
+- {id: R5, name: Local election turnout, publisher: DIA / GDC, domain: Tūhono, frequency: Triennial, phase: 3, status: borderline, note: "Gisborne mayoral turnout verified for 2022 and 2025. Check comparable contested mayoral rows in earlier releases."}
 - {id: R6, name: General election enrolment and turnout, publisher: Electoral Commission, domain: Tūhono, frequency: Triennial, phase: 3, status: planned}
 - {id: R7, name: Māori Land Online, publisher: Māori Land Court, domain: Tūtangata, frequency: Register, phase: 3, status: borderline}
 - {id: G1, name: GDC annual report KPIs, publisher: Gisborne District Council, domain: Hapori, frequency: Annual, phase: 3, status: planned, note: Manual}

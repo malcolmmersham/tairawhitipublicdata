@@ -2660,6 +2660,37 @@ rent_median,ta,028,Gisborne District,2026-06-01,2026-06-30,month,calendar,580.0,
 rent_median,ta,028,Gisborne District,2026-07-01,2026-07-31,month,calendar,615.0,NZD/week,median,Total,Total,Total,,fixed random rounding (base 3); cells <5 bonds suppressed,mbie_bonds,2026-11-20,CC BY 3.0 NZ
 rent_median,ta,028,Gisborne District,2026-08-01,2026-08-31,month,calendar,620.0,NZD/week,median,Total,Total,Total,,fixed random rounding (base 3); cells <5 bonds suppressed,mbie_bonds,2026-11-20,CC BY 3.0 NZ
 rent_median,ta,028,Gisborne District,2026-09-01,2026-09-30,month,calendar,600.0,NZD/week,median,Total,Total,Total,,fixed random rounding (base 3); cells <5 bonds suppressed,mbie_bonds,2026-11-20,CC BY 3.0 NZ
+regular_school_attendance,region,05,Gisborne Region,2019-01-01,2019-03-31,term,school_term,61.8,percent,rate,Total,Total,Total,,,moe_attendance,2026-11-20,CC BY 4.0
+regular_school_attendance,region,05,Gisborne Region,2019-04-01,2019-06-30,term,school_term,40.7,percent,rate,Total,Total,Total,,,moe_attendance,2026-11-20,CC BY 4.0
+regular_school_attendance,region,05,Gisborne Region,2019-07-01,2019-09-30,term,school_term,47.2,percent,rate,Total,Total,Total,,,moe_attendance,2026-11-20,CC BY 4.0
+regular_school_attendance,region,05,Gisborne Region,2019-10-01,2019-12-31,term,school_term,47.5,percent,rate,Total,Total,Total,,,moe_attendance,2026-11-20,CC BY 4.0
+regular_school_attendance,region,05,Gisborne Region,2020-01-01,2020-03-31,term,school_term,56.0,percent,rate,Total,Total,Total,,COVID-19 affected comparability,moe_attendance,2026-11-20,CC BY 4.0
+regular_school_attendance,region,05,Gisborne Region,2020-04-01,2020-06-30,term,school_term,52.2,percent,rate,Total,Total,Total,,COVID-19 affected comparability,moe_attendance,2026-11-20,CC BY 4.0
+regular_school_attendance,region,05,Gisborne Region,2020-07-01,2020-09-30,term,school_term,47.7,percent,rate,Total,Total,Total,,COVID-19 affected comparability,moe_attendance,2026-11-20,CC BY 4.0
+regular_school_attendance,region,05,Gisborne Region,2020-10-01,2020-12-31,term,school_term,45.4,percent,rate,Total,Total,Total,,COVID-19 affected comparability,moe_attendance,2026-11-20,CC BY 4.0
+regular_school_attendance,region,05,Gisborne Region,2021-01-01,2021-03-31,term,school_term,52.6,percent,rate,Total,Total,Total,,COVID-19 affected comparability,moe_attendance,2026-11-20,CC BY 4.0
+regular_school_attendance,region,05,Gisborne Region,2021-04-01,2021-06-30,term,school_term,43.7,percent,rate,Total,Total,Total,,COVID-19 affected comparability,moe_attendance,2026-11-20,CC BY 4.0
+regular_school_attendance,region,05,Gisborne Region,2021-07-01,2021-09-30,term,school_term,48.2,percent,rate,Total,Total,Total,,COVID-19 affected comparability,moe_attendance,2026-11-20,CC BY 4.0
+regular_school_attendance,region,05,Gisborne Region,2021-10-01,2021-12-31,term,school_term,40.9,percent,rate,Total,Total,Total,,COVID-19 affected comparability,moe_attendance,2026-11-20,CC BY 4.0
+regular_school_attendance,region,05,Gisborne Region,2022-01-01,2022-03-31,term,school_term,38.0,percent,rate,Total,Total,Total,,,moe_attendance,2026-11-20,CC BY 4.0
+regular_school_attendance,region,05,Gisborne Region,2022-04-01,2022-06-30,term,school_term,30.2,percent,rate,Total,Total,Total,,,moe_attendance,2026-11-20,CC BY 4.0
+regular_school_attendance,region,05,Gisborne Region,2022-07-01,2022-09-30,term,school_term,34.2,percent,rate,Total,Total,Total,,,moe_attendance,2026-11-20,CC BY 4.0
+regular_school_attendance,region,05,Gisborne Region,2022-10-01,2022-12-31,term,school_term,32.2,percent,rate,Total,Total,Total,,,moe_attendance,2026-11-20,CC BY 4.0
+regular_school_attendance,region,05,Gisborne Region,2023-01-01,2023-03-31,term,school_term,39.4,percent,rate,Total,Total,Total,,,moe_attendance,2026-11-20,CC BY 4.0
+regular_school_attendance,region,05,Gisborne Region,2023-04-01,2023-06-30,term,school_term,34.1,percent,rate,Total,Total,Total,,,moe_attendance,2026-11-20,CC BY 4.0
+regular_school_attendance,region,05,Gisborne Region,2023-07-01,2023-09-30,term,school_term,39.7,percent,rate,Total,Total,Total,,,moe_attendance,2026-11-20,CC BY 4.0
+regular_school_attendance,region,05,Gisborne Region,2023-10-01,2023-12-31,term,school_term,41.9,percent,rate,Total,Total,Total,,,moe_attendance,2026-11-20,CC BY 4.0
+regular_school_attendance,region,05,Gisborne Region,2024-01-01,2024-03-31,term,school_term,53.0,percent,rate,Total,Total,Total,,,moe_attendance,2026-11-20,CC BY 4.0
+regular_school_attendance,region,05,Gisborne Region,2024-04-01,2024-06-30,term,school_term,38.7,percent,rate,Total,Total,Total,,,moe_attendance,2026-11-20,CC BY 4.0
+regular_school_attendance,region,05,Gisborne Region,2024-07-01,2024-09-30,term,school_term,42.4,percent,rate,Total,Total,Total,,,moe_attendance,2026-11-20,CC BY 4.0
+regular_school_attendance,region,05,Gisborne Region,2024-10-01,2024-12-31,term,school_term,44.7,percent,rate,Total,Total,Total,,,moe_attendance,2026-11-20,CC BY 4.0
+regular_school_attendance,region,05,Gisborne Region,2025-01-01,2025-03-31,term,school_term,52.9,percent,rate,Total,Total,Total,,,moe_attendance,2026-11-20,CC BY 4.0
+regular_school_attendance,region,05,Gisborne Region,2025-04-01,2025-06-30,term,school_term,47.5,percent,rate,Total,Total,Total,,,moe_attendance,2026-11-20,CC BY 4.0
+regular_school_attendance,region,05,Gisborne Region,2025-07-01,2025-09-30,term,school_term,38.6,percent,rate,Total,Total,Total,,,moe_attendance,2026-11-20,CC BY 4.0
+regular_school_attendance,region,05,Gisborne Region,2025-10-01,2025-12-31,term,school_term,43.2,percent,rate,Total,Total,Total,,,moe_attendance,2026-11-20,CC BY 4.0
+regular_school_attendance,region,05,Gisborne Region,2026-01-01,2026-03-31,term,school_term,57.0,percent,rate,Total,Total,Total,,,moe_attendance,2026-11-20,CC BY 4.0
+regular_school_attendance,region,05,Gisborne Region,2026-04-01,2026-06-30,term,school_term,51.4,percent,rate,Total,Total,Total,,,moe_attendance,2026-11-20,CC BY 4.0
+regular_school_attendance,region,05,Gisborne Region,2026-07-01,2026-09-30,term,school_term,34.0,percent,rate,Total,Total,Total,,,moe_attendance,2026-11-20,CC BY 4.0
 msd_jobseeker,region,05,Gisborne / Tairāwhiti,2013-07-01,2013-09-30,quarter,calendar,1518.0,people,count,Māori,Total,Total,,MSD random-rounds counts to base 3,msd_benefits,2026-11-20,CC BY 4.0
 msd_jobseeker,region,05,Gisborne / Tairāwhiti,2013-10-01,2013-12-31,quarter,calendar,1568.0,people,count,Māori,Total,Total,,MSD random-rounds counts to base 3,msd_benefits,2026-11-20,CC BY 4.0
 msd_jobseeker,region,05,Gisborne / Tairāwhiti,2014-01-01,2014-03-31,quarter,calendar,1285.0,people,count,Māori,Total,Total,,MSD random-rounds counts to base 3,msd_benefits,2026-11-20,CC BY 4.0
@@ -3284,3 +3315,22 @@ pop_median_age,ta,028,Gisborne District,2023-01-01,2023-06-30,year,june,36.4,yea
 pop_median_age,ta,028,Gisborne District,2024-01-01,2024-06-30,year,june,36.6,years,median,Total,Total,Total,,,statsnz_ade,2026-11-20,CC BY 4.0
 pop_median_age,ta,028,Gisborne District,2025-01-01,2025-06-30,year,june,37.0,years,median,Total,Total,Total,,,statsnz_ade,2026-11-20,CC BY 4.0
 pop_median_age,ta,028,Gisborne District,2026-01-01,2026-06-30,year,june,37.4,years,median,Total,Total,Total,,,statsnz_ade,2026-11-20,CC BY 4.0
+regional_ghg_emissions,region,05,Gisborne Region,2007-01-01,2007-12-31,year,calendar,1582.0,kt CO₂-e,total,Total,Total,Total,,,statsnz_emissions,2026-11-20,CC BY 4.0
+regional_ghg_emissions,region,05,Gisborne Region,2008-01-01,2008-12-31,year,calendar,1559.09,kt CO₂-e,total,Total,Total,Total,,,statsnz_emissions,2026-11-20,CC BY 4.0
+regional_ghg_emissions,region,05,Gisborne Region,2009-01-01,2009-12-31,year,calendar,1442.51,kt CO₂-e,total,Total,Total,Total,,,statsnz_emissions,2026-11-20,CC BY 4.0
+regional_ghg_emissions,region,05,Gisborne Region,2010-01-01,2010-12-31,year,calendar,1441.1,kt CO₂-e,total,Total,Total,Total,,,statsnz_emissions,2026-11-20,CC BY 4.0
+regional_ghg_emissions,region,05,Gisborne Region,2011-01-01,2011-12-31,year,calendar,1462.94,kt CO₂-e,total,Total,Total,Total,,,statsnz_emissions,2026-11-20,CC BY 4.0
+regional_ghg_emissions,region,05,Gisborne Region,2012-01-01,2012-12-31,year,calendar,1482.47,kt CO₂-e,total,Total,Total,Total,,,statsnz_emissions,2026-11-20,CC BY 4.0
+regional_ghg_emissions,region,05,Gisborne Region,2013-01-01,2013-12-31,year,calendar,1446.26,kt CO₂-e,total,Total,Total,Total,,,statsnz_emissions,2026-11-20,CC BY 4.0
+regional_ghg_emissions,region,05,Gisborne Region,2014-01-01,2014-12-31,year,calendar,1505.26,kt CO₂-e,total,Total,Total,Total,,,statsnz_emissions,2026-11-20,CC BY 4.0
+regional_ghg_emissions,region,05,Gisborne Region,2015-01-01,2015-12-31,year,calendar,1377.86,kt CO₂-e,total,Total,Total,Total,,,statsnz_emissions,2026-11-20,CC BY 4.0
+regional_ghg_emissions,region,05,Gisborne Region,2016-01-01,2016-12-31,year,calendar,1393.48,kt CO₂-e,total,Total,Total,Total,,,statsnz_emissions,2026-11-20,CC BY 4.0
+regional_ghg_emissions,region,05,Gisborne Region,2017-01-01,2017-12-31,year,calendar,1347.74,kt CO₂-e,total,Total,Total,Total,,,statsnz_emissions,2026-11-20,CC BY 4.0
+regional_ghg_emissions,region,05,Gisborne Region,2018-01-01,2018-12-31,year,calendar,1403.51,kt CO₂-e,total,Total,Total,Total,,,statsnz_emissions,2026-11-20,CC BY 4.0
+regional_ghg_emissions,region,05,Gisborne Region,2019-01-01,2019-12-31,year,calendar,1365.78,kt CO₂-e,total,Total,Total,Total,,,statsnz_emissions,2026-11-20,CC BY 4.0
+regional_ghg_emissions,region,05,Gisborne Region,2020-01-01,2020-12-31,year,calendar,1360.29,kt CO₂-e,total,Total,Total,Total,,,statsnz_emissions,2026-11-20,CC BY 4.0
+regional_ghg_emissions,region,05,Gisborne Region,2021-01-01,2021-12-31,year,calendar,1423.36,kt CO₂-e,total,Total,Total,Total,,,statsnz_emissions,2026-11-20,CC BY 4.0
+regional_ghg_emissions,region,05,Gisborne Region,2022-01-01,2022-12-31,year,calendar,1323.64,kt CO₂-e,total,Total,Total,Total,,,statsnz_emissions,2026-11-20,CC BY 4.0
+regional_ghg_emissions,region,05,Gisborne Region,2023-01-01,2023-12-31,year,calendar,1281.07,kt CO₂-e,total,Total,Total,Total,,,statsnz_emissions,2026-11-20,CC BY 4.0
+regional_ghg_emissions,region,05,Gisborne Region,2024-01-01,2024-12-31,year,calendar,1247.75,kt CO₂-e,total,Total,Total,Total,,,statsnz_emissions,2026-11-20,CC BY 4.0
+regional_ghg_emissions,region,05,Gisborne Region,2025-01-01,2025-12-31,year,calendar,1224.51,kt CO₂-e,total,Total,Total,Total,,,statsnz_emissions,2026-11-20,CC BY 4.0

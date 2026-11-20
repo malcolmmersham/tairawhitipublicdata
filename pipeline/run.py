@@ -23,10 +23,12 @@ import yaml
 
 from .core import COLUMNS, GOLD_DIR, ROOT, SILVER_DIR, SITE_DATA, RunResult, SourceBlocked, to_frame, write_json
 
-SOURCES = ["statsnz_ade", "msd_benefits", "hud_housing", "healthnz_immunisation", "nzta_cas", "mbie_bonds"]
+SOURCES = ["statsnz_ade", "msd_benefits", "hud_housing", "healthnz_immunisation", "nzta_cas", "mbie_bonds",
+           "statsnz_emissions", "moe_attendance"]
 MODULES = {
     "statsnz_ade": "statsnz_ade", "msd_benefits": "msd_benefits", "hud_housing": "hud_housing",
     "healthnz_immunisation": "healthnz_immunisation", "nzta_cas": "nzta_cas", "mbie_bonds": "mbie_bonds",
+    "statsnz_emissions": "statsnz_emissions", "moe_attendance": "moe_attendance",
 }
 STATUS_FILE = ROOT / "data" / "status.json"
 OBSERVATION_KEY = ["source_id", "indicator_id", "geo_type", "geo_code", "ethnicity", "age", "sex",

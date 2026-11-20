@@ -1,0 +1,32 @@
+indicator_id,geo_type,geo_code,geo_name,period_start,period_end,period_type,year_basis,value,unit,measure,ethnicity,age,sex,suppression_flag,quality_flag,source_id,vintage_date,licence
+regular_school_attendance,region,05,Gisborne Region,2019-01-01,2019-03-31,term,school_term,61.8,percent,rate,Total,Total,Total,,,moe_attendance,2026-11-20,CC BY 4.0
+regular_school_attendance,region,05,Gisborne Region,2019-04-01,2019-06-30,term,school_term,40.7,percent,rate,Total,Total,Total,,,moe_attendance,2026-11-20,CC BY 4.0
+regular_school_attendance,region,05,Gisborne Region,2019-07-01,2019-09-30,term,school_term,47.2,percent,rate,Total,Total,Total,,,moe_attendance,2026-11-20,CC BY 4.0
+regular_school_attendance,region,05,Gisborne Region,2019-10-01,2019-12-31,term,school_term,47.5,percent,rate,Total,Total,Total,,,moe_attendance,2026-11-20,CC BY 4.0
+regular_school_attendance,region,05,Gisborne Region,2020-01-01,2020-03-31,term,school_term,56.0,percent,rate,Total,Total,Total,,COVID-19 affected comparability,moe_attendance,2026-11-20,CC BY 4.0
+regular_school_attendance,region,05,Gisborne Region,2020-04-01,2020-06-30,term,school_term,52.2,percent,rate,Total,Total,Total,,COVID-19 affected comparability,moe_attendance,2026-11-20,CC BY 4.0
+regular_school_attendance,region,05,Gisborne Region,2020-07-01,2020-09-30,term,school_term,47.7,percent,rate,Total,Total,Total,,COVID-19 affected comparability,moe_attendance,2026-11-20,CC BY 4.0
+regular_school_attendance,region,05,Gisborne Region,2020-10-01,2020-12-31,term,school_term,45.4,percent,rate,Total,Total,Total,,COVID-19 affected comparability,moe_attendance,2026-11-20,CC BY 4.0
+regular_school_attendance,region,05,Gisborne Region,2021-01-01,2021-03-31,term,school_term,52.6,percent,rate,Total,Total,Total,,COVID-19 affected comparability,moe_attendance,2026-11-20,CC BY 4.0
+regular_school_attendance,region,05,Gisborne Region,2021-04-01,2021-06-30,term,school_term,43.7,percent,rate,Total,Total,Total,,COVID-19 affected comparability,moe_attendance,2026-11-20,CC BY 4.0
+regular_school_attendance,region,05,Gisborne Region,2021-07-01,2021-09-30,term,school_term,48.2,percent,rate,Total,Total,Total,,COVID-19 affected comparability,moe_attendance,2026-11-20,CC BY 4.0
+regular_school_attendance,region,05,Gisborne Region,2021-10-01,2021-12-31,term,school_term,40.9,percent,rate,Total,Total,Total,,COVID-19 affected comparability,moe_attendance,2026-11-20,CC BY 4.0
+regular_school_attendance,region,05,Gisborne Region,2022-01-01,2022-03-31,term,school_term,38.0,percent,rate,Total,Total,Total,,,moe_attendance,2026-11-20,CC BY 4.0
+regular_school_attendance,region,05,Gisborne Region,2022-04-01,2022-06-30,term,school_term,30.2,percent,rate,Total,Total,Total,,,moe_attendance,2026-11-20,CC BY 4.0
+regular_school_attendance,region,05,Gisborne Region,2022-07-01,2022-09-30,term,school_term,34.2,percent,rate,Total,Total,Total,,,moe_attendance,2026-11-20,CC BY 4.0
+regular_school_attendance,region,05,Gisborne Region,2022-10-01,2022-12-31,term,school_term,32.2,percent,rate,Total,Total,Total,,,moe_attendance,2026-11-20,CC BY 4.0
+regular_school_attendance,region,05,Gisborne Region,2023-01-01,2023-03-31,term,school_term,39.4,percent,rate,Total,Total,Total,,,moe_attendance,2026-11-20,CC BY 4.0
+regular_school_attendance,region,05,Gisborne Region,2023-04-01,2023-06-30,term,school_term,34.1,percent,rate,Total,Total,Total,,,moe_attendance,2026-11-20,CC BY 4.0
+regular_school_attendance,region,05,Gisborne Region,2023-07-01,2023-09-30,term,school_term,39.7,percent,rate,Total,Total,Total,,,moe_attendance,2026-11-20,CC BY 4.0
+regular_school_attendance,region,05,Gisborne Region,2023-10-01,2023-12-31,term,school_term,41.9,percent,rate,Total,Total,Total,,,moe_attendance,2026-11-20,CC BY 4.0
+regular_school_attendance,region,05,Gisborne Region,2024-01-01,2024-03-31,term,school_term,53.0,percent,rate,Total,Total,Total,,,moe_attendance,2026-11-20,CC BY 4.0
+regular_school_attendance,region,05,Gisborne Region,2024-04-01,2024-06-30,term,school_term,38.7,percent,rate,Total,Total,Total,,,moe_attendance,2026-11-20,CC BY 4.0
+regular_school_attendance,region,05,Gisborne Region,2024-07-01,2024-09-30,term,school_term,42.4,percent,rate,Total,Total,Total,,,moe_attendance,2026-11-20,CC BY 4.0
+regular_school_attendance,region,05,Gisborne Region,2024-10-01,2024-12-31,term,school_term,44.7,percent,rate,Total,Total,Total,,,moe_attendance,2026-11-20,CC BY 4.0
+regular_school_attendance,region,05,Gisborne Region,2025-01-01,2025-03-31,term,school_term,52.9,percent,rate,Total,Total,Total,,,moe_attendance,2026-11-20,CC BY 4.0
+regular_school_attendance,region,05,Gisborne Region,2025-04-01,2025-06-30,term,school_term,47.5,percent,rate,Total,Total,Total,,,moe_attendance,2026-11-20,CC BY 4.0
+regular_school_attendance,region,05,Gisborne Region,2025-07-01,2025-09-30,term,school_term,38.6,percent,rate,Total,Total,Total,,,moe_attendance,2026-11-20,CC BY 4.0
+regular_school_attendance,region,05,Gisborne Region,2025-10-01,2025-12-31,term,school_term,43.2,percent,rate,Total,Total,Total,,,moe_attendance,2026-11-20,CC BY 4.0
+regular_school_attendance,region,05,Gisborne Region,2026-01-01,2026-03-31,term,school_term,57.0,percent,rate,Total,Total,Total,,,moe_attendance,2026-11-20,CC BY 4.0
+regular_school_attendance,region,05,Gisborne Region,2026-04-01,2026-06-30,term,school_term,51.4,percent,rate,Total,Total,Total,,,moe_attendance,2026-11-20,CC BY 4.0
+regular_school_attendance,region,05,Gisborne Region,2026-07-01,2026-09-30,term,school_term,34.0,percent,rate,Total,Total,Total,,,moe_attendance,2026-11-20,CC BY 4.0

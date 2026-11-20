@@ -21,6 +21,8 @@ copied to `data/raw/` during a run. That folder is ignored by Git and is tempora
 | H24 | Crash Analysis System | NZTA | 2006 → | Annual (public layer has no month) | Automated |
 | H1, E3 | Population estimates and median age; business locations and employees | Stats NZ ADE | 1996 → / 2000 → | Annual | Automated (needs `STATSNZ_API_KEY` secret in GitHub) |
 | H11 | Rental bonds | MBIE Tenancy Services | Feb 1993 → | Monthly | Automated with manual fallback |
+| T6 | Gross regional greenhouse gas emissions | Stats NZ | 2007 → | Annual | Automated |
+| M1 | Regular school attendance by term | Ministry of Education | 2019 → | Termly | Automated with manual fallback |
 
 The dataset catalogue and coverage are available on the dashboard's **Data library** tab,
 along with downloads for the observations and indicator definitions.
@@ -116,8 +118,15 @@ before they can be added here.
   different layout, not yet parsed.
 - **NZTA CAS** is live data: past years can change, and the current year is year-to-date. The
   public layer has `region = "Gisborne Region"` from 2006.
-- **Education Counts** returned HTTP 403 to automated requests during setup, so school
-  attendance (M1) is not yet automated.
+- **Local election turnout (R5).** The official data reports 43.4% mayoral turnout in 2022 and 48.1%
+  in 2025 for Gisborne District Council. Check earlier contested mayoral elections before building a
+  longer series. Mayoral, council and ward elections have different denominators.
+  [Official 2022 and 2025 election data](https://www.mcert.govt.nz/our-work/local-government/local-elections-and-voting/local-authority-election-statistics/)
+- **Census te reo Māori (R4).** Stats NZ reports that 16.9% of people in Gisborne Region could
+  speak te reo Māori in the 2023 Census. Check denominators, geography and the effects of imputation
+  across census years before publishing a trend.
+  [Stats NZ Gisborne Region summary](https://tools.summaries.stats.govt.nz/places/rc/gisborne-region)
+  [2018 Census variable quality assessment](https://www.stats.govt.nz/assets/Uploads/Reports/2018-Census-External-Data-Quality-Panel-Assessment-of-Variables/Download-data/2018-census-external-data-quality-panel-assessment-of-variables.pdf)
 - **Labour market:** there is no Tairāwhiti-only unemployment rate (HLFS combines Gisborne and
   Hawke's Bay). Jobseeker Support counts are the regional signal.
 
