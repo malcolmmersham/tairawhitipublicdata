@@ -1,0 +1,263 @@
+# Indicator registry (gold layer metadata).
+# domain: HRHTO domain. direction: up | down | neutral (which way is "good").
+# headline: shown on the "At a glance" tab. Attribution text is rendered under every chart.
+# muka: left for Trust Tairāwhiti to map each indicator to the HRHTO muka/outcome.
+
+sources:
+  statsnz_ade:
+    name: Stats NZ – Aotearoa Data Explorer
+    url: https://explore.data.stats.govt.nz/
+    attribution: "Source: Stats NZ, licensed under CC BY 4.0"
+    cadence: annual
+  msd_benefits:
+    name: Ministry of Social Development – Benefit Fact Sheets
+    url: https://www.msd.govt.nz/about-msd-and-our-work/publications-resources/statistics/benefit/index.html
+    attribution: "Source: Ministry of Social Development, licensed under CC BY 4.0"
+    cadence: quarterly
+  hud_housing:
+    name: Te Tūāpapa Kura Kāinga HUD – Government Housing Dashboard
+    url: https://www.hud.govt.nz/stats-and-insights/the-government-housing-dashboard/
+    attribution: "Source: Ministry of Housing and Urban Development, licensed under CC BY 4.0"
+    cadence: monthly
+  healthnz_immunisation:
+    name: Health New Zealand | Te Whatu Ora – Immunisation coverage
+    url: https://www.healthnz.govt.nz/about-us/health-data/data-sets-and-collections/immunisation-data-and-statistics/immunisation-coverage
+    attribution: "Source: Health New Zealand | Te Whatu Ora, licensed under CC BY 4.0"
+    cadence: quarterly
+  nzta_cas:
+    name: NZ Transport Agency Waka Kotahi – Crash Analysis System
+    url: https://opendata-nzta.opendata.arcgis.com/datasets/NZTA::crash-analysis-system-cas-data-1/about
+    attribution: "Source: NZ Transport Agency Waka Kotahi, licensed under CC BY 4.0"
+    cadence: monthly
+  mbie_bonds:
+    name: MBIE Tenancy Services – Rental bond data
+    url: https://www.mbie.govt.nz/building-and-energy/tenancy-and-housing/rental-bond-data/
+    attribution: "Source: MBIE Tenancy Services, licensed under CC BY 3.0 NZ"
+    cadence: monthly
+
+indicators:
+  # ---- Hapori: population ----
+  pop_estimate:
+    name: Estimated resident population
+    domain: Hapori
+    topic: Population
+    direction: neutral
+    headline: true
+    format: int
+    caveat: "Estimated at 30 June. Rebased after each census (2023 rebase)."
+
+  # ---- Ōhanga ----
+  bds_geographic_units:
+    name: Business locations (geographic units)
+    domain: Ōhanga
+    topic: Business
+    direction: up
+    headline: true
+    format: int
+    caveat: "Business Demography Statistics, February reference month. Counts randomly rounded."
+  bds_employee_count:
+    name: Employees in business locations
+    domain: Ōhanga
+    topic: Business
+    direction: up
+    headline: false
+    format: int
+    caveat: "Employee count at February. Counts randomly rounded."
+  msd_main_benefits_total:
+    name: Working-age people on a main benefit
+    domain: Ōhanga
+    topic: Income support
+    direction: down
+    headline: true
+    format: int
+    caveat: "Working-age (18–64) recipients at the end of each quarter. Counts randomly rounded to base 3."
+  msd_jobseeker:
+    name: Jobseeker Support recipients
+    domain: Ōhanga
+    topic: Income support
+    direction: down
+    headline: true
+    format: int
+    caveat: "Best Tairāwhiti-only labour-market signal: the HLFS unemployment rate is only published for Gisborne/Hawke's Bay combined."
+  msd_sole_parent:
+    name: Sole Parent Support recipients
+    domain: Ōhanga
+    topic: Income support
+    direction: down
+    headline: false
+    format: int
+  msd_supported_living:
+    name: Supported Living Payment recipients
+    domain: Ōhanga
+    topic: Income support
+    direction: neutral
+    headline: false
+    format: int
+    caveat: "Includes carers and people with a health condition or disability; a rise is not necessarily negative."
+
+  # ---- Hapori: housing ----
+  rent_geomean:
+    name: Mean weekly rent, new bonds (geometric mean)
+    domain: Hapori
+    topic: Housing
+    direction: down
+    headline: true
+    format: currency
+    caveat: "Private-landlord bonds lodged in the month. Fixed random rounding; months with fewer than 5 bonds suppressed."
+  rent_median:
+    name: Median weekly rent, new bonds
+    domain: Hapori
+    topic: Housing
+    direction: down
+    headline: false
+    format: currency
+  bonds_active:
+    name: Active rental bonds
+    domain: Hapori
+    topic: Housing
+    direction: neutral
+    headline: false
+    format: int
+  bonds_lodged:
+    name: New rental bonds lodged
+    domain: Hapori
+    topic: Housing
+    direction: neutral
+    headline: false
+    format: int
+  hud_register_applicants:
+    name: Social housing register applicants
+    domain: Hapori
+    topic: Housing
+    direction: down
+    headline: true
+    format: int
+    caveat: "Housing Register plus Transfer Register, at month end."
+  hud_housing_register:
+    name: Housing Register (new applicants waiting)
+    domain: Hapori
+    topic: Housing
+    direction: down
+    headline: false
+    format: int
+  hud_transfer_register:
+    name: Transfer Register (tenants seeking a move)
+    domain: Hapori
+    topic: Housing
+    direction: neutral
+    headline: false
+    format: int
+  hud_social_housing_stock:
+    name: Social housing places
+    domain: Hapori
+    topic: Housing
+    direction: up
+    headline: true
+    format: int
+  hud_social_housing_kainga_ora:
+    name: Social housing places – Kāinga Ora
+    domain: Hapori
+    topic: Housing
+    direction: up
+    headline: false
+    format: int
+  hud_social_housing_chp:
+    name: Social housing places – community housing providers
+    domain: Hapori
+    topic: Housing
+    direction: up
+    headline: false
+    format: int
+  hud_transitional_places:
+    name: Transitional housing places (contracted)
+    domain: Hapori
+    topic: Housing
+    direction: neutral
+    headline: false
+    format: int
+  hud_eh_grants:
+    name: Emergency housing grants approved
+    domain: Hapori
+    topic: Housing
+    direction: down
+    headline: false
+    format: int
+    caveat: "Emergency Housing Special Needs Grants. Monthly counts are small and volatile."
+  hud_eh_clients:
+    name: Households receiving emergency housing grants
+    domain: Hapori
+    topic: Housing
+    direction: down
+    headline: false
+    format: int
+  hud_eh_amount:
+    name: Emergency housing grants – amount granted
+    domain: Hapori
+    topic: Housing
+    direction: down
+    headline: false
+    format: currency
+
+  # ---- Hapori: health ----
+  imms_6m:
+    name: Children fully immunised at 6 months
+    domain: Hapori
+    topic: Health
+    direction: up
+    headline: true
+    format: pct
+    caveat: "Rolling 12-month coverage by district of residence. National target is 95%."
+  imms_12m:
+    name: Children fully immunised at 12 months
+    domain: Hapori
+    topic: Health
+    direction: up
+    headline: false
+    format: pct
+  imms_24m:
+    name: Children fully immunised at 24 months
+    domain: Hapori
+    topic: Health
+    direction: up
+    headline: true
+    format: pct
+    caveat: "Rolling 12-month coverage by district of residence. Health target: 95% by 24 months."
+  imms_5y:
+    name: Children fully immunised at 5 years
+    domain: Hapori
+    topic: Health
+    direction: up
+    headline: false
+    format: pct
+
+  # ---- Hapori: safety ----
+  cas_dsi:
+    name: Road deaths and serious injuries
+    domain: Hapori
+    topic: Safety
+    direction: down
+    headline: true
+    format: int
+    caveat: "Calendar year. CAS is live: recent years may still change. Current year is year-to-date."
+  cas_deaths:
+    name: Road deaths
+    domain: Hapori
+    topic: Safety
+    direction: down
+    headline: false
+    format: int
+    caveat: "Small annual numbers; read multi-year trends, not single years."
+  cas_fatal_serious_crashes:
+    name: Fatal and serious-injury crashes
+    domain: Hapori
+    topic: Safety
+    direction: down
+    headline: false
+    format: int
+  cas_injury_crashes:
+    name: Injury crashes (all severities)
+    domain: Hapori
+    topic: Safety
+    direction: down
+    headline: false
+    format: int

@@ -1,0 +1,9186 @@
+{
+ "generated": "2026-11-20T01:33:42+00:00",
+ "indicators": {
+  "pop_estimate": {
+   "name": "Estimated resident population",
+   "domain": "Hapori",
+   "topic": "Population",
+   "direction": "neutral",
+   "headline": true,
+   "format": "int",
+   "caveat": "Estimated at 30 June. Rebased after each census (2023 rebase)."
+  },
+  "bds_geographic_units": {
+   "name": "Business locations (geographic units)",
+   "domain": "Ōhanga",
+   "topic": "Business",
+   "direction": "up",
+   "headline": true,
+   "format": "int",
+   "caveat": "Business Demography Statistics, February reference month. Counts randomly rounded."
+  },
+  "bds_employee_count": {
+   "name": "Employees in business locations",
+   "domain": "Ōhanga",
+   "topic": "Business",
+   "direction": "up",
+   "headline": false,
+   "format": "int",
+   "caveat": "Employee count at February. Counts randomly rounded."
+  },
+  "msd_main_benefits_total": {
+   "name": "Working-age people on a main benefit",
+   "domain": "Ōhanga",
+   "topic": "Income support",
+   "direction": "down",
+   "headline": true,
+   "format": "int",
+   "caveat": "Working-age (18–64) recipients at the end of each quarter. Counts randomly rounded to base 3."
+  },
+  "msd_jobseeker": {
+   "name": "Jobseeker Support recipients",
+   "domain": "Ōhanga",
+   "topic": "Income support",
+   "direction": "down",
+   "headline": true,
+   "format": "int",
+   "caveat": "Best Tairāwhiti-only labour-market signal: the HLFS unemployment rate is only published for Gisborne/Hawke's Bay combined."
+  },
+  "msd_sole_parent": {
+   "name": "Sole Parent Support recipients",
+   "domain": "Ōhanga",
+   "topic": "Income support",
+   "direction": "down",
+   "headline": false,
+   "format": "int"
+  },
+  "msd_supported_living": {
+   "name": "Supported Living Payment recipients",
+   "domain": "Ōhanga",
+   "topic": "Income support",
+   "direction": "neutral",
+   "headline": false,
+   "format": "int",
+   "caveat": "Includes carers and people with a health condition or disability; a rise is not necessarily negative."
+  },
+  "rent_geomean": {
+   "name": "Mean weekly rent, new bonds (geometric mean)",
+   "domain": "Hapori",
+   "topic": "Housing",
+   "direction": "down",
+   "headline": true,
+   "format": "currency",
+   "caveat": "Private-landlord bonds lodged in the month. Fixed random rounding; months with fewer than 5 bonds suppressed."
+  },
+  "rent_median": {
+   "name": "Median weekly rent, new bonds",
+   "domain": "Hapori",
+   "topic": "Housing",
+   "direction": "down",
+   "headline": false,
+   "format": "currency"
+  },
+  "bonds_active": {
+   "name": "Active rental bonds",
+   "domain": "Hapori",
+   "topic": "Housing",
+   "direction": "neutral",
+   "headline": false,
+   "format": "int"
+  },
+  "bonds_lodged": {
+   "name": "New rental bonds lodged",
+   "domain": "Hapori",
+   "topic": "Housing",
+   "direction": "neutral",
+   "headline": false,
+   "format": "int"
+  },
+  "hud_register_applicants": {
+   "name": "Social housing register applicants",
+   "domain": "Hapori",
+   "topic": "Housing",
+   "direction": "down",
+   "headline": true,
+   "format": "int",
+   "caveat": "Housing Register plus Transfer Register, at month end."
+  },
+  "hud_housing_register": {
+   "name": "Housing Register (new applicants waiting)",
+   "domain": "Hapori",
+   "topic": "Housing",
+   "direction": "down",
+   "headline": false,
+   "format": "int"
+  },
+  "hud_transfer_register": {
+   "name": "Transfer Register (tenants seeking a move)",
+   "domain": "Hapori",
+   "topic": "Housing",
+   "direction": "neutral",
+   "headline": false,
+   "format": "int"
+  },
+  "hud_social_housing_stock": {
+   "name": "Social housing places",
+   "domain": "Hapori",
+   "topic": "Housing",
+   "direction": "up",
+   "headline": true,
+   "format": "int"
+  },
+  "hud_social_housing_kainga_ora": {
+   "name": "Social housing places – Kāinga Ora",
+   "domain": "Hapori",
+   "topic": "Housing",
+   "direction": "up",
+   "headline": false,
+   "format": "int"
+  },
+  "hud_social_housing_chp": {
+   "name": "Social housing places – community housing providers",
+   "domain": "Hapori",
+   "topic": "Housing",
+   "direction": "up",
+   "headline": false,
+   "format": "int"
+  },
+  "hud_transitional_places": {
+   "name": "Transitional housing places (contracted)",
+   "domain": "Hapori",
+   "topic": "Housing",
+   "direction": "neutral",
+   "headline": false,
+   "format": "int"
+  },
+  "hud_eh_grants": {
+   "name": "Emergency housing grants approved",
+   "domain": "Hapori",
+   "topic": "Housing",
+   "direction": "down",
+   "headline": false,
+   "format": "int",
+   "caveat": "Emergency Housing Special Needs Grants. Monthly counts are small and volatile."
+  },
+  "hud_eh_clients": {
+   "name": "Households receiving emergency housing grants",
+   "domain": "Hapori",
+   "topic": "Housing",
+   "direction": "down",
+   "headline": false,
+   "format": "int"
+  },
+  "hud_eh_amount": {
+   "name": "Emergency housing grants – amount granted",
+   "domain": "Hapori",
+   "topic": "Housing",
+   "direction": "down",
+   "headline": false,
+   "format": "currency"
+  },
+  "imms_6m": {
+   "name": "Children fully immunised at 6 months",
+   "domain": "Hapori",
+   "topic": "Health",
+   "direction": "up",
+   "headline": true,
+   "format": "pct",
+   "caveat": "Rolling 12-month coverage by district of residence. National target is 95%."
+  },
+  "imms_12m": {
+   "name": "Children fully immunised at 12 months",
+   "domain": "Hapori",
+   "topic": "Health",
+   "direction": "up",
+   "headline": false,
+   "format": "pct"
+  },
+  "imms_24m": {
+   "name": "Children fully immunised at 24 months",
+   "domain": "Hapori",
+   "topic": "Health",
+   "direction": "up",
+   "headline": true,
+   "format": "pct",
+   "caveat": "Rolling 12-month coverage by district of residence. Health target: 95% by 24 months."
+  },
+  "imms_5y": {
+   "name": "Children fully immunised at 5 years",
+   "domain": "Hapori",
+   "topic": "Health",
+   "direction": "up",
+   "headline": false,
+   "format": "pct"
+  },
+  "cas_dsi": {
+   "name": "Road deaths and serious injuries",
+   "domain": "Hapori",
+   "topic": "Safety",
+   "direction": "down",
+   "headline": true,
+   "format": "int",
+   "caveat": "Calendar year. CAS is live: recent years may still change. Current year is year-to-date."
+  },
+  "cas_deaths": {
+   "name": "Road deaths",
+   "domain": "Hapori",
+   "topic": "Safety",
+   "direction": "down",
+   "headline": false,
+   "format": "int",
+   "caveat": "Small annual numbers; read multi-year trends, not single years."
+  },
+  "cas_fatal_serious_crashes": {
+   "name": "Fatal and serious-injury crashes",
+   "domain": "Hapori",
+   "topic": "Safety",
+   "direction": "down",
+   "headline": false,
+   "format": "int"
+  },
+  "cas_injury_crashes": {
+   "name": "Injury crashes (all severities)",
+   "domain": "Hapori",
+   "topic": "Safety",
+   "direction": "down",
+   "headline": false,
+   "format": "int"
+  }
+ },
+ "sources": {
+  "statsnz_ade": {
+   "name": "Stats NZ – Aotearoa Data Explorer",
+   "url": "https://explore.data.stats.govt.nz/",
+   "attribution": "Source: Stats NZ, licensed under CC BY 4.0",
+   "cadence": "annual"
+  },
+  "msd_benefits": {
+   "name": "Ministry of Social Development – Benefit Fact Sheets",
+   "url": "https://www.msd.govt.nz/about-msd-and-our-work/publications-resources/statistics/benefit/index.html",
+   "attribution": "Source: Ministry of Social Development, licensed under CC BY 4.0",
+   "cadence": "quarterly"
+  },
+  "hud_housing": {
+   "name": "Te Tūāpapa Kura Kāinga HUD – Government Housing Dashboard",
+   "url": "https://www.hud.govt.nz/stats-and-insights/the-government-housing-dashboard/",
+   "attribution": "Source: Ministry of Housing and Urban Development, licensed under CC BY 4.0",
+   "cadence": "monthly"
+  },
+  "healthnz_immunisation": {
+   "name": "Health New Zealand | Te Whatu Ora – Immunisation coverage",
+   "url": "https://www.healthnz.govt.nz/about-us/health-data/data-sets-and-collections/immunisation-data-and-statistics/immunisation-coverage",
+   "attribution": "Source: Health New Zealand | Te Whatu Ora, licensed under CC BY 4.0",
+   "cadence": "quarterly"
+  },
+  "nzta_cas": {
+   "name": "NZ Transport Agency Waka Kotahi – Crash Analysis System",
+   "url": "https://opendata-nzta.opendata.arcgis.com/datasets/NZTA::crash-analysis-system-cas-data-1/about",
+   "attribution": "Source: NZ Transport Agency Waka Kotahi, licensed under CC BY 4.0",
+   "cadence": "monthly"
+  },
+  "mbie_bonds": {
+   "name": "MBIE Tenancy Services – Rental bond data",
+   "url": "https://www.mbie.govt.nz/building-and-energy/tenancy-and-housing/rental-bond-data/",
+   "attribution": "Source: MBIE Tenancy Services, licensed under CC BY 3.0 NZ",
+   "cadence": "monthly"
+  }
+ },
+ "series": [
+  {
+   "indicator": "imms_12m",
+   "geo": "NZ",
+   "geo_name": "Aotearoa New Zealand",
+   "ethnicity": "Māori",
+   "source": "healthnz_immunisation",
+   "period_type": "rolling_12m",
+   "unit": "%",
+   "points": [
+    [
+     "2023-09-30",
+     76.8,
+     null
+    ],
+    [
+     "2023-12-31",
+     76.3,
+     null
+    ],
+    [
+     "2024-03-31",
+     74.6,
+     null
+    ],
+    [
+     "2024-06-30",
+     73.3,
+     null
+    ],
+    [
+     "2024-09-30",
+     72.5,
+     null
+    ],
+    [
+     "2024-12-31",
+     72.2,
+     null
+    ],
+    [
+     "2025-03-31",
+     72.3,
+     null
+    ],
+    [
+     "2025-06-30",
+     72.3,
+     null
+    ],
+    [
+     "2025-09-30",
+     72.4,
+     null
+    ],
+    [
+     "2025-12-31",
+     72.8,
+     null
+    ],
+    [
+     "2026-03-31",
+     72.9,
+     null
+    ],
+    [
+     "2026-06-30",
+     73.3,
+     null
+    ]
+   ]
+  },
+  {
+   "indicator": "imms_12m",
+   "geo": "NZ",
+   "geo_name": "Aotearoa New Zealand",
+   "ethnicity": "Total",
+   "source": "healthnz_immunisation",
+   "period_type": "rolling_12m",
+   "unit": "%",
+   "points": [
+    [
+     "2023-09-30",
+     87.8,
+     null
+    ],
+    [
+     "2023-12-31",
+     87.2,
+     null
+    ],
+    [
+     "2024-03-31",
+     84.2,
+     null
+    ],
+    [
+     "2024-06-30",
+     83.4,
+     null
+    ],
+    [
+     "2024-09-30",
+     82.7,
+     null
+    ],
+    [
+     "2024-12-31",
+     83.2,
+     null
+    ],
+    [
+     "2025-03-31",
+     83.9,
+     null
+    ],
+    [
+     "2025-06-30",
+     84.2,
+     null
+    ],
+    [
+     "2025-09-30",
+     84.6,
+     null
+    ],
+    [
+     "2025-12-31",
+     84.8,
+     null
+    ],
+    [
+     "2026-03-31",
+     84.8,
+     null
+    ],
+    [
+     "2026-06-30",
+     85.2,
+     null
+    ]
+   ]
+  },
+  {
+   "indicator": "imms_12m",
+   "geo": "TRW",
+   "geo_name": "Tairāwhiti district",
+   "ethnicity": "Māori",
+   "source": "healthnz_immunisation",
+   "period_type": "rolling_12m",
+   "unit": "%",
+   "points": [
+    [
+     "2023-09-30",
+     79.7,
+     null
+    ],
+    [
+     "2023-12-31",
+     75.9,
+     null
+    ],
+    [
+     "2024-03-31",
+     73.5,
+     null
+    ],
+    [
+     "2024-06-30",
+     70.5,
+     null
+    ],
+    [
+     "2024-09-30",
+     68.8,
+     null
+    ],
+    [
+     "2024-12-31",
+     64.7,
+     null
+    ],
+    [
+     "2025-03-31",
+     62.7,
+     null
+    ],
+    [
+     "2025-06-30",
+     64.2,
+     null
+    ],
+    [
+     "2025-09-30",
+     64.1,
+     null
+    ],
+    [
+     "2025-12-31",
+     66.4,
+     null
+    ],
+    [
+     "2026-03-31",
+     66.9,
+     null
+    ],
+    [
+     "2026-06-30",
+     68.5,
+     null
+    ]
+   ]
+  },
+  {
+   "indicator": "imms_12m",
+   "geo": "TRW",
+   "geo_name": "Tairāwhiti district",
+   "ethnicity": "Total",
+   "source": "healthnz_immunisation",
+   "period_type": "rolling_12m",
+   "unit": "%",
+   "points": [
+    [
+     "2023-09-30",
+     83.7,
+     null
+    ],
+    [
+     "2023-12-31",
+     80.5,
+     null
+    ],
+    [
+     "2024-03-31",
+     77.5,
+     null
+    ],
+    [
+     "2024-06-30",
+     75.3,
+     null
+    ],
+    [
+     "2024-09-30",
+     74.6,
+     null
+    ],
+    [
+     "2024-12-31",
+     72.6,
+     null
+    ],
+    [
+     "2025-03-31",
+     71.3,
+     null
+    ],
+    [
+     "2025-06-30",
+     72.0,
+     null
+    ],
+    [
+     "2025-09-30",
+     71.8,
+     null
+    ],
+    [
+     "2025-12-31",
+     73.6,
+     null
+    ],
+    [
+     "2026-03-31",
+     73.4,
+     null
+    ],
+    [
+     "2026-06-30",
+     75.0,
+     null
+    ]
+   ]
+  },
+  {
+   "indicator": "imms_24m",
+   "geo": "NZ",
+   "geo_name": "Aotearoa New Zealand",
+   "ethnicity": "Māori",
+   "source": "healthnz_immunisation",
+   "period_type": "rolling_12m",
+   "unit": "%",
+   "points": [
+    [
+     "2023-09-30",
+     69.0,
+     null
+    ],
+    [
+     "2023-12-31",
+     66.4,
+     null
+    ],
+    [
+     "2024-03-31",
+     65.3,
+     null
+    ],
+    [
+     "2024-06-30",
+     64.9,
+     null
+    ],
+    [
+     "2024-09-30",
+     63.5,
+     null
+    ],
+    [
+     "2024-12-31",
+     63.6,
+     null
+    ],
+    [
+     "2025-03-31",
+     63.5,
+     null
+    ],
+    [
+     "2025-06-30",
+     64.6,
+     null
+    ],
+    [
+     "2025-09-30",
+     66.2,
+     null
+    ],
+    [
+     "2025-12-31",
+     67.2,
+     null
+    ],
+    [
+     "2026-03-31",
+     68.9,
+     null
+    ],
+    [
+     "2026-06-30",
+     69.8,
+     null
+    ]
+   ]
+  },
+  {
+   "indicator": "imms_24m",
+   "geo": "NZ",
+   "geo_name": "Aotearoa New Zealand",
+   "ethnicity": "Total",
+   "source": "healthnz_immunisation",
+   "period_type": "rolling_12m",
+   "unit": "%",
+   "points": [
+    [
+     "2023-09-30",
+     82.5,
+     null
+    ],
+    [
+     "2023-12-31",
+     81.1,
+     null
+    ],
+    [
+     "2024-03-31",
+     77.9,
+     null
+    ],
+    [
+     "2024-06-30",
+     77.3,
+     null
+    ],
+    [
+     "2024-09-30",
+     76.3,
+     null
+    ],
+    [
+     "2024-12-31",
+     76.4,
+     null
+    ],
+    [
+     "2025-03-31",
+     77.0,
+     null
+    ],
+    [
+     "2025-06-30",
+     78.1,
+     null
+    ],
+    [
+     "2025-09-30",
+     79.7,
+     null
+    ],
+    [
+     "2025-12-31",
+     80.9,
+     null
+    ],
+    [
+     "2026-03-31",
+     82.0,
+     null
+    ],
+    [
+     "2026-06-30",
+     83.1,
+     null
+    ]
+   ]
+  },
+  {
+   "indicator": "imms_24m",
+   "geo": "TRW",
+   "geo_name": "Tairāwhiti district",
+   "ethnicity": "Māori",
+   "source": "healthnz_immunisation",
+   "period_type": "rolling_12m",
+   "unit": "%",
+   "points": [
+    [
+     "2023-09-30",
+     66.0,
+     null
+    ],
+    [
+     "2023-12-31",
+     62.4,
+     null
+    ],
+    [
+     "2024-03-31",
+     58.8,
+     null
+    ],
+    [
+     "2024-06-30",
+     57.7,
+     null
+    ],
+    [
+     "2024-09-30",
+     55.4,
+     null
+    ],
+    [
+     "2024-12-31",
+     56.3,
+     null
+    ],
+    [
+     "2025-03-31",
+     57.4,
+     null
+    ],
+    [
+     "2025-06-30",
+     60.0,
+     null
+    ],
+    [
+     "2025-09-30",
+     64.6,
+     null
+    ],
+    [
+     "2025-12-31",
+     62.3,
+     null
+    ],
+    [
+     "2026-03-31",
+     64.5,
+     null
+    ],
+    [
+     "2026-06-30",
+     62.6,
+     null
+    ]
+   ]
+  },
+  {
+   "indicator": "imms_24m",
+   "geo": "TRW",
+   "geo_name": "Tairāwhiti district",
+   "ethnicity": "Total",
+   "source": "healthnz_immunisation",
+   "period_type": "rolling_12m",
+   "unit": "%",
+   "points": [
+    [
+     "2023-09-30",
+     71.5,
+     null
+    ],
+    [
+     "2023-12-31",
+     69.1,
+     null
+    ],
+    [
+     "2024-03-31",
+     65.8,
+     null
+    ],
+    [
+     "2024-06-30",
+     64.7,
+     null
+    ],
+    [
+     "2024-09-30",
+     63.0,
+     null
+    ],
+    [
+     "2024-12-31",
+     63.6,
+     null
+    ],
+    [
+     "2025-03-31",
+     64.8,
+     null
+    ],
+    [
+     "2025-06-30",
+     67.5,
+     null
+    ],
+    [
+     "2025-09-30",
+     70.4,
+     null
+    ],
+    [
+     "2025-12-31",
+     69.6,
+     null
+    ],
+    [
+     "2026-03-31",
+     70.7,
+     null
+    ],
+    [
+     "2026-06-30",
+     69.1,
+     null
+    ]
+   ]
+  },
+  {
+   "indicator": "imms_5y",
+   "geo": "NZ",
+   "geo_name": "Aotearoa New Zealand",
+   "ethnicity": "Māori",
+   "source": "healthnz_immunisation",
+   "period_type": "rolling_12m",
+   "unit": "%",
+   "points": [
+    [
+     "2023-09-30",
+     70.2,
+     null
+    ],
+    [
+     "2023-12-31",
+     68.7,
+     null
+    ],
+    [
+     "2024-03-31",
+     67.6,
+     null
+    ],
+    [
+     "2024-06-30",
+     66.7,
+     null
+    ],
+    [
+     "2024-09-30",
+     66.0,
+     null
+    ],
+    [
+     "2024-12-31",
+     64.9,
+     null
+    ],
+    [
+     "2025-03-31",
+     64.2,
+     null
+    ],
+    [
+     "2025-06-30",
+     63.8,
+     null
+    ],
+    [
+     "2025-09-30",
+     63.6,
+     null
+    ],
+    [
+     "2025-12-31",
+     63.3,
+     null
+    ],
+    [
+     "2026-03-31",
+     63.4,
+     null
+    ],
+    [
+     "2026-06-30",
+     64.2,
+     null
+    ]
+   ]
+  },
+  {
+   "indicator": "imms_5y",
+   "geo": "NZ",
+   "geo_name": "Aotearoa New Zealand",
+   "ethnicity": "Total",
+   "source": "healthnz_immunisation",
+   "period_type": "rolling_12m",
+   "unit": "%",
+   "points": [
+    [
+     "2023-09-30",
+     80.5,
+     null
+    ],
+    [
+     "2023-12-31",
+     78.5,
+     null
+    ],
+    [
+     "2024-03-31",
+     74.0,
+     null
+    ],
+    [
+     "2024-06-30",
+     73.5,
+     null
+    ],
+    [
+     "2024-09-30",
+     72.3,
+     null
+    ],
+    [
+     "2024-12-31",
+     71.5,
+     null
+    ],
+    [
+     "2025-03-31",
+     71.1,
+     null
+    ],
+    [
+     "2025-06-30",
+     70.9,
+     null
+    ],
+    [
+     "2025-09-30",
+     71.2,
+     null
+    ],
+    [
+     "2025-12-31",
+     71.2,
+     null
+    ],
+    [
+     "2026-03-31",
+     72.0,
+     null
+    ],
+    [
+     "2026-06-30",
+     73.4,
+     null
+    ]
+   ]
+  },
+  {
+   "indicator": "imms_5y",
+   "geo": "TRW",
+   "geo_name": "Tairāwhiti district",
+   "ethnicity": "Māori",
+   "source": "healthnz_immunisation",
+   "period_type": "rolling_12m",
+   "unit": "%",
+   "points": [
+    [
+     "2023-09-30",
+     66.8,
+     null
+    ],
+    [
+     "2023-12-31",
+     66.2,
+     null
+    ],
+    [
+     "2024-03-31",
+     67.2,
+     null
+    ],
+    [
+     "2024-06-30",
+     64.5,
+     null
+    ],
+    [
+     "2024-09-30",
+     64.2,
+     null
+    ],
+    [
+     "2024-12-31",
+     61.9,
+     null
+    ],
+    [
+     "2025-03-31",
+     59.7,
+     null
+    ],
+    [
+     "2025-06-30",
+     62.3,
+     null
+    ],
+    [
+     "2025-09-30",
+     63.7,
+     null
+    ],
+    [
+     "2025-12-31",
+     62.2,
+     null
+    ],
+    [
+     "2026-03-31",
+     62.7,
+     null
+    ],
+    [
+     "2026-06-30",
+     61.4,
+     null
+    ]
+   ]
+  },
+  {
+   "indicator": "imms_5y",
+   "geo": "TRW",
+   "geo_name": "Tairāwhiti district",
+   "ethnicity": "Total",
+   "source": "healthnz_immunisation",
+   "period_type": "rolling_12m",
+   "unit": "%",
+   "points": [
+    [
+     "2023-09-30",
+     73.7,
+     null
+    ],
+    [
+     "2023-12-31",
+     71.6,
+     null
+    ],
+    [
+     "2024-03-31",
+     69.4,
+     null
+    ],
+    [
+     "2024-06-30",
+     66.4,
+     null
+    ],
+    [
+     "2024-09-30",
+     65.8,
+     null
+    ],
+    [
+     "2024-12-31",
+     65.0,
+     null
+    ],
+    [
+     "2025-03-31",
+     64.9,
+     null
+    ],
+    [
+     "2025-06-30",
+     66.5,
+     null
+    ],
+    [
+     "2025-09-30",
+     68.1,
+     null
+    ],
+    [
+     "2025-12-31",
+     66.6,
+     null
+    ],
+    [
+     "2026-03-31",
+     67.0,
+     null
+    ],
+    [
+     "2026-06-30",
+     67.8,
+     null
+    ]
+   ]
+  },
+  {
+   "indicator": "imms_6m",
+   "geo": "NZ",
+   "geo_name": "Aotearoa New Zealand",
+   "ethnicity": "Māori",
+   "source": "healthnz_immunisation",
+   "period_type": "rolling_12m",
+   "unit": "%",
+   "points": [
+    [
+     "2023-09-30",
+     48.2,
+     null
+    ],
+    [
+     "2023-12-31",
+     46.9,
+     null
+    ],
+    [
+     "2024-03-31",
+     45.7,
+     null
+    ],
+    [
+     "2024-06-30",
+     45.1,
+     null
+    ],
+    [
+     "2024-09-30",
+     45.1,
+     null
+    ],
+    [
+     "2024-12-31",
+     46.4,
+     null
+    ],
+    [
+     "2025-03-31",
+     47.2,
+     null
+    ],
+    [
+     "2025-06-30",
+     47.8,
+     null
+    ],
+    [
+     "2025-09-30",
+     48.6,
+     null
+    ],
+    [
+     "2025-12-31",
+     48.8,
+     null
+    ],
+    [
+     "2026-03-31",
+     49.0,
+     null
+    ],
+    [
+     "2026-06-30",
+     49.0,
+     null
+    ]
+   ]
+  },
+  {
+   "indicator": "imms_6m",
+   "geo": "NZ",
+   "geo_name": "Aotearoa New Zealand",
+   "ethnicity": "Total",
+   "source": "healthnz_immunisation",
+   "period_type": "rolling_12m",
+   "unit": "%",
+   "points": [
+    [
+     "2023-09-30",
+     68.4,
+     null
+    ],
+    [
+     "2023-12-31",
+     67.2,
+     null
+    ],
+    [
+     "2024-03-31",
+     64.3,
+     null
+    ],
+    [
+     "2024-06-30",
+     64.1,
+     null
+    ],
+    [
+     "2024-09-30",
+     64.3,
+     null
+    ],
+    [
+     "2024-12-31",
+     65.3,
+     null
+    ],
+    [
+     "2025-03-31",
+     66.7,
+     null
+    ],
+    [
+     "2025-06-30",
+     67.3,
+     null
+    ],
+    [
+     "2025-09-30",
+     67.9,
+     null
+    ],
+    [
+     "2025-12-31",
+     67.9,
+     null
+    ],
+    [
+     "2026-03-31",
+     67.9,
+     null
+    ],
+    [
+     "2026-06-30",
+     68.3,
+     null
+    ]
+   ]
+  },
+  {
+   "indicator": "imms_6m",
+   "geo": "TRW",
+   "geo_name": "Tairāwhiti district",
+   "ethnicity": "Māori",
+   "source": "healthnz_immunisation",
+   "period_type": "rolling_12m",
+   "unit": "%",
+   "points": [
+    [
+     "2023-09-30",
+     42.8,
+     null
+    ],
+    [
+     "2023-12-31",
+     39.0,
+     null
+    ],
+    [
+     "2024-03-31",
+     37.8,
+     null
+    ],
+    [
+     "2024-06-30",
+     34.0,
+     null
+    ],
+    [
+     "2024-09-30",
+     34.2,
+     null
+    ],
+    [
+     "2024-12-31",
+     33.7,
+     null
+    ],
+    [
+     "2025-03-31",
+     35.3,
+     null
+    ],
+    [
+     "2025-06-30",
+     36.8,
+     null
+    ],
+    [
+     "2025-09-30",
+     36.6,
+     null
+    ],
+    [
+     "2025-12-31",
+     35.5,
+     null
+    ],
+    [
+     "2026-03-31",
+     34.0,
+     null
+    ],
+    [
+     "2026-06-30",
+     33.9,
+     null
+    ]
+   ]
+  },
+  {
+   "indicator": "imms_6m",
+   "geo": "TRW",
+   "geo_name": "Tairāwhiti district",
+   "ethnicity": "Total",
+   "source": "healthnz_immunisation",
+   "period_type": "rolling_12m",
+   "unit": "%",
+   "points": [
+    [
+     "2023-09-30",
+     53.1,
+     null
+    ],
+    [
+     "2023-12-31",
+     49.7,
+     null
+    ],
+    [
+     "2024-03-31",
+     48.1,
+     null
+    ],
+    [
+     "2024-06-30",
+     46.4,
+     null
+    ],
+    [
+     "2024-09-30",
+     46.9,
+     null
+    ],
+    [
+     "2024-12-31",
+     45.4,
+     null
+    ],
+    [
+     "2025-03-31",
+     46.6,
+     null
+    ],
+    [
+     "2025-06-30",
+     47.9,
+     null
+    ],
+    [
+     "2025-09-30",
+     46.7,
+     null
+    ],
+    [
+     "2025-12-31",
+     46.7,
+     null
+    ],
+    [
+     "2026-03-31",
+     43.9,
+     null
+    ],
+    [
+     "2026-06-30",
+     42.7,
+     null
+    ]
+   ]
+  },
+  {
+   "indicator": "hud_eh_amount",
+   "geo": "028",
+   "geo_name": "Gisborne District",
+   "ethnicity": "Total",
+   "source": "hud_housing",
+   "period_type": "month",
+   "unit": "NZD",
+   "points": [
+    [
+     "2017-06-30",
+     null,
+     null
+    ],
+    [
+     "2017-09-30",
+     null,
+     null
+    ],
+    [
+     "2017-12-31",
+     null,
+     null
+    ],
+    [
+     "2018-03-31",
+     null,
+     null
+    ],
+    [
+     "2018-06-30",
+     null,
+     null
+    ],
+    [
+     "2018-09-30",
+     null,
+     null
+    ],
+    [
+     "2018-12-31",
+     206440.0,
+     null
+    ],
+    [
+     "2019-03-31",
+     395401.0,
+     null
+    ],
+    [
+     "2019-06-30",
+     null,
+     null
+    ],
+    [
+     "2019-09-30",
+     null,
+     null
+    ],
+    [
+     "2019-12-31",
+     1492761.0,
+     null
+    ],
+    [
+     "2020-03-31",
+     2192627.0,
+     null
+    ],
+    [
+     "2020-06-30",
+     3229695.0,
+     null
+    ],
+    [
+     "2020-09-30",
+     3373817.0,
+     null
+    ],
+    [
+     "2020-12-31",
+     2937133.0,
+     null
+    ],
+    [
+     "2021-03-31",
+     2629277.0,
+     null
+    ],
+    [
+     "2021-06-30",
+     2745411.0,
+     null
+    ],
+    [
+     "2021-09-30",
+     3336272.0,
+     null
+    ],
+    [
+     "2021-12-31",
+     3568398.0,
+     null
+    ],
+    [
+     "2022-03-31",
+     2931733.0,
+     null
+    ],
+    [
+     "2022-06-30",
+     3094034.0,
+     null
+    ],
+    [
+     "2022-09-30",
+     3017058.0,
+     null
+    ],
+    [
+     "2022-12-31",
+     3113123.0,
+     null
+    ],
+    [
+     "2023-03-31",
+     2634294.0,
+     null
+    ],
+    [
+     "2023-06-30",
+     2553225.0,
+     null
+    ],
+    [
+     "2023-09-30",
+     2673604.0,
+     null
+    ],
+    [
+     "2023-12-31",
+     2567066.0,
+     null
+    ],
+    [
+     "2024-03-31",
+     2429140.0,
+     null
+    ],
+    [
+     "2024-06-30",
+     1998641.0,
+     null
+    ],
+    [
+     "2024-09-30",
+     1588873.0,
+     null
+    ],
+    [
+     "2024-12-31",
+     1007480.0,
+     null
+    ],
+    [
+     "2025-03-31",
+     487710.0,
+     null
+    ],
+    [
+     "2025-06-30",
+     550400.0,
+     null
+    ],
+    [
+     "2025-09-30",
+     273160.0,
+     null
+    ],
+    [
+     "2025-12-31",
+     157760.0,
+     null
+    ],
+    [
+     "2026-03-31",
+     null,
+     null
+    ],
+    [
+     "2026-06-30",
+     140980.0,
+     null
+    ],
+    [
+     "2026-09-30",
+     66240.0,
+     null
+    ]
+   ]
+  },
+  {
+   "indicator": "hud_eh_clients",
+   "geo": "028",
+   "geo_name": "Gisborne District",
+   "ethnicity": "Total",
+   "source": "hud_housing",
+   "period_type": "month",
+   "unit": "households",
+   "points": [
+    [
+     "2017-06-30",
+     null,
+     null
+    ],
+    [
+     "2017-09-30",
+     null,
+     null
+    ],
+    [
+     "2017-12-31",
+     null,
+     null
+    ],
+    [
+     "2018-03-31",
+     null,
+     null
+    ],
+    [
+     "2018-06-30",
+     null,
+     null
+    ],
+    [
+     "2018-09-30",
+     null,
+     null
+    ],
+    [
+     "2018-12-31",
+     48.0,
+     null
+    ],
+    [
+     "2019-03-31",
+     56.0,
+     null
+    ],
+    [
+     "2019-06-30",
+     null,
+     null
+    ],
+    [
+     "2019-09-30",
+     null,
+     null
+    ],
+    [
+     "2019-12-31",
+     110.0,
+     null
+    ],
+    [
+     "2020-03-31",
+     164.0,
+     null
+    ],
+    [
+     "2020-06-30",
+     227.0,
+     null
+    ],
+    [
+     "2020-09-30",
+     223.0,
+     null
+    ],
+    [
+     "2020-12-31",
+     169.0,
+     null
+    ],
+    [
+     "2021-03-31",
+     159.0,
+     null
+    ],
+    [
+     "2021-06-30",
+     161.0,
+     null
+    ],
+    [
+     "2021-09-30",
+     176.0,
+     null
+    ],
+    [
+     "2021-12-31",
+     188.0,
+     null
+    ],
+    [
+     "2022-03-31",
+     160.0,
+     null
+    ],
+    [
+     "2022-06-30",
+     159.0,
+     null
+    ],
+    [
+     "2022-09-30",
+     163.0,
+     null
+    ],
+    [
+     "2022-12-31",
+     135.0,
+     null
+    ],
+    [
+     "2023-03-31",
+     142.0,
+     null
+    ],
+    [
+     "2023-06-30",
+     128.0,
+     null
+    ],
+    [
+     "2023-09-30",
+     138.0,
+     null
+    ],
+    [
+     "2023-12-31",
+     120.0,
+     null
+    ],
+    [
+     "2024-03-31",
+     121.0,
+     null
+    ],
+    [
+     "2024-06-30",
+     102.0,
+     null
+    ],
+    [
+     "2024-09-30",
+     80.0,
+     null
+    ],
+    [
+     "2024-12-31",
+     55.0,
+     null
+    ],
+    [
+     "2025-03-31",
+     41.0,
+     null
+    ],
+    [
+     "2025-06-30",
+     38.0,
+     null
+    ],
+    [
+     "2025-09-30",
+     38.0,
+     null
+    ],
+    [
+     "2025-12-31",
+     31.0,
+     null
+    ],
+    [
+     "2026-03-31",
+     19.0,
+     null
+    ],
+    [
+     "2026-06-30",
+     23.0,
+     null
+    ],
+    [
+     "2026-09-30",
+     28.0,
+     null
+    ]
+   ]
+  },
+  {
+   "indicator": "hud_eh_grants",
+   "geo": "028",
+   "geo_name": "Gisborne District",
+   "ethnicity": "Total",
+   "source": "hud_housing",
+   "period_type": "month",
+   "unit": "grants",
+   "points": [
+    [
+     "2017-06-30",
+     null,
+     null
+    ],
+    [
+     "2017-09-30",
+     null,
+     null
+    ],
+    [
+     "2017-12-31",
+     null,
+     null
+    ],
+    [
+     "2018-03-31",
+     null,
+     null
+    ],
+    [
+     "2018-06-30",
+     null,
+     null
+    ],
+    [
+     "2018-09-30",
+     null,
+     null
+    ],
+    [
+     "2018-12-31",
+     179.0,
+     null
+    ],
+    [
+     "2019-03-31",
+     237.0,
+     null
+    ],
+    [
+     "2019-06-30",
+     null,
+     null
+    ],
+    [
+     "2019-09-30",
+     null,
+     null
+    ],
+    [
+     "2019-12-31",
+     650.0,
+     null
+    ],
+    [
+     "2020-03-31",
+     1080.0,
+     null
+    ],
+    [
+     "2020-06-30",
+     883.0,
+     null
+    ],
+    [
+     "2020-09-30",
+     932.0,
+     null
+    ],
+    [
+     "2020-12-31",
+     883.0,
+     null
+    ],
+    [
+     "2021-03-31",
+     681.0,
+     null
+    ],
+    [
+     "2021-06-30",
+     719.0,
+     null
+    ],
+    [
+     "2021-09-30",
+     809.0,
+     null
+    ],
+    [
+     "2021-12-31",
+     827.0,
+     null
+    ],
+    [
+     "2022-03-31",
+     675.0,
+     null
+    ],
+    [
+     "2022-06-30",
+     746.0,
+     null
+    ],
+    [
+     "2022-09-30",
+     755.0,
+     null
+    ],
+    [
+     "2022-12-31",
+     667.0,
+     null
+    ],
+    [
+     "2023-03-31",
+     591.0,
+     null
+    ],
+    [
+     "2023-06-30",
+     584.0,
+     null
+    ],
+    [
+     "2023-09-30",
+     642.0,
+     null
+    ],
+    [
+     "2023-12-31",
+     553.0,
+     null
+    ],
+    [
+     "2024-03-31",
+     491.0,
+     null
+    ],
+    [
+     "2024-06-30",
+     402.0,
+     null
+    ],
+    [
+     "2024-09-30",
+     340.0,
+     null
+    ],
+    [
+     "2024-12-31",
+     223.0,
+     null
+    ],
+    [
+     "2025-03-31",
+     122.0,
+     null
+    ],
+    [
+     "2025-06-30",
+     133.0,
+     null
+    ],
+    [
+     "2025-09-30",
+     105.0,
+     null
+    ],
+    [
+     "2025-12-31",
+     70.0,
+     null
+    ],
+    [
+     "2026-03-31",
+     null,
+     null
+    ],
+    [
+     "2026-06-30",
+     57.0,
+     null
+    ],
+    [
+     "2026-09-30",
+     30.0,
+     null
+    ]
+   ]
+  },
+  {
+   "indicator": "hud_housing_register",
+   "geo": "028",
+   "geo_name": "Gisborne District",
+   "ethnicity": "Total",
+   "source": "hud_housing",
+   "period_type": "month",
+   "unit": "applicants",
+   "points": [
+    [
+     "2017-06-30",
+     97.0,
+     null
+    ],
+    [
+     "2017-07-31",
+     104.0,
+     null
+    ],
+    [
+     "2017-08-31",
+     113.0,
+     null
+    ],
+    [
+     "2017-09-30",
+     109.0,
+     null
+    ],
+    [
+     "2017-10-31",
+     99.0,
+     null
+    ],
+    [
+     "2017-11-30",
+     103.0,
+     null
+    ],
+    [
+     "2017-12-31",
+     108.0,
+     null
+    ],
+    [
+     "2018-01-31",
+     106.0,
+     null
+    ],
+    [
+     "2018-02-28",
+     113.0,
+     null
+    ],
+    [
+     "2018-03-31",
+     123.0,
+     null
+    ],
+    [
+     "2018-04-30",
+     130.0,
+     null
+    ],
+    [
+     "2018-05-31",
+     140.0,
+     null
+    ],
+    [
+     "2018-06-30",
+     146.0,
+     null
+    ],
+    [
+     "2018-07-31",
+     147.0,
+     null
+    ],
+    [
+     "2018-08-31",
+     154.0,
+     null
+    ],
+    [
+     "2018-09-30",
+     149.0,
+     null
+    ],
+    [
+     "2018-10-31",
+     170.0,
+     null
+    ],
+    [
+     "2018-11-30",
+     193.0,
+     null
+    ],
+    [
+     "2018-12-31",
+     215.0,
+     null
+    ],
+    [
+     "2019-01-31",
+     219.0,
+     null
+    ],
+    [
+     "2019-02-28",
+     223.0,
+     null
+    ],
+    [
+     "2019-03-31",
+     222.0,
+     null
+    ],
+    [
+     "2019-04-30",
+     221.0,
+     null
+    ],
+    [
+     "2019-05-31",
+     213.0,
+     null
+    ],
+    [
+     "2019-06-30",
+     235.0,
+     null
+    ],
+    [
+     "2019-07-31",
+     241.0,
+     null
+    ],
+    [
+     "2019-08-31",
+     263.0,
+     null
+    ],
+    [
+     "2019-09-30",
+     305.0,
+     null
+    ],
+    [
+     "2019-10-31",
+     339.0,
+     null
+    ],
+    [
+     "2019-11-30",
+     352.0,
+     null
+    ],
+    [
+     "2019-12-31",
+     376.0,
+     null
+    ],
+    [
+     "2020-01-31",
+     405.0,
+     null
+    ],
+    [
+     "2020-02-29",
+     417.0,
+     null
+    ],
+    [
+     "2020-03-31",
+     437.0,
+     null
+    ],
+    [
+     "2020-04-30",
+     435.0,
+     null
+    ],
+    [
+     "2020-05-31",
+     478.0,
+     null
+    ],
+    [
+     "2020-06-30",
+     484.0,
+     null
+    ],
+    [
+     "2020-07-31",
+     477.0,
+     null
+    ],
+    [
+     "2020-08-31",
+     487.0,
+     null
+    ],
+    [
+     "2020-09-30",
+     515.0,
+     null
+    ],
+    [
+     "2020-10-31",
+     547.0,
+     null
+    ],
+    [
+     "2020-11-30",
+     543.0,
+     null
+    ],
+    [
+     "2020-12-31",
+     555.0,
+     null
+    ],
+    [
+     "2021-01-31",
+     553.0,
+     null
+    ],
+    [
+     "2021-02-28",
+     568.0,
+     null
+    ],
+    [
+     "2021-03-31",
+     566.0,
+     null
+    ],
+    [
+     "2021-04-30",
+     568.0,
+     null
+    ],
+    [
+     "2021-05-31",
+     564.0,
+     null
+    ],
+    [
+     "2021-06-30",
+     559.0,
+     null
+    ],
+    [
+     "2021-07-31",
+     534.0,
+     null
+    ],
+    [
+     "2021-08-31",
+     558.0,
+     null
+    ],
+    [
+     "2021-09-30",
+     550.0,
+     null
+    ],
+    [
+     "2021-10-31",
+     558.0,
+     null
+    ],
+    [
+     "2021-11-30",
+     566.0,
+     null
+    ],
+    [
+     "2021-12-31",
+     586.0,
+     null
+    ],
+    [
+     "2022-01-31",
+     590.0,
+     null
+    ],
+    [
+     "2022-02-28",
+     601.0,
+     null
+    ],
+    [
+     "2022-03-31",
+     607.0,
+     null
+    ],
+    [
+     "2022-04-30",
+     600.0,
+     null
+    ],
+    [
+     "2022-05-31",
+     605.0,
+     null
+    ],
+    [
+     "2022-06-30",
+     605.0,
+     null
+    ],
+    [
+     "2022-07-31",
+     585.0,
+     null
+    ],
+    [
+     "2022-08-31",
+     577.0,
+     null
+    ],
+    [
+     "2022-09-30",
+     576.0,
+     null
+    ],
+    [
+     "2022-10-31",
+     550.0,
+     null
+    ],
+    [
+     "2022-11-30",
+     552.0,
+     null
+    ],
+    [
+     "2022-12-31",
+     568.0,
+     null
+    ],
+    [
+     "2023-01-31",
+     569.0,
+     null
+    ],
+    [
+     "2023-02-28",
+     586.0,
+     null
+    ],
+    [
+     "2023-03-31",
+     582.0,
+     null
+    ],
+    [
+     "2023-04-30",
+     597.0,
+     null
+    ],
+    [
+     "2023-05-31",
+     615.0,
+     null
+    ],
+    [
+     "2023-06-30",
+     607.0,
+     null
+    ],
+    [
+     "2023-07-31",
+     609.0,
+     null
+    ],
+    [
+     "2023-08-31",
+     602.0,
+     null
+    ],
+    [
+     "2023-09-30",
+     603.0,
+     null
+    ],
+    [
+     "2023-10-31",
+     627.0,
+     null
+    ],
+    [
+     "2023-11-30",
+     618.0,
+     null
+    ],
+    [
+     "2023-12-31",
+     623.0,
+     null
+    ],
+    [
+     "2024-01-31",
+     610.0,
+     null
+    ],
+    [
+     "2024-02-29",
+     619.0,
+     null
+    ],
+    [
+     "2024-03-31",
+     638.0,
+     null
+    ],
+    [
+     "2024-04-30",
+     583.0,
+     null
+    ],
+    [
+     "2024-05-31",
+     550.0,
+     null
+    ],
+    [
+     "2024-06-30",
+     533.0,
+     null
+    ],
+    [
+     "2024-07-31",
+     516.0,
+     null
+    ],
+    [
+     "2024-08-31",
+     510.0,
+     null
+    ],
+    [
+     "2024-09-30",
+     502.0,
+     null
+    ],
+    [
+     "2024-10-31",
+     488.0,
+     null
+    ],
+    [
+     "2024-11-30",
+     487.0,
+     null
+    ],
+    [
+     "2024-12-31",
+     494.0,
+     null
+    ],
+    [
+     "2025-01-31",
+     493.0,
+     null
+    ],
+    [
+     "2025-02-28",
+     472.0,
+     null
+    ],
+    [
+     "2025-03-31",
+     437.0,
+     null
+    ],
+    [
+     "2025-04-30",
+     434.0,
+     null
+    ],
+    [
+     "2025-05-31",
+     407.0,
+     null
+    ],
+    [
+     "2025-06-30",
+     402.0,
+     null
+    ],
+    [
+     "2025-07-31",
+     377.0,
+     null
+    ],
+    [
+     "2025-08-31",
+     377.0,
+     null
+    ],
+    [
+     "2025-09-30",
+     385.0,
+     null
+    ],
+    [
+     "2025-10-31",
+     378.0,
+     null
+    ],
+    [
+     "2025-11-30",
+     375.0,
+     null
+    ],
+    [
+     "2025-12-31",
+     393.0,
+     null
+    ],
+    [
+     "2026-01-31",
+     415.0,
+     null
+    ],
+    [
+     "2026-02-28",
+     424.0,
+     null
+    ],
+    [
+     "2026-03-31",
+     394.0,
+     null
+    ],
+    [
+     "2026-04-30",
+     404.0,
+     null
+    ],
+    [
+     "2026-05-31",
+     387.0,
+     null
+    ],
+    [
+     "2026-06-30",
+     390.0,
+     null
+    ],
+    [
+     "2026-07-31",
+     373.0,
+     null
+    ],
+    [
+     "2026-08-31",
+     374.0,
+     null
+    ],
+    [
+     "2026-09-30",
+     353.0,
+     null
+    ]
+   ]
+  },
+  {
+   "indicator": "hud_register_applicants",
+   "geo": "028",
+   "geo_name": "Gisborne District",
+   "ethnicity": "Total",
+   "source": "hud_housing",
+   "period_type": "month",
+   "unit": "applicants",
+   "points": [
+    [
+     "2017-06-30",
+     113.0,
+     null
+    ],
+    [
+     "2017-07-31",
+     121.0,
+     null
+    ],
+    [
+     "2017-08-31",
+     130.0,
+     null
+    ],
+    [
+     "2017-09-30",
+     124.0,
+     null
+    ],
+    [
+     "2017-10-31",
+     116.0,
+     null
+    ],
+    [
+     "2017-11-30",
+     120.0,
+     null
+    ],
+    [
+     "2017-12-31",
+     122.0,
+     null
+    ],
+    [
+     "2018-01-31",
+     122.0,
+     null
+    ],
+    [
+     "2018-02-28",
+     128.0,
+     null
+    ],
+    [
+     "2018-03-31",
+     139.0,
+     null
+    ],
+    [
+     "2018-04-30",
+     147.0,
+     null
+    ],
+    [
+     "2018-05-31",
+     158.0,
+     null
+    ],
+    [
+     "2018-06-30",
+     160.0,
+     null
+    ],
+    [
+     "2018-07-31",
+     164.0,
+     null
+    ],
+    [
+     "2018-08-31",
+     171.0,
+     null
+    ],
+    [
+     "2018-09-30",
+     165.0,
+     null
+    ],
+    [
+     "2018-10-31",
+     187.0,
+     null
+    ],
+    [
+     "2018-11-30",
+     212.0,
+     null
+    ],
+    [
+     "2018-12-31",
+     237.0,
+     null
+    ],
+    [
+     "2019-01-31",
+     245.0,
+     null
+    ],
+    [
+     "2019-02-28",
+     253.0,
+     null
+    ],
+    [
+     "2019-03-31",
+     252.0,
+     null
+    ],
+    [
+     "2019-04-30",
+     256.0,
+     null
+    ],
+    [
+     "2019-05-31",
+     250.0,
+     null
+    ],
+    [
+     "2019-06-30",
+     266.0,
+     null
+    ],
+    [
+     "2019-07-31",
+     278.0,
+     null
+    ],
+    [
+     "2019-08-31",
+     298.0,
+     null
+    ],
+    [
+     "2019-09-30",
+     347.0,
+     null
+    ],
+    [
+     "2019-10-31",
+     388.0,
+     null
+    ],
+    [
+     "2019-11-30",
+     403.0,
+     null
+    ],
+    [
+     "2019-12-31",
+     432.0,
+     null
+    ],
+    [
+     "2020-01-31",
+     462.0,
+     null
+    ],
+    [
+     "2020-02-29",
+     475.0,
+     null
+    ],
+    [
+     "2020-03-31",
+     494.0,
+     null
+    ],
+    [
+     "2020-04-30",
+     493.0,
+     null
+    ],
+    [
+     "2020-05-31",
+     538.0,
+     null
+    ],
+    [
+     "2020-06-30",
+     542.0,
+     null
+    ],
+    [
+     "2020-07-31",
+     535.0,
+     null
+    ],
+    [
+     "2020-08-31",
+     548.0,
+     null
+    ],
+    [
+     "2020-09-30",
+     582.0,
+     null
+    ],
+    [
+     "2020-10-31",
+     622.0,
+     null
+    ],
+    [
+     "2020-11-30",
+     621.0,
+     null
+    ],
+    [
+     "2020-12-31",
+     632.0,
+     null
+    ],
+    [
+     "2021-01-31",
+     628.0,
+     null
+    ],
+    [
+     "2021-02-28",
+     644.0,
+     null
+    ],
+    [
+     "2021-03-31",
+     641.0,
+     null
+    ],
+    [
+     "2021-04-30",
+     641.0,
+     null
+    ],
+    [
+     "2021-05-31",
+     643.0,
+     null
+    ],
+    [
+     "2021-06-30",
+     641.0,
+     null
+    ],
+    [
+     "2021-07-31",
+     614.0,
+     null
+    ],
+    [
+     "2021-08-31",
+     647.0,
+     null
+    ],
+    [
+     "2021-09-30",
+     641.0,
+     null
+    ],
+    [
+     "2021-10-31",
+     649.0,
+     null
+    ],
+    [
+     "2021-11-30",
+     659.0,
+     null
+    ],
+    [
+     "2021-12-31",
+     678.0,
+     null
+    ],
+    [
+     "2022-01-31",
+     681.0,
+     null
+    ],
+    [
+     "2022-02-28",
+     690.0,
+     null
+    ],
+    [
+     "2022-03-31",
+     701.0,
+     null
+    ],
+    [
+     "2022-04-30",
+     692.0,
+     null
+    ],
+    [
+     "2022-05-31",
+     705.0,
+     null
+    ],
+    [
+     "2022-06-30",
+     704.0,
+     null
+    ],
+    [
+     "2022-07-31",
+     687.0,
+     null
+    ],
+    [
+     "2022-08-31",
+     671.0,
+     null
+    ],
+    [
+     "2022-09-30",
+     669.0,
+     null
+    ],
+    [
+     "2022-10-31",
+     645.0,
+     null
+    ],
+    [
+     "2022-11-30",
+     648.0,
+     null
+    ],
+    [
+     "2022-12-31",
+     662.0,
+     null
+    ],
+    [
+     "2023-01-31",
+     664.0,
+     null
+    ],
+    [
+     "2023-02-28",
+     680.0,
+     null
+    ],
+    [
+     "2023-03-31",
+     682.0,
+     null
+    ],
+    [
+     "2023-04-30",
+     693.0,
+     null
+    ],
+    [
+     "2023-05-31",
+     706.0,
+     null
+    ],
+    [
+     "2023-06-30",
+     698.0,
+     null
+    ],
+    [
+     "2023-07-31",
+     700.0,
+     null
+    ],
+    [
+     "2023-08-31",
+     697.0,
+     null
+    ],
+    [
+     "2023-09-30",
+     700.0,
+     null
+    ],
+    [
+     "2023-10-31",
+     729.0,
+     null
+    ],
+    [
+     "2023-11-30",
+     720.0,
+     null
+    ],
+    [
+     "2023-12-31",
+     723.0,
+     null
+    ],
+    [
+     "2024-01-31",
+     715.0,
+     null
+    ],
+    [
+     "2024-02-29",
+     727.0,
+     null
+    ],
+    [
+     "2024-03-31",
+     749.0,
+     null
+    ],
+    [
+     "2024-04-30",
+     691.0,
+     null
+    ],
+    [
+     "2024-05-31",
+     657.0,
+     null
+    ],
+    [
+     "2024-06-30",
+     637.0,
+     null
+    ],
+    [
+     "2024-07-31",
+     612.0,
+     null
+    ],
+    [
+     "2024-08-31",
+     608.0,
+     null
+    ],
+    [
+     "2024-09-30",
+     602.0,
+     null
+    ],
+    [
+     "2024-10-31",
+     589.0,
+     null
+    ],
+    [
+     "2024-11-30",
+     592.0,
+     null
+    ],
+    [
+     "2024-12-31",
+     589.0,
+     null
+    ],
+    [
+     "2025-01-31",
+     588.0,
+     null
+    ],
+    [
+     "2025-02-28",
+     571.0,
+     null
+    ],
+    [
+     "2025-03-31",
+     532.0,
+     null
+    ],
+    [
+     "2025-04-30",
+     519.0,
+     null
+    ],
+    [
+     "2025-05-31",
+     493.0,
+     null
+    ],
+    [
+     "2025-06-30",
+     490.0,
+     null
+    ],
+    [
+     "2025-07-31",
+     473.0,
+     null
+    ],
+    [
+     "2025-08-31",
+     476.0,
+     null
+    ],
+    [
+     "2025-09-30",
+     489.0,
+     null
+    ],
+    [
+     "2025-10-31",
+     480.0,
+     null
+    ],
+    [
+     "2025-11-30",
+     479.0,
+     null
+    ],
+    [
+     "2025-12-31",
+     495.0,
+     null
+    ],
+    [
+     "2026-01-31",
+     523.0,
+     null
+    ],
+    [
+     "2026-02-28",
+     530.0,
+     null
+    ],
+    [
+     "2026-03-31",
+     506.0,
+     null
+    ],
+    [
+     "2026-04-30",
+     513.0,
+     null
+    ],
+    [
+     "2026-05-31",
+     496.0,
+     null
+    ],
+    [
+     "2026-06-30",
+     496.0,
+     null
+    ],
+    [
+     "2026-07-31",
+     482.0,
+     null
+    ],
+    [
+     "2026-08-31",
+     484.0,
+     null
+    ],
+    [
+     "2026-09-30",
+     459.0,
+     null
+    ]
+   ]
+  },
+  {
+   "indicator": "hud_social_housing_chp",
+   "geo": "028",
+   "geo_name": "Gisborne District",
+   "ethnicity": "Total",
+   "source": "hud_housing",
+   "period_type": "month",
+   "unit": "places",
+   "points": [
+    [
+     "2017-06-30",
+     5.0,
+     null
+    ],
+    [
+     "2017-07-31",
+     6.0,
+     null
+    ],
+    [
+     "2017-08-31",
+     6.0,
+     null
+    ],
+    [
+     "2017-09-30",
+     7.0,
+     null
+    ],
+    [
+     "2017-10-31",
+     7.0,
+     null
+    ],
+    [
+     "2017-11-30",
+     7.0,
+     null
+    ],
+    [
+     "2017-12-31",
+     9.0,
+     null
+    ],
+    [
+     "2018-01-31",
+     9.0,
+     null
+    ],
+    [
+     "2018-02-28",
+     9.0,
+     null
+    ],
+    [
+     "2018-03-31",
+     11.0,
+     null
+    ],
+    [
+     "2018-04-30",
+     12.0,
+     null
+    ],
+    [
+     "2018-05-31",
+     12.0,
+     null
+    ],
+    [
+     "2018-06-30",
+     13.0,
+     null
+    ],
+    [
+     "2018-07-31",
+     13.0,
+     null
+    ],
+    [
+     "2018-08-31",
+     17.0,
+     null
+    ],
+    [
+     "2018-09-30",
+     17.0,
+     null
+    ],
+    [
+     "2018-10-31",
+     19.0,
+     null
+    ],
+    [
+     "2018-11-30",
+     19.0,
+     null
+    ],
+    [
+     "2018-12-31",
+     21.0,
+     null
+    ],
+    [
+     "2019-01-31",
+     23.0,
+     null
+    ],
+    [
+     "2019-02-28",
+     23.0,
+     null
+    ],
+    [
+     "2019-03-31",
+     21.0,
+     null
+    ],
+    [
+     "2019-04-30",
+     22.0,
+     null
+    ],
+    [
+     "2019-05-31",
+     23.0,
+     null
+    ],
+    [
+     "2019-06-30",
+     24.0,
+     null
+    ],
+    [
+     "2019-07-31",
+     24.0,
+     null
+    ],
+    [
+     "2019-08-31",
+     23.0,
+     null
+    ],
+    [
+     "2019-09-30",
+     23.0,
+     null
+    ],
+    [
+     "2019-10-31",
+     25.0,
+     null
+    ],
+    [
+     "2019-11-30",
+     28.0,
+     null
+    ],
+    [
+     "2019-12-31",
+     29.0,
+     null
+    ],
+    [
+     "2020-01-31",
+     29.0,
+     null
+    ],
+    [
+     "2020-02-29",
+     28.0,
+     null
+    ],
+    [
+     "2020-03-31",
+     29.0,
+     null
+    ],
+    [
+     "2020-04-30",
+     29.0,
+     null
+    ],
+    [
+     "2020-05-31",
+     29.0,
+     null
+    ],
+    [
+     "2020-06-30",
+     28.0,
+     null
+    ],
+    [
+     "2020-07-31",
+     27.0,
+     null
+    ],
+    [
+     "2020-08-31",
+     28.0,
+     null
+    ],
+    [
+     "2020-09-30",
+     31.0,
+     null
+    ],
+    [
+     "2020-10-31",
+     31.0,
+     null
+    ],
+    [
+     "2020-11-30",
+     31.0,
+     null
+    ],
+    [
+     "2020-12-31",
+     32.0,
+     null
+    ],
+    [
+     "2021-01-31",
+     32.0,
+     null
+    ],
+    [
+     "2021-02-28",
+     32.0,
+     null
+    ],
+    [
+     "2021-03-31",
+     32.0,
+     null
+    ],
+    [
+     "2021-04-30",
+     33.0,
+     null
+    ],
+    [
+     "2021-05-31",
+     33.0,
+     null
+    ],
+    [
+     "2021-06-30",
+     33.0,
+     null
+    ],
+    [
+     "2021-07-31",
+     35.0,
+     null
+    ],
+    [
+     "2021-08-31",
+     35.0,
+     null
+    ],
+    [
+     "2021-09-30",
+     35.0,
+     null
+    ],
+    [
+     "2021-10-31",
+     35.0,
+     null
+    ],
+    [
+     "2021-11-30",
+     36.0,
+     null
+    ],
+    [
+     "2021-12-31",
+     36.0,
+     null
+    ],
+    [
+     "2022-01-31",
+     37.0,
+     null
+    ],
+    [
+     "2022-02-28",
+     37.0,
+     null
+    ],
+    [
+     "2022-03-31",
+     36.0,
+     null
+    ],
+    [
+     "2022-04-30",
+     37.0,
+     null
+    ],
+    [
+     "2022-05-31",
+     38.0,
+     null
+    ],
+    [
+     "2022-06-30",
+     38.0,
+     null
+    ],
+    [
+     "2022-07-31",
+     38.0,
+     null
+    ],
+    [
+     "2022-08-31",
+     37.0,
+     null
+    ],
+    [
+     "2022-09-30",
+     39.0,
+     null
+    ],
+    [
+     "2022-10-31",
+     40.0,
+     null
+    ],
+    [
+     "2022-11-30",
+     40.0,
+     null
+    ],
+    [
+     "2022-12-31",
+     40.0,
+     null
+    ],
+    [
+     "2023-01-31",
+     40.0,
+     null
+    ],
+    [
+     "2023-02-28",
+     40.0,
+     null
+    ],
+    [
+     "2023-03-31",
+     40.0,
+     null
+    ],
+    [
+     "2023-04-30",
+     41.0,
+     null
+    ],
+    [
+     "2023-05-31",
+     41.0,
+     null
+    ],
+    [
+     "2023-06-30",
+     43.0,
+     null
+    ],
+    [
+     "2023-07-31",
+     42.0,
+     null
+    ],
+    [
+     "2023-08-31",
+     42.0,
+     null
+    ],
+    [
+     "2023-09-30",
+     42.0,
+     null
+    ],
+    [
+     "2023-10-31",
+     42.0,
+     null
+    ],
+    [
+     "2023-11-30",
+     42.0,
+     null
+    ],
+    [
+     "2023-12-31",
+     43.0,
+     null
+    ],
+    [
+     "2024-01-31",
+     43.0,
+     null
+    ],
+    [
+     "2024-02-29",
+     43.0,
+     null
+    ],
+    [
+     "2024-03-31",
+     43.0,
+     null
+    ],
+    [
+     "2024-04-30",
+     42.0,
+     null
+    ],
+    [
+     "2024-05-31",
+     43.0,
+     null
+    ],
+    [
+     "2024-06-30",
+     44.0,
+     null
+    ],
+    [
+     "2024-07-31",
+     42.0,
+     null
+    ],
+    [
+     "2024-08-31",
+     42.0,
+     null
+    ],
+    [
+     "2024-09-30",
+     42.0,
+     null
+    ],
+    [
+     "2024-10-31",
+     41.0,
+     null
+    ],
+    [
+     "2024-11-30",
+     40.0,
+     null
+    ],
+    [
+     "2024-12-31",
+     40.0,
+     null
+    ],
+    [
+     "2025-01-31",
+     40.0,
+     null
+    ],
+    [
+     "2025-02-28",
+     39.0,
+     null
+    ],
+    [
+     "2025-03-31",
+     38.0,
+     null
+    ],
+    [
+     "2025-04-30",
+     37.0,
+     null
+    ],
+    [
+     "2025-05-31",
+     37.0,
+     null
+    ],
+    [
+     "2025-06-30",
+     37.0,
+     null
+    ],
+    [
+     "2025-07-31",
+     38.0,
+     null
+    ],
+    [
+     "2025-08-31",
+     38.0,
+     null
+    ],
+    [
+     "2025-09-30",
+     39.0,
+     null
+    ],
+    [
+     "2025-10-31",
+     36.0,
+     null
+    ],
+    [
+     "2025-11-30",
+     38.0,
+     null
+    ],
+    [
+     "2025-12-31",
+     38.0,
+     null
+    ],
+    [
+     "2026-01-31",
+     38.0,
+     null
+    ],
+    [
+     "2026-02-28",
+     38.0,
+     null
+    ],
+    [
+     "2026-03-31",
+     39.0,
+     null
+    ],
+    [
+     "2026-04-30",
+     39.0,
+     null
+    ],
+    [
+     "2026-05-31",
+     40.0,
+     null
+    ],
+    [
+     "2026-06-30",
+     40.0,
+     null
+    ],
+    [
+     "2026-07-31",
+     40.0,
+     null
+    ],
+    [
+     "2026-08-31",
+     42.0,
+     null
+    ],
+    [
+     "2026-09-30",
+     45.0,
+     null
+    ]
+   ]
+  },
+  {
+   "indicator": "hud_social_housing_kainga_ora",
+   "geo": "028",
+   "geo_name": "Gisborne District",
+   "ethnicity": "Total",
+   "source": "hud_housing",
+   "period_type": "month",
+   "unit": "places",
+   "points": [
+    [
+     "2017-06-30",
+     1262.0,
+     null
+    ],
+    [
+     "2017-07-31",
+     1262.0,
+     null
+    ],
+    [
+     "2017-08-31",
+     1261.0,
+     null
+    ],
+    [
+     "2017-09-30",
+     1260.0,
+     null
+    ],
+    [
+     "2017-10-31",
+     1260.0,
+     null
+    ],
+    [
+     "2017-11-30",
+     1258.0,
+     null
+    ],
+    [
+     "2017-12-31",
+     1258.0,
+     null
+    ],
+    [
+     "2018-01-31",
+     1258.0,
+     null
+    ],
+    [
+     "2018-02-28",
+     1258.0,
+     null
+    ],
+    [
+     "2018-03-31",
+     1258.0,
+     null
+    ],
+    [
+     "2018-04-30",
+     1257.0,
+     null
+    ],
+    [
+     "2018-05-31",
+     1255.0,
+     null
+    ],
+    [
+     "2018-06-30",
+     1254.0,
+     null
+    ],
+    [
+     "2018-07-31",
+     1254.0,
+     null
+    ],
+    [
+     "2018-08-31",
+     1255.0,
+     null
+    ],
+    [
+     "2018-09-30",
+     1255.0,
+     null
+    ],
+    [
+     "2018-10-31",
+     1255.0,
+     null
+    ],
+    [
+     "2018-11-30",
+     1255.0,
+     null
+    ],
+    [
+     "2018-12-31",
+     1255.0,
+     null
+    ],
+    [
+     "2019-01-31",
+     1254.0,
+     null
+    ],
+    [
+     "2019-02-28",
+     1255.0,
+     null
+    ],
+    [
+     "2019-03-31",
+     1251.0,
+     null
+    ],
+    [
+     "2019-04-30",
+     1251.0,
+     null
+    ],
+    [
+     "2019-05-31",
+     1249.0,
+     null
+    ],
+    [
+     "2019-06-30",
+     1249.0,
+     null
+    ],
+    [
+     "2019-07-31",
+     1249.0,
+     null
+    ],
+    [
+     "2019-08-31",
+     1249.0,
+     null
+    ],
+    [
+     "2019-09-30",
+     1249.0,
+     null
+    ],
+    [
+     "2019-10-31",
+     1253.0,
+     null
+    ],
+    [
+     "2019-11-30",
+     1255.0,
+     null
+    ],
+    [
+     "2019-12-31",
+     1257.0,
+     null
+    ],
+    [
+     "2020-01-31",
+     1257.0,
+     null
+    ],
+    [
+     "2020-02-29",
+     1257.0,
+     null
+    ],
+    [
+     "2020-03-31",
+     1257.0,
+     null
+    ],
+    [
+     "2020-04-30",
+     1257.0,
+     null
+    ],
+    [
+     "2020-05-31",
+     1257.0,
+     null
+    ],
+    [
+     "2020-06-30",
+     1257.0,
+     null
+    ],
+    [
+     "2020-07-31",
+     1256.0,
+     null
+    ],
+    [
+     "2020-08-31",
+     1255.0,
+     null
+    ],
+    [
+     "2020-09-30",
+     1257.0,
+     null
+    ],
+    [
+     "2020-10-31",
+     1252.0,
+     null
+    ],
+    [
+     "2020-11-30",
+     1254.0,
+     null
+    ],
+    [
+     "2020-12-31",
+     1257.0,
+     null
+    ],
+    [
+     "2021-01-31",
+     1257.0,
+     null
+    ],
+    [
+     "2021-02-28",
+     1257.0,
+     null
+    ],
+    [
+     "2021-03-31",
+     1256.0,
+     null
+    ],
+    [
+     "2021-04-30",
+     1257.0,
+     null
+    ],
+    [
+     "2021-05-31",
+     1259.0,
+     null
+    ],
+    [
+     "2021-06-30",
+     1259.0,
+     null
+    ],
+    [
+     "2021-07-31",
+     1258.0,
+     null
+    ],
+    [
+     "2021-08-31",
+     1259.0,
+     null
+    ],
+    [
+     "2021-09-30",
+     1260.0,
+     null
+    ],
+    [
+     "2021-10-31",
+     1262.0,
+     null
+    ],
+    [
+     "2021-11-30",
+     1262.0,
+     null
+    ],
+    [
+     "2021-12-31",
+     1264.0,
+     null
+    ],
+    [
+     "2022-01-31",
+     1265.0,
+     null
+    ],
+    [
+     "2022-02-28",
+     1265.0,
+     null
+    ],
+    [
+     "2022-03-31",
+     1265.0,
+     null
+    ],
+    [
+     "2022-04-30",
+     1267.0,
+     null
+    ],
+    [
+     "2022-05-31",
+     1274.0,
+     null
+    ],
+    [
+     "2022-06-30",
+     1278.0,
+     null
+    ],
+    [
+     "2022-07-31",
+     1281.0,
+     null
+    ],
+    [
+     "2022-08-31",
+     1281.0,
+     null
+    ],
+    [
+     "2022-09-30",
+     1280.0,
+     null
+    ],
+    [
+     "2022-10-31",
+     1281.0,
+     null
+    ],
+    [
+     "2022-11-30",
+     1281.0,
+     null
+    ],
+    [
+     "2022-12-31",
+     1285.0,
+     null
+    ],
+    [
+     "2023-01-31",
+     1286.0,
+     null
+    ],
+    [
+     "2023-02-28",
+     1288.0,
+     null
+    ],
+    [
+     "2023-03-31",
+     1284.0,
+     null
+    ],
+    [
+     "2023-04-30",
+     1283.0,
+     null
+    ],
+    [
+     "2023-05-31",
+     1297.0,
+     null
+    ],
+    [
+     "2023-06-30",
+     1306.0,
+     null
+    ],
+    [
+     "2023-07-31",
+     1307.0,
+     null
+    ],
+    [
+     "2023-08-31",
+     1309.0,
+     null
+    ],
+    [
+     "2023-09-30",
+     1309.0,
+     null
+    ],
+    [
+     "2023-10-31",
+     1309.0,
+     null
+    ],
+    [
+     "2023-11-30",
+     1309.0,
+     null
+    ],
+    [
+     "2023-12-31",
+     1309.0,
+     null
+    ],
+    [
+     "2024-01-31",
+     1312.0,
+     null
+    ],
+    [
+     "2024-02-29",
+     1314.0,
+     null
+    ],
+    [
+     "2024-03-31",
+     1345.0,
+     null
+    ],
+    [
+     "2024-04-30",
+     1345.0,
+     null
+    ],
+    [
+     "2024-05-31",
+     1347.0,
+     null
+    ],
+    [
+     "2024-06-30",
+     1372.0,
+     null
+    ],
+    [
+     "2024-07-31",
+     1371.0,
+     null
+    ],
+    [
+     "2024-08-31",
+     1368.0,
+     null
+    ],
+    [
+     "2024-09-30",
+     1366.0,
+     null
+    ],
+    [
+     "2024-10-31",
+     1366.0,
+     null
+    ],
+    [
+     "2024-11-30",
+     1366.0,
+     null
+    ],
+    [
+     "2024-12-31",
+     1369.0,
+     null
+    ],
+    [
+     "2025-01-31",
+     1368.0,
+     null
+    ],
+    [
+     "2025-02-28",
+     1372.0,
+     null
+    ],
+    [
+     "2025-03-31",
+     1378.0,
+     null
+    ],
+    [
+     "2025-04-30",
+     1378.0,
+     null
+    ],
+    [
+     "2025-05-31",
+     1389.0,
+     null
+    ],
+    [
+     "2025-06-30",
+     1400.0,
+     null
+    ],
+    [
+     "2025-07-31",
+     1395.0,
+     null
+    ],
+    [
+     "2025-08-31",
+     1401.0,
+     null
+    ],
+    [
+     "2025-09-30",
+     1409.0,
+     null
+    ],
+    [
+     "2025-10-31",
+     1424.0,
+     null
+    ],
+    [
+     "2025-11-30",
+     1427.0,
+     null
+    ],
+    [
+     "2025-12-31",
+     1427.0,
+     null
+    ],
+    [
+     "2026-01-31",
+     1427.0,
+     null
+    ],
+    [
+     "2026-02-28",
+     1427.0,
+     null
+    ],
+    [
+     "2026-03-31",
+     1426.0,
+     null
+    ],
+    [
+     "2026-04-30",
+     1424.0,
+     null
+    ],
+    [
+     "2026-05-31",
+     1435.0,
+     null
+    ],
+    [
+     "2026-06-30",
+     1452.0,
+     null
+    ],
+    [
+     "2026-07-31",
+     1452.0,
+     null
+    ],
+    [
+     "2026-08-31",
+     1450.0,
+     null
+    ],
+    [
+     "2026-09-30",
+     1460.0,
+     null
+    ]
+   ]
+  },
+  {
+   "indicator": "hud_social_housing_stock",
+   "geo": "028",
+   "geo_name": "Gisborne District",
+   "ethnicity": "Total",
+   "source": "hud_housing",
+   "period_type": "month",
+   "unit": "places",
+   "points": [
+    [
+     "2017-06-30",
+     1267.0,
+     null
+    ],
+    [
+     "2017-07-31",
+     1268.0,
+     null
+    ],
+    [
+     "2017-08-31",
+     1267.0,
+     null
+    ],
+    [
+     "2017-09-30",
+     1267.0,
+     null
+    ],
+    [
+     "2017-10-31",
+     1267.0,
+     null
+    ],
+    [
+     "2017-11-30",
+     1265.0,
+     null
+    ],
+    [
+     "2017-12-31",
+     1267.0,
+     null
+    ],
+    [
+     "2018-01-31",
+     1267.0,
+     null
+    ],
+    [
+     "2018-02-28",
+     1267.0,
+     null
+    ],
+    [
+     "2018-03-31",
+     1269.0,
+     null
+    ],
+    [
+     "2018-04-30",
+     1269.0,
+     null
+    ],
+    [
+     "2018-05-31",
+     1267.0,
+     null
+    ],
+    [
+     "2018-06-30",
+     1267.0,
+     null
+    ],
+    [
+     "2018-07-31",
+     1267.0,
+     null
+    ],
+    [
+     "2018-08-31",
+     1272.0,
+     null
+    ],
+    [
+     "2018-09-30",
+     1272.0,
+     null
+    ],
+    [
+     "2018-10-31",
+     1274.0,
+     null
+    ],
+    [
+     "2018-11-30",
+     1274.0,
+     null
+    ],
+    [
+     "2018-12-31",
+     1276.0,
+     null
+    ],
+    [
+     "2019-01-31",
+     1277.0,
+     null
+    ],
+    [
+     "2019-02-28",
+     1278.0,
+     null
+    ],
+    [
+     "2019-03-31",
+     1272.0,
+     null
+    ],
+    [
+     "2019-04-30",
+     1273.0,
+     null
+    ],
+    [
+     "2019-05-31",
+     1272.0,
+     null
+    ],
+    [
+     "2019-06-30",
+     1273.0,
+     null
+    ],
+    [
+     "2019-07-31",
+     1273.0,
+     null
+    ],
+    [
+     "2019-08-31",
+     1272.0,
+     null
+    ],
+    [
+     "2019-09-30",
+     1272.0,
+     null
+    ],
+    [
+     "2019-10-31",
+     1278.0,
+     null
+    ],
+    [
+     "2019-11-30",
+     1283.0,
+     null
+    ],
+    [
+     "2019-12-31",
+     1286.0,
+     null
+    ],
+    [
+     "2020-01-31",
+     1286.0,
+     null
+    ],
+    [
+     "2020-02-29",
+     1285.0,
+     null
+    ],
+    [
+     "2020-03-31",
+     1286.0,
+     null
+    ],
+    [
+     "2020-04-30",
+     1286.0,
+     null
+    ],
+    [
+     "2020-05-31",
+     1286.0,
+     null
+    ],
+    [
+     "2020-06-30",
+     1285.0,
+     null
+    ],
+    [
+     "2020-07-31",
+     1283.0,
+     null
+    ],
+    [
+     "2020-08-31",
+     1283.0,
+     null
+    ],
+    [
+     "2020-09-30",
+     1288.0,
+     null
+    ],
+    [
+     "2020-10-31",
+     1283.0,
+     null
+    ],
+    [
+     "2020-11-30",
+     1285.0,
+     null
+    ],
+    [
+     "2020-12-31",
+     1289.0,
+     null
+    ],
+    [
+     "2021-01-31",
+     1289.0,
+     null
+    ],
+    [
+     "2021-02-28",
+     1289.0,
+     null
+    ],
+    [
+     "2021-03-31",
+     1288.0,
+     null
+    ],
+    [
+     "2021-04-30",
+     1290.0,
+     null
+    ],
+    [
+     "2021-05-31",
+     1292.0,
+     null
+    ],
+    [
+     "2021-06-30",
+     1292.0,
+     null
+    ],
+    [
+     "2021-07-31",
+     1293.0,
+     null
+    ],
+    [
+     "2021-08-31",
+     1294.0,
+     null
+    ],
+    [
+     "2021-09-30",
+     1295.0,
+     null
+    ],
+    [
+     "2021-10-31",
+     1297.0,
+     null
+    ],
+    [
+     "2021-11-30",
+     1298.0,
+     null
+    ],
+    [
+     "2021-12-31",
+     1300.0,
+     null
+    ],
+    [
+     "2022-01-31",
+     1302.0,
+     null
+    ],
+    [
+     "2022-02-28",
+     1302.0,
+     null
+    ],
+    [
+     "2022-03-31",
+     1301.0,
+     null
+    ],
+    [
+     "2022-04-30",
+     1304.0,
+     null
+    ],
+    [
+     "2022-05-31",
+     1312.0,
+     null
+    ],
+    [
+     "2022-06-30",
+     1316.0,
+     null
+    ],
+    [
+     "2022-07-31",
+     1319.0,
+     null
+    ],
+    [
+     "2022-08-31",
+     1318.0,
+     null
+    ],
+    [
+     "2022-09-30",
+     1319.0,
+     null
+    ],
+    [
+     "2022-10-31",
+     1321.0,
+     null
+    ],
+    [
+     "2022-11-30",
+     1321.0,
+     null
+    ],
+    [
+     "2022-12-31",
+     1325.0,
+     null
+    ],
+    [
+     "2023-01-31",
+     1326.0,
+     null
+    ],
+    [
+     "2023-02-28",
+     1328.0,
+     null
+    ],
+    [
+     "2023-03-31",
+     1324.0,
+     null
+    ],
+    [
+     "2023-04-30",
+     1324.0,
+     null
+    ],
+    [
+     "2023-05-31",
+     1338.0,
+     null
+    ],
+    [
+     "2023-06-30",
+     1349.0,
+     null
+    ],
+    [
+     "2023-07-31",
+     1349.0,
+     null
+    ],
+    [
+     "2023-08-31",
+     1351.0,
+     null
+    ],
+    [
+     "2023-09-30",
+     1351.0,
+     null
+    ],
+    [
+     "2023-10-31",
+     1351.0,
+     null
+    ],
+    [
+     "2023-11-30",
+     1351.0,
+     null
+    ],
+    [
+     "2023-12-31",
+     1352.0,
+     null
+    ],
+    [
+     "2024-01-31",
+     1355.0,
+     null
+    ],
+    [
+     "2024-02-29",
+     1357.0,
+     null
+    ],
+    [
+     "2024-03-31",
+     1388.0,
+     null
+    ],
+    [
+     "2024-04-30",
+     1387.0,
+     null
+    ],
+    [
+     "2024-05-31",
+     1390.0,
+     null
+    ],
+    [
+     "2024-06-30",
+     1416.0,
+     null
+    ],
+    [
+     "2024-07-31",
+     1413.0,
+     null
+    ],
+    [
+     "2024-08-31",
+     1410.0,
+     null
+    ],
+    [
+     "2024-09-30",
+     1408.0,
+     null
+    ],
+    [
+     "2024-10-31",
+     1407.0,
+     null
+    ],
+    [
+     "2024-11-30",
+     1406.0,
+     null
+    ],
+    [
+     "2024-12-31",
+     1409.0,
+     null
+    ],
+    [
+     "2025-01-31",
+     1408.0,
+     null
+    ],
+    [
+     "2025-02-28",
+     1411.0,
+     null
+    ],
+    [
+     "2025-03-31",
+     1416.0,
+     null
+    ],
+    [
+     "2025-04-30",
+     1415.0,
+     null
+    ],
+    [
+     "2025-05-31",
+     1426.0,
+     null
+    ],
+    [
+     "2025-06-30",
+     1437.0,
+     null
+    ],
+    [
+     "2025-07-31",
+     1433.0,
+     null
+    ],
+    [
+     "2025-08-31",
+     1439.0,
+     null
+    ],
+    [
+     "2025-09-30",
+     1448.0,
+     null
+    ],
+    [
+     "2025-10-31",
+     1460.0,
+     null
+    ],
+    [
+     "2025-11-30",
+     1465.0,
+     null
+    ],
+    [
+     "2025-12-31",
+     1465.0,
+     null
+    ],
+    [
+     "2026-01-31",
+     1465.0,
+     null
+    ],
+    [
+     "2026-02-28",
+     1465.0,
+     null
+    ],
+    [
+     "2026-03-31",
+     1465.0,
+     null
+    ],
+    [
+     "2026-04-30",
+     1463.0,
+     null
+    ],
+    [
+     "2026-05-31",
+     1475.0,
+     null
+    ],
+    [
+     "2026-06-30",
+     1492.0,
+     null
+    ],
+    [
+     "2026-07-31",
+     1492.0,
+     null
+    ],
+    [
+     "2026-08-31",
+     1492.0,
+     null
+    ],
+    [
+     "2026-09-30",
+     1505.0,
+     null
+    ]
+   ]
+  },
+  {
+   "indicator": "hud_transfer_register",
+   "geo": "028",
+   "geo_name": "Gisborne District",
+   "ethnicity": "Total",
+   "source": "hud_housing",
+   "period_type": "month",
+   "unit": "applicants",
+   "points": [
+    [
+     "2017-06-30",
+     16.0,
+     null
+    ],
+    [
+     "2017-07-31",
+     17.0,
+     null
+    ],
+    [
+     "2017-08-31",
+     17.0,
+     null
+    ],
+    [
+     "2017-09-30",
+     15.0,
+     null
+    ],
+    [
+     "2017-10-31",
+     17.0,
+     null
+    ],
+    [
+     "2017-11-30",
+     17.0,
+     null
+    ],
+    [
+     "2017-12-31",
+     14.0,
+     null
+    ],
+    [
+     "2018-01-31",
+     16.0,
+     null
+    ],
+    [
+     "2018-02-28",
+     15.0,
+     null
+    ],
+    [
+     "2018-03-31",
+     16.0,
+     null
+    ],
+    [
+     "2018-04-30",
+     17.0,
+     null
+    ],
+    [
+     "2018-05-31",
+     18.0,
+     null
+    ],
+    [
+     "2018-06-30",
+     14.0,
+     null
+    ],
+    [
+     "2018-07-31",
+     17.0,
+     null
+    ],
+    [
+     "2018-08-31",
+     17.0,
+     null
+    ],
+    [
+     "2018-09-30",
+     16.0,
+     null
+    ],
+    [
+     "2018-10-31",
+     17.0,
+     null
+    ],
+    [
+     "2018-11-30",
+     19.0,
+     null
+    ],
+    [
+     "2018-12-31",
+     22.0,
+     null
+    ],
+    [
+     "2019-01-31",
+     26.0,
+     null
+    ],
+    [
+     "2019-02-28",
+     30.0,
+     null
+    ],
+    [
+     "2019-03-31",
+     30.0,
+     null
+    ],
+    [
+     "2019-04-30",
+     35.0,
+     null
+    ],
+    [
+     "2019-05-31",
+     37.0,
+     null
+    ],
+    [
+     "2019-06-30",
+     31.0,
+     null
+    ],
+    [
+     "2019-07-31",
+     37.0,
+     null
+    ],
+    [
+     "2019-08-31",
+     35.0,
+     null
+    ],
+    [
+     "2019-09-30",
+     42.0,
+     null
+    ],
+    [
+     "2019-10-31",
+     49.0,
+     null
+    ],
+    [
+     "2019-11-30",
+     51.0,
+     null
+    ],
+    [
+     "2019-12-31",
+     56.0,
+     null
+    ],
+    [
+     "2020-01-31",
+     57.0,
+     null
+    ],
+    [
+     "2020-02-29",
+     58.0,
+     null
+    ],
+    [
+     "2020-03-31",
+     57.0,
+     null
+    ],
+    [
+     "2020-04-30",
+     58.0,
+     null
+    ],
+    [
+     "2020-05-31",
+     60.0,
+     null
+    ],
+    [
+     "2020-06-30",
+     58.0,
+     null
+    ],
+    [
+     "2020-07-31",
+     58.0,
+     null
+    ],
+    [
+     "2020-08-31",
+     61.0,
+     null
+    ],
+    [
+     "2020-09-30",
+     67.0,
+     null
+    ],
+    [
+     "2020-10-31",
+     75.0,
+     null
+    ],
+    [
+     "2020-11-30",
+     78.0,
+     null
+    ],
+    [
+     "2020-12-31",
+     77.0,
+     null
+    ],
+    [
+     "2021-01-31",
+     75.0,
+     null
+    ],
+    [
+     "2021-02-28",
+     76.0,
+     null
+    ],
+    [
+     "2021-03-31",
+     75.0,
+     null
+    ],
+    [
+     "2021-04-30",
+     73.0,
+     null
+    ],
+    [
+     "2021-05-31",
+     79.0,
+     null
+    ],
+    [
+     "2021-06-30",
+     82.0,
+     null
+    ],
+    [
+     "2021-07-31",
+     80.0,
+     null
+    ],
+    [
+     "2021-08-31",
+     89.0,
+     null
+    ],
+    [
+     "2021-09-30",
+     91.0,
+     null
+    ],
+    [
+     "2021-10-31",
+     91.0,
+     null
+    ],
+    [
+     "2021-11-30",
+     93.0,
+     null
+    ],
+    [
+     "2021-12-31",
+     92.0,
+     null
+    ],
+    [
+     "2022-01-31",
+     91.0,
+     null
+    ],
+    [
+     "2022-02-28",
+     89.0,
+     null
+    ],
+    [
+     "2022-03-31",
+     94.0,
+     null
+    ],
+    [
+     "2022-04-30",
+     92.0,
+     null
+    ],
+    [
+     "2022-05-31",
+     100.0,
+     null
+    ],
+    [
+     "2022-06-30",
+     99.0,
+     null
+    ],
+    [
+     "2022-07-31",
+     102.0,
+     null
+    ],
+    [
+     "2022-08-31",
+     94.0,
+     null
+    ],
+    [
+     "2022-09-30",
+     93.0,
+     null
+    ],
+    [
+     "2022-10-31",
+     95.0,
+     null
+    ],
+    [
+     "2022-11-30",
+     96.0,
+     null
+    ],
+    [
+     "2022-12-31",
+     94.0,
+     null
+    ],
+    [
+     "2023-01-31",
+     95.0,
+     null
+    ],
+    [
+     "2023-02-28",
+     94.0,
+     null
+    ],
+    [
+     "2023-03-31",
+     100.0,
+     null
+    ],
+    [
+     "2023-04-30",
+     96.0,
+     null
+    ],
+    [
+     "2023-05-31",
+     91.0,
+     null
+    ],
+    [
+     "2023-06-30",
+     91.0,
+     null
+    ],
+    [
+     "2023-07-31",
+     91.0,
+     null
+    ],
+    [
+     "2023-08-31",
+     95.0,
+     null
+    ],
+    [
+     "2023-09-30",
+     97.0,
+     null
+    ],
+    [
+     "2023-10-31",
+     102.0,
+     null
+    ],
+    [
+     "2023-11-30",
+     102.0,
+     null
+    ],
+    [
+     "2023-12-31",
+     100.0,
+     null
+    ],
+    [
+     "2024-01-31",
+     105.0,
+     null
+    ],
+    [
+     "2024-02-29",
+     108.0,
+     null
+    ],
+    [
+     "2024-03-31",
+     111.0,
+     null
+    ],
+    [
+     "2024-04-30",
+     108.0,
+     null
+    ],
+    [
+     "2024-05-31",
+     107.0,
+     null
+    ],
+    [
+     "2024-06-30",
+     104.0,
+     null
+    ],
+    [
+     "2024-07-31",
+     96.0,
+     null
+    ],
+    [
+     "2024-08-31",
+     98.0,
+     null
+    ],
+    [
+     "2024-09-30",
+     100.0,
+     null
+    ],
+    [
+     "2024-10-31",
+     101.0,
+     null
+    ],
+    [
+     "2024-11-30",
+     105.0,
+     null
+    ],
+    [
+     "2024-12-31",
+     95.0,
+     null
+    ],
+    [
+     "2025-01-31",
+     95.0,
+     null
+    ],
+    [
+     "2025-02-28",
+     99.0,
+     null
+    ],
+    [
+     "2025-03-31",
+     95.0,
+     null
+    ],
+    [
+     "2025-04-30",
+     85.0,
+     null
+    ],
+    [
+     "2025-05-31",
+     86.0,
+     null
+    ],
+    [
+     "2025-06-30",
+     88.0,
+     null
+    ],
+    [
+     "2025-07-31",
+     96.0,
+     null
+    ],
+    [
+     "2025-08-31",
+     99.0,
+     null
+    ],
+    [
+     "2025-09-30",
+     104.0,
+     null
+    ],
+    [
+     "2025-10-31",
+     102.0,
+     null
+    ],
+    [
+     "2025-11-30",
+     104.0,
+     null
+    ],
+    [
+     "2025-12-31",
+     102.0,
+     null
+    ],
+    [
+     "2026-01-31",
+     108.0,
+     null
+    ],
+    [
+     "2026-02-28",
+     106.0,
+     null
+    ],
+    [
+     "2026-03-31",
+     112.0,
+     null
+    ],
+    [
+     "2026-04-30",
+     109.0,
+     null
+    ],
+    [
+     "2026-05-31",
+     109.0,
+     null
+    ],
+    [
+     "2026-06-30",
+     106.0,
+     null
+    ],
+    [
+     "2026-07-31",
+     109.0,
+     null
+    ],
+    [
+     "2026-08-31",
+     110.0,
+     null
+    ],
+    [
+     "2026-09-30",
+     106.0,
+     null
+    ]
+   ]
+  },
+  {
+   "indicator": "hud_transitional_places",
+   "geo": "028",
+   "geo_name": "Gisborne District",
+   "ethnicity": "Total",
+   "source": "hud_housing",
+   "period_type": "month",
+   "unit": "places",
+   "points": [
+    [
+     "2021-03-31",
+     35.0,
+     null
+    ],
+    [
+     "2021-04-30",
+     35.0,
+     null
+    ],
+    [
+     "2021-05-31",
+     35.0,
+     null
+    ],
+    [
+     "2021-06-30",
+     35.0,
+     null
+    ],
+    [
+     "2021-07-31",
+     35.0,
+     null
+    ],
+    [
+     "2021-08-31",
+     35.0,
+     null
+    ],
+    [
+     "2021-09-30",
+     35.0,
+     null
+    ],
+    [
+     "2021-10-31",
+     35.0,
+     null
+    ],
+    [
+     "2021-11-30",
+     35.0,
+     null
+    ],
+    [
+     "2021-12-31",
+     35.0,
+     null
+    ],
+    [
+     "2022-01-31",
+     34.0,
+     null
+    ],
+    [
+     "2022-02-28",
+     34.0,
+     null
+    ],
+    [
+     "2022-03-31",
+     34.0,
+     null
+    ],
+    [
+     "2022-04-30",
+     34.0,
+     null
+    ],
+    [
+     "2022-05-31",
+     33.0,
+     null
+    ],
+    [
+     "2022-06-30",
+     33.0,
+     null
+    ],
+    [
+     "2022-07-31",
+     33.0,
+     null
+    ],
+    [
+     "2022-08-31",
+     33.0,
+     null
+    ],
+    [
+     "2022-09-30",
+     43.0,
+     null
+    ],
+    [
+     "2022-10-31",
+     43.0,
+     null
+    ],
+    [
+     "2022-11-30",
+     43.0,
+     null
+    ],
+    [
+     "2022-12-31",
+     43.0,
+     null
+    ],
+    [
+     "2023-01-31",
+     43.0,
+     null
+    ],
+    [
+     "2023-02-28",
+     43.0,
+     null
+    ],
+    [
+     "2023-03-31",
+     43.0,
+     null
+    ],
+    [
+     "2023-04-30",
+     43.0,
+     null
+    ],
+    [
+     "2023-05-31",
+     46.0,
+     null
+    ],
+    [
+     "2023-06-30",
+     46.0,
+     null
+    ],
+    [
+     "2023-07-31",
+     46.0,
+     null
+    ],
+    [
+     "2023-08-31",
+     46.0,
+     null
+    ],
+    [
+     "2023-09-30",
+     46.0,
+     null
+    ],
+    [
+     "2023-10-31",
+     70.0,
+     null
+    ],
+    [
+     "2023-11-30",
+     70.0,
+     null
+    ],
+    [
+     "2023-12-31",
+     70.0,
+     null
+    ],
+    [
+     "2024-01-31",
+     70.0,
+     null
+    ],
+    [
+     "2024-02-29",
+     98.0,
+     null
+    ],
+    [
+     "2024-03-31",
+     116.0,
+     null
+    ],
+    [
+     "2024-04-30",
+     114.0,
+     null
+    ],
+    [
+     "2024-05-31",
+     114.0,
+     null
+    ],
+    [
+     "2024-06-30",
+     106.0,
+     null
+    ],
+    [
+     "2024-07-31",
+     112.0,
+     null
+    ],
+    [
+     "2024-08-31",
+     112.0,
+     null
+    ],
+    [
+     "2024-09-30",
+     111.0,
+     null
+    ],
+    [
+     "2024-10-31",
+     110.0,
+     null
+    ],
+    [
+     "2024-11-30",
+     108.0,
+     null
+    ],
+    [
+     "2024-12-31",
+     108.0,
+     null
+    ],
+    [
+     "2025-01-31",
+     111.0,
+     null
+    ],
+    [
+     "2025-02-28",
+     111.0,
+     null
+    ],
+    [
+     "2025-03-31",
+     111.0,
+     null
+    ],
+    [
+     "2025-04-30",
+     111.0,
+     null
+    ],
+    [
+     "2025-05-31",
+     111.0,
+     null
+    ],
+    [
+     "2025-06-30",
+     111.0,
+     null
+    ],
+    [
+     "2025-07-31",
+     111.0,
+     null
+    ],
+    [
+     "2025-08-31",
+     111.0,
+     null
+    ],
+    [
+     "2025-09-30",
+     107.0,
+     null
+    ],
+    [
+     "2025-10-31",
+     106.0,
+     null
+    ],
+    [
+     "2025-11-30",
+     106.0,
+     null
+    ],
+    [
+     "2025-12-31",
+     106.0,
+     null
+    ],
+    [
+     "2026-01-31",
+     98.0,
+     null
+    ],
+    [
+     "2026-02-28",
+     108.0,
+     null
+    ],
+    [
+     "2026-03-31",
+     108.0,
+     null
+    ],
+    [
+     "2026-04-30",
+     108.0,
+     null
+    ],
+    [
+     "2026-05-31",
+     108.0,
+     null
+    ],
+    [
+     "2026-06-30",
+     106.0,
+     null
+    ],
+    [
+     "2026-07-31",
+     102.0,
+     null
+    ],
+    [
+     "2026-08-31",
+     102.0,
+     null
+    ],
+    [
+     "2026-09-30",
+     102.0,
+     null
+    ]
+   ]
+  },
+  {
+   "indicator": "msd_jobseeker",
+   "geo": "05",
+   "geo_name": "Gisborne / Tairāwhiti",
+   "ethnicity": "Māori",
+   "source": "msd_benefits",
+   "period_type": "quarter",
+   "unit": "people",
+   "points": [
+    [
+     "2013-09-30",
+     1518.0,
+     "MSD random-rounds counts to base 3"
+    ],
+    [
+     "2013-12-31",
+     1568.0,
+     "MSD random-rounds counts to base 3"
+    ],
+    [
+     "2014-03-31",
+     1285.0,
+     "MSD random-rounds counts to base 3"
+    ],
+    [
+     "2014-06-30",
+     1270.0,
+     "MSD random-rounds counts to base 3"
+    ],
+    [
+     "2014-09-30",
+     1450.0,
+     "MSD random-rounds counts to base 3"
+    ],
+    [
+     "2014-12-31",
+     1578.0,
+     "MSD random-rounds counts to base 3"
+    ],
+    [
+     "2015-03-31",
+     1257.0,
+     "MSD random-rounds counts to base 3"
+    ],
+    [
+     "2015-06-30",
+     1371.0,
+     "MSD random-rounds counts to base 3"
+    ],
+    [
+     "2015-09-30",
+     1575.0,
+     "MSD random-rounds counts to base 3"
+    ],
+    [
+     "2015-12-31",
+     1625.0,
+     "MSD random-rounds counts to base 3"
+    ],
+    [
+     "2016-03-31",
+     1419.0,
+     "MSD random-rounds counts to base 3"
+    ],
+    [
+     "2016-06-30",
+     1431.0,
+     "MSD random-rounds counts to base 3"
+    ],
+    [
+     "2016-09-30",
+     1512.0,
+     "MSD random-rounds counts to base 3"
+    ],
+    [
+     "2016-12-31",
+     1659.0,
+     "MSD random-rounds counts to base 3"
+    ],
+    [
+     "2017-03-31",
+     1524.0,
+     "MSD random-rounds counts to base 3"
+    ],
+    [
+     "2017-06-30",
+     1560.0,
+     "MSD random-rounds counts to base 3"
+    ],
+    [
+     "2017-09-30",
+     1704.0,
+     "MSD random-rounds counts to base 3"
+    ],
+    [
+     "2017-12-31",
+     1734.0,
+     "MSD random-rounds counts to base 3"
+    ],
+    [
+     "2018-03-31",
+     1425.0,
+     "MSD random-rounds counts to base 3"
+    ],
+    [
+     "2018-06-30",
+     1533.0,
+     "MSD random-rounds counts to base 3"
+    ],
+    [
+     "2018-09-30",
+     1743.0,
+     "MSD random-rounds counts to base 3"
+    ],
+    [
+     "2018-12-31",
+     1824.0,
+     "MSD random-rounds counts to base 3"
+    ],
+    [
+     "2019-03-31",
+     1635.0,
+     "MSD random-rounds counts to base 3"
+    ],
+    [
+     "2019-06-30",
+     1722.0,
+     "MSD random-rounds counts to base 3"
+    ],
+    [
+     "2019-09-30",
+     1896.0,
+     "MSD random-rounds counts to base 3"
+    ],
+    [
+     "2019-12-31",
+     1959.0,
+     "MSD random-rounds counts to base 3"
+    ],
+    [
+     "2020-03-31",
+     1857.0,
+     "MSD random-rounds counts to base 3"
+    ],
+    [
+     "2020-06-30",
+     2226.0,
+     "MSD random-rounds counts to base 3"
+    ],
+    [
+     "2020-09-30",
+     2370.0,
+     "MSD random-rounds counts to base 3"
+    ],
+    [
+     "2020-12-31",
+     2451.0,
+     "MSD random-rounds counts to base 3"
+    ],
+    [
+     "2021-03-31",
+     2172.0,
+     "MSD random-rounds counts to base 3"
+    ],
+    [
+     "2021-06-30",
+     2049.0,
+     "MSD random-rounds counts to base 3"
+    ],
+    [
+     "2021-09-30",
+     2199.0,
+     "MSD random-rounds counts to base 3"
+    ],
+    [
+     "2021-12-31",
+     2052.0,
+     "MSD random-rounds counts to base 3"
+    ],
+    [
+     "2022-03-31",
+     1878.0,
+     "MSD random-rounds counts to base 3"
+    ],
+    [
+     "2022-06-30",
+     1749.0,
+     "MSD random-rounds counts to base 3"
+    ],
+    [
+     "2022-09-30",
+     1830.0,
+     "MSD random-rounds counts to base 3"
+    ],
+    [
+     "2022-12-31",
+     1842.0,
+     "MSD random-rounds counts to base 3"
+    ],
+    [
+     "2023-03-31",
+     1935.0,
+     "MSD random-rounds counts to base 3"
+    ],
+    [
+     "2023-06-30",
+     1941.0,
+     "MSD random-rounds counts to base 3"
+    ],
+    [
+     "2023-09-30",
+     2100.0,
+     "MSD random-rounds counts to base 3"
+    ],
+    [
+     "2023-12-31",
+     2112.0,
+     "MSD random-rounds counts to base 3"
+    ],
+    [
+     "2024-03-31",
+     2004.0,
+     "MSD random-rounds counts to base 3"
+    ],
+    [
+     "2024-06-30",
+     2055.0,
+     "MSD random-rounds counts to base 3"
+    ],
+    [
+     "2024-09-30",
+     2238.0,
+     "MSD random-rounds counts to base 3"
+    ],
+    [
+     "2024-12-31",
+     2283.0,
+     "MSD random-rounds counts to base 3"
+    ],
+    [
+     "2025-03-31",
+     2175.0,
+     "MSD random-rounds counts to base 3"
+    ],
+    [
+     "2025-06-30",
+     2226.0,
+     "MSD random-rounds counts to base 3"
+    ],
+    [
+     "2025-09-30",
+     2358.0,
+     "MSD random-rounds counts to base 3"
+    ],
+    [
+     "2025-12-31",
+     2295.0,
+     "MSD random-rounds counts to base 3"
+    ],
+    [
+     "2026-03-31",
+     2178.0,
+     "MSD random-rounds counts to base 3"
+    ],
+    [
+     "2026-06-30",
+     2220.0,
+     "MSD random-rounds counts to base 3"
+    ],
+    [
+     "2026-09-30",
+     2283.0,
+     "MSD random-rounds counts to base 3"
+    ]
+   ]
+  },
+  {
+   "indicator": "msd_jobseeker",
+   "geo": "05",
+   "geo_name": "Gisborne / Tairāwhiti",
+   "ethnicity": "Total",
+   "source": "msd_benefits",
+   "period_type": "quarter",
+   "unit": "people",
+   "points": [
+    [
+     "2013-09-30",
+     2042.0,
+     "MSD random-rounds counts to base 3"
+    ],
+    [
+     "2013-12-31",
+     2078.0,
+     "MSD random-rounds counts to base 3"
+    ],
+    [
+     "2014-03-31",
+     1713.0,
+     "MSD random-rounds counts to base 3"
+    ],
+    [
+     "2014-06-30",
+     1688.0,
+     "MSD random-rounds counts to base 3"
+    ],
+    [
+     "2014-09-30",
+     1906.0,
+     "MSD random-rounds counts to base 3"
+    ],
+    [
+     "2014-12-31",
+     2046.0,
+     "MSD random-rounds counts to base 3"
+    ],
+    [
+     "2015-03-31",
+     1667.0,
+     "MSD random-rounds counts to base 3"
+    ],
+    [
+     "2015-06-30",
+     1812.0,
+     "MSD random-rounds counts to base 3"
+    ],
+    [
+     "2015-09-30",
+     2028.0,
+     "MSD random-rounds counts to base 3"
+    ],
+    [
+     "2015-12-31",
+     2094.0,
+     "MSD random-rounds counts to base 3"
+    ],
+    [
+     "2016-03-31",
+     1823.0,
+     "MSD random-rounds counts to base 3"
+    ],
+    [
+     "2016-06-30",
+     1859.0,
+     "MSD random-rounds counts to base 3"
+    ],
+    [
+     "2016-09-30",
+     1965.0,
+     "MSD random-rounds counts to base 3"
+    ],
+    [
+     "2016-12-31",
+     2130.0,
+     "MSD random-rounds counts to base 3"
+    ],
+    [
+     "2017-03-31",
+     1983.0,
+     "MSD random-rounds counts to base 3"
+    ],
+    [
+     "2017-06-30",
+     2025.0,
+     "MSD random-rounds counts to base 3"
+    ],
+    [
+     "2017-09-30",
+     2166.0,
+     "MSD random-rounds counts to base 3"
+    ],
+    [
+     "2017-12-31",
+     2202.0,
+     "MSD random-rounds counts to base 3"
+    ],
+    [
+     "2018-03-31",
+     1839.0,
+     "MSD random-rounds counts to base 3"
+    ],
+    [
+     "2018-06-30",
+     1980.0,
+     "MSD random-rounds counts to base 3"
+    ],
+    [
+     "2018-09-30",
+     2226.0,
+     "MSD random-rounds counts to base 3"
+    ],
+    [
+     "2018-12-31",
+     2322.0,
+     "MSD random-rounds counts to base 3"
+    ],
+    [
+     "2019-03-31",
+     2100.0,
+     "MSD random-rounds counts to base 3"
+    ],
+    [
+     "2019-06-30",
+     2199.0,
+     "MSD random-rounds counts to base 3"
+    ],
+    [
+     "2019-09-30",
+     2406.0,
+     "MSD random-rounds counts to base 3"
+    ],
+    [
+     "2019-12-31",
+     2481.0,
+     "MSD random-rounds counts to base 3"
+    ],
+    [
+     "2020-03-31",
+     2382.0,
+     "MSD random-rounds counts to base 3"
+    ],
+    [
+     "2020-06-30",
+     2862.0,
+     "MSD random-rounds counts to base 3"
+    ],
+    [
+     "2020-09-30",
+     3039.0,
+     "MSD random-rounds counts to base 3"
+    ],
+    [
+     "2020-12-31",
+     3144.0,
+     "MSD random-rounds counts to base 3"
+    ],
+    [
+     "2021-03-31",
+     2784.0,
+     "MSD random-rounds counts to base 3"
+    ],
+    [
+     "2021-06-30",
+     2637.0,
+     "MSD random-rounds counts to base 3"
+    ],
+    [
+     "2021-09-30",
+     2814.0,
+     "MSD random-rounds counts to base 3"
+    ],
+    [
+     "2021-12-31",
+     2658.0,
+     "MSD random-rounds counts to base 3"
+    ],
+    [
+     "2022-03-31",
+     2415.0,
+     "MSD random-rounds counts to base 3"
+    ],
+    [
+     "2022-06-30",
+     2232.0,
+     "MSD random-rounds counts to base 3"
+    ],
+    [
+     "2022-09-30",
+     2322.0,
+     "MSD random-rounds counts to base 3"
+    ],
+    [
+     "2022-12-31",
+     2352.0,
+     "MSD random-rounds counts to base 3"
+    ],
+    [
+     "2023-03-31",
+     2418.0,
+     "MSD random-rounds counts to base 3"
+    ],
+    [
+     "2023-06-30",
+     2415.0,
+     "MSD random-rounds counts to base 3"
+    ],
+    [
+     "2023-09-30",
+     2625.0,
+     "MSD random-rounds counts to base 3"
+    ],
+    [
+     "2023-12-31",
+     2646.0,
+     "MSD random-rounds counts to base 3"
+    ],
+    [
+     "2024-03-31",
+     2529.0,
+     "MSD random-rounds counts to base 3"
+    ],
+    [
+     "2024-06-30",
+     2583.0,
+     "MSD random-rounds counts to base 3"
+    ],
+    [
+     "2024-09-30",
+     2784.0,
+     "MSD random-rounds counts to base 3"
+    ],
+    [
+     "2024-12-31",
+     2865.0,
+     "MSD random-rounds counts to base 3"
+    ],
+    [
+     "2025-03-31",
+     2760.0,
+     "MSD random-rounds counts to base 3"
+    ],
+    [
+     "2025-06-30",
+     2814.0,
+     "MSD random-rounds counts to base 3"
+    ],
+    [
+     "2025-09-30",
+     2991.0,
+     "MSD random-rounds counts to base 3"
+    ],
+    [
+     "2025-12-31",
+     2925.0,
+     "MSD random-rounds counts to base 3"
+    ],
+    [
+     "2026-03-31",
+     2742.0,
+     "MSD random-rounds counts to base 3"
+    ],
+    [
+     "2026-06-30",
+     2796.0,
+     "MSD random-rounds counts to base 3"
+    ],
+    [
+     "2026-09-30",
+     2892.0,
+     "MSD random-rounds counts to base 3"
+    ]
+   ]
+  },
+  {
+   "indicator": "msd_main_benefits_total",
+   "geo": "05",
+   "geo_name": "Gisborne / Tairāwhiti",
+   "ethnicity": "Māori",
+   "source": "msd_benefits",
+   "period_type": "quarter",
+   "unit": "people",
+   "points": [
+    [
+     "2013-09-30",
+     4039.0,
+     "MSD random-rounds counts to base 3"
+    ],
+    [
+     "2013-12-31",
+     4250.0,
+     "MSD random-rounds counts to base 3"
+    ],
+    [
+     "2014-03-31",
+     3690.0,
+     "MSD random-rounds counts to base 3"
+    ],
+    [
+     "2014-06-30",
+     3675.0,
+     "MSD random-rounds counts to base 3"
+    ],
+    [
+     "2014-09-30",
+     3909.0,
+     "MSD random-rounds counts to base 3"
+    ],
+    [
+     "2014-12-31",
+     4224.0,
+     "MSD random-rounds counts to base 3"
+    ],
+    [
+     "2015-03-31",
+     3674.0,
+     "MSD random-rounds counts to base 3"
+    ],
+    [
+     "2015-06-30",
+     3842.0,
+     "MSD random-rounds counts to base 3"
+    ],
+    [
+     "2015-09-30",
+     4119.0,
+     "MSD random-rounds counts to base 3"
+    ],
+    [
+     "2015-12-31",
+     4323.0,
+     "MSD random-rounds counts to base 3"
+    ],
+    [
+     "2016-03-31",
+     3829.0,
+     "MSD random-rounds counts to base 3"
+    ],
+    [
+     "2016-06-30",
+     3785.0,
+     "MSD random-rounds counts to base 3"
+    ],
+    [
+     "2016-09-30",
+     3938.0,
+     "MSD random-rounds counts to base 3"
+    ],
+    [
+     "2016-12-31",
+     4248.0,
+     "MSD random-rounds counts to base 3"
+    ],
+    [
+     "2017-03-31",
+     3870.0,
+     "MSD random-rounds counts to base 3"
+    ],
+    [
+     "2017-06-30",
+     3867.0,
+     "MSD random-rounds counts to base 3"
+    ],
+    [
+     "2017-09-30",
+     4041.0,
+     "MSD random-rounds counts to base 3"
+    ],
+    [
+     "2017-12-31",
+     4188.0,
+     "MSD random-rounds counts to base 3"
+    ],
+    [
+     "2018-03-31",
+     3684.0,
+     "MSD random-rounds counts to base 3"
+    ],
+    [
+     "2018-06-30",
+     3810.0,
+     "MSD random-rounds counts to base 3"
+    ],
+    [
+     "2018-09-30",
+     4032.0,
+     "MSD random-rounds counts to base 3"
+    ],
+    [
+     "2018-12-31",
+     4278.0,
+     "MSD random-rounds counts to base 3"
+    ],
+    [
+     "2019-03-31",
+     3897.0,
+     "MSD random-rounds counts to base 3"
+    ],
+    [
+     "2019-06-30",
+     4011.0,
+     "MSD random-rounds counts to base 3"
+    ],
+    [
+     "2019-09-30",
+     4173.0,
+     "MSD random-rounds counts to base 3"
+    ],
+    [
+     "2019-12-31",
+     4422.0,
+     "MSD random-rounds counts to base 3"
+    ],
+    [
+     "2020-03-31",
+     4197.0,
+     "MSD random-rounds counts to base 3"
+    ],
+    [
+     "2020-06-30",
+     4593.0,
+     "MSD random-rounds counts to base 3"
+    ],
+    [
+     "2020-09-30",
+     4728.0,
+     "MSD random-rounds counts to base 3"
+    ],
+    [
+     "2020-12-31",
+     4893.0,
+     "MSD random-rounds counts to base 3"
+    ],
+    [
+     "2021-03-31",
+     4512.0,
+     "MSD random-rounds counts to base 3"
+    ],
+    [
+     "2021-06-30",
+     4356.0,
+     "MSD random-rounds counts to base 3"
+    ],
+    [
+     "2021-09-30",
+     4479.0,
+     "MSD random-rounds counts to base 3"
+    ],
+    [
+     "2021-12-31",
+     4563.0,
+     "MSD random-rounds counts to base 3"
+    ],
+    [
+     "2022-03-31",
+     4302.0,
+     "MSD random-rounds counts to base 3"
+    ],
+    [
+     "2022-06-30",
+     4251.0,
+     "MSD random-rounds counts to base 3"
+    ],
+    [
+     "2022-09-30",
+     4371.0,
+     "MSD random-rounds counts to base 3"
+    ],
+    [
+     "2022-12-31",
+     4485.0,
+     "MSD random-rounds counts to base 3"
+    ],
+    [
+     "2023-03-31",
+     4524.0,
+     "MSD random-rounds counts to base 3"
+    ],
+    [
+     "2023-06-30",
+     4551.0,
+     "MSD random-rounds counts to base 3"
+    ],
+    [
+     "2023-09-30",
+     4680.0,
+     "MSD random-rounds counts to base 3"
+    ],
+    [
+     "2023-12-31",
+     4758.0,
+     "MSD random-rounds counts to base 3"
+    ],
+    [
+     "2024-03-31",
+     4584.0,
+     "MSD random-rounds counts to base 3"
+    ],
+    [
+     "2024-06-30",
+     4641.0,
+     "MSD random-rounds counts to base 3"
+    ],
+    [
+     "2024-09-30",
+     4845.0,
+     "MSD random-rounds counts to base 3"
+    ],
+    [
+     "2024-12-31",
+     4980.0,
+     "MSD random-rounds counts to base 3"
+    ],
+    [
+     "2025-03-31",
+     4818.0,
+     "MSD random-rounds counts to base 3"
+    ],
+    [
+     "2025-06-30",
+     4875.0,
+     "MSD random-rounds counts to base 3"
+    ],
+    [
+     "2025-09-30",
+     5085.0,
+     "MSD random-rounds counts to base 3"
+    ],
+    [
+     "2025-12-31",
+     5121.0,
+     "MSD random-rounds counts to base 3"
+    ],
+    [
+     "2026-03-31",
+     4953.0,
+     "MSD random-rounds counts to base 3"
+    ],
+    [
+     "2026-06-30",
+     5016.0,
+     "MSD random-rounds counts to base 3"
+    ],
+    [
+     "2026-09-30",
+     5082.0,
+     "MSD random-rounds counts to base 3"
+    ]
+   ]
+  },
+  {
+   "indicator": "msd_main_benefits_total",
+   "geo": "05",
+   "geo_name": "Gisborne / Tairāwhiti",
+   "ethnicity": "Total",
+   "source": "msd_benefits",
+   "period_type": "quarter",
+   "unit": "people",
+   "points": [
+    [
+     "2013-09-30",
+     5411.0,
+     "MSD random-rounds counts to base 3"
+    ],
+    [
+     "2013-12-31",
+     5674.0,
+     "MSD random-rounds counts to base 3"
+    ],
+    [
+     "2014-03-31",
+     4974.0,
+     "MSD random-rounds counts to base 3"
+    ],
+    [
+     "2014-06-30",
+     4919.0,
+     "MSD random-rounds counts to base 3"
+    ],
+    [
+     "2014-09-30",
+     5173.0,
+     "MSD random-rounds counts to base 3"
+    ],
+    [
+     "2014-12-31",
+     5522.0,
+     "MSD random-rounds counts to base 3"
+    ],
+    [
+     "2015-03-31",
+     4859.0,
+     "MSD random-rounds counts to base 3"
+    ],
+    [
+     "2015-06-30",
+     5059.0,
+     "MSD random-rounds counts to base 3"
+    ],
+    [
+     "2015-09-30",
+     5335.0,
+     "MSD random-rounds counts to base 3"
+    ],
+    [
+     "2015-12-31",
+     5603.0,
+     "MSD random-rounds counts to base 3"
+    ],
+    [
+     "2016-03-31",
+     4989.0,
+     "MSD random-rounds counts to base 3"
+    ],
+    [
+     "2016-06-30",
+     4965.0,
+     "MSD random-rounds counts to base 3"
+    ],
+    [
+     "2016-09-30",
+     5133.0,
+     "MSD random-rounds counts to base 3"
+    ],
+    [
+     "2016-12-31",
+     5502.0,
+     "MSD random-rounds counts to base 3"
+    ],
+    [
+     "2017-03-31",
+     5061.0,
+     "MSD random-rounds counts to base 3"
+    ],
+    [
+     "2017-06-30",
+     5064.0,
+     "MSD random-rounds counts to base 3"
+    ],
+    [
+     "2017-09-30",
+     5217.0,
+     "MSD random-rounds counts to base 3"
+    ],
+    [
+     "2017-12-31",
+     5421.0,
+     "MSD random-rounds counts to base 3"
+    ],
+    [
+     "2018-03-31",
+     4821.0,
+     "MSD random-rounds counts to base 3"
+    ],
+    [
+     "2018-06-30",
+     4983.0,
+     "MSD random-rounds counts to base 3"
+    ],
+    [
+     "2018-09-30",
+     5238.0,
+     "MSD random-rounds counts to base 3"
+    ],
+    [
+     "2018-12-31",
+     5562.0,
+     "MSD random-rounds counts to base 3"
+    ],
+    [
+     "2019-03-31",
+     5088.0,
+     "MSD random-rounds counts to base 3"
+    ],
+    [
+     "2019-06-30",
+     5205.0,
+     "MSD random-rounds counts to base 3"
+    ],
+    [
+     "2019-09-30",
+     5403.0,
+     "MSD random-rounds counts to base 3"
+    ],
+    [
+     "2019-12-31",
+     5706.0,
+     "MSD random-rounds counts to base 3"
+    ],
+    [
+     "2020-03-31",
+     5460.0,
+     "MSD random-rounds counts to base 3"
+    ],
+    [
+     "2020-06-30",
+     5994.0,
+     "MSD random-rounds counts to base 3"
+    ],
+    [
+     "2020-09-30",
+     6159.0,
+     "MSD random-rounds counts to base 3"
+    ],
+    [
+     "2020-12-31",
+     6351.0,
+     "MSD random-rounds counts to base 3"
+    ],
+    [
+     "2021-03-31",
+     5874.0,
+     "MSD random-rounds counts to base 3"
+    ],
+    [
+     "2021-06-30",
+     5703.0,
+     "MSD random-rounds counts to base 3"
+    ],
+    [
+     "2021-09-30",
+     5847.0,
+     "MSD random-rounds counts to base 3"
+    ],
+    [
+     "2021-12-31",
+     5961.0,
+     "MSD random-rounds counts to base 3"
+    ],
+    [
+     "2022-03-31",
+     5625.0,
+     "MSD random-rounds counts to base 3"
+    ],
+    [
+     "2022-06-30",
+     5559.0,
+     "MSD random-rounds counts to base 3"
+    ],
+    [
+     "2022-09-30",
+     5703.0,
+     "MSD random-rounds counts to base 3"
+    ],
+    [
+     "2022-12-31",
+     5844.0,
+     "MSD random-rounds counts to base 3"
+    ],
+    [
+     "2023-03-31",
+     5850.0,
+     "MSD random-rounds counts to base 3"
+    ],
+    [
+     "2023-06-30",
+     5877.0,
+     "MSD random-rounds counts to base 3"
+    ],
+    [
+     "2023-09-30",
+     6069.0,
+     "MSD random-rounds counts to base 3"
+    ],
+    [
+     "2023-12-31",
+     6180.0,
+     "MSD random-rounds counts to base 3"
+    ],
+    [
+     "2024-03-31",
+     5994.0,
+     "MSD random-rounds counts to base 3"
+    ],
+    [
+     "2024-06-30",
+     6048.0,
+     "MSD random-rounds counts to base 3"
+    ],
+    [
+     "2024-09-30",
+     6273.0,
+     "MSD random-rounds counts to base 3"
+    ],
+    [
+     "2024-12-31",
+     6468.0,
+     "MSD random-rounds counts to base 3"
+    ],
+    [
+     "2025-03-31",
+     6282.0,
+     "MSD random-rounds counts to base 3"
+    ],
+    [
+     "2025-06-30",
+     6348.0,
+     "MSD random-rounds counts to base 3"
+    ],
+    [
+     "2025-09-30",
+     6612.0,
+     "MSD random-rounds counts to base 3"
+    ],
+    [
+     "2025-12-31",
+     6666.0,
+     "MSD random-rounds counts to base 3"
+    ],
+    [
+     "2026-03-31",
+     6408.0,
+     "MSD random-rounds counts to base 3"
+    ],
+    [
+     "2026-06-30",
+     6489.0,
+     "MSD random-rounds counts to base 3"
+    ],
+    [
+     "2026-09-30",
+     6603.0,
+     "MSD random-rounds counts to base 3"
+    ]
+   ]
+  },
+  {
+   "indicator": "msd_sole_parent",
+   "geo": "05",
+   "geo_name": "Gisborne / Tairāwhiti",
+   "ethnicity": "Māori",
+   "source": "msd_benefits",
+   "period_type": "quarter",
+   "unit": "people",
+   "points": [
+    [
+     "2013-09-30",
+     1336.0,
+     "MSD random-rounds counts to base 3"
+    ],
+    [
+     "2013-12-31",
+     1329.0,
+     "MSD random-rounds counts to base 3"
+    ],
+    [
+     "2014-03-31",
+     1257.0,
+     "MSD random-rounds counts to base 3"
+    ],
+    [
+     "2014-06-30",
+     1278.0,
+     "MSD random-rounds counts to base 3"
+    ],
+    [
+     "2014-09-30",
+     1255.0,
+     "MSD random-rounds counts to base 3"
+    ],
+    [
+     "2014-12-31",
+     1275.0,
+     "MSD random-rounds counts to base 3"
+    ],
+    [
+     "2015-03-31",
+     1255.0,
+     "MSD random-rounds counts to base 3"
+    ],
+    [
+     "2015-06-30",
+     1280.0,
+     "MSD random-rounds counts to base 3"
+    ],
+    [
+     "2015-09-30",
+     1261.0,
+     "MSD random-rounds counts to base 3"
+    ],
+    [
+     "2015-12-31",
+     1268.0,
+     "MSD random-rounds counts to base 3"
+    ],
+    [
+     "2016-03-31",
+     1190.0,
+     "MSD random-rounds counts to base 3"
+    ],
+    [
+     "2016-06-30",
+     1136.0,
+     "MSD random-rounds counts to base 3"
+    ],
+    [
+     "2016-09-30",
+     1149.0,
+     "MSD random-rounds counts to base 3"
+    ],
+    [
+     "2016-12-31",
+     1182.0,
+     "MSD random-rounds counts to base 3"
+    ],
+    [
+     "2017-03-31",
+     1098.0,
+     "MSD random-rounds counts to base 3"
+    ],
+    [
+     "2017-06-30",
+     1062.0,
+     "MSD random-rounds counts to base 3"
+    ],
+    [
+     "2017-09-30",
+     1071.0,
+     "MSD random-rounds counts to base 3"
+    ],
+    [
+     "2017-12-31",
+     1104.0,
+     "MSD random-rounds counts to base 3"
+    ],
+    [
+     "2018-03-31",
+     1026.0,
+     "MSD random-rounds counts to base 3"
+    ],
+    [
+     "2018-06-30",
+     1041.0,
+     "MSD random-rounds counts to base 3"
+    ],
+    [
+     "2018-09-30",
+     1065.0,
+     "MSD random-rounds counts to base 3"
+    ],
+    [
+     "2018-12-31",
+     1083.0,
+     "MSD random-rounds counts to base 3"
+    ],
+    [
+     "2019-03-31",
+     1044.0,
+     "MSD random-rounds counts to base 3"
+    ],
+    [
+     "2019-06-30",
+     1065.0,
+     "MSD random-rounds counts to base 3"
+    ],
+    [
+     "2019-09-30",
+     1041.0,
+     "MSD random-rounds counts to base 3"
+    ],
+    [
+     "2019-12-31",
+     1092.0,
+     "MSD random-rounds counts to base 3"
+    ],
+    [
+     "2020-03-31",
+     1080.0,
+     "MSD random-rounds counts to base 3"
+    ],
+    [
+     "2020-06-30",
+     1122.0,
+     "MSD random-rounds counts to base 3"
+    ],
+    [
+     "2020-09-30",
+     1116.0,
+     "MSD random-rounds counts to base 3"
+    ],
+    [
+     "2020-12-31",
+     1140.0,
+     "MSD random-rounds counts to base 3"
+    ],
+    [
+     "2021-03-31",
+     1113.0,
+     "MSD random-rounds counts to base 3"
+    ],
+    [
+     "2021-06-30",
+     1083.0,
+     "MSD random-rounds counts to base 3"
+    ],
+    [
+     "2021-09-30",
+     1074.0,
+     "MSD random-rounds counts to base 3"
+    ],
+    [
+     "2021-12-31",
+     1221.0,
+     "MSD random-rounds counts to base 3"
+    ],
+    [
+     "2022-03-31",
+     1185.0,
+     "MSD random-rounds counts to base 3"
+    ],
+    [
+     "2022-06-30",
+     1197.0,
+     "MSD random-rounds counts to base 3"
+    ],
+    [
+     "2022-09-30",
+     1197.0,
+     "MSD random-rounds counts to base 3"
+    ],
+    [
+     "2022-12-31",
+     1221.0,
+     "MSD random-rounds counts to base 3"
+    ],
+    [
+     "2023-03-31",
+     1230.0,
+     "MSD random-rounds counts to base 3"
+    ],
+    [
+     "2023-06-30",
+     1245.0,
+     "MSD random-rounds counts to base 3"
+    ],
+    [
+     "2023-09-30",
+     1242.0,
+     "MSD random-rounds counts to base 3"
+    ],
+    [
+     "2023-12-31",
+     1263.0,
+     "MSD random-rounds counts to base 3"
+    ],
+    [
+     "2024-03-31",
+     1248.0,
+     "MSD random-rounds counts to base 3"
+    ],
+    [
+     "2024-06-30",
+     1257.0,
+     "MSD random-rounds counts to base 3"
+    ],
+    [
+     "2024-09-30",
+     1278.0,
+     "MSD random-rounds counts to base 3"
+    ],
+    [
+     "2024-12-31",
+     1296.0,
+     "MSD random-rounds counts to base 3"
+    ],
+    [
+     "2025-03-31",
+     1260.0,
+     "MSD random-rounds counts to base 3"
+    ],
+    [
+     "2025-06-30",
+     1251.0,
+     "MSD random-rounds counts to base 3"
+    ],
+    [
+     "2025-09-30",
+     1263.0,
+     "MSD random-rounds counts to base 3"
+    ],
+    [
+     "2025-12-31",
+     1299.0,
+     "MSD random-rounds counts to base 3"
+    ],
+    [
+     "2026-03-31",
+     1308.0,
+     "MSD random-rounds counts to base 3"
+    ],
+    [
+     "2026-06-30",
+     1308.0,
+     "MSD random-rounds counts to base 3"
+    ],
+    [
+     "2026-09-30",
+     1314.0,
+     "MSD random-rounds counts to base 3"
+    ]
+   ]
+  },
+  {
+   "indicator": "msd_sole_parent",
+   "geo": "05",
+   "geo_name": "Gisborne / Tairāwhiti",
+   "ethnicity": "Total",
+   "source": "msd_benefits",
+   "period_type": "quarter",
+   "unit": "people",
+   "points": [
+    [
+     "2013-09-30",
+     1623.0,
+     "MSD random-rounds counts to base 3"
+    ],
+    [
+     "2013-12-31",
+     1616.0,
+     "MSD random-rounds counts to base 3"
+    ],
+    [
+     "2014-03-31",
+     1539.0,
+     "MSD random-rounds counts to base 3"
+    ],
+    [
+     "2014-06-30",
+     1555.0,
+     "MSD random-rounds counts to base 3"
+    ],
+    [
+     "2014-09-30",
+     1506.0,
+     "MSD random-rounds counts to base 3"
+    ],
+    [
+     "2014-12-31",
+     1513.0,
+     "MSD random-rounds counts to base 3"
+    ],
+    [
+     "2015-03-31",
+     1481.0,
+     "MSD random-rounds counts to base 3"
+    ],
+    [
+     "2015-06-30",
+     1509.0,
+     "MSD random-rounds counts to base 3"
+    ],
+    [
+     "2015-09-30",
+     1464.0,
+     "MSD random-rounds counts to base 3"
+    ],
+    [
+     "2015-12-31",
+     1474.0,
+     "MSD random-rounds counts to base 3"
+    ],
+    [
+     "2016-03-31",
+     1397.0,
+     "MSD random-rounds counts to base 3"
+    ],
+    [
+     "2016-06-30",
+     1328.0,
+     "MSD random-rounds counts to base 3"
+    ],
+    [
+     "2016-09-30",
+     1351.0,
+     "MSD random-rounds counts to base 3"
+    ],
+    [
+     "2016-12-31",
+     1377.0,
+     "MSD random-rounds counts to base 3"
+    ],
+    [
+     "2017-03-31",
+     1284.0,
+     "MSD random-rounds counts to base 3"
+    ],
+    [
+     "2017-06-30",
+     1254.0,
+     "MSD random-rounds counts to base 3"
+    ],
+    [
+     "2017-09-30",
+     1260.0,
+     "MSD random-rounds counts to base 3"
+    ],
+    [
+     "2017-12-31",
+     1302.0,
+     "MSD random-rounds counts to base 3"
+    ],
+    [
+     "2018-03-31",
+     1230.0,
+     "MSD random-rounds counts to base 3"
+    ],
+    [
+     "2018-06-30",
+     1236.0,
+     "MSD random-rounds counts to base 3"
+    ],
+    [
+     "2018-09-30",
+     1257.0,
+     "MSD random-rounds counts to base 3"
+    ],
+    [
+     "2018-12-31",
+     1287.0,
+     "MSD random-rounds counts to base 3"
+    ],
+    [
+     "2019-03-31",
+     1236.0,
+     "MSD random-rounds counts to base 3"
+    ],
+    [
+     "2019-06-30",
+     1245.0,
+     "MSD random-rounds counts to base 3"
+    ],
+    [
+     "2019-09-30",
+     1218.0,
+     "MSD random-rounds counts to base 3"
+    ],
+    [
+     "2019-12-31",
+     1284.0,
+     "MSD random-rounds counts to base 3"
+    ],
+    [
+     "2020-03-31",
+     1263.0,
+     "MSD random-rounds counts to base 3"
+    ],
+    [
+     "2020-06-30",
+     1323.0,
+     "MSD random-rounds counts to base 3"
+    ],
+    [
+     "2020-09-30",
+     1320.0,
+     "MSD random-rounds counts to base 3"
+    ],
+    [
+     "2020-12-31",
+     1335.0,
+     "MSD random-rounds counts to base 3"
+    ],
+    [
+     "2021-03-31",
+     1311.0,
+     "MSD random-rounds counts to base 3"
+    ],
+    [
+     "2021-06-30",
+     1284.0,
+     "MSD random-rounds counts to base 3"
+    ],
+    [
+     "2021-09-30",
+     1266.0,
+     "MSD random-rounds counts to base 3"
+    ],
+    [
+     "2021-12-31",
+     1428.0,
+     "MSD random-rounds counts to base 3"
+    ],
+    [
+     "2022-03-31",
+     1389.0,
+     "MSD random-rounds counts to base 3"
+    ],
+    [
+     "2022-06-30",
+     1407.0,
+     "MSD random-rounds counts to base 3"
+    ],
+    [
+     "2022-09-30",
+     1413.0,
+     "MSD random-rounds counts to base 3"
+    ],
+    [
+     "2022-12-31",
+     1434.0,
+     "MSD random-rounds counts to base 3"
+    ],
+    [
+     "2023-03-31",
+     1446.0,
+     "MSD random-rounds counts to base 3"
+    ],
+    [
+     "2023-06-30",
+     1455.0,
+     "MSD random-rounds counts to base 3"
+    ],
+    [
+     "2023-09-30",
+     1458.0,
+     "MSD random-rounds counts to base 3"
+    ],
+    [
+     "2023-12-31",
+     1488.0,
+     "MSD random-rounds counts to base 3"
+    ],
+    [
+     "2024-03-31",
+     1473.0,
+     "MSD random-rounds counts to base 3"
+    ],
+    [
+     "2024-06-30",
+     1485.0,
+     "MSD random-rounds counts to base 3"
+    ],
+    [
+     "2024-09-30",
+     1497.0,
+     "MSD random-rounds counts to base 3"
+    ],
+    [
+     "2024-12-31",
+     1521.0,
+     "MSD random-rounds counts to base 3"
+    ],
+    [
+     "2025-03-31",
+     1476.0,
+     "MSD random-rounds counts to base 3"
+    ],
+    [
+     "2025-06-30",
+     1467.0,
+     "MSD random-rounds counts to base 3"
+    ],
+    [
+     "2025-09-30",
+     1485.0,
+     "MSD random-rounds counts to base 3"
+    ],
+    [
+     "2025-12-31",
+     1518.0,
+     "MSD random-rounds counts to base 3"
+    ],
+    [
+     "2026-03-31",
+     1533.0,
+     "MSD random-rounds counts to base 3"
+    ],
+    [
+     "2026-06-30",
+     1527.0,
+     "MSD random-rounds counts to base 3"
+    ],
+    [
+     "2026-09-30",
+     1542.0,
+     "MSD random-rounds counts to base 3"
+    ]
+   ]
+  },
+  {
+   "indicator": "msd_supported_living",
+   "geo": "05",
+   "geo_name": "Gisborne / Tairāwhiti",
+   "ethnicity": "Māori",
+   "source": "msd_benefits",
+   "period_type": "quarter",
+   "unit": "people",
+   "points": [
+    [
+     "2013-09-30",
+     1085.0,
+     "MSD random-rounds counts to base 3"
+    ],
+    [
+     "2013-12-31",
+     1093.0,
+     "MSD random-rounds counts to base 3"
+    ],
+    [
+     "2014-03-31",
+     1083.0,
+     "MSD random-rounds counts to base 3"
+    ],
+    [
+     "2014-06-30",
+     1072.0,
+     "MSD random-rounds counts to base 3"
+    ],
+    [
+     "2014-09-30",
+     1100.0,
+     "MSD random-rounds counts to base 3"
+    ],
+    [
+     "2014-12-31",
+     1105.0,
+     "MSD random-rounds counts to base 3"
+    ],
+    [
+     "2015-03-31",
+     1115.0,
+     "MSD random-rounds counts to base 3"
+    ],
+    [
+     "2015-06-30",
+     1134.0,
+     "MSD random-rounds counts to base 3"
+    ],
+    [
+     "2015-09-30",
+     1150.0,
+     "MSD random-rounds counts to base 3"
+    ],
+    [
+     "2015-12-31",
+     1164.0,
+     "MSD random-rounds counts to base 3"
+    ],
+    [
+     "2016-03-31",
+     1171.0,
+     "MSD random-rounds counts to base 3"
+    ],
+    [
+     "2016-06-30",
+     1175.0,
+     "MSD random-rounds counts to base 3"
+    ],
+    [
+     "2016-09-30",
+     1186.0,
+     "MSD random-rounds counts to base 3"
+    ],
+    [
+     "2016-12-31",
+     1194.0,
+     "MSD random-rounds counts to base 3"
+    ],
+    [
+     "2017-03-31",
+     1182.0,
+     "MSD random-rounds counts to base 3"
+    ],
+    [
+     "2017-06-30",
+     1185.0,
+     "MSD random-rounds counts to base 3"
+    ],
+    [
+     "2017-09-30",
+     1179.0,
+     "MSD random-rounds counts to base 3"
+    ],
+    [
+     "2017-12-31",
+     1164.0,
+     "MSD random-rounds counts to base 3"
+    ],
+    [
+     "2018-03-31",
+     1170.0,
+     "MSD random-rounds counts to base 3"
+    ],
+    [
+     "2018-06-30",
+     1170.0,
+     "MSD random-rounds counts to base 3"
+    ],
+    [
+     "2018-09-30",
+     1155.0,
+     "MSD random-rounds counts to base 3"
+    ],
+    [
+     "2018-12-31",
+     1179.0,
+     "MSD random-rounds counts to base 3"
+    ],
+    [
+     "2019-03-31",
+     1158.0,
+     "MSD random-rounds counts to base 3"
+    ],
+    [
+     "2019-06-30",
+     1173.0,
+     "MSD random-rounds counts to base 3"
+    ],
+    [
+     "2019-09-30",
+     1167.0,
+     "MSD random-rounds counts to base 3"
+    ],
+    [
+     "2019-12-31",
+     1218.0,
+     "MSD random-rounds counts to base 3"
+    ],
+    [
+     "2020-03-31",
+     1200.0,
+     "MSD random-rounds counts to base 3"
+    ],
+    [
+     "2020-06-30",
+     1194.0,
+     "MSD random-rounds counts to base 3"
+    ],
+    [
+     "2020-09-30",
+     1179.0,
+     "MSD random-rounds counts to base 3"
+    ],
+    [
+     "2020-12-31",
+     1182.0,
+     "MSD random-rounds counts to base 3"
+    ],
+    [
+     "2021-03-31",
+     1185.0,
+     "MSD random-rounds counts to base 3"
+    ],
+    [
+     "2021-06-30",
+     1179.0,
+     "MSD random-rounds counts to base 3"
+    ],
+    [
+     "2021-09-30",
+     1146.0,
+     "MSD random-rounds counts to base 3"
+    ],
+    [
+     "2021-12-31",
+     1167.0,
+     "MSD random-rounds counts to base 3"
+    ],
+    [
+     "2022-03-31",
+     1194.0,
+     "MSD random-rounds counts to base 3"
+    ],
+    [
+     "2022-06-30",
+     1254.0,
+     "MSD random-rounds counts to base 3"
+    ],
+    [
+     "2022-09-30",
+     1281.0,
+     "MSD random-rounds counts to base 3"
+    ],
+    [
+     "2022-12-31",
+     1302.0,
+     "MSD random-rounds counts to base 3"
+    ],
+    [
+     "2023-03-31",
+     1296.0,
+     "MSD random-rounds counts to base 3"
+    ],
+    [
+     "2023-06-30",
+     1317.0,
+     "MSD random-rounds counts to base 3"
+    ],
+    [
+     "2023-09-30",
+     1296.0,
+     "MSD random-rounds counts to base 3"
+    ],
+    [
+     "2023-12-31",
+     1296.0,
+     "MSD random-rounds counts to base 3"
+    ],
+    [
+     "2024-03-31",
+     1284.0,
+     "MSD random-rounds counts to base 3"
+    ],
+    [
+     "2024-06-30",
+     1287.0,
+     "MSD random-rounds counts to base 3"
+    ],
+    [
+     "2024-09-30",
+     1293.0,
+     "MSD random-rounds counts to base 3"
+    ],
+    [
+     "2024-12-31",
+     1320.0,
+     "MSD random-rounds counts to base 3"
+    ],
+    [
+     "2025-03-31",
+     1338.0,
+     "MSD random-rounds counts to base 3"
+    ],
+    [
+     "2025-06-30",
+     1362.0,
+     "MSD random-rounds counts to base 3"
+    ],
+    [
+     "2025-09-30",
+     1416.0,
+     "MSD random-rounds counts to base 3"
+    ],
+    [
+     "2025-12-31",
+     1428.0,
+     "MSD random-rounds counts to base 3"
+    ],
+    [
+     "2026-03-31",
+     1437.0,
+     "MSD random-rounds counts to base 3"
+    ],
+    [
+     "2026-06-30",
+     1455.0,
+     "MSD random-rounds counts to base 3"
+    ],
+    [
+     "2026-09-30",
+     1449.0,
+     "MSD random-rounds counts to base 3"
+    ]
+   ]
+  },
+  {
+   "indicator": "msd_supported_living",
+   "geo": "05",
+   "geo_name": "Gisborne / Tairāwhiti",
+   "ethnicity": "Total",
+   "source": "msd_benefits",
+   "period_type": "quarter",
+   "unit": "people",
+   "points": [
+    [
+     "2013-09-30",
+     1626.0,
+     "MSD random-rounds counts to base 3"
+    ],
+    [
+     "2013-12-31",
+     1639.0,
+     "MSD random-rounds counts to base 3"
+    ],
+    [
+     "2014-03-31",
+     1640.0,
+     "MSD random-rounds counts to base 3"
+    ],
+    [
+     "2014-06-30",
+     1609.0,
+     "MSD random-rounds counts to base 3"
+    ],
+    [
+     "2014-09-30",
+     1635.0,
+     "MSD random-rounds counts to base 3"
+    ],
+    [
+     "2014-12-31",
+     1649.0,
+     "MSD random-rounds counts to base 3"
+    ],
+    [
+     "2015-03-31",
+     1652.0,
+     "MSD random-rounds counts to base 3"
+    ],
+    [
+     "2015-06-30",
+     1670.0,
+     "MSD random-rounds counts to base 3"
+    ],
+    [
+     "2015-09-30",
+     1690.0,
+     "MSD random-rounds counts to base 3"
+    ],
+    [
+     "2015-12-31",
+     1704.0,
+     "MSD random-rounds counts to base 3"
+    ],
+    [
+     "2016-03-31",
+     1705.0,
+     "MSD random-rounds counts to base 3"
+    ],
+    [
+     "2016-06-30",
+     1721.0,
+     "MSD random-rounds counts to base 3"
+    ],
+    [
+     "2016-09-30",
+     1707.0,
+     "MSD random-rounds counts to base 3"
+    ],
+    [
+     "2016-12-31",
+     1719.0,
+     "MSD random-rounds counts to base 3"
+    ],
+    [
+     "2017-03-31",
+     1710.0,
+     "MSD random-rounds counts to base 3"
+    ],
+    [
+     "2017-06-30",
+     1707.0,
+     "MSD random-rounds counts to base 3"
+    ],
+    [
+     "2017-09-30",
+     1689.0,
+     "MSD random-rounds counts to base 3"
+    ],
+    [
+     "2017-12-31",
+     1680.0,
+     "MSD random-rounds counts to base 3"
+    ],
+    [
+     "2018-03-31",
+     1680.0,
+     "MSD random-rounds counts to base 3"
+    ],
+    [
+     "2018-06-30",
+     1689.0,
+     "MSD random-rounds counts to base 3"
+    ],
+    [
+     "2018-09-30",
+     1674.0,
+     "MSD random-rounds counts to base 3"
+    ],
+    [
+     "2018-12-31",
+     1710.0,
+     "MSD random-rounds counts to base 3"
+    ],
+    [
+     "2019-03-31",
+     1677.0,
+     "MSD random-rounds counts to base 3"
+    ],
+    [
+     "2019-06-30",
+     1698.0,
+     "MSD random-rounds counts to base 3"
+    ],
+    [
+     "2019-09-30",
+     1701.0,
+     "MSD random-rounds counts to base 3"
+    ],
+    [
+     "2019-12-31",
+     1758.0,
+     "MSD random-rounds counts to base 3"
+    ],
+    [
+     "2020-03-31",
+     1746.0,
+     "MSD random-rounds counts to base 3"
+    ],
+    [
+     "2020-06-30",
+     1734.0,
+     "MSD random-rounds counts to base 3"
+    ],
+    [
+     "2020-09-30",
+     1719.0,
+     "MSD random-rounds counts to base 3"
+    ],
+    [
+     "2020-12-31",
+     1716.0,
+     "MSD random-rounds counts to base 3"
+    ],
+    [
+     "2021-03-31",
+     1725.0,
+     "MSD random-rounds counts to base 3"
+    ],
+    [
+     "2021-06-30",
+     1725.0,
+     "MSD random-rounds counts to base 3"
+    ],
+    [
+     "2021-09-30",
+     1689.0,
+     "MSD random-rounds counts to base 3"
+    ],
+    [
+     "2021-12-31",
+     1722.0,
+     "MSD random-rounds counts to base 3"
+    ],
+    [
+     "2022-03-31",
+     1764.0,
+     "MSD random-rounds counts to base 3"
+    ],
+    [
+     "2022-06-30",
+     1863.0,
+     "MSD random-rounds counts to base 3"
+    ],
+    [
+     "2022-09-30",
+     1896.0,
+     "MSD random-rounds counts to base 3"
+    ],
+    [
+     "2022-12-31",
+     1914.0,
+     "MSD random-rounds counts to base 3"
+    ],
+    [
+     "2023-03-31",
+     1917.0,
+     "MSD random-rounds counts to base 3"
+    ],
+    [
+     "2023-06-30",
+     1953.0,
+     "MSD random-rounds counts to base 3"
+    ],
+    [
+     "2023-09-30",
+     1938.0,
+     "MSD random-rounds counts to base 3"
+    ],
+    [
+     "2023-12-31",
+     1938.0,
+     "MSD random-rounds counts to base 3"
+    ],
+    [
+     "2024-03-31",
+     1935.0,
+     "MSD random-rounds counts to base 3"
+    ],
+    [
+     "2024-06-30",
+     1929.0,
+     "MSD random-rounds counts to base 3"
+    ],
+    [
+     "2024-09-30",
+     1944.0,
+     "MSD random-rounds counts to base 3"
+    ],
+    [
+     "2024-12-31",
+     1974.0,
+     "MSD random-rounds counts to base 3"
+    ],
+    [
+     "2025-03-31",
+     2001.0,
+     "MSD random-rounds counts to base 3"
+    ],
+    [
+     "2025-06-30",
+     2016.0,
+     "MSD random-rounds counts to base 3"
+    ],
+    [
+     "2025-09-30",
+     2079.0,
+     "MSD random-rounds counts to base 3"
+    ],
+    [
+     "2025-12-31",
+     2097.0,
+     "MSD random-rounds counts to base 3"
+    ],
+    [
+     "2026-03-31",
+     2091.0,
+     "MSD random-rounds counts to base 3"
+    ],
+    [
+     "2026-06-30",
+     2124.0,
+     "MSD random-rounds counts to base 3"
+    ],
+    [
+     "2026-09-30",
+     2121.0,
+     "MSD random-rounds counts to base 3"
+    ]
+   ]
+  },
+  {
+   "indicator": "cas_deaths",
+   "geo": "05",
+   "geo_name": "Gisborne / Tairāwhiti",
+   "ethnicity": "Total",
+   "source": "nzta_cas",
+   "period_type": "year",
+   "unit": "people",
+   "points": [
+    [
+     "2006-12-31",
+     4.0,
+     null
+    ],
+    [
+     "2007-12-31",
+     7.0,
+     null
+    ],
+    [
+     "2008-12-31",
+     8.0,
+     null
+    ],
+    [
+     "2009-12-31",
+     5.0,
+     null
+    ],
+    [
+     "2010-12-31",
+     6.0,
+     null
+    ],
+    [
+     "2011-12-31",
+     1.0,
+     null
+    ],
+    [
+     "2012-12-31",
+     10.0,
+     null
+    ],
+    [
+     "2013-12-31",
+     4.0,
+     null
+    ],
+    [
+     "2014-12-31",
+     3.0,
+     null
+    ],
+    [
+     "2015-12-31",
+     1.0,
+     null
+    ],
+    [
+     "2016-12-31",
+     4.0,
+     null
+    ],
+    [
+     "2017-12-31",
+     6.0,
+     null
+    ],
+    [
+     "2018-12-31",
+     5.0,
+     null
+    ],
+    [
+     "2019-12-31",
+     4.0,
+     null
+    ],
+    [
+     "2020-12-31",
+     8.0,
+     null
+    ],
+    [
+     "2021-12-31",
+     6.0,
+     null
+    ],
+    [
+     "2022-12-31",
+     7.0,
+     null
+    ],
+    [
+     "2023-12-31",
+     4.0,
+     null
+    ],
+    [
+     "2024-12-31",
+     6.0,
+     null
+    ],
+    [
+     "2025-12-31",
+     0.0,
+     null
+    ],
+    [
+     "2026-12-31",
+     8.0,
+     "partial year; CAS is live and late reports are added"
+    ]
+   ]
+  },
+  {
+   "indicator": "cas_dsi",
+   "geo": "05",
+   "geo_name": "Gisborne / Tairāwhiti",
+   "ethnicity": "Total",
+   "source": "nzta_cas",
+   "period_type": "year",
+   "unit": "people",
+   "points": [
+    [
+     "2006-12-31",
+     31.0,
+     null
+    ],
+    [
+     "2007-12-31",
+     39.0,
+     null
+    ],
+    [
+     "2008-12-31",
+     49.0,
+     null
+    ],
+    [
+     "2009-12-31",
+     34.0,
+     null
+    ],
+    [
+     "2010-12-31",
+     30.0,
+     null
+    ],
+    [
+     "2011-12-31",
+     31.0,
+     null
+    ],
+    [
+     "2012-12-31",
+     22.0,
+     null
+    ],
+    [
+     "2013-12-31",
+     29.0,
+     null
+    ],
+    [
+     "2014-12-31",
+     33.0,
+     null
+    ],
+    [
+     "2015-12-31",
+     17.0,
+     null
+    ],
+    [
+     "2016-12-31",
+     59.0,
+     null
+    ],
+    [
+     "2017-12-31",
+     41.0,
+     null
+    ],
+    [
+     "2018-12-31",
+     41.0,
+     null
+    ],
+    [
+     "2019-12-31",
+     51.0,
+     null
+    ],
+    [
+     "2020-12-31",
+     53.0,
+     null
+    ],
+    [
+     "2021-12-31",
+     57.0,
+     null
+    ],
+    [
+     "2022-12-31",
+     41.0,
+     null
+    ],
+    [
+     "2023-12-31",
+     32.0,
+     null
+    ],
+    [
+     "2024-12-31",
+     31.0,
+     null
+    ],
+    [
+     "2025-12-31",
+     42.0,
+     null
+    ],
+    [
+     "2026-12-31",
+     34.0,
+     "partial year; CAS is live and late reports are added"
+    ]
+   ]
+  },
+  {
+   "indicator": "cas_fatal_serious_crashes",
+   "geo": "05",
+   "geo_name": "Gisborne / Tairāwhiti",
+   "ethnicity": "Total",
+   "source": "nzta_cas",
+   "period_type": "year",
+   "unit": "crashes",
+   "points": [
+    [
+     "2006-12-31",
+     25.0,
+     null
+    ],
+    [
+     "2007-12-31",
+     34.0,
+     null
+    ],
+    [
+     "2008-12-31",
+     32.0,
+     null
+    ],
+    [
+     "2009-12-31",
+     23.0,
+     null
+    ],
+    [
+     "2010-12-31",
+     24.0,
+     null
+    ],
+    [
+     "2011-12-31",
+     27.0,
+     null
+    ],
+    [
+     "2012-12-31",
+     14.0,
+     null
+    ],
+    [
+     "2013-12-31",
+     26.0,
+     null
+    ],
+    [
+     "2014-12-31",
+     24.0,
+     null
+    ],
+    [
+     "2015-12-31",
+     16.0,
+     null
+    ],
+    [
+     "2016-12-31",
+     34.0,
+     null
+    ],
+    [
+     "2017-12-31",
+     33.0,
+     null
+    ],
+    [
+     "2018-12-31",
+     34.0,
+     null
+    ],
+    [
+     "2019-12-31",
+     49.0,
+     null
+    ],
+    [
+     "2020-12-31",
+     43.0,
+     null
+    ],
+    [
+     "2021-12-31",
+     51.0,
+     null
+    ],
+    [
+     "2022-12-31",
+     34.0,
+     null
+    ],
+    [
+     "2023-12-31",
+     26.0,
+     null
+    ],
+    [
+     "2024-12-31",
+     29.0,
+     null
+    ],
+    [
+     "2025-12-31",
+     32.0,
+     null
+    ],
+    [
+     "2026-12-31",
+     22.0,
+     "partial year; CAS is live and late reports are added"
+    ]
+   ]
+  },
+  {
+   "indicator": "cas_injury_crashes",
+   "geo": "05",
+   "geo_name": "Gisborne / Tairāwhiti",
+   "ethnicity": "Total",
+   "source": "nzta_cas",
+   "period_type": "year",
+   "unit": "crashes",
+   "points": [
+    [
+     "2006-12-31",
+     117.0,
+     null
+    ],
+    [
+     "2007-12-31",
+     114.0,
+     null
+    ],
+    [
+     "2008-12-31",
+     157.0,
+     null
+    ],
+    [
+     "2009-12-31",
+     109.0,
+     null
+    ],
+    [
+     "2010-12-31",
+     140.0,
+     null
+    ],
+    [
+     "2011-12-31",
+     114.0,
+     null
+    ],
+    [
+     "2012-12-31",
+     84.0,
+     null
+    ],
+    [
+     "2013-12-31",
+     125.0,
+     null
+    ],
+    [
+     "2014-12-31",
+     97.0,
+     null
+    ],
+    [
+     "2015-12-31",
+     85.0,
+     null
+    ],
+    [
+     "2016-12-31",
+     126.0,
+     null
+    ],
+    [
+     "2017-12-31",
+     116.0,
+     null
+    ],
+    [
+     "2018-12-31",
+     142.0,
+     null
+    ],
+    [
+     "2019-12-31",
+     167.0,
+     null
+    ],
+    [
+     "2020-12-31",
+     176.0,
+     null
+    ],
+    [
+     "2021-12-31",
+     172.0,
+     null
+    ],
+    [
+     "2022-12-31",
+     137.0,
+     null
+    ],
+    [
+     "2023-12-31",
+     135.0,
+     null
+    ],
+    [
+     "2024-12-31",
+     116.0,
+     null
+    ],
+    [
+     "2025-12-31",
+     118.0,
+     null
+    ],
+    [
+     "2026-12-31",
+     86.0,
+     "partial year; CAS is live and late reports are added"
+    ]
+   ]
+  }
+ ],
+ "status": {
+  "statsnz_ade": {
+   "source_id": "statsnz_ade",
+   "ok": false,
+   "rows": 0,
+   "latest_period": null,
+   "message": "error: POPES_SUB_011: 401 from https://api.data.stats.govt.nz/rest/data/STATSNZ,POPES_SUB_011,1.0/all: { \"statusCode\": 401, \"message\": \"Access denied due to invalid subscription key. Make sure to provide a valid key for an active subscription.\" }; BDS_BDS_001: 401 from https://api.data.stats.govt.nz/rest/data/STATSNZ,BDS_BDS_001,1.0/all: { \"statusCode\": 401, \"message\": \"Access denied due to invalid subscription key. Make sure to provide a valid key for an active subscription.\" }",
+   "checked": "2026-11-20T01:33:42+00:00",
+   "last_success": null
+  },
+  "msd_benefits": {
+   "source_id": "msd_benefits",
+   "ok": true,
+   "rows": 424,
+   "latest_period": "2026-09-30",
+   "message": "ok",
+   "checked": "2026-11-20T01:29:26+00:00",
+   "last_success": "2026-11-20T01:29:26+00:00",
+   "schema_hash": "3787ebb67c"
+  },
+  "hud_housing": {
+   "source_id": "hud_housing",
+   "ok": true,
+   "rows": 853,
+   "latest_period": "2026-09-30",
+   "message": "ok",
+   "checked": "2026-11-20T01:29:34+00:00",
+   "last_success": "2026-11-20T01:29:34+00:00",
+   "schema_hash": "4f425f2bc0"
+  },
+  "healthnz_immunisation": {
+   "source_id": "healthnz_immunisation",
+   "ok": true,
+   "rows": 192,
+   "latest_period": "2026-06-30",
+   "message": "ok",
+   "checked": "2026-11-20T01:29:36+00:00",
+   "last_success": "2026-11-20T01:29:36+00:00",
+   "schema_hash": "ae3b4b9b64"
+  },
+  "nzta_cas": {
+   "source_id": "nzta_cas",
+   "ok": true,
+   "rows": 84,
+   "latest_period": "2026-12-31",
+   "message": "ok",
+   "checked": "2026-11-20T01:29:36+00:00",
+   "last_success": "2026-11-20T01:29:36+00:00",
+   "schema_hash": "414f1d33dc"
+  },
+  "mbie_bonds": {
+   "source_id": "mbie_bonds",
+   "ok": false,
+   "rows": 0,
+   "latest_period": null,
+   "message": "error: failed to fetch https://www.mbie.govt.nz/assets/Data-Files/Building-and-construction/Tenancy-and-housing/Rental-bond-data/Territorial-authority/rentalbond-data-tla.csv: 404 Client Error: Not Found for url: https://www.mbie.govt.nz/assets/Data-Files/Building-and-construction/Tenancy-and-housing/Rental-bond-data/Territorial-authority/rentalbond-data-tla.csv",
+   "checked": "2026-11-20T01:29:42+00:00",
+   "last_success": null
+  }
+ },
+ "catalogue": [
+  {
+   "id": "E1",
+   "name": "Regional GDP",
+   "publisher": "Stats NZ",
+   "domain": "Ōhanga",
+   "frequency": "Annual",
+   "phase": 2,
+   "status": "planned",
+   "note": "Infoshare → ADE Time Series Expansion (target Apr 2027)"
+  },
+  {
+   "id": "E2",
+   "name": "Modelled TA GDP (MTAGDP)",
+   "publisher": "MBIE",
+   "domain": "Ōhanga",
+   "frequency": "Irregular",
+   "phase": 2,
+   "status": "borderline",
+   "note": "Irregular releases"
+  },
+  {
+   "id": "E3",
+   "name": "Business Demography Statistics",
+   "publisher": "Stats NZ",
+   "domain": "Ōhanga",
+   "frequency": "Annual",
+   "phase": 1,
+   "status": "live",
+   "note": "ADE BDS_BDS_001"
+  },
+  {
+   "id": "E4",
+   "name": "Linked Employer-Employee Data (LEED)",
+   "publisher": "Stats NZ",
+   "domain": "Ōhanga",
+   "frequency": "Quarterly",
+   "phase": 2,
+   "status": "planned"
+  },
+  {
+   "id": "E5",
+   "name": "Monthly Employment Indicators",
+   "publisher": "Stats NZ",
+   "domain": "Ōhanga",
+   "frequency": "Monthly",
+   "phase": 2,
+   "status": "planned"
+  },
+  {
+   "id": "E6",
+   "name": "HLFS – regional",
+   "publisher": "Stats NZ",
+   "domain": "Ōhanga",
+   "frequency": "Quarterly",
+   "phase": 2,
+   "status": "planned",
+   "note": "Gisborne/Hawke's Bay combined – proxy only"
+  },
+  {
+   "id": "E7",
+   "name": "Electronic Card Transactions – regional",
+   "publisher": "Stats NZ",
+   "domain": "Ōhanga",
+   "frequency": "Monthly",
+   "phase": 2,
+   "status": "planned"
+  },
+  {
+   "id": "E8",
+   "name": "Monthly Regional Tourism Estimates",
+   "publisher": "MBIE",
+   "domain": "Ōhanga",
+   "frequency": "Monthly",
+   "phase": 2,
+   "status": "planned",
+   "note": "Redeveloped series; vintage-stamp each pull. mbie.govt.nz blocks bots – TEIC host to test"
+  },
+  {
+   "id": "E9",
+   "name": "Tourism Electronic Card Transactions",
+   "publisher": "MBIE",
+   "domain": "Ōhanga",
+   "frequency": "Monthly",
+   "phase": 4,
+   "status": "planned",
+   "note": "Paused; resuming early 2027"
+  },
+  {
+   "id": "E10",
+   "name": "Accommodation Data Programme",
+   "publisher": "MBIE",
+   "domain": "Ōhanga",
+   "frequency": "Monthly",
+   "phase": 2,
+   "status": "planned"
+  },
+  {
+   "id": "E11",
+   "name": "Regional Economic Activity Web Tool",
+   "publisher": "MBIE",
+   "domain": "Ōhanga",
+   "frequency": "Periodic",
+   "phase": 2,
+   "status": "borderline",
+   "note": "Aggregator – validation only"
+  },
+  {
+   "id": "E12",
+   "name": "Agricultural Production Statistics",
+   "publisher": "Stats NZ",
+   "domain": "Ōhanga",
+   "frequency": "Annual",
+   "phase": 2,
+   "status": "planned",
+   "note": "ADE AGR_AGR_001–003"
+  },
+  {
+   "id": "E13",
+   "name": "Building consents issued",
+   "publisher": "Stats NZ",
+   "domain": "Ōhanga",
+   "frequency": "Monthly",
+   "phase": 2,
+   "status": "planned"
+  },
+  {
+   "id": "E14",
+   "name": "Residential electricity consumption",
+   "publisher": "Electricity Authority EMI",
+   "domain": "Ōhanga",
+   "frequency": "Monthly",
+   "phase": 2,
+   "status": "planned"
+  },
+  {
+   "id": "E15",
+   "name": "Infometrics regional profile",
+   "publisher": "Infometrics",
+   "domain": "Ōhanga",
+   "frequency": "Quarterly",
+   "phase": 3,
+   "status": "borderline",
+   "note": "Proprietary – licence needed"
+  },
+  {
+   "id": "H1",
+   "name": "Subnational population estimates",
+   "publisher": "Stats NZ",
+   "domain": "Hapori",
+   "frequency": "Annual",
+   "phase": 1,
+   "status": "live",
+   "note": "ADE POPES_SUB_011"
+  },
+  {
+   "id": "H2",
+   "name": "Subnational population projections",
+   "publisher": "Stats NZ",
+   "domain": "Hapori",
+   "frequency": "~3-yearly",
+   "phase": 2,
+   "status": "borderline"
+  },
+  {
+   "id": "H3",
+   "name": "Births and deaths",
+   "publisher": "Stats NZ",
+   "domain": "Hapori",
+   "frequency": "Quarterly",
+   "phase": 2,
+   "status": "planned"
+  },
+  {
+   "id": "H4",
+   "name": "Census 2013/2018/2023",
+   "publisher": "Stats NZ",
+   "domain": "Hapori",
+   "frequency": "Five-yearly",
+   "phase": 1,
+   "status": "planned"
+  },
+  {
+   "id": "H5",
+   "name": "Benefit Fact Sheets – regional council",
+   "publisher": "MSD",
+   "domain": "Hapori",
+   "frequency": "Quarterly",
+   "phase": 1,
+   "status": "live",
+   "note": "Rebuilt from archives back to Sept 2013"
+  },
+  {
+   "id": "H6",
+   "name": "Supplementary and hardship assistance",
+   "publisher": "MSD",
+   "domain": "Hapori",
+   "frequency": "Quarterly",
+   "phase": 2,
+   "status": "planned",
+   "note": "East Coast W&I region is wider than Tairāwhiti"
+  },
+  {
+   "id": "H7",
+   "name": "HUD Housing Dashboard",
+   "publisher": "HUD",
+   "domain": "Hapori",
+   "frequency": "Monthly",
+   "phase": 1,
+   "status": "live"
+  },
+  {
+   "id": "H8",
+   "name": "Local Housing Statistics",
+   "publisher": "HUD",
+   "domain": "Hapori",
+   "frequency": "Monthly",
+   "phase": 2,
+   "status": "planned"
+  },
+  {
+   "id": "H9",
+   "name": "Change in Housing Affordability Indicators",
+   "publisher": "HUD",
+   "domain": "Hapori",
+   "frequency": "Quarterly",
+   "phase": 2,
+   "status": "planned"
+  },
+  {
+   "id": "H10",
+   "name": "NPS-UD Dashboard",
+   "publisher": "HUD",
+   "domain": "Hapori",
+   "frequency": "Quarterly",
+   "phase": 2,
+   "status": "planned"
+  },
+  {
+   "id": "H11",
+   "name": "Rental bond data",
+   "publisher": "MBIE",
+   "domain": "Hapori",
+   "frequency": "Monthly",
+   "phase": 1,
+   "status": "manual",
+   "note": "mbie.govt.nz blocks cloud servers; save CSV to data/manual/mbie_bonds/"
+  },
+  {
+   "id": "H12",
+   "name": "House sales/prices (REINZ",
+   "CoreLogic)": null,
+   "publisher": "REINZ / CoreLogic",
+   "domain": "Hapori",
+   "frequency": "Monthly",
+   "phase": 3,
+   "status": "borderline",
+   "note": "Licence"
+  },
+  {
+   "id": "H13",
+   "name": "Childhood immunisation coverage",
+   "publisher": "Health NZ",
+   "domain": "Hapori",
+   "frequency": "Quarterly",
+   "phase": 1,
+   "status": "live",
+   "note": "Rolling 12-month files from Oct 2022; pre-2022 quarterly files to backfill"
+  },
+  {
+   "id": "H14",
+   "name": "HPV and influenza vaccination",
+   "publisher": "Health NZ",
+   "domain": "Hapori",
+   "frequency": "Quarterly/weekly",
+   "phase": 2,
+   "status": "planned"
+  },
+  {
+   "id": "H15",
+   "name": "Health targets (ED <6h etc.)",
+   "publisher": "Health NZ",
+   "domain": "Hapori",
+   "frequency": "Quarterly",
+   "phase": 3,
+   "status": "planned",
+   "note": "PDF"
+  },
+  {
+   "id": "H16",
+   "name": "Quarterly Performance Report (ASH)",
+   "publisher": "Health NZ",
+   "domain": "Hapori",
+   "frequency": "Quarterly",
+   "phase": 3,
+   "status": "planned",
+   "note": "PDF only after June 2024"
+  },
+  {
+   "id": "H17",
+   "name": "NZ Health Survey – regional",
+   "publisher": "Ministry of Health",
+   "domain": "Hapori",
+   "frequency": "Annual",
+   "phase": 2,
+   "status": "planned"
+  },
+  {
+   "id": "H18",
+   "name": "PHO enrolment",
+   "publisher": "Health NZ",
+   "domain": "Hapori",
+   "frequency": "Quarterly",
+   "phase": 1,
+   "status": "planned"
+  },
+  {
+   "id": "H19",
+   "name": "Mortality web tool",
+   "publisher": "Health NZ",
+   "domain": "Hapori",
+   "frequency": "Annual",
+   "phase": 3,
+   "status": "planned"
+  },
+  {
+   "id": "H20",
+   "name": "Cancer web tool",
+   "publisher": "Health NZ",
+   "domain": "Hapori",
+   "frequency": "Annual",
+   "phase": 3,
+   "status": "planned"
+  },
+  {
+   "id": "H21",
+   "name": "Suicide web tool",
+   "publisher": "Health NZ",
+   "domain": "Hapori",
+   "frequency": "Annual",
+   "phase": 3,
+   "status": "planned",
+   "note": "Multi-year aggregated rates only"
+  },
+  {
+   "id": "H22",
+   "name": "Victimisations (policedata.nz)",
+   "publisher": "NZ Police",
+   "domain": "Hapori",
+   "frequency": "Monthly",
+   "phase": 2,
+   "status": "planned"
+  },
+  {
+   "id": "H23",
+   "name": "Proceedings/offenders",
+   "publisher": "NZ Police",
+   "domain": "Hapori",
+   "frequency": "Monthly",
+   "phase": 2,
+   "status": "planned",
+   "note": "Eastern district"
+  },
+  {
+   "id": "H24",
+   "name": "Crash Analysis System",
+   "publisher": "NZTA",
+   "domain": "Hapori",
+   "frequency": "Monthly",
+   "phase": 1,
+   "status": "live",
+   "note": "Public layer is annual (no month field); Gisborne rows from 2006"
+  },
+  {
+   "id": "H25",
+   "name": "Adults with finalised charges / convicted",
+   "publisher": "MoJ / Stats NZ",
+   "domain": "Hapori",
+   "frequency": "Annual",
+   "phase": 1,
+   "status": "planned"
+  },
+  {
+   "id": "H26",
+   "name": "Oranga Tamariki / Corrections",
+   "publisher": "OT / Corrections",
+   "domain": "Hapori",
+   "frequency": "Quarterly",
+   "phase": 3,
+   "status": "borderline"
+  },
+  {
+   "id": "H27",
+   "name": "Motor Vehicle Register; traffic counts",
+   "publisher": "NZTA",
+   "domain": "Hapori",
+   "frequency": "Monthly",
+   "phase": 2,
+   "status": "planned"
+  },
+  {
+   "id": "M1",
+   "name": "School attendance",
+   "publisher": "Ministry of Education",
+   "domain": "Mātauranga",
+   "frequency": "Termly",
+   "phase": 1,
+   "status": "planned",
+   "note": "educationcounts.govt.nz returned 403 to automated requests – test from GitHub Actions or use manual drop"
+  },
+  {
+   "id": "M2",
+   "name": "Daily attendance dashboard",
+   "publisher": "Ministry of Education",
+   "domain": "Mātauranga",
+   "frequency": "Weekly",
+   "phase": 2,
+   "status": "borderline"
+  },
+  {
+   "id": "M3",
+   "name": "School leavers' attainment",
+   "publisher": "Ministry of Education",
+   "domain": "Mātauranga",
+   "frequency": "Annual",
+   "phase": 2,
+   "status": "planned"
+  },
+  {
+   "id": "M4",
+   "name": "NZQA secondary statistics",
+   "publisher": "NZQA",
+   "domain": "Mātauranga",
+   "frequency": "Annual",
+   "phase": 2,
+   "status": "planned"
+  },
+  {
+   "id": "M5",
+   "name": "ECE participation",
+   "publisher": "Ministry of Education",
+   "domain": "Mātauranga",
+   "frequency": "Annual",
+   "phase": 2,
+   "status": "planned"
+  },
+  {
+   "id": "M6",
+   "name": "Stand-downs",
+   "suspensions": null,
+   "exclusions": null,
+   "publisher": "Ministry of Education",
+   "domain": "Mātauranga",
+   "frequency": "Annual",
+   "phase": 2,
+   "status": "planned"
+  },
+  {
+   "id": "M7",
+   "name": "Tertiary participation",
+   "publisher": "Ministry of Education",
+   "domain": "Mātauranga",
+   "frequency": "Annual",
+   "phase": 2,
+   "status": "planned"
+  },
+  {
+   "id": "M8",
+   "name": "School rolls / Māori-medium enrolment",
+   "publisher": "Ministry of Education",
+   "domain": "Mātauranga",
+   "frequency": "Annual",
+   "phase": 2,
+   "status": "planned",
+   "note": "Best annual Tūtangata proxy"
+  },
+  {
+   "id": "T1",
+   "name": "LAWA river water quality",
+   "publisher": "GDC via LAWA",
+   "domain": "Taiao",
+   "frequency": "Annual",
+   "phase": 2,
+   "status": "planned"
+  },
+  {
+   "id": "T2",
+   "name": "LAWA recreational water quality",
+   "publisher": "GDC via LAWA",
+   "domain": "Taiao",
+   "frequency": "Annual",
+   "phase": 2,
+   "status": "planned"
+  },
+  {
+   "id": "T3",
+   "name": "LAWA groundwater and lakes",
+   "publisher": "GDC via LAWA",
+   "domain": "Taiao",
+   "frequency": "Annual",
+   "phase": 2,
+   "status": "planned"
+  },
+  {
+   "id": "T4",
+   "name": "GDC Hilltop hydrology",
+   "publisher": "Gisborne District Council",
+   "domain": "Taiao",
+   "frequency": "Near-real-time",
+   "phase": 3,
+   "status": "planned",
+   "note": "Endpoint to confirm with GDC"
+  },
+  {
+   "id": "T5",
+   "name": "National Climate Database (DataHub)",
+   "publisher": "Earth Sciences NZ",
+   "domain": "Taiao",
+   "frequency": "Monthly",
+   "phase": 3,
+   "status": "planned"
+  },
+  {
+   "id": "T6",
+   "name": "GHG emissions by region",
+   "publisher": "Stats NZ",
+   "domain": "Taiao",
+   "frequency": "Annual",
+   "phase": 2,
+   "status": "planned"
+  },
+  {
+   "id": "T7",
+   "name": "Land cover / LUCAS",
+   "publisher": "MfE / Stats NZ",
+   "domain": "Taiao",
+   "frequency": "Irregular",
+   "phase": 3,
+   "status": "borderline"
+  },
+  {
+   "id": "T8",
+   "name": "GDC Geoportal layers",
+   "publisher": "Gisborne District Council",
+   "domain": "Taiao",
+   "frequency": "Static",
+   "phase": 3,
+   "status": "borderline",
+   "note": "Reference layers"
+  },
+  {
+   "id": "R1",
+   "name": "Tairāwhiti Wellbeing Survey",
+   "publisher": "Trust Tairāwhiti",
+   "domain": "Tūhono",
+   "frequency": "Annual",
+   "phase": 1,
+   "status": "planned",
+   "note": "In-house (Zoho); join on the same schema"
+  },
+  {
+   "id": "R2",
+   "name": "General Social Survey",
+   "publisher": "Stats NZ",
+   "domain": "Tūhono",
+   "frequency": "Biennial",
+   "phase": 3,
+   "status": "borderline"
+  },
+  {
+   "id": "R3",
+   "name": "Te Kupenga",
+   "publisher": "Stats NZ",
+   "domain": "Tūtangata",
+   "frequency": "Five-yearly",
+   "phase": 3,
+   "status": "borderline"
+  },
+  {
+   "id": "R4",
+   "name": "Census iwi affiliation and te reo",
+   "publisher": "Stats NZ",
+   "domain": "Tūtangata",
+   "frequency": "Five-yearly",
+   "phase": 2,
+   "status": "planned"
+  },
+  {
+   "id": "R5",
+   "name": "Local election turnout",
+   "publisher": "DIA / GDC",
+   "domain": "Tūhono",
+   "frequency": "Triennial",
+   "phase": 3,
+   "status": "borderline"
+  },
+  {
+   "id": "R6",
+   "name": "General election enrolment and turnout",
+   "publisher": "Electoral Commission",
+   "domain": "Tūhono",
+   "frequency": "Triennial",
+   "phase": 3,
+   "status": "planned"
+  },
+  {
+   "id": "R7",
+   "name": "Māori Land Online",
+   "publisher": "Māori Land Court",
+   "domain": "Tūtangata",
+   "frequency": "Register",
+   "phase": 3,
+   "status": "borderline"
+  },
+  {
+   "id": "G1",
+   "name": "GDC annual report KPIs",
+   "publisher": "Gisborne District Council",
+   "domain": "Hapori",
+   "frequency": "Annual",
+   "phase": 3,
+   "status": "planned",
+   "note": "Manual"
+  },
+  {
+   "id": "G2",
+   "name": "Local authority financial statistics",
+   "publisher": "Stats NZ / DIA",
+   "domain": "Ōhanga",
+   "frequency": "Annual",
+   "phase": 3,
+   "status": "borderline"
+  },
+  {
+   "id": "G3",
+   "name": "Cyclone Gabrielle recovery",
+   "publisher": "Recovery Office",
+   "domain": "Hapori",
+   "frequency": "Varies",
+   "phase": 3,
+   "status": "borderline",
+   "note": "Context layer (<5 years)"
+  },
+  {
+   "id": "G4",
+   "name": "Digital connectivity",
+   "publisher": "Commerce Commission / Census",
+   "domain": "Ōhanga",
+   "frequency": "Irregular",
+   "phase": 3,
+   "status": "borderline"
+  }
+ ]
+}

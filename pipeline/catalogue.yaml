@@ -1,0 +1,72 @@
+# Dataset library (from the Tairāwhiti Longitudinal Open Data Library and Connector Plan, Nov 2026).
+# status: live (automated connector) | manual (connector reads a hand-saved file) | planned | borderline
+# phase: roadmap phase from the plan. Update status as connectors are added.
+- {id: E1, name: Regional GDP, publisher: Stats NZ, domain: Ōhanga, frequency: Annual, phase: 2, status: planned, note: "Infoshare → ADE Time Series Expansion (target Apr 2027)"}
+- {id: E2, name: Modelled TA GDP (MTAGDP), publisher: MBIE, domain: Ōhanga, frequency: Irregular, phase: 2, status: borderline, note: Irregular releases}
+- {id: E3, name: Business Demography Statistics, publisher: Stats NZ, domain: Ōhanga, frequency: Annual, phase: 1, status: live, note: "ADE BDS_BDS_001"}
+- {id: E4, name: Linked Employer-Employee Data (LEED), publisher: Stats NZ, domain: Ōhanga, frequency: Quarterly, phase: 2, status: planned}
+- {id: E5, name: Monthly Employment Indicators, publisher: Stats NZ, domain: Ōhanga, frequency: Monthly, phase: 2, status: planned}
+- {id: E6, name: HLFS – regional, publisher: Stats NZ, domain: Ōhanga, frequency: Quarterly, phase: 2, status: planned, note: "Gisborne/Hawke's Bay combined – proxy only"}
+- {id: E7, name: Electronic Card Transactions – regional, publisher: Stats NZ, domain: Ōhanga, frequency: Monthly, phase: 2, status: planned}
+- {id: E8, name: Monthly Regional Tourism Estimates, publisher: MBIE, domain: Ōhanga, frequency: Monthly, phase: 2, status: planned, note: "Redeveloped series; vintage-stamp each pull. mbie.govt.nz blocks bots – TEIC host to test"}
+- {id: E9, name: Tourism Electronic Card Transactions, publisher: MBIE, domain: Ōhanga, frequency: Monthly, phase: 4, status: planned, note: "Paused; resuming early 2027"}
+- {id: E10, name: Accommodation Data Programme, publisher: MBIE, domain: Ōhanga, frequency: Monthly, phase: 2, status: planned}
+- {id: E11, name: Regional Economic Activity Web Tool, publisher: MBIE, domain: Ōhanga, frequency: Periodic, phase: 2, status: borderline, note: Aggregator – validation only}
+- {id: E12, name: Agricultural Production Statistics, publisher: Stats NZ, domain: Ōhanga, frequency: Annual, phase: 2, status: planned, note: "ADE AGR_AGR_001–003"}
+- {id: E13, name: Building consents issued, publisher: Stats NZ, domain: Ōhanga, frequency: Monthly, phase: 2, status: planned}
+- {id: E14, name: Residential electricity consumption, publisher: Electricity Authority EMI, domain: Ōhanga, frequency: Monthly, phase: 2, status: planned}
+- {id: E15, name: Infometrics regional profile, publisher: Infometrics, domain: Ōhanga, frequency: Quarterly, phase: 3, status: borderline, note: Proprietary – licence needed}
+- {id: H1, name: Subnational population estimates, publisher: Stats NZ, domain: Hapori, frequency: Annual, phase: 1, status: live, note: "ADE POPES_SUB_011"}
+- {id: H2, name: Subnational population projections, publisher: Stats NZ, domain: Hapori, frequency: ~3-yearly, phase: 2, status: borderline}
+- {id: H3, name: Births and deaths, publisher: Stats NZ, domain: Hapori, frequency: Quarterly, phase: 2, status: planned}
+- {id: H4, name: Census 2013/2018/2023, publisher: Stats NZ, domain: Hapori, frequency: Five-yearly, phase: 1, status: planned}
+- {id: H5, name: Benefit Fact Sheets – regional council, publisher: MSD, domain: Hapori, frequency: Quarterly, phase: 1, status: live, note: "Rebuilt from archives back to Sept 2013"}
+- {id: H6, name: Supplementary and hardship assistance, publisher: MSD, domain: Hapori, frequency: Quarterly, phase: 2, status: planned, note: East Coast W&I region is wider than Tairāwhiti}
+- {id: H7, name: HUD Housing Dashboard, publisher: HUD, domain: Hapori, frequency: Monthly, phase: 1, status: live}
+- {id: H8, name: Local Housing Statistics, publisher: HUD, domain: Hapori, frequency: Monthly, phase: 2, status: planned}
+- {id: H9, name: Change in Housing Affordability Indicators, publisher: HUD, domain: Hapori, frequency: Quarterly, phase: 2, status: planned}
+- {id: H10, name: NPS-UD Dashboard, publisher: HUD, domain: Hapori, frequency: Quarterly, phase: 2, status: planned}
+- {id: H11, name: Rental bond data, publisher: MBIE, domain: Hapori, frequency: Monthly, phase: 1, status: manual, note: "mbie.govt.nz blocks cloud servers; save CSV to data/manual/mbie_bonds/"}
+- {id: H12, name: House sales/prices (REINZ, CoreLogic), publisher: REINZ / CoreLogic, domain: Hapori, frequency: Monthly, phase: 3, status: borderline, note: Licence}
+- {id: H13, name: Childhood immunisation coverage, publisher: Health NZ, domain: Hapori, frequency: Quarterly, phase: 1, status: live, note: "Rolling 12-month files from Oct 2022; pre-2022 quarterly files to backfill"}
+- {id: H14, name: HPV and influenza vaccination, publisher: Health NZ, domain: Hapori, frequency: Quarterly/weekly, phase: 2, status: planned}
+- {id: H15, name: Health targets (ED <6h etc.), publisher: Health NZ, domain: Hapori, frequency: Quarterly, phase: 3, status: planned, note: PDF}
+- {id: H16, name: Quarterly Performance Report (ASH), publisher: Health NZ, domain: Hapori, frequency: Quarterly, phase: 3, status: planned, note: PDF only after June 2024}
+- {id: H17, name: NZ Health Survey – regional, publisher: Ministry of Health, domain: Hapori, frequency: Annual, phase: 2, status: planned}
+- {id: H18, name: PHO enrolment, publisher: Health NZ, domain: Hapori, frequency: Quarterly, phase: 1, status: planned}
+- {id: H19, name: Mortality web tool, publisher: Health NZ, domain: Hapori, frequency: Annual, phase: 3, status: planned}
+- {id: H20, name: Cancer web tool, publisher: Health NZ, domain: Hapori, frequency: Annual, phase: 3, status: planned}
+- {id: H21, name: Suicide web tool, publisher: Health NZ, domain: Hapori, frequency: Annual, phase: 3, status: planned, note: Multi-year aggregated rates only}
+- {id: H22, name: Victimisations (policedata.nz), publisher: NZ Police, domain: Hapori, frequency: Monthly, phase: 2, status: planned}
+- {id: H23, name: Proceedings/offenders, publisher: NZ Police, domain: Hapori, frequency: Monthly, phase: 2, status: planned, note: Eastern district}
+- {id: H24, name: Crash Analysis System, publisher: NZTA, domain: Hapori, frequency: Monthly, phase: 1, status: live, note: "Public layer is annual (no month field); Gisborne rows from 2006"}
+- {id: H25, name: Adults with finalised charges / convicted, publisher: MoJ / Stats NZ, domain: Hapori, frequency: Annual, phase: 1, status: planned}
+- {id: H26, name: Oranga Tamariki / Corrections, publisher: OT / Corrections, domain: Hapori, frequency: Quarterly, phase: 3, status: borderline}
+- {id: H27, name: Motor Vehicle Register; traffic counts, publisher: NZTA, domain: Hapori, frequency: Monthly, phase: 2, status: planned}
+- {id: M1, name: School attendance, publisher: Ministry of Education, domain: Mātauranga, frequency: Termly, phase: 1, status: planned, note: "educationcounts.govt.nz returned 403 to automated requests – test from GitHub Actions or use manual drop"}
+- {id: M2, name: Daily attendance dashboard, publisher: Ministry of Education, domain: Mātauranga, frequency: Weekly, phase: 2, status: borderline}
+- {id: M3, name: School leavers' attainment, publisher: Ministry of Education, domain: Mātauranga, frequency: Annual, phase: 2, status: planned}
+- {id: M4, name: NZQA secondary statistics, publisher: NZQA, domain: Mātauranga, frequency: Annual, phase: 2, status: planned}
+- {id: M5, name: ECE participation, publisher: Ministry of Education, domain: Mātauranga, frequency: Annual, phase: 2, status: planned}
+- {id: M6, name: Stand-downs, suspensions, exclusions, publisher: Ministry of Education, domain: Mātauranga, frequency: Annual, phase: 2, status: planned}
+- {id: M7, name: Tertiary participation, publisher: Ministry of Education, domain: Mātauranga, frequency: Annual, phase: 2, status: planned}
+- {id: M8, name: School rolls / Māori-medium enrolment, publisher: Ministry of Education, domain: Mātauranga, frequency: Annual, phase: 2, status: planned, note: Best annual Tūtangata proxy}
+- {id: T1, name: LAWA river water quality, publisher: GDC via LAWA, domain: Taiao, frequency: Annual, phase: 2, status: planned}
+- {id: T2, name: LAWA recreational water quality, publisher: GDC via LAWA, domain: Taiao, frequency: Annual, phase: 2, status: planned}
+- {id: T3, name: LAWA groundwater and lakes, publisher: GDC via LAWA, domain: Taiao, frequency: Annual, phase: 2, status: planned}
+- {id: T4, name: GDC Hilltop hydrology, publisher: Gisborne District Council, domain: Taiao, frequency: Near-real-time, phase: 3, status: planned, note: Endpoint to confirm with GDC}
+- {id: T5, name: National Climate Database (DataHub), publisher: Earth Sciences NZ, domain: Taiao, frequency: Monthly, phase: 3, status: planned}
+- {id: T6, name: GHG emissions by region, publisher: Stats NZ, domain: Taiao, frequency: Annual, phase: 2, status: planned}
+- {id: T7, name: Land cover / LUCAS, publisher: MfE / Stats NZ, domain: Taiao, frequency: Irregular, phase: 3, status: borderline}
+- {id: T8, name: GDC Geoportal layers, publisher: Gisborne District Council, domain: Taiao, frequency: Static, phase: 3, status: borderline, note: Reference layers}
+- {id: R1, name: Tairāwhiti Wellbeing Survey, publisher: Trust Tairāwhiti, domain: Tūhono, frequency: Annual, phase: 1, status: planned, note: "In-house (Zoho); join on the same schema"}
+- {id: R2, name: General Social Survey, publisher: Stats NZ, domain: Tūhono, frequency: Biennial, phase: 3, status: borderline}
+- {id: R3, name: Te Kupenga, publisher: Stats NZ, domain: Tūtangata, frequency: Five-yearly, phase: 3, status: borderline}
+- {id: R4, name: Census iwi affiliation and te reo, publisher: Stats NZ, domain: Tūtangata, frequency: Five-yearly, phase: 2, status: planned}
+- {id: R5, name: Local election turnout, publisher: DIA / GDC, domain: Tūhono, frequency: Triennial, phase: 3, status: borderline}
+- {id: R6, name: General election enrolment and turnout, publisher: Electoral Commission, domain: Tūhono, frequency: Triennial, phase: 3, status: planned}
+- {id: R7, name: Māori Land Online, publisher: Māori Land Court, domain: Tūtangata, frequency: Register, phase: 3, status: borderline}
+- {id: G1, name: GDC annual report KPIs, publisher: Gisborne District Council, domain: Hapori, frequency: Annual, phase: 3, status: planned, note: Manual}
+- {id: G2, name: Local authority financial statistics, publisher: Stats NZ / DIA, domain: Ōhanga, frequency: Annual, phase: 3, status: borderline}
+- {id: G3, name: Cyclone Gabrielle recovery, publisher: Recovery Office, domain: Hapori, frequency: Varies, phase: 3, status: borderline, note: Context layer (<5 years)}
+- {id: G4, name: Digital connectivity, publisher: Commerce Commission / Census, domain: Ōhanga, frequency: Irregular, phase: 3, status: borderline}

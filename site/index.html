@@ -1,0 +1,418 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Tairāwhiti Regional Public Data Dashboard</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,500;12..96,700&family=Inter:wght@400;500;600&family=IBM+Plex+Mono:wght@400;500&display=swap">
+<style>
+/* Layout: sticky header + tab bar; "At a glance" tile grid; domain tabs as topic sections of chart cards. */
+:root {
+  --bg: #f5f7f6; --surface: #ffffff; --ink: #0f1f1e; --ink-2: #4a5a58; --ink-3: #75837f;
+  --line: #dbe3e0; --grid: #e8eeec; --accent: #0b6470; --accent-soft: #e0f0f0;
+  --s1: #2a78d6; --s2: #eb6834; --s3: #8a9592;
+  --good: #0c7a0c; --good-bg: #e3f3e3; --bad: #c03636; --bad-bg: #fbe7e6; --flat: #5f6b68; --flat-bg: #eceff0;
+  --warn-bg: #fff3d6; --warn: #8a5a00;
+  --f-display: "Bricolage Grotesque", "Segoe UI", system-ui, sans-serif;
+  --f-body: "Inter", system-ui, -apple-system, "Segoe UI", sans-serif;
+  --f-data: "IBM Plex Mono", ui-monospace, "SFMono-Regular", Menlo, monospace;
+  color-scheme: light;
+}
+@media (prefers-color-scheme: dark) { :root:not([data-theme="light"]) {
+  --bg: #0e1615; --surface: #152120; --ink: #e8efed; --ink-2: #b4c2bf; --ink-3: #8a9a96;
+  --line: #2a3a38; --grid: #1f2d2b; --accent: #5cc0c8; --accent-soft: #163536;
+  --s1: #3987e5; --s2: #d95926; --s3: #8a9592;
+  --good: #4fc44f; --good-bg: #173018; --bad: #ff7b7b; --bad-bg: #3a1c1c; --flat: #a9b5b2; --flat-bg: #243231;
+  --warn-bg: #3a2e10; --warn: #f2c25c; color-scheme: dark; } }
+:root[data-theme="dark"] {
+  --bg: #0e1615; --surface: #152120; --ink: #e8efed; --ink-2: #b4c2bf; --ink-3: #8a9a96;
+  --line: #2a3a38; --grid: #1f2d2b; --accent: #5cc0c8; --accent-soft: #163536;
+  --s1: #3987e5; --s2: #d95926; --s3: #8a9592;
+  --good: #4fc44f; --good-bg: #173018; --bad: #ff7b7b; --bad-bg: #3a1c1c; --flat: #a9b5b2; --flat-bg: #243231;
+  --warn-bg: #3a2e10; --warn: #f2c25c; color-scheme: dark; }
+
+* { box-sizing: border-box; }
+html, body { margin: 0; }
+body { background: var(--bg); color: var(--ink); font: 15px/1.5 var(--f-body); }
+body::before { content: ""; position: fixed; inset: 0 0 auto; height: env(safe-area-inset-top, 0px); z-index: 10; background: var(--surface); }
+.wrap { max-width: 1240px; margin: 0 auto; padding-left: max(16px, env(safe-area-inset-left, 0px)); padding-right: max(16px, env(safe-area-inset-right, 0px)); }
+header.top { background: var(--surface); border-bottom: 1px solid var(--line); position: sticky; top: env(safe-area-inset-top, 0px); z-index: 5; }
+.brand { display: flex; flex-wrap: wrap; align-items: baseline; justify-content: space-between; gap: 4px 24px; padding-block: 14px 6px; }
+h1 { font: 700 clamp(20px, 2.6vw, 28px)/1.15 var(--f-display); margin: 0; letter-spacing: -0.01em; text-wrap: balance; }
+h1 .reo { color: var(--accent); }
+.meta { color: var(--ink-3); font: 12px var(--f-data); }
+nav.tabs { display: flex; gap: 2px; overflow-x: auto; scrollbar-width: none; }
+nav.tabs a { flex: none; padding: 9px 12px 10px; color: var(--ink-2); text-decoration: none; font-weight: 500; font-size: 14px; border-bottom: 2px solid transparent; }
+nav.tabs a:hover { color: var(--ink); }
+nav.tabs a[aria-current="page"] { color: var(--accent); border-bottom-color: var(--accent); }
+nav.tabs a:focus-visible, button:focus-visible, select:focus-visible { outline: 2px solid var(--accent); outline-offset: 2px; }
+main { padding-block: 24px 64px; }
+.intro { max-width: 70ch; color: var(--ink-2); margin: 0 0 20px; }
+h2 { font: 700 20px/1.2 var(--f-display); margin: 32px 0 12px; text-wrap: balance; }
+h2:first-child { margin-top: 0; }
+h3 { font: 600 15px/1.3 var(--f-body); margin: 0; }
+
+.tiles { display: grid; grid-template-columns: repeat(auto-fill, minmax(250px, 1fr)); gap: 12px; }
+.tile { background: var(--surface); border: 1px solid var(--line); border-radius: 10px; padding: 14px 16px 12px; display: grid; gap: 4px; min-width: 0; cursor: pointer; text-align: left; font: inherit; color: inherit; }
+.tile:hover { border-color: var(--accent); }
+.tile .lab { font-size: 13px; color: var(--ink-2); min-height: 2.6em; }
+.tile .val { font: 500 28px/1.1 var(--f-data); font-variant-numeric: tabular-nums; letter-spacing: -0.02em; }
+.tile .per { font: 12px var(--f-data); color: var(--ink-3); }
+.tile .row { display: flex; align-items: center; justify-content: space-between; gap: 8px; }
+.chip { display: inline-flex; align-items: center; gap: 4px; padding: 1px 8px; border-radius: 999px; font: 500 12px var(--f-data); white-space: nowrap; }
+.chip.good { color: var(--good); background: var(--good-bg); }
+.chip.bad { color: var(--bad); background: var(--bad-bg); }
+.chip.flat { color: var(--flat); background: var(--flat-bg); }
+.dom { font: 500 11px var(--f-body); letter-spacing: .06em; text-transform: uppercase; color: var(--accent); }
+
+.cards { display: grid; grid-template-columns: repeat(auto-fill, minmax(min(100%, 520px), 1fr)); gap: 14px; }
+.card { background: var(--surface); border: 1px solid var(--line); border-radius: 10px; padding: 16px 16px 12px; min-width: 0; display: grid; gap: 8px; align-content: start; }
+.card .head { display: flex; justify-content: space-between; gap: 12px; align-items: baseline; flex-wrap: wrap; }
+.card .now { font: 500 22px var(--f-data); font-variant-numeric: tabular-nums; }
+.card .now small { font-size: 12px; color: var(--ink-3); margin-left: 6px; }
+.legend { display: flex; flex-wrap: wrap; gap: 4px 14px; font-size: 12px; color: var(--ink-2); }
+.legend i { display: inline-block; width: 14px; height: 3px; border-radius: 2px; vertical-align: middle; margin-right: 6px; }
+.legend i.dash { background: repeating-linear-gradient(90deg, var(--s3) 0 4px, transparent 4px 7px) !important; }
+.chart { position: relative; }
+.chart svg { display: block; width: 100%; height: auto; overflow: visible; }
+.chart text { fill: var(--ink-3); font: 11px var(--f-data); }
+.tip { position: absolute; pointer-events: none; background: var(--ink); color: var(--bg); font: 12px/1.4 var(--f-data); padding: 6px 8px; border-radius: 6px; white-space: nowrap; transform: translate(-50%, -100%); top: 0; }
+.note { font-size: 12px; color: var(--ink-3); }
+.note b { color: var(--ink-2); font-weight: 500; }
+.src { font-size: 12px; color: var(--ink-3); border-top: 1px solid var(--grid); padding-top: 8px; display: flex; justify-content: space-between; gap: 12px; flex-wrap: wrap; }
+.src a { color: var(--accent); }
+button.link { background: none; border: 0; padding: 0; color: var(--accent); font: inherit; cursor: pointer; text-decoration: underline; }
+.tbl-wrap { overflow-x: auto; max-height: 260px; overflow-y: auto; border: 1px solid var(--grid); border-radius: 6px; }
+table { border-collapse: collapse; width: 100%; font-size: 13px; }
+th, td { padding: 6px 10px; text-align: left; border-bottom: 1px solid var(--grid); }
+th { font-weight: 600; color: var(--ink-2); background: var(--surface); position: sticky; top: 0; }
+td.num, th.num { text-align: right; font-family: var(--f-data); font-variant-numeric: tabular-nums; }
+.gap { background: var(--surface); border: 1px dashed var(--line); border-radius: 10px; padding: 16px; color: var(--ink-2); }
+.gap ul { margin: 8px 0 0; padding-left: 18px; }
+.pill { display: inline-block; padding: 1px 8px; border-radius: 999px; font: 500 11px var(--f-data); text-transform: uppercase; letter-spacing: .04em; }
+.pill.live { color: var(--good); background: var(--good-bg); }
+.pill.manual { color: var(--warn); background: var(--warn-bg); }
+.pill.planned { color: var(--flat); background: var(--flat-bg); }
+.pill.borderline { color: var(--ink-3); background: transparent; border: 1px solid var(--line); }
+.pill.fail { color: var(--bad); background: var(--bad-bg); }
+.filters { display: flex; flex-wrap: wrap; gap: 8px 16px; align-items: center; margin-bottom: 12px; font-size: 13px; color: var(--ink-2); }
+select { font: inherit; color: var(--ink); background: var(--surface); border: 1px solid var(--line); border-radius: 6px; padding: 4px 8px; }
+.empty { padding: 40px 0; color: var(--ink-3); }
+footer { color: var(--ink-3); font-size: 12px; border-top: 1px solid var(--line); padding-block: 16px 32px; }
+@media (prefers-reduced-motion: no-preference) { .tile, .card { transition: border-color .15s; } }
+</style>
+</head>
+<body>
+<header class="top">
+  <div class="wrap">
+    <div class="brand">
+      <h1>Tairāwhiti Regional <span class="reo">Public Data</span> Dashboard</h1>
+      <div class="meta" id="refreshed">Loading data…</div>
+    </div>
+    <nav class="tabs" id="tabs" aria-label="Sections"></nav>
+  </div>
+</header>
+<main class="wrap" id="main"><p class="empty">Loading data…</p></main>
+<footer class="wrap">
+  Built from public, regularly updated datasets. Every chart names its publisher and licence. Counts follow publisher rounding and suppression rules; small numbers are noisy, so read multi-year trends.
+  Māori-disaggregated indicators are presented under Te Mana Raraunga and CARE principles.
+</footer>
+<script>
+"use strict";
+const TABS = [
+  { id: "glance", label: "At a glance" },
+  { id: "ohanga", label: "Ōhanga", domain: "Ōhanga", blurb: "Economy: business activity and income support." },
+  { id: "hapori", label: "Hapori", domain: "Hapori", blurb: "Communities: population, housing, health and safety." },
+  { id: "matauranga", label: "Mātauranga", domain: "Mātauranga", blurb: "Knowledge: education and learning." },
+  { id: "taiao", label: "Taiao", domain: "Taiao", blurb: "Environment: water, climate and land." },
+  { id: "tuhono", label: "Tūhono & Tūtangata", domain: ["Tūhono", "Tūtangata"], blurb: "Relationships and cultural identity." },
+  { id: "library", label: "Data library" },
+  { id: "status", label: "Data status" },
+];
+const MAIN_GEO = new Set(["05", "028", "TRW"]);
+let D = null, BY = {};
+const $ = (s, el = document) => el.querySelector(s);
+const el = (tag, attrs = {}, ...kids) => {
+  const e = document.createElement(tag);
+  for (const [k, v] of Object.entries(attrs)) {
+    if (k === "class") e.className = v; else if (k === "text") e.textContent = v;
+    else if (k.startsWith("on")) e.addEventListener(k.slice(2), v); else e.setAttribute(k, v);
+  }
+  for (const k of kids.flat()) if (k != null) e.append(k.nodeType ? k : document.createTextNode(k));
+  return e;
+};
+const parseD = s => new Date(s + "T00:00:00");
+
+function fmt(v, format, unit) {
+  if (v == null || isNaN(v)) return "–";
+  if (format === "pct") return v.toFixed(1) + "%";
+  if (format === "currency") return "$" + (Math.abs(v) >= 10000 ? Math.round(v).toLocaleString("en-NZ") : v.toLocaleString("en-NZ", { maximumFractionDigits: 0 }));
+  return Math.round(v).toLocaleString("en-NZ");
+}
+function periodLabel(end, ptype) {
+  const d = parseD(end), m = d.toLocaleString("en-NZ", { month: "short" });
+  if (ptype === "year") return String(d.getFullYear());
+  if (ptype === "rolling_12m") return "12 months to " + m + " " + d.getFullYear();
+  if (ptype === "quarter") return m + " " + d.getFullYear() + " qtr";
+  return m + " " + d.getFullYear();
+}
+
+function seriesFor(ind) { return BY[ind] || []; }
+function mainSeries(ind) { return seriesFor(ind).find(s => MAIN_GEO.has(s.geo) && s.ethnicity === "Total"); }
+function usable(points) { return points.filter(p => p[1] != null && !(p[2] || "").includes("partial")); }
+
+function headline(ind) {
+  const s = mainSeries(ind); if (!s) return null;
+  const pts = usable(s.points); if (!pts.length) return null;
+  const last = pts[pts.length - 1], lastD = parseD(last[0]);
+  const target = new Date(lastD); target.setFullYear(target.getFullYear() - 1);
+  let prev = null, best = Infinity;
+  for (const p of pts) { const dd = Math.abs(parseD(p[0]) - target); if (dd < best) { best = dd; prev = p; } }
+  if (best > 1000 * 86400 * 60) prev = null;
+  return { s, last, prev };
+}
+function changeChip(ind, h) {
+  const meta = D.indicators[ind];
+  if (!h || !h.prev || h.prev === h.last) return null;
+  const a = h.last[1], b = h.prev[1];
+  const pct = meta.format === "pct";
+  const diff = pct ? a - b : (b ? (a - b) / Math.abs(b) * 100 : 0);
+  const txt = (diff >= 0 ? "▲ " : "▼ ") + Math.abs(diff).toFixed(1) + (pct ? " pts" : "%") + " yr";
+  let cls = "flat";
+  if (Math.abs(diff) >= 1 && meta.direction !== "neutral") cls = ((diff > 0) === (meta.direction === "up")) ? "good" : "bad";
+  const word = cls === "good" ? "improving" : cls === "bad" ? "worsening" : "no clear change";
+  return el("span", { class: "chip " + cls, title: `Change vs ${periodLabel(h.prev[0], h.s.period_type)} (${word})`, text: txt });
+}
+
+/* ---------- SVG line chart with crosshair tooltip ---------- */
+function lineChart(lines, meta, { height = 220, spark = false } = {}) {
+  const box = el("div", { class: "chart" });
+  const draw = () => {
+    box.innerHTML = "";
+    const W = Math.max(box.clientWidth || 300, 200), H = spark ? 44 : height;
+    const m = spark ? { t: 4, r: 4, b: 4, l: 4 } : { t: 10, r: 14, b: 24, l: 52 };
+    const all = lines.flatMap(l => l.points.filter(p => p[1] != null));
+    if (!all.length) return;
+    const xs = all.map(p => +parseD(p[0])), ys = all.map(p => p[1]);
+    const x0 = Math.min(...xs), x1 = Math.max(...xs);
+    let y0 = Math.min(...ys), y1 = Math.max(...ys);
+    if (meta.format === "pct") { y0 = Math.max(0, Math.floor((y0 - 5) / 10) * 10); y1 = Math.min(100, Math.ceil((y1 + 2) / 10) * 10); }
+    else { y0 = y0 >= 0 && y0 < (y1 - y0) * 1.2 ? 0 : y0 - (y1 - y0) * 0.1; y1 = y1 + (y1 - y0) * 0.06 || 1; }
+    const X = v => m.l + (x1 === x0 ? 0.5 : (v - x0) / (x1 - x0)) * (W - m.l - m.r);
+    const Y = v => m.t + (1 - (v - y0) / (y1 - y0 || 1)) * (H - m.t - m.b);
+    const NS = "http://www.w3.org/2000/svg";
+    const svg = document.createElementNS(NS, "svg");
+    svg.setAttribute("viewBox", `0 0 ${W} ${H}`); svg.setAttribute("role", "img");
+    svg.setAttribute("aria-label", meta.name + " chart");
+    const add = (tag, a) => { const n = document.createElementNS(NS, tag); for (const k in a) n.setAttribute(k, a[k]); svg.append(n); return n; };
+    if (!spark) {
+      const ticks = niceTicks(y0, y1, 4);
+      for (const t of ticks) {
+        add("line", { x1: m.l, x2: W - m.r, y1: Y(t), y2: Y(t), stroke: "var(--grid)", "stroke-width": 1 });
+        const tx = add("text", { x: m.l - 8, y: Y(t) + 4, "text-anchor": "end" }); tx.textContent = shortNum(t, meta.format);
+      }
+      const ya = new Date(x0).getFullYear(), yb = new Date(x1).getFullYear();
+      const step = Math.max(1, Math.ceil((yb - ya + 1) / Math.max(2, Math.floor((W - 80) / 60))));
+      for (let y = ya; y <= yb; y += step) {
+        const xv = +new Date(y, 0, 1); if (xv < x0 || xv > x1) continue;
+        const tx = add("text", { x: X(xv), y: H - 6, "text-anchor": "middle" }); tx.textContent = y;
+      }
+    }
+    lines.forEach((l, i) => {
+      const pts = l.points.filter(p => p[1] != null);
+      const d = pts.map((p, j) => (j ? "L" : "M") + X(+parseD(p[0])).toFixed(1) + "," + Y(p[1]).toFixed(1)).join("");
+      if (i === 0 && !spark) {
+        const area = d + `L${X(+parseD(pts[pts.length - 1][0]))},${Y(y0)}L${X(+parseD(pts[0][0]))},${Y(y0)}Z`;
+        add("path", { d: area, fill: l.color, "fill-opacity": 0.08, stroke: "none" });
+      }
+      add("path", { d, fill: "none", stroke: l.color, "stroke-width": spark ? 1.75 : 2, "stroke-linejoin": "round", "stroke-linecap": "round", ...(l.dash ? { "stroke-dasharray": "4 3" } : {}) });
+      const lp = pts[pts.length - 1];
+      if (lp && (i === 0 || !spark)) add("circle", { cx: X(+parseD(lp[0])), cy: Y(lp[1]), r: spark ? 2.5 : 3.5, fill: l.color, stroke: "var(--surface)", "stroke-width": 2 });
+    });
+    box.append(svg);
+    if (spark) return;
+    const tip = el("div", { class: "tip", hidden: "" });
+    const cross = add("line", { y1: m.t, y2: H - m.b, stroke: "var(--ink-3)", "stroke-width": 1, "stroke-dasharray": "2 3", visibility: "hidden" });
+    box.append(tip);
+    const dates = [...new Set(all.map(p => p[0]))].sort();
+    const move = ev => {
+      const r = svg.getBoundingClientRect(), px = (ev.clientX - r.left) * (W / r.width);
+      let best = dates[0], bd = Infinity;
+      for (const dt of dates) { const dd = Math.abs(X(+parseD(dt)) - px); if (dd < bd) { bd = dd; best = dt; } }
+      const cx = X(+parseD(best));
+      cross.setAttribute("x1", cx); cross.setAttribute("x2", cx); cross.setAttribute("visibility", "visible");
+      tip.hidden = false; tip.textContent = "";
+      tip.append(el("div", { text: periodLabel(best, lines[0].ptype) }));
+      for (const l of lines) {
+        const p = l.points.find(q => q[0] === best); if (!p) continue;
+        tip.append(el("div", { text: `${l.label}: ${p[1] == null ? "suppressed" : fmt(p[1], meta.format)}` }));
+      }
+      const left = cx / W * r.width;
+      tip.style.left = Math.min(Math.max(left, 70), r.width - 70) + "px"; tip.style.top = "0px";
+    };
+    svg.addEventListener("pointermove", move);
+    svg.addEventListener("pointerleave", () => { tip.hidden = true; cross.setAttribute("visibility", "hidden"); });
+  };
+  requestAnimationFrame(draw);
+  new ResizeObserver(() => draw()).observe(box);
+  return box;
+}
+function niceTicks(a, b, n) {
+  const span = b - a || 1, raw = span / n, mag = 10 ** Math.floor(Math.log10(raw));
+  const step = [1, 2, 2.5, 5, 10].map(s => s * mag).find(s => s >= raw);
+  const out = []; for (let t = Math.ceil(a / step) * step; t <= b + 1e-9; t += step) out.push(+t.toFixed(10));
+  return out;
+}
+function shortNum(v, format) {
+  if (format === "pct") return v + "%";
+  const pre = format === "currency" ? "$" : "";
+  if (Math.abs(v) >= 1e6) return pre + (v / 1e6).toFixed(1).replace(/\.0$/, "") + "m";
+  if (Math.abs(v) >= 1e4) return pre + Math.round(v / 1e3) + "k";
+  return pre + v.toLocaleString("en-NZ");
+}
+
+/* ---------- views ---------- */
+function linesFor(ind) {
+  const ss = seriesFor(ind), out = [];
+  const main = mainSeries(ind); if (main) out.push({ label: "Tairāwhiti", color: "var(--s1)", points: main.points, ptype: main.period_type });
+  const mao = ss.find(s => MAIN_GEO.has(s.geo) && s.ethnicity === "Māori");
+  if (mao) out.push({ label: "Tairāwhiti – Māori", color: "var(--s2)", points: mao.points, ptype: mao.period_type });
+  const nat = ss.find(s => s.geo === "NZ" && s.ethnicity === "Total");
+  if (nat) out.push({ label: "Aotearoa (national)", color: "var(--s3)", dash: true, points: nat.points, ptype: nat.period_type });
+  return out;
+}
+function card(ind) {
+  const meta = D.indicators[ind], src = D.sources[(mainSeries(ind) || {}).source] || {};
+  const lines = linesFor(ind); if (!lines.length) return null;
+  const h = headline(ind);
+  const c = el("article", { class: "card", id: "ind-" + ind });
+  c.append(el("div", { class: "head" },
+    el("h3", { text: meta.name }),
+    h ? el("div", { class: "now" }, fmt(h.last[1], meta.format), el("small", { text: periodLabel(h.last[0], h.s.period_type) })) : null));
+  if (lines.length > 1) c.append(el("div", { class: "legend" }, lines.map(l => el("span", {}, el("i", { class: l.dash ? "dash" : "", style: `background:${l.color}` }), l.label))));
+  c.append(lineChart(lines, meta));
+  if (meta.caveat) c.append(el("p", { class: "note", text: meta.caveat }));
+  const tblBox = el("div", { hidden: "" });
+  c.append(tblBox);
+  c.append(el("div", { class: "src" },
+    el("span", {}, src.attribution || "", " · ", el("a", { href: src.url || "#", target: "_blank", rel: "noopener", text: "Publisher" })),
+    el("button", { class: "link", type: "button", text: "Show table", onclick: e => {
+      if (tblBox.hidden && !tblBox.firstChild) tblBox.append(table(lines, meta));
+      tblBox.hidden = !tblBox.hidden; e.target.textContent = tblBox.hidden ? "Show table" : "Hide table"; } })));
+  return c;
+}
+function table(lines, meta) {
+  const dates = [...new Set(lines.flatMap(l => l.points.map(p => p[0])))].sort().reverse();
+  const t = el("table", {}, el("thead", {}, el("tr", {}, el("th", { text: "Period" }), lines.map(l => el("th", { class: "num", text: l.label })))));
+  const tb = el("tbody");
+  for (const d of dates) tb.append(el("tr", {}, el("td", { text: periodLabel(d, lines[0].ptype) }),
+    lines.map(l => { const p = l.points.find(q => q[0] === d); return el("td", { class: "num", text: !p ? "" : p[1] == null ? "s" : fmt(p[1], meta.format) }); })));
+  t.append(tb);
+  return el("div", { class: "tbl-wrap" }, t);
+}
+function viewGlance() {
+  const f = document.createDocumentFragment();
+  f.append(el("p", { class: "intro", text: "Headline indicators for Te Tairāwhiti, each with its latest value, change on a year earlier, and five-year trend. Chips are green when the change is in the good direction and red when it is not. Select a tile to see the full series." }));
+  const tiles = el("div", { class: "tiles" });
+  for (const [ind, meta] of Object.entries(D.indicators)) {
+    if (!meta.headline) continue;
+    const h = headline(ind); if (!h) continue;
+    const cut = new Date(parseD(h.last[0])); cut.setFullYear(cut.getFullYear() - 5);
+    const recent = usable(h.s.points).filter(p => parseD(p[0]) >= cut);
+    const tab = TABS.find(t => t.domain === meta.domain || (Array.isArray(t.domain) && t.domain.includes(meta.domain)));
+    tiles.append(el("button", { class: "tile", type: "button", onclick: () => { location.hash = tab.id; setTimeout(() => { const x = document.getElementById("ind-" + ind); x && x.scrollIntoView({ block: "start" }); }, 50); } },
+      el("span", { class: "dom", text: meta.domain + " · " + meta.topic }),
+      el("span", { class: "lab", text: meta.name }),
+      el("div", { class: "row" }, el("span", { class: "val", text: fmt(h.last[1], meta.format) }), changeChip(ind, h)),
+      el("span", { class: "per", text: periodLabel(h.last[0], h.s.period_type) }),
+      lineChart([{ label: "Tairāwhiti", color: "var(--s1)", points: recent, ptype: h.s.period_type }], meta, { spark: true })));
+  }
+  f.append(tiles);
+  return f;
+}
+function viewDomain(tab) {
+  const doms = [].concat(tab.domain);
+  const f = document.createDocumentFragment();
+  f.append(el("p", { class: "intro", text: tab.blurb }));
+  const inds = Object.entries(D.indicators).filter(([k, m]) => doms.includes(m.domain) && mainSeries(k));
+  const topics = [...new Set(inds.map(([, m]) => m.topic))];
+  for (const t of topics) {
+    f.append(el("h2", { text: t }));
+    const g = el("div", { class: "cards" });
+    for (const [k, m] of inds) if (m.topic === t) { const c = card(k); c && g.append(c); }
+    f.append(g);
+  }
+  const planned = (D.catalogue || []).filter(c => doms.includes(c.domain) && c.status !== "live");
+  if (!inds.length || planned.length) {
+    f.append(el("h2", { text: inds.length ? "Coming next" : "No live series yet" }));
+    const gap = el("div", { class: "gap" }, inds.length ? "These datasets are in the library but not automated yet:" :
+      "No public, regularly updated series feeds this domain yet. These datasets are planned:");
+    gap.append(el("ul", {}, planned.map(c => el("li", {}, el("b", { text: `${c.id} ${c.name}` }), ` – ${c.publisher}, ${c.frequency.toLowerCase()}`, c.note ? `. ${c.note}` : "", " ", el("span", { class: "pill " + c.status, text: c.status })))));
+    f.append(gap);
+  }
+  return f;
+}
+function viewLibrary() {
+  const f = document.createDocumentFragment();
+  const cat = D.catalogue || [];
+  const counts = cat.reduce((a, c) => (a[c.status] = (a[c.status] || 0) + 1, a), {});
+  f.append(el("p", { class: "intro", text: `${cat.length} datasets from the Tairāwhiti longitudinal open data plan: ${counts.live || 0} automated, ${counts.manual || 0} manual drop, ${counts.planned || 0} planned, ${counts.borderline || 0} borderline (irregular, fewer than five years, or licensed).` }));
+  const sel = (id, label, opts) => el("label", {}, label + " ", el("select", { id }, el("option", { value: "", text: "All" }), opts.map(o => el("option", { value: o, text: o }))));
+  const filt = el("div", { class: "filters" }, sel("f-dom", "Domain", [...new Set(cat.map(c => c.domain))]), sel("f-st", "Status", ["live", "manual", "planned", "borderline"]), sel("f-ph", "Phase", ["1", "2", "3", "4"]));
+  const box = el("div", { class: "tbl-wrap", style: "max-height:none" });
+  const render = () => {
+    const d = $("#f-dom", filt).value, s = $("#f-st", filt).value, p = $("#f-ph", filt).value;
+    const rows = cat.filter(c => (!d || c.domain === d) && (!s || c.status === s) && (!p || String(c.phase) === p));
+    box.innerHTML = "";
+    box.append(el("table", {}, el("thead", {}, el("tr", {}, ["ID", "Dataset", "Publisher", "Domain", "Frequency", "Phase", "Status", "Notes"].map(h => el("th", { text: h })))),
+      el("tbody", {}, rows.map(c => el("tr", {}, el("td", { text: c.id }), el("td", { text: c.name }), el("td", { text: c.publisher }), el("td", { text: c.domain }),
+        el("td", { text: c.frequency }), el("td", { text: String(c.phase) }), el("td", {}, el("span", { class: "pill " + c.status, text: c.status })), el("td", { text: c.note || "" }))))));
+  };
+  filt.addEventListener("change", render); render();
+  f.append(filt, box);
+  return f;
+}
+function viewStatus() {
+  const f = document.createDocumentFragment();
+  f.append(el("p", { class: "intro", text: "Each connector runs on a schedule. A failed run keeps the last good data, so charts stay up while the problem is fixed." }));
+  const rows = Object.entries(D.status || {});
+  f.append(el("div", { class: "tbl-wrap", style: "max-height:none" }, el("table", {},
+    el("thead", {}, el("tr", {}, ["Source", "State", "Latest period", "Rows", "Last success", "Last checked", "Message"].map(h => el("th", { text: h })))),
+    el("tbody", {}, rows.map(([id, s]) => el("tr", {},
+      el("td", { text: (D.sources[id] || {}).name || id }),
+      el("td", {}, el("span", { class: "pill " + (s.ok ? "live" : "fail"), text: s.ok ? "ok" : "failing" })),
+      el("td", { text: s.latest_period || "–" }), el("td", { class: "num", text: s.rows || 0 }),
+      el("td", { text: (s.last_success || "never").slice(0, 10) }), el("td", { text: (s.checked || "").slice(0, 10) }),
+      el("td", { text: s.message || "" })))))));
+  return f;
+}
+
+function route() {
+  const id = (location.hash || "#glance").slice(1);
+  const tab = TABS.find(t => t.id === id) || TABS[0];
+  for (const a of document.querySelectorAll("#tabs a")) {
+    if (a.dataset.id === tab.id) a.setAttribute("aria-current", "page"); else a.removeAttribute("aria-current");
+  }
+  const main = $("#main"); main.textContent = "";
+  main.append(tab.id === "glance" ? viewGlance() : tab.id === "library" ? viewLibrary() : tab.id === "status" ? viewStatus() : viewDomain(tab));
+}
+async function boot() {
+  try {
+    const r = await fetch("data/dashboard.json", { cache: "no-cache" });
+    D = await r.json();
+  } catch (e) {
+    $("#main").innerHTML = ""; $("#main").append(el("p", { class: "empty", text: "The dashboard data could not be loaded. Run the pipeline (python -m pipeline.run) to build site/data/dashboard.json." }));
+    return;
+  }
+  for (const s of D.series) (BY[s.indicator] ||= []).push(s);
+  const failing = Object.values(D.status || {}).filter(s => !s.ok).length;
+  $("#refreshed").textContent = "Updated " + new Date(D.generated).toLocaleString("en-NZ", { dateStyle: "medium", timeStyle: "short" }) + (failing ? ` · ${failing} source${failing > 1 ? "s" : ""} need attention` : "");
+  $("#tabs").append(...TABS.map(t => el("a", { href: "#" + t.id, "data-id": t.id, text: t.label })));
+  addEventListener("hashchange", route);
+  route();
+}
+boot();
+</script>
+</body>
+</html>
