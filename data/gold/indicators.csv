@@ -1,4 +1,10 @@
 indicator_id,name,domain,topic,direction,headline,format,caveat,display
+gisborne_stand_down_cases,School stand-downs,Mātauranga,School disciplinary decisions,neutral,False,int,Published cases at schools in Gisborne District. Case counts describe school decisions and may count a student more than once.,
+gisborne_suspension_cases,School suspensions,Mātauranga,School disciplinary decisions,neutral,False,int,Published cases at schools in Gisborne District. Case counts describe school decisions and may count a student more than once.,
+gisborne_exclusion_cases,School exclusions,Mātauranga,School disciplinary decisions,neutral,False,int,Published cases at schools in Gisborne District. Exclusion is the formal removal of a student under 16.,
+gisborne_expulsion_cases,School expulsions,Mātauranga,School disciplinary decisions,neutral,False,int,Published cases at schools in Gisborne District. Expulsion is the formal removal of a student aged 16 or over.,
+gisborne_council_operating_income,Council operating income,Ōhanga,Council finances,neutral,False,currency,"Core non-trading activities of Gisborne District Council, year ended June, in current New Zealand dollars.",
+gisborne_council_operating_expenditure,Council operating expenditure,Ōhanga,Council finances,neutral,False,currency,"Core non-trading activities of Gisborne District Council, year ended June, in current New Zealand dollars.",
 river_ecoli_median,Median E. coli at monitored river sites,Taiao,River water quality,neutral,False,dec1,Measured site medians per 100 mL over 2020–2024. This monitoring-period snapshot differs from current conditions. See the publisher for methods.,sites
 gisborne_live_births,Registered live births,Hapori,Births and deaths,neutral,False,int,"Gisborne Region by usual residence of the mother, for the December year. Stats NZ applies random rounding.",
 gisborne_registered_deaths,Registered deaths,Hapori,Births and deaths,neutral,False,int,"Gisborne Region by usual residence of the deceased, for the December year. Stats NZ applies random rounding.",

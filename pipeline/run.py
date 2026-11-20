@@ -27,7 +27,8 @@ from .core import COLUMNS, GOLD_DIR, MANUAL_DIR, ROOT, SILVER_DIR, SITE_DATA, Ru
 SOURCES = ["statsnz_ade", "msd_benefits", "hud_housing", "healthnz_immunisation", "nzta_cas", "mbie_bonds",
            "statsnz_emissions", "moe_attendance", "statsnz_regional_gdp", "hud_affordability", "moe_leavers",
            "statsnz_monthly", "mbie_accommodation", "statsnz_census_households", "ea_residential",
-           "statsnz_vital_statistics", "moe_rolls_ece", "statsnz_river_quality"]
+           "statsnz_vital_statistics", "moe_rolls_ece", "statsnz_river_quality", "statsnz_council_finance",
+           "moe_school_discipline"]
 MODULES = {
     "statsnz_ade": "statsnz_ade", "msd_benefits": "msd_benefits", "hud_housing": "hud_housing",
     "healthnz_immunisation": "healthnz_immunisation", "nzta_cas": "nzta_cas", "mbie_bonds": "mbie_bonds",
@@ -38,6 +39,8 @@ MODULES = {
     "ea_residential": "ea_residential",
     "statsnz_vital_statistics": "statsnz_vital_statistics", "moe_rolls_ece": "moe_rolls_ece",
     "statsnz_river_quality": "statsnz_river_quality",
+    "statsnz_council_finance": "statsnz_council_finance",
+    "moe_school_discipline": "moe_school_discipline",
 }
 STATUS_FILE = ROOT / "data" / "status.json"
 OBSERVATION_KEY = ["source_id", "indicator_id", "geo_type", "geo_code", "ethnicity", "age", "sex",

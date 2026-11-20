@@ -10,6 +10,7 @@ newest file in the folder automatically.
 | `moe_attendance/` | [Education Counts regular attendance](https://www.educationcounts.govt.nz/statistics/attendance) | Download both the 2019–2021 and latest 2022 onward termly XLSX workbooks and keep their publisher filenames. Run `python -m pipeline.run moe_attendance`. |
 | `moe_leavers/` | [Education Counts school leavers](https://www.educationcounts.govt.nz/statistics/school-leavers) | Save the latest Level 2 time-series XLSX with its publisher filename. Run `python -m pipeline.run moe_leavers`. |
 | `moe_rolls_ece/` | [School rolls](https://www.educationcounts.govt.nz/statistics/school-rolls) and [prior early learning participation](https://www.educationcounts.govt.nz/statistics/participation) | Save the latest school rolls trend XLSX and prior participation year-ended XLSX with publisher filenames. Run `python -m pipeline.run moe_rolls_ece`. |
+| `moe_school_discipline/` | [Education Counts disciplinary decisions](https://www.educationcounts.govt.nz/statistics/stand-downs%2C-suspensions%2C-exclusions-and-expulsions) | Save the four time-series workbooks for stand-downs, suspensions, exclusions and expulsions with their publisher filenames. Run `python -m pipeline.run moe_school_discipline`. |
 
 Population projections use the reviewed Gisborne Region low, medium and high rows in Table 1 of
 the [Stats NZ 2023-base workbook](https://www.stats.govt.nz/information-releases/subnational-population-projections-2023base-2053/).

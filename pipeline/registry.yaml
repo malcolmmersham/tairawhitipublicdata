@@ -126,7 +126,71 @@ sources:
     cadence: irregular
     check_every_days: 30
 
+  statsnz_council_finance:
+    name: Stats NZ – Local authority financial statistics
+    url: https://www.stats.govt.nz/large-datasets/csv-files-for-download/
+    attribution: "This work includes Stats NZ data licensed for reuse under CC BY 4.0"
+    cadence: annual
+    check_every_days: 7
+
+  moe_school_discipline:
+    name: Ministry of Education – School stand-downs, suspensions, exclusions and expulsions
+    url: https://www.educationcounts.govt.nz/statistics/stand-downs%2C-suspensions%2C-exclusions-and-expulsions
+    attribution: "Source: Ministry of Education, Education Counts, licensed under CC BY 4.0"
+    cadence: annual
+    check_every_days: 7
+
 indicators:
+  gisborne_stand_down_cases:
+    name: School stand-downs
+    domain: Mātauranga
+    topic: School disciplinary decisions
+    direction: neutral
+    headline: false
+    format: int
+    caveat: "Published cases at schools in Gisborne District. Case counts describe school decisions and may count a student more than once."
+  gisborne_suspension_cases:
+    name: School suspensions
+    domain: Mātauranga
+    topic: School disciplinary decisions
+    direction: neutral
+    headline: false
+    format: int
+    caveat: "Published cases at schools in Gisborne District. Case counts describe school decisions and may count a student more than once."
+  gisborne_exclusion_cases:
+    name: School exclusions
+    domain: Mātauranga
+    topic: School disciplinary decisions
+    direction: neutral
+    headline: false
+    format: int
+    caveat: "Published cases at schools in Gisborne District. Exclusion is the formal removal of a student under 16."
+  gisborne_expulsion_cases:
+    name: School expulsions
+    domain: Mātauranga
+    topic: School disciplinary decisions
+    direction: neutral
+    headline: false
+    format: int
+    caveat: "Published cases at schools in Gisborne District. Expulsion is the formal removal of a student aged 16 or over."
+
+  gisborne_council_operating_income:
+    name: Council operating income
+    domain: Ōhanga
+    topic: Council finances
+    direction: neutral
+    headline: false
+    format: currency
+    caveat: "Core non-trading activities of Gisborne District Council, year ended June, in current New Zealand dollars."
+  gisborne_council_operating_expenditure:
+    name: Council operating expenditure
+    domain: Ōhanga
+    topic: Council finances
+    direction: neutral
+    headline: false
+    format: currency
+    caveat: "Core non-trading activities of Gisborne District Council, year ended June, in current New Zealand dollars."
+
   river_ecoli_median:
     name: Median E. coli at monitored river sites
     domain: Taiao

@@ -26,6 +26,14 @@ copied to `data/raw/` during a run. That folder is ignored by Git and is tempora
 | M3 | NCEA Level 2 or above | Ministry of Education | 2015 → | Annual | Reviewed workbook fallback |
 | E1 | Regional GDP and GDP per person at current prices | Stats NZ | 2000 → | Annual | Automated |
 | H8, H9 | House price to income ratio and changes in housing affordability | HUD | 2001 → | Quarterly | Automated |
+| E5, E13 | Filled jobs and building consents | Stats NZ | May 2019 / Apr 1990 → | Monthly | Automated |
+| E10 | Commercial guest nights and active accommodation establishments | MBIE | June 2020 → | Monthly | Automated |
+| E14 | Average residential electricity off-take | Electricity Authority | 2016 → | Annual | Automated |
+| G2 | Council operating income and expenditure | Stats NZ | Annual coverage | Annual | Automated |
+| H2 | 2023-base population projections | Stats NZ | 2028–2053 | Irregular | Reviewed scenarios |
+| H3, H4 | Registered births and deaths, and census household counts | Stats NZ | 2012 / 2013 → | Annual / Five-yearly | Automated |
+| M5, M8 | Prior early learning participation and July school rolls | Ministry of Education | 2018 / 1996 → | Quarterly / Annual | Reviewed workbook fallback |
+| T1 | Median river E. coli by monitoring site | Stats NZ and Ministry for the Environment | 2020–2024 | Irregular | Published monitoring window |
 | R5 | Gisborne mayoral turnout | Department of Internal Affairs | 2022 and 2025 | Triennial | Reviewed snapshots |
 | R4 | People who can speak te reo Māori | Stats NZ | 2023 Census | Five-yearly | Reviewed snapshot |
 
@@ -130,8 +138,8 @@ before they can be added here.
 
 ## Known limits
 
-- **Stats NZ Infoshare** series (GDP, ECT, building consents, HLFS) are not automated. Infoshare
-  is being replaced by ADE (target April 2027); add them as ADE dataflows once they move.
+- **Stats NZ Infoshare.** Regional GDP and building consents use the official release downloads.
+  Check the availability and geographic scope of remaining series as Stats NZ moves them to ADE.
 - **Health NZ** immunisation history before October 2022 is in older quarterly files with a
   different layout, not yet parsed.
 - **NZTA CAS** is live data: past years can change, and the current year is year-to-date. The
