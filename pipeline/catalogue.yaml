@@ -26,7 +26,7 @@
 - {id: H8, name: Local Housing Statistics, publisher: HUD, domain: Hapori, frequency: Monthly, phase: 2, status: planned}
 - {id: H9, name: Change in Housing Affordability Indicators, publisher: HUD, domain: Hapori, frequency: Quarterly, phase: 2, status: planned}
 - {id: H10, name: NPS-UD Dashboard, publisher: HUD, domain: Hapori, frequency: Quarterly, phase: 2, status: planned}
-- {id: H11, name: Rental bond data, publisher: MBIE, domain: Hapori, frequency: Monthly, phase: 1, status: manual, note: "mbie.govt.nz blocks cloud servers; save CSV to data/manual/mbie_bonds/"}
+- {id: H11, name: Rental bond data, publisher: MBIE, domain: Hapori, frequency: Monthly, phase: 1, status: live, note: "Monthly territorial authority CSV from Tenancy Services."}
 - {id: H12, name: House sales/prices (REINZ, CoreLogic), publisher: REINZ / CoreLogic, domain: Hapori, frequency: Monthly, phase: 3, status: borderline, note: Licence}
 - {id: H13, name: Childhood immunisation coverage, publisher: Health NZ, domain: Hapori, frequency: Quarterly, phase: 1, status: live, note: "Rolling 12-month files from Oct 2022; pre-2022 quarterly files to backfill"}
 - {id: H14, name: HPV and influenza vaccination, publisher: Health NZ, domain: Hapori, frequency: Quarterly/weekly, phase: 2, status: planned}

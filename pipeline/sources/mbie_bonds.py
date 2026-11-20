@@ -1,15 +1,11 @@
-"""H11 – MBIE Tenancy Services rental bond data (monthly, Feb 1993 →).
-
-mbie.govt.nz sits behind Imperva/Incapsula bot protection, which refuses requests
-from cloud servers (including GitHub Actions). The connector tries the download and,
-if blocked, falls back to the newest CSV a data steward has saved to
-data/manual/mbie_bonds/ (download "Territorial authority – monthly" from the
-Rental bond data page in a normal browser).
-"""
+"""H11 – MBIE Tenancy Services rental bond data (monthly, Feb 1993 →)."""
 from __future__ import annotations
 
 import io
 import re
+from collections.abc import Iterator
+from html import unescape
+from urllib.parse import urljoin, urlsplit
 
 import pandas as pd
 
@@ -17,7 +13,7 @@ from ..core import MANUAL_DIR, SourceBlocked, env, fetch, fetch_file, log, month
 
 SOURCE_ID = "mbie_bonds"
 LICENCE = "CC BY 3.0 NZ"
-PAGE = "https://www.mbie.govt.nz/building-and-energy/tenancy-and-housing/rental-bond-data/"
+PAGE = "https://www.tenancy.govt.nz/about-tenancy-services/data-and-statistics/rental-bond-data/"
 COLUMNS = {  # source column (lower-case) -> (indicator_id, unit, measure)
     "lodged bonds": ("bonds_lodged", "bonds", "count"),
     "active bonds": ("bonds_active", "bonds", "count"),
@@ -26,39 +22,48 @@ COLUMNS = {  # source column (lower-case) -> (indicator_id, unit, measure)
 }
 
 
-def _candidate_urls() -> list[str]:
-    urls = [u for u in [env("MBIE_BOND_CSV_URL")] if u]
+def _candidate_urls() -> Iterator[str]:
+    override = env("MBIE_BOND_CSV_URL")
+    if override:
+        yield override
     try:
-        html = fetch(PAGE, retries=1).text
-        links = re.findall(r'href="([^"]+\.csv)"', html, re.I)
-        tla = [l for l in links if re.search(r"tla|territorial", l, re.I) and "detailed" not in l.lower()]
-        urls += ["https://www.mbie.govt.nz" + l if l.startswith("/") else l for l in tla]
-    except SourceBlocked as e:
-        log.warning("mbie bond page blocked: %s", e)
-    return urls
-
-
-def _load() -> tuple[bytes, str]:
-    for url in _candidate_urls():
-        try:
-            content, path = fetch_file(SOURCE_ID, url, retries=1)
-            return content, str(path)
-        except Exception as e:
-            log.warning("mbie bonds %s: %s", url, e)
-    manual = sorted((MANUAL_DIR / "mbie_bonds").glob("*.csv"))
-    if not manual:
-        raise SourceBlocked("MBIE blocks automated downloads and no manual file is in "
-                            "data/manual/mbie_bonds/")
-    return manual[-1].read_bytes(), str(manual[-1])
+        page = fetch(PAGE, retries=1, timeout=30)
+    except RuntimeError as e:
+        log.warning("tenancy rental bond page unavailable: %s", e)
+        return
+    for href in re.findall(r'''\bhref\s*=\s*["']([^"']+)["']''', page.text, re.I):
+        url = urljoin(page.url, unescape(href))
+        filename = urlsplit(url).path.rsplit("/", 1)[-1].lower()
+        if filename.startswith("detailed-monthly-tla-") and filename.endswith(".csv") and url != override:
+            yield url
 
 
 def run() -> tuple[list[dict], list[str]]:
-    content, path = _load()
-    df = pd.read_csv(io.BytesIO(content))
+    for url in _candidate_urls():
+        try:
+            content, path = fetch_file(SOURCE_ID, url, retries=1, timeout=60)
+            return _parse(content), [str(path)]
+        except (RuntimeError, ValueError) as e:
+            log.warning("mbie bonds %s: %s", url, e)
+    manual = sorted((MANUAL_DIR / "mbie_bonds").glob("*.csv"))
+    if not manual:
+        raise SourceBlocked("No usable Tenancy Services territorial authority CSV and no manual file in "
+                            "data/manual/mbie_bonds/")
+    path = manual[-1]
+    return _parse(path.read_bytes()), [str(path)]
+
+
+def _parse(content: bytes) -> list[dict]:
+    df = pd.read_csv(io.BytesIO(content), dtype=str)
     cols = {c.lower().strip(): c for c in df.columns}
-    loc = next(cols[c] for c in cols if c in ("location", "territorial authority", "tla"))
-    time = next(cols[c] for c in cols if "time" in c or c in ("month", "date"))
-    df = df[df[loc].astype(str).str.contains("Gisborne", case=False)]
+    loc = next((cols[c] for c in cols if c in ("location", "territorial authority", "tla")), None)
+    time = next((cols[c] for c in cols if "time" in c or c in ("month", "date")), None)
+    if loc is None or time is None:
+        raise ValueError("missing location or date column in rental bond CSV")
+    df = df[df[loc].str.contains("Gisborne", case=False, na=False)].copy()
+    for src in COLUMNS.keys() & cols.keys():
+        column = cols[src]
+        df[column] = pd.to_numeric(df[column].str.strip().str.replace(",", "", regex=False))
     rows = []
     for _, r in df.iterrows():
         d = pd.to_datetime(r[time]).date()
@@ -74,4 +79,4 @@ def run() -> tuple[list[dict], list[str]]:
             ))
     if not rows:
         raise RuntimeError("no Gisborne rows in bond file")
-    return rows, [path]
+    return rows

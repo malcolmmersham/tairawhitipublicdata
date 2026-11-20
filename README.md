@@ -17,7 +17,7 @@ any changes. Git history is the revision history: every vintage of every series 
 | H13 | Childhood immunisation coverage (rolling 12 months, by ethnicity) | Health NZ | Oct 2022 → | Quarterly | Automated |
 | H24 | Crash Analysis System | NZTA | 2006 → | Annual (public layer has no month) | Automated |
 | H1, E3 | Population estimates and median age; business locations and employees | Stats NZ ADE | 1996 → / 2000 → | Annual | Automated (needs `STATSNZ_API_KEY` secret in GitHub) |
-| H11 | Rental bonds | MBIE | 1993 → | Monthly | Manual drop: mbie.govt.nz blocks cloud servers |
+| H11 | Rental bonds | MBIE Tenancy Services | Feb 1993 → | Monthly | Automated with manual fallback |
 
 The full 70-dataset library, with the status of each, is in `pipeline/catalogue.yaml` and on the
 dashboard's **Data library** tab.
@@ -57,9 +57,9 @@ publisher's file starts producing a different set of indicators.
    plan, or make the repository public. Then enable *Settings → Pages → Source: GitHub Actions*
    and add a repository variable `ENABLE_PAGES` = `true`. Without Pages, open `site/index.html`
    through any static web server (see below), or point Zoho Analytics at `data/gold/`.
-3. **MBIE rental bonds.** Save the territorial-authority monthly CSV from the MBIE rental bond
-   page into `data/manual/mbie_bonds/` (see `data/manual/README.md`). If you find a direct CSV
-   URL that works, set it as repository variable `MBIE_BOND_CSV_URL` instead.
+3. **MBIE rental bonds (optional override).** The connector discovers the monthly territorial
+   authority CSV on the Tenancy Services website. Set `MBIE_BOND_CSV_URL` to try a direct CSV URL
+   first, or save the file to `data/manual/mbie_bonds/` as a fallback (see `data/manual/README.md`).
 
 Run it locally:
 
