@@ -101,7 +101,100 @@ sources:
     cadence: annual
     check_every_days: 7
 
+  statsnz_vital_statistics:
+    name: Stats NZ – Births and deaths
+    url: https://www.stats.govt.nz/topics/births-and-deaths/
+    attribution: "This work includes Stats NZ data licensed for reuse under CC BY 4.0"
+    cadence: annual
+    check_every_days: 7
+  moe_rolls_ece:
+    name: Ministry of Education – School rolls and early learning participation
+    url: https://www.educationcounts.govt.nz/statistics/school-rolls
+    attribution: "Source: Ministry of Education, Education Counts, licensed under CC BY 4.0"
+    cadence: quarterly
+    check_every_days: 7
+  statsnz_population_projections:
+    name: Stats NZ – Subnational population projections
+    url: https://www.stats.govt.nz/information-releases/subnational-population-projections-2023base-2053/
+    attribution: "This work includes Stats NZ data licensed for reuse under CC BY 4.0"
+    cadence: irregular
+
+  statsnz_river_quality:
+    name: Stats NZ and Ministry for the Environment – Monitored river water quality
+    url: https://www.stats.govt.nz/indicators/river-water-quality-escherichia-coli-data-to-2024/
+    attribution: "Source: Stats NZ and Ministry for the Environment environmental reporting, licensed under CC BY 4.0"
+    cadence: irregular
+    check_every_days: 30
+
 indicators:
+  river_ecoli_median:
+    name: Median E. coli at monitored river sites
+    domain: Taiao
+    topic: River water quality
+    display: sites
+    direction: neutral
+    headline: false
+    format: dec1
+    caveat: "Measured site medians per 100 mL over 2020–2024. This monitoring-period snapshot differs from current conditions. See the publisher for methods."
+
+  gisborne_live_births:
+    name: Registered live births
+    domain: Hapori
+    topic: Births and deaths
+    direction: neutral
+    headline: false
+    format: int
+    caveat: "Gisborne Region by usual residence of the mother, for the December year. Stats NZ applies random rounding."
+  gisborne_registered_deaths:
+    name: Registered deaths
+    domain: Hapori
+    topic: Births and deaths
+    direction: neutral
+    headline: false
+    format: int
+    caveat: "Gisborne Region by usual residence of the deceased, for the December year. Stats NZ applies random rounding."
+  gisborne_july_school_roll:
+    name: July school roll
+    domain: Mātauranga
+    topic: School enrolment
+    direction: neutral
+    headline: false
+    format: int
+    caveat: "Published headcount as at 1 July for schools located in Gisborne District."
+  gisborne_prior_ece_participation:
+    name: Early learning participation before starting school
+    domain: Mātauranga
+    topic: Early learning
+    direction: up
+    headline: false
+    format: pct
+    url: https://www.educationcounts.govt.nz/statistics/participation
+    caveat: "Share of children starting school in Gisborne District who regularly attended early learning in the preceding six months. Quarterly points cover the year ended that quarter. Children with unknown attendance are excluded."
+  gisborne_population_projection_low:
+    name: Population projection · low
+    domain: Hapori
+    topic: Population projections
+    direction: neutral
+    headline: false
+    format: int
+    caveat: "Stats NZ 2023-base low scenario for Gisborne Region at 30 June. Values are projections under stated assumptions."
+  gisborne_population_projection_medium:
+    name: Population projection · medium
+    domain: Hapori
+    topic: Population projections
+    direction: neutral
+    headline: false
+    format: int
+    caveat: "Stats NZ 2023-base medium scenario for Gisborne Region at 30 June. Values are projections under stated assumptions."
+  gisborne_population_projection_high:
+    name: Population projection · high
+    domain: Hapori
+    topic: Population projections
+    direction: neutral
+    headline: false
+    format: int
+    caveat: "Stats NZ 2023-base high scenario for Gisborne Region at 30 June. Values are projections under stated assumptions."
+
   gisborne_residential_electricity:
     name: Average residential electricity consumption
     domain: Ōhanga

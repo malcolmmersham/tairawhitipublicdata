@@ -1,6 +1,80 @@
 {
- "generated": "2026-11-20T09:16:46+00:00",
+ "generated": "2026-11-20T09:23:35+00:00",
  "indicators": {
+  "river_ecoli_median": {
+   "name": "Median E. coli at monitored river sites",
+   "domain": "Taiao",
+   "topic": "River water quality",
+   "display": "sites",
+   "direction": "neutral",
+   "headline": false,
+   "format": "dec1",
+   "caveat": "Measured site medians per 100 mL over 2020–2024. This monitoring-period snapshot differs from current conditions. See the publisher for methods."
+  },
+  "gisborne_live_births": {
+   "name": "Registered live births",
+   "domain": "Hapori",
+   "topic": "Births and deaths",
+   "direction": "neutral",
+   "headline": false,
+   "format": "int",
+   "caveat": "Gisborne Region by usual residence of the mother, for the December year. Stats NZ applies random rounding."
+  },
+  "gisborne_registered_deaths": {
+   "name": "Registered deaths",
+   "domain": "Hapori",
+   "topic": "Births and deaths",
+   "direction": "neutral",
+   "headline": false,
+   "format": "int",
+   "caveat": "Gisborne Region by usual residence of the deceased, for the December year. Stats NZ applies random rounding."
+  },
+  "gisborne_july_school_roll": {
+   "name": "July school roll",
+   "domain": "Mātauranga",
+   "topic": "School enrolment",
+   "direction": "neutral",
+   "headline": false,
+   "format": "int",
+   "caveat": "Published headcount as at 1 July for schools located in Gisborne District."
+  },
+  "gisborne_prior_ece_participation": {
+   "name": "Early learning participation before starting school",
+   "domain": "Mātauranga",
+   "topic": "Early learning",
+   "direction": "up",
+   "headline": false,
+   "format": "pct",
+   "url": "https://www.educationcounts.govt.nz/statistics/participation",
+   "caveat": "Share of children starting school in Gisborne District who regularly attended early learning in the preceding six months. Quarterly points cover the year ended that quarter. Children with unknown attendance are excluded."
+  },
+  "gisborne_population_projection_low": {
+   "name": "Population projection · low",
+   "domain": "Hapori",
+   "topic": "Population projections",
+   "direction": "neutral",
+   "headline": false,
+   "format": "int",
+   "caveat": "Stats NZ 2023-base low scenario for Gisborne Region at 30 June. Values are projections under stated assumptions."
+  },
+  "gisborne_population_projection_medium": {
+   "name": "Population projection · medium",
+   "domain": "Hapori",
+   "topic": "Population projections",
+   "direction": "neutral",
+   "headline": false,
+   "format": "int",
+   "caveat": "Stats NZ 2023-base medium scenario for Gisborne Region at 30 June. Values are projections under stated assumptions."
+  },
+  "gisborne_population_projection_high": {
+   "name": "Population projection · high",
+   "domain": "Hapori",
+   "topic": "Population projections",
+   "direction": "neutral",
+   "headline": false,
+   "format": "int",
+   "caveat": "Stats NZ 2023-base high scenario for Gisborne Region at 30 June. Values are projections under stated assumptions."
+  },
   "gisborne_residential_electricity": {
    "name": "Average residential electricity consumption",
    "domain": "Ōhanga",
@@ -543,6 +617,33 @@
    "attribution": "Source: Electricity Authority, licensed under CC BY 4.0",
    "cadence": "annual",
    "check_every_days": 7
+  },
+  "statsnz_vital_statistics": {
+   "name": "Stats NZ – Births and deaths",
+   "url": "https://www.stats.govt.nz/topics/births-and-deaths/",
+   "attribution": "This work includes Stats NZ data licensed for reuse under CC BY 4.0",
+   "cadence": "annual",
+   "check_every_days": 7
+  },
+  "moe_rolls_ece": {
+   "name": "Ministry of Education – School rolls and early learning participation",
+   "url": "https://www.educationcounts.govt.nz/statistics/school-rolls",
+   "attribution": "Source: Ministry of Education, Education Counts, licensed under CC BY 4.0",
+   "cadence": "quarterly",
+   "check_every_days": 7
+  },
+  "statsnz_population_projections": {
+   "name": "Stats NZ – Subnational population projections",
+   "url": "https://www.stats.govt.nz/information-releases/subnational-population-projections-2023base-2053/",
+   "attribution": "This work includes Stats NZ data licensed for reuse under CC BY 4.0",
+   "cadence": "irregular"
+  },
+  "statsnz_river_quality": {
+   "name": "Stats NZ and Ministry for the Environment – Monitored river water quality",
+   "url": "https://www.stats.govt.nz/indicators/river-water-quality-escherichia-coli-data-to-2024/",
+   "attribution": "Source: Stats NZ and Ministry for the Environment environmental reporting, licensed under CC BY 4.0",
+   "cadence": "irregular",
+   "check_every_days": 30
   }
  },
  "series": [
@@ -17267,6 +17368,335 @@
    ]
   },
   {
+   "indicator": "gisborne_july_school_roll",
+   "geo": "028",
+   "geo_type": "ta",
+   "geo_name": "Gisborne District",
+   "ethnicity": "Total",
+   "source": "moe_rolls_ece",
+   "period_type": "year",
+   "unit": "students",
+   "points": [
+    [
+     "1996-07-01",
+     10193.0,
+     null
+    ],
+    [
+     "1997-07-01",
+     10262.0,
+     null
+    ],
+    [
+     "1998-07-01",
+     10261.0,
+     null
+    ],
+    [
+     "1999-07-01",
+     10254.0,
+     null
+    ],
+    [
+     "2000-07-01",
+     10194.0,
+     null
+    ],
+    [
+     "2001-07-01",
+     9889.0,
+     null
+    ],
+    [
+     "2002-07-01",
+     9930.0,
+     null
+    ],
+    [
+     "2003-07-01",
+     9954.0,
+     null
+    ],
+    [
+     "2004-07-01",
+     9947.0,
+     null
+    ],
+    [
+     "2005-07-01",
+     9870.0,
+     null
+    ],
+    [
+     "2006-07-01",
+     9723.0,
+     null
+    ],
+    [
+     "2007-07-01",
+     9565.0,
+     null
+    ],
+    [
+     "2008-07-01",
+     9404.0,
+     null
+    ],
+    [
+     "2009-07-01",
+     9321.0,
+     null
+    ],
+    [
+     "2010-07-01",
+     9327.0,
+     null
+    ],
+    [
+     "2011-07-01",
+     9353.0,
+     null
+    ],
+    [
+     "2012-07-01",
+     9315.0,
+     null
+    ],
+    [
+     "2013-07-01",
+     9256.0,
+     null
+    ],
+    [
+     "2014-07-01",
+     9260.0,
+     null
+    ],
+    [
+     "2015-07-01",
+     9319.0,
+     null
+    ],
+    [
+     "2016-07-01",
+     9371.0,
+     null
+    ],
+    [
+     "2017-07-01",
+     9399.0,
+     null
+    ],
+    [
+     "2018-07-01",
+     9372.0,
+     null
+    ],
+    [
+     "2019-07-01",
+     9427.0,
+     null
+    ],
+    [
+     "2020-07-01",
+     9430.0,
+     null
+    ],
+    [
+     "2021-07-01",
+     9413.0,
+     null
+    ],
+    [
+     "2022-07-01",
+     9175.0,
+     null
+    ],
+    [
+     "2023-07-01",
+     9170.0,
+     null
+    ],
+    [
+     "2024-07-01",
+     9128.0,
+     null
+    ],
+    [
+     "2025-07-01",
+     8994.0,
+     null
+    ]
+   ]
+  },
+  {
+   "indicator": "gisborne_prior_ece_participation",
+   "geo": "028",
+   "geo_type": "ta",
+   "geo_name": "Gisborne District",
+   "ethnicity": "Total",
+   "source": "moe_rolls_ece",
+   "period_type": "rolling_12m",
+   "unit": "percent",
+   "points": [
+    [
+     "2018-12-31",
+     97.0,
+     null
+    ],
+    [
+     "2019-03-31",
+     97.5,
+     null
+    ],
+    [
+     "2019-06-30",
+     97.8,
+     null
+    ],
+    [
+     "2019-09-30",
+     97.4,
+     null
+    ],
+    [
+     "2019-12-31",
+     97.9,
+     null
+    ],
+    [
+     "2020-03-31",
+     97.5,
+     null
+    ],
+    [
+     "2020-06-30",
+     97.1,
+     null
+    ],
+    [
+     "2020-09-30",
+     97.6,
+     null
+    ],
+    [
+     "2020-12-31",
+     97.3,
+     null
+    ],
+    [
+     "2021-03-31",
+     97.1,
+     null
+    ],
+    [
+     "2021-06-30",
+     97.5,
+     null
+    ],
+    [
+     "2021-09-30",
+     97.2,
+     null
+    ],
+    [
+     "2021-12-31",
+     97.3,
+     null
+    ],
+    [
+     "2022-03-31",
+     97.5,
+     null
+    ],
+    [
+     "2022-06-30",
+     96.4,
+     null
+    ],
+    [
+     "2022-09-30",
+     96.3,
+     null
+    ],
+    [
+     "2022-12-31",
+     96.0,
+     null
+    ],
+    [
+     "2023-03-31",
+     95.7,
+     null
+    ],
+    [
+     "2023-06-30",
+     96.1,
+     null
+    ],
+    [
+     "2023-09-30",
+     96.2,
+     null
+    ],
+    [
+     "2023-12-31",
+     96.5,
+     null
+    ],
+    [
+     "2024-03-31",
+     96.7,
+     null
+    ],
+    [
+     "2024-06-30",
+     97.0,
+     null
+    ],
+    [
+     "2024-09-30",
+     95.8,
+     null
+    ],
+    [
+     "2024-12-31",
+     95.6,
+     null
+    ],
+    [
+     "2025-03-31",
+     95.0,
+     null
+    ],
+    [
+     "2025-06-30",
+     94.7,
+     null
+    ],
+    [
+     "2025-09-30",
+     95.0,
+     null
+    ],
+    [
+     "2025-12-31",
+     94.4,
+     null
+    ],
+    [
+     "2026-03-31",
+     94.5,
+     null
+    ],
+    [
+     "2026-06-30",
+     94.0,
+     null
+    ]
+   ]
+  },
+  {
    "indicator": "msd_jobseeker",
    "geo": "05",
    "geo_type": "region",
@@ -25618,6 +26048,132 @@
    ]
   },
   {
+   "indicator": "gisborne_population_projection_high",
+   "geo": "05",
+   "geo_type": "region",
+   "geo_name": "Gisborne Region",
+   "ethnicity": "Total",
+   "source": "statsnz_population_projections",
+   "period_type": "year",
+   "unit": "people",
+   "points": [
+    [
+     "2028-06-30",
+     55100.0,
+     "Stats NZ 2023 base"
+    ],
+    [
+     "2033-06-30",
+     57500.0,
+     "Stats NZ 2023 base"
+    ],
+    [
+     "2038-06-30",
+     59800.0,
+     "Stats NZ 2023 base"
+    ],
+    [
+     "2043-06-30",
+     62000.0,
+     "Stats NZ 2023 base"
+    ],
+    [
+     "2048-06-30",
+     64000.0,
+     "Stats NZ 2023 base"
+    ],
+    [
+     "2053-06-30",
+     65900.0,
+     "Stats NZ 2023 base"
+    ]
+   ]
+  },
+  {
+   "indicator": "gisborne_population_projection_low",
+   "geo": "05",
+   "geo_type": "region",
+   "geo_name": "Gisborne Region",
+   "ethnicity": "Total",
+   "source": "statsnz_population_projections",
+   "period_type": "year",
+   "unit": "people",
+   "points": [
+    [
+     "2028-06-30",
+     52600.0,
+     "Stats NZ 2023 base"
+    ],
+    [
+     "2033-06-30",
+     52400.0,
+     "Stats NZ 2023 base"
+    ],
+    [
+     "2038-06-30",
+     52100.0,
+     "Stats NZ 2023 base"
+    ],
+    [
+     "2043-06-30",
+     51500.0,
+     "Stats NZ 2023 base"
+    ],
+    [
+     "2048-06-30",
+     50700.0,
+     "Stats NZ 2023 base"
+    ],
+    [
+     "2053-06-30",
+     49600.0,
+     "Stats NZ 2023 base"
+    ]
+   ]
+  },
+  {
+   "indicator": "gisborne_population_projection_medium",
+   "geo": "05",
+   "geo_type": "region",
+   "geo_name": "Gisborne Region",
+   "ethnicity": "Total",
+   "source": "statsnz_population_projections",
+   "period_type": "year",
+   "unit": "people",
+   "points": [
+    [
+     "2028-06-30",
+     53800.0,
+     "Stats NZ 2023 base"
+    ],
+    [
+     "2033-06-30",
+     54900.0,
+     "Stats NZ 2023 base"
+    ],
+    [
+     "2038-06-30",
+     55900.0,
+     "Stats NZ 2023 base"
+    ],
+    [
+     "2043-06-30",
+     56700.0,
+     "Stats NZ 2023 base"
+    ],
+    [
+     "2048-06-30",
+     57300.0,
+     "Stats NZ 2023 base"
+    ],
+    [
+     "2053-06-30",
+     57700.0,
+     "Stats NZ 2023 base"
+    ]
+   ]
+  },
+  {
    "indicator": "gisborne_nominal_gdp",
    "geo": "05",
    "geo_type": "region",
@@ -25900,6 +26456,1016 @@
      "provisional"
     ]
    ]
+  },
+  {
+   "indicator": "river_ecoli_median",
+   "geo": "BOPRC QJ471191",
+   "geo_type": "site",
+   "geo_name": "BOPRC QJ471191",
+   "ethnicity": "Total",
+   "source": "statsnz_river_quality",
+   "period_type": "multi_year",
+   "unit": "E. coli per 100 mL",
+   "points": [
+    [
+     "2024-12-31",
+     190.0,
+     null
+    ]
+   ],
+   "period_start": "2020-01-01"
+  },
+  {
+   "indicator": "river_ecoli_median",
+   "geo": "GDC Awatere River at SH35 Bridge",
+   "geo_type": "site",
+   "geo_name": "GDC Awatere River at SH35 Bridge",
+   "ethnicity": "Total",
+   "source": "statsnz_river_quality",
+   "period_type": "multi_year",
+   "unit": "E. coli per 100 mL",
+   "points": [
+    [
+     "2024-12-31",
+     42.0,
+     null
+    ]
+   ],
+   "period_start": "2020-01-01"
+  },
+  {
+   "indicator": "river_ecoli_median",
+   "geo": "GDC Hamanatua Stream at Okitu Bridge",
+   "geo_type": "site",
+   "geo_name": "GDC Hamanatua Stream at Okitu Bridge",
+   "ethnicity": "Total",
+   "source": "statsnz_river_quality",
+   "period_type": "multi_year",
+   "unit": "E. coli per 100 mL",
+   "points": [
+    [
+     "2024-12-31",
+     210.0,
+     null
+    ]
+   ],
+   "period_start": "2020-01-01"
+  },
+  {
+   "indicator": "river_ecoli_median",
+   "geo": "GDC Hikuwai River at Willowflat",
+   "geo_type": "site",
+   "geo_name": "GDC Hikuwai River at Willowflat",
+   "ethnicity": "Total",
+   "source": "statsnz_river_quality",
+   "period_type": "multi_year",
+   "unit": "E. coli per 100 mL",
+   "points": [
+    [
+     "2024-12-31",
+     110.0,
+     null
+    ]
+   ],
+   "period_start": "2020-01-01"
+  },
+  {
+   "indicator": "river_ecoli_median",
+   "geo": "GDC Ihungia River at Ihungia Rd Br",
+   "geo_type": "site",
+   "geo_name": "GDC Ihungia River at Ihungia Rd Br",
+   "ethnicity": "Total",
+   "source": "statsnz_river_quality",
+   "period_type": "multi_year",
+   "unit": "E. coli per 100 mL",
+   "points": [
+    [
+     "2024-12-31",
+     94.0,
+     null
+    ]
+   ],
+   "period_start": "2020-01-01"
+  },
+  {
+   "indicator": "river_ecoli_median",
+   "geo": "GDC Karakatuwhero River at SH35 Br",
+   "geo_type": "site",
+   "geo_name": "GDC Karakatuwhero River at SH35 Br",
+   "ethnicity": "Total",
+   "source": "statsnz_river_quality",
+   "period_type": "multi_year",
+   "unit": "E. coli per 100 mL",
+   "points": [
+    [
+     "2024-12-31",
+     61.0,
+     null
+    ]
+   ],
+   "period_start": "2020-01-01"
+  },
+  {
+   "indicator": "river_ecoli_median",
+   "geo": "GDC Kopuawhakapata Stream at Hirini St",
+   "geo_type": "site",
+   "geo_name": "GDC Kopuawhakapata Stream at Hirini St",
+   "ethnicity": "Total",
+   "source": "statsnz_river_quality",
+   "period_type": "multi_year",
+   "unit": "E. coli per 100 mL",
+   "points": [
+    [
+     "2024-12-31",
+     770.0,
+     null
+    ]
+   ],
+   "period_start": "2020-01-01"
+  },
+  {
+   "indicator": "river_ecoli_median",
+   "geo": "GDC Mangaheia River at Paroa Road Bridge",
+   "geo_type": "site",
+   "geo_name": "GDC Mangaheia River at Paroa Road Bridge",
+   "ethnicity": "Total",
+   "source": "statsnz_river_quality",
+   "period_type": "multi_year",
+   "unit": "E. coli per 100 mL",
+   "points": [
+    [
+     "2024-12-31",
+     78.0,
+     null
+    ]
+   ],
+   "period_start": "2020-01-01"
+  },
+  {
+   "indicator": "river_ecoli_median",
+   "geo": "GDC Mangaoporo River at Tutumatai Bridge",
+   "geo_type": "site",
+   "geo_name": "GDC Mangaoporo River at Tutumatai Bridge",
+   "ethnicity": "Total",
+   "source": "statsnz_river_quality",
+   "period_type": "multi_year",
+   "unit": "E. coli per 100 mL",
+   "points": [
+    [
+     "2024-12-31",
+     34.0,
+     null
+    ]
+   ],
+   "period_start": "2020-01-01"
+  },
+  {
+   "indicator": "river_ecoli_median",
+   "geo": "GDC Mangatu River at Omapere Station",
+   "geo_type": "site",
+   "geo_name": "GDC Mangatu River at Omapere Station",
+   "ethnicity": "Total",
+   "source": "statsnz_river_quality",
+   "period_type": "multi_year",
+   "unit": "E. coli per 100 mL",
+   "points": [
+    [
+     "2024-12-31",
+     115.0,
+     null
+    ]
+   ],
+   "period_start": "2020-01-01"
+  },
+  {
+   "indicator": "river_ecoli_median",
+   "geo": "GDC Mangatutu Str at Sh35-Waipahuru Bridge",
+   "geo_type": "site",
+   "geo_name": "GDC Mangatutu Str at Sh35-Waipahuru Bridge",
+   "ethnicity": "Total",
+   "source": "statsnz_river_quality",
+   "period_type": "multi_year",
+   "unit": "E. coli per 100 mL",
+   "points": [
+    [
+     "2024-12-31",
+     40.0,
+     null
+    ]
+   ],
+   "period_start": "2020-01-01"
+  },
+  {
+   "indicator": "river_ecoli_median",
+   "geo": "GDC Mata River at Aorangi (Makarika Road)",
+   "geo_type": "site",
+   "geo_name": "GDC Mata River at Aorangi (Makarika Road)",
+   "ethnicity": "Total",
+   "source": "statsnz_river_quality",
+   "period_type": "multi_year",
+   "unit": "E. coli per 100 mL",
+   "points": [
+    [
+     "2024-12-31",
+     62.0,
+     null
+    ]
+   ],
+   "period_start": "2020-01-01"
+  },
+  {
+   "indicator": "river_ecoli_median",
+   "geo": "GDC Mata River at Pouturu Br",
+   "geo_type": "site",
+   "geo_name": "GDC Mata River at Pouturu Br",
+   "ethnicity": "Total",
+   "source": "statsnz_river_quality",
+   "period_type": "multi_year",
+   "unit": "E. coli per 100 mL",
+   "points": [
+    [
+     "2024-12-31",
+     90.0,
+     null
+    ]
+   ],
+   "period_start": "2020-01-01"
+  },
+  {
+   "indicator": "river_ecoli_median",
+   "geo": "GDC Matawai Stream at Tawai",
+   "geo_type": "site",
+   "geo_name": "GDC Matawai Stream at Tawai",
+   "ethnicity": "Total",
+   "source": "statsnz_river_quality",
+   "period_type": "multi_year",
+   "unit": "E. coli per 100 mL",
+   "points": [
+    [
+     "2024-12-31",
+     260.0,
+     null
+    ]
+   ],
+   "period_start": "2020-01-01"
+  },
+  {
+   "indicator": "river_ecoli_median",
+   "geo": "GDC Motu River above Falls",
+   "geo_type": "site",
+   "geo_name": "GDC Motu River above Falls",
+   "ethnicity": "Total",
+   "source": "statsnz_river_quality",
+   "period_type": "multi_year",
+   "unit": "E. coli per 100 mL",
+   "points": [
+    [
+     "2024-12-31",
+     220.0,
+     null
+    ]
+   ],
+   "period_start": "2020-01-01"
+  },
+  {
+   "indicator": "river_ecoli_median",
+   "geo": "GDC Motu River at Kotare Station Bridge",
+   "geo_type": "site",
+   "geo_name": "GDC Motu River at Kotare Station Bridge",
+   "ethnicity": "Total",
+   "source": "statsnz_river_quality",
+   "period_type": "multi_year",
+   "unit": "E. coli per 100 mL",
+   "points": [
+    [
+     "2024-12-31",
+     220.0,
+     null
+    ]
+   ],
+   "period_start": "2020-01-01"
+  },
+  {
+   "indicator": "river_ecoli_median",
+   "geo": "GDC Motu River at Matawai Conservation Area",
+   "geo_type": "site",
+   "geo_name": "GDC Motu River at Matawai Conservation Area",
+   "ethnicity": "Total",
+   "source": "statsnz_river_quality",
+   "period_type": "multi_year",
+   "unit": "E. coli per 100 mL",
+   "points": [
+    [
+     "2024-12-31",
+     81.0,
+     null
+    ]
+   ],
+   "period_start": "2020-01-01"
+  },
+  {
+   "indicator": "river_ecoli_median",
+   "geo": "GDC Oweka River at SH35 Bridge",
+   "geo_type": "site",
+   "geo_name": "GDC Oweka River at SH35 Bridge",
+   "ethnicity": "Total",
+   "source": "statsnz_river_quality",
+   "period_type": "multi_year",
+   "unit": "E. coli per 100 mL",
+   "points": [
+    [
+     "2024-12-31",
+     66.0,
+     null
+    ]
+   ],
+   "period_start": "2020-01-01"
+  },
+  {
+   "indicator": "river_ecoli_median",
+   "geo": "GDC Pakarae River at Pakarae Station Bridge",
+   "geo_type": "site",
+   "geo_name": "GDC Pakarae River at Pakarae Station Bridge",
+   "ethnicity": "Total",
+   "source": "statsnz_river_quality",
+   "period_type": "multi_year",
+   "unit": "E. coli per 100 mL",
+   "points": [
+    [
+     "2024-12-31",
+     160.0,
+     null
+    ]
+   ],
+   "period_start": "2020-01-01"
+  },
+  {
+   "indicator": "river_ecoli_median",
+   "geo": "GDC Poroporo River at Rangitukia Rd Bridge",
+   "geo_type": "site",
+   "geo_name": "GDC Poroporo River at Rangitukia Rd Bridge",
+   "ethnicity": "Total",
+   "source": "statsnz_river_quality",
+   "period_type": "multi_year",
+   "unit": "E. coli per 100 mL",
+   "points": [
+    [
+     "2024-12-31",
+     160.0,
+     null
+    ]
+   ],
+   "period_start": "2020-01-01"
+  },
+  {
+   "indicator": "river_ecoli_median",
+   "geo": "GDC Ratahi Lagoon at Sh35 Culvert",
+   "geo_type": "site",
+   "geo_name": "GDC Ratahi Lagoon at Sh35 Culvert",
+   "ethnicity": "Total",
+   "source": "statsnz_river_quality",
+   "period_type": "multi_year",
+   "unit": "E. coli per 100 mL",
+   "points": [
+    [
+     "2024-12-31",
+     9.8,
+     null
+    ]
+   ],
+   "period_start": "2020-01-01"
+  },
+  {
+   "indicator": "river_ecoli_median",
+   "geo": "GDC Tapuaeroa River at Tapuaeroa Rd",
+   "geo_type": "site",
+   "geo_name": "GDC Tapuaeroa River at Tapuaeroa Rd",
+   "ethnicity": "Total",
+   "source": "statsnz_river_quality",
+   "period_type": "multi_year",
+   "unit": "E. coli per 100 mL",
+   "points": [
+    [
+     "2024-12-31",
+     16.0,
+     null
+    ]
+   ],
+   "period_start": "2020-01-01"
+  },
+  {
+   "indicator": "river_ecoli_median",
+   "geo": "GDC Taruheru River at Lytton Rd Bridge",
+   "geo_type": "site",
+   "geo_name": "GDC Taruheru River at Lytton Rd Bridge",
+   "ethnicity": "Total",
+   "source": "statsnz_river_quality",
+   "period_type": "multi_year",
+   "unit": "E. coli per 100 mL",
+   "points": [
+    [
+     "2024-12-31",
+     590.0,
+     null
+    ]
+   ],
+   "period_start": "2020-01-01"
+  },
+  {
+   "indicator": "river_ecoli_median",
+   "geo": "GDC Taruheru River at Peel St Bridge",
+   "geo_type": "site",
+   "geo_name": "GDC Taruheru River at Peel St Bridge",
+   "ethnicity": "Total",
+   "source": "statsnz_river_quality",
+   "period_type": "multi_year",
+   "unit": "E. coli per 100 mL",
+   "points": [
+    [
+     "2024-12-31",
+     120.0,
+     null
+    ]
+   ],
+   "period_start": "2020-01-01"
+  },
+  {
+   "indicator": "river_ecoli_median",
+   "geo": "GDC Taruheru River at Tuckers Rd Bridge",
+   "geo_type": "site",
+   "geo_name": "GDC Taruheru River at Tuckers Rd Bridge",
+   "ethnicity": "Total",
+   "source": "statsnz_river_quality",
+   "period_type": "multi_year",
+   "unit": "E. coli per 100 mL",
+   "points": [
+    [
+     "2024-12-31",
+     800.0,
+     null
+    ]
+   ],
+   "period_start": "2020-01-01"
+  },
+  {
+   "indicator": "river_ecoli_median",
+   "geo": "GDC Taruheru River at Wi Pere Pipe",
+   "geo_type": "site",
+   "geo_name": "GDC Taruheru River at Wi Pere Pipe",
+   "ethnicity": "Total",
+   "source": "statsnz_river_quality",
+   "period_type": "multi_year",
+   "unit": "E. coli per 100 mL",
+   "points": [
+    [
+     "2024-12-31",
+     240.0,
+     null
+    ]
+   ],
+   "period_start": "2020-01-01"
+  },
+  {
+   "indicator": "river_ecoli_median",
+   "geo": "GDC Te Arai River at Pykes Weir",
+   "geo_type": "site",
+   "geo_name": "GDC Te Arai River at Pykes Weir",
+   "ethnicity": "Total",
+   "source": "statsnz_river_quality",
+   "period_type": "multi_year",
+   "unit": "E. coli per 100 mL",
+   "points": [
+    [
+     "2024-12-31",
+     160.0,
+     null
+    ]
+   ],
+   "period_start": "2020-01-01"
+  },
+  {
+   "indicator": "river_ecoli_median",
+   "geo": "GDC Turanganui River at Gladstone Rd Bridge",
+   "geo_type": "site",
+   "geo_name": "GDC Turanganui River at Gladstone Rd Bridge",
+   "ethnicity": "Total",
+   "source": "statsnz_river_quality",
+   "period_type": "multi_year",
+   "unit": "E. coli per 100 mL",
+   "points": [
+    [
+     "2024-12-31",
+     230.0,
+     null
+    ]
+   ],
+   "period_start": "2020-01-01"
+  },
+  {
+   "indicator": "river_ecoli_median",
+   "geo": "GDC Turanganui River at The Cut",
+   "geo_type": "site",
+   "geo_name": "GDC Turanganui River at The Cut",
+   "ethnicity": "Total",
+   "source": "statsnz_river_quality",
+   "period_type": "multi_year",
+   "unit": "E. coli per 100 mL",
+   "points": [
+    [
+     "2024-12-31",
+     37.0,
+     null
+    ]
+   ],
+   "period_start": "2020-01-01"
+  },
+  {
+   "indicator": "river_ecoli_median",
+   "geo": "GDC Waiapu River at Rotokautuku Br (SH35)",
+   "geo_type": "site",
+   "geo_name": "GDC Waiapu River at Rotokautuku Br (SH35)",
+   "ethnicity": "Total",
+   "source": "statsnz_river_quality",
+   "period_type": "multi_year",
+   "unit": "E. coli per 100 mL",
+   "points": [
+    [
+     "2024-12-31",
+     150.0,
+     null
+    ]
+   ],
+   "period_start": "2020-01-01"
+  },
+  {
+   "indicator": "river_ecoli_median",
+   "geo": "GDC Waihirere Str at Domain",
+   "geo_type": "site",
+   "geo_name": "GDC Waihirere Str at Domain",
+   "ethnicity": "Total",
+   "source": "statsnz_river_quality",
+   "period_type": "multi_year",
+   "unit": "E. coli per 100 mL",
+   "points": [
+    [
+     "2024-12-31",
+     280.0,
+     null
+    ]
+   ],
+   "period_start": "2020-01-01"
+  },
+  {
+   "indicator": "river_ecoli_median",
+   "geo": "GDC Waikanae Creek at Grey St Bridge",
+   "geo_type": "site",
+   "geo_name": "GDC Waikanae Creek at Grey St Bridge",
+   "ethnicity": "Total",
+   "source": "statsnz_river_quality",
+   "period_type": "multi_year",
+   "unit": "E. coli per 100 mL",
+   "points": [
+    [
+     "2024-12-31",
+     315.0,
+     null
+    ]
+   ],
+   "period_start": "2020-01-01"
+  },
+  {
+   "indicator": "river_ecoli_median",
+   "geo": "GDC Waikanae Creek at Stanley Rd Bridge",
+   "geo_type": "site",
+   "geo_name": "GDC Waikanae Creek at Stanley Rd Bridge",
+   "ethnicity": "Total",
+   "source": "statsnz_river_quality",
+   "period_type": "multi_year",
+   "unit": "E. coli per 100 mL",
+   "points": [
+    [
+     "2024-12-31",
+     510.0,
+     null
+    ]
+   ],
+   "period_start": "2020-01-01"
+  },
+  {
+   "indicator": "river_ecoli_median",
+   "geo": "GDC Waikohu River at Mahaki Station",
+   "geo_type": "site",
+   "geo_name": "GDC Waikohu River at Mahaki Station",
+   "ethnicity": "Total",
+   "source": "statsnz_river_quality",
+   "period_type": "multi_year",
+   "unit": "E. coli per 100 mL",
+   "points": [
+    [
+     "2024-12-31",
+     110.0,
+     null
+    ]
+   ],
+   "period_start": "2020-01-01"
+  },
+  {
+   "indicator": "river_ecoli_median",
+   "geo": "GDC Waimata River at Goodwins Rd Bridge",
+   "geo_type": "site",
+   "geo_name": "GDC Waimata River at Goodwins Rd Bridge",
+   "ethnicity": "Total",
+   "source": "statsnz_river_quality",
+   "period_type": "multi_year",
+   "unit": "E. coli per 100 mL",
+   "points": [
+    [
+     "2024-12-31",
+     78.0,
+     null
+    ]
+   ],
+   "period_start": "2020-01-01"
+  },
+  {
+   "indicator": "river_ecoli_median",
+   "geo": "GDC Waimata River at Grant Rd",
+   "geo_type": "site",
+   "geo_name": "GDC Waimata River at Grant Rd",
+   "ethnicity": "Total",
+   "source": "statsnz_river_quality",
+   "period_type": "multi_year",
+   "unit": "E. coli per 100 mL",
+   "points": [
+    [
+     "2024-12-31",
+     115.0,
+     null
+    ]
+   ],
+   "period_start": "2020-01-01"
+  },
+  {
+   "indicator": "river_ecoli_median",
+   "geo": "GDC Waimata River at Monowai Bridge",
+   "geo_type": "site",
+   "geo_name": "GDC Waimata River at Monowai Bridge",
+   "ethnicity": "Total",
+   "source": "statsnz_river_quality",
+   "period_type": "multi_year",
+   "unit": "E. coli per 100 mL",
+   "points": [
+    [
+     "2024-12-31",
+     265.0,
+     null
+    ]
+   ],
+   "period_start": "2020-01-01"
+  },
+  {
+   "indicator": "river_ecoli_median",
+   "geo": "GDC Waingaromia River at Terrace Station",
+   "geo_type": "site",
+   "geo_name": "GDC Waingaromia River at Terrace Station",
+   "ethnicity": "Total",
+   "source": "statsnz_river_quality",
+   "period_type": "multi_year",
+   "unit": "E. coli per 100 mL",
+   "points": [
+    [
+     "2024-12-31",
+     130.0,
+     null
+    ]
+   ],
+   "period_start": "2020-01-01"
+  },
+  {
+   "indicator": "river_ecoli_median",
+   "geo": "GDC Wainui Stream at Pare Street",
+   "geo_type": "site",
+   "geo_name": "GDC Wainui Stream at Pare Street",
+   "ethnicity": "Total",
+   "source": "statsnz_river_quality",
+   "period_type": "multi_year",
+   "unit": "E. coli per 100 mL",
+   "points": [
+    [
+     "2024-12-31",
+     455.0,
+     null
+    ]
+   ],
+   "period_start": "2020-01-01"
+  },
+  {
+   "indicator": "river_ecoli_median",
+   "geo": "GDC Waipaoa River at Kanakanaia",
+   "geo_type": "site",
+   "geo_name": "GDC Waipaoa River at Kanakanaia",
+   "ethnicity": "Total",
+   "source": "statsnz_river_quality",
+   "period_type": "multi_year",
+   "unit": "E. coli per 100 mL",
+   "points": [
+    [
+     "2024-12-31",
+     155.0,
+     null
+    ]
+   ],
+   "period_start": "2020-01-01"
+  },
+  {
+   "indicator": "river_ecoli_median",
+   "geo": "GDC Waipaoa River at Matawhero Bridge",
+   "geo_type": "site",
+   "geo_name": "GDC Waipaoa River at Matawhero Bridge",
+   "ethnicity": "Total",
+   "source": "statsnz_river_quality",
+   "period_type": "multi_year",
+   "unit": "E. coli per 100 mL",
+   "points": [
+    [
+     "2024-12-31",
+     255.0,
+     null
+    ]
+   ],
+   "period_start": "2020-01-01"
+  },
+  {
+   "indicator": "river_ecoli_median",
+   "geo": "GDC Whakaahu Str at Brunton Rd",
+   "geo_type": "site",
+   "geo_name": "GDC Whakaahu Str at Brunton Rd",
+   "ethnicity": "Total",
+   "source": "statsnz_river_quality",
+   "period_type": "multi_year",
+   "unit": "E. coli per 100 mL",
+   "points": [
+    [
+     "2024-12-31",
+     165.0,
+     null
+    ]
+   ],
+   "period_start": "2020-01-01"
+  },
+  {
+   "indicator": "river_ecoli_median",
+   "geo": "GDC Wharekahika River U/S of Wharf Bridge",
+   "geo_type": "site",
+   "geo_name": "GDC Wharekahika River U/S of Wharf Bridge",
+   "ethnicity": "Total",
+   "source": "statsnz_river_quality",
+   "period_type": "multi_year",
+   "unit": "E. coli per 100 mL",
+   "points": [
+    [
+     "2024-12-31",
+     140.0,
+     null
+    ]
+   ],
+   "period_start": "2020-01-01"
+  },
+  {
+   "indicator": "river_ecoli_median",
+   "geo": "GDC Wharekopae River at Rangimoe",
+   "geo_type": "site",
+   "geo_name": "GDC Wharekopae River at Rangimoe",
+   "ethnicity": "Total",
+   "source": "statsnz_river_quality",
+   "period_type": "multi_year",
+   "unit": "E. coli per 100 mL",
+   "points": [
+    [
+     "2024-12-31",
+     255.0,
+     null
+    ]
+   ],
+   "period_start": "2020-01-01"
+  },
+  {
+   "indicator": "river_ecoli_median",
+   "geo": "HBRC 337",
+   "geo_type": "site",
+   "geo_name": "HBRC 337",
+   "ethnicity": "Total",
+   "source": "statsnz_river_quality",
+   "period_type": "multi_year",
+   "unit": "E. coli per 100 mL",
+   "points": [
+    [
+     "2024-12-31",
+     70.0,
+     null
+    ]
+   ],
+   "period_start": "2020-01-01"
+  },
+  {
+   "indicator": "river_ecoli_median",
+   "geo": "NIWA GS2",
+   "geo_type": "site",
+   "geo_name": "NIWA GS2",
+   "ethnicity": "Total",
+   "source": "statsnz_river_quality",
+   "period_type": "multi_year",
+   "unit": "E. coli per 100 mL",
+   "points": [
+    [
+     "2024-12-31",
+     548.0,
+     null
+    ]
+   ],
+   "period_start": "2020-01-01"
+  },
+  {
+   "indicator": "river_ecoli_median",
+   "geo": "NIWA GS3",
+   "geo_type": "site",
+   "geo_name": "NIWA GS3",
+   "ethnicity": "Total",
+   "source": "statsnz_river_quality",
+   "period_type": "multi_year",
+   "unit": "E. coli per 100 mL",
+   "points": [
+    [
+     "2024-12-31",
+     242.0,
+     null
+    ]
+   ],
+   "period_start": "2020-01-01"
+  },
+  {
+   "indicator": "gisborne_live_births",
+   "geo": "05",
+   "geo_type": "region",
+   "geo_name": "Gisborne Region",
+   "ethnicity": "Total",
+   "source": "statsnz_vital_statistics",
+   "period_type": "year",
+   "unit": "births",
+   "points": [
+    [
+     "2012-12-31",
+     708.0,
+     null
+    ],
+    [
+     "2013-12-31",
+     699.0,
+     null
+    ],
+    [
+     "2014-12-31",
+     651.0,
+     null
+    ],
+    [
+     "2015-12-31",
+     717.0,
+     null
+    ],
+    [
+     "2016-12-31",
+     738.0,
+     null
+    ],
+    [
+     "2017-12-31",
+     705.0,
+     null
+    ],
+    [
+     "2018-12-31",
+     711.0,
+     null
+    ],
+    [
+     "2019-12-31",
+     675.0,
+     null
+    ],
+    [
+     "2020-12-31",
+     663.0,
+     null
+    ],
+    [
+     "2021-12-31",
+     675.0,
+     null
+    ],
+    [
+     "2022-12-31",
+     723.0,
+     null
+    ],
+    [
+     "2023-12-31",
+     690.0,
+     null
+    ],
+    [
+     "2024-12-31",
+     633.0,
+     null
+    ],
+    [
+     "2025-12-31",
+     618.0,
+     null
+    ]
+   ]
+  },
+  {
+   "indicator": "gisborne_registered_deaths",
+   "geo": "05",
+   "geo_type": "region",
+   "geo_name": "Gisborne Region",
+   "ethnicity": "Total",
+   "source": "statsnz_vital_statistics",
+   "period_type": "year",
+   "unit": "deaths",
+   "points": [
+    [
+     "2012-12-31",
+     396.0,
+     null
+    ],
+    [
+     "2013-12-31",
+     399.0,
+     null
+    ],
+    [
+     "2014-12-31",
+     387.0,
+     null
+    ],
+    [
+     "2015-12-31",
+     351.0,
+     null
+    ],
+    [
+     "2016-12-31",
+     378.0,
+     null
+    ],
+    [
+     "2017-12-31",
+     432.0,
+     null
+    ],
+    [
+     "2018-12-31",
+     429.0,
+     null
+    ],
+    [
+     "2019-12-31",
+     456.0,
+     null
+    ],
+    [
+     "2020-12-31",
+     393.0,
+     null
+    ],
+    [
+     "2021-12-31",
+     393.0,
+     null
+    ],
+    [
+     "2022-12-31",
+     441.0,
+     null
+    ],
+    [
+     "2023-12-31",
+     411.0,
+     null
+    ],
+    [
+     "2024-12-31",
+     498.0,
+     null
+    ],
+    [
+     "2025-12-31",
+     441.0,
+     null
+    ]
+   ]
   }
  ],
  "status": {
@@ -26054,6 +27620,36 @@
    "checked": "2026-11-20T09:16:46+00:00",
    "last_success": "2026-11-20T09:16:46+00:00",
    "schema_hash": "cc6228e0e6"
+  },
+  "statsnz_vital_statistics": {
+   "source_id": "statsnz_vital_statistics",
+   "ok": true,
+   "rows": 28,
+   "latest_period": "2025-12-31",
+   "message": "ok",
+   "checked": "2026-11-20T09:22:51+00:00",
+   "last_success": "2026-11-20T09:22:51+00:00",
+   "schema_hash": "a84694e11a"
+  },
+  "moe_rolls_ece": {
+   "source_id": "moe_rolls_ece",
+   "ok": true,
+   "rows": 61,
+   "latest_period": "2026-06-30",
+   "message": "ok",
+   "checked": "2026-11-20T09:22:52+00:00",
+   "last_success": "2026-11-20T09:22:52+00:00",
+   "schema_hash": "3382445aea"
+  },
+  "statsnz_river_quality": {
+   "source_id": "statsnz_river_quality",
+   "ok": true,
+   "rows": 47,
+   "latest_period": "2024-12-31",
+   "message": "ok",
+   "checked": "2026-11-20T09:22:52+00:00",
+   "last_success": "2026-11-20T09:22:52+00:00",
+   "schema_hash": "1f2ac1f491"
   }
  },
  "catalogue": [
@@ -26240,17 +27836,21 @@
    "frequency": "~3-yearly",
    "phase": 2,
    "status": "manual",
-   "note": "Import each official scenario release manually and identify it as a projection."
+   "published": true,
+   "note": "Published 2023-base low, medium and high Gisborne Region projection scenarios.",
+   "url": "https://www.stats.govt.nz/information-releases/subnational-population-projections-2023base-2053/"
   },
   {
    "id": "H3",
    "name": "Births and deaths",
    "publisher": "Stats NZ",
    "domain": "Hapori",
-   "frequency": "Quarterly",
+   "frequency": "Annual",
    "phase": 2,
-   "status": "planned",
-   "release": 2
+   "status": "live",
+   "release": 2,
+   "note": "Annual registered births and deaths for Gisborne Region from 2012.",
+   "url": "https://www.stats.govt.nz/topics/births-and-deaths/"
   },
   {
    "id": "H4",
@@ -26406,7 +28006,9 @@
    "frequency": "Quarterly",
    "phase": 1,
    "status": "planned",
-   "release": 2
+   "release": 2,
+   "note": "Review the public lead-district enrolment tables and confirm geography and denominators.",
+   "url": "https://www.healthnz.govt.nz/about-us/health-data/data-sets-and-collections/primary-care-data-and-statistics/primary-care-indicators"
   },
   {
    "id": "H19",
@@ -26446,7 +28048,9 @@
    "frequency": "Monthly",
    "phase": 2,
    "status": "planned",
-   "release": 2
+   "release": 2,
+   "note": "Confirm a reproducible official local victimisations export and preserve geography and suppression.",
+   "url": "https://www.police.govt.nz/stats-data-category/victimisations-rcvs"
   },
   {
    "id": "H23",
@@ -26476,7 +28080,9 @@
    "frequency": "Annual",
    "phase": 1,
    "status": "planned",
-   "release": 2
+   "release": 2,
+   "note": "Verify the Gisborne court scope and distinguish court location from place of residence.",
+   "url": "https://www.justice.govt.nz/justice-sector-policy/research-data/justice-statistics/adults-with-finalised-charges-in-court/"
   },
   {
    "id": "H26",
@@ -26549,10 +28155,13 @@
    "name": "ECE participation",
    "publisher": "Ministry of Education",
    "domain": "Mātauranga",
-   "frequency": "Annual",
+   "frequency": "Quarterly",
    "phase": 2,
-   "status": "planned",
-   "release": 3
+   "status": "manual",
+   "release": 3,
+   "published": true,
+   "note": "Prior early learning participation for Gisborne District school starters from 2018. Reviewed workbook fallback.",
+   "url": "https://www.educationcounts.govt.nz/statistics/participation"
   },
   {
    "id": "M6",
@@ -26583,19 +28192,23 @@
    "domain": "Mātauranga",
    "frequency": "Annual",
    "phase": 2,
-   "status": "planned",
+   "status": "manual",
    "release": 2,
-   "note": "Best annual Tūtangata proxy"
+   "published": true,
+   "note": "July school rolls for Gisborne District from 1996. Māori-medium enrolment awaits a verified comparable series.",
+   "url": "https://www.educationcounts.govt.nz/statistics/school-rolls"
   },
   {
    "id": "T1",
    "name": "LAWA river water quality",
    "publisher": "GDC via LAWA",
    "domain": "Taiao",
-   "frequency": "Annual",
+   "frequency": "Irregular",
    "phase": 2,
-   "status": "planned",
-   "release": 2
+   "status": "live",
+   "release": 2,
+   "note": "Stats NZ and Ministry for the Environment monitored-site E. coli medians, 2020–2024.",
+   "url": "https://www.stats.govt.nz/indicators/river-water-quality-escherichia-coli-data-to-2024/"
   },
   {
    "id": "T2",
@@ -26605,7 +28218,9 @@
    "frequency": "Annual",
    "phase": 2,
    "status": "planned",
-   "release": 2
+   "release": 2,
+   "note": "GDC provides a public swimming-water viewer. A reusable site-level export and licence need verification.",
+   "url": "https://www.gdc.govt.nz/environment/maps-and-data/swimming-waters"
   },
   {
    "id": "T3",
@@ -26777,7 +28392,7 @@
    "phase": 3,
    "status": "reference",
    "note": "Recovery reference material. Preserve publication dates and project context.",
-   "url": "https://www.gdc.govt.nz/recovery"
+   "url": "https://www.gdc.govt.nz/our-recovery"
   },
   {
    "id": "G4",

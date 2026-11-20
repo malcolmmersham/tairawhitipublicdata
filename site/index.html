@@ -291,6 +291,7 @@ function linesFor(ind) {
   return out;
 }
 function card(ind) {
+  if (D.indicators[ind].display === "sites") return siteCard(ind);
   const meta = D.indicators[ind], src = D.sources[(mainSeries(ind) || {}).source] || {};
   const lines = linesFor(ind); if (!lines.length) return null;
   const h = headline(ind);
@@ -317,6 +318,20 @@ function card(ind) {
       if (tblBox.hidden && !tblBox.firstChild) tblBox.append(table(lines, meta));
       tblBox.hidden = !tblBox.hidden; e.target.textContent = tblBox.hidden ? "Show table" : "Hide table"; } })));
   return c;
+}
+function siteCard(ind) {
+  const meta = D.indicators[ind];
+  const sites = seriesFor(ind).filter(s => s.geo_type === "site");
+  const source = D.sources[sites[0].source];
+  const rows = sites.flatMap(site => site.points.map(([end, value]) => el("tr", {},
+    el("td", { text: site.geo_name }), el("td", { text: `${site.period_start.slice(0, 4)}–${end.slice(0, 4)}` }),
+    el("td", { class: "num", text: fmt(value, meta.format) }))));
+  return el("article", { class: "card", id: "ind-" + ind },
+    el("h3", { text: meta.name }), el("p", { class: "note", text: meta.caveat }),
+    el("div", { class: "tbl-wrap" }, el("table", {}, el("thead", {}, el("tr", {},
+      el("th", { text: "Monitoring site" }), el("th", { text: "Period" }), el("th", { class: "num", text: "Median per 100 mL" }))),
+      el("tbody", {}, rows))),
+    el("div", { class: "src" }, source.attribution, el("a", { href: source.url, text: "Publisher" })));
 }
 function table(lines, meta) {
   const dates = [...new Set(lines.flatMap(l => l.points.map(p => p[0])))].sort().reverse();
@@ -351,7 +366,8 @@ function viewDomain(tab) {
   const doms = [].concat(tab.domain);
   const f = document.createDocumentFragment();
   f.append(el("p", { class: "intro", text: tab.blurb }));
-  const inds = Object.entries(D.indicators).filter(([k, m]) => doms.includes(m.domain) && mainSeries(k));
+  const inds = Object.entries(D.indicators).filter(([k, m]) => doms.includes(m.domain) &&
+    (mainSeries(k) || (m.display === "sites" && seriesFor(k).some(s => s.geo_type === "site"))));
   const topics = [...new Set(inds.map(([, m]) => m.topic))];
   for (const t of topics) {
     f.append(el("h2", { text: t }));

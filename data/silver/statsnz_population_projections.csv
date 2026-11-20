@@ -1,0 +1,19 @@
+indicator_id,geo_type,geo_code,geo_name,period_start,period_end,period_type,year_basis,value,unit,measure,ethnicity,age,sex,suppression_flag,quality_flag,source_id,vintage_date,licence
+gisborne_population_projection_high,region,05,Gisborne Region,2028-06-30,2028-06-30,year,june,55100,people,projection,Total,Total,Total,,Stats NZ 2023 base,statsnz_population_projections,2026-11-20,CC BY 4.0
+gisborne_population_projection_high,region,05,Gisborne Region,2033-06-30,2033-06-30,year,june,57500,people,projection,Total,Total,Total,,Stats NZ 2023 base,statsnz_population_projections,2026-11-20,CC BY 4.0
+gisborne_population_projection_high,region,05,Gisborne Region,2038-06-30,2038-06-30,year,june,59800,people,projection,Total,Total,Total,,Stats NZ 2023 base,statsnz_population_projections,2026-11-20,CC BY 4.0
+gisborne_population_projection_high,region,05,Gisborne Region,2043-06-30,2043-06-30,year,june,62000,people,projection,Total,Total,Total,,Stats NZ 2023 base,statsnz_population_projections,2026-11-20,CC BY 4.0
+gisborne_population_projection_high,region,05,Gisborne Region,2048-06-30,2048-06-30,year,june,64000,people,projection,Total,Total,Total,,Stats NZ 2023 base,statsnz_population_projections,2026-11-20,CC BY 4.0
+gisborne_population_projection_high,region,05,Gisborne Region,2053-06-30,2053-06-30,year,june,65900,people,projection,Total,Total,Total,,Stats NZ 2023 base,statsnz_population_projections,2026-11-20,CC BY 4.0
+gisborne_population_projection_low,region,05,Gisborne Region,2028-06-30,2028-06-30,year,june,52600,people,projection,Total,Total,Total,,Stats NZ 2023 base,statsnz_population_projections,2026-11-20,CC BY 4.0
+gisborne_population_projection_low,region,05,Gisborne Region,2033-06-30,2033-06-30,year,june,52400,people,projection,Total,Total,Total,,Stats NZ 2023 base,statsnz_population_projections,2026-11-20,CC BY 4.0
+gisborne_population_projection_low,region,05,Gisborne Region,2038-06-30,2038-06-30,year,june,52100,people,projection,Total,Total,Total,,Stats NZ 2023 base,statsnz_population_projections,2026-11-20,CC BY 4.0
+gisborne_population_projection_low,region,05,Gisborne Region,2043-06-30,2043-06-30,year,june,51500,people,projection,Total,Total,Total,,Stats NZ 2023 base,statsnz_population_projections,2026-11-20,CC BY 4.0
+gisborne_population_projection_low,region,05,Gisborne Region,2048-06-30,2048-06-30,year,june,50700,people,projection,Total,Total,Total,,Stats NZ 2023 base,statsnz_population_projections,2026-11-20,CC BY 4.0
+gisborne_population_projection_low,region,05,Gisborne Region,2053-06-30,2053-06-30,year,june,49600,people,projection,Total,Total,Total,,Stats NZ 2023 base,statsnz_population_projections,2026-11-20,CC BY 4.0
+gisborne_population_projection_medium,region,05,Gisborne Region,2028-06-30,2028-06-30,year,june,53800,people,projection,Total,Total,Total,,Stats NZ 2023 base,statsnz_population_projections,2026-11-20,CC BY 4.0
+gisborne_population_projection_medium,region,05,Gisborne Region,2033-06-30,2033-06-30,year,june,54900,people,projection,Total,Total,Total,,Stats NZ 2023 base,statsnz_population_projections,2026-11-20,CC BY 4.0
+gisborne_population_projection_medium,region,05,Gisborne Region,2038-06-30,2038-06-30,year,june,55900,people,projection,Total,Total,Total,,Stats NZ 2023 base,statsnz_population_projections,2026-11-20,CC BY 4.0
+gisborne_population_projection_medium,region,05,Gisborne Region,2043-06-30,2043-06-30,year,june,56700,people,projection,Total,Total,Total,,Stats NZ 2023 base,statsnz_population_projections,2026-11-20,CC BY 4.0
+gisborne_population_projection_medium,region,05,Gisborne Region,2048-06-30,2048-06-30,year,june,57300,people,projection,Total,Total,Total,,Stats NZ 2023 base,statsnz_population_projections,2026-11-20,CC BY 4.0
+gisborne_population_projection_medium,region,05,Gisborne Region,2053-06-30,2053-06-30,year,june,57700,people,projection,Total,Total,Total,,Stats NZ 2023 base,statsnz_population_projections,2026-11-20,CC BY 4.0
