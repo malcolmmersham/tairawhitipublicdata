@@ -1,7 +1,7 @@
 # Dataset library (from the Tairāwhiti Longitudinal Open Data Library and Connector Plan, Nov 2026).
 # status: live | manual | planned | reference | deferred
 # phase: roadmap phase from the plan. Update status as connectors are added.
-- {id: E1, name: Regional GDP, publisher: Stats NZ, domain: Ōhanga, frequency: Annual, phase: 2, status: planned, release: 2, note: "Infoshare → ADE Time Series Expansion (target Apr 2027)"}
+- {id: E1, name: Regional GDP, publisher: Stats NZ, domain: Ōhanga, frequency: Annual, phase: 2, status: live, release: 2, note: "Stats NZ regional release CSV. Nominal GDP and GDP per person from 2000.", url: https://www.stats.govt.nz/large-datasets/csv-files-for-download/}
 - {id: E2, name: Modelled TA GDP (MTAGDP), publisher: MBIE, domain: Ōhanga, frequency: Irregular, phase: 2, status: manual, note: "Irregular modelled estimates. Use a reviewed official export and retain the model vintage.", url: https://www.mbie.govt.nz/business-and-employment/economic-growth/regional-economic-development}
 - {id: E3, name: Business Demography Statistics, publisher: Stats NZ, domain: Ōhanga, frequency: Annual, phase: 1, status: live, note: "ADE BDS_BDS_001"}
 - {id: E4, name: Linked Employer-Employee Data (LEED), publisher: Stats NZ, domain: Ōhanga, frequency: Quarterly, phase: 2, status: planned, release: 3}
@@ -23,8 +23,8 @@
 - {id: H5, name: Benefit Fact Sheets – regional council, publisher: MSD, domain: Hapori, frequency: Quarterly, phase: 1, status: live, note: "Rebuilt from archives back to Sept 2013"}
 - {id: H6, name: Supplementary and hardship assistance, publisher: MSD, domain: Hapori, frequency: Quarterly, phase: 2, status: deferred, note: "East Coast service region is wider than Tairāwhiti. Reopen if a local series is released."}
 - {id: H7, name: HUD Housing Dashboard, publisher: HUD, domain: Hapori, frequency: Monthly, phase: 1, status: live}
-- {id: H8, name: Local Housing Statistics, publisher: HUD, domain: Hapori, frequency: Monthly, phase: 2, status: planned, release: 2}
-- {id: H9, name: Change in Housing Affordability Indicators, publisher: HUD, domain: Hapori, frequency: Quarterly, phase: 2, status: planned, release: 2}
+- {id: H8, name: Local Housing Statistics, publisher: HUD, domain: Hapori, frequency: Monthly, phase: 2, status: live, release: 2, note: "Gisborne District median house price to median household income series.", url: https://www.hud.govt.nz/stats-and-insights/local-housing-statistics/about-the-local-housing-statistics-dashboard}
+- {id: H9, name: Change in Housing Affordability Indicators, publisher: HUD, domain: Hapori, frequency: Quarterly, phase: 2, status: live, release: 2, note: "Gisborne District deposit, mortgage and rent affordability indices.", url: https://www.hud.govt.nz/stats-and-insights/change-in-housing-affordability-indicators/about-the-indicators}
 - {id: H10, name: NPS-UD Dashboard, publisher: HUD, domain: Hapori, frequency: Quarterly, phase: 2, status: planned, release: 3}
 - {id: H11, name: Rental bond data, publisher: MBIE, domain: Hapori, frequency: Monthly, phase: 1, status: live, note: "Monthly territorial authority CSV from Tenancy Services."}
 - {id: H12, name: House sales/prices (REINZ, CoreLogic), publisher: REINZ / CoreLogic, domain: Hapori, frequency: Monthly, phase: 3, status: deferred, note: "Commercial data. Reopen if public redistribution rights are granted."}
@@ -43,9 +43,9 @@
 - {id: H25, name: Adults with finalised charges / convicted, publisher: MoJ / Stats NZ, domain: Hapori, frequency: Annual, phase: 1, status: planned, release: 2}
 - {id: H26, name: Oranga Tamariki / Corrections, publisher: OT / Corrections, domain: Hapori, frequency: Quarterly, phase: 3, status: deferred, note: "Reopen once a consistent, redistributable Tairāwhiti aggregate is available."}
 - {id: H27, name: Motor Vehicle Register; traffic counts, publisher: NZTA, domain: Hapori, frequency: Monthly, phase: 2, status: planned, release: 3}
-- {id: M1, name: School attendance, publisher: Ministry of Education, domain: Mātauranga, frequency: Termly, phase: 1, status: live, note: "Gisborne Region regular attendance from 2019. Publisher workbooks with a manual fallback.", release: 1}
+- {id: M1, name: School attendance, publisher: Ministry of Education, domain: Mātauranga, frequency: Termly, phase: 1, status: manual, release: 1, published: true, note: "Gisborne Region regular attendance from 2019. GitHub uses reviewed publisher workbooks when Education Counts blocks downloads.", url: https://www.educationcounts.govt.nz/statistics/attendance}
 - {id: M2, name: Daily attendance dashboard, publisher: Ministry of Education, domain: Mātauranga, frequency: Weekly, phase: 2, status: deferred, note: "Termly attendance covers recurring reporting. Reopen if a reusable and comparable daily local series is available."}
-- {id: M3, name: School leavers' attainment, publisher: Ministry of Education, domain: Mātauranga, frequency: Annual, phase: 2, status: planned, release: 2}
+- {id: M3, name: School leavers' attainment, publisher: Ministry of Education, domain: Mātauranga, frequency: Annual, phase: 2, status: manual, release: 2, published: true, note: "NCEA Level 2 or above for Gisborne Region school leavers from 2015. Reviewed publisher workbook fallback.", url: https://www.educationcounts.govt.nz/statistics/school-leavers}
 - {id: M4, name: NZQA secondary statistics, publisher: NZQA, domain: Mātauranga, frequency: Annual, phase: 2, status: planned, release: 3}
 - {id: M5, name: ECE participation, publisher: Ministry of Education, domain: Mātauranga, frequency: Annual, phase: 2, status: planned, release: 3}
 - {id: M6, name: Stand-downs, suspensions, exclusions, publisher: Ministry of Education, domain: Mātauranga, frequency: Annual, phase: 2, status: planned, release: 3}

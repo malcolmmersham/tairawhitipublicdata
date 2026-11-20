@@ -45,9 +45,12 @@ jobs:
           MBIE_BOND_CSV_URL: ${{ vars.MBIE_BOND_CSV_URL }}
           REQUESTED_SOURCES: ${{ inputs.sources }}
           PUBLISH_EXISTING: ${{ inputs.publish_existing }}
+          EVENT_NAME: ${{ github.event_name }}
         run: |
           if [[ "$PUBLISH_EXISTING" == true ]]; then
             python -m pipeline.run --build-only
+          elif [[ "$EVENT_NAME" == schedule ]]; then
+            python -m pipeline.run --scheduled
           else
             read -r -a sources <<< "$REQUESTED_SOURCES"
             python -m pipeline.run -- "${sources[@]}"

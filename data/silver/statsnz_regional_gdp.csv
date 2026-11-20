@@ -1,0 +1,53 @@
+indicator_id,geo_type,geo_code,geo_name,period_start,period_end,period_type,year_basis,value,unit,measure,ethnicity,age,sex,suppression_flag,quality_flag,source_id,vintage_date,licence
+gisborne_nominal_gdp,region,05,Gisborne Region,1999-04-01,2000-03-31,year,march,968.0,NZD million,current prices,Total,Total,Total,,,statsnz_regional_gdp,2026-11-20,CC BY 4.0
+gisborne_nominal_gdp,region,05,Gisborne Region,2000-04-01,2001-03-31,year,march,1014.0,NZD million,current prices,Total,Total,Total,,,statsnz_regional_gdp,2026-11-20,CC BY 4.0
+gisborne_nominal_gdp,region,05,Gisborne Region,2001-04-01,2002-03-31,year,march,1058.0,NZD million,current prices,Total,Total,Total,,,statsnz_regional_gdp,2026-11-20,CC BY 4.0
+gisborne_nominal_gdp,region,05,Gisborne Region,2002-04-01,2003-03-31,year,march,1085.0,NZD million,current prices,Total,Total,Total,,,statsnz_regional_gdp,2026-11-20,CC BY 4.0
+gisborne_nominal_gdp,region,05,Gisborne Region,2003-04-01,2004-03-31,year,march,1098.0,NZD million,current prices,Total,Total,Total,,,statsnz_regional_gdp,2026-11-20,CC BY 4.0
+gisborne_nominal_gdp,region,05,Gisborne Region,2004-04-01,2005-03-31,year,march,1156.0,NZD million,current prices,Total,Total,Total,,,statsnz_regional_gdp,2026-11-20,CC BY 4.0
+gisborne_nominal_gdp,region,05,Gisborne Region,2005-04-01,2006-03-31,year,march,1172.0,NZD million,current prices,Total,Total,Total,,,statsnz_regional_gdp,2026-11-20,CC BY 4.0
+gisborne_nominal_gdp,region,05,Gisborne Region,2006-04-01,2007-03-31,year,march,1268.0,NZD million,current prices,Total,Total,Total,,,statsnz_regional_gdp,2026-11-20,CC BY 4.0
+gisborne_nominal_gdp,region,05,Gisborne Region,2007-04-01,2008-03-31,year,march,1310.0,NZD million,current prices,Total,Total,Total,,,statsnz_regional_gdp,2026-11-20,CC BY 4.0
+gisborne_nominal_gdp,region,05,Gisborne Region,2008-04-01,2009-03-31,year,march,1392.0,NZD million,current prices,Total,Total,Total,,revised,statsnz_regional_gdp,2026-11-20,CC BY 4.0
+gisborne_nominal_gdp,region,05,Gisborne Region,2009-04-01,2010-03-31,year,march,1433.0,NZD million,current prices,Total,Total,Total,,,statsnz_regional_gdp,2026-11-20,CC BY 4.0
+gisborne_nominal_gdp,region,05,Gisborne Region,2010-04-01,2011-03-31,year,march,1517.0,NZD million,current prices,Total,Total,Total,,,statsnz_regional_gdp,2026-11-20,CC BY 4.0
+gisborne_nominal_gdp,region,05,Gisborne Region,2011-04-01,2012-03-31,year,march,1564.0,NZD million,current prices,Total,Total,Total,,revised,statsnz_regional_gdp,2026-11-20,CC BY 4.0
+gisborne_nominal_gdp,region,05,Gisborne Region,2012-04-01,2013-03-31,year,march,1562.0,NZD million,current prices,Total,Total,Total,,revised,statsnz_regional_gdp,2026-11-20,CC BY 4.0
+gisborne_nominal_gdp,region,05,Gisborne Region,2013-04-01,2014-03-31,year,march,1606.0,NZD million,current prices,Total,Total,Total,,revised,statsnz_regional_gdp,2026-11-20,CC BY 4.0
+gisborne_nominal_gdp,region,05,Gisborne Region,2014-04-01,2015-03-31,year,march,1680.0,NZD million,current prices,Total,Total,Total,,revised,statsnz_regional_gdp,2026-11-20,CC BY 4.0
+gisborne_nominal_gdp,region,05,Gisborne Region,2015-04-01,2016-03-31,year,march,1789.0,NZD million,current prices,Total,Total,Total,,revised,statsnz_regional_gdp,2026-11-20,CC BY 4.0
+gisborne_nominal_gdp,region,05,Gisborne Region,2016-04-01,2017-03-31,year,march,1870.0,NZD million,current prices,Total,Total,Total,,revised,statsnz_regional_gdp,2026-11-20,CC BY 4.0
+gisborne_nominal_gdp,region,05,Gisborne Region,2017-04-01,2018-03-31,year,march,2014.0,NZD million,current prices,Total,Total,Total,,revised,statsnz_regional_gdp,2026-11-20,CC BY 4.0
+gisborne_nominal_gdp,region,05,Gisborne Region,2018-04-01,2019-03-31,year,march,2184.0,NZD million,current prices,Total,Total,Total,,revised,statsnz_regional_gdp,2026-11-20,CC BY 4.0
+gisborne_nominal_gdp,region,05,Gisborne Region,2019-04-01,2020-03-31,year,march,2252.0,NZD million,current prices,Total,Total,Total,,revised,statsnz_regional_gdp,2026-11-20,CC BY 4.0
+gisborne_nominal_gdp,region,05,Gisborne Region,2020-04-01,2021-03-31,year,march,2480.0,NZD million,current prices,Total,Total,Total,,revised,statsnz_regional_gdp,2026-11-20,CC BY 4.0
+gisborne_nominal_gdp,region,05,Gisborne Region,2021-04-01,2022-03-31,year,march,2597.0,NZD million,current prices,Total,Total,Total,,revised,statsnz_regional_gdp,2026-11-20,CC BY 4.0
+gisborne_nominal_gdp,region,05,Gisborne Region,2022-04-01,2023-03-31,year,march,2786.0,NZD million,current prices,Total,Total,Total,,revised,statsnz_regional_gdp,2026-11-20,CC BY 4.0
+gisborne_nominal_gdp,region,05,Gisborne Region,2023-04-01,2024-03-31,year,march,2954.0,NZD million,current prices,Total,Total,Total,,revised,statsnz_regional_gdp,2026-11-20,CC BY 4.0
+gisborne_nominal_gdp,region,05,Gisborne Region,2024-04-01,2025-03-31,year,march,3093.0,NZD million,current prices,Total,Total,Total,,provisional,statsnz_regional_gdp,2026-11-20,CC BY 4.0
+gisborne_nominal_gdp_per_person,region,05,Gisborne Region,1999-04-01,2000-03-31,year,march,20918.0,NZD per person,current prices,Total,Total,Total,,,statsnz_regional_gdp,2026-11-20,CC BY 4.0
+gisborne_nominal_gdp_per_person,region,05,Gisborne Region,2000-04-01,2001-03-31,year,march,22147.0,NZD per person,current prices,Total,Total,Total,,,statsnz_regional_gdp,2026-11-20,CC BY 4.0
+gisborne_nominal_gdp_per_person,region,05,Gisborne Region,2001-04-01,2002-03-31,year,march,23257.0,NZD per person,current prices,Total,Total,Total,,,statsnz_regional_gdp,2026-11-20,CC BY 4.0
+gisborne_nominal_gdp_per_person,region,05,Gisborne Region,2002-04-01,2003-03-31,year,march,23740.0,NZD per person,current prices,Total,Total,Total,,,statsnz_regional_gdp,2026-11-20,CC BY 4.0
+gisborne_nominal_gdp_per_person,region,05,Gisborne Region,2003-04-01,2004-03-31,year,march,23923.0,NZD per person,current prices,Total,Total,Total,,,statsnz_regional_gdp,2026-11-20,CC BY 4.0
+gisborne_nominal_gdp_per_person,region,05,Gisborne Region,2004-04-01,2005-03-31,year,march,25193.0,NZD per person,current prices,Total,Total,Total,,,statsnz_regional_gdp,2026-11-20,CC BY 4.0
+gisborne_nominal_gdp_per_person,region,05,Gisborne Region,2005-04-01,2006-03-31,year,march,25528.0,NZD per person,current prices,Total,Total,Total,,,statsnz_regional_gdp,2026-11-20,CC BY 4.0
+gisborne_nominal_gdp_per_person,region,05,Gisborne Region,2006-04-01,2007-03-31,year,march,27556.0,NZD per person,current prices,Total,Total,Total,,revised,statsnz_regional_gdp,2026-11-20,CC BY 4.0
+gisborne_nominal_gdp_per_person,region,05,Gisborne Region,2007-04-01,2008-03-31,year,march,28473.0,NZD per person,current prices,Total,Total,Total,,revised,statsnz_regional_gdp,2026-11-20,CC BY 4.0
+gisborne_nominal_gdp_per_person,region,05,Gisborne Region,2008-04-01,2009-03-31,year,march,30137.0,NZD per person,current prices,Total,Total,Total,,revised,statsnz_regional_gdp,2026-11-20,CC BY 4.0
+gisborne_nominal_gdp_per_person,region,05,Gisborne Region,2009-04-01,2010-03-31,year,march,30814.0,NZD per person,current prices,Total,Total,Total,,revised,statsnz_regional_gdp,2026-11-20,CC BY 4.0
+gisborne_nominal_gdp_per_person,region,05,Gisborne Region,2010-04-01,2011-03-31,year,march,32421.0,NZD per person,current prices,Total,Total,Total,,revised,statsnz_regional_gdp,2026-11-20,CC BY 4.0
+gisborne_nominal_gdp_per_person,region,05,Gisborne Region,2011-04-01,2012-03-31,year,march,33281.0,NZD per person,current prices,Total,Total,Total,,revised,statsnz_regional_gdp,2026-11-20,CC BY 4.0
+gisborne_nominal_gdp_per_person,region,05,Gisborne Region,2012-04-01,2013-03-31,year,march,33242.0,NZD per person,current prices,Total,Total,Total,,revised,statsnz_regional_gdp,2026-11-20,CC BY 4.0
+gisborne_nominal_gdp_per_person,region,05,Gisborne Region,2013-04-01,2014-03-31,year,march,34036.0,NZD per person,current prices,Total,Total,Total,,revised,statsnz_regional_gdp,2026-11-20,CC BY 4.0
+gisborne_nominal_gdp_per_person,region,05,Gisborne Region,2014-04-01,2015-03-31,year,march,35154.0,NZD per person,current prices,Total,Total,Total,,revised,statsnz_regional_gdp,2026-11-20,CC BY 4.0
+gisborne_nominal_gdp_per_person,region,05,Gisborne Region,2015-04-01,2016-03-31,year,march,36957.0,NZD per person,current prices,Total,Total,Total,,revised,statsnz_regional_gdp,2026-11-20,CC BY 4.0
+gisborne_nominal_gdp_per_person,region,05,Gisborne Region,2016-04-01,2017-03-31,year,march,38160.0,NZD per person,current prices,Total,Total,Total,,revised,statsnz_regional_gdp,2026-11-20,CC BY 4.0
+gisborne_nominal_gdp_per_person,region,05,Gisborne Region,2017-04-01,2018-03-31,year,march,40776.0,NZD per person,current prices,Total,Total,Total,,revised,statsnz_regional_gdp,2026-11-20,CC BY 4.0
+gisborne_nominal_gdp_per_person,region,05,Gisborne Region,2018-04-01,2019-03-31,year,march,43762.0,NZD per person,current prices,Total,Total,Total,,revised,statsnz_regional_gdp,2026-11-20,CC BY 4.0
+gisborne_nominal_gdp_per_person,region,05,Gisborne Region,2019-04-01,2020-03-31,year,march,44241.0,NZD per person,current prices,Total,Total,Total,,revised,statsnz_regional_gdp,2026-11-20,CC BY 4.0
+gisborne_nominal_gdp_per_person,region,05,Gisborne Region,2020-04-01,2021-03-31,year,march,48164.0,NZD per person,current prices,Total,Total,Total,,revised,statsnz_regional_gdp,2026-11-20,CC BY 4.0
+gisborne_nominal_gdp_per_person,region,05,Gisborne Region,2021-04-01,2022-03-31,year,march,50223.0,NZD per person,current prices,Total,Total,Total,,revised,statsnz_regional_gdp,2026-11-20,CC BY 4.0
+gisborne_nominal_gdp_per_person,region,05,Gisborne Region,2022-04-01,2023-03-31,year,march,53674.0,NZD per person,current prices,Total,Total,Total,,revised,statsnz_regional_gdp,2026-11-20,CC BY 4.0
+gisborne_nominal_gdp_per_person,region,05,Gisborne Region,2023-04-01,2024-03-31,year,march,56046.0,NZD per person,current prices,Total,Total,Total,,revised,statsnz_regional_gdp,2026-11-20,CC BY 4.0
+gisborne_nominal_gdp_per_person,region,05,Gisborne Region,2024-04-01,2025-03-31,year,march,58588.0,NZD per person,current prices,Total,Total,Total,,provisional,statsnz_regional_gdp,2026-11-20,CC BY 4.0

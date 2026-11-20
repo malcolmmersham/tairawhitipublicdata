@@ -58,7 +58,8 @@ def _load() -> list[tuple[bytes, str]]:
         for local_file in local_files:
             path = Path(local_file)
             content = path.read_bytes()
-            result.append((content, str(land_raw(SOURCE_ID, path.name, content))))
+            land_raw(SOURCE_ID, path.name, content)
+            result.append((content, str(path)))
         return result
 
 

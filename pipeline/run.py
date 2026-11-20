@@ -17,18 +17,20 @@ import json
 import logging
 import shutil
 import sys
+from pathlib import Path
 
 import pandas as pd
 import yaml
 
-from .core import COLUMNS, GOLD_DIR, ROOT, SILVER_DIR, SITE_DATA, RunResult, SourceBlocked, to_frame, write_json
+from .core import COLUMNS, GOLD_DIR, MANUAL_DIR, ROOT, SILVER_DIR, SITE_DATA, RunResult, SourceBlocked, to_frame, write_json
 
 SOURCES = ["statsnz_ade", "msd_benefits", "hud_housing", "healthnz_immunisation", "nzta_cas", "mbie_bonds",
-           "statsnz_emissions", "moe_attendance"]
+           "statsnz_emissions", "moe_attendance", "statsnz_regional_gdp", "hud_affordability", "moe_leavers"]
 MODULES = {
     "statsnz_ade": "statsnz_ade", "msd_benefits": "msd_benefits", "hud_housing": "hud_housing",
     "healthnz_immunisation": "healthnz_immunisation", "nzta_cas": "nzta_cas", "mbie_bonds": "mbie_bonds",
     "statsnz_emissions": "statsnz_emissions", "moe_attendance": "moe_attendance",
+    "statsnz_regional_gdp": "statsnz_regional_gdp", "hud_affordability": "hud_affordability", "moe_leavers": "moe_leavers",
 }
 STATUS_FILE = ROOT / "data" / "status.json"
 OBSERVATION_KEY = ["source_id", "indicator_id", "geo_type", "geo_code", "ethnicity", "age", "sex",
@@ -131,15 +133,23 @@ def main(argv=None) -> int:
     ap = argparse.ArgumentParser()
     ap.add_argument("sources", nargs="*", default=SOURCES)
     ap.add_argument("--build-only", action="store_true")
+    ap.add_argument("--scheduled", action="store_true", help="respect per-source refresh intervals")
     a = ap.parse_args(argv)
     unknown = set(a.sources) - MODULES.keys()
     if unknown:
         ap.error(f"unknown source(s): {', '.join(sorted(unknown))}")
     if not a.build_only:
         status = json.loads(STATUS_FILE.read_text()) if STATUS_FILE.exists() else {}
+        registry = yaml.safe_load((ROOT / "pipeline" / "registry.yaml").read_text(encoding="utf-8"))
         for sid in a.sources:
-            res = run_source(sid)
             prev = status.get(sid, {})
+            days = registry["sources"][sid].get("check_every_days", 0)
+            if a.scheduled and days and prev.get("ok") and prev.get("checked") and (SILVER_DIR / f"{sid}.csv").exists():
+                checked = dt.datetime.fromisoformat(prev["checked"])
+                if dt.datetime.now(dt.timezone.utc) - checked < dt.timedelta(days=days):
+                    print(f"{sid:24s} SKIP checked within {days} days")
+                    continue
+            res = run_source(sid)
             d = res.as_dict()
             d.pop("files")
             if not res.ok:  # keep last-good facts, flag as stale
@@ -148,14 +158,19 @@ def main(argv=None) -> int:
                 d["last_success"] = prev.get("last_success")
                 if "schema_hash" in prev:
                     d["schema_hash"] = prev["schema_hash"]
+                if "mode" in prev:
+                    d["mode"] = prev["mode"]
             else:
                 d["last_success"] = d["checked"]
+                if any(Path(path).resolve().is_relative_to(MANUAL_DIR.resolve()) for path in res.files):
+                    d["mode"] = "manual"
+                    d["message"] = "ok – published from reviewed publisher files"
                 # schema hash: alerts us when a publisher changes layout/indicators
                 df = pd.read_csv(SILVER_DIR / f"{sid}.csv", usecols=["indicator_id", "geo_code", "ethnicity"])
                 d["schema_hash"] = hashlib.sha1(
                     ",".join(sorted(set(map(str, df.itertuples(index=False))))).encode()).hexdigest()[:10]
                 if prev.get("schema_hash") and prev["schema_hash"] != d["schema_hash"]:
-                    d["message"] = "ok – indicator set changed since last run; check the connector"
+                    d["message"] += " – indicator set changed since last run; check the connector"
             status[sid] = d
             print(f"{sid:24s} {'OK ' if res.ok else 'FAIL'} rows={d['rows']} latest={d['latest_period']} {res.message[:150]}")
         write_json(STATUS_FILE, status)

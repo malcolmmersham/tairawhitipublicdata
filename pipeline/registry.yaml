@@ -56,7 +56,83 @@ sources:
     attribution: "This work includes Stats NZ data licensed for reuse under CC BY 4.0"
     cadence: five-yearly
 
+  statsnz_regional_gdp:
+    name: Stats NZ – Regional gross domestic product
+    url: https://www.stats.govt.nz/large-datasets/csv-files-for-download/
+    attribution: "This work includes Stats NZ data licensed for reuse under CC BY 4.0"
+    cadence: annual
+    check_every_days: 7
+  hud_affordability:
+    name: HUD – Local housing statistics and affordability indicators
+    url: https://www.hud.govt.nz/stats-and-insights/change-in-housing-affordability-indicators/about-the-indicators
+    attribution: "Source: Ministry of Housing and Urban Development, licensed under CC BY 4.0"
+    cadence: quarterly
+    check_every_days: 7
+  moe_leavers:
+    name: Ministry of Education – School leaver attainment
+    url: https://www.educationcounts.govt.nz/statistics/school-leavers
+    attribution: "Source: Ministry of Education, Education Counts, licensed under CC BY 4.0"
+    cadence: annual
+    check_every_days: 7
+
 indicators:
+  gisborne_nominal_gdp:
+    name: Regional GDP at current prices
+    domain: Ōhanga
+    topic: Regional economy
+    direction: neutral
+    headline: false
+    format: currency
+    caveat: "Production measure, in millions of New Zealand dollars, for the year ended March. Changes include price changes."
+  gisborne_nominal_gdp_per_person:
+    name: Regional GDP per person at current prices
+    domain: Ōhanga
+    topic: Regional economy
+    direction: neutral
+    headline: false
+    format: currency
+    caveat: "New Zealand dollars per person for the year ended March. Regional production per person differs from household income."
+  hud_house_price_to_income:
+    name: Median house price to median household income
+    domain: Hapori
+    topic: Housing affordability
+    direction: down
+    headline: false
+    format: dec1
+    caveat: "The published Local Housing Statistics time series for Gisborne District."
+  hud_deposit_affordability:
+    name: Deposit affordability index
+    domain: Hapori
+    topic: Housing affordability
+    direction: neutral
+    headline: false
+    format: dec3
+    caveat: "The HUD index compares house sale prices with median disposable household income over time."
+  hud_mortgage_affordability:
+    name: Mortgage affordability index
+    domain: Hapori
+    topic: Housing affordability
+    direction: neutral
+    headline: false
+    format: dec3
+    caveat: "The HUD index compares mortgage servicing costs with median disposable household income over time."
+  hud_rent_affordability:
+    name: Rent affordability index
+    domain: Hapori
+    topic: Housing affordability
+    direction: neutral
+    headline: false
+    format: dec3
+    caveat: "The HUD index compares rent prices on new bonds with median disposable household income over time."
+  school_leavers_level_2:
+    name: School leavers with NCEA Level 2 or above
+    domain: Mātauranga
+    topic: School leaver attainment
+    direction: up
+    headline: false
+    format: pct
+    caveat: "Percentage of school leavers with NCEA Level 2 or equivalent or above. Geography refers to the school’s location."
+
   gisborne_mayoral_turnout:
     name: Gisborne mayoral turnout
     domain: Tūhono

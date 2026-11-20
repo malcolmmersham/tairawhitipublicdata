@@ -1,4 +1,11 @@
 indicator_id,name,domain,topic,direction,headline,format,caveat,display
+gisborne_nominal_gdp,Regional GDP at current prices,Ōhanga,Regional economy,neutral,False,currency,"Production measure, in millions of New Zealand dollars, for the year ended March. Changes include price changes.",
+gisborne_nominal_gdp_per_person,Regional GDP per person at current prices,Ōhanga,Regional economy,neutral,False,currency,New Zealand dollars per person for the year ended March. Regional production per person differs from household income.,
+hud_house_price_to_income,Median house price to median household income,Hapori,Housing affordability,down,False,dec1,The published Local Housing Statistics time series for Gisborne District.,
+hud_deposit_affordability,Deposit affordability index,Hapori,Housing affordability,neutral,False,dec3,The HUD index compares house sale prices with median disposable household income over time.,
+hud_mortgage_affordability,Mortgage affordability index,Hapori,Housing affordability,neutral,False,dec3,The HUD index compares mortgage servicing costs with median disposable household income over time.,
+hud_rent_affordability,Rent affordability index,Hapori,Housing affordability,neutral,False,dec3,The HUD index compares rent prices on new bonds with median disposable household income over time.,
+school_leavers_level_2,School leavers with NCEA Level 2 or above,Mātauranga,School leaver attainment,up,False,pct,Percentage of school leavers with NCEA Level 2 or equivalent or above. Geography refers to the school’s location.,
 gisborne_mayoral_turnout,Gisborne mayoral turnout,Tūhono,Civic participation,neutral,False,pct,Share of enrolled electors voting in the contested Gisborne District Council mayoral election. The table shows verified election snapshots.,snapshot
 gisborne_te_reo_speakers,People who can speak te reo Māori,Tūtangata,Te reo Māori,neutral,False,pct,The 2023 Census figure is for Gisborne Region. The question asks whether people can have a conversation about everyday things in te reo Māori.,snapshot
 regional_ghg_emissions,Gross greenhouse gas emissions,Taiao,Climate,down,False,dec1,"Gisborne Region industry and household emissions, in kilotonnes of CO₂ equivalent. Uses the production approach and the residence principle. Excludes consumption-based emissions. Earlier years can be revised.",
