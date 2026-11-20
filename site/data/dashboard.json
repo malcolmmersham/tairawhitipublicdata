@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-20T08:31:54+00:00",
+ "generated": "2026-11-20T08:33:52+00:00",
  "indicators": {
   "pop_estimate": {
    "name": "Estimated resident population",
@@ -17234,8 +17234,8 @@
    "rows": 116,
    "latest_period": "2026-06-30",
    "message": "ok",
-   "checked": "2026-11-20T08:31:27+00:00",
-   "last_success": "2026-11-20T08:31:27+00:00",
+   "checked": "2026-11-20T08:33:18+00:00",
+   "last_success": "2026-11-20T08:33:18+00:00",
    "schema_hash": "d3768badb5"
   },
   "msd_benefits": {
@@ -17244,8 +17244,8 @@
    "rows": 424,
    "latest_period": "2026-09-30",
    "message": "ok",
-   "checked": "2026-11-20T08:31:40+00:00",
-   "last_success": "2026-11-20T08:31:40+00:00",
+   "checked": "2026-11-20T08:33:29+00:00",
+   "last_success": "2026-11-20T08:33:29+00:00",
    "schema_hash": "3787ebb67c"
   },
   "hud_housing": {
@@ -17254,8 +17254,8 @@
    "rows": 853,
    "latest_period": "2026-09-30",
    "message": "ok",
-   "checked": "2026-11-20T08:31:47+00:00",
-   "last_success": "2026-11-20T08:31:47+00:00",
+   "checked": "2026-11-20T08:33:37+00:00",
+   "last_success": "2026-11-20T08:33:37+00:00",
    "schema_hash": "4f425f2bc0"
   },
   "healthnz_immunisation": {
@@ -17264,8 +17264,8 @@
    "rows": 192,
    "latest_period": "2026-06-30",
    "message": "ok",
-   "checked": "2026-11-20T08:31:50+00:00",
-   "last_success": "2026-11-20T08:31:50+00:00",
+   "checked": "2026-11-20T08:33:49+00:00",
+   "last_success": "2026-11-20T08:33:49+00:00",
    "schema_hash": "ae3b4b9b64"
   },
   "nzta_cas": {
@@ -17274,8 +17274,8 @@
    "rows": 84,
    "latest_period": "2026-12-31",
    "message": "ok",
-   "checked": "2026-11-20T08:31:50+00:00",
-   "last_success": "2026-11-20T08:31:50+00:00",
+   "checked": "2026-11-20T08:33:49+00:00",
+   "last_success": "2026-11-20T08:33:49+00:00",
    "schema_hash": "414f1d33dc"
   },
   "mbie_bonds": {
@@ -17284,8 +17284,8 @@
    "rows": 1616,
    "latest_period": "2026-09-30",
    "message": "ok",
-   "checked": "2026-11-20T08:31:53+00:00",
-   "last_success": "2026-11-20T08:31:53+00:00",
+   "checked": "2026-11-20T08:33:52+00:00",
+   "last_success": "2026-11-20T08:33:52+00:00",
    "schema_hash": "5333e7f5e7"
   }
  },
