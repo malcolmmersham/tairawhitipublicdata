@@ -1,0 +1,20 @@
+indicator_id,geo_type,geo_code,geo_name,period_start,period_end,period_type,year_basis,value,unit,measure,ethnicity,age,sex,suppression_flag,quality_flag,source_id,vintage_date,licence
+regional_ghg_emissions,region,05,Gisborne Region,2007-01-01,2007-12-31,year,calendar,1582.0,kt CO₂-e,total,Total,Total,Total,,,statsnz_emissions,2026-11-20,CC BY 4.0
+regional_ghg_emissions,region,05,Gisborne Region,2008-01-01,2008-12-31,year,calendar,1559.09,kt CO₂-e,total,Total,Total,Total,,,statsnz_emissions,2026-11-20,CC BY 4.0
+regional_ghg_emissions,region,05,Gisborne Region,2009-01-01,2009-12-31,year,calendar,1442.51,kt CO₂-e,total,Total,Total,Total,,,statsnz_emissions,2026-11-20,CC BY 4.0
+regional_ghg_emissions,region,05,Gisborne Region,2010-01-01,2010-12-31,year,calendar,1441.1,kt CO₂-e,total,Total,Total,Total,,,statsnz_emissions,2026-11-20,CC BY 4.0
+regional_ghg_emissions,region,05,Gisborne Region,2011-01-01,2011-12-31,year,calendar,1462.94,kt CO₂-e,total,Total,Total,Total,,,statsnz_emissions,2026-11-20,CC BY 4.0
+regional_ghg_emissions,region,05,Gisborne Region,2012-01-01,2012-12-31,year,calendar,1482.47,kt CO₂-e,total,Total,Total,Total,,,statsnz_emissions,2026-11-20,CC BY 4.0
+regional_ghg_emissions,region,05,Gisborne Region,2013-01-01,2013-12-31,year,calendar,1446.26,kt CO₂-e,total,Total,Total,Total,,,statsnz_emissions,2026-11-20,CC BY 4.0
+regional_ghg_emissions,region,05,Gisborne Region,2014-01-01,2014-12-31,year,calendar,1505.26,kt CO₂-e,total,Total,Total,Total,,,statsnz_emissions,2026-11-20,CC BY 4.0
+regional_ghg_emissions,region,05,Gisborne Region,2015-01-01,2015-12-31,year,calendar,1377.86,kt CO₂-e,total,Total,Total,Total,,,statsnz_emissions,2026-11-20,CC BY 4.0
+regional_ghg_emissions,region,05,Gisborne Region,2016-01-01,2016-12-31,year,calendar,1393.48,kt CO₂-e,total,Total,Total,Total,,,statsnz_emissions,2026-11-20,CC BY 4.0
+regional_ghg_emissions,region,05,Gisborne Region,2017-01-01,2017-12-31,year,calendar,1347.74,kt CO₂-e,total,Total,Total,Total,,,statsnz_emissions,2026-11-20,CC BY 4.0
+regional_ghg_emissions,region,05,Gisborne Region,2018-01-01,2018-12-31,year,calendar,1403.51,kt CO₂-e,total,Total,Total,Total,,,statsnz_emissions,2026-11-20,CC BY 4.0
+regional_ghg_emissions,region,05,Gisborne Region,2019-01-01,2019-12-31,year,calendar,1365.78,kt CO₂-e,total,Total,Total,Total,,,statsnz_emissions,2026-11-20,CC BY 4.0
+regional_ghg_emissions,region,05,Gisborne Region,2020-01-01,2020-12-31,year,calendar,1360.29,kt CO₂-e,total,Total,Total,Total,,,statsnz_emissions,2026-11-20,CC BY 4.0
+regional_ghg_emissions,region,05,Gisborne Region,2021-01-01,2021-12-31,year,calendar,1423.36,kt CO₂-e,total,Total,Total,Total,,,statsnz_emissions,2026-11-20,CC BY 4.0
+regional_ghg_emissions,region,05,Gisborne Region,2022-01-01,2022-12-31,year,calendar,1323.64,kt CO₂-e,total,Total,Total,Total,,,statsnz_emissions,2026-11-20,CC BY 4.0
+regional_ghg_emissions,region,05,Gisborne Region,2023-01-01,2023-12-31,year,calendar,1281.07,kt CO₂-e,total,Total,Total,Total,,,statsnz_emissions,2026-11-20,CC BY 4.0
+regional_ghg_emissions,region,05,Gisborne Region,2024-01-01,2024-12-31,year,calendar,1247.75,kt CO₂-e,total,Total,Total,Total,,,statsnz_emissions,2026-11-20,CC BY 4.0
+regional_ghg_emissions,region,05,Gisborne Region,2025-01-01,2025-12-31,year,calendar,1224.51,kt CO₂-e,total,Total,Total,Total,,,statsnz_emissions,2026-11-20,CC BY 4.0

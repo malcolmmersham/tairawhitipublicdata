@@ -1,31 +1,35 @@
-indicator_id,name,domain,topic,direction,headline,format,caveat
-pop_estimate,Estimated resident population,Hapori,Population,neutral,True,int,Estimated at 30 June. Rebased after each census (2023 rebase).
-pop_median_age,Median age,Hapori,Population,neutral,False,dec1,Half the population is older and half younger. Estimated at 30 June.
-bds_geographic_units,Business locations (geographic units),Ōhanga,Business,up,True,int,"Business locations (geographic units) with economic activity, at February each year. Counts randomly rounded."
-bds_employee_count,Employees in business locations,Ōhanga,Business,up,False,int,Employee count at February. Counts randomly rounded.
-msd_main_benefits_total,Working-age people on a main benefit,Ōhanga,Income support,down,True,int,Working-age (18–64) recipients at the end of each quarter. Counts randomly rounded to base 3.
-msd_jobseeker,Jobseeker Support recipients,Ōhanga,Income support,down,True,int,Best Tairāwhiti-only labour-market signal: the HLFS unemployment rate is only published for Gisborne/Hawke's Bay combined.
-msd_sole_parent,Sole Parent Support recipients,Ōhanga,Income support,down,False,int,
-msd_supported_living,Supported Living Payment recipients,Ōhanga,Income support,neutral,False,int,Includes carers and people with a health condition or disability; a rise is not necessarily negative.
-rent_geomean,"Mean weekly rent, new bonds (geometric mean)",Hapori,Housing,down,True,currency,Private-landlord bonds lodged in the month. Fixed random rounding; months with fewer than 5 bonds suppressed.
-rent_median,"Median weekly rent, new bonds",Hapori,Housing,down,False,currency,
-bonds_active,Active rental bonds,Hapori,Housing,neutral,False,int,
-bonds_lodged,New rental bonds lodged,Hapori,Housing,neutral,False,int,
-hud_register_applicants,Social housing register applicants,Hapori,Housing,down,True,int,"Housing Register plus Transfer Register, at month end."
-hud_housing_register,Housing Register (new applicants waiting),Hapori,Housing,down,False,int,
-hud_transfer_register,Transfer Register (tenants seeking a move),Hapori,Housing,neutral,False,int,
-hud_social_housing_stock,Social housing places,Hapori,Housing,up,True,int,
-hud_social_housing_kainga_ora,Social housing places – Kāinga Ora,Hapori,Housing,up,False,int,
-hud_social_housing_chp,Social housing places – community housing providers,Hapori,Housing,up,False,int,
-hud_transitional_places,Transitional housing places (contracted),Hapori,Housing,neutral,False,int,
-hud_eh_grants,Emergency housing grants approved,Hapori,Housing,down,False,int,Emergency Housing Special Needs Grants. Monthly counts are small and volatile.
-hud_eh_clients,Households receiving emergency housing grants,Hapori,Housing,down,False,int,
-hud_eh_amount,Emergency housing grants – amount granted,Hapori,Housing,down,False,currency,
-imms_6m,Children fully immunised at 6 months,Hapori,Health,up,True,pct,Rolling 12-month coverage by district of residence. National target is 95%.
-imms_12m,Children fully immunised at 12 months,Hapori,Health,up,False,pct,
-imms_24m,Children fully immunised at 24 months,Hapori,Health,up,True,pct,Rolling 12-month coverage by district of residence. Health target: 95% by 24 months.
-imms_5y,Children fully immunised at 5 years,Hapori,Health,up,False,pct,
-cas_dsi,Road deaths and serious injuries,Hapori,Safety,down,True,int,Calendar year. CAS is live: recent years may still change. Current year is year-to-date.
-cas_deaths,Road deaths,Hapori,Safety,down,False,int,"Small annual numbers; read multi-year trends, not single years."
-cas_fatal_serious_crashes,Fatal and serious-injury crashes,Hapori,Safety,down,False,int,
-cas_injury_crashes,Injury crashes (all severities),Hapori,Safety,down,False,int,
+indicator_id,name,domain,topic,direction,headline,format,caveat,display
+gisborne_mayoral_turnout,Gisborne mayoral turnout,Tūhono,Civic participation,neutral,False,pct,Share of enrolled electors voting in the contested Gisborne District Council mayoral election. The table shows verified election snapshots.,snapshot
+gisborne_te_reo_speakers,People who can speak te reo Māori,Tūtangata,Te reo Māori,neutral,False,pct,The 2023 Census figure is for Gisborne Region. The question asks whether people can have a conversation about everyday things in te reo Māori.,snapshot
+regional_ghg_emissions,Gross greenhouse gas emissions,Taiao,Climate,down,False,dec1,"Gisborne Region industry and household emissions, in kilotonnes of CO₂ equivalent. Uses the production approach and the residence principle. Excludes consumption-based emissions. Earlier years can be revised.",
+regular_school_attendance,Students attending school regularly,Mātauranga,School attendance,up,False,pct,Percentage of students in Gisborne Region state and state-integrated schools who attended more than 90% of the term. COVID-19 affected comparability in 2020 and 2021. Reporting changed from Term 1 2025. CSV dates are the corresponding calendar-quarter boundaries for indexing by term.,
+pop_estimate,Estimated resident population,Hapori,Population,neutral,True,int,Estimated at 30 June. Rebased after each census (2023 rebase).,
+pop_median_age,Median age,Hapori,Population,neutral,False,dec1,Half the population is older and half younger. Estimated at 30 June.,
+bds_geographic_units,Business locations (geographic units),Ōhanga,Business,up,True,int,"Business locations (geographic units) with economic activity, at February each year. Counts randomly rounded.",
+bds_employee_count,Employees in business locations,Ōhanga,Business,up,False,int,Employee count at February. Counts randomly rounded.,
+msd_main_benefits_total,Working-age people on a main benefit,Ōhanga,Income support,down,True,int,Working-age (18–64) recipients at the end of each quarter. Counts randomly rounded to base 3.,
+msd_jobseeker,Jobseeker Support recipients,Ōhanga,Income support,down,True,int,Best Tairāwhiti-only labour-market signal: the HLFS unemployment rate is only published for Gisborne/Hawke's Bay combined.,
+msd_sole_parent,Sole Parent Support recipients,Ōhanga,Income support,down,False,int,,
+msd_supported_living,Supported Living Payment recipients,Ōhanga,Income support,neutral,False,int,Includes carers and people with a health condition or disability; a rise is not necessarily negative.,
+rent_geomean,"Mean weekly rent, new bonds (geometric mean)",Hapori,Housing,down,True,currency,Private-landlord bonds lodged in the month. Fixed random rounding; months with fewer than 5 bonds suppressed.,
+rent_median,"Median weekly rent, new bonds",Hapori,Housing,down,False,currency,,
+bonds_active,Active rental bonds,Hapori,Housing,neutral,False,int,,
+bonds_lodged,New rental bonds lodged,Hapori,Housing,neutral,False,int,,
+hud_register_applicants,Social housing register applicants,Hapori,Housing,down,True,int,"Housing Register plus Transfer Register, at month end.",
+hud_housing_register,Housing Register (new applicants waiting),Hapori,Housing,down,False,int,,
+hud_transfer_register,Transfer Register (tenants seeking a move),Hapori,Housing,neutral,False,int,,
+hud_social_housing_stock,Social housing places,Hapori,Housing,up,True,int,,
+hud_social_housing_kainga_ora,Social housing places – Kāinga Ora,Hapori,Housing,up,False,int,,
+hud_social_housing_chp,Social housing places – community housing providers,Hapori,Housing,up,False,int,,
+hud_transitional_places,Transitional housing places (contracted),Hapori,Housing,neutral,False,int,,
+hud_eh_grants,Emergency housing grants approved,Hapori,Housing,down,False,int,Emergency Housing Special Needs Grants. Monthly counts are small and volatile.,
+hud_eh_clients,Households receiving emergency housing grants,Hapori,Housing,down,False,int,,
+hud_eh_amount,Emergency housing grants – amount granted,Hapori,Housing,down,False,currency,,
+imms_6m,Children fully immunised at 6 months,Hapori,Health,up,True,pct,Rolling 12-month coverage by district of residence. National target is 95%.,
+imms_12m,Children fully immunised at 12 months,Hapori,Health,up,False,pct,,
+imms_24m,Children fully immunised at 24 months,Hapori,Health,up,True,pct,Rolling 12-month coverage by district of residence. Health target: 95% by 24 months.,
+imms_5y,Children fully immunised at 5 years,Hapori,Health,up,False,pct,,
+cas_dsi,Road deaths and serious injuries,Hapori,Safety,down,True,int,Calendar year. CAS is live: recent years may still change. Current year is year-to-date.,
+cas_deaths,Road deaths,Hapori,Safety,down,False,int,"Small annual numbers; read multi-year trends, not single years.",
+cas_fatal_serious_crashes,Fatal and serious-injury crashes,Hapori,Safety,down,False,int,,
+cas_injury_crashes,Injury crashes (all severities),Hapori,Safety,down,False,int,,

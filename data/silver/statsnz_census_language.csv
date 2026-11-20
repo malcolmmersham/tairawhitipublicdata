@@ -1,0 +1,2 @@
+indicator_id,geo_type,geo_code,geo_name,period_start,period_end,period_type,year_basis,value,unit,measure,ethnicity,age,sex,suppression_flag,quality_flag,source_id,vintage_date,licence
+gisborne_te_reo_speakers,region,05,Gisborne Region,2023-01-01,2023-12-31,year,calendar,16.9,percent,share,Total,Total,Total,,,statsnz_census_language,2026-11-20,CC BY 4.0

@@ -1,0 +1,3 @@
+indicator_id,geo_type,geo_code,geo_name,period_start,period_end,period_type,year_basis,value,unit,measure,ethnicity,age,sex,suppression_flag,quality_flag,source_id,vintage_date,licence
+gisborne_mayoral_turnout,ta,028,Gisborne District,2022-01-01,2022-12-31,year,calendar,43.4,percent,share,Total,Total,Total,,,mcert_local_elections,2026-11-20,CC BY 4.0
+gisborne_mayoral_turnout,ta,028,Gisborne District,2025-01-01,2025-12-31,year,calendar,48.1,percent,share,Total,Total,Total,,,mcert_local_elections,2026-11-20,CC BY 4.0

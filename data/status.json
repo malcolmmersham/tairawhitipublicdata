@@ -58,5 +58,25 @@
   "checked": "2026-11-20T08:33:52+00:00",
   "last_success": "2026-11-20T08:33:52+00:00",
   "schema_hash": "5333e7f5e7"
+ },
+ "statsnz_emissions": {
+  "source_id": "statsnz_emissions",
+  "ok": true,
+  "rows": 19,
+  "latest_period": "2025-12-31",
+  "message": "ok",
+  "checked": "2026-11-20T08:24:23+00:00",
+  "last_success": "2026-11-20T08:24:23+00:00",
+  "schema_hash": "2c54a02a42"
+ },
+ "moe_attendance": {
+  "source_id": "moe_attendance",
+  "ok": true,
+  "rows": 31,
+  "latest_period": "2026-09-30",
+  "message": "ok",
+  "checked": "2026-11-20T08:24:23+00:00",
+  "last_success": "2026-11-20T08:24:23+00:00",
+  "schema_hash": "24635db9f2"
  }
 }

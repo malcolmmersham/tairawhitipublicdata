@@ -23,10 +23,12 @@ import yaml
 
 from .core import COLUMNS, GOLD_DIR, ROOT, SILVER_DIR, SITE_DATA, RunResult, SourceBlocked, to_frame, write_json
 
-SOURCES = ["statsnz_ade", "msd_benefits", "hud_housing", "healthnz_immunisation", "nzta_cas", "mbie_bonds"]
+SOURCES = ["statsnz_ade", "msd_benefits", "hud_housing", "healthnz_immunisation", "nzta_cas", "mbie_bonds",
+           "statsnz_emissions", "moe_attendance"]
 MODULES = {
     "statsnz_ade": "statsnz_ade", "msd_benefits": "msd_benefits", "hud_housing": "hud_housing",
     "healthnz_immunisation": "healthnz_immunisation", "nzta_cas": "nzta_cas", "mbie_bonds": "mbie_bonds",
+    "statsnz_emissions": "statsnz_emissions", "moe_attendance": "moe_attendance",
 }
 STATUS_FILE = ROOT / "data" / "status.json"
 OBSERVATION_KEY = ["source_id", "indicator_id", "geo_type", "geo_code", "ethnicity", "age", "sex",
@@ -96,18 +98,18 @@ def build() -> None:
 
     inds = reg["indicators"]
     meta = pd.DataFrame([{"indicator_id": k, **{f: v.get(f, "") for f in
-                         ("name", "domain", "topic", "direction", "headline", "format", "caveat")}}
+                         ("name", "domain", "topic", "direction", "headline", "format", "caveat", "display")}}
                          for k, v in inds.items()])
     meta.to_csv(GOLD_DIR / "indicators.csv", index=False)
 
     # Dashboard JSON: compact series per indicator × geography × ethnicity.
     series = []
-    for (ind, geo, eth), g in obs.groupby(["indicator_id", "geo_code", "ethnicity"], sort=False):
+    for (ind, geo_type, geo, eth), g in obs.groupby(["indicator_id", "geo_type", "geo_code", "ethnicity"], sort=False):
         if ind not in inds:
             continue
         g = g.sort_values("period_end")
         series.append({
-            "indicator": ind, "geo": geo, "geo_name": g.geo_name.iloc[0], "ethnicity": eth,
+            "indicator": ind, "geo": geo, "geo_type": geo_type, "geo_name": g.geo_name.iloc[0], "ethnicity": eth,
             "source": g.source_id.iloc[0], "period_type": g.period_type.iloc[0],
             "unit": g.unit.iloc[0],
             "points": [[r.period_end, None if pd.isna(r.value) else round(float(r.value), 2),

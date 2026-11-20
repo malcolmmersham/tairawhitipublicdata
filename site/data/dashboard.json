@@ -1,6 +1,44 @@
 {
- "generated": "2026-11-20T08:33:52+00:00",
+ "generated": "2026-11-20T09:00:56+00:00",
  "indicators": {
+  "gisborne_mayoral_turnout": {
+   "name": "Gisborne mayoral turnout",
+   "domain": "Tūhono",
+   "topic": "Civic participation",
+   "display": "snapshot",
+   "direction": "neutral",
+   "headline": false,
+   "format": "pct",
+   "caveat": "Share of enrolled electors voting in the contested Gisborne District Council mayoral election. The table shows verified election snapshots."
+  },
+  "gisborne_te_reo_speakers": {
+   "name": "People who can speak te reo Māori",
+   "domain": "Tūtangata",
+   "topic": "Te reo Māori",
+   "display": "snapshot",
+   "direction": "neutral",
+   "headline": false,
+   "format": "pct",
+   "caveat": "The 2023 Census figure is for Gisborne Region. The question asks whether people can have a conversation about everyday things in te reo Māori."
+  },
+  "regional_ghg_emissions": {
+   "name": "Gross greenhouse gas emissions",
+   "domain": "Taiao",
+   "topic": "Climate",
+   "direction": "down",
+   "headline": false,
+   "format": "dec1",
+   "caveat": "Gisborne Region industry and household emissions, in kilotonnes of CO₂ equivalent. Uses the production approach and the residence principle. Excludes consumption-based emissions. Earlier years can be revised."
+  },
+  "regular_school_attendance": {
+   "name": "Students attending school regularly",
+   "domain": "Mātauranga",
+   "topic": "School attendance",
+   "direction": "up",
+   "headline": false,
+   "format": "pct",
+   "caveat": "Percentage of students in Gisborne Region state and state-integrated schools who attended more than 90% of the term. COVID-19 affected comparability in 2020 and 2021. Reporting changed from Term 1 2025. CSV dates are the corresponding calendar-quarter boundaries for indexing by term."
+  },
   "pop_estimate": {
    "name": "Estimated resident population",
    "domain": "Hapori",
@@ -292,12 +330,37 @@
    "url": "https://www.tenancy.govt.nz/about-tenancy-services/data-and-statistics/rental-bond-data/",
    "attribution": "Source: MBIE Tenancy Services, licensed under CC BY 3.0 NZ",
    "cadence": "monthly"
+  },
+  "statsnz_emissions": {
+   "name": "Stats NZ – Regional greenhouse gas emissions",
+   "url": "https://www.stats.govt.nz/tools/how-are-my-regions-emissions-tracking/",
+   "attribution": "This work includes Stats NZ data licensed for reuse under CC BY 4.0",
+   "cadence": "annual"
+  },
+  "moe_attendance": {
+   "name": "Ministry of Education – Education Counts regular attendance",
+   "url": "https://www.educationcounts.govt.nz/statistics/attendance",
+   "attribution": "Source: Ministry of Education, Education Counts, licensed under CC BY 4.0",
+   "cadence": "termly"
+  },
+  "mcert_local_elections": {
+   "name": "Department of Internal Affairs – Local authority election statistics",
+   "url": "https://www.mcert.govt.nz/our-work/local-government/local-elections-and-voting/local-authority-election-statistics/",
+   "attribution": "Source: Department of Internal Affairs, licensed under CC BY 4.0",
+   "cadence": "triennial"
+  },
+  "statsnz_census_language": {
+   "name": "Stats NZ – Census languages spoken",
+   "url": "https://tools.summaries.stats.govt.nz/places/rc/gisborne-region",
+   "attribution": "This work includes Stats NZ data licensed for reuse under CC BY 4.0",
+   "cadence": "five-yearly"
   }
  },
  "series": [
   {
    "indicator": "imms_12m",
    "geo": "NZ",
+   "geo_type": "national",
    "geo_name": "Aotearoa New Zealand",
    "ethnicity": "Māori",
    "source": "healthnz_immunisation",
@@ -369,6 +432,7 @@
   {
    "indicator": "imms_12m",
    "geo": "NZ",
+   "geo_type": "national",
    "geo_name": "Aotearoa New Zealand",
    "ethnicity": "Total",
    "source": "healthnz_immunisation",
@@ -440,6 +504,7 @@
   {
    "indicator": "imms_12m",
    "geo": "TRW",
+   "geo_type": "district",
    "geo_name": "Tairāwhiti district",
    "ethnicity": "Māori",
    "source": "healthnz_immunisation",
@@ -511,6 +576,7 @@
   {
    "indicator": "imms_12m",
    "geo": "TRW",
+   "geo_type": "district",
    "geo_name": "Tairāwhiti district",
    "ethnicity": "Total",
    "source": "healthnz_immunisation",
@@ -582,6 +648,7 @@
   {
    "indicator": "imms_24m",
    "geo": "NZ",
+   "geo_type": "national",
    "geo_name": "Aotearoa New Zealand",
    "ethnicity": "Māori",
    "source": "healthnz_immunisation",
@@ -653,6 +720,7 @@
   {
    "indicator": "imms_24m",
    "geo": "NZ",
+   "geo_type": "national",
    "geo_name": "Aotearoa New Zealand",
    "ethnicity": "Total",
    "source": "healthnz_immunisation",
@@ -724,6 +792,7 @@
   {
    "indicator": "imms_24m",
    "geo": "TRW",
+   "geo_type": "district",
    "geo_name": "Tairāwhiti district",
    "ethnicity": "Māori",
    "source": "healthnz_immunisation",
@@ -795,6 +864,7 @@
   {
    "indicator": "imms_24m",
    "geo": "TRW",
+   "geo_type": "district",
    "geo_name": "Tairāwhiti district",
    "ethnicity": "Total",
    "source": "healthnz_immunisation",
@@ -866,6 +936,7 @@
   {
    "indicator": "imms_5y",
    "geo": "NZ",
+   "geo_type": "national",
    "geo_name": "Aotearoa New Zealand",
    "ethnicity": "Māori",
    "source": "healthnz_immunisation",
@@ -937,6 +1008,7 @@
   {
    "indicator": "imms_5y",
    "geo": "NZ",
+   "geo_type": "national",
    "geo_name": "Aotearoa New Zealand",
    "ethnicity": "Total",
    "source": "healthnz_immunisation",
@@ -1008,6 +1080,7 @@
   {
    "indicator": "imms_5y",
    "geo": "TRW",
+   "geo_type": "district",
    "geo_name": "Tairāwhiti district",
    "ethnicity": "Māori",
    "source": "healthnz_immunisation",
@@ -1079,6 +1152,7 @@
   {
    "indicator": "imms_5y",
    "geo": "TRW",
+   "geo_type": "district",
    "geo_name": "Tairāwhiti district",
    "ethnicity": "Total",
    "source": "healthnz_immunisation",
@@ -1150,6 +1224,7 @@
   {
    "indicator": "imms_6m",
    "geo": "NZ",
+   "geo_type": "national",
    "geo_name": "Aotearoa New Zealand",
    "ethnicity": "Māori",
    "source": "healthnz_immunisation",
@@ -1221,6 +1296,7 @@
   {
    "indicator": "imms_6m",
    "geo": "NZ",
+   "geo_type": "national",
    "geo_name": "Aotearoa New Zealand",
    "ethnicity": "Total",
    "source": "healthnz_immunisation",
@@ -1292,6 +1368,7 @@
   {
    "indicator": "imms_6m",
    "geo": "TRW",
+   "geo_type": "district",
    "geo_name": "Tairāwhiti district",
    "ethnicity": "Māori",
    "source": "healthnz_immunisation",
@@ -1363,6 +1440,7 @@
   {
    "indicator": "imms_6m",
    "geo": "TRW",
+   "geo_type": "district",
    "geo_name": "Tairāwhiti district",
    "ethnicity": "Total",
    "source": "healthnz_immunisation",
@@ -1434,6 +1512,7 @@
   {
    "indicator": "hud_eh_amount",
    "geo": "028",
+   "geo_type": "ta",
    "geo_name": "Gisborne District",
    "ethnicity": "Total",
    "source": "hud_housing",
@@ -1635,6 +1714,7 @@
   {
    "indicator": "hud_eh_clients",
    "geo": "028",
+   "geo_type": "ta",
    "geo_name": "Gisborne District",
    "ethnicity": "Total",
    "source": "hud_housing",
@@ -1836,6 +1916,7 @@
   {
    "indicator": "hud_eh_grants",
    "geo": "028",
+   "geo_type": "ta",
    "geo_name": "Gisborne District",
    "ethnicity": "Total",
    "source": "hud_housing",
@@ -2037,6 +2118,7 @@
   {
    "indicator": "hud_housing_register",
    "geo": "028",
+   "geo_type": "ta",
    "geo_name": "Gisborne District",
    "ethnicity": "Total",
    "source": "hud_housing",
@@ -2608,6 +2690,7 @@
   {
    "indicator": "hud_register_applicants",
    "geo": "028",
+   "geo_type": "ta",
    "geo_name": "Gisborne District",
    "ethnicity": "Total",
    "source": "hud_housing",
@@ -3179,6 +3262,7 @@
   {
    "indicator": "hud_social_housing_chp",
    "geo": "028",
+   "geo_type": "ta",
    "geo_name": "Gisborne District",
    "ethnicity": "Total",
    "source": "hud_housing",
@@ -3750,6 +3834,7 @@
   {
    "indicator": "hud_social_housing_kainga_ora",
    "geo": "028",
+   "geo_type": "ta",
    "geo_name": "Gisborne District",
    "ethnicity": "Total",
    "source": "hud_housing",
@@ -4321,6 +4406,7 @@
   {
    "indicator": "hud_social_housing_stock",
    "geo": "028",
+   "geo_type": "ta",
    "geo_name": "Gisborne District",
    "ethnicity": "Total",
    "source": "hud_housing",
@@ -4892,6 +4978,7 @@
   {
    "indicator": "hud_transfer_register",
    "geo": "028",
+   "geo_type": "ta",
    "geo_name": "Gisborne District",
    "ethnicity": "Total",
    "source": "hud_housing",
@@ -5463,6 +5550,7 @@
   {
    "indicator": "hud_transitional_places",
    "geo": "028",
+   "geo_type": "ta",
    "geo_name": "Gisborne District",
    "ethnicity": "Total",
    "source": "hud_housing",
@@ -5809,6 +5897,7 @@
   {
    "indicator": "bonds_active",
    "geo": "028",
+   "geo_type": "ta",
    "geo_name": "Gisborne District",
    "ethnicity": "Total",
    "source": "mbie_bonds",
@@ -7840,6 +7929,7 @@
   {
    "indicator": "bonds_lodged",
    "geo": "028",
+   "geo_type": "ta",
    "geo_name": "Gisborne District",
    "ethnicity": "Total",
    "source": "mbie_bonds",
@@ -9871,6 +9961,7 @@
   {
    "indicator": "rent_geomean",
    "geo": "028",
+   "geo_type": "ta",
    "geo_name": "Gisborne District",
    "ethnicity": "Total",
    "source": "mbie_bonds",
@@ -11902,6 +11993,7 @@
   {
    "indicator": "rent_median",
    "geo": "028",
+   "geo_type": "ta",
    "geo_name": "Gisborne District",
    "ethnicity": "Total",
    "source": "mbie_bonds",
@@ -13931,8 +14023,198 @@
    ]
   },
   {
+   "indicator": "gisborne_mayoral_turnout",
+   "geo": "028",
+   "geo_type": "ta",
+   "geo_name": "Gisborne District",
+   "ethnicity": "Total",
+   "source": "mcert_local_elections",
+   "period_type": "year",
+   "unit": "percent",
+   "points": [
+    [
+     "2022-12-31",
+     43.4,
+     null
+    ],
+    [
+     "2025-12-31",
+     48.1,
+     null
+    ]
+   ]
+  },
+  {
+   "indicator": "regular_school_attendance",
+   "geo": "05",
+   "geo_type": "region",
+   "geo_name": "Gisborne Region",
+   "ethnicity": "Total",
+   "source": "moe_attendance",
+   "period_type": "term",
+   "unit": "percent",
+   "points": [
+    [
+     "2019-03-31",
+     61.8,
+     null
+    ],
+    [
+     "2019-06-30",
+     40.7,
+     null
+    ],
+    [
+     "2019-09-30",
+     47.2,
+     null
+    ],
+    [
+     "2019-12-31",
+     47.5,
+     null
+    ],
+    [
+     "2020-03-31",
+     56.0,
+     "COVID-19 affected comparability"
+    ],
+    [
+     "2020-06-30",
+     52.2,
+     "COVID-19 affected comparability"
+    ],
+    [
+     "2020-09-30",
+     47.7,
+     "COVID-19 affected comparability"
+    ],
+    [
+     "2020-12-31",
+     45.4,
+     "COVID-19 affected comparability"
+    ],
+    [
+     "2021-03-31",
+     52.6,
+     "COVID-19 affected comparability"
+    ],
+    [
+     "2021-06-30",
+     43.7,
+     "COVID-19 affected comparability"
+    ],
+    [
+     "2021-09-30",
+     48.2,
+     "COVID-19 affected comparability"
+    ],
+    [
+     "2021-12-31",
+     40.9,
+     "COVID-19 affected comparability"
+    ],
+    [
+     "2022-03-31",
+     38.0,
+     null
+    ],
+    [
+     "2022-06-30",
+     30.2,
+     null
+    ],
+    [
+     "2022-09-30",
+     34.2,
+     null
+    ],
+    [
+     "2022-12-31",
+     32.2,
+     null
+    ],
+    [
+     "2023-03-31",
+     39.4,
+     null
+    ],
+    [
+     "2023-06-30",
+     34.1,
+     null
+    ],
+    [
+     "2023-09-30",
+     39.7,
+     null
+    ],
+    [
+     "2023-12-31",
+     41.9,
+     null
+    ],
+    [
+     "2024-03-31",
+     53.0,
+     null
+    ],
+    [
+     "2024-06-30",
+     38.7,
+     null
+    ],
+    [
+     "2024-09-30",
+     42.4,
+     null
+    ],
+    [
+     "2024-12-31",
+     44.7,
+     null
+    ],
+    [
+     "2025-03-31",
+     52.9,
+     null
+    ],
+    [
+     "2025-06-30",
+     47.5,
+     null
+    ],
+    [
+     "2025-09-30",
+     38.6,
+     null
+    ],
+    [
+     "2025-12-31",
+     43.2,
+     null
+    ],
+    [
+     "2026-03-31",
+     57.0,
+     null
+    ],
+    [
+     "2026-06-30",
+     51.4,
+     null
+    ],
+    [
+     "2026-09-30",
+     34.0,
+     null
+    ]
+   ]
+  },
+  {
    "indicator": "msd_jobseeker",
    "geo": "05",
+   "geo_type": "region",
    "geo_name": "Gisborne / Tairāwhiti",
    "ethnicity": "Māori",
    "source": "msd_benefits",
@@ -14209,6 +14491,7 @@
   {
    "indicator": "msd_jobseeker",
    "geo": "05",
+   "geo_type": "region",
    "geo_name": "Gisborne / Tairāwhiti",
    "ethnicity": "Total",
    "source": "msd_benefits",
@@ -14485,6 +14768,7 @@
   {
    "indicator": "msd_main_benefits_total",
    "geo": "05",
+   "geo_type": "region",
    "geo_name": "Gisborne / Tairāwhiti",
    "ethnicity": "Māori",
    "source": "msd_benefits",
@@ -14761,6 +15045,7 @@
   {
    "indicator": "msd_main_benefits_total",
    "geo": "05",
+   "geo_type": "region",
    "geo_name": "Gisborne / Tairāwhiti",
    "ethnicity": "Total",
    "source": "msd_benefits",
@@ -15037,6 +15322,7 @@
   {
    "indicator": "msd_sole_parent",
    "geo": "05",
+   "geo_type": "region",
    "geo_name": "Gisborne / Tairāwhiti",
    "ethnicity": "Māori",
    "source": "msd_benefits",
@@ -15313,6 +15599,7 @@
   {
    "indicator": "msd_sole_parent",
    "geo": "05",
+   "geo_type": "region",
    "geo_name": "Gisborne / Tairāwhiti",
    "ethnicity": "Total",
    "source": "msd_benefits",
@@ -15589,6 +15876,7 @@
   {
    "indicator": "msd_supported_living",
    "geo": "05",
+   "geo_type": "region",
    "geo_name": "Gisborne / Tairāwhiti",
    "ethnicity": "Māori",
    "source": "msd_benefits",
@@ -15865,6 +16153,7 @@
   {
    "indicator": "msd_supported_living",
    "geo": "05",
+   "geo_type": "region",
    "geo_name": "Gisborne / Tairāwhiti",
    "ethnicity": "Total",
    "source": "msd_benefits",
@@ -16141,6 +16430,7 @@
   {
    "indicator": "cas_deaths",
    "geo": "05",
+   "geo_type": "region",
    "geo_name": "Gisborne / Tairāwhiti",
    "ethnicity": "Total",
    "source": "nzta_cas",
@@ -16257,6 +16547,7 @@
   {
    "indicator": "cas_dsi",
    "geo": "05",
+   "geo_type": "region",
    "geo_name": "Gisborne / Tairāwhiti",
    "ethnicity": "Total",
    "source": "nzta_cas",
@@ -16373,6 +16664,7 @@
   {
    "indicator": "cas_fatal_serious_crashes",
    "geo": "05",
+   "geo_type": "region",
    "geo_name": "Gisborne / Tairāwhiti",
    "ethnicity": "Total",
    "source": "nzta_cas",
@@ -16489,6 +16781,7 @@
   {
    "indicator": "cas_injury_crashes",
    "geo": "05",
+   "geo_type": "region",
    "geo_name": "Gisborne / Tairāwhiti",
    "ethnicity": "Total",
    "source": "nzta_cas",
@@ -16605,6 +16898,7 @@
   {
    "indicator": "bds_employee_count",
    "geo": "028",
+   "geo_type": "ta",
    "geo_name": "Gisborne District",
    "ethnicity": "Total",
    "source": "statsnz_ade",
@@ -16751,6 +17045,7 @@
   {
    "indicator": "bds_geographic_units",
    "geo": "028",
+   "geo_type": "ta",
    "geo_name": "Gisborne District",
    "ethnicity": "Total",
    "source": "statsnz_ade",
@@ -16897,6 +17192,7 @@
   {
    "indicator": "pop_estimate",
    "geo": "028",
+   "geo_type": "ta",
    "geo_name": "Gisborne District",
    "ethnicity": "Total",
    "source": "statsnz_ade",
@@ -17063,6 +17359,7 @@
   {
    "indicator": "pop_median_age",
    "geo": "028",
+   "geo_type": "ta",
    "geo_name": "Gisborne District",
    "ethnicity": "Total",
    "source": "statsnz_ade",
@@ -17225,6 +17522,130 @@
      null
     ]
    ]
+  },
+  {
+   "indicator": "gisborne_te_reo_speakers",
+   "geo": "05",
+   "geo_type": "region",
+   "geo_name": "Gisborne Region",
+   "ethnicity": "Total",
+   "source": "statsnz_census_language",
+   "period_type": "year",
+   "unit": "percent",
+   "points": [
+    [
+     "2023-12-31",
+     16.9,
+     null
+    ]
+   ]
+  },
+  {
+   "indicator": "regional_ghg_emissions",
+   "geo": "05",
+   "geo_type": "region",
+   "geo_name": "Gisborne Region",
+   "ethnicity": "Total",
+   "source": "statsnz_emissions",
+   "period_type": "year",
+   "unit": "kt CO₂-e",
+   "points": [
+    [
+     "2007-12-31",
+     1582.0,
+     null
+    ],
+    [
+     "2008-12-31",
+     1559.09,
+     null
+    ],
+    [
+     "2009-12-31",
+     1442.51,
+     null
+    ],
+    [
+     "2010-12-31",
+     1441.1,
+     null
+    ],
+    [
+     "2011-12-31",
+     1462.94,
+     null
+    ],
+    [
+     "2012-12-31",
+     1482.47,
+     null
+    ],
+    [
+     "2013-12-31",
+     1446.26,
+     null
+    ],
+    [
+     "2014-12-31",
+     1505.26,
+     null
+    ],
+    [
+     "2015-12-31",
+     1377.86,
+     null
+    ],
+    [
+     "2016-12-31",
+     1393.48,
+     null
+    ],
+    [
+     "2017-12-31",
+     1347.74,
+     null
+    ],
+    [
+     "2018-12-31",
+     1403.51,
+     null
+    ],
+    [
+     "2019-12-31",
+     1365.78,
+     null
+    ],
+    [
+     "2020-12-31",
+     1360.29,
+     null
+    ],
+    [
+     "2021-12-31",
+     1423.36,
+     null
+    ],
+    [
+     "2022-12-31",
+     1323.64,
+     null
+    ],
+    [
+     "2023-12-31",
+     1281.07,
+     null
+    ],
+    [
+     "2024-12-31",
+     1247.75,
+     null
+    ],
+    [
+     "2025-12-31",
+     1224.51,
+     null
+    ]
+   ]
   }
  ],
  "status": {
@@ -17287,6 +17708,26 @@
    "checked": "2026-11-20T08:33:52+00:00",
    "last_success": "2026-11-20T08:33:52+00:00",
    "schema_hash": "5333e7f5e7"
+  },
+  "statsnz_emissions": {
+   "source_id": "statsnz_emissions",
+   "ok": true,
+   "rows": 19,
+   "latest_period": "2025-12-31",
+   "message": "ok",
+   "checked": "2026-11-20T08:24:23+00:00",
+   "last_success": "2026-11-20T08:24:23+00:00",
+   "schema_hash": "2c54a02a42"
+  },
+  "moe_attendance": {
+   "source_id": "moe_attendance",
+   "ok": true,
+   "rows": 31,
+   "latest_period": "2026-09-30",
+   "message": "ok",
+   "checked": "2026-11-20T08:24:23+00:00",
+   "last_success": "2026-11-20T08:24:23+00:00",
+   "schema_hash": "24635db9f2"
   }
  },
  "catalogue": [
@@ -17298,6 +17739,7 @@
    "frequency": "Annual",
    "phase": 2,
    "status": "planned",
+   "release": 2,
    "note": "Infoshare → ADE Time Series Expansion (target Apr 2027)"
   },
   {
@@ -17307,8 +17749,9 @@
    "domain": "Ōhanga",
    "frequency": "Irregular",
    "phase": 2,
-   "status": "borderline",
-   "note": "Irregular releases"
+   "status": "manual",
+   "note": "Irregular modelled estimates. Use a reviewed official export and retain the model vintage.",
+   "url": "https://www.mbie.govt.nz/business-and-employment/economic-growth/regional-economic-development"
   },
   {
    "id": "E3",
@@ -17327,7 +17770,8 @@
    "domain": "Ōhanga",
    "frequency": "Quarterly",
    "phase": 2,
-   "status": "planned"
+   "status": "planned",
+   "release": 3
   },
   {
    "id": "E5",
@@ -17336,7 +17780,8 @@
    "domain": "Ōhanga",
    "frequency": "Monthly",
    "phase": 2,
-   "status": "planned"
+   "status": "planned",
+   "release": 2
   },
   {
    "id": "E6",
@@ -17345,8 +17790,8 @@
    "domain": "Ōhanga",
    "frequency": "Quarterly",
    "phase": 2,
-   "status": "planned",
-   "note": "Gisborne/Hawke's Bay combined – proxy only"
+   "status": "deferred",
+   "note": "Combined Gisborne and Hawke’s Bay. Reopen for a credible Tairāwhiti measure."
   },
   {
    "id": "E7",
@@ -17355,7 +17800,8 @@
    "domain": "Ōhanga",
    "frequency": "Monthly",
    "phase": 2,
-   "status": "planned"
+   "status": "planned",
+   "release": 3
   },
   {
    "id": "E8",
@@ -17364,8 +17810,9 @@
    "domain": "Ōhanga",
    "frequency": "Monthly",
    "phase": 2,
-   "status": "planned",
-   "note": "Redeveloped series; vintage-stamp each pull. mbie.govt.nz blocks bots – TEIC host to test"
+   "status": "reference",
+   "note": "Historical reference. MBIE paused the series in October 2026. Keep any replacement spend measure separate.",
+   "url": "https://teic.mbie.govt.nz/teiccategories/datareleases/mrte/"
   },
   {
    "id": "E9",
@@ -17375,7 +17822,8 @@
    "frequency": "Monthly",
    "phase": 4,
    "status": "planned",
-   "note": "Paused; resuming early 2027"
+   "release": 3,
+   "note": "Build once MBIE publishes the resumed TECT series with verified local coverage."
   },
   {
    "id": "E10",
@@ -17384,7 +17832,8 @@
    "domain": "Ōhanga",
    "frequency": "Monthly",
    "phase": 2,
-   "status": "planned"
+   "status": "planned",
+   "release": 2
   },
   {
    "id": "E11",
@@ -17393,8 +17842,9 @@
    "domain": "Ōhanga",
    "frequency": "Periodic",
    "phase": 2,
-   "status": "borderline",
-   "note": "Aggregator – validation only"
+   "status": "reference",
+   "note": "Publisher aggregator for source discovery and comparison.",
+   "url": "https://www.mbie.govt.nz/business-and-employment/economic-growth/regional-economic-development/regional-economic-activity-tool"
   },
   {
    "id": "E12",
@@ -17404,6 +17854,7 @@
    "frequency": "Annual",
    "phase": 2,
    "status": "planned",
+   "release": 3,
    "note": "ADE AGR_AGR_001–003"
   },
   {
@@ -17413,7 +17864,8 @@
    "domain": "Ōhanga",
    "frequency": "Monthly",
    "phase": 2,
-   "status": "planned"
+   "status": "planned",
+   "release": 2
   },
   {
    "id": "E14",
@@ -17422,7 +17874,8 @@
    "domain": "Ōhanga",
    "frequency": "Monthly",
    "phase": 2,
-   "status": "planned"
+   "status": "planned",
+   "release": 2
   },
   {
    "id": "E15",
@@ -17431,8 +17884,8 @@
    "domain": "Ōhanga",
    "frequency": "Quarterly",
    "phase": 3,
-   "status": "borderline",
-   "note": "Proprietary – licence needed"
+   "status": "deferred",
+   "note": "Proprietary. Reopen if the publisher grants public redistribution rights."
   },
   {
    "id": "H1",
@@ -17451,7 +17904,8 @@
    "domain": "Hapori",
    "frequency": "~3-yearly",
    "phase": 2,
-   "status": "borderline"
+   "status": "manual",
+   "note": "Import each official scenario release manually and identify it as a projection."
   },
   {
    "id": "H3",
@@ -17460,7 +17914,8 @@
    "domain": "Hapori",
    "frequency": "Quarterly",
    "phase": 2,
-   "status": "planned"
+   "status": "planned",
+   "release": 2
   },
   {
    "id": "H4",
@@ -17469,7 +17924,8 @@
    "domain": "Hapori",
    "frequency": "Five-yearly",
    "phase": 1,
-   "status": "planned"
+   "status": "planned",
+   "release": 2
   },
   {
    "id": "H5",
@@ -17488,8 +17944,8 @@
    "domain": "Hapori",
    "frequency": "Quarterly",
    "phase": 2,
-   "status": "planned",
-   "note": "East Coast W&I region is wider than Tairāwhiti"
+   "status": "deferred",
+   "note": "East Coast service region is wider than Tairāwhiti. Reopen if a local series is released."
   },
   {
    "id": "H7",
@@ -17507,7 +17963,8 @@
    "domain": "Hapori",
    "frequency": "Monthly",
    "phase": 2,
-   "status": "planned"
+   "status": "planned",
+   "release": 2
   },
   {
    "id": "H9",
@@ -17516,7 +17973,8 @@
    "domain": "Hapori",
    "frequency": "Quarterly",
    "phase": 2,
-   "status": "planned"
+   "status": "planned",
+   "release": 2
   },
   {
    "id": "H10",
@@ -17525,7 +17983,8 @@
    "domain": "Hapori",
    "frequency": "Quarterly",
    "phase": 2,
-   "status": "planned"
+   "status": "planned",
+   "release": 3
   },
   {
    "id": "H11",
@@ -17545,8 +18004,8 @@
    "domain": "Hapori",
    "frequency": "Monthly",
    "phase": 3,
-   "status": "borderline",
-   "note": "Licence"
+   "status": "deferred",
+   "note": "Commercial data. Reopen if public redistribution rights are granted."
   },
   {
    "id": "H13",
@@ -17565,7 +18024,8 @@
    "domain": "Hapori",
    "frequency": "Quarterly/weekly",
    "phase": 2,
-   "status": "planned"
+   "status": "planned",
+   "release": 3
   },
   {
    "id": "H15",
@@ -17574,8 +18034,8 @@
    "domain": "Hapori",
    "frequency": "Quarterly",
    "phase": 3,
-   "status": "planned",
-   "note": "PDF"
+   "status": "manual",
+   "note": "Review Health NZ targets tables on each release and use only published local cells."
   },
   {
    "id": "H16",
@@ -17584,8 +18044,8 @@
    "domain": "Hapori",
    "frequency": "Quarterly",
    "phase": 3,
-   "status": "planned",
-   "note": "PDF only after June 2024"
+   "status": "manual",
+   "note": "Review Health NZ PDF tables since June 2024. Preserve original definitions and suppression."
   },
   {
    "id": "H17",
@@ -17594,7 +18054,8 @@
    "domain": "Hapori",
    "frequency": "Annual",
    "phase": 2,
-   "status": "planned"
+   "status": "planned",
+   "release": 3
   },
   {
    "id": "H18",
@@ -17603,7 +18064,8 @@
    "domain": "Hapori",
    "frequency": "Quarterly",
    "phase": 1,
-   "status": "planned"
+   "status": "planned",
+   "release": 2
   },
   {
    "id": "H19",
@@ -17612,7 +18074,8 @@
    "domain": "Hapori",
    "frequency": "Annual",
    "phase": 3,
-   "status": "planned"
+   "status": "manual",
+   "note": "Use a reviewed aggregate mortality export with a verified local geography."
   },
   {
    "id": "H20",
@@ -17621,7 +18084,8 @@
    "domain": "Hapori",
    "frequency": "Annual",
    "phase": 3,
-   "status": "planned"
+   "status": "manual",
+   "note": "Use an approved aggregate cancer export with publisher suppression preserved."
   },
   {
    "id": "H21",
@@ -17630,8 +18094,8 @@
    "domain": "Hapori",
    "frequency": "Annual",
    "phase": 3,
-   "status": "planned",
-   "note": "Multi-year aggregated rates only"
+   "status": "manual",
+   "note": "Use publisher multi-year local rates and preserve suppression and uncertainty."
   },
   {
    "id": "H22",
@@ -17640,7 +18104,8 @@
    "domain": "Hapori",
    "frequency": "Monthly",
    "phase": 2,
-   "status": "planned"
+   "status": "planned",
+   "release": 2
   },
   {
    "id": "H23",
@@ -17649,8 +18114,8 @@
    "domain": "Hapori",
    "frequency": "Monthly",
    "phase": 2,
-   "status": "planned",
-   "note": "Eastern district"
+   "status": "deferred",
+   "note": "Eastern police district is wider than Tairāwhiti. Reopen if local proceeding data is released."
   },
   {
    "id": "H24",
@@ -17669,7 +18134,8 @@
    "domain": "Hapori",
    "frequency": "Annual",
    "phase": 1,
-   "status": "planned"
+   "status": "planned",
+   "release": 2
   },
   {
    "id": "H26",
@@ -17678,7 +18144,8 @@
    "domain": "Hapori",
    "frequency": "Quarterly",
    "phase": 3,
-   "status": "borderline"
+   "status": "deferred",
+   "note": "Reopen once a consistent, redistributable Tairāwhiti aggregate is available."
   },
   {
    "id": "H27",
@@ -17687,7 +18154,8 @@
    "domain": "Hapori",
    "frequency": "Monthly",
    "phase": 2,
-   "status": "planned"
+   "status": "planned",
+   "release": 3
   },
   {
    "id": "M1",
@@ -17696,8 +18164,9 @@
    "domain": "Mātauranga",
    "frequency": "Termly",
    "phase": 1,
-   "status": "planned",
-   "note": "educationcounts.govt.nz returned 403 to automated requests – test from GitHub Actions or use manual drop"
+   "status": "live",
+   "note": "Gisborne Region regular attendance from 2019. Publisher workbooks with a manual fallback.",
+   "release": 1
   },
   {
    "id": "M2",
@@ -17706,7 +18175,8 @@
    "domain": "Mātauranga",
    "frequency": "Weekly",
    "phase": 2,
-   "status": "borderline"
+   "status": "deferred",
+   "note": "Termly attendance covers recurring reporting. Reopen if a reusable and comparable daily local series is available."
   },
   {
    "id": "M3",
@@ -17715,7 +18185,8 @@
    "domain": "Mātauranga",
    "frequency": "Annual",
    "phase": 2,
-   "status": "planned"
+   "status": "planned",
+   "release": 2
   },
   {
    "id": "M4",
@@ -17724,7 +18195,8 @@
    "domain": "Mātauranga",
    "frequency": "Annual",
    "phase": 2,
-   "status": "planned"
+   "status": "planned",
+   "release": 3
   },
   {
    "id": "M5",
@@ -17733,7 +18205,8 @@
    "domain": "Mātauranga",
    "frequency": "Annual",
    "phase": 2,
-   "status": "planned"
+   "status": "planned",
+   "release": 3
   },
   {
    "id": "M6",
@@ -17744,7 +18217,8 @@
    "domain": "Mātauranga",
    "frequency": "Annual",
    "phase": 2,
-   "status": "planned"
+   "status": "planned",
+   "release": 3
   },
   {
    "id": "M7",
@@ -17753,7 +18227,8 @@
    "domain": "Mātauranga",
    "frequency": "Annual",
    "phase": 2,
-   "status": "planned"
+   "status": "planned",
+   "release": 3
   },
   {
    "id": "M8",
@@ -17763,6 +18238,7 @@
    "frequency": "Annual",
    "phase": 2,
    "status": "planned",
+   "release": 2,
    "note": "Best annual Tūtangata proxy"
   },
   {
@@ -17772,7 +18248,8 @@
    "domain": "Taiao",
    "frequency": "Annual",
    "phase": 2,
-   "status": "planned"
+   "status": "planned",
+   "release": 2
   },
   {
    "id": "T2",
@@ -17781,7 +18258,8 @@
    "domain": "Taiao",
    "frequency": "Annual",
    "phase": 2,
-   "status": "planned"
+   "status": "planned",
+   "release": 2
   },
   {
    "id": "T3",
@@ -17790,7 +18268,8 @@
    "domain": "Taiao",
    "frequency": "Annual",
    "phase": 2,
-   "status": "planned"
+   "status": "planned",
+   "release": 3
   },
   {
    "id": "T4",
@@ -17800,6 +18279,7 @@
    "frequency": "Near-real-time",
    "phase": 3,
    "status": "planned",
+   "release": 3,
    "note": "Endpoint to confirm with GDC"
   },
   {
@@ -17809,7 +18289,8 @@
    "domain": "Taiao",
    "frequency": "Monthly",
    "phase": 3,
-   "status": "planned"
+   "status": "planned",
+   "release": 3
   },
   {
    "id": "T6",
@@ -17818,7 +18299,9 @@
    "domain": "Taiao",
    "frequency": "Annual",
    "phase": 2,
-   "status": "planned"
+   "status": "live",
+   "note": "Published industry and household total for Gisborne Region from 2007.",
+   "release": 1
   },
   {
    "id": "T7",
@@ -17827,7 +18310,9 @@
    "domain": "Taiao",
    "frequency": "Irregular",
    "phase": 3,
-   "status": "borderline"
+   "status": "reference",
+   "note": "Irregular land-cover reference. Keep release and classification versions visible.",
+   "url": "https://environment.govt.nz/facts-and-science/land/land-cover/"
   },
   {
    "id": "T8",
@@ -17836,8 +18321,9 @@
    "domain": "Taiao",
    "frequency": "Static",
    "phase": 3,
-   "status": "borderline",
-   "note": "Reference layers"
+   "status": "reference",
+   "note": "Reference maps and monitoring links from Gisborne District Council.",
+   "url": "https://www.gdc.govt.nz/environment/maps-and-data"
   },
   {
    "id": "R1",
@@ -17846,8 +18332,9 @@
    "domain": "Tūhono",
    "frequency": "Annual",
    "phase": 1,
-   "status": "planned",
-   "note": "In-house (Zoho); join on the same schema"
+   "status": "manual",
+   "note": "Trust stewardship and approval required. Publish only an approved aggregate export.",
+   "url": "https://trusttairawhiti.nz/what-we-do/wellbeing-data"
   },
   {
    "id": "R2",
@@ -17856,7 +18343,8 @@
    "domain": "Tūhono",
    "frequency": "Biennial",
    "phase": 3,
-   "status": "borderline"
+   "status": "deferred",
+   "note": "Reopen when Stats NZ publishes a reliable Tairāwhiti estimate."
   },
   {
    "id": "R3",
@@ -17865,7 +18353,8 @@
    "domain": "Tūtangata",
    "frequency": "Five-yearly",
    "phase": 3,
-   "status": "borderline"
+   "status": "deferred",
+   "note": "Reopen when a reliable local indicator and reuse terms are verified."
   },
   {
    "id": "R4",
@@ -17874,7 +18363,11 @@
    "domain": "Tūtangata",
    "frequency": "Five-yearly",
    "phase": 2,
-   "status": "planned"
+   "status": "manual",
+   "note": "2023 aggregate te reo Māori snapshot is published. Iwi affiliation and historical comparability require separate review.",
+   "url": "https://tools.summaries.stats.govt.nz/places/rc/gisborne-region",
+   "published": true,
+   "release": 1
   },
   {
    "id": "R5",
@@ -17883,7 +18376,11 @@
    "domain": "Tūhono",
    "frequency": "Triennial",
    "phase": 3,
-   "status": "borderline"
+   "status": "manual",
+   "note": "2022 and 2025 contested mayoral turnout snapshots are published. Verify earlier releases before charting a trend.",
+   "url": "https://www.mcert.govt.nz/our-work/local-government/local-elections-and-voting/local-authority-election-statistics/",
+   "published": true,
+   "release": 1
   },
   {
    "id": "R6",
@@ -17892,7 +18389,8 @@
    "domain": "Tūhono",
    "frequency": "Triennial",
    "phase": 3,
-   "status": "planned"
+   "status": "planned",
+   "release": 3
   },
   {
    "id": "R7",
@@ -17901,7 +18399,8 @@
    "domain": "Tūtangata",
    "frequency": "Register",
    "phase": 3,
-   "status": "borderline"
+   "status": "deferred",
+   "note": "Reopen only for an approved aggregate with a clear unit and purpose."
   },
   {
    "id": "G1",
@@ -17910,8 +18409,8 @@
    "domain": "Hapori",
    "frequency": "Annual",
    "phase": 3,
-   "status": "planned",
-   "note": "Manual"
+   "status": "manual",
+   "note": "Council annual-report data. Manually verify definitions and each published year."
   },
   {
    "id": "G2",
@@ -17920,7 +18419,8 @@
    "domain": "Ōhanga",
    "frequency": "Annual",
    "phase": 3,
-   "status": "borderline"
+   "status": "planned",
+   "release": 3
   },
   {
    "id": "G3",
@@ -17929,8 +18429,9 @@
    "domain": "Hapori",
    "frequency": "Varies",
    "phase": 3,
-   "status": "borderline",
-   "note": "Context layer (<5 years)"
+   "status": "reference",
+   "note": "Recovery reference material. Preserve publication dates and project context.",
+   "url": "https://www.gdc.govt.nz/recovery"
   },
   {
    "id": "G4",
@@ -17939,7 +18440,9 @@
    "domain": "Ōhanga",
    "frequency": "Irregular",
    "phase": 3,
-   "status": "borderline"
+   "status": "reference",
+   "note": "Reference publishers for connectivity until a comparable local series is verified.",
+   "url": "https://www.comcom.govt.nz/regulated-industries/telecommunications/monitoring-the-telecommunications-market"
   }
  ]
 }

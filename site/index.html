@@ -96,7 +96,7 @@ td.num, th.num { text-align: right; font-family: var(--f-data); font-variant-num
 .pill.live { color: var(--good); background: var(--good-bg); }
 .pill.manual { color: var(--warn); background: var(--warn-bg); }
 .pill.planned { color: var(--flat); background: var(--flat-bg); }
-.pill.borderline { color: var(--ink-3); background: transparent; border: 1px solid var(--line); }
+.pill.reference, .pill.deferred { color: var(--ink-3); background: transparent; border: 1px solid var(--line); }
 .pill.fail { color: var(--bad); background: var(--bad-bg); }
 .filters { display: flex; flex-wrap: wrap; gap: 8px 16px; align-items: center; margin-bottom: 12px; font-size: 13px; color: var(--ink-2); }
 select { font: inherit; color: var(--ink); background: var(--surface); border: 1px solid var(--line); border-radius: 6px; padding: 4px 8px; }
@@ -129,11 +129,13 @@ const TABS = [
   { id: "hapori", label: "Hapori", domain: "Hapori", blurb: "Communities: population, housing, health and safety." },
   { id: "matauranga", label: "Mātauranga", domain: "Mātauranga", blurb: "Knowledge: education and learning." },
   { id: "taiao", label: "Taiao", domain: "Taiao", blurb: "Environment: water, climate and land." },
-  { id: "tuhono", label: "Tūhono & Tūtangata", domain: ["Tūhono", "Tūtangata"], blurb: "Relationships and cultural identity." },
+  { id: "tuhono", label: "Tūhono", domain: "Tūhono", blurb: "Relationships and civic participation." },
+  { id: "tutangata", label: "Tūtangata", domain: "Tūtangata", blurb: "Cultural identity and te reo Māori." },
   { id: "library", label: "Data library" },
   { id: "status", label: "Data status" },
 ];
 const MAIN_GEO = new Set(["05", "028", "TRW"]);
+const DATASET_STATES = { live: "Automated", manual: "Manual", planned: "Planned", reference: "Reference", deferred: "Deferred" };
 let D = null, BY = {};
 const $ = (s, el = document) => el.querySelector(s);
 const el = (tag, attrs = {}, ...kids) => {
@@ -280,9 +282,9 @@ function shortNum(v, format) {
 /* ---------- views ---------- */
 function linesFor(ind) {
   const ss = seriesFor(ind), out = [];
-  const main = mainSeries(ind); if (main) out.push({ label: "Tairāwhiti", color: "var(--s1)", points: main.points, ptype: main.period_type });
+  const main = mainSeries(ind); if (main) out.push({ label: main.geo_name, color: "var(--s1)", points: main.points, ptype: main.period_type });
   const mao = ss.find(s => MAIN_GEO.has(s.geo) && s.ethnicity === "Māori");
-  if (mao) out.push({ label: "Tairāwhiti – Māori", color: "var(--s2)", points: mao.points, ptype: mao.period_type });
+  if (mao) out.push({ label: `${mao.geo_name} – Māori`, color: "var(--s2)", points: mao.points, ptype: mao.period_type });
   const nat = ss.find(s => s.geo === "NZ" && s.ethnicity === "Total");
   if (nat) out.push({ label: "Aotearoa (national)", color: "var(--s3)", dash: true, points: nat.points, ptype: nat.period_type });
   return out;
@@ -295,13 +297,21 @@ function card(ind) {
   c.append(el("div", { class: "head" },
     el("h3", { text: meta.name }),
     h ? el("div", { class: "now" }, fmt(h.last[1], meta.format), el("small", { text: periodLabel(h.last[0], h.s.period_type) })) : null));
+  c.append(el("div", { class: "note", text: lines[0].label }));
+  const attribution = el("span", {}, src.attribution || "", " · ", el("a", { href: src.url || "#", target: "_blank", rel: "noopener", text: "Publisher" }));
+  if (meta.display === "snapshot") {
+    c.append(table(lines, meta));
+    if (meta.caveat) c.append(el("p", { class: "note", text: meta.caveat }));
+    c.append(el("div", { class: "src" }, attribution));
+    return c;
+  }
   if (lines.length > 1) c.append(el("div", { class: "legend" }, lines.map(l => el("span", {}, el("i", { class: l.dash ? "dash" : "", style: `background:${l.color}` }), l.label))));
   c.append(lineChart(lines, meta));
   if (meta.caveat) c.append(el("p", { class: "note", text: meta.caveat }));
   const tblBox = el("div", { hidden: "" });
   c.append(tblBox);
   c.append(el("div", { class: "src" },
-    el("span", {}, src.attribution || "", " · ", el("a", { href: src.url || "#", target: "_blank", rel: "noopener", text: "Publisher" })),
+    attribution,
     el("button", { class: "link", type: "button", text: "Show table", onclick: e => {
       if (tblBox.hidden && !tblBox.firstChild) tblBox.append(table(lines, meta));
       tblBox.hidden = !tblBox.hidden; e.target.textContent = tblBox.hidden ? "Show table" : "Hide table"; } })));
@@ -321,7 +331,7 @@ function viewGlance() {
   f.append(el("p", { class: "intro", text: "Headline indicators for Te Tairāwhiti, each with its latest value, change on a year earlier, and five-year trend. Chips are green when the change is in the good direction and red when it is not. Select a tile to see the full series." }));
   const tiles = el("div", { class: "tiles" });
   for (const [ind, meta] of Object.entries(D.indicators)) {
-    if (!meta.headline) continue;
+    if (!meta.headline || meta.display === "snapshot") continue;
     const h = headline(ind); if (!h) continue;
     const cut = new Date(parseD(h.last[0])); cut.setFullYear(cut.getFullYear() - 5);
     const recent = usable(h.s.points).filter(p => parseD(p[0]) >= cut);
@@ -348,12 +358,11 @@ function viewDomain(tab) {
     for (const [k, m] of inds) if (m.topic === t) { const c = card(k); c && g.append(c); }
     f.append(g);
   }
-  const planned = (D.catalogue || []).filter(c => doms.includes(c.domain) && c.status !== "live");
+  const planned = (D.catalogue || []).filter(c => doms.includes(c.domain) && c.status !== "live" && !c.published);
   if (!inds.length || planned.length) {
-    f.append(el("h2", { text: inds.length ? "Coming next" : "No live series yet" }));
-    const gap = el("div", { class: "gap" }, inds.length ? "These datasets are in the library but not automated yet:" :
-      "No public, regularly updated series feeds this domain yet. These datasets are planned:");
-    gap.append(el("ul", {}, planned.map(c => el("li", {}, el("b", { text: `${c.id} ${c.name}` }), ` – ${c.publisher}, ${c.frequency.toLowerCase()}`, c.note ? `. ${c.note}` : "", " ", el("span", { class: "pill " + c.status, text: c.status })))));
+    f.append(el("h2", { text: "Other datasets in the library" }));
+    const gap = el("div", { class: "gap" });
+    gap.append(el("ul", {}, planned.map(c => el("li", {}, el("b", { text: `${c.id} ${c.name}` }), ` – ${c.publisher}, ${c.frequency.toLowerCase()}`, c.note ? `. ${c.note}` : "", " ", el("span", { class: "pill " + c.status, text: DATASET_STATES[c.status] || c.status })))));
     f.append(gap);
   }
   return f;
@@ -362,12 +371,13 @@ function viewLibrary() {
   const f = document.createDocumentFragment();
   const cat = D.catalogue || [];
   const counts = cat.reduce((a, c) => (a[c.status] = (a[c.status] || 0) + 1, a), {});
-  f.append(el("p", { class: "intro", text: `${cat.length} datasets from the Tairāwhiti longitudinal open data plan: ${counts.live || 0} automated, ${counts.manual || 0} manual drop, ${counts.planned || 0} planned, ${counts.borderline || 0} borderline (irregular, fewer than five years, or licensed).` }));
+  const summary = Object.entries(DATASET_STATES).map(([state, label]) => `${counts[state] || 0} ${label.toLowerCase()}`).join(", ");
+  f.append(el("p", { class: "intro", text: `${cat.length} datasets in the Tairāwhiti longitudinal open data plan. ${summary}.` }));
   f.append(el("div", { class: "filters downloads" },
     el("a", { href: "data/observations.csv", download: "observations.csv", text: "Download observations (CSV)" }),
     el("a", { href: "data/indicators.csv", download: "indicators.csv", text: "Download indicator definitions (CSV)" })));
   const sel = (id, label, opts) => el("label", {}, label + " ", el("select", { id }, el("option", { value: "", text: "All" }), opts.map(o => el("option", { value: o, text: o }))));
-  const filt = el("div", { class: "filters" }, sel("f-dom", "Domain", [...new Set(cat.map(c => c.domain))]), sel("f-st", "Status", ["live", "manual", "planned", "borderline"]), sel("f-ph", "Phase", ["1", "2", "3", "4"]));
+  const filt = el("div", { class: "filters" }, sel("f-dom", "Domain", [...new Set(cat.map(c => c.domain))]), sel("f-st", "Status", Object.keys(DATASET_STATES)), sel("f-ph", "Phase", ["1", "2", "3", "4"]));
   const box = el("div", { class: "tbl-wrap", style: "max-height:none" });
   const render = () => {
     const d = $("#f-dom", filt).value, s = $("#f-st", filt).value, p = $("#f-ph", filt).value;
@@ -375,7 +385,8 @@ function viewLibrary() {
     box.innerHTML = "";
     box.append(el("table", {}, el("thead", {}, el("tr", {}, ["ID", "Dataset", "Publisher", "Domain", "Frequency", "Phase", "Status", "Notes"].map(h => el("th", { text: h })))),
       el("tbody", {}, rows.map(c => el("tr", {}, el("td", { text: c.id }), el("td", { text: c.name }), el("td", { text: c.publisher }), el("td", { text: c.domain }),
-        el("td", { text: c.frequency }), el("td", { text: String(c.phase) }), el("td", {}, el("span", { class: "pill " + c.status, text: c.status })), el("td", { text: c.note || "" }))))));
+        el("td", { text: c.frequency }), el("td", { text: String(c.phase) }), el("td", {}, el("span", { class: "pill " + c.status, text: DATASET_STATES[c.status] || c.status })),
+        el("td", {}, c.note || "", c.url ? el("a", { href: c.url, text: " Publisher" }) : null))))));
   };
   filt.addEventListener("change", render); render();
   f.append(filt, box);
