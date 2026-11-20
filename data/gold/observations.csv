@@ -1552,3 +1552,119 @@ cas_injury_crashes,region,05,Gisborne / Tairāwhiti,2023-01-01,2023-12-31,year,c
 cas_injury_crashes,region,05,Gisborne / Tairāwhiti,2024-01-01,2024-12-31,year,calendar,116.0,crashes,count,Total,Total,Total,,,nzta_cas,2026-11-20,CC BY 4.0
 cas_injury_crashes,region,05,Gisborne / Tairāwhiti,2025-01-01,2025-12-31,year,calendar,118.0,crashes,count,Total,Total,Total,,,nzta_cas,2026-11-20,CC BY 4.0
 cas_injury_crashes,region,05,Gisborne / Tairāwhiti,2026-01-01,2026-12-31,year,calendar,86.0,crashes,count,Total,Total,Total,,partial year; CAS is live and late reports are added,nzta_cas,2026-11-20,CC BY 4.0
+bds_employee_count,ta,028,Gisborne District,2000-02-01,2000-02-28,year,february,18800.0,employees,count,Total,Total,Total,,random rounding,statsnz_ade,2026-11-20,CC BY 4.0
+bds_employee_count,ta,028,Gisborne District,2001-02-01,2001-02-28,year,february,18900.0,employees,count,Total,Total,Total,,random rounding,statsnz_ade,2026-11-20,CC BY 4.0
+bds_employee_count,ta,028,Gisborne District,2002-02-01,2002-02-28,year,february,19600.0,employees,count,Total,Total,Total,,random rounding,statsnz_ade,2026-11-20,CC BY 4.0
+bds_employee_count,ta,028,Gisborne District,2003-02-01,2003-02-28,year,february,19500.0,employees,count,Total,Total,Total,,random rounding,statsnz_ade,2026-11-20,CC BY 4.0
+bds_employee_count,ta,028,Gisborne District,2004-02-01,2004-02-28,year,february,20700.0,employees,count,Total,Total,Total,,random rounding,statsnz_ade,2026-11-20,CC BY 4.0
+bds_employee_count,ta,028,Gisborne District,2005-02-01,2005-02-28,year,february,21000.0,employees,count,Total,Total,Total,,random rounding,statsnz_ade,2026-11-20,CC BY 4.0
+bds_employee_count,ta,028,Gisborne District,2006-02-01,2006-02-28,year,february,21100.0,employees,count,Total,Total,Total,,random rounding,statsnz_ade,2026-11-20,CC BY 4.0
+bds_employee_count,ta,028,Gisborne District,2007-02-01,2007-02-28,year,february,21000.0,employees,count,Total,Total,Total,,random rounding,statsnz_ade,2026-11-20,CC BY 4.0
+bds_employee_count,ta,028,Gisborne District,2008-02-01,2008-02-28,year,february,21200.0,employees,count,Total,Total,Total,,random rounding,statsnz_ade,2026-11-20,CC BY 4.0
+bds_employee_count,ta,028,Gisborne District,2009-02-01,2009-02-28,year,february,20500.0,employees,count,Total,Total,Total,,random rounding,statsnz_ade,2026-11-20,CC BY 4.0
+bds_employee_count,ta,028,Gisborne District,2010-02-01,2010-02-28,year,february,20600.0,employees,count,Total,Total,Total,,random rounding,statsnz_ade,2026-11-20,CC BY 4.0
+bds_employee_count,ta,028,Gisborne District,2011-02-01,2011-02-28,year,february,20200.0,employees,count,Total,Total,Total,,random rounding,statsnz_ade,2026-11-20,CC BY 4.0
+bds_employee_count,ta,028,Gisborne District,2012-02-01,2012-02-28,year,february,19900.0,employees,count,Total,Total,Total,,random rounding,statsnz_ade,2026-11-20,CC BY 4.0
+bds_employee_count,ta,028,Gisborne District,2013-02-01,2013-02-28,year,february,20000.0,employees,count,Total,Total,Total,,random rounding,statsnz_ade,2026-11-20,CC BY 4.0
+bds_employee_count,ta,028,Gisborne District,2014-02-01,2014-02-28,year,february,20400.0,employees,count,Total,Total,Total,,random rounding,statsnz_ade,2026-11-20,CC BY 4.0
+bds_employee_count,ta,028,Gisborne District,2015-02-01,2015-02-28,year,february,20600.0,employees,count,Total,Total,Total,,random rounding,statsnz_ade,2026-11-20,CC BY 4.0
+bds_employee_count,ta,028,Gisborne District,2016-02-01,2016-02-28,year,february,20900.0,employees,count,Total,Total,Total,,random rounding,statsnz_ade,2026-11-20,CC BY 4.0
+bds_employee_count,ta,028,Gisborne District,2017-02-01,2017-02-28,year,february,20900.0,employees,count,Total,Total,Total,,random rounding,statsnz_ade,2026-11-20,CC BY 4.0
+bds_employee_count,ta,028,Gisborne District,2018-02-01,2018-02-28,year,february,21500.0,employees,count,Total,Total,Total,,random rounding,statsnz_ade,2026-11-20,CC BY 4.0
+bds_employee_count,ta,028,Gisborne District,2019-02-01,2019-02-28,year,february,22000.0,employees,count,Total,Total,Total,,random rounding,statsnz_ade,2026-11-20,CC BY 4.0
+bds_employee_count,ta,028,Gisborne District,2020-02-01,2020-02-28,year,february,22400.0,employees,count,Total,Total,Total,,random rounding,statsnz_ade,2026-11-20,CC BY 4.0
+bds_employee_count,ta,028,Gisborne District,2021-02-01,2021-02-28,year,february,23100.0,employees,count,Total,Total,Total,,random rounding,statsnz_ade,2026-11-20,CC BY 4.0
+bds_employee_count,ta,028,Gisborne District,2022-02-01,2022-02-28,year,february,23700.0,employees,count,Total,Total,Total,,random rounding,statsnz_ade,2026-11-20,CC BY 4.0
+bds_employee_count,ta,028,Gisborne District,2023-02-01,2023-02-28,year,february,23100.0,employees,count,Total,Total,Total,,random rounding,statsnz_ade,2026-11-20,CC BY 4.0
+bds_employee_count,ta,028,Gisborne District,2024-02-01,2024-02-28,year,february,23800.0,employees,count,Total,Total,Total,,random rounding,statsnz_ade,2026-11-20,CC BY 4.0
+bds_employee_count,ta,028,Gisborne District,2025-02-01,2025-02-28,year,february,22600.0,employees,count,Total,Total,Total,,random rounding,statsnz_ade,2026-11-20,CC BY 4.0
+bds_employee_count,ta,028,Gisborne District,2026-02-01,2026-02-28,year,february,22500.0,employees,count,Total,Total,Total,,random rounding,statsnz_ade,2026-11-20,CC BY 4.0
+bds_geographic_units,ta,028,Gisborne District,2000-02-01,2000-02-28,year,february,4317.0,business locations,count,Total,Total,Total,,random rounding,statsnz_ade,2026-11-20,CC BY 4.0
+bds_geographic_units,ta,028,Gisborne District,2001-02-01,2001-02-28,year,february,4281.0,business locations,count,Total,Total,Total,,random rounding,statsnz_ade,2026-11-20,CC BY 4.0
+bds_geographic_units,ta,028,Gisborne District,2002-02-01,2002-02-28,year,february,4305.0,business locations,count,Total,Total,Total,,random rounding,statsnz_ade,2026-11-20,CC BY 4.0
+bds_geographic_units,ta,028,Gisborne District,2003-02-01,2003-02-28,year,february,4377.0,business locations,count,Total,Total,Total,,random rounding,statsnz_ade,2026-11-20,CC BY 4.0
+bds_geographic_units,ta,028,Gisborne District,2004-02-01,2004-02-28,year,february,4629.0,business locations,count,Total,Total,Total,,random rounding,statsnz_ade,2026-11-20,CC BY 4.0
+bds_geographic_units,ta,028,Gisborne District,2005-02-01,2005-02-28,year,february,4770.0,business locations,count,Total,Total,Total,,random rounding,statsnz_ade,2026-11-20,CC BY 4.0
+bds_geographic_units,ta,028,Gisborne District,2006-02-01,2006-02-28,year,february,4923.0,business locations,count,Total,Total,Total,,random rounding,statsnz_ade,2026-11-20,CC BY 4.0
+bds_geographic_units,ta,028,Gisborne District,2007-02-01,2007-02-28,year,february,5013.0,business locations,count,Total,Total,Total,,random rounding,statsnz_ade,2026-11-20,CC BY 4.0
+bds_geographic_units,ta,028,Gisborne District,2008-02-01,2008-02-28,year,february,5079.0,business locations,count,Total,Total,Total,,random rounding,statsnz_ade,2026-11-20,CC BY 4.0
+bds_geographic_units,ta,028,Gisborne District,2009-02-01,2009-02-28,year,february,5085.0,business locations,count,Total,Total,Total,,random rounding,statsnz_ade,2026-11-20,CC BY 4.0
+bds_geographic_units,ta,028,Gisborne District,2010-02-01,2010-02-28,year,february,5085.0,business locations,count,Total,Total,Total,,random rounding,statsnz_ade,2026-11-20,CC BY 4.0
+bds_geographic_units,ta,028,Gisborne District,2011-02-01,2011-02-28,year,february,4992.0,business locations,count,Total,Total,Total,,random rounding,statsnz_ade,2026-11-20,CC BY 4.0
+bds_geographic_units,ta,028,Gisborne District,2012-02-01,2012-02-28,year,february,4947.0,business locations,count,Total,Total,Total,,random rounding,statsnz_ade,2026-11-20,CC BY 4.0
+bds_geographic_units,ta,028,Gisborne District,2013-02-01,2013-02-28,year,february,4938.0,business locations,count,Total,Total,Total,,random rounding,statsnz_ade,2026-11-20,CC BY 4.0
+bds_geographic_units,ta,028,Gisborne District,2014-02-01,2014-02-28,year,february,4983.0,business locations,count,Total,Total,Total,,random rounding,statsnz_ade,2026-11-20,CC BY 4.0
+bds_geographic_units,ta,028,Gisborne District,2015-02-01,2015-02-28,year,february,5049.0,business locations,count,Total,Total,Total,,random rounding,statsnz_ade,2026-11-20,CC BY 4.0
+bds_geographic_units,ta,028,Gisborne District,2016-02-01,2016-02-28,year,february,5046.0,business locations,count,Total,Total,Total,,random rounding,statsnz_ade,2026-11-20,CC BY 4.0
+bds_geographic_units,ta,028,Gisborne District,2017-02-01,2017-02-28,year,february,5070.0,business locations,count,Total,Total,Total,,random rounding,statsnz_ade,2026-11-20,CC BY 4.0
+bds_geographic_units,ta,028,Gisborne District,2018-02-01,2018-02-28,year,february,5055.0,business locations,count,Total,Total,Total,,random rounding,statsnz_ade,2026-11-20,CC BY 4.0
+bds_geographic_units,ta,028,Gisborne District,2019-02-01,2019-02-28,year,february,5121.0,business locations,count,Total,Total,Total,,random rounding,statsnz_ade,2026-11-20,CC BY 4.0
+bds_geographic_units,ta,028,Gisborne District,2020-02-01,2020-02-28,year,february,5214.0,business locations,count,Total,Total,Total,,random rounding,statsnz_ade,2026-11-20,CC BY 4.0
+bds_geographic_units,ta,028,Gisborne District,2021-02-01,2021-02-28,year,february,5271.0,business locations,count,Total,Total,Total,,random rounding,statsnz_ade,2026-11-20,CC BY 4.0
+bds_geographic_units,ta,028,Gisborne District,2022-02-01,2022-02-28,year,february,5490.0,business locations,count,Total,Total,Total,,random rounding,statsnz_ade,2026-11-20,CC BY 4.0
+bds_geographic_units,ta,028,Gisborne District,2023-02-01,2023-02-28,year,february,5589.0,business locations,count,Total,Total,Total,,random rounding,statsnz_ade,2026-11-20,CC BY 4.0
+bds_geographic_units,ta,028,Gisborne District,2024-02-01,2024-02-28,year,february,5682.0,business locations,count,Total,Total,Total,,random rounding,statsnz_ade,2026-11-20,CC BY 4.0
+bds_geographic_units,ta,028,Gisborne District,2025-02-01,2025-02-28,year,february,5712.0,business locations,count,Total,Total,Total,,random rounding,statsnz_ade,2026-11-20,CC BY 4.0
+bds_geographic_units,ta,028,Gisborne District,2026-02-01,2026-02-28,year,february,5646.0,business locations,count,Total,Total,Total,,random rounding,statsnz_ade,2026-11-20,CC BY 4.0
+pop_estimate,ta,028,Gisborne District,1996-01-01,1996-06-30,year,june,47200.0,people,count,Total,Total,Total,,random rounding,statsnz_ade,2026-11-20,CC BY 4.0
+pop_estimate,ta,028,Gisborne District,1997-01-01,1997-06-30,year,june,46900.0,people,count,Total,Total,Total,,random rounding,statsnz_ade,2026-11-20,CC BY 4.0
+pop_estimate,ta,028,Gisborne District,1998-01-01,1998-06-30,year,june,46600.0,people,count,Total,Total,Total,,random rounding,statsnz_ade,2026-11-20,CC BY 4.0
+pop_estimate,ta,028,Gisborne District,1999-01-01,1999-06-30,year,june,46400.0,people,count,Total,Total,Total,,random rounding,statsnz_ade,2026-11-20,CC BY 4.0
+pop_estimate,ta,028,Gisborne District,2000-01-01,2000-06-30,year,june,46100.0,people,count,Total,Total,Total,,random rounding,statsnz_ade,2026-11-20,CC BY 4.0
+pop_estimate,ta,028,Gisborne District,2001-01-01,2001-06-30,year,june,45500.0,people,count,Total,Total,Total,,random rounding,statsnz_ade,2026-11-20,CC BY 4.0
+pop_estimate,ta,028,Gisborne District,2002-01-01,2002-06-30,year,june,45500.0,people,count,Total,Total,Total,,random rounding,statsnz_ade,2026-11-20,CC BY 4.0
+pop_estimate,ta,028,Gisborne District,2003-01-01,2003-06-30,year,june,45800.0,people,count,Total,Total,Total,,random rounding,statsnz_ade,2026-11-20,CC BY 4.0
+pop_estimate,ta,028,Gisborne District,2004-01-01,2004-06-30,year,june,45800.0,people,count,Total,Total,Total,,random rounding,statsnz_ade,2026-11-20,CC BY 4.0
+pop_estimate,ta,028,Gisborne District,2005-01-01,2005-06-30,year,june,45800.0,people,count,Total,Total,Total,,random rounding,statsnz_ade,2026-11-20,CC BY 4.0
+pop_estimate,ta,028,Gisborne District,2006-01-01,2006-06-30,year,june,45900.0,people,count,Total,Total,Total,,random rounding,statsnz_ade,2026-11-20,CC BY 4.0
+pop_estimate,ta,028,Gisborne District,2007-01-01,2007-06-30,year,june,45900.0,people,count,Total,Total,Total,,random rounding,statsnz_ade,2026-11-20,CC BY 4.0
+pop_estimate,ta,028,Gisborne District,2008-01-01,2008-06-30,year,june,46000.0,people,count,Total,Total,Total,,random rounding,statsnz_ade,2026-11-20,CC BY 4.0
+pop_estimate,ta,028,Gisborne District,2009-01-01,2009-06-30,year,june,46300.0,people,count,Total,Total,Total,,random rounding,statsnz_ade,2026-11-20,CC BY 4.0
+pop_estimate,ta,028,Gisborne District,2010-01-01,2010-06-30,year,june,46700.0,people,count,Total,Total,Total,,random rounding,statsnz_ade,2026-11-20,CC BY 4.0
+pop_estimate,ta,028,Gisborne District,2011-01-01,2011-06-30,year,june,46800.0,people,count,Total,Total,Total,,random rounding,statsnz_ade,2026-11-20,CC BY 4.0
+pop_estimate,ta,028,Gisborne District,2012-01-01,2012-06-30,year,june,47000.0,people,count,Total,Total,Total,,random rounding,statsnz_ade,2026-11-20,CC BY 4.0
+pop_estimate,ta,028,Gisborne District,2013-01-01,2013-06-30,year,june,47000.0,people,count,Total,Total,Total,,random rounding,statsnz_ade,2026-11-20,CC BY 4.0
+pop_estimate,ta,028,Gisborne District,2014-01-01,2014-06-30,year,june,47500.0,people,count,Total,Total,Total,,random rounding,statsnz_ade,2026-11-20,CC BY 4.0
+pop_estimate,ta,028,Gisborne District,2015-01-01,2015-06-30,year,june,48100.0,people,count,Total,Total,Total,,random rounding,statsnz_ade,2026-11-20,CC BY 4.0
+pop_estimate,ta,028,Gisborne District,2016-01-01,2016-06-30,year,june,48800.0,people,count,Total,Total,Total,,random rounding,statsnz_ade,2026-11-20,CC BY 4.0
+pop_estimate,ta,028,Gisborne District,2017-01-01,2017-06-30,year,june,49200.0,people,count,Total,Total,Total,,random rounding,statsnz_ade,2026-11-20,CC BY 4.0
+pop_estimate,ta,028,Gisborne District,2018-01-01,2018-06-30,year,june,49500.0,people,count,Total,Total,Total,,random rounding,statsnz_ade,2026-11-20,CC BY 4.0
+pop_estimate,ta,028,Gisborne District,2019-01-01,2019-06-30,year,june,50300.0,people,count,Total,Total,Total,,random rounding,statsnz_ade,2026-11-20,CC BY 4.0
+pop_estimate,ta,028,Gisborne District,2020-01-01,2020-06-30,year,june,51400.0,people,count,Total,Total,Total,,random rounding,statsnz_ade,2026-11-20,CC BY 4.0
+pop_estimate,ta,028,Gisborne District,2021-01-01,2021-06-30,year,june,51700.0,people,count,Total,Total,Total,,random rounding,statsnz_ade,2026-11-20,CC BY 4.0
+pop_estimate,ta,028,Gisborne District,2022-01-01,2022-06-30,year,june,51800.0,people,count,Total,Total,Total,,random rounding,statsnz_ade,2026-11-20,CC BY 4.0
+pop_estimate,ta,028,Gisborne District,2023-01-01,2023-06-30,year,june,52300.0,people,count,Total,Total,Total,,random rounding,statsnz_ade,2026-11-20,CC BY 4.0
+pop_estimate,ta,028,Gisborne District,2024-01-01,2024-06-30,year,june,52600.0,people,count,Total,Total,Total,,random rounding,statsnz_ade,2026-11-20,CC BY 4.0
+pop_estimate,ta,028,Gisborne District,2025-01-01,2025-06-30,year,june,52300.0,people,count,Total,Total,Total,,random rounding,statsnz_ade,2026-11-20,CC BY 4.0
+pop_estimate,ta,028,Gisborne District,2026-01-01,2026-06-30,year,june,52400.0,people,count,Total,Total,Total,,random rounding,statsnz_ade,2026-11-20,CC BY 4.0
+pop_median_age,ta,028,Gisborne District,1996-01-01,1996-06-30,year,june,31.4,years,median,Total,Total,Total,,,statsnz_ade,2026-11-20,CC BY 4.0
+pop_median_age,ta,028,Gisborne District,1997-01-01,1997-06-30,year,june,31.7,years,median,Total,Total,Total,,,statsnz_ade,2026-11-20,CC BY 4.0
+pop_median_age,ta,028,Gisborne District,1998-01-01,1998-06-30,year,june,32.0,years,median,Total,Total,Total,,,statsnz_ade,2026-11-20,CC BY 4.0
+pop_median_age,ta,028,Gisborne District,1999-01-01,1999-06-30,year,june,32.3,years,median,Total,Total,Total,,,statsnz_ade,2026-11-20,CC BY 4.0
+pop_median_age,ta,028,Gisborne District,2000-01-01,2000-06-30,year,june,32.6,years,median,Total,Total,Total,,,statsnz_ade,2026-11-20,CC BY 4.0
+pop_median_age,ta,028,Gisborne District,2001-01-01,2001-06-30,year,june,32.8,years,median,Total,Total,Total,,,statsnz_ade,2026-11-20,CC BY 4.0
+pop_median_age,ta,028,Gisborne District,2002-01-01,2002-06-30,year,june,33.1,years,median,Total,Total,Total,,,statsnz_ade,2026-11-20,CC BY 4.0
+pop_median_age,ta,028,Gisborne District,2003-01-01,2003-06-30,year,june,33.3,years,median,Total,Total,Total,,,statsnz_ade,2026-11-20,CC BY 4.0
+pop_median_age,ta,028,Gisborne District,2004-01-01,2004-06-30,year,june,33.7,years,median,Total,Total,Total,,,statsnz_ade,2026-11-20,CC BY 4.0
+pop_median_age,ta,028,Gisborne District,2005-01-01,2005-06-30,year,june,34.2,years,median,Total,Total,Total,,,statsnz_ade,2026-11-20,CC BY 4.0
+pop_median_age,ta,028,Gisborne District,2006-01-01,2006-06-30,year,june,34.6,years,median,Total,Total,Total,,,statsnz_ade,2026-11-20,CC BY 4.0
+pop_median_age,ta,028,Gisborne District,2007-01-01,2007-06-30,year,june,34.9,years,median,Total,Total,Total,,,statsnz_ade,2026-11-20,CC BY 4.0
+pop_median_age,ta,028,Gisborne District,2008-01-01,2008-06-30,year,june,35.1,years,median,Total,Total,Total,,,statsnz_ade,2026-11-20,CC BY 4.0
+pop_median_age,ta,028,Gisborne District,2009-01-01,2009-06-30,year,june,35.3,years,median,Total,Total,Total,,,statsnz_ade,2026-11-20,CC BY 4.0
+pop_median_age,ta,028,Gisborne District,2010-01-01,2010-06-30,year,june,35.4,years,median,Total,Total,Total,,,statsnz_ade,2026-11-20,CC BY 4.0
+pop_median_age,ta,028,Gisborne District,2011-01-01,2011-06-30,year,june,35.6,years,median,Total,Total,Total,,,statsnz_ade,2026-11-20,CC BY 4.0
+pop_median_age,ta,028,Gisborne District,2012-01-01,2012-06-30,year,june,35.8,years,median,Total,Total,Total,,,statsnz_ade,2026-11-20,CC BY 4.0
+pop_median_age,ta,028,Gisborne District,2013-01-01,2013-06-30,year,june,35.9,years,median,Total,Total,Total,,,statsnz_ade,2026-11-20,CC BY 4.0
+pop_median_age,ta,028,Gisborne District,2014-01-01,2014-06-30,year,june,36.2,years,median,Total,Total,Total,,,statsnz_ade,2026-11-20,CC BY 4.0
+pop_median_age,ta,028,Gisborne District,2015-01-01,2015-06-30,year,june,36.3,years,median,Total,Total,Total,,,statsnz_ade,2026-11-20,CC BY 4.0
+pop_median_age,ta,028,Gisborne District,2016-01-01,2016-06-30,year,june,36.4,years,median,Total,Total,Total,,,statsnz_ade,2026-11-20,CC BY 4.0
+pop_median_age,ta,028,Gisborne District,2017-01-01,2017-06-30,year,june,36.4,years,median,Total,Total,Total,,,statsnz_ade,2026-11-20,CC BY 4.0
+pop_median_age,ta,028,Gisborne District,2018-01-01,2018-06-30,year,june,36.6,years,median,Total,Total,Total,,,statsnz_ade,2026-11-20,CC BY 4.0
+pop_median_age,ta,028,Gisborne District,2019-01-01,2019-06-30,year,june,36.4,years,median,Total,Total,Total,,,statsnz_ade,2026-11-20,CC BY 4.0
+pop_median_age,ta,028,Gisborne District,2020-01-01,2020-06-30,year,june,36.4,years,median,Total,Total,Total,,,statsnz_ade,2026-11-20,CC BY 4.0
+pop_median_age,ta,028,Gisborne District,2021-01-01,2021-06-30,year,june,36.5,years,median,Total,Total,Total,,,statsnz_ade,2026-11-20,CC BY 4.0
+pop_median_age,ta,028,Gisborne District,2022-01-01,2022-06-30,year,june,36.6,years,median,Total,Total,Total,,,statsnz_ade,2026-11-20,CC BY 4.0
+pop_median_age,ta,028,Gisborne District,2023-01-01,2023-06-30,year,june,36.4,years,median,Total,Total,Total,,,statsnz_ade,2026-11-20,CC BY 4.0
+pop_median_age,ta,028,Gisborne District,2024-01-01,2024-06-30,year,june,36.6,years,median,Total,Total,Total,,,statsnz_ade,2026-11-20,CC BY 4.0
+pop_median_age,ta,028,Gisborne District,2025-01-01,2025-06-30,year,june,37.0,years,median,Total,Total,Total,,,statsnz_ade,2026-11-20,CC BY 4.0
+pop_median_age,ta,028,Gisborne District,2026-01-01,2026-06-30,year,june,37.4,years,median,Total,Total,Total,,,statsnz_ade,2026-11-20,CC BY 4.0

@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-20T01:33:42+00:00",
+ "generated": "2026-11-20T03:52:49+00:00",
  "indicators": {
   "pop_estimate": {
    "name": "Estimated resident population",
@@ -10,6 +10,15 @@
    "format": "int",
    "caveat": "Estimated at 30 June. Rebased after each census (2023 rebase)."
   },
+  "pop_median_age": {
+   "name": "Median age",
+   "domain": "Hapori",
+   "topic": "Population",
+   "direction": "neutral",
+   "headline": false,
+   "format": "dec1",
+   "caveat": "Half the population is older and half younger. Estimated at 30 June."
+  },
   "bds_geographic_units": {
    "name": "Business locations (geographic units)",
    "domain": "Ōhanga",
@@ -17,7 +26,7 @@
    "direction": "up",
    "headline": true,
    "format": "int",
-   "caveat": "Business Demography Statistics, February reference month. Counts randomly rounded."
+   "caveat": "Business locations (geographic units) with economic activity, at February each year. Counts randomly rounded."
   },
   "bds_employee_count": {
    "name": "Employees in business locations",
@@ -8468,17 +8477,642 @@
      "partial year; CAS is live and late reports are added"
     ]
    ]
+  },
+  {
+   "indicator": "bds_employee_count",
+   "geo": "028",
+   "geo_name": "Gisborne District",
+   "ethnicity": "Total",
+   "source": "statsnz_ade",
+   "period_type": "year",
+   "unit": "employees",
+   "points": [
+    [
+     "2000-02-28",
+     18800.0,
+     "random rounding"
+    ],
+    [
+     "2001-02-28",
+     18900.0,
+     "random rounding"
+    ],
+    [
+     "2002-02-28",
+     19600.0,
+     "random rounding"
+    ],
+    [
+     "2003-02-28",
+     19500.0,
+     "random rounding"
+    ],
+    [
+     "2004-02-28",
+     20700.0,
+     "random rounding"
+    ],
+    [
+     "2005-02-28",
+     21000.0,
+     "random rounding"
+    ],
+    [
+     "2006-02-28",
+     21100.0,
+     "random rounding"
+    ],
+    [
+     "2007-02-28",
+     21000.0,
+     "random rounding"
+    ],
+    [
+     "2008-02-28",
+     21200.0,
+     "random rounding"
+    ],
+    [
+     "2009-02-28",
+     20500.0,
+     "random rounding"
+    ],
+    [
+     "2010-02-28",
+     20600.0,
+     "random rounding"
+    ],
+    [
+     "2011-02-28",
+     20200.0,
+     "random rounding"
+    ],
+    [
+     "2012-02-28",
+     19900.0,
+     "random rounding"
+    ],
+    [
+     "2013-02-28",
+     20000.0,
+     "random rounding"
+    ],
+    [
+     "2014-02-28",
+     20400.0,
+     "random rounding"
+    ],
+    [
+     "2015-02-28",
+     20600.0,
+     "random rounding"
+    ],
+    [
+     "2016-02-28",
+     20900.0,
+     "random rounding"
+    ],
+    [
+     "2017-02-28",
+     20900.0,
+     "random rounding"
+    ],
+    [
+     "2018-02-28",
+     21500.0,
+     "random rounding"
+    ],
+    [
+     "2019-02-28",
+     22000.0,
+     "random rounding"
+    ],
+    [
+     "2020-02-28",
+     22400.0,
+     "random rounding"
+    ],
+    [
+     "2021-02-28",
+     23100.0,
+     "random rounding"
+    ],
+    [
+     "2022-02-28",
+     23700.0,
+     "random rounding"
+    ],
+    [
+     "2023-02-28",
+     23100.0,
+     "random rounding"
+    ],
+    [
+     "2024-02-28",
+     23800.0,
+     "random rounding"
+    ],
+    [
+     "2025-02-28",
+     22600.0,
+     "random rounding"
+    ],
+    [
+     "2026-02-28",
+     22500.0,
+     "random rounding"
+    ]
+   ]
+  },
+  {
+   "indicator": "bds_geographic_units",
+   "geo": "028",
+   "geo_name": "Gisborne District",
+   "ethnicity": "Total",
+   "source": "statsnz_ade",
+   "period_type": "year",
+   "unit": "business locations",
+   "points": [
+    [
+     "2000-02-28",
+     4317.0,
+     "random rounding"
+    ],
+    [
+     "2001-02-28",
+     4281.0,
+     "random rounding"
+    ],
+    [
+     "2002-02-28",
+     4305.0,
+     "random rounding"
+    ],
+    [
+     "2003-02-28",
+     4377.0,
+     "random rounding"
+    ],
+    [
+     "2004-02-28",
+     4629.0,
+     "random rounding"
+    ],
+    [
+     "2005-02-28",
+     4770.0,
+     "random rounding"
+    ],
+    [
+     "2006-02-28",
+     4923.0,
+     "random rounding"
+    ],
+    [
+     "2007-02-28",
+     5013.0,
+     "random rounding"
+    ],
+    [
+     "2008-02-28",
+     5079.0,
+     "random rounding"
+    ],
+    [
+     "2009-02-28",
+     5085.0,
+     "random rounding"
+    ],
+    [
+     "2010-02-28",
+     5085.0,
+     "random rounding"
+    ],
+    [
+     "2011-02-28",
+     4992.0,
+     "random rounding"
+    ],
+    [
+     "2012-02-28",
+     4947.0,
+     "random rounding"
+    ],
+    [
+     "2013-02-28",
+     4938.0,
+     "random rounding"
+    ],
+    [
+     "2014-02-28",
+     4983.0,
+     "random rounding"
+    ],
+    [
+     "2015-02-28",
+     5049.0,
+     "random rounding"
+    ],
+    [
+     "2016-02-28",
+     5046.0,
+     "random rounding"
+    ],
+    [
+     "2017-02-28",
+     5070.0,
+     "random rounding"
+    ],
+    [
+     "2018-02-28",
+     5055.0,
+     "random rounding"
+    ],
+    [
+     "2019-02-28",
+     5121.0,
+     "random rounding"
+    ],
+    [
+     "2020-02-28",
+     5214.0,
+     "random rounding"
+    ],
+    [
+     "2021-02-28",
+     5271.0,
+     "random rounding"
+    ],
+    [
+     "2022-02-28",
+     5490.0,
+     "random rounding"
+    ],
+    [
+     "2023-02-28",
+     5589.0,
+     "random rounding"
+    ],
+    [
+     "2024-02-28",
+     5682.0,
+     "random rounding"
+    ],
+    [
+     "2025-02-28",
+     5712.0,
+     "random rounding"
+    ],
+    [
+     "2026-02-28",
+     5646.0,
+     "random rounding"
+    ]
+   ]
+  },
+  {
+   "indicator": "pop_estimate",
+   "geo": "028",
+   "geo_name": "Gisborne District",
+   "ethnicity": "Total",
+   "source": "statsnz_ade",
+   "period_type": "year",
+   "unit": "people",
+   "points": [
+    [
+     "1996-06-30",
+     47200.0,
+     "random rounding"
+    ],
+    [
+     "1997-06-30",
+     46900.0,
+     "random rounding"
+    ],
+    [
+     "1998-06-30",
+     46600.0,
+     "random rounding"
+    ],
+    [
+     "1999-06-30",
+     46400.0,
+     "random rounding"
+    ],
+    [
+     "2000-06-30",
+     46100.0,
+     "random rounding"
+    ],
+    [
+     "2001-06-30",
+     45500.0,
+     "random rounding"
+    ],
+    [
+     "2002-06-30",
+     45500.0,
+     "random rounding"
+    ],
+    [
+     "2003-06-30",
+     45800.0,
+     "random rounding"
+    ],
+    [
+     "2004-06-30",
+     45800.0,
+     "random rounding"
+    ],
+    [
+     "2005-06-30",
+     45800.0,
+     "random rounding"
+    ],
+    [
+     "2006-06-30",
+     45900.0,
+     "random rounding"
+    ],
+    [
+     "2007-06-30",
+     45900.0,
+     "random rounding"
+    ],
+    [
+     "2008-06-30",
+     46000.0,
+     "random rounding"
+    ],
+    [
+     "2009-06-30",
+     46300.0,
+     "random rounding"
+    ],
+    [
+     "2010-06-30",
+     46700.0,
+     "random rounding"
+    ],
+    [
+     "2011-06-30",
+     46800.0,
+     "random rounding"
+    ],
+    [
+     "2012-06-30",
+     47000.0,
+     "random rounding"
+    ],
+    [
+     "2013-06-30",
+     47000.0,
+     "random rounding"
+    ],
+    [
+     "2014-06-30",
+     47500.0,
+     "random rounding"
+    ],
+    [
+     "2015-06-30",
+     48100.0,
+     "random rounding"
+    ],
+    [
+     "2016-06-30",
+     48800.0,
+     "random rounding"
+    ],
+    [
+     "2017-06-30",
+     49200.0,
+     "random rounding"
+    ],
+    [
+     "2018-06-30",
+     49500.0,
+     "random rounding"
+    ],
+    [
+     "2019-06-30",
+     50300.0,
+     "random rounding"
+    ],
+    [
+     "2020-06-30",
+     51400.0,
+     "random rounding"
+    ],
+    [
+     "2021-06-30",
+     51700.0,
+     "random rounding"
+    ],
+    [
+     "2022-06-30",
+     51800.0,
+     "random rounding"
+    ],
+    [
+     "2023-06-30",
+     52300.0,
+     "random rounding"
+    ],
+    [
+     "2024-06-30",
+     52600.0,
+     "random rounding"
+    ],
+    [
+     "2025-06-30",
+     52300.0,
+     "random rounding"
+    ],
+    [
+     "2026-06-30",
+     52400.0,
+     "random rounding"
+    ]
+   ]
+  },
+  {
+   "indicator": "pop_median_age",
+   "geo": "028",
+   "geo_name": "Gisborne District",
+   "ethnicity": "Total",
+   "source": "statsnz_ade",
+   "period_type": "year",
+   "unit": "years",
+   "points": [
+    [
+     "1996-06-30",
+     31.4,
+     null
+    ],
+    [
+     "1997-06-30",
+     31.7,
+     null
+    ],
+    [
+     "1998-06-30",
+     32.0,
+     null
+    ],
+    [
+     "1999-06-30",
+     32.3,
+     null
+    ],
+    [
+     "2000-06-30",
+     32.6,
+     null
+    ],
+    [
+     "2001-06-30",
+     32.8,
+     null
+    ],
+    [
+     "2002-06-30",
+     33.1,
+     null
+    ],
+    [
+     "2003-06-30",
+     33.3,
+     null
+    ],
+    [
+     "2004-06-30",
+     33.7,
+     null
+    ],
+    [
+     "2005-06-30",
+     34.2,
+     null
+    ],
+    [
+     "2006-06-30",
+     34.6,
+     null
+    ],
+    [
+     "2007-06-30",
+     34.9,
+     null
+    ],
+    [
+     "2008-06-30",
+     35.1,
+     null
+    ],
+    [
+     "2009-06-30",
+     35.3,
+     null
+    ],
+    [
+     "2010-06-30",
+     35.4,
+     null
+    ],
+    [
+     "2011-06-30",
+     35.6,
+     null
+    ],
+    [
+     "2012-06-30",
+     35.8,
+     null
+    ],
+    [
+     "2013-06-30",
+     35.9,
+     null
+    ],
+    [
+     "2014-06-30",
+     36.2,
+     null
+    ],
+    [
+     "2015-06-30",
+     36.3,
+     null
+    ],
+    [
+     "2016-06-30",
+     36.4,
+     null
+    ],
+    [
+     "2017-06-30",
+     36.4,
+     null
+    ],
+    [
+     "2018-06-30",
+     36.6,
+     null
+    ],
+    [
+     "2019-06-30",
+     36.4,
+     null
+    ],
+    [
+     "2020-06-30",
+     36.4,
+     null
+    ],
+    [
+     "2021-06-30",
+     36.5,
+     null
+    ],
+    [
+     "2022-06-30",
+     36.6,
+     null
+    ],
+    [
+     "2023-06-30",
+     36.4,
+     null
+    ],
+    [
+     "2024-06-30",
+     36.6,
+     null
+    ],
+    [
+     "2025-06-30",
+     37.0,
+     null
+    ],
+    [
+     "2026-06-30",
+     37.4,
+     null
+    ]
+   ]
   }
  ],
  "status": {
   "statsnz_ade": {
    "source_id": "statsnz_ade",
-   "ok": false,
-   "rows": 0,
-   "latest_period": null,
-   "message": "error: POPES_SUB_011: 401 from https://api.data.stats.govt.nz/rest/data/STATSNZ,POPES_SUB_011,1.0/all: { \"statusCode\": 401, \"message\": \"Access denied due to invalid subscription key. Make sure to provide a valid key for an active subscription.\" }; BDS_BDS_001: 401 from https://api.data.stats.govt.nz/rest/data/STATSNZ,BDS_BDS_001,1.0/all: { \"statusCode\": 401, \"message\": \"Access denied due to invalid subscription key. Make sure to provide a valid key for an active subscription.\" }",
-   "checked": "2026-11-20T01:33:42+00:00",
-   "last_success": null
+   "ok": true,
+   "rows": 116,
+   "latest_period": "2026-06-30",
+   "message": "ok",
+   "checked": "2026-11-20T03:52:49+00:00",
+   "last_success": "2026-11-20T03:52:49+00:00",
+   "schema_hash": "d3768badb5"
   },
   "msd_benefits": {
    "source_id": "msd_benefits",

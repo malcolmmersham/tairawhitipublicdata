@@ -16,7 +16,7 @@ any changes. Git history is the revision history: every vintage of every series 
 | H7 | Government Housing Dashboard | HUD | June 2017 → | Monthly | Automated |
 | H13 | Childhood immunisation coverage (rolling 12 months, by ethnicity) | Health NZ | Oct 2022 → | Quarterly | Automated |
 | H24 | Crash Analysis System | NZTA | 2006 → | Annual (public layer has no month) | Automated |
-| H1, E3 | Population estimates; business demography | Stats NZ ADE | 1996 → / 2000 → | Annual | Needs `STATSNZ_API_KEY` |
+| H1, E3 | Population estimates and median age; business locations and employees | Stats NZ ADE | 1996 → / 2000 → | Annual | Automated (needs `STATSNZ_API_KEY` secret in GitHub) |
 | H11 | Rental bonds | MBIE | 1993 → | Monthly | Manual drop: mbie.govt.nz blocks cloud servers |
 
 The full 70-dataset library, with the status of each, is in `pipeline/catalogue.yaml` and on the

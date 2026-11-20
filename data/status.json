@@ -1,12 +1,13 @@
 {
  "statsnz_ade": {
   "source_id": "statsnz_ade",
-  "ok": false,
-  "rows": 0,
-  "latest_period": null,
-  "message": "error: POPES_SUB_011: 401 from https://api.data.stats.govt.nz/rest/data/STATSNZ,POPES_SUB_011,1.0/all: { \"statusCode\": 401, \"message\": \"Access denied due to invalid subscription key. Make sure to provide a valid key for an active subscription.\" }; BDS_BDS_001: 401 from https://api.data.stats.govt.nz/rest/data/STATSNZ,BDS_BDS_001,1.0/all: { \"statusCode\": 401, \"message\": \"Access denied due to invalid subscription key. Make sure to provide a valid key for an active subscription.\" }",
-  "checked": "2026-11-20T01:33:42+00:00",
-  "last_success": null
+  "ok": true,
+  "rows": 116,
+  "latest_period": "2026-06-30",
+  "message": "ok",
+  "checked": "2026-11-20T03:52:49+00:00",
+  "last_success": "2026-11-20T03:52:49+00:00",
+  "schema_hash": "d3768badb5"
  },
  "msd_benefits": {
   "source_id": "msd_benefits",

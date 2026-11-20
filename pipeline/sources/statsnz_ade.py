@@ -1,14 +1,17 @@
 """Stats NZ Aotearoa Data Explorer (ADE) SDMX API – H1 population, E3 business demography.
 
-Needs a free subscription key (Stats NZ API Portal), read from STATSNZ_API_KEY and
-sent as the Ocp-Apim-Subscription-Key header. Queries ask for the whole dataflow in
-`csvfilewithlabels` form and filter locally, so they do not depend on dimension
-codes that Stats NZ may renumber.
+Needs a free subscription key from the Stats NZ API Portal, sent as the
+Ocp-Apim-Subscription-Key header. In GitHub Actions it comes from the STATSNZ_API_KEY
+secret; in a cloud dev session a network proxy adds it, so the variable stays unset.
+
+Each query filters on the Stats NZ server with an SDMX key (dimension codes joined by
+dots, `+` for several codes, empty for all). Unfiltered, business demography is
+over 500 MB for all of New Zealand. If Stats NZ renumbers a code, the query returns
+no Gisborne rows and the run fails loudly rather than silently changing the series.
 """
 from __future__ import annotations
 
 import io
-import re
 
 import pandas as pd
 
@@ -16,97 +19,55 @@ from ..core import env, fetch, land_raw, log, obs
 
 SOURCE_ID = "statsnz_ade"
 LICENCE = "CC BY 4.0"
-API = "https://api.data.stats.govt.nz/rest/data/STATSNZ,{flow},1.0/all"
+API = "https://api.data.stats.govt.nz/rest/data/STATSNZ,{flow},1.0/{key}"
 
-# Each query: dataflow, geography match, and how to pick other dimensions.
-#  pick: {dimension-label regex: value regex}; any dimension not named must resolve
-#  to a single "total"-like value, otherwise its values become separate indicators via
-#  `split` (dimension-label regex -> {value regex: indicator_id}).
 QUERIES = [
-    {
-        "flow": "POPES_SUB_011", "geo": r"Gisborne", "start": "1996",
-        "split": {r"measure|indicator|variable|^$": {r".*": "pop_estimate"}},
-        "unit": "people", "year_basis": "june", "geo_type": "ta",
+    {   # Dimensions: YEAR . SEX . AGE . AREA. Sex 3 = total; age 999999 = total, 888 = median age; area 028 = Gisborne district.
+        "flow": "POPES_SUB_011", "key": ".3.999999+888.028",
+        "split_col": "Age", "geo_name": "Gisborne District", "year_basis": "june", "ref": ("01-01", "06-30"),
+        "indicators": {"Total people, age": ("pop_estimate", "people", "count"),
+                       "Median age": ("pop_median_age", "years", "median")},
     },
-    {
-        "flow": "BDS_BDS_001", "geo": r"Gisborne", "start": "2000",
-        "split": {r"measure|variable|indicator": {
-            r"geographic unit": "bds_geographic_units",
-            r"employee": "bds_employee_count"}},
-        "unit": None, "year_basis": "february", "geo_type": "ta",
+    {   # Dimensions: ANZSIC06 . AREA . YEAR . MEASURE. TOTAL = all industries; T028 = Gisborne District.
+        "flow": "BDS_BDS_001", "key": "TOTAL.T028..",
+        "split_col": "Measure", "geo_name": "Gisborne District", "year_basis": "february", "ref": ("02-01", "02-28"),
+        "indicators": {"Geographic Units": ("bds_geographic_units", "business locations", "count"),
+                       "Employee Count": ("bds_employee_count", "employees", "count")},
     },
 ]
 
 
-def _label(v) -> str:
-    s = str(v)
-    return s.split(": ", 1)[1] if ": " in s else s
-
-
-def _download(flow: str, start: str) -> pd.DataFrame:
-    key = env("STATSNZ_API_KEY") or "proxy-injected"
-    r = fetch(API.format(flow=flow), headers={"Ocp-Apim-Subscription-Key": key,
-                                             "Accept": "application/vnd.sdmx.data+csv"},
-              params={"format": "csvfilewithlabels", "dimensionAtObservation": "AllDimensions",
-                      "startPeriod": start}, timeout=300)
+def _download(flow: str, key: str) -> pd.DataFrame:
+    headers = {"Accept": "application/vnd.sdmx.data+csv"}
+    api_key = env("STATSNZ_API_KEY")
+    if api_key:
+        headers["Ocp-Apim-Subscription-Key"] = api_key
+    r = fetch(API.format(flow=flow, key=key), headers=headers,
+              params={"format": "csvfilewithlabels", "dimensionAtObservation": "AllDimensions"},
+              timeout=300)
     land_raw(SOURCE_ID, f"{flow}.csv", r.content)
     return pd.read_csv(io.BytesIO(r.content), dtype=str)
 
 
-def _is_total(label: str) -> bool:
-    return bool(re.search(r"\btotal\b|all industries|all ages|both sexes", label, re.I))
-
-
 def _query(q: dict) -> list[dict]:
-    df = _download(q["flow"], q["start"])
-    skip = re.compile(r"^(STRUCTURE|STRUCTURE_ID|STRUCTURE_NAME|ACTION|TIME_PERIOD|OBS_VALUE|OBS_STATUS|"
-                      r"UNIT_MEASURE|UNIT_MULT|OBS_COMMENT|DECIMALS|Time|Observation.*|Unit.*|Status.*)$", re.I)
-    dims = [c for c in df.columns if not skip.match(c.split(":")[0].strip())
-            and df[c].nunique() > 0 and c not in ("Value",)]
-    time_col = next(c for c in df.columns if c.split(":")[0].strip().upper() == "TIME_PERIOD")
-    val_col = next(c for c in df.columns if c.split(":")[0].strip().upper() == "OBS_VALUE")
-
-    geo_col = next((c for c in dims if df[c].astype(str).str.contains(q["geo"]).any()), None)
-    if geo_col is None:
-        raise RuntimeError(f"{q['flow']}: no geography column matching {q['geo']}")
-    df = df[df[geo_col].astype(str).str.contains(q["geo"])]
-    # Keep only the TA/region row for Gisborne (not wards/SA2s) – shortest label wins.
-    geo_label = min(df[geo_col].map(_label).unique(), key=len)
-    df = df[df[geo_col].map(_label) == geo_label]
-
-    split_col, split_map = None, None
-    for c in dims:
-        if c == geo_col:
-            continue
-        vals = df[c].map(_label).unique()
-        for pat, mapping in q["split"].items():
-            if re.search(pat, c, re.I) and split_col is None and len(vals) > 1:
-                split_col, split_map = c, mapping
-                break
-        if c == split_col or len(vals) == 1:
-            continue
-        totals = [v for v in vals if _is_total(v)]
-        if not totals:
-            raise RuntimeError(f"{q['flow']}: dimension {c!r} has no total among {list(vals)[:6]}")
-        df = df[df[c].map(_label) == min(totals, key=len)]
-
+    df = _download(q["flow"], q["key"])
+    year_col = next(c for c in df.columns if c.startswith("Year"))
     rows = []
     for _, r in df.iterrows():
-        if split_col:
-            lab = _label(r[split_col])
-            ind = next((i for pat, i in split_map.items() if re.search(pat, lab, re.I)), None)
-            if ind is None:
-                continue
-        else:
-            ind = next(iter(next(iter(q["split"].values())).values()))
-        period = str(r[time_col])[:4]
+        hit = q["indicators"].get(r[q["split_col"]])
+        if not hit or pd.isna(r["OBS_VALUE"]):
+            continue
+        ind, unit, measure = hit
+        y = str(r[year_col])[:4]
         rows.append(obs(
-            indicator_id=ind, geo_type=q["geo_type"], geo_code="028", geo_name=geo_label,
-            period_start=f"{period}-01-01", period_end=f"{period}-12-31", period_type="year",
-            year_basis=q["year_basis"], value=r[val_col],
-            unit=q["unit"] or ("units" if "unit" in ind else "employees"),
-            source_id=SOURCE_ID, licence=LICENCE, quality_flag="random rounding",
+            indicator_id=ind, geo_type="ta", geo_code="028", geo_name=q["geo_name"],
+            period_start=f"{y}-{q['ref'][0]}", period_end=f"{y}-{q['ref'][1]}", period_type="year",
+            year_basis=q["year_basis"], value=r["OBS_VALUE"], unit=unit, measure=measure,
+            source_id=SOURCE_ID, licence=LICENCE,
+            quality_flag="" if measure == "median" else "random rounding",
         ))
+    if not rows:
+        raise RuntimeError(f"{q['flow']}: no Gisborne rows – check the SDMX key {q['key']!r}")
     return rows
 
 
@@ -118,6 +79,6 @@ def run() -> tuple[list[dict], list[str]]:
         except Exception as e:
             log.warning("ADE %s: %s", q["flow"], e)
             errors.append(f"{q['flow']}: {e}")
-    if not rows:
+    if errors:  # partial success would silently drop a series from the silver file
         raise RuntimeError("; ".join(errors))
     return rows, []

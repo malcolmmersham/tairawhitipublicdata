@@ -45,6 +45,14 @@ indicators:
     headline: true
     format: int
     caveat: "Estimated at 30 June. Rebased after each census (2023 rebase)."
+  pop_median_age:
+    name: Median age
+    domain: Hapori
+    topic: Population
+    direction: neutral
+    headline: false
+    format: dec1
+    caveat: "Half the population is older and half younger. Estimated at 30 June."
 
   # ---- Ōhanga ----
   bds_geographic_units:
@@ -54,7 +62,7 @@ indicators:
     direction: up
     headline: true
     format: int
-    caveat: "Business Demography Statistics, February reference month. Counts randomly rounded."
+    caveat: "Business locations (geographic units) with economic activity, at February each year. Counts randomly rounded."
   bds_employee_count:
     name: Employees in business locations
     domain: Ōhanga
