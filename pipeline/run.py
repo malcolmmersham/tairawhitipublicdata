@@ -15,6 +15,7 @@ import hashlib
 import importlib
 import json
 import logging
+import shutil
 import sys
 
 import pandas as pd
@@ -28,6 +29,9 @@ MODULES = {
     "healthnz_immunisation": "healthnz_immunisation", "nzta_cas": "nzta_cas", "mbie_bonds": "mbie_bonds",
 }
 STATUS_FILE = ROOT / "data" / "status.json"
+OBSERVATION_KEY = ["source_id", "indicator_id", "geo_type", "geo_code", "ethnicity", "age", "sex",
+                   "period_start", "period_end"]
+DOWNLOADS = ("observations.csv", "indicators.csv")
 log = logging.getLogger("pipeline")
 
 
@@ -52,15 +56,29 @@ def run_source(sid: str) -> RunResult:
 
 def _write_keeping_vintage(new: pd.DataFrame, path) -> None:
     """Keep each row's original vintage_date unless its value changed (revision)."""
-    key = ["indicator_id", "geo_code", "ethnicity", "age", "sex", "period_start", "period_end"]
     if path.exists():
         old = pd.read_csv(path, dtype=str, keep_default_na=False)
         old["value"] = pd.to_numeric(old["value"], errors="coerce")
-        merged = new.merge(old[key + ["value", "vintage_date"]], on=key, how="left", suffixes=("", "_old"))
+        merged = new.merge(old[OBSERVATION_KEY + ["value", "vintage_date"]], on=OBSERVATION_KEY,
+                           how="left", suffixes=("", "_old"))
         same = (merged["value"] == merged["value_old"]) | (merged["value"].isna() & merged["value_old"].isna())
         merged.loc[same & merged["vintage_date_old"].ne(""), "vintage_date"] = merged["vintage_date_old"]
         new = merged[COLUMNS]
     new.to_csv(path, index=False)
+
+
+def validate_observations(observations: pd.DataFrame, registry: dict) -> None:
+    duplicates = observations.duplicated(OBSERVATION_KEY, keep=False)
+    if duplicates.any():
+        first = observations.loc[duplicates, OBSERVATION_KEY].iloc[0].to_dict()
+        raise ValueError(f"Duplicate observation key: {first}")
+    for column, field in (("indicator_id", "indicators"), ("source_id", "sources")):
+        unknown = set(observations[column]) - registry[field].keys()
+        if unknown:
+            raise ValueError(f"Unregistered {column}: {sorted(unknown, key=str)}")
+    suppressed = observations["suppression_flag"].fillna("").str.strip().ne("")
+    if (suppressed & observations["value"].notna()).any():
+        raise ValueError("Suppressed observations must have an empty value")
 
 
 def build() -> None:
@@ -71,7 +89,8 @@ def build() -> None:
     obs = pd.concat(frames, ignore_index=True) if frames else pd.DataFrame(columns=COLUMNS)
     obs["value"] = pd.to_numeric(obs["value"], errors="coerce")
     for c in ("suppression_flag", "quality_flag"):
-        obs[c] = obs[c].fillna("")
+        obs[c] = obs[c].astype("string").fillna("")
+    validate_observations(obs, reg)
     GOLD_DIR.mkdir(parents=True, exist_ok=True)
     obs.to_csv(GOLD_DIR / "observations.csv", index=False)
 
@@ -100,6 +119,8 @@ def build() -> None:
         "catalogue": yaml.safe_load((ROOT / "pipeline" / "catalogue.yaml").read_text(encoding="utf-8")),
     }
     write_json(SITE_DATA / "dashboard.json", payload)
+    for filename in DOWNLOADS:
+        shutil.copyfile(GOLD_DIR / filename, SITE_DATA / filename)
     print(f"built: {len(obs)} observations, {len(series)} series")
 
 
@@ -109,6 +130,9 @@ def main(argv=None) -> int:
     ap.add_argument("sources", nargs="*", default=SOURCES)
     ap.add_argument("--build-only", action="store_true")
     a = ap.parse_args(argv)
+    unknown = set(a.sources) - MODULES.keys()
+    if unknown:
+        ap.error(f"unknown source(s): {', '.join(sorted(unknown))}")
     if not a.build_only:
         status = json.loads(STATUS_FILE.read_text()) if STATUS_FILE.exists() else {}
         for sid in a.sources:
@@ -120,6 +144,8 @@ def main(argv=None) -> int:
                 d["rows"] = prev.get("rows", 0)
                 d["latest_period"] = prev.get("latest_period")
                 d["last_success"] = prev.get("last_success")
+                if "schema_hash" in prev:
+                    d["schema_hash"] = prev["schema_hash"]
             else:
                 d["last_success"] = d["checked"]
                 # schema hash: alerts us when a publisher changes layout/indicators

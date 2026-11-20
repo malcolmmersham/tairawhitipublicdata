@@ -1,4 +1,6 @@
 data/raw/
+/site/data/observations.csv
+/site/data/indicators.csv
 __pycache__/
 *.pyc
 .venv/

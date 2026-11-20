@@ -42,6 +42,8 @@ header.top { background: var(--surface); border-bottom: 1px solid var(--line); p
 h1 { font: 700 clamp(20px, 2.6vw, 28px)/1.15 var(--f-display); margin: 0; letter-spacing: -0.01em; text-wrap: balance; }
 h1 .reo { color: var(--accent); }
 .meta { color: var(--ink-3); font: 12px var(--f-data); }
+.freshness { margin: 6px 0; color: var(--warn); font-size: 13px; }
+.downloads a { color: var(--accent); }
 nav.tabs { display: flex; gap: 2px; overflow-x: auto; scrollbar-width: none; }
 nav.tabs a { flex: none; padding: 9px 12px 10px; color: var(--ink-2); text-decoration: none; font-weight: 500; font-size: 14px; border-bottom: 2px solid transparent; }
 nav.tabs a:hover { color: var(--ink); }
@@ -110,6 +112,7 @@ footer { color: var(--ink-3); font-size: 12px; border-top: 1px solid var(--line)
       <h1>Tairāwhiti Regional <span class="reo">Public Data</span> Dashboard</h1>
       <div class="meta" id="refreshed">Loading data…</div>
     </div>
+    <p class="freshness" id="freshness" role="status" hidden></p>
     <nav class="tabs" id="tabs" aria-label="Sections"></nav>
   </div>
 </header>
@@ -156,6 +159,7 @@ function periodLabel(end, ptype) {
   if (ptype === "year") return String(d.getFullYear());
   if (ptype === "rolling_12m") return "12 months to " + m + " " + d.getFullYear();
   if (ptype === "quarter") return m + " " + d.getFullYear() + " qtr";
+  if (ptype === "term") return `Term ${Math.floor(d.getMonth() / 3) + 1}, ${d.getFullYear()}`;
   return m + " " + d.getFullYear();
 }
 
@@ -359,6 +363,9 @@ function viewLibrary() {
   const cat = D.catalogue || [];
   const counts = cat.reduce((a, c) => (a[c.status] = (a[c.status] || 0) + 1, a), {});
   f.append(el("p", { class: "intro", text: `${cat.length} datasets from the Tairāwhiti longitudinal open data plan: ${counts.live || 0} automated, ${counts.manual || 0} manual drop, ${counts.planned || 0} planned, ${counts.borderline || 0} borderline (irregular, fewer than five years, or licensed).` }));
+  f.append(el("div", { class: "filters downloads" },
+    el("a", { href: "data/observations.csv", download: "observations.csv", text: "Download observations (CSV)" }),
+    el("a", { href: "data/indicators.csv", download: "indicators.csv", text: "Download indicator definitions (CSV)" })));
   const sel = (id, label, opts) => el("label", {}, label + " ", el("select", { id }, el("option", { value: "", text: "All" }), opts.map(o => el("option", { value: o, text: o }))));
   const filt = el("div", { class: "filters" }, sel("f-dom", "Domain", [...new Set(cat.map(c => c.domain))]), sel("f-st", "Status", ["live", "manual", "planned", "borderline"]), sel("f-ph", "Phase", ["1", "2", "3", "4"]));
   const box = el("div", { class: "tbl-wrap", style: "max-height:none" });
@@ -376,13 +383,13 @@ function viewLibrary() {
 }
 function viewStatus() {
   const f = document.createDocumentFragment();
-  f.append(el("p", { class: "intro", text: "Each connector runs on a schedule. A failed run keeps the last good data, so charts stay up while the problem is fixed." }));
+  f.append(el("p", { class: "intro", text: "A failed refresh keeps the last good data available in the charts. Check the latest period and last successful refresh for each source." }));
   const rows = Object.entries(D.status || {});
   f.append(el("div", { class: "tbl-wrap", style: "max-height:none" }, el("table", {},
     el("thead", {}, el("tr", {}, ["Source", "State", "Latest period", "Rows", "Last success", "Last checked", "Message"].map(h => el("th", { text: h })))),
     el("tbody", {}, rows.map(([id, s]) => el("tr", {},
       el("td", { text: (D.sources[id] || {}).name || id }),
-      el("td", {}, el("span", { class: "pill " + (s.ok ? "live" : "fail"), text: s.ok ? "ok" : "failing" })),
+      el("td", {}, el("span", { class: "pill " + (s.ok ? "live" : "fail"), text: s.ok ? "ok" : s.last_success ? "stale" : "unavailable" })),
       el("td", { text: s.latest_period || "–" }), el("td", { class: "num", text: s.rows || 0 }),
       el("td", { text: (s.last_success || "never").slice(0, 10) }), el("td", { text: (s.checked || "").slice(0, 10) }),
       el("td", { text: s.message || "" })))))));
@@ -401,6 +408,7 @@ function route() {
 async function boot() {
   try {
     const r = await fetch("data/dashboard.json", { cache: "no-cache" });
+    if (!r.ok) throw new Error(`HTTP ${r.status}`);
     D = await r.json();
   } catch (e) {
     $("#main").innerHTML = ""; $("#main").append(el("p", { class: "empty", text: "The dashboard data could not be loaded. Run the pipeline (python -m pipeline.run) to build site/data/dashboard.json." }));
@@ -408,7 +416,16 @@ async function boot() {
   }
   for (const s of D.series) (BY[s.indicator] ||= []).push(s);
   const failing = Object.values(D.status || {}).filter(s => !s.ok).length;
-  $("#refreshed").textContent = "Updated " + new Date(D.generated).toLocaleString("en-NZ", { dateStyle: "medium", timeStyle: "short" }) + (failing ? ` · ${failing} source${failing > 1 ? "s" : ""} need attention` : "");
+  const generated = new Date(D.generated);
+  $("#refreshed").textContent = "Published " + generated.toLocaleString("en-NZ", { dateStyle: "medium", timeStyle: "short", timeZone: "Pacific/Auckland" });
+  const warnings = [];
+  if (Date.now() - generated.getTime() > 48 * 60 * 60 * 1000) warnings.push("The dashboard was last published more than 48 hours ago.");
+  if (failing) warnings.push(failing === 1 ? "1 source needs attention." : `${failing} sources need attention.`);
+  if (warnings.length) {
+    const warning = $("#freshness");
+    warning.append(warnings.join(" "), " ", el("a", { href: "#status", text: "View data status" }));
+    warning.hidden = false;
+  }
   $("#tabs").append(...TABS.map(t => el("a", { href: "#" + t.id, "data-id": t.id, text: t.label })));
   addEventListener("hashchange", route);
   route();

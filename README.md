@@ -4,9 +4,12 @@ A self-updating dashboard of public, regularly updated data for Te Tairāwhiti, 
 (Ōhanga, Hapori, Mātauranga, Taiao, Tūhono, Tūtangata). It implements Phase 1 of the
 *Tairāwhiti Longitudinal Open Data Library and Connector Plan* (November 2026).
 
-A GitHub Actions job runs every day at about 6:17 am NZST. It downloads each source, keeps an
-immutable raw copy, rewrites a tidy long-format table, rebuilds the dashboard data and commits
-any changes. Git history is the revision history: every vintage of every series is recoverable.
+[Open the dashboard](https://malcolmmersham.github.io/tairawhitipublicdata/).
+
+GitHub Actions is scheduled daily at 18:17 UTC (6:17 am NZST or 7:17 am NZDT the next day).
+It refreshes the sources, validates the processed observations, commits the processed data and
+publishes the static dashboard. Git records the revisions to processed data. Raw downloads are
+copied to `data/raw/` during a run. That folder is ignored by Git and is temporary on hosted runners.
 
 ## What's live
 
@@ -19,8 +22,8 @@ any changes. Git history is the revision history: every vintage of every series 
 | H1, E3 | Population estimates and median age; business locations and employees | Stats NZ ADE | 1996 → / 2000 → | Annual | Automated (needs `STATSNZ_API_KEY` secret in GitHub) |
 | H11 | Rental bonds | MBIE Tenancy Services | Feb 1993 → | Monthly | Automated with manual fallback |
 
-The full 70-dataset library, with the status of each, is in `pipeline/catalogue.yaml` and on the
-dashboard's **Data library** tab.
+The dataset catalogue and coverage are available on the dashboard's **Data library** tab,
+along with downloads for the observations and indicator definitions.
 
 ## How it fits together
 
@@ -51,12 +54,11 @@ publisher's file starts producing a different set of indicators.
 
 ## Setup
 
-1. **Stats NZ key.** Register for a free key at the Stats NZ API Portal. In GitHub, go to
+1. **Stats NZ key.** Register for a free key at the [Stats NZ API Portal](https://portal.apis.stats.govt.nz/how-to-subscribe). In GitHub, go to
    *Settings → Secrets and variables → Actions* and add a repository secret named `STATSNZ_API_KEY`.
-2. **Hosting the dashboard (optional).** GitHub Pages on a private repository needs a paid GitHub
-   plan, or make the repository public. Then enable *Settings → Pages → Source: GitHub Actions*
-   and add a repository variable `ENABLE_PAGES` = `true`. Without Pages, open `site/index.html`
-   through any static web server (see below), or point Zoho Analytics at `data/gold/`.
+2. **GitHub Pages.** Select *Settings → Pages → Source → GitHub Actions* and add a repository
+   Actions variable `ENABLE_PAGES` with value `true`. Open *Actions → Refresh data → Run workflow*
+   on `main` and leave the sources field empty for the first refresh.
 3. **MBIE rental bonds (optional override).** The connector discovers the monthly territorial
    authority CSV on the Tenancy Services website. Set `MBIE_BOND_CSV_URL` to try a direct CSV URL
    first, or save the file to `data/manual/mbie_bonds/` as a fallback (see `data/manual/README.md`).
@@ -79,6 +81,18 @@ Run one source with `python -m pipeline.run msd_benefits`. Rebuild the dashboard
 data without downloading with `python -m pipeline.run --build-only`. You can also run the
 workflow by hand from the **Actions** tab, optionally naming sources.
 
+## Operating the dashboard
+
+- The repository maintainer, `@malcolmmersham`, should enable failed Actions notifications in
+  GitHub. Verify delivery using a failed run triggered by the maintainer. For scheduled workflows,
+  GitHub routes notifications to the account associated with the schedule.
+- If a connector fails, check its refresh log and the dashboard's **Data status** tab for the last
+  successful check. Successful sources still publish, and the workflow reports the failure after
+  deployment. Rerun **Refresh data** on `main` with the affected source ID after resolving it.
+- If validation fails, the workflow stops before publishing. For a published bad revision, revert
+  the offending data commit on `main` and run **Refresh data** with **Rebuild and publish from the
+  committed data** selected. Run a normal refresh after correcting the underlying issue.
+
 ## Adding a connector
 
 1. Add `pipeline/sources/<name>.py` with a `run()` that returns `(rows, files)`. Build each row
@@ -90,11 +104,9 @@ workflow by hand from the **Actions** tab, optionally naming sources.
 
 ## Zoho Analytics
 
-`data/gold/observations.csv` and `data/gold/indicators.csv` are designed to load straight into
-Zoho Analytics next to the Tairāwhiti Wellbeing Survey, using the same long format (put TWS rows
-in with `geo_type = "TWS area"`). Because this repository is private, Zoho's "Import from URL"
-cannot read the files directly. Either make the gold folder reachable (public repo or Pages), or
-add a step to the workflow that pushes the CSVs with the Zoho Analytics Import API.
+The **Data library** CSVs can feed Zoho Analytics alongside the Tairāwhiti Wellbeing Survey.
+The public dashboard contains public datasets only. Survey results require an agreed release scope
+before they can be added here.
 
 ## Known limits
 

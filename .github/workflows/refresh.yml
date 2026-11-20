@@ -1,7 +1,6 @@
 name: Refresh data
 
-# Daily at 06:17 NZST (18:17 UTC). Publishers release monthly/quarterly; a daily
-# check picks up new files within a day and costs ~3 minutes of Actions time.
+# Daily at 18:17 UTC (06:17 NZST / 07:17 NZDT the following morning).
 on:
   schedule:
     - cron: "17 18 * * *"
@@ -11,9 +10,12 @@ on:
         description: "Space-separated source ids to run (blank = all)"
         required: false
         default: ""
+      publish_existing:
+        description: "Rebuild and publish from the committed data without fetching sources"
+        type: boolean
+        default: false
 
-permissions:
-  contents: write
+permissions: {}
 
 concurrency:
   group: refresh
@@ -21,10 +23,17 @@ concurrency:
 
 jobs:
   refresh:
+    if: github.ref == 'refs/heads/main'
     runs-on: ubuntu-latest
     timeout-minutes: 30
+    permissions:
+      contents: write
+    outputs:
+      source_failures: ${{ steps.source_status.outputs.failed }}
     steps:
       - uses: actions/checkout@v4
+        with:
+          ref: main
       - uses: actions/setup-python@v5
         with:
           python-version: "3.12"
@@ -34,7 +43,30 @@ jobs:
         env:
           STATSNZ_API_KEY: ${{ secrets.STATSNZ_API_KEY }}
           MBIE_BOND_CSV_URL: ${{ vars.MBIE_BOND_CSV_URL }}
-        run: python -m pipeline.run ${{ github.event.inputs.sources }}
+          REQUESTED_SOURCES: ${{ inputs.sources }}
+          PUBLISH_EXISTING: ${{ inputs.publish_existing }}
+        run: |
+          if [[ "$PUBLISH_EXISTING" == true ]]; then
+            python -m pipeline.run --build-only
+          else
+            read -r -a sources <<< "$REQUESTED_SOURCES"
+            python -m pipeline.run -- "${sources[@]}"
+          fi
+      - name: Record connector failures
+        id: source_status
+        run: |
+          python - <<'PY'
+          import json
+          import os
+          from pathlib import Path
+
+          status = json.loads(Path("data/status.json").read_text())
+          failed = [name for name, source in status.items() if not source["ok"]]
+          with open(os.environ["GITHUB_OUTPUT"], "a") as output:
+              print(f"failed={str(bool(failed)).lower()}", file=output)
+          if failed:
+              print("Connectors retaining their last good data:", ", ".join(failed))
+          PY
       - name: Commit changed data
         run: |
           git config user.name "tairawhiti-data-bot"
@@ -65,3 +97,13 @@ jobs:
     steps:
       - id: deployment
         uses: actions/deploy-pages@v4
+
+  report-source-failures:
+    needs: [refresh, deploy]
+    if: always() && needs.refresh.outputs.source_failures == 'true'
+    runs-on: ubuntu-latest
+    steps:
+      - name: Flag failed connectors
+        run: |
+          echo '::error::One or more connectors failed. See the refresh job and Data status for details.'
+          exit 1
