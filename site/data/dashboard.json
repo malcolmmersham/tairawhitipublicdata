@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-20T09:23:35+00:00",
+ "generated": "2026-11-20T09:25:31+00:00",
  "indicators": {
   "river_ecoli_median": {
    "name": "Median E. coli at monitored river sites",
@@ -27475,8 +27475,8 @@
    "rows": 116,
    "latest_period": "2026-06-30",
    "message": "ok",
-   "checked": "2026-11-20T09:15:23+00:00",
-   "last_success": "2026-11-20T09:15:23+00:00",
+   "checked": "2026-11-20T09:23:57+00:00",
+   "last_success": "2026-11-20T09:23:57+00:00",
    "schema_hash": "d3768badb5"
   },
   "msd_benefits": {
@@ -27485,8 +27485,8 @@
    "rows": 424,
    "latest_period": "2026-09-30",
    "message": "ok",
-   "checked": "2026-11-20T09:15:34+00:00",
-   "last_success": "2026-11-20T09:15:34+00:00",
+   "checked": "2026-11-20T09:24:17+00:00",
+   "last_success": "2026-11-20T09:24:17+00:00",
    "schema_hash": "3787ebb67c"
   },
   "hud_housing": {
@@ -27495,8 +27495,8 @@
    "rows": 853,
    "latest_period": "2026-09-30",
    "message": "ok",
-   "checked": "2026-11-20T09:15:43+00:00",
-   "last_success": "2026-11-20T09:15:43+00:00",
+   "checked": "2026-11-20T09:24:25+00:00",
+   "last_success": "2026-11-20T09:24:25+00:00",
    "schema_hash": "4f425f2bc0"
   },
   "healthnz_immunisation": {
@@ -27505,8 +27505,8 @@
    "rows": 192,
    "latest_period": "2026-06-30",
    "message": "ok",
-   "checked": "2026-11-20T09:15:58+00:00",
-   "last_success": "2026-11-20T09:15:58+00:00",
+   "checked": "2026-11-20T09:24:29+00:00",
+   "last_success": "2026-11-20T09:24:29+00:00",
    "schema_hash": "ae3b4b9b64"
   },
   "nzta_cas": {
@@ -27515,8 +27515,8 @@
    "rows": 84,
    "latest_period": "2026-12-31",
    "message": "ok",
-   "checked": "2026-11-20T09:15:58+00:00",
-   "last_success": "2026-11-20T09:15:58+00:00",
+   "checked": "2026-11-20T09:24:29+00:00",
+   "last_success": "2026-11-20T09:24:29+00:00",
    "schema_hash": "414f1d33dc"
   },
   "mbie_bonds": {
@@ -27525,8 +27525,8 @@
    "rows": 1616,
    "latest_period": "2026-09-30",
    "message": "ok",
-   "checked": "2026-11-20T09:16:01+00:00",
-   "last_success": "2026-11-20T09:16:01+00:00",
+   "checked": "2026-11-20T09:24:33+00:00",
+   "last_success": "2026-11-20T09:24:33+00:00",
    "schema_hash": "5333e7f5e7"
   },
   "statsnz_emissions": {
@@ -27535,8 +27535,8 @@
    "rows": 19,
    "latest_period": "2025-12-31",
    "message": "ok",
-   "checked": "2026-11-20T09:16:03+00:00",
-   "last_success": "2026-11-20T09:16:03+00:00",
+   "checked": "2026-11-20T09:24:34+00:00",
+   "last_success": "2026-11-20T09:24:34+00:00",
    "schema_hash": "2c54a02a42"
   },
   "moe_attendance": {
@@ -27545,8 +27545,8 @@
    "rows": 31,
    "latest_period": "2026-09-30",
    "message": "ok – published from reviewed publisher files",
-   "checked": "2026-11-20T09:16:03+00:00",
-   "last_success": "2026-11-20T09:16:03+00:00",
+   "checked": "2026-11-20T09:24:35+00:00",
+   "last_success": "2026-11-20T09:24:35+00:00",
    "mode": "manual",
    "schema_hash": "24635db9f2"
   },
@@ -27556,8 +27556,8 @@
    "rows": 52,
    "latest_period": "2025-03-31",
    "message": "ok",
-   "checked": "2026-11-20T09:16:05+00:00",
-   "last_success": "2026-11-20T09:16:05+00:00",
+   "checked": "2026-11-20T09:24:35+00:00",
+   "last_success": "2026-11-20T09:24:35+00:00",
    "schema_hash": "ba889dde21"
   },
   "hud_affordability": {
@@ -27566,8 +27566,8 @@
    "rows": 381,
    "latest_period": "2026-06-30",
    "message": "ok",
-   "checked": "2026-11-20T09:16:11+00:00",
-   "last_success": "2026-11-20T09:16:11+00:00",
+   "checked": "2026-11-20T09:24:40+00:00",
+   "last_success": "2026-11-20T09:24:40+00:00",
    "schema_hash": "d3cab79801"
   },
   "moe_leavers": {
@@ -27576,8 +27576,8 @@
    "rows": 11,
    "latest_period": "2025-12-31",
    "message": "ok – published from reviewed publisher files",
-   "checked": "2026-11-20T09:16:12+00:00",
-   "last_success": "2026-11-20T09:16:12+00:00",
+   "checked": "2026-11-20T09:24:40+00:00",
+   "last_success": "2026-11-20T09:24:40+00:00",
    "mode": "manual",
    "schema_hash": "06877aac36"
   },
@@ -27587,8 +27587,8 @@
    "rows": 965,
    "latest_period": "2026-09-30",
    "message": "ok",
-   "checked": "2026-11-20T09:16:35+00:00",
-   "last_success": "2026-11-20T09:16:35+00:00",
+   "checked": "2026-11-20T09:25:15+00:00",
+   "last_success": "2026-11-20T09:25:15+00:00",
    "schema_hash": "76b7fe5c52"
   },
   "mbie_accommodation": {
@@ -27597,8 +27597,8 @@
    "rows": 152,
    "latest_period": "2026-09-30",
    "message": "ok",
-   "checked": "2026-11-20T09:16:41+00:00",
-   "last_success": "2026-11-20T09:16:41+00:00",
+   "checked": "2026-11-20T09:25:22+00:00",
+   "last_success": "2026-11-20T09:25:22+00:00",
    "schema_hash": "10a16fe959"
   },
   "statsnz_census_households": {
@@ -27607,8 +27607,8 @@
    "rows": 6,
    "latest_period": "2023-12-31",
    "message": "ok",
-   "checked": "2026-11-20T09:16:41+00:00",
-   "last_success": "2026-11-20T09:16:41+00:00",
+   "checked": "2026-11-20T09:25:22+00:00",
+   "last_success": "2026-11-20T09:25:22+00:00",
    "schema_hash": "1b9b8abab4"
   },
   "ea_residential": {
@@ -27617,8 +27617,8 @@
    "rows": 10,
    "latest_period": "2025-12-31",
    "message": "ok",
-   "checked": "2026-11-20T09:16:46+00:00",
-   "last_success": "2026-11-20T09:16:46+00:00",
+   "checked": "2026-11-20T09:25:28+00:00",
+   "last_success": "2026-11-20T09:25:28+00:00",
    "schema_hash": "cc6228e0e6"
   },
   "statsnz_vital_statistics": {
@@ -27627,8 +27627,8 @@
    "rows": 28,
    "latest_period": "2025-12-31",
    "message": "ok",
-   "checked": "2026-11-20T09:22:51+00:00",
-   "last_success": "2026-11-20T09:22:51+00:00",
+   "checked": "2026-11-20T09:25:31+00:00",
+   "last_success": "2026-11-20T09:25:31+00:00",
    "schema_hash": "a84694e11a"
   },
   "moe_rolls_ece": {
@@ -27636,9 +27636,10 @@
    "ok": true,
    "rows": 61,
    "latest_period": "2026-06-30",
-   "message": "ok",
-   "checked": "2026-11-20T09:22:52+00:00",
-   "last_success": "2026-11-20T09:22:52+00:00",
+   "message": "ok – published from reviewed publisher files",
+   "checked": "2026-11-20T09:25:31+00:00",
+   "last_success": "2026-11-20T09:25:31+00:00",
+   "mode": "manual",
    "schema_hash": "3382445aea"
   },
   "statsnz_river_quality": {
@@ -27647,8 +27648,8 @@
    "rows": 47,
    "latest_period": "2024-12-31",
    "message": "ok",
-   "checked": "2026-11-20T09:22:52+00:00",
-   "last_success": "2026-11-20T09:22:52+00:00",
+   "checked": "2026-11-20T09:25:31+00:00",
+   "last_success": "2026-11-20T09:25:31+00:00",
    "schema_hash": "1f2ac1f491"
   }
  },
