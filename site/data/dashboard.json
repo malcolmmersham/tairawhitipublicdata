@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-20T23:59:46+00:00",
+ "generated": "2026-11-21T23:15:49+00:00",
  "indicators": {
   "gisborne_stand_down_cases": {
    "name": "School stand-downs",
@@ -28465,8 +28465,8 @@
    "rows": 116,
    "latest_period": "2026-06-30",
    "message": "ok",
-   "checked": "2026-11-20T23:59:18+00:00",
-   "last_success": "2026-11-20T23:59:18+00:00",
+   "checked": "2026-11-21T23:15:11+00:00",
+   "last_success": "2026-11-21T23:15:11+00:00",
    "schema_hash": "d3768badb5"
   },
   "msd_benefits": {
@@ -28475,8 +28475,8 @@
    "rows": 424,
    "latest_period": "2026-09-30",
    "message": "ok",
-   "checked": "2026-11-20T23:59:29+00:00",
-   "last_success": "2026-11-20T23:59:29+00:00",
+   "checked": "2026-11-21T23:15:23+00:00",
+   "last_success": "2026-11-21T23:15:23+00:00",
    "schema_hash": "3787ebb67c"
   },
   "hud_housing": {
@@ -28485,8 +28485,8 @@
    "rows": 853,
    "latest_period": "2026-09-30",
    "message": "ok",
-   "checked": "2026-11-20T23:59:35+00:00",
-   "last_success": "2026-11-20T23:59:35+00:00",
+   "checked": "2026-11-21T23:15:32+00:00",
+   "last_success": "2026-11-21T23:15:32+00:00",
    "schema_hash": "4f425f2bc0"
   },
   "healthnz_immunisation": {
@@ -28495,8 +28495,8 @@
    "rows": 192,
    "latest_period": "2026-06-30",
    "message": "ok",
-   "checked": "2026-11-20T23:59:41+00:00",
-   "last_success": "2026-11-20T23:59:41+00:00",
+   "checked": "2026-11-21T23:15:44+00:00",
+   "last_success": "2026-11-21T23:15:44+00:00",
    "schema_hash": "ae3b4b9b64"
   },
   "nzta_cas": {
@@ -28505,8 +28505,8 @@
    "rows": 84,
    "latest_period": "2026-12-31",
    "message": "ok",
-   "checked": "2026-11-20T23:59:42+00:00",
-   "last_success": "2026-11-20T23:59:42+00:00",
+   "checked": "2026-11-21T23:15:45+00:00",
+   "last_success": "2026-11-21T23:15:45+00:00",
    "schema_hash": "414f1d33dc"
   },
   "mbie_bonds": {
@@ -28515,8 +28515,8 @@
    "rows": 1616,
    "latest_period": "2026-09-30",
    "message": "ok",
-   "checked": "2026-11-20T23:59:44+00:00",
-   "last_success": "2026-11-20T23:59:44+00:00",
+   "checked": "2026-11-21T23:15:47+00:00",
+   "last_success": "2026-11-21T23:15:47+00:00",
    "schema_hash": "5333e7f5e7"
   },
   "statsnz_emissions": {
@@ -28525,8 +28525,8 @@
    "rows": 19,
    "latest_period": "2025-12-31",
    "message": "ok",
-   "checked": "2026-11-20T23:59:45+00:00",
-   "last_success": "2026-11-20T23:59:45+00:00",
+   "checked": "2026-11-21T23:15:49+00:00",
+   "last_success": "2026-11-21T23:15:49+00:00",
    "schema_hash": "2c54a02a42"
   },
   "moe_attendance": {
@@ -28535,8 +28535,8 @@
    "rows": 31,
    "latest_period": "2026-09-30",
    "message": "ok – published from reviewed publisher files",
-   "checked": "2026-11-20T23:59:46+00:00",
-   "last_success": "2026-11-20T23:59:46+00:00",
+   "checked": "2026-11-21T23:15:49+00:00",
+   "last_success": "2026-11-21T23:15:49+00:00",
    "mode": "manual",
    "schema_hash": "24635db9f2"
   },
