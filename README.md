@@ -38,9 +38,16 @@ copied to `data/raw/` during a run. That folder is ignored by Git and is tempora
 | T2 | Routine river E. coli and coastal enterococci samples by site and date | LAWA and Gisborne District Council | 2020–2026 | Annual | Reviewed monitoring release |
 | R5 | Gisborne mayoral turnout | Department of Internal Affairs | 2022 and 2025 | Triennial | Reviewed snapshots |
 | R4 | People who can speak te reo Māori | Stats NZ | 2023 Census | Five-yearly | Reviewed snapshot |
+| SA2 | Gisborne District place profiles | Stats NZ | 2013–2023 population and age, 2023 other measures | Five-yearly | Automated |
 
 The dataset catalogue and coverage are available on the dashboard's **Data library** tab,
 along with downloads for the observations and indicator definitions.
+
+The [Places (SA2) tab](https://malcolmmersham.github.io/tairawhitipublicdata/#places)
+joins Census records and generalised 2023 boundaries by six-digit SA2 code. The bundled
+boundary extract covers 27 populated areas. It uses the published territorial authority profile
+list and was checked spatially against the official 2023 boundary for Gisborne District (028).
+[Profile list](https://www.ehinz.ac.nz/assets/Social-Vulnerability-Indicators/2025-SVI-update/Heatmap_SVI2023_SA2.pdf) · [SA2 boundaries](https://datafinder.stats.govt.nz/layer/111227-statistical-area-2-2023-generalised/) · [District boundaries](https://services2.arcgis.com/vKb0s8tBIA3bdocZ/arcgis/rest/services/Territorial_Authority_2023/FeatureServer/0)
 
 ## Catalogue and release review
 

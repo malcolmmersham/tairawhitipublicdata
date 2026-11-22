@@ -9377,6 +9377,438 @@ river_ecoli_median,site,GDC Wharekopae River at Rangimoe,GDC Wharekopae River at
 river_ecoli_median,site,HBRC 337,HBRC 337,2020-01-01,2024-12-31,multi_year,calendar,70.0,E. coli per 100 mL,median,Total,Total,Total,,,statsnz_river_quality,2026-11-20,CC BY 4.0
 river_ecoli_median,site,NIWA GS2,NIWA GS2,2020-01-01,2024-12-31,multi_year,calendar,548.0,E. coli per 100 mL,median,Total,Total,Total,,,statsnz_river_quality,2026-11-20,CC BY 4.0
 river_ecoli_median,site,NIWA GS3,NIWA GS3,2020-01-01,2024-12-31,multi_year,calendar,242.0,E. coli per 100 mL,median,Total,Total,Total,,,statsnz_river_quality,2026-11-20,CC BY 4.0
+sa2_age_65_plus,sa2,204700,East Cape,2013-03-05,2013-03-05,year,census,12.05,%,percentage,Total,Total,Total,,,statsnz_sa2,2026-11-22,CC BY 4.0
+sa2_age_65_plus,sa2,204700,East Cape,2018-03-06,2018-03-06,year,census,15.12,%,percentage,Total,Total,Total,,,statsnz_sa2,2026-11-22,CC BY 4.0
+sa2_age_65_plus,sa2,204700,East Cape,2023-03-07,2023-03-07,year,census,15.9,%,percentage,Total,Total,Total,,,statsnz_sa2,2026-11-22,CC BY 4.0
+sa2_age_65_plus,sa2,204800,Waipaoa,2013-03-05,2013-03-05,year,census,10.23,%,percentage,Total,Total,Total,,,statsnz_sa2,2026-11-22,CC BY 4.0
+sa2_age_65_plus,sa2,204800,Waipaoa,2018-03-06,2018-03-06,year,census,12.6,%,percentage,Total,Total,Total,,,statsnz_sa2,2026-11-22,CC BY 4.0
+sa2_age_65_plus,sa2,204800,Waipaoa,2023-03-07,2023-03-07,year,census,12.83,%,percentage,Total,Total,Total,,,statsnz_sa2,2026-11-22,CC BY 4.0
+sa2_age_65_plus,sa2,204900,Ruatōria-Raukumara,2013-03-05,2013-03-05,year,census,10.22,%,percentage,Total,Total,Total,,,statsnz_sa2,2026-11-22,CC BY 4.0
+sa2_age_65_plus,sa2,204900,Ruatōria-Raukumara,2018-03-06,2018-03-06,year,census,12.65,%,percentage,Total,Total,Total,,,statsnz_sa2,2026-11-22,CC BY 4.0
+sa2_age_65_plus,sa2,204900,Ruatōria-Raukumara,2023-03-07,2023-03-07,year,census,14.35,%,percentage,Total,Total,Total,,,statsnz_sa2,2026-11-22,CC BY 4.0
+sa2_age_65_plus,sa2,205000,Tokomaru,2013-03-05,2013-03-05,year,census,12.86,%,percentage,Total,Total,Total,,,statsnz_sa2,2026-11-22,CC BY 4.0
+sa2_age_65_plus,sa2,205000,Tokomaru,2018-03-06,2018-03-06,year,census,18.24,%,percentage,Total,Total,Total,,,statsnz_sa2,2026-11-22,CC BY 4.0
+sa2_age_65_plus,sa2,205000,Tokomaru,2023-03-07,2023-03-07,year,census,20.7,%,percentage,Total,Total,Total,,,statsnz_sa2,2026-11-22,CC BY 4.0
+sa2_age_65_plus,sa2,205100,Hangaroa,2013-03-05,2013-03-05,year,census,9.47,%,percentage,Total,Total,Total,,,statsnz_sa2,2026-11-22,CC BY 4.0
+sa2_age_65_plus,sa2,205100,Hangaroa,2018-03-06,2018-03-06,year,census,10.92,%,percentage,Total,Total,Total,,,statsnz_sa2,2026-11-22,CC BY 4.0
+sa2_age_65_plus,sa2,205100,Hangaroa,2023-03-07,2023-03-07,year,census,11.95,%,percentage,Total,Total,Total,,,statsnz_sa2,2026-11-22,CC BY 4.0
+sa2_age_65_plus,sa2,205201,Wharekaka,2013-03-05,2013-03-05,year,census,9.82,%,percentage,Total,Total,Total,,,statsnz_sa2,2026-11-22,CC BY 4.0
+sa2_age_65_plus,sa2,205201,Wharekaka,2018-03-06,2018-03-06,year,census,12.25,%,percentage,Total,Total,Total,,,statsnz_sa2,2026-11-22,CC BY 4.0
+sa2_age_65_plus,sa2,205201,Wharekaka,2023-03-07,2023-03-07,year,census,15.94,%,percentage,Total,Total,Total,,,statsnz_sa2,2026-11-22,CC BY 4.0
+sa2_age_65_plus,sa2,205300,Te Arai,2013-03-05,2013-03-05,year,census,13.64,%,percentage,Total,Total,Total,,,statsnz_sa2,2026-11-22,CC BY 4.0
+sa2_age_65_plus,sa2,205300,Te Arai,2018-03-06,2018-03-06,year,census,15.69,%,percentage,Total,Total,Total,,,statsnz_sa2,2026-11-22,CC BY 4.0
+sa2_age_65_plus,sa2,205300,Te Arai,2023-03-07,2023-03-07,year,census,17.48,%,percentage,Total,Total,Total,,,statsnz_sa2,2026-11-22,CC BY 4.0
+sa2_age_65_plus,sa2,205401,Hexton,2013-03-05,2013-03-05,year,census,13.99,%,percentage,Total,Total,Total,,,statsnz_sa2,2026-11-22,CC BY 4.0
+sa2_age_65_plus,sa2,205401,Hexton,2018-03-06,2018-03-06,year,census,16.3,%,percentage,Total,Total,Total,,,statsnz_sa2,2026-11-22,CC BY 4.0
+sa2_age_65_plus,sa2,205401,Hexton,2023-03-07,2023-03-07,year,census,17.24,%,percentage,Total,Total,Total,,,statsnz_sa2,2026-11-22,CC BY 4.0
+sa2_age_65_plus,sa2,205500,Lytton,2013-03-05,2013-03-05,year,census,39.34,%,percentage,Total,Total,Total,,,statsnz_sa2,2026-11-22,CC BY 4.0
+sa2_age_65_plus,sa2,205500,Lytton,2018-03-06,2018-03-06,year,census,52.95,%,percentage,Total,Total,Total,,,statsnz_sa2,2026-11-22,CC BY 4.0
+sa2_age_65_plus,sa2,205500,Lytton,2023-03-07,2023-03-07,year,census,53.04,%,percentage,Total,Total,Total,,,statsnz_sa2,2026-11-22,CC BY 4.0
+sa2_age_65_plus,sa2,205601,Makaraka-Awapuni,2013-03-05,2013-03-05,year,census,17.39,%,percentage,Total,Total,Total,,,statsnz_sa2,2026-11-22,CC BY 4.0
+sa2_age_65_plus,sa2,205601,Makaraka-Awapuni,2018-03-06,2018-03-06,year,census,18.46,%,percentage,Total,Total,Total,,,statsnz_sa2,2026-11-22,CC BY 4.0
+sa2_age_65_plus,sa2,205601,Makaraka-Awapuni,2023-03-07,2023-03-07,year,census,18.94,%,percentage,Total,Total,Total,,,statsnz_sa2,2026-11-22,CC BY 4.0
+sa2_age_65_plus,sa2,205700,Riverdale,2013-03-05,2013-03-05,year,census,20.87,%,percentage,Total,Total,Total,,,statsnz_sa2,2026-11-22,CC BY 4.0
+sa2_age_65_plus,sa2,205700,Riverdale,2018-03-06,2018-03-06,year,census,20.24,%,percentage,Total,Total,Total,,,statsnz_sa2,2026-11-22,CC BY 4.0
+sa2_age_65_plus,sa2,205700,Riverdale,2023-03-07,2023-03-07,year,census,21.78,%,percentage,Total,Total,Total,,,statsnz_sa2,2026-11-22,CC BY 4.0
+sa2_age_65_plus,sa2,205800,Te Hapara North,2013-03-05,2013-03-05,year,census,19.85,%,percentage,Total,Total,Total,,,statsnz_sa2,2026-11-22,CC BY 4.0
+sa2_age_65_plus,sa2,205800,Te Hapara North,2018-03-06,2018-03-06,year,census,20.57,%,percentage,Total,Total,Total,,,statsnz_sa2,2026-11-22,CC BY 4.0
+sa2_age_65_plus,sa2,205800,Te Hapara North,2023-03-07,2023-03-07,year,census,18.72,%,percentage,Total,Total,Total,,,statsnz_sa2,2026-11-22,CC BY 4.0
+sa2_age_65_plus,sa2,205900,Mangapapa North,2013-03-05,2013-03-05,year,census,13.15,%,percentage,Total,Total,Total,,,statsnz_sa2,2026-11-22,CC BY 4.0
+sa2_age_65_plus,sa2,205900,Mangapapa North,2018-03-06,2018-03-06,year,census,12.63,%,percentage,Total,Total,Total,,,statsnz_sa2,2026-11-22,CC BY 4.0
+sa2_age_65_plus,sa2,205900,Mangapapa North,2023-03-07,2023-03-07,year,census,13.79,%,percentage,Total,Total,Total,,,statsnz_sa2,2026-11-22,CC BY 4.0
+sa2_age_65_plus,sa2,206000,Elgin,2013-03-05,2013-03-05,year,census,12.68,%,percentage,Total,Total,Total,,,statsnz_sa2,2026-11-22,CC BY 4.0
+sa2_age_65_plus,sa2,206000,Elgin,2018-03-06,2018-03-06,year,census,12.31,%,percentage,Total,Total,Total,,,statsnz_sa2,2026-11-22,CC BY 4.0
+sa2_age_65_plus,sa2,206000,Elgin,2023-03-07,2023-03-07,year,census,13.01,%,percentage,Total,Total,Total,,,statsnz_sa2,2026-11-22,CC BY 4.0
+sa2_age_65_plus,sa2,206100,Te Hapara South,2013-03-05,2013-03-05,year,census,13.85,%,percentage,Total,Total,Total,,,statsnz_sa2,2026-11-22,CC BY 4.0
+sa2_age_65_plus,sa2,206100,Te Hapara South,2018-03-06,2018-03-06,year,census,13.77,%,percentage,Total,Total,Total,,,statsnz_sa2,2026-11-22,CC BY 4.0
+sa2_age_65_plus,sa2,206100,Te Hapara South,2023-03-07,2023-03-07,year,census,14.5,%,percentage,Total,Total,Total,,,statsnz_sa2,2026-11-22,CC BY 4.0
+sa2_age_65_plus,sa2,206200,Mangapapa East,2013-03-05,2013-03-05,year,census,11.68,%,percentage,Total,Total,Total,,,statsnz_sa2,2026-11-22,CC BY 4.0
+sa2_age_65_plus,sa2,206200,Mangapapa East,2018-03-06,2018-03-06,year,census,13.74,%,percentage,Total,Total,Total,,,statsnz_sa2,2026-11-22,CC BY 4.0
+sa2_age_65_plus,sa2,206200,Mangapapa East,2023-03-07,2023-03-07,year,census,13.87,%,percentage,Total,Total,Total,,,statsnz_sa2,2026-11-22,CC BY 4.0
+sa2_age_65_plus,sa2,206300,Mangapapa South,2013-03-05,2013-03-05,year,census,12.46,%,percentage,Total,Total,Total,,,statsnz_sa2,2026-11-22,CC BY 4.0
+sa2_age_65_plus,sa2,206300,Mangapapa South,2018-03-06,2018-03-06,year,census,11.21,%,percentage,Total,Total,Total,,,statsnz_sa2,2026-11-22,CC BY 4.0
+sa2_age_65_plus,sa2,206300,Mangapapa South,2023-03-07,2023-03-07,year,census,12.3,%,percentage,Total,Total,Total,,,statsnz_sa2,2026-11-22,CC BY 4.0
+sa2_age_65_plus,sa2,206400,Te Hapara East,2013-03-05,2013-03-05,year,census,16.56,%,percentage,Total,Total,Total,,,statsnz_sa2,2026-11-22,CC BY 4.0
+sa2_age_65_plus,sa2,206400,Te Hapara East,2018-03-06,2018-03-06,year,census,16.27,%,percentage,Total,Total,Total,,,statsnz_sa2,2026-11-22,CC BY 4.0
+sa2_age_65_plus,sa2,206400,Te Hapara East,2023-03-07,2023-03-07,year,census,16.81,%,percentage,Total,Total,Total,,,statsnz_sa2,2026-11-22,CC BY 4.0
+sa2_age_65_plus,sa2,206500,Centennial Crescent,2013-03-05,2013-03-05,year,census,15.22,%,percentage,Total,Total,Total,,,statsnz_sa2,2026-11-22,CC BY 4.0
+sa2_age_65_plus,sa2,206500,Centennial Crescent,2018-03-06,2018-03-06,year,census,13.41,%,percentage,Total,Total,Total,,,statsnz_sa2,2026-11-22,CC BY 4.0
+sa2_age_65_plus,sa2,206500,Centennial Crescent,2023-03-07,2023-03-07,year,census,14.77,%,percentage,Total,Total,Total,,,statsnz_sa2,2026-11-22,CC BY 4.0
+sa2_age_65_plus,sa2,206601,Whataupoko East,2013-03-05,2013-03-05,year,census,14.43,%,percentage,Total,Total,Total,,,statsnz_sa2,2026-11-22,CC BY 4.0
+sa2_age_65_plus,sa2,206601,Whataupoko East,2018-03-06,2018-03-06,year,census,17.89,%,percentage,Total,Total,Total,,,statsnz_sa2,2026-11-22,CC BY 4.0
+sa2_age_65_plus,sa2,206601,Whataupoko East,2023-03-07,2023-03-07,year,census,19.59,%,percentage,Total,Total,Total,,,statsnz_sa2,2026-11-22,CC BY 4.0
+sa2_age_65_plus,sa2,206700,Whataupoko West,2013-03-05,2013-03-05,year,census,18.0,%,percentage,Total,Total,Total,,,statsnz_sa2,2026-11-22,CC BY 4.0
+sa2_age_65_plus,sa2,206700,Whataupoko West,2018-03-06,2018-03-06,year,census,18.71,%,percentage,Total,Total,Total,,,statsnz_sa2,2026-11-22,CC BY 4.0
+sa2_age_65_plus,sa2,206700,Whataupoko West,2023-03-07,2023-03-07,year,census,21.79,%,percentage,Total,Total,Total,,,statsnz_sa2,2026-11-22,CC BY 4.0
+sa2_age_65_plus,sa2,206801,Gisborne Central,2013-03-05,2013-03-05,year,census,15.69,%,percentage,Total,Total,Total,,,statsnz_sa2,2026-11-22,CC BY 4.0
+sa2_age_65_plus,sa2,206801,Gisborne Central,2018-03-06,2018-03-06,year,census,18.0,%,percentage,Total,Total,Total,,,statsnz_sa2,2026-11-22,CC BY 4.0
+sa2_age_65_plus,sa2,206801,Gisborne Central,2023-03-07,2023-03-07,year,census,23.26,%,percentage,Total,Total,Total,,,statsnz_sa2,2026-11-22,CC BY 4.0
+sa2_age_65_plus,sa2,206900,Kaiti North,2013-03-05,2013-03-05,year,census,22.07,%,percentage,Total,Total,Total,,,statsnz_sa2,2026-11-22,CC BY 4.0
+sa2_age_65_plus,sa2,206900,Kaiti North,2018-03-06,2018-03-06,year,census,21.35,%,percentage,Total,Total,Total,,,statsnz_sa2,2026-11-22,CC BY 4.0
+sa2_age_65_plus,sa2,206900,Kaiti North,2023-03-07,2023-03-07,year,census,24.09,%,percentage,Total,Total,Total,,,statsnz_sa2,2026-11-22,CC BY 4.0
+sa2_age_65_plus,sa2,207000,Kaiti South,2013-03-05,2013-03-05,year,census,10.77,%,percentage,Total,Total,Total,,,statsnz_sa2,2026-11-22,CC BY 4.0
+sa2_age_65_plus,sa2,207000,Kaiti South,2018-03-06,2018-03-06,year,census,10.29,%,percentage,Total,Total,Total,,,statsnz_sa2,2026-11-22,CC BY 4.0
+sa2_age_65_plus,sa2,207000,Kaiti South,2023-03-07,2023-03-07,year,census,11.55,%,percentage,Total,Total,Total,,,statsnz_sa2,2026-11-22,CC BY 4.0
+sa2_age_65_plus,sa2,207100,Outer Kaiti,2013-03-05,2013-03-05,year,census,8.28,%,percentage,Total,Total,Total,,,statsnz_sa2,2026-11-22,CC BY 4.0
+sa2_age_65_plus,sa2,207100,Outer Kaiti,2018-03-06,2018-03-06,year,census,8.07,%,percentage,Total,Total,Total,,,statsnz_sa2,2026-11-22,CC BY 4.0
+sa2_age_65_plus,sa2,207100,Outer Kaiti,2023-03-07,2023-03-07,year,census,8.2,%,percentage,Total,Total,Total,,,statsnz_sa2,2026-11-22,CC BY 4.0
+sa2_age_65_plus,sa2,207200,Tamarau,2013-03-05,2013-03-05,year,census,9.76,%,percentage,Total,Total,Total,,,statsnz_sa2,2026-11-22,CC BY 4.0
+sa2_age_65_plus,sa2,207200,Tamarau,2018-03-06,2018-03-06,year,census,9.89,%,percentage,Total,Total,Total,,,statsnz_sa2,2026-11-22,CC BY 4.0
+sa2_age_65_plus,sa2,207200,Tamarau,2023-03-07,2023-03-07,year,census,10.76,%,percentage,Total,Total,Total,,,statsnz_sa2,2026-11-22,CC BY 4.0
+sa2_age_65_plus,sa2,207301,Wainui-Okitu,2013-03-05,2013-03-05,year,census,9.4,%,percentage,Total,Total,Total,,,statsnz_sa2,2026-11-22,CC BY 4.0
+sa2_age_65_plus,sa2,207301,Wainui-Okitu,2018-03-06,2018-03-06,year,census,13.5,%,percentage,Total,Total,Total,,,statsnz_sa2,2026-11-22,CC BY 4.0
+sa2_age_65_plus,sa2,207301,Wainui-Okitu,2023-03-07,2023-03-07,year,census,17.81,%,percentage,Total,Total,Total,,,statsnz_sa2,2026-11-22,CC BY 4.0
+sa2_dwelling_dampness,sa2,204700,East Cape,2023-03-07,2023-03-07,year,census,62.69,%,percentage,Total,Total,Total,,,statsnz_sa2,2026-11-22,CC BY 4.0
+sa2_dwelling_dampness,sa2,204800,Waipaoa,2023-03-07,2023-03-07,year,census,37.57,%,percentage,Total,Total,Total,,,statsnz_sa2,2026-11-22,CC BY 4.0
+sa2_dwelling_dampness,sa2,204900,Ruatōria-Raukumara,2023-03-07,2023-03-07,year,census,54.84,%,percentage,Total,Total,Total,,,statsnz_sa2,2026-11-22,CC BY 4.0
+sa2_dwelling_dampness,sa2,205000,Tokomaru,2023-03-07,2023-03-07,year,census,51.92,%,percentage,Total,Total,Total,,,statsnz_sa2,2026-11-22,CC BY 4.0
+sa2_dwelling_dampness,sa2,205100,Hangaroa,2023-03-07,2023-03-07,year,census,33.57,%,percentage,Total,Total,Total,,,statsnz_sa2,2026-11-22,CC BY 4.0
+sa2_dwelling_dampness,sa2,205201,Wharekaka,2023-03-07,2023-03-07,year,census,34.66,%,percentage,Total,Total,Total,,,statsnz_sa2,2026-11-22,CC BY 4.0
+sa2_dwelling_dampness,sa2,205300,Te Arai,2023-03-07,2023-03-07,year,census,36.45,%,percentage,Total,Total,Total,,,statsnz_sa2,2026-11-22,CC BY 4.0
+sa2_dwelling_dampness,sa2,205401,Hexton,2023-03-07,2023-03-07,year,census,17.7,%,percentage,Total,Total,Total,,,statsnz_sa2,2026-11-22,CC BY 4.0
+sa2_dwelling_dampness,sa2,205500,Lytton,2023-03-07,2023-03-07,year,census,3.87,%,percentage,Total,Total,Total,,,statsnz_sa2,2026-11-22,CC BY 4.0
+sa2_dwelling_dampness,sa2,205601,Makaraka-Awapuni,2023-03-07,2023-03-07,year,census,21.78,%,percentage,Total,Total,Total,,,statsnz_sa2,2026-11-22,CC BY 4.0
+sa2_dwelling_dampness,sa2,205700,Riverdale,2023-03-07,2023-03-07,year,census,17.45,%,percentage,Total,Total,Total,,,statsnz_sa2,2026-11-22,CC BY 4.0
+sa2_dwelling_dampness,sa2,205800,Te Hapara North,2023-03-07,2023-03-07,year,census,22.27,%,percentage,Total,Total,Total,,,statsnz_sa2,2026-11-22,CC BY 4.0
+sa2_dwelling_dampness,sa2,205900,Mangapapa North,2023-03-07,2023-03-07,year,census,32.88,%,percentage,Total,Total,Total,,,statsnz_sa2,2026-11-22,CC BY 4.0
+sa2_dwelling_dampness,sa2,206000,Elgin,2023-03-07,2023-03-07,year,census,35.34,%,percentage,Total,Total,Total,,,statsnz_sa2,2026-11-22,CC BY 4.0
+sa2_dwelling_dampness,sa2,206100,Te Hapara South,2023-03-07,2023-03-07,year,census,29.61,%,percentage,Total,Total,Total,,,statsnz_sa2,2026-11-22,CC BY 4.0
+sa2_dwelling_dampness,sa2,206200,Mangapapa East,2023-03-07,2023-03-07,year,census,27.03,%,percentage,Total,Total,Total,,,statsnz_sa2,2026-11-22,CC BY 4.0
+sa2_dwelling_dampness,sa2,206300,Mangapapa South,2023-03-07,2023-03-07,year,census,33.67,%,percentage,Total,Total,Total,,,statsnz_sa2,2026-11-22,CC BY 4.0
+sa2_dwelling_dampness,sa2,206400,Te Hapara East,2023-03-07,2023-03-07,year,census,28.63,%,percentage,Total,Total,Total,,,statsnz_sa2,2026-11-22,CC BY 4.0
+sa2_dwelling_dampness,sa2,206500,Centennial Crescent,2023-03-07,2023-03-07,year,census,34.01,%,percentage,Total,Total,Total,,,statsnz_sa2,2026-11-22,CC BY 4.0
+sa2_dwelling_dampness,sa2,206601,Whataupoko East,2023-03-07,2023-03-07,year,census,18.92,%,percentage,Total,Total,Total,,,statsnz_sa2,2026-11-22,CC BY 4.0
+sa2_dwelling_dampness,sa2,206700,Whataupoko West,2023-03-07,2023-03-07,year,census,17.9,%,percentage,Total,Total,Total,,,statsnz_sa2,2026-11-22,CC BY 4.0
+sa2_dwelling_dampness,sa2,206801,Gisborne Central,2023-03-07,2023-03-07,year,census,21.21,%,percentage,Total,Total,Total,,,statsnz_sa2,2026-11-22,CC BY 4.0
+sa2_dwelling_dampness,sa2,206900,Kaiti North,2023-03-07,2023-03-07,year,census,24.77,%,percentage,Total,Total,Total,,,statsnz_sa2,2026-11-22,CC BY 4.0
+sa2_dwelling_dampness,sa2,207000,Kaiti South,2023-03-07,2023-03-07,year,census,37.26,%,percentage,Total,Total,Total,,,statsnz_sa2,2026-11-22,CC BY 4.0
+sa2_dwelling_dampness,sa2,207100,Outer Kaiti,2023-03-07,2023-03-07,year,census,49.02,%,percentage,Total,Total,Total,,,statsnz_sa2,2026-11-22,CC BY 4.0
+sa2_dwelling_dampness,sa2,207200,Tamarau,2023-03-07,2023-03-07,year,census,39.34,%,percentage,Total,Total,Total,,,statsnz_sa2,2026-11-22,CC BY 4.0
+sa2_dwelling_dampness,sa2,207301,Wainui-Okitu,2023-03-07,2023-03-07,year,census,16.97,%,percentage,Total,Total,Total,,,statsnz_sa2,2026-11-22,CC BY 4.0
+sa2_home_ownership,sa2,204700,East Cape,2023-03-07,2023-03-07,year,census,62.35,%,percentage,Total,Total,Total,,,statsnz_sa2,2026-11-22,CC BY 4.0
+sa2_home_ownership,sa2,204800,Waipaoa,2023-03-07,2023-03-07,year,census,63.25,%,percentage,Total,Total,Total,,,statsnz_sa2,2026-11-22,CC BY 4.0
+sa2_home_ownership,sa2,204900,Ruatōria-Raukumara,2023-03-07,2023-03-07,year,census,53.62,%,percentage,Total,Total,Total,,,statsnz_sa2,2026-11-22,CC BY 4.0
+sa2_home_ownership,sa2,205000,Tokomaru,2023-03-07,2023-03-07,year,census,58.54,%,percentage,Total,Total,Total,,,statsnz_sa2,2026-11-22,CC BY 4.0
+sa2_home_ownership,sa2,205100,Hangaroa,2023-03-07,2023-03-07,year,census,61.27,%,percentage,Total,Total,Total,,,statsnz_sa2,2026-11-22,CC BY 4.0
+sa2_home_ownership,sa2,205201,Wharekaka,2023-03-07,2023-03-07,year,census,58.37,%,percentage,Total,Total,Total,,,statsnz_sa2,2026-11-22,CC BY 4.0
+sa2_home_ownership,sa2,205300,Te Arai,2023-03-07,2023-03-07,year,census,71.01,%,percentage,Total,Total,Total,,,statsnz_sa2,2026-11-22,CC BY 4.0
+sa2_home_ownership,sa2,205401,Hexton,2023-03-07,2023-03-07,year,census,80.16,%,percentage,Total,Total,Total,,,statsnz_sa2,2026-11-22,CC BY 4.0
+sa2_home_ownership,sa2,205500,Lytton,2023-03-07,2023-03-07,year,census,93.5,%,percentage,Total,Total,Total,,,statsnz_sa2,2026-11-22,CC BY 4.0
+sa2_home_ownership,sa2,205601,Makaraka-Awapuni,2023-03-07,2023-03-07,year,census,58.82,%,percentage,Total,Total,Total,,,statsnz_sa2,2026-11-22,CC BY 4.0
+sa2_home_ownership,sa2,205700,Riverdale,2023-03-07,2023-03-07,year,census,75.61,%,percentage,Total,Total,Total,,,statsnz_sa2,2026-11-22,CC BY 4.0
+sa2_home_ownership,sa2,205800,Te Hapara North,2023-03-07,2023-03-07,year,census,65.31,%,percentage,Total,Total,Total,,,statsnz_sa2,2026-11-22,CC BY 4.0
+sa2_home_ownership,sa2,205900,Mangapapa North,2023-03-07,2023-03-07,year,census,67.88,%,percentage,Total,Total,Total,,,statsnz_sa2,2026-11-22,CC BY 4.0
+sa2_home_ownership,sa2,206000,Elgin,2023-03-07,2023-03-07,year,census,47.54,%,percentage,Total,Total,Total,,,statsnz_sa2,2026-11-22,CC BY 4.0
+sa2_home_ownership,sa2,206100,Te Hapara South,2023-03-07,2023-03-07,year,census,49.62,%,percentage,Total,Total,Total,,,statsnz_sa2,2026-11-22,CC BY 4.0
+sa2_home_ownership,sa2,206200,Mangapapa East,2023-03-07,2023-03-07,year,census,69.81,%,percentage,Total,Total,Total,,,statsnz_sa2,2026-11-22,CC BY 4.0
+sa2_home_ownership,sa2,206300,Mangapapa South,2023-03-07,2023-03-07,year,census,56.02,%,percentage,Total,Total,Total,,,statsnz_sa2,2026-11-22,CC BY 4.0
+sa2_home_ownership,sa2,206400,Te Hapara East,2023-03-07,2023-03-07,year,census,53.7,%,percentage,Total,Total,Total,,,statsnz_sa2,2026-11-22,CC BY 4.0
+sa2_home_ownership,sa2,206500,Centennial Crescent,2023-03-07,2023-03-07,year,census,49.44,%,percentage,Total,Total,Total,,,statsnz_sa2,2026-11-22,CC BY 4.0
+sa2_home_ownership,sa2,206601,Whataupoko East,2023-03-07,2023-03-07,year,census,82.2,%,percentage,Total,Total,Total,,,statsnz_sa2,2026-11-22,CC BY 4.0
+sa2_home_ownership,sa2,206700,Whataupoko West,2023-03-07,2023-03-07,year,census,67.77,%,percentage,Total,Total,Total,,,statsnz_sa2,2026-11-22,CC BY 4.0
+sa2_home_ownership,sa2,206801,Gisborne Central,2023-03-07,2023-03-07,year,census,52.11,%,percentage,Total,Total,Total,,,statsnz_sa2,2026-11-22,CC BY 4.0
+sa2_home_ownership,sa2,206900,Kaiti North,2023-03-07,2023-03-07,year,census,73.66,%,percentage,Total,Total,Total,,,statsnz_sa2,2026-11-22,CC BY 4.0
+sa2_home_ownership,sa2,207000,Kaiti South,2023-03-07,2023-03-07,year,census,49.38,%,percentage,Total,Total,Total,,,statsnz_sa2,2026-11-22,CC BY 4.0
+sa2_home_ownership,sa2,207100,Outer Kaiti,2023-03-07,2023-03-07,year,census,42.68,%,percentage,Total,Total,Total,,,statsnz_sa2,2026-11-22,CC BY 4.0
+sa2_home_ownership,sa2,207200,Tamarau,2023-03-07,2023-03-07,year,census,51.0,%,percentage,Total,Total,Total,,,statsnz_sa2,2026-11-22,CC BY 4.0
+sa2_home_ownership,sa2,207301,Wainui-Okitu,2023-03-07,2023-03-07,year,census,79.83,%,percentage,Total,Total,Total,,,statsnz_sa2,2026-11-22,CC BY 4.0
+sa2_household_crowding,sa2,204700,East Cape,2023-03-07,2023-03-07,year,census,15.54,%,percentage,Total,Total,Total,,,statsnz_sa2,2026-11-22,CC BY 4.0
+sa2_household_crowding,sa2,204800,Waipaoa,2023-03-07,2023-03-07,year,census,11.27,%,percentage,Total,Total,Total,,,statsnz_sa2,2026-11-22,CC BY 4.0
+sa2_household_crowding,sa2,204900,Ruatōria-Raukumara,2023-03-07,2023-03-07,year,census,20.77,%,percentage,Total,Total,Total,,,statsnz_sa2,2026-11-22,CC BY 4.0
+sa2_household_crowding,sa2,205000,Tokomaru,2023-03-07,2023-03-07,year,census,14.68,%,percentage,Total,Total,Total,,,statsnz_sa2,2026-11-22,CC BY 4.0
+sa2_household_crowding,sa2,205100,Hangaroa,2023-03-07,2023-03-07,year,census,7.64,%,percentage,Total,Total,Total,,,statsnz_sa2,2026-11-22,CC BY 4.0
+sa2_household_crowding,sa2,205201,Wharekaka,2023-03-07,2023-03-07,year,census,11.17,%,percentage,Total,Total,Total,,,statsnz_sa2,2026-11-22,CC BY 4.0
+sa2_household_crowding,sa2,205300,Te Arai,2023-03-07,2023-03-07,year,census,9.45,%,percentage,Total,Total,Total,,,statsnz_sa2,2026-11-22,CC BY 4.0
+sa2_household_crowding,sa2,205401,Hexton,2023-03-07,2023-03-07,year,census,4.4,%,percentage,Total,Total,Total,,,statsnz_sa2,2026-11-22,CC BY 4.0
+sa2_household_crowding,sa2,205500,Lytton,2023-03-07,2023-03-07,year,census,1.08,%,percentage,Total,Total,Total,,,statsnz_sa2,2026-11-22,CC BY 4.0
+sa2_household_crowding,sa2,205601,Makaraka-Awapuni,2023-03-07,2023-03-07,year,census,11.01,%,percentage,Total,Total,Total,,,statsnz_sa2,2026-11-22,CC BY 4.0
+sa2_household_crowding,sa2,205700,Riverdale,2023-03-07,2023-03-07,year,census,5.73,%,percentage,Total,Total,Total,,,statsnz_sa2,2026-11-22,CC BY 4.0
+sa2_household_crowding,sa2,205800,Te Hapara North,2023-03-07,2023-03-07,year,census,8.44,%,percentage,Total,Total,Total,,,statsnz_sa2,2026-11-22,CC BY 4.0
+sa2_household_crowding,sa2,205900,Mangapapa North,2023-03-07,2023-03-07,year,census,10.0,%,percentage,Total,Total,Total,,,statsnz_sa2,2026-11-22,CC BY 4.0
+sa2_household_crowding,sa2,206000,Elgin,2023-03-07,2023-03-07,year,census,15.27,%,percentage,Total,Total,Total,,,statsnz_sa2,2026-11-22,CC BY 4.0
+sa2_household_crowding,sa2,206100,Te Hapara South,2023-03-07,2023-03-07,year,census,14.84,%,percentage,Total,Total,Total,,,statsnz_sa2,2026-11-22,CC BY 4.0
+sa2_household_crowding,sa2,206200,Mangapapa East,2023-03-07,2023-03-07,year,census,5.77,%,percentage,Total,Total,Total,,,statsnz_sa2,2026-11-22,CC BY 4.0
+sa2_household_crowding,sa2,206300,Mangapapa South,2023-03-07,2023-03-07,year,census,14.62,%,percentage,Total,Total,Total,,,statsnz_sa2,2026-11-22,CC BY 4.0
+sa2_household_crowding,sa2,206400,Te Hapara East,2023-03-07,2023-03-07,year,census,9.09,%,percentage,Total,Total,Total,,,statsnz_sa2,2026-11-22,CC BY 4.0
+sa2_household_crowding,sa2,206500,Centennial Crescent,2023-03-07,2023-03-07,year,census,16.07,%,percentage,Total,Total,Total,,,statsnz_sa2,2026-11-22,CC BY 4.0
+sa2_household_crowding,sa2,206601,Whataupoko East,2023-03-07,2023-03-07,year,census,3.02,%,percentage,Total,Total,Total,,,statsnz_sa2,2026-11-22,CC BY 4.0
+sa2_household_crowding,sa2,206700,Whataupoko West,2023-03-07,2023-03-07,year,census,4.83,%,percentage,Total,Total,Total,,,statsnz_sa2,2026-11-22,CC BY 4.0
+sa2_household_crowding,sa2,206801,Gisborne Central,2023-03-07,2023-03-07,year,census,8.57,%,percentage,Total,Total,Total,,,statsnz_sa2,2026-11-22,CC BY 4.0
+sa2_household_crowding,sa2,206900,Kaiti North,2023-03-07,2023-03-07,year,census,6.01,%,percentage,Total,Total,Total,,,statsnz_sa2,2026-11-22,CC BY 4.0
+sa2_household_crowding,sa2,207000,Kaiti South,2023-03-07,2023-03-07,year,census,17.16,%,percentage,Total,Total,Total,,,statsnz_sa2,2026-11-22,CC BY 4.0
+sa2_household_crowding,sa2,207100,Outer Kaiti,2023-03-07,2023-03-07,year,census,24.03,%,percentage,Total,Total,Total,,,statsnz_sa2,2026-11-22,CC BY 4.0
+sa2_household_crowding,sa2,207200,Tamarau,2023-03-07,2023-03-07,year,census,17.57,%,percentage,Total,Total,Total,,,statsnz_sa2,2026-11-22,CC BY 4.0
+sa2_household_crowding,sa2,207301,Wainui-Okitu,2023-03-07,2023-03-07,year,census,3.11,%,percentage,Total,Total,Total,,,statsnz_sa2,2026-11-22,CC BY 4.0
+sa2_internet_access,sa2,204700,East Cape,2023-03-07,2023-03-07,year,census,72.26,%,percentage,Total,Total,Total,,,statsnz_sa2,2026-11-22,CC BY 4.0
+sa2_internet_access,sa2,204800,Waipaoa,2023-03-07,2023-03-07,year,census,83.52,%,percentage,Total,Total,Total,,,statsnz_sa2,2026-11-22,CC BY 4.0
+sa2_internet_access,sa2,204900,Ruatōria-Raukumara,2023-03-07,2023-03-07,year,census,73.6,%,percentage,Total,Total,Total,,,statsnz_sa2,2026-11-22,CC BY 4.0
+sa2_internet_access,sa2,205000,Tokomaru,2023-03-07,2023-03-07,year,census,75.0,%,percentage,Total,Total,Total,,,statsnz_sa2,2026-11-22,CC BY 4.0
+sa2_internet_access,sa2,205100,Hangaroa,2023-03-07,2023-03-07,year,census,92.2,%,percentage,Total,Total,Total,,,statsnz_sa2,2026-11-22,CC BY 4.0
+sa2_internet_access,sa2,205201,Wharekaka,2023-03-07,2023-03-07,year,census,83.8,%,percentage,Total,Total,Total,,,statsnz_sa2,2026-11-22,CC BY 4.0
+sa2_internet_access,sa2,205300,Te Arai,2023-03-07,2023-03-07,year,census,86.24,%,percentage,Total,Total,Total,,,statsnz_sa2,2026-11-22,CC BY 4.0
+sa2_internet_access,sa2,205401,Hexton,2023-03-07,2023-03-07,year,census,91.91,%,percentage,Total,Total,Total,,,statsnz_sa2,2026-11-22,CC BY 4.0
+sa2_internet_access,sa2,205500,Lytton,2023-03-07,2023-03-07,year,census,85.0,%,percentage,Total,Total,Total,,,statsnz_sa2,2026-11-22,CC BY 4.0
+sa2_internet_access,sa2,205601,Makaraka-Awapuni,2023-03-07,2023-03-07,year,census,86.54,%,percentage,Total,Total,Total,,,statsnz_sa2,2026-11-22,CC BY 4.0
+sa2_internet_access,sa2,205700,Riverdale,2023-03-07,2023-03-07,year,census,91.39,%,percentage,Total,Total,Total,,,statsnz_sa2,2026-11-22,CC BY 4.0
+sa2_internet_access,sa2,205800,Te Hapara North,2023-03-07,2023-03-07,year,census,87.72,%,percentage,Total,Total,Total,,,statsnz_sa2,2026-11-22,CC BY 4.0
+sa2_internet_access,sa2,205900,Mangapapa North,2023-03-07,2023-03-07,year,census,84.46,%,percentage,Total,Total,Total,,,statsnz_sa2,2026-11-22,CC BY 4.0
+sa2_internet_access,sa2,206000,Elgin,2023-03-07,2023-03-07,year,census,80.38,%,percentage,Total,Total,Total,,,statsnz_sa2,2026-11-22,CC BY 4.0
+sa2_internet_access,sa2,206100,Te Hapara South,2023-03-07,2023-03-07,year,census,83.82,%,percentage,Total,Total,Total,,,statsnz_sa2,2026-11-22,CC BY 4.0
+sa2_internet_access,sa2,206200,Mangapapa East,2023-03-07,2023-03-07,year,census,90.79,%,percentage,Total,Total,Total,,,statsnz_sa2,2026-11-22,CC BY 4.0
+sa2_internet_access,sa2,206300,Mangapapa South,2023-03-07,2023-03-07,year,census,84.73,%,percentage,Total,Total,Total,,,statsnz_sa2,2026-11-22,CC BY 4.0
+sa2_internet_access,sa2,206400,Te Hapara East,2023-03-07,2023-03-07,year,census,81.12,%,percentage,Total,Total,Total,,,statsnz_sa2,2026-11-22,CC BY 4.0
+sa2_internet_access,sa2,206500,Centennial Crescent,2023-03-07,2023-03-07,year,census,84.31,%,percentage,Total,Total,Total,,,statsnz_sa2,2026-11-22,CC BY 4.0
+sa2_internet_access,sa2,206601,Whataupoko East,2023-03-07,2023-03-07,year,census,93.78,%,percentage,Total,Total,Total,,,statsnz_sa2,2026-11-22,CC BY 4.0
+sa2_internet_access,sa2,206700,Whataupoko West,2023-03-07,2023-03-07,year,census,90.08,%,percentage,Total,Total,Total,,,statsnz_sa2,2026-11-22,CC BY 4.0
+sa2_internet_access,sa2,206801,Gisborne Central,2023-03-07,2023-03-07,year,census,90.91,%,percentage,Total,Total,Total,,,statsnz_sa2,2026-11-22,CC BY 4.0
+sa2_internet_access,sa2,206900,Kaiti North,2023-03-07,2023-03-07,year,census,91.44,%,percentage,Total,Total,Total,,,statsnz_sa2,2026-11-22,CC BY 4.0
+sa2_internet_access,sa2,207000,Kaiti South,2023-03-07,2023-03-07,year,census,81.25,%,percentage,Total,Total,Total,,,statsnz_sa2,2026-11-22,CC BY 4.0
+sa2_internet_access,sa2,207100,Outer Kaiti,2023-03-07,2023-03-07,year,census,82.63,%,percentage,Total,Total,Total,,,statsnz_sa2,2026-11-22,CC BY 4.0
+sa2_internet_access,sa2,207200,Tamarau,2023-03-07,2023-03-07,year,census,84.93,%,percentage,Total,Total,Total,,,statsnz_sa2,2026-11-22,CC BY 4.0
+sa2_internet_access,sa2,207301,Wainui-Okitu,2023-03-07,2023-03-07,year,census,95.81,%,percentage,Total,Total,Total,,,statsnz_sa2,2026-11-22,CC BY 4.0
+sa2_maori_ethnicity,sa2,204700,East Cape,2023-03-07,2023-03-07,year,census,91.65,%,percentage,Total,Total,Total,,,statsnz_sa2,2026-11-22,CC BY 4.0
+sa2_maori_ethnicity,sa2,204800,Waipaoa,2023-03-07,2023-03-07,year,census,56.14,%,percentage,Total,Total,Total,,,statsnz_sa2,2026-11-22,CC BY 4.0
+sa2_maori_ethnicity,sa2,204900,Ruatōria-Raukumara,2023-03-07,2023-03-07,year,census,93.14,%,percentage,Total,Total,Total,,,statsnz_sa2,2026-11-22,CC BY 4.0
+sa2_maori_ethnicity,sa2,205000,Tokomaru,2023-03-07,2023-03-07,year,census,86.3,%,percentage,Total,Total,Total,,,statsnz_sa2,2026-11-22,CC BY 4.0
+sa2_maori_ethnicity,sa2,205100,Hangaroa,2023-03-07,2023-03-07,year,census,44.12,%,percentage,Total,Total,Total,,,statsnz_sa2,2026-11-22,CC BY 4.0
+sa2_maori_ethnicity,sa2,205201,Wharekaka,2023-03-07,2023-03-07,year,census,66.32,%,percentage,Total,Total,Total,,,statsnz_sa2,2026-11-22,CC BY 4.0
+sa2_maori_ethnicity,sa2,205300,Te Arai,2023-03-07,2023-03-07,year,census,62.47,%,percentage,Total,Total,Total,,,statsnz_sa2,2026-11-22,CC BY 4.0
+sa2_maori_ethnicity,sa2,205401,Hexton,2023-03-07,2023-03-07,year,census,26.62,%,percentage,Total,Total,Total,,,statsnz_sa2,2026-11-22,CC BY 4.0
+sa2_maori_ethnicity,sa2,205500,Lytton,2023-03-07,2023-03-07,year,census,21.8,%,percentage,Total,Total,Total,,,statsnz_sa2,2026-11-22,CC BY 4.0
+sa2_maori_ethnicity,sa2,205601,Makaraka-Awapuni,2023-03-07,2023-03-07,year,census,47.35,%,percentage,Total,Total,Total,,,statsnz_sa2,2026-11-22,CC BY 4.0
+sa2_maori_ethnicity,sa2,205700,Riverdale,2023-03-07,2023-03-07,year,census,41.56,%,percentage,Total,Total,Total,,,statsnz_sa2,2026-11-22,CC BY 4.0
+sa2_maori_ethnicity,sa2,205800,Te Hapara North,2023-03-07,2023-03-07,year,census,42.62,%,percentage,Total,Total,Total,,,statsnz_sa2,2026-11-22,CC BY 4.0
+sa2_maori_ethnicity,sa2,205900,Mangapapa North,2023-03-07,2023-03-07,year,census,53.35,%,percentage,Total,Total,Total,,,statsnz_sa2,2026-11-22,CC BY 4.0
+sa2_maori_ethnicity,sa2,206000,Elgin,2023-03-07,2023-03-07,year,census,67.76,%,percentage,Total,Total,Total,,,statsnz_sa2,2026-11-22,CC BY 4.0
+sa2_maori_ethnicity,sa2,206100,Te Hapara South,2023-03-07,2023-03-07,year,census,58.12,%,percentage,Total,Total,Total,,,statsnz_sa2,2026-11-22,CC BY 4.0
+sa2_maori_ethnicity,sa2,206200,Mangapapa East,2023-03-07,2023-03-07,year,census,41.39,%,percentage,Total,Total,Total,,,statsnz_sa2,2026-11-22,CC BY 4.0
+sa2_maori_ethnicity,sa2,206300,Mangapapa South,2023-03-07,2023-03-07,year,census,56.74,%,percentage,Total,Total,Total,,,statsnz_sa2,2026-11-22,CC BY 4.0
+sa2_maori_ethnicity,sa2,206400,Te Hapara East,2023-03-07,2023-03-07,year,census,50.72,%,percentage,Total,Total,Total,,,statsnz_sa2,2026-11-22,CC BY 4.0
+sa2_maori_ethnicity,sa2,206500,Centennial Crescent,2023-03-07,2023-03-07,year,census,61.31,%,percentage,Total,Total,Total,,,statsnz_sa2,2026-11-22,CC BY 4.0
+sa2_maori_ethnicity,sa2,206601,Whataupoko East,2023-03-07,2023-03-07,year,census,27.12,%,percentage,Total,Total,Total,,,statsnz_sa2,2026-11-22,CC BY 4.0
+sa2_maori_ethnicity,sa2,206700,Whataupoko West,2023-03-07,2023-03-07,year,census,31.91,%,percentage,Total,Total,Total,,,statsnz_sa2,2026-11-22,CC BY 4.0
+sa2_maori_ethnicity,sa2,206801,Gisborne Central,2023-03-07,2023-03-07,year,census,40.7,%,percentage,Total,Total,Total,,,statsnz_sa2,2026-11-22,CC BY 4.0
+sa2_maori_ethnicity,sa2,206900,Kaiti North,2023-03-07,2023-03-07,year,census,46.22,%,percentage,Total,Total,Total,,,statsnz_sa2,2026-11-22,CC BY 4.0
+sa2_maori_ethnicity,sa2,207000,Kaiti South,2023-03-07,2023-03-07,year,census,70.02,%,percentage,Total,Total,Total,,,statsnz_sa2,2026-11-22,CC BY 4.0
+sa2_maori_ethnicity,sa2,207100,Outer Kaiti,2023-03-07,2023-03-07,year,census,82.97,%,percentage,Total,Total,Total,,,statsnz_sa2,2026-11-22,CC BY 4.0
+sa2_maori_ethnicity,sa2,207200,Tamarau,2023-03-07,2023-03-07,year,census,76.01,%,percentage,Total,Total,Total,,,statsnz_sa2,2026-11-22,CC BY 4.0
+sa2_maori_ethnicity,sa2,207301,Wainui-Okitu,2023-03-07,2023-03-07,year,census,22.9,%,percentage,Total,Total,Total,,,statsnz_sa2,2026-11-22,CC BY 4.0
+sa2_median_household_income,sa2,204700,East Cape,2023-03-07,2023-03-07,year,census,55800.0,NZD,median,Total,Total,Total,,,statsnz_sa2,2026-11-22,CC BY 4.0
+sa2_median_household_income,sa2,204800,Waipaoa,2023-03-07,2023-03-07,year,census,80200.0,NZD,median,Total,Total,Total,,,statsnz_sa2,2026-11-22,CC BY 4.0
+sa2_median_household_income,sa2,204900,Ruatōria-Raukumara,2023-03-07,2023-03-07,year,census,56600.0,NZD,median,Total,Total,Total,,,statsnz_sa2,2026-11-22,CC BY 4.0
+sa2_median_household_income,sa2,205000,Tokomaru,2023-03-07,2023-03-07,year,census,60300.0,NZD,median,Total,Total,Total,,,statsnz_sa2,2026-11-22,CC BY 4.0
+sa2_median_household_income,sa2,205100,Hangaroa,2023-03-07,2023-03-07,year,census,97400.0,NZD,median,Total,Total,Total,,,statsnz_sa2,2026-11-22,CC BY 4.0
+sa2_median_household_income,sa2,205201,Wharekaka,2023-03-07,2023-03-07,year,census,80000.0,NZD,median,Total,Total,Total,,,statsnz_sa2,2026-11-22,CC BY 4.0
+sa2_median_household_income,sa2,205300,Te Arai,2023-03-07,2023-03-07,year,census,91900.0,NZD,median,Total,Total,Total,,,statsnz_sa2,2026-11-22,CC BY 4.0
+sa2_median_household_income,sa2,205401,Hexton,2023-03-07,2023-03-07,year,census,111300.0,NZD,median,Total,Total,Total,,,statsnz_sa2,2026-11-22,CC BY 4.0
+sa2_median_household_income,sa2,205500,Lytton,2023-03-07,2023-03-07,year,census,47600.0,NZD,median,Total,Total,Total,,,statsnz_sa2,2026-11-22,CC BY 4.0
+sa2_median_household_income,sa2,205601,Makaraka-Awapuni,2023-03-07,2023-03-07,year,census,84400.0,NZD,median,Total,Total,Total,,,statsnz_sa2,2026-11-22,CC BY 4.0
+sa2_median_household_income,sa2,205700,Riverdale,2023-03-07,2023-03-07,year,census,90600.0,NZD,median,Total,Total,Total,,,statsnz_sa2,2026-11-22,CC BY 4.0
+sa2_median_household_income,sa2,205800,Te Hapara North,2023-03-07,2023-03-07,year,census,81700.0,NZD,median,Total,Total,Total,,,statsnz_sa2,2026-11-22,CC BY 4.0
+sa2_median_household_income,sa2,205900,Mangapapa North,2023-03-07,2023-03-07,year,census,81200.0,NZD,median,Total,Total,Total,,,statsnz_sa2,2026-11-22,CC BY 4.0
+sa2_median_household_income,sa2,206000,Elgin,2023-03-07,2023-03-07,year,census,64000.0,NZD,median,Total,Total,Total,,,statsnz_sa2,2026-11-22,CC BY 4.0
+sa2_median_household_income,sa2,206100,Te Hapara South,2023-03-07,2023-03-07,year,census,73600.0,NZD,median,Total,Total,Total,,,statsnz_sa2,2026-11-22,CC BY 4.0
+sa2_median_household_income,sa2,206200,Mangapapa East,2023-03-07,2023-03-07,year,census,93400.0,NZD,median,Total,Total,Total,,,statsnz_sa2,2026-11-22,CC BY 4.0
+sa2_median_household_income,sa2,206300,Mangapapa South,2023-03-07,2023-03-07,year,census,76700.0,NZD,median,Total,Total,Total,,,statsnz_sa2,2026-11-22,CC BY 4.0
+sa2_median_household_income,sa2,206400,Te Hapara East,2023-03-07,2023-03-07,year,census,65500.0,NZD,median,Total,Total,Total,,,statsnz_sa2,2026-11-22,CC BY 4.0
+sa2_median_household_income,sa2,206500,Centennial Crescent,2023-03-07,2023-03-07,year,census,71100.0,NZD,median,Total,Total,Total,,,statsnz_sa2,2026-11-22,CC BY 4.0
+sa2_median_household_income,sa2,206601,Whataupoko East,2023-03-07,2023-03-07,year,census,106200.0,NZD,median,Total,Total,Total,,,statsnz_sa2,2026-11-22,CC BY 4.0
+sa2_median_household_income,sa2,206700,Whataupoko West,2023-03-07,2023-03-07,year,census,88300.0,NZD,median,Total,Total,Total,,,statsnz_sa2,2026-11-22,CC BY 4.0
+sa2_median_household_income,sa2,206801,Gisborne Central,2023-03-07,2023-03-07,year,census,74800.0,NZD,median,Total,Total,Total,,,statsnz_sa2,2026-11-22,CC BY 4.0
+sa2_median_household_income,sa2,206900,Kaiti North,2023-03-07,2023-03-07,year,census,93100.0,NZD,median,Total,Total,Total,,,statsnz_sa2,2026-11-22,CC BY 4.0
+sa2_median_household_income,sa2,207000,Kaiti South,2023-03-07,2023-03-07,year,census,73300.0,NZD,median,Total,Total,Total,,,statsnz_sa2,2026-11-22,CC BY 4.0
+sa2_median_household_income,sa2,207100,Outer Kaiti,2023-03-07,2023-03-07,year,census,70900.0,NZD,median,Total,Total,Total,,,statsnz_sa2,2026-11-22,CC BY 4.0
+sa2_median_household_income,sa2,207200,Tamarau,2023-03-07,2023-03-07,year,census,83200.0,NZD,median,Total,Total,Total,,,statsnz_sa2,2026-11-22,CC BY 4.0
+sa2_median_household_income,sa2,207301,Wainui-Okitu,2023-03-07,2023-03-07,year,census,118800.0,NZD,median,Total,Total,Total,,,statsnz_sa2,2026-11-22,CC BY 4.0
+sa2_population,sa2,204700,East Cape,2013-03-05,2013-03-05,year,census,1419.0,people,count,Total,Total,Total,,,statsnz_sa2,2026-11-22,CC BY 4.0
+sa2_population,sa2,204700,East Cape,2018-03-06,2018-03-06,year,census,1389.0,people,count,Total,Total,Total,,,statsnz_sa2,2026-11-22,CC BY 4.0
+sa2_population,sa2,204700,East Cape,2023-03-07,2023-03-07,year,census,1509.0,people,count,Total,Total,Total,,,statsnz_sa2,2026-11-22,CC BY 4.0
+sa2_population,sa2,204800,Waipaoa,2013-03-05,2013-03-05,year,census,1935.0,people,count,Total,Total,Total,,,statsnz_sa2,2026-11-22,CC BY 4.0
+sa2_population,sa2,204800,Waipaoa,2018-03-06,2018-03-06,year,census,1953.0,people,count,Total,Total,Total,,,statsnz_sa2,2026-11-22,CC BY 4.0
+sa2_population,sa2,204800,Waipaoa,2023-03-07,2023-03-07,year,census,2127.0,people,count,Total,Total,Total,,,statsnz_sa2,2026-11-22,CC BY 4.0
+sa2_population,sa2,204900,Ruatōria-Raukumara,2013-03-05,2013-03-05,year,census,1203.0,people,count,Total,Total,Total,,,statsnz_sa2,2026-11-22,CC BY 4.0
+sa2_population,sa2,204900,Ruatōria-Raukumara,2018-03-06,2018-03-06,year,census,1233.0,people,count,Total,Total,Total,,,statsnz_sa2,2026-11-22,CC BY 4.0
+sa2_population,sa2,204900,Ruatōria-Raukumara,2023-03-07,2023-03-07,year,census,1443.0,people,count,Total,Total,Total,,,statsnz_sa2,2026-11-22,CC BY 4.0
+sa2_population,sa2,205000,Tokomaru,2013-03-05,2013-03-05,year,census,933.0,people,count,Total,Total,Total,,,statsnz_sa2,2026-11-22,CC BY 4.0
+sa2_population,sa2,205000,Tokomaru,2018-03-06,2018-03-06,year,census,954.0,people,count,Total,Total,Total,,,statsnz_sa2,2026-11-22,CC BY 4.0
+sa2_population,sa2,205000,Tokomaru,2023-03-07,2023-03-07,year,census,1029.0,people,count,Total,Total,Total,,,statsnz_sa2,2026-11-22,CC BY 4.0
+sa2_population,sa2,205100,Hangaroa,2013-03-05,2013-03-05,year,census,1458.0,people,count,Total,Total,Total,,,statsnz_sa2,2026-11-22,CC BY 4.0
+sa2_population,sa2,205100,Hangaroa,2018-03-06,2018-03-06,year,census,1539.0,people,count,Total,Total,Total,,,statsnz_sa2,2026-11-22,CC BY 4.0
+sa2_population,sa2,205100,Hangaroa,2023-03-07,2023-03-07,year,census,1632.0,people,count,Total,Total,Total,,,statsnz_sa2,2026-11-22,CC BY 4.0
+sa2_population,sa2,205201,Wharekaka,2013-03-05,2013-03-05,year,census,1710.0,people,count,Total,Total,Total,,,statsnz_sa2,2026-11-22,CC BY 4.0
+sa2_population,sa2,205201,Wharekaka,2018-03-06,2018-03-06,year,census,1812.0,people,count,Total,Total,Total,,,statsnz_sa2,2026-11-22,CC BY 4.0
+sa2_population,sa2,205201,Wharekaka,2023-03-07,2023-03-07,year,census,1995.0,people,count,Total,Total,Total,,,statsnz_sa2,2026-11-22,CC BY 4.0
+sa2_population,sa2,205300,Te Arai,2013-03-05,2013-03-05,year,census,1056.0,people,count,Total,Total,Total,,,statsnz_sa2,2026-11-22,CC BY 4.0
+sa2_population,sa2,205300,Te Arai,2018-03-06,2018-03-06,year,census,1128.0,people,count,Total,Total,Total,,,statsnz_sa2,2026-11-22,CC BY 4.0
+sa2_population,sa2,205300,Te Arai,2023-03-07,2023-03-07,year,census,1287.0,people,count,Total,Total,Total,,,statsnz_sa2,2026-11-22,CC BY 4.0
+sa2_population,sa2,205401,Hexton,2013-03-05,2013-03-05,year,census,2637.0,people,count,Total,Total,Total,,,statsnz_sa2,2026-11-22,CC BY 4.0
+sa2_population,sa2,205401,Hexton,2018-03-06,2018-03-06,year,census,2871.0,people,count,Total,Total,Total,,,statsnz_sa2,2026-11-22,CC BY 4.0
+sa2_population,sa2,205401,Hexton,2023-03-07,2023-03-07,year,census,3201.0,people,count,Total,Total,Total,,,statsnz_sa2,2026-11-22,CC BY 4.0
+sa2_population,sa2,205500,Lytton,2013-03-05,2013-03-05,year,census,999.0,people,count,Total,Total,Total,,,statsnz_sa2,2026-11-22,CC BY 4.0
+sa2_population,sa2,205500,Lytton,2018-03-06,2018-03-06,year,census,1371.0,people,count,Total,Total,Total,,,statsnz_sa2,2026-11-22,CC BY 4.0
+sa2_population,sa2,205500,Lytton,2023-03-07,2023-03-07,year,census,1431.0,people,count,Total,Total,Total,,,statsnz_sa2,2026-11-22,CC BY 4.0
+sa2_population,sa2,205601,Makaraka-Awapuni,2013-03-05,2013-03-05,year,census,828.0,people,count,Total,Total,Total,,,statsnz_sa2,2026-11-22,CC BY 4.0
+sa2_population,sa2,205601,Makaraka-Awapuni,2018-03-06,2018-03-06,year,census,975.0,people,count,Total,Total,Total,,,statsnz_sa2,2026-11-22,CC BY 4.0
+sa2_population,sa2,205601,Makaraka-Awapuni,2023-03-07,2023-03-07,year,census,1077.0,people,count,Total,Total,Total,,,statsnz_sa2,2026-11-22,CC BY 4.0
+sa2_population,sa2,205700,Riverdale,2013-03-05,2013-03-05,year,census,1179.0,people,count,Total,Total,Total,,,statsnz_sa2,2026-11-22,CC BY 4.0
+sa2_population,sa2,205700,Riverdale,2018-03-06,2018-03-06,year,census,1275.0,people,count,Total,Total,Total,,,statsnz_sa2,2026-11-22,CC BY 4.0
+sa2_population,sa2,205700,Riverdale,2023-03-07,2023-03-07,year,census,1350.0,people,count,Total,Total,Total,,,statsnz_sa2,2026-11-22,CC BY 4.0
+sa2_population,sa2,205800,Te Hapara North,2013-03-05,2013-03-05,year,census,1950.0,people,count,Total,Total,Total,,,statsnz_sa2,2026-11-22,CC BY 4.0
+sa2_population,sa2,205800,Te Hapara North,2018-03-06,2018-03-06,year,census,2013.0,people,count,Total,Total,Total,,,statsnz_sa2,2026-11-22,CC BY 4.0
+sa2_population,sa2,205800,Te Hapara North,2023-03-07,2023-03-07,year,census,2196.0,people,count,Total,Total,Total,,,statsnz_sa2,2026-11-22,CC BY 4.0
+sa2_population,sa2,205900,Mangapapa North,2013-03-05,2013-03-05,year,census,1278.0,people,count,Total,Total,Total,,,statsnz_sa2,2026-11-22,CC BY 4.0
+sa2_population,sa2,205900,Mangapapa North,2018-03-06,2018-03-06,year,census,1425.0,people,count,Total,Total,Total,,,statsnz_sa2,2026-11-22,CC BY 4.0
+sa2_population,sa2,205900,Mangapapa North,2023-03-07,2023-03-07,year,census,1479.0,people,count,Total,Total,Total,,,statsnz_sa2,2026-11-22,CC BY 4.0
+sa2_population,sa2,206000,Elgin,2013-03-05,2013-03-05,year,census,2295.0,people,count,Total,Total,Total,,,statsnz_sa2,2026-11-22,CC BY 4.0
+sa2_population,sa2,206000,Elgin,2018-03-06,2018-03-06,year,census,2583.0,people,count,Total,Total,Total,,,statsnz_sa2,2026-11-22,CC BY 4.0
+sa2_population,sa2,206000,Elgin,2023-03-07,2023-03-07,year,census,2745.0,people,count,Total,Total,Total,,,statsnz_sa2,2026-11-22,CC BY 4.0
+sa2_population,sa2,206100,Te Hapara South,2013-03-05,2013-03-05,year,census,1971.0,people,count,Total,Total,Total,,,statsnz_sa2,2026-11-22,CC BY 4.0
+sa2_population,sa2,206100,Te Hapara South,2018-03-06,2018-03-06,year,census,2178.0,people,count,Total,Total,Total,,,statsnz_sa2,2026-11-22,CC BY 4.0
+sa2_population,sa2,206100,Te Hapara South,2023-03-07,2023-03-07,year,census,2400.0,people,count,Total,Total,Total,,,statsnz_sa2,2026-11-22,CC BY 4.0
+sa2_population,sa2,206200,Mangapapa East,2013-03-05,2013-03-05,year,census,1182.0,people,count,Total,Total,Total,,,statsnz_sa2,2026-11-22,CC BY 4.0
+sa2_population,sa2,206200,Mangapapa East,2018-03-06,2018-03-06,year,census,1179.0,people,count,Total,Total,Total,,,statsnz_sa2,2026-11-22,CC BY 4.0
+sa2_population,sa2,206200,Mangapapa East,2023-03-07,2023-03-07,year,census,1341.0,people,count,Total,Total,Total,,,statsnz_sa2,2026-11-22,CC BY 4.0
+sa2_population,sa2,206300,Mangapapa South,2013-03-05,2013-03-05,year,census,1734.0,people,count,Total,Total,Total,,,statsnz_sa2,2026-11-22,CC BY 4.0
+sa2_population,sa2,206300,Mangapapa South,2018-03-06,2018-03-06,year,census,1926.0,people,count,Total,Total,Total,,,statsnz_sa2,2026-11-22,CC BY 4.0
+sa2_population,sa2,206300,Mangapapa South,2023-03-07,2023-03-07,year,census,2025.0,people,count,Total,Total,Total,,,statsnz_sa2,2026-11-22,CC BY 4.0
+sa2_population,sa2,206400,Te Hapara East,2013-03-05,2013-03-05,year,census,1848.0,people,count,Total,Total,Total,,,statsnz_sa2,2026-11-22,CC BY 4.0
+sa2_population,sa2,206400,Te Hapara East,2018-03-06,2018-03-06,year,census,1992.0,people,count,Total,Total,Total,,,statsnz_sa2,2026-11-22,CC BY 4.0
+sa2_population,sa2,206400,Te Hapara East,2023-03-07,2023-03-07,year,census,2088.0,people,count,Total,Total,Total,,,statsnz_sa2,2026-11-22,CC BY 4.0
+sa2_population,sa2,206500,Centennial Crescent,2013-03-05,2013-03-05,year,census,1380.0,people,count,Total,Total,Total,,,statsnz_sa2,2026-11-22,CC BY 4.0
+sa2_population,sa2,206500,Centennial Crescent,2018-03-06,2018-03-06,year,census,1566.0,people,count,Total,Total,Total,,,statsnz_sa2,2026-11-22,CC BY 4.0
+sa2_population,sa2,206500,Centennial Crescent,2023-03-07,2023-03-07,year,census,1605.0,people,count,Total,Total,Total,,,statsnz_sa2,2026-11-22,CC BY 4.0
+sa2_population,sa2,206601,Whataupoko East,2013-03-05,2013-03-05,year,census,1788.0,people,count,Total,Total,Total,,,statsnz_sa2,2026-11-22,CC BY 4.0
+sa2_population,sa2,206601,Whataupoko East,2018-03-06,2018-03-06,year,census,1878.0,people,count,Total,Total,Total,,,statsnz_sa2,2026-11-22,CC BY 4.0
+sa2_population,sa2,206601,Whataupoko East,2023-03-07,2023-03-07,year,census,1914.0,people,count,Total,Total,Total,,,statsnz_sa2,2026-11-22,CC BY 4.0
+sa2_population,sa2,206700,Whataupoko West,2013-03-05,2013-03-05,year,census,1917.0,people,count,Total,Total,Total,,,statsnz_sa2,2026-11-22,CC BY 4.0
+sa2_population,sa2,206700,Whataupoko West,2018-03-06,2018-03-06,year,census,2052.0,people,count,Total,Total,Total,,,statsnz_sa2,2026-11-22,CC BY 4.0
+sa2_population,sa2,206700,Whataupoko West,2023-03-07,2023-03-07,year,census,2106.0,people,count,Total,Total,Total,,,statsnz_sa2,2026-11-22,CC BY 4.0
+sa2_population,sa2,206801,Gisborne Central,2013-03-05,2013-03-05,year,census,306.0,people,count,Total,Total,Total,,,statsnz_sa2,2026-11-22,CC BY 4.0
+sa2_population,sa2,206801,Gisborne Central,2018-03-06,2018-03-06,year,census,300.0,people,count,Total,Total,Total,,,statsnz_sa2,2026-11-22,CC BY 4.0
+sa2_population,sa2,206801,Gisborne Central,2023-03-07,2023-03-07,year,census,258.0,people,count,Total,Total,Total,,,statsnz_sa2,2026-11-22,CC BY 4.0
+sa2_population,sa2,206900,Kaiti North,2013-03-05,2013-03-05,year,census,1971.0,people,count,Total,Total,Total,,,statsnz_sa2,2026-11-22,CC BY 4.0
+sa2_population,sa2,206900,Kaiti North,2018-03-06,2018-03-06,year,census,2178.0,people,count,Total,Total,Total,,,statsnz_sa2,2026-11-22,CC BY 4.0
+sa2_population,sa2,206900,Kaiti North,2023-03-07,2023-03-07,year,census,2142.0,people,count,Total,Total,Total,,,statsnz_sa2,2026-11-22,CC BY 4.0
+sa2_population,sa2,207000,Kaiti South,2013-03-05,2013-03-05,year,census,2673.0,people,count,Total,Total,Total,,,statsnz_sa2,2026-11-22,CC BY 4.0
+sa2_population,sa2,207000,Kaiti South,2018-03-06,2018-03-06,year,census,3060.0,people,count,Total,Total,Total,,,statsnz_sa2,2026-11-22,CC BY 4.0
+sa2_population,sa2,207000,Kaiti South,2023-03-07,2023-03-07,year,census,3222.0,people,count,Total,Total,Total,,,statsnz_sa2,2026-11-22,CC BY 4.0
+sa2_population,sa2,207100,Outer Kaiti,2013-03-05,2013-03-05,year,census,2247.0,people,count,Total,Total,Total,,,statsnz_sa2,2026-11-22,CC BY 4.0
+sa2_population,sa2,207100,Outer Kaiti,2018-03-06,2018-03-06,year,census,2565.0,people,count,Total,Total,Total,,,statsnz_sa2,2026-11-22,CC BY 4.0
+sa2_population,sa2,207100,Outer Kaiti,2023-03-07,2023-03-07,year,census,2853.0,people,count,Total,Total,Total,,,statsnz_sa2,2026-11-22,CC BY 4.0
+sa2_population,sa2,207200,Tamarau,2013-03-05,2013-03-05,year,census,2244.0,people,count,Total,Total,Total,,,statsnz_sa2,2026-11-22,CC BY 4.0
+sa2_population,sa2,207200,Tamarau,2018-03-06,2018-03-06,year,census,2367.0,people,count,Total,Total,Total,,,statsnz_sa2,2026-11-22,CC BY 4.0
+sa2_population,sa2,207200,Tamarau,2023-03-07,2023-03-07,year,census,2676.0,people,count,Total,Total,Total,,,statsnz_sa2,2026-11-22,CC BY 4.0
+sa2_population,sa2,207301,Wainui-Okitu,2013-03-05,2013-03-05,year,census,1500.0,people,count,Total,Total,Total,,,statsnz_sa2,2026-11-22,CC BY 4.0
+sa2_population,sa2,207301,Wainui-Okitu,2018-03-06,2018-03-06,year,census,1755.0,people,count,Total,Total,Total,,,statsnz_sa2,2026-11-22,CC BY 4.0
+sa2_population,sa2,207301,Wainui-Okitu,2023-03-07,2023-03-07,year,census,2004.0,people,count,Total,Total,Total,,,statsnz_sa2,2026-11-22,CC BY 4.0
+sa2_te_reo_maori,sa2,204700,East Cape,2023-03-07,2023-03-07,year,census,42.15,%,percentage,Total,Total,Total,,,statsnz_sa2,2026-11-22,CC BY 4.0
+sa2_te_reo_maori,sa2,204800,Waipaoa,2023-03-07,2023-03-07,year,census,16.36,%,percentage,Total,Total,Total,,,statsnz_sa2,2026-11-22,CC BY 4.0
+sa2_te_reo_maori,sa2,204900,Ruatōria-Raukumara,2023-03-07,2023-03-07,year,census,44.49,%,percentage,Total,Total,Total,,,statsnz_sa2,2026-11-22,CC BY 4.0
+sa2_te_reo_maori,sa2,205000,Tokomaru,2023-03-07,2023-03-07,year,census,41.11,%,percentage,Total,Total,Total,,,statsnz_sa2,2026-11-22,CC BY 4.0
+sa2_te_reo_maori,sa2,205100,Hangaroa,2023-03-07,2023-03-07,year,census,11.95,%,percentage,Total,Total,Total,,,statsnz_sa2,2026-11-22,CC BY 4.0
+sa2_te_reo_maori,sa2,205201,Wharekaka,2023-03-07,2023-03-07,year,census,26.47,%,percentage,Total,Total,Total,,,statsnz_sa2,2026-11-22,CC BY 4.0
+sa2_te_reo_maori,sa2,205300,Te Arai,2023-03-07,2023-03-07,year,census,23.08,%,percentage,Total,Total,Total,,,statsnz_sa2,2026-11-22,CC BY 4.0
+sa2_te_reo_maori,sa2,205401,Hexton,2023-03-07,2023-03-07,year,census,5.34,%,percentage,Total,Total,Total,,,statsnz_sa2,2026-11-22,CC BY 4.0
+sa2_te_reo_maori,sa2,205500,Lytton,2023-03-07,2023-03-07,year,census,7.13,%,percentage,Total,Total,Total,,,statsnz_sa2,2026-11-22,CC BY 4.0
+sa2_te_reo_maori,sa2,205601,Makaraka-Awapuni,2023-03-07,2023-03-07,year,census,11.14,%,percentage,Total,Total,Total,,,statsnz_sa2,2026-11-22,CC BY 4.0
+sa2_te_reo_maori,sa2,205700,Riverdale,2023-03-07,2023-03-07,year,census,11.11,%,percentage,Total,Total,Total,,,statsnz_sa2,2026-11-22,CC BY 4.0
+sa2_te_reo_maori,sa2,205800,Te Hapara North,2023-03-07,2023-03-07,year,census,10.93,%,percentage,Total,Total,Total,,,statsnz_sa2,2026-11-22,CC BY 4.0
+sa2_te_reo_maori,sa2,205900,Mangapapa North,2023-03-07,2023-03-07,year,census,12.78,%,percentage,Total,Total,Total,,,statsnz_sa2,2026-11-22,CC BY 4.0
+sa2_te_reo_maori,sa2,206000,Elgin,2023-03-07,2023-03-07,year,census,18.91,%,percentage,Total,Total,Total,,,statsnz_sa2,2026-11-22,CC BY 4.0
+sa2_te_reo_maori,sa2,206100,Te Hapara South,2023-03-07,2023-03-07,year,census,14.75,%,percentage,Total,Total,Total,,,statsnz_sa2,2026-11-22,CC BY 4.0
+sa2_te_reo_maori,sa2,206200,Mangapapa East,2023-03-07,2023-03-07,year,census,11.19,%,percentage,Total,Total,Total,,,statsnz_sa2,2026-11-22,CC BY 4.0
+sa2_te_reo_maori,sa2,206300,Mangapapa South,2023-03-07,2023-03-07,year,census,14.81,%,percentage,Total,Total,Total,,,statsnz_sa2,2026-11-22,CC BY 4.0
+sa2_te_reo_maori,sa2,206400,Te Hapara East,2023-03-07,2023-03-07,year,census,13.65,%,percentage,Total,Total,Total,,,statsnz_sa2,2026-11-22,CC BY 4.0
+sa2_te_reo_maori,sa2,206500,Centennial Crescent,2023-03-07,2023-03-07,year,census,17.2,%,percentage,Total,Total,Total,,,statsnz_sa2,2026-11-22,CC BY 4.0
+sa2_te_reo_maori,sa2,206601,Whataupoko East,2023-03-07,2023-03-07,year,census,6.74,%,percentage,Total,Total,Total,,,statsnz_sa2,2026-11-22,CC BY 4.0
+sa2_te_reo_maori,sa2,206700,Whataupoko West,2023-03-07,2023-03-07,year,census,8.26,%,percentage,Total,Total,Total,,,statsnz_sa2,2026-11-22,CC BY 4.0
+sa2_te_reo_maori,sa2,206801,Gisborne Central,2023-03-07,2023-03-07,year,census,11.63,%,percentage,Total,Total,Total,,,statsnz_sa2,2026-11-22,CC BY 4.0
+sa2_te_reo_maori,sa2,206900,Kaiti North,2023-03-07,2023-03-07,year,census,13.59,%,percentage,Total,Total,Total,,,statsnz_sa2,2026-11-22,CC BY 4.0
+sa2_te_reo_maori,sa2,207000,Kaiti South,2023-03-07,2023-03-07,year,census,20.95,%,percentage,Total,Total,Total,,,statsnz_sa2,2026-11-22,CC BY 4.0
+sa2_te_reo_maori,sa2,207100,Outer Kaiti,2023-03-07,2023-03-07,year,census,25.45,%,percentage,Total,Total,Total,,,statsnz_sa2,2026-11-22,CC BY 4.0
+sa2_te_reo_maori,sa2,207200,Tamarau,2023-03-07,2023-03-07,year,census,22.53,%,percentage,Total,Total,Total,,,statsnz_sa2,2026-11-22,CC BY 4.0
+sa2_te_reo_maori,sa2,207301,Wainui-Okitu,2023-03-07,2023-03-07,year,census,4.04,%,percentage,Total,Total,Total,,,statsnz_sa2,2026-11-22,CC BY 4.0
+sa2_under_15,sa2,204700,East Cape,2013-03-05,2013-03-05,year,census,28.96,%,percentage,Total,Total,Total,,,statsnz_sa2,2026-11-22,CC BY 4.0
+sa2_under_15,sa2,204700,East Cape,2018-03-06,2018-03-06,year,census,25.92,%,percentage,Total,Total,Total,,,statsnz_sa2,2026-11-22,CC BY 4.0
+sa2_under_15,sa2,204700,East Cape,2023-03-07,2023-03-07,year,census,25.45,%,percentage,Total,Total,Total,,,statsnz_sa2,2026-11-22,CC BY 4.0
+sa2_under_15,sa2,204800,Waipaoa,2013-03-05,2013-03-05,year,census,25.27,%,percentage,Total,Total,Total,,,statsnz_sa2,2026-11-22,CC BY 4.0
+sa2_under_15,sa2,204800,Waipaoa,2018-03-06,2018-03-06,year,census,23.96,%,percentage,Total,Total,Total,,,statsnz_sa2,2026-11-22,CC BY 4.0
+sa2_under_15,sa2,204800,Waipaoa,2023-03-07,2023-03-07,year,census,23.27,%,percentage,Total,Total,Total,,,statsnz_sa2,2026-11-22,CC BY 4.0
+sa2_under_15,sa2,204900,Ruatōria-Raukumara,2013-03-05,2013-03-05,year,census,32.42,%,percentage,Total,Total,Total,,,statsnz_sa2,2026-11-22,CC BY 4.0
+sa2_under_15,sa2,204900,Ruatōria-Raukumara,2018-03-06,2018-03-06,year,census,27.25,%,percentage,Total,Total,Total,,,statsnz_sa2,2026-11-22,CC BY 4.0
+sa2_under_15,sa2,204900,Ruatōria-Raukumara,2023-03-07,2023-03-07,year,census,28.27,%,percentage,Total,Total,Total,,,statsnz_sa2,2026-11-22,CC BY 4.0
+sa2_under_15,sa2,205000,Tokomaru,2013-03-05,2013-03-05,year,census,25.08,%,percentage,Total,Total,Total,,,statsnz_sa2,2026-11-22,CC BY 4.0
+sa2_under_15,sa2,205000,Tokomaru,2018-03-06,2018-03-06,year,census,21.7,%,percentage,Total,Total,Total,,,statsnz_sa2,2026-11-22,CC BY 4.0
+sa2_under_15,sa2,205000,Tokomaru,2023-03-07,2023-03-07,year,census,21.57,%,percentage,Total,Total,Total,,,statsnz_sa2,2026-11-22,CC BY 4.0
+sa2_under_15,sa2,205100,Hangaroa,2013-03-05,2013-03-05,year,census,23.05,%,percentage,Total,Total,Total,,,statsnz_sa2,2026-11-22,CC BY 4.0
+sa2_under_15,sa2,205100,Hangaroa,2018-03-06,2018-03-06,year,census,24.17,%,percentage,Total,Total,Total,,,statsnz_sa2,2026-11-22,CC BY 4.0
+sa2_under_15,sa2,205100,Hangaroa,2023-03-07,2023-03-07,year,census,24.45,%,percentage,Total,Total,Total,,,statsnz_sa2,2026-11-22,CC BY 4.0
+sa2_under_15,sa2,205201,Wharekaka,2013-03-05,2013-03-05,year,census,24.91,%,percentage,Total,Total,Total,,,statsnz_sa2,2026-11-22,CC BY 4.0
+sa2_under_15,sa2,205201,Wharekaka,2018-03-06,2018-03-06,year,census,25.0,%,percentage,Total,Total,Total,,,statsnz_sa2,2026-11-22,CC BY 4.0
+sa2_under_15,sa2,205201,Wharekaka,2023-03-07,2023-03-07,year,census,23.46,%,percentage,Total,Total,Total,,,statsnz_sa2,2026-11-22,CC BY 4.0
+sa2_under_15,sa2,205300,Te Arai,2013-03-05,2013-03-05,year,census,22.73,%,percentage,Total,Total,Total,,,statsnz_sa2,2026-11-22,CC BY 4.0
+sa2_under_15,sa2,205300,Te Arai,2018-03-06,2018-03-06,year,census,20.74,%,percentage,Total,Total,Total,,,statsnz_sa2,2026-11-22,CC BY 4.0
+sa2_under_15,sa2,205300,Te Arai,2023-03-07,2023-03-07,year,census,22.38,%,percentage,Total,Total,Total,,,statsnz_sa2,2026-11-22,CC BY 4.0
+sa2_under_15,sa2,205401,Hexton,2013-03-05,2013-03-05,year,census,22.18,%,percentage,Total,Total,Total,,,statsnz_sa2,2026-11-22,CC BY 4.0
+sa2_under_15,sa2,205401,Hexton,2018-03-06,2018-03-06,year,census,20.69,%,percentage,Total,Total,Total,,,statsnz_sa2,2026-11-22,CC BY 4.0
+sa2_under_15,sa2,205401,Hexton,2023-03-07,2023-03-07,year,census,19.03,%,percentage,Total,Total,Total,,,statsnz_sa2,2026-11-22,CC BY 4.0
+sa2_under_15,sa2,205500,Lytton,2013-03-05,2013-03-05,year,census,14.41,%,percentage,Total,Total,Total,,,statsnz_sa2,2026-11-22,CC BY 4.0
+sa2_under_15,sa2,205500,Lytton,2018-03-06,2018-03-06,year,census,9.85,%,percentage,Total,Total,Total,,,statsnz_sa2,2026-11-22,CC BY 4.0
+sa2_under_15,sa2,205500,Lytton,2023-03-07,2023-03-07,year,census,9.64,%,percentage,Total,Total,Total,,,statsnz_sa2,2026-11-22,CC BY 4.0
+sa2_under_15,sa2,205601,Makaraka-Awapuni,2013-03-05,2013-03-05,year,census,18.84,%,percentage,Total,Total,Total,,,statsnz_sa2,2026-11-22,CC BY 4.0
+sa2_under_15,sa2,205601,Makaraka-Awapuni,2018-03-06,2018-03-06,year,census,17.54,%,percentage,Total,Total,Total,,,statsnz_sa2,2026-11-22,CC BY 4.0
+sa2_under_15,sa2,205601,Makaraka-Awapuni,2023-03-07,2023-03-07,year,census,17.83,%,percentage,Total,Total,Total,,,statsnz_sa2,2026-11-22,CC BY 4.0
+sa2_under_15,sa2,205700,Riverdale,2013-03-05,2013-03-05,year,census,20.87,%,percentage,Total,Total,Total,,,statsnz_sa2,2026-11-22,CC BY 4.0
+sa2_under_15,sa2,205700,Riverdale,2018-03-06,2018-03-06,year,census,19.29,%,percentage,Total,Total,Total,,,statsnz_sa2,2026-11-22,CC BY 4.0
+sa2_under_15,sa2,205700,Riverdale,2023-03-07,2023-03-07,year,census,18.89,%,percentage,Total,Total,Total,,,statsnz_sa2,2026-11-22,CC BY 4.0
+sa2_under_15,sa2,205800,Te Hapara North,2013-03-05,2013-03-05,year,census,23.23,%,percentage,Total,Total,Total,,,statsnz_sa2,2026-11-22,CC BY 4.0
+sa2_under_15,sa2,205800,Te Hapara North,2018-03-06,2018-03-06,year,census,22.21,%,percentage,Total,Total,Total,,,statsnz_sa2,2026-11-22,CC BY 4.0
+sa2_under_15,sa2,205800,Te Hapara North,2023-03-07,2023-03-07,year,census,21.58,%,percentage,Total,Total,Total,,,statsnz_sa2,2026-11-22,CC BY 4.0
+sa2_under_15,sa2,205900,Mangapapa North,2013-03-05,2013-03-05,year,census,23.24,%,percentage,Total,Total,Total,,,statsnz_sa2,2026-11-22,CC BY 4.0
+sa2_under_15,sa2,205900,Mangapapa North,2018-03-06,2018-03-06,year,census,25.26,%,percentage,Total,Total,Total,,,statsnz_sa2,2026-11-22,CC BY 4.0
+sa2_under_15,sa2,205900,Mangapapa North,2023-03-07,2023-03-07,year,census,24.95,%,percentage,Total,Total,Total,,,statsnz_sa2,2026-11-22,CC BY 4.0
+sa2_under_15,sa2,206000,Elgin,2013-03-05,2013-03-05,year,census,25.75,%,percentage,Total,Total,Total,,,statsnz_sa2,2026-11-22,CC BY 4.0
+sa2_under_15,sa2,206000,Elgin,2018-03-06,2018-03-06,year,census,25.55,%,percentage,Total,Total,Total,,,statsnz_sa2,2026-11-22,CC BY 4.0
+sa2_under_15,sa2,206000,Elgin,2023-03-07,2023-03-07,year,census,24.04,%,percentage,Total,Total,Total,,,statsnz_sa2,2026-11-22,CC BY 4.0
+sa2_under_15,sa2,206100,Te Hapara South,2013-03-05,2013-03-05,year,census,25.11,%,percentage,Total,Total,Total,,,statsnz_sa2,2026-11-22,CC BY 4.0
+sa2_under_15,sa2,206100,Te Hapara South,2018-03-06,2018-03-06,year,census,24.24,%,percentage,Total,Total,Total,,,statsnz_sa2,2026-11-22,CC BY 4.0
+sa2_under_15,sa2,206100,Te Hapara South,2023-03-07,2023-03-07,year,census,23.5,%,percentage,Total,Total,Total,,,statsnz_sa2,2026-11-22,CC BY 4.0
+sa2_under_15,sa2,206200,Mangapapa East,2013-03-05,2013-03-05,year,census,24.62,%,percentage,Total,Total,Total,,,statsnz_sa2,2026-11-22,CC BY 4.0
+sa2_under_15,sa2,206200,Mangapapa East,2018-03-06,2018-03-06,year,census,21.63,%,percentage,Total,Total,Total,,,statsnz_sa2,2026-11-22,CC BY 4.0
+sa2_under_15,sa2,206200,Mangapapa East,2023-03-07,2023-03-07,year,census,19.46,%,percentage,Total,Total,Total,,,statsnz_sa2,2026-11-22,CC BY 4.0
+sa2_under_15,sa2,206300,Mangapapa South,2013-03-05,2013-03-05,year,census,26.64,%,percentage,Total,Total,Total,,,statsnz_sa2,2026-11-22,CC BY 4.0
+sa2_under_15,sa2,206300,Mangapapa South,2018-03-06,2018-03-06,year,census,26.95,%,percentage,Total,Total,Total,,,statsnz_sa2,2026-11-22,CC BY 4.0
+sa2_under_15,sa2,206300,Mangapapa South,2023-03-07,2023-03-07,year,census,24.59,%,percentage,Total,Total,Total,,,statsnz_sa2,2026-11-22,CC BY 4.0
+sa2_under_15,sa2,206400,Te Hapara East,2013-03-05,2013-03-05,year,census,23.05,%,percentage,Total,Total,Total,,,statsnz_sa2,2026-11-22,CC BY 4.0
+sa2_under_15,sa2,206400,Te Hapara East,2018-03-06,2018-03-06,year,census,21.69,%,percentage,Total,Total,Total,,,statsnz_sa2,2026-11-22,CC BY 4.0
+sa2_under_15,sa2,206400,Te Hapara East,2023-03-07,2023-03-07,year,census,18.53,%,percentage,Total,Total,Total,,,statsnz_sa2,2026-11-22,CC BY 4.0
+sa2_under_15,sa2,206500,Centennial Crescent,2013-03-05,2013-03-05,year,census,25.43,%,percentage,Total,Total,Total,,,statsnz_sa2,2026-11-22,CC BY 4.0
+sa2_under_15,sa2,206500,Centennial Crescent,2018-03-06,2018-03-06,year,census,25.48,%,percentage,Total,Total,Total,,,statsnz_sa2,2026-11-22,CC BY 4.0
+sa2_under_15,sa2,206500,Centennial Crescent,2023-03-07,2023-03-07,year,census,21.87,%,percentage,Total,Total,Total,,,statsnz_sa2,2026-11-22,CC BY 4.0
+sa2_under_15,sa2,206601,Whataupoko East,2013-03-05,2013-03-05,year,census,21.48,%,percentage,Total,Total,Total,,,statsnz_sa2,2026-11-22,CC BY 4.0
+sa2_under_15,sa2,206601,Whataupoko East,2018-03-06,2018-03-06,year,census,21.25,%,percentage,Total,Total,Total,,,statsnz_sa2,2026-11-22,CC BY 4.0
+sa2_under_15,sa2,206601,Whataupoko East,2023-03-07,2023-03-07,year,census,19.91,%,percentage,Total,Total,Total,,,statsnz_sa2,2026-11-22,CC BY 4.0
+sa2_under_15,sa2,206700,Whataupoko West,2013-03-05,2013-03-05,year,census,21.6,%,percentage,Total,Total,Total,,,statsnz_sa2,2026-11-22,CC BY 4.0
+sa2_under_15,sa2,206700,Whataupoko West,2018-03-06,2018-03-06,year,census,21.35,%,percentage,Total,Total,Total,,,statsnz_sa2,2026-11-22,CC BY 4.0
+sa2_under_15,sa2,206700,Whataupoko West,2023-03-07,2023-03-07,year,census,17.95,%,percentage,Total,Total,Total,,,statsnz_sa2,2026-11-22,CC BY 4.0
+sa2_under_15,sa2,206801,Gisborne Central,2013-03-05,2013-03-05,year,census,8.82,%,percentage,Total,Total,Total,,,statsnz_sa2,2026-11-22,CC BY 4.0
+sa2_under_15,sa2,206801,Gisborne Central,2018-03-06,2018-03-06,year,census,10.0,%,percentage,Total,Total,Total,,,statsnz_sa2,2026-11-22,CC BY 4.0
+sa2_under_15,sa2,206801,Gisborne Central,2023-03-07,2023-03-07,year,census,8.14,%,percentage,Total,Total,Total,,,statsnz_sa2,2026-11-22,CC BY 4.0
+sa2_under_15,sa2,206900,Kaiti North,2013-03-05,2013-03-05,year,census,21.77,%,percentage,Total,Total,Total,,,statsnz_sa2,2026-11-22,CC BY 4.0
+sa2_under_15,sa2,206900,Kaiti North,2018-03-06,2018-03-06,year,census,21.21,%,percentage,Total,Total,Total,,,statsnz_sa2,2026-11-22,CC BY 4.0
+sa2_under_15,sa2,206900,Kaiti North,2023-03-07,2023-03-07,year,census,17.93,%,percentage,Total,Total,Total,,,statsnz_sa2,2026-11-22,CC BY 4.0
+sa2_under_15,sa2,207000,Kaiti South,2013-03-05,2013-03-05,year,census,27.27,%,percentage,Total,Total,Total,,,statsnz_sa2,2026-11-22,CC BY 4.0
+sa2_under_15,sa2,207000,Kaiti South,2018-03-06,2018-03-06,year,census,27.55,%,percentage,Total,Total,Total,,,statsnz_sa2,2026-11-22,CC BY 4.0
+sa2_under_15,sa2,207000,Kaiti South,2023-03-07,2023-03-07,year,census,24.86,%,percentage,Total,Total,Total,,,statsnz_sa2,2026-11-22,CC BY 4.0
+sa2_under_15,sa2,207100,Outer Kaiti,2013-03-05,2013-03-05,year,census,32.31,%,percentage,Total,Total,Total,,,statsnz_sa2,2026-11-22,CC BY 4.0
+sa2_under_15,sa2,207100,Outer Kaiti,2018-03-06,2018-03-06,year,census,31.81,%,percentage,Total,Total,Total,,,statsnz_sa2,2026-11-22,CC BY 4.0
+sa2_under_15,sa2,207100,Outer Kaiti,2023-03-07,2023-03-07,year,census,29.23,%,percentage,Total,Total,Total,,,statsnz_sa2,2026-11-22,CC BY 4.0
+sa2_under_15,sa2,207200,Tamarau,2013-03-05,2013-03-05,year,census,30.08,%,percentage,Total,Total,Total,,,statsnz_sa2,2026-11-22,CC BY 4.0
+sa2_under_15,sa2,207200,Tamarau,2018-03-06,2018-03-06,year,census,29.02,%,percentage,Total,Total,Total,,,statsnz_sa2,2026-11-22,CC BY 4.0
+sa2_under_15,sa2,207200,Tamarau,2023-03-07,2023-03-07,year,census,26.46,%,percentage,Total,Total,Total,,,statsnz_sa2,2026-11-22,CC BY 4.0
+sa2_under_15,sa2,207301,Wainui-Okitu,2013-03-05,2013-03-05,year,census,21.0,%,percentage,Total,Total,Total,,,statsnz_sa2,2026-11-22,CC BY 4.0
+sa2_under_15,sa2,207301,Wainui-Okitu,2018-03-06,2018-03-06,year,census,24.96,%,percentage,Total,Total,Total,,,statsnz_sa2,2026-11-22,CC BY 4.0
+sa2_under_15,sa2,207301,Wainui-Okitu,2023-03-07,2023-03-07,year,census,22.75,%,percentage,Total,Total,Total,,,statsnz_sa2,2026-11-22,CC BY 4.0
 gisborne_live_births,region,05,Gisborne Region,2012-01-01,2012-12-31,year,calendar,708.0,births,count,Total,Total,Total,,,statsnz_vital_statistics,2026-11-20,CC BY 4.0
 gisborne_live_births,region,05,Gisborne Region,2013-01-01,2013-12-31,year,calendar,699.0,births,count,Total,Total,Total,,,statsnz_vital_statistics,2026-11-20,CC BY 4.0
 gisborne_live_births,region,05,Gisborne Region,2014-01-01,2014-12-31,year,calendar,651.0,births,count,Total,Total,Total,,,statsnz_vital_statistics,2026-11-20,CC BY 4.0
