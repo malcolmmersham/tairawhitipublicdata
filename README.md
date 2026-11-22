@@ -182,9 +182,12 @@ before they can be added here.
 - **Local election turnout (R5).** The published snapshots use the overall turnout from the mayoral
   section of each official CSV. Check earlier contested elections before charting a longer series.
   [Official 2022 and 2025 election data](https://www.mcert.govt.nz/our-work/local-government/local-elections-and-voting/local-authority-election-statistics/)
-- **Census te reo Māori (R4).** The snapshot uses the Stats NZ Gisborne Region estimate. Check
-  denominators, geography and the effects of imputation
-  across census years before publishing a trend.
+- **Census te reo Māori (R4).** The snapshot uses the Stats NZ Gisborne Region estimate
+  (8,625 of 51,135 people in 2023, ADE `CEN23_ECI_021`). The same table gives 2013 and 2018
+  counts, but they are not charted as a trend. In 2013, 8% of Gisborne responses were not stated
+  and are left out of the denominator. In 2018 and 2023, missing answers were filled from earlier
+  census data and imputation. Stats NZ rated 2018 te reo Māori data poor, and the external quality
+  panel attributed the 2018 rise in speakers to these methods in low-response regions such as Gisborne.
   [Stats NZ Gisborne Region summary](https://tools.summaries.stats.govt.nz/places/rc/gisborne-region)
   [2018 Census variable quality assessment](https://www.stats.govt.nz/assets/Uploads/Reports/2018-Census-External-Data-Quality-Panel-Assessment-of-Variables/Download-data/2018-census-external-data-quality-panel-assessment-of-variables.pdf)
 - **Labour market:** there is no Tairāwhiti-only unemployment rate (HLFS combines Gisborne and
