@@ -28,7 +28,7 @@ SOURCES = ["statsnz_ade", "msd_benefits", "hud_housing", "healthnz_immunisation"
            "statsnz_emissions", "moe_attendance", "statsnz_regional_gdp", "hud_affordability", "hud_urban_land", "moe_leavers",
            "statsnz_monthly", "mbie_accommodation", "statsnz_census_households", "ea_residential",
            "statsnz_vital_statistics", "moe_rolls_ece", "statsnz_river_quality", "statsnz_council_finance",
-           "moe_school_discipline", "lawa_swimming", "moe_maori_medium", "statsnz_sa2", "nzqa_secondary",
+           "moe_school_discipline", "lawa_swimming", "lawa_groundwater", "moe_maori_medium", "statsnz_sa2", "nzqa_secondary",
            "statsnz_agriculture", "statsnz_leed", "nzta_mvr", "nzta_traffic", "moj_courts",
            "healthnz_hpv", "healthnz_pho_enrolment", "moh_nzhs_regional"]
 MODULES = {
@@ -45,6 +45,7 @@ MODULES = {
     "statsnz_council_finance": "statsnz_council_finance",
     "moe_school_discipline": "moe_school_discipline",
     "lawa_swimming": "lawa_swimming",
+    "lawa_groundwater": "lawa_groundwater",
     "moe_maori_medium": "moe_maori_medium",
     "statsnz_sa2": "statsnz_sa2",
     "nzqa_secondary": "nzqa_secondary",
@@ -133,11 +134,12 @@ def build() -> None:
         if ind not in inds:
             continue
         g = g.sort_values("period_end")
+        digits = inds[ind].get("decimals", 2)
         series.append({
             "indicator": ind, "geo": geo, "geo_type": geo_type, "geo_name": g.geo_name.iloc[0], "ethnicity": eth,
             "source": g.source_id.iloc[0], "period_type": g.period_type.iloc[0],
             "unit": g.unit.iloc[0],
-            "points": [[r.period_end, None if pd.isna(r.value) else round(float(r.value), 2),
+            "points": [[r.period_end, None if pd.isna(r.value) else round(float(r.value), digits),
                         r.suppression_flag or r.quality_flag or None] for r in g.itertuples()],
         })
         if g.period_type.iloc[0] == "multi_year":

@@ -158,6 +158,13 @@ sources:
     licence_url: https://creativecommons.org/licenses/by/4.0/
     cadence: annual
     check_every_days: 7
+  lawa_groundwater:
+    name: LAWA and Gisborne District Council – Groundwater quality monitoring
+    url: https://www.lawa.org.nz/download-data
+    attribution: "Source: LAWA (Land, Air, Water Aotearoa) and Gisborne District Council. Extracted CC BY 4.0 monitoring records; less-than values kept at the lab reporting limit."
+    licence_url: https://creativecommons.org/licenses/by/4.0/
+    cadence: annual
+    check_every_days: 7
   statsnz_agriculture:
     name: Stats NZ – Agricultural production statistics (Aotearoa Data Explorer)
     url: https://explore.data.stats.govt.nz/
@@ -412,6 +419,62 @@ indicators:
     format: dec1
     caveat: "Historical routine samples by coastal site from the reviewed LAWA release. The < and > signs identify lab reporting limits."
     advice_url: https://www.gdc.govt.nz/recreation/can-i-swim-here
+
+  groundwater_chloride:
+    name: Groundwater bores · chloride
+    domain: Taiao
+    topic: Groundwater quality
+    display: sites
+    direction: neutral
+    headline: false
+    format: exact
+    decimals: 6
+    scale: linear
+    caveat: "Groundwater samples from Gisborne District Council State of the Environment bores in the reviewed LAWA release. Times are as supplied by the Council and may be NZST, NZDT or UTC. The < sign identifies a lab reporting limit. This is groundwater, not swimming-water advice, and differs from LAWA's state and trend results."
+  groundwater_conductivity:
+    name: Groundwater bores · electrical conductivity (salinity)
+    domain: Taiao
+    topic: Groundwater quality
+    display: sites
+    direction: neutral
+    headline: false
+    format: exact
+    decimals: 6
+    scale: linear
+    caveat: "Groundwater samples from Gisborne District Council State of the Environment bores in the reviewed LAWA release. Times are as supplied by the Council and may be NZST, NZDT or UTC. The < sign identifies a lab reporting limit. This is groundwater, not swimming-water advice, and differs from LAWA's state and trend results."
+  groundwater_nitrate_n:
+    name: Groundwater bores · nitrate nitrogen
+    domain: Taiao
+    topic: Groundwater quality
+    display: sites
+    direction: neutral
+    headline: false
+    format: exact
+    decimals: 6
+    scale: linear
+    caveat: "Groundwater samples from Gisborne District Council State of the Environment bores in the reviewed LAWA release. Times are as supplied by the Council and may be NZST, NZDT or UTC. The < sign identifies a lab reporting limit. This is groundwater, not swimming-water advice, and differs from LAWA's state and trend results."
+  groundwater_drp:
+    name: Groundwater bores · dissolved reactive phosphorus
+    domain: Taiao
+    topic: Groundwater quality
+    display: sites
+    direction: neutral
+    headline: false
+    format: exact
+    decimals: 6
+    scale: linear
+    caveat: "Groundwater samples from Gisborne District Council State of the Environment bores in the reviewed LAWA release. Times are as supplied by the Council and may be NZST, NZDT or UTC. The < sign identifies a lab reporting limit. This is groundwater, not swimming-water advice, and differs from LAWA's state and trend results."
+  groundwater_ecoli:
+    name: Groundwater bores · E. coli
+    domain: Taiao
+    topic: Groundwater quality
+    display: sites
+    direction: neutral
+    headline: false
+    format: exact
+    decimals: 6
+    scale: log
+    caveat: "Groundwater samples from Gisborne District Council State of the Environment bores in the reviewed LAWA release. Times are as supplied by the Council and may be NZST, NZDT or UTC. The < sign identifies a lab reporting limit. This is groundwater, not swimming-water advice, and differs from LAWA's state and trend results."
 
   gisborne_live_births:
     name: Registered live births
