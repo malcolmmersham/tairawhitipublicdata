@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-22T00:37:57+00:00",
+ "generated": "2026-11-22T00:55:07+00:00",
  "indicators": {
   "gisborne_stand_down_cases": {
    "name": "School stand-downs",
@@ -299,6 +299,46 @@
    "headline": false,
    "format": "pct",
    "caveat": "Percentage of school leavers with NCEA Level 2 or equivalent or above. Geography refers to the school’s location."
+  },
+  "nzqa_ncea_level_1_year_11": {
+   "name": "Year 11 students attaining NCEA Level 1",
+   "domain": "Mātauranga",
+   "topic": "NCEA attainment",
+   "direction": "up",
+   "headline": false,
+   "format": "pct",
+   "url": "https://www2.nzqa.govt.nz/ncea/understanding-secondary-quals/secondary-school-stats/",
+   "caveat": "Participation-based: share of Year 11 students entered for 80 or more Level 1 credits who attained NCEA Level 1. NZQA secondary school statistics for its Gisborne region, defined by the location of the student's school. Cumulative attainment by the end of the year for domestic students aged under 19 enrolled at a secondary school. NZQA attainment differs from the Ministry of Education school-leaver measure, which counts the highest qualification held when students leave school. NZQA does not publish regional attainment by ethnicity."
+  },
+  "nzqa_ncea_level_2_year_12": {
+   "name": "Year 12 students attaining NCEA Level 2",
+   "domain": "Mātauranga",
+   "topic": "NCEA attainment",
+   "direction": "up",
+   "headline": false,
+   "format": "pct",
+   "url": "https://www2.nzqa.govt.nz/ncea/understanding-secondary-quals/secondary-school-stats/",
+   "caveat": "Enrolment-based: share of all Year 12 students who attained NCEA Level 2. NZQA secondary school statistics for its Gisborne region, defined by the location of the student's school. Cumulative attainment by the end of the year for domestic students aged under 19 enrolled at a secondary school. NZQA attainment differs from the Ministry of Education school-leaver measure, which counts the highest qualification held when students leave school. NZQA does not publish regional attainment by ethnicity."
+  },
+  "nzqa_ncea_level_3_year_13": {
+   "name": "Year 13 students attaining NCEA Level 3",
+   "domain": "Mātauranga",
+   "topic": "NCEA attainment",
+   "direction": "up",
+   "headline": false,
+   "format": "pct",
+   "url": "https://www2.nzqa.govt.nz/ncea/understanding-secondary-quals/secondary-school-stats/",
+   "caveat": "Enrolment-based: share of all Year 13 students who attained NCEA Level 3. NZQA secondary school statistics for its Gisborne region, defined by the location of the student's school. Cumulative attainment by the end of the year for domestic students aged under 19 enrolled at a secondary school. NZQA attainment differs from the Ministry of Education school-leaver measure, which counts the highest qualification held when students leave school. NZQA does not publish regional attainment by ethnicity."
+  },
+  "nzqa_university_entrance_year_13": {
+   "name": "Year 13 students attaining University Entrance",
+   "domain": "Mātauranga",
+   "topic": "NCEA attainment",
+   "direction": "up",
+   "headline": false,
+   "format": "pct",
+   "url": "https://www2.nzqa.govt.nz/ncea/understanding-secondary-quals/secondary-school-stats/",
+   "caveat": "Enrolment-based: share of all Year 13 students who attained University Entrance. NZQA secondary school statistics for its Gisborne region, defined by the location of the student's school. Cumulative attainment by the end of the year for domestic students aged under 19 enrolled at a secondary school. NZQA attainment differs from the Ministry of Education school-leaver measure, which counts the highest qualification held when students leave school. NZQA does not publish regional attainment by ethnicity."
   },
   "gisborne_mayoral_turnout": {
    "name": "Gisborne mayoral turnout",
@@ -755,6 +795,14 @@
    "name": "LAWA and Gisborne District Council – Recreational water monitoring",
    "url": "https://www.lawa.org.nz/download-data",
    "attribution": "Source: LAWA and Gisborne District Council. Extracted routine sampling records under CC BY 4.0.",
+   "licence_url": "https://creativecommons.org/licenses/by/4.0/",
+   "cadence": "annual",
+   "check_every_days": 7
+  },
+  "nzqa_secondary": {
+   "name": "NZQA – Secondary school statistics",
+   "url": "https://www2.nzqa.govt.nz/ncea/understanding-secondary-quals/secondary-school-stats/",
+   "attribution": "Source: New Zealand Qualifications Authority, licensed under CC BY 4.0",
    "licence_url": "https://creativecommons.org/licenses/by/4.0/",
    "cadence": "annual",
    "check_every_days": 7
@@ -41862,6 +41910,254 @@
    ]
   },
   {
+   "indicator": "nzqa_ncea_level_1_year_11",
+   "geo": "05",
+   "geo_type": "region",
+   "geo_name": "Gisborne Region",
+   "ethnicity": "Total",
+   "source": "nzqa_secondary",
+   "period_type": "year",
+   "unit": "percent",
+   "points": [
+    [
+     "2016-12-31",
+     83.3,
+     null
+    ],
+    [
+     "2017-12-31",
+     80.4,
+     null
+    ],
+    [
+     "2018-12-31",
+     75.1,
+     null
+    ],
+    [
+     "2019-12-31",
+     73.3,
+     null
+    ],
+    [
+     "2020-12-31",
+     81.9,
+     null
+    ],
+    [
+     "2021-12-31",
+     74.3,
+     null
+    ],
+    [
+     "2022-12-31",
+     75.0,
+     null
+    ],
+    [
+     "2023-12-31",
+     73.3,
+     null
+    ],
+    [
+     "2024-12-31",
+     70.7,
+     null
+    ],
+    [
+     "2025-12-31",
+     72.4,
+     null
+    ]
+   ]
+  },
+  {
+   "indicator": "nzqa_ncea_level_2_year_12",
+   "geo": "05",
+   "geo_type": "region",
+   "geo_name": "Gisborne Region",
+   "ethnicity": "Total",
+   "source": "nzqa_secondary",
+   "period_type": "year",
+   "unit": "percent",
+   "points": [
+    [
+     "2016-12-31",
+     75.6,
+     null
+    ],
+    [
+     "2017-12-31",
+     73.5,
+     null
+    ],
+    [
+     "2018-12-31",
+     75.5,
+     null
+    ],
+    [
+     "2019-12-31",
+     72.8,
+     null
+    ],
+    [
+     "2020-12-31",
+     73.9,
+     null
+    ],
+    [
+     "2021-12-31",
+     71.1,
+     null
+    ],
+    [
+     "2022-12-31",
+     69.1,
+     null
+    ],
+    [
+     "2023-12-31",
+     67.2,
+     null
+    ],
+    [
+     "2024-12-31",
+     71.9,
+     null
+    ],
+    [
+     "2025-12-31",
+     75.4,
+     null
+    ]
+   ]
+  },
+  {
+   "indicator": "nzqa_ncea_level_3_year_13",
+   "geo": "05",
+   "geo_type": "region",
+   "geo_name": "Gisborne Region",
+   "ethnicity": "Total",
+   "source": "nzqa_secondary",
+   "period_type": "year",
+   "unit": "percent",
+   "points": [
+    [
+     "2016-12-31",
+     52.5,
+     null
+    ],
+    [
+     "2017-12-31",
+     57.3,
+     null
+    ],
+    [
+     "2018-12-31",
+     57.0,
+     null
+    ],
+    [
+     "2019-12-31",
+     58.4,
+     null
+    ],
+    [
+     "2020-12-31",
+     65.5,
+     null
+    ],
+    [
+     "2021-12-31",
+     60.9,
+     null
+    ],
+    [
+     "2022-12-31",
+     56.8,
+     null
+    ],
+    [
+     "2023-12-31",
+     59.0,
+     null
+    ],
+    [
+     "2024-12-31",
+     61.1,
+     null
+    ],
+    [
+     "2025-12-31",
+     64.4,
+     null
+    ]
+   ]
+  },
+  {
+   "indicator": "nzqa_university_entrance_year_13",
+   "geo": "05",
+   "geo_type": "region",
+   "geo_name": "Gisborne Region",
+   "ethnicity": "Total",
+   "source": "nzqa_secondary",
+   "period_type": "year",
+   "unit": "percent",
+   "points": [
+    [
+     "2016-12-31",
+     30.2,
+     null
+    ],
+    [
+     "2017-12-31",
+     32.8,
+     null
+    ],
+    [
+     "2018-12-31",
+     34.4,
+     null
+    ],
+    [
+     "2019-12-31",
+     37.9,
+     null
+    ],
+    [
+     "2020-12-31",
+     43.3,
+     null
+    ],
+    [
+     "2021-12-31",
+     39.5,
+     null
+    ],
+    [
+     "2022-12-31",
+     40.3,
+     null
+    ],
+    [
+     "2023-12-31",
+     36.0,
+     null
+    ],
+    [
+     "2024-12-31",
+     37.8,
+     null
+    ],
+    [
+     "2025-12-31",
+     43.3,
+     null
+    ]
+   ]
+  },
+  {
    "indicator": "cas_deaths",
    "geo": "05",
    "geo_type": "region",
@@ -49997,6 +50293,16 @@
    "last_success": "2026-11-22T00:28:57+00:00",
    "mode": "manual",
    "schema_hash": "b82f5b5156"
+  },
+  "nzqa_secondary": {
+   "source_id": "nzqa_secondary",
+   "ok": true,
+   "rows": 40,
+   "latest_period": "2025-12-31",
+   "message": "ok",
+   "checked": "2026-11-22T00:55:07+00:00",
+   "last_success": "2026-11-22T00:55:07+00:00",
+   "schema_hash": "55b420289c"
   }
  },
  "catalogue": [
@@ -50494,10 +50800,10 @@
    "domain": "Mātauranga",
    "frequency": "Annual",
    "phase": 2,
-   "status": "planned",
+   "status": "live",
    "release": 3,
-   "note": "NZQA enrolment-based regional series is separate from school leaver attainment. The consolidated download needs verification.",
-   "url": "https://www2.nzqa.govt.nz/ncea/understanding-secondary-quals/secondary-school-stats/2025/"
+   "note": "NCEA Level 1 (participation-based), Levels 2 and 3 and University Entrance (enrolment-based) for schools in NZQA's Gisborne region, 2016 onward. Separate from school leaver attainment. NZQA does not publish regional results by ethnicity.",
+   "url": "https://www2.nzqa.govt.nz/ncea/understanding-secondary-quals/secondary-school-stats/"
   },
   {
    "id": "M5",
@@ -50536,7 +50842,7 @@
    "phase": 2,
    "status": "planned",
    "release": 3,
-   "note": "Verify a reusable participation series with a local residence geography. School-leaver progression is a separate measure.",
+   "note": "Education Counts is the only verified publisher of tertiary participation by region of residence and refuses automated downloads. A reviewed publisher workbook in data/manual is needed. School-leaver progression is a separate measure.",
    "url": "https://www.educationcounts.govt.nz/statistics/tertiary-participation"
   },
   {
