@@ -2743,6 +2743,30 @@ hud_transitional_places,ta,028,Gisborne District,2026-06-01,2026-06-30,month,cal
 hud_transitional_places,ta,028,Gisborne District,2026-07-01,2026-07-31,month,calendar,102.0,places,count,Total,Total,Total,,,hud_housing,2026-11-20,CC BY 4.0
 hud_transitional_places,ta,028,Gisborne District,2026-08-01,2026-08-31,month,calendar,102.0,places,count,Total,Total,Total,,,hud_housing,2026-11-20,CC BY 4.0
 hud_transitional_places,ta,028,Gisborne District,2026-09-01,2026-09-30,month,calendar,102.0,places,count,Total,Total,Total,,,hud_housing,2026-11-20,CC BY 4.0
+hud_urban_land_price_to_cost,ta,028,Gisborne District,2001-07-01,2002-06-30,year,june,1.14,ratio,ratio,Total,Total,Total,,,hud_urban_land,2026-11-22,CC BY 4.0
+hud_urban_land_price_to_cost,ta,028,Gisborne District,2002-07-01,2003-06-30,year,june,1.09,ratio,ratio,Total,Total,Total,,,hud_urban_land,2026-11-22,CC BY 4.0
+hud_urban_land_price_to_cost,ta,028,Gisborne District,2003-07-01,2004-06-30,year,june,1.74,ratio,ratio,Total,Total,Total,,,hud_urban_land,2026-11-22,CC BY 4.0
+hud_urban_land_price_to_cost,ta,028,Gisborne District,2004-07-01,2005-06-30,year,june,1.85,ratio,ratio,Total,Total,Total,,,hud_urban_land,2026-11-22,CC BY 4.0
+hud_urban_land_price_to_cost,ta,028,Gisborne District,2005-07-01,2006-06-30,year,june,1.7,ratio,ratio,Total,Total,Total,,,hud_urban_land,2026-11-22,CC BY 4.0
+hud_urban_land_price_to_cost,ta,028,Gisborne District,2006-07-01,2007-06-30,year,june,1.58,ratio,ratio,Total,Total,Total,,,hud_urban_land,2026-11-22,CC BY 4.0
+hud_urban_land_price_to_cost,ta,028,Gisborne District,2007-07-01,2008-06-30,year,june,1.41,ratio,ratio,Total,Total,Total,,,hud_urban_land,2026-11-22,CC BY 4.0
+hud_urban_land_price_to_cost,ta,028,Gisborne District,2008-07-01,2009-06-30,year,june,1.23,ratio,ratio,Total,Total,Total,,,hud_urban_land,2026-11-22,CC BY 4.0
+hud_urban_land_price_to_cost,ta,028,Gisborne District,2009-07-01,2010-06-30,year,june,1.31,ratio,ratio,Total,Total,Total,,,hud_urban_land,2026-11-22,CC BY 4.0
+hud_urban_land_price_to_cost,ta,028,Gisborne District,2010-07-01,2011-06-30,year,june,1.13,ratio,ratio,Total,Total,Total,,,hud_urban_land,2026-11-22,CC BY 4.0
+hud_urban_land_price_to_cost,ta,028,Gisborne District,2011-07-01,2012-06-30,year,june,1.25,ratio,ratio,Total,Total,Total,,,hud_urban_land,2026-11-22,CC BY 4.0
+hud_urban_land_price_to_cost,ta,028,Gisborne District,2012-07-01,2013-06-30,year,june,1.1,ratio,ratio,Total,Total,Total,,,hud_urban_land,2026-11-22,CC BY 4.0
+hud_urban_land_price_to_cost,ta,028,Gisborne District,2013-07-01,2014-06-30,year,june,1.18,ratio,ratio,Total,Total,Total,,,hud_urban_land,2026-11-22,CC BY 4.0
+hud_urban_land_price_to_cost,ta,028,Gisborne District,2014-07-01,2015-06-30,year,june,1.01,ratio,ratio,Total,Total,Total,,,hud_urban_land,2026-11-22,CC BY 4.0
+hud_urban_land_price_to_cost,ta,028,Gisborne District,2015-07-01,2016-06-30,year,june,1.02,ratio,ratio,Total,Total,Total,,,hud_urban_land,2026-11-22,CC BY 4.0
+hud_urban_land_price_to_cost,ta,028,Gisborne District,2016-07-01,2017-06-30,year,june,1.17,ratio,ratio,Total,Total,Total,,,hud_urban_land,2026-11-22,CC BY 4.0
+hud_urban_land_price_to_cost,ta,028,Gisborne District,2017-07-01,2018-06-30,year,june,1.2,ratio,ratio,Total,Total,Total,,,hud_urban_land,2026-11-22,CC BY 4.0
+hud_urban_land_price_to_cost,ta,028,Gisborne District,2018-07-01,2019-06-30,year,june,1.15,ratio,ratio,Total,Total,Total,,,hud_urban_land,2026-11-22,CC BY 4.0
+hud_urban_land_price_to_cost,ta,028,Gisborne District,2019-07-01,2020-06-30,year,june,1.72,ratio,ratio,Total,Total,Total,,,hud_urban_land,2026-11-22,CC BY 4.0
+hud_urban_land_price_to_cost,ta,028,Gisborne District,2020-07-01,2021-06-30,year,june,1.85,ratio,ratio,Total,Total,Total,,,hud_urban_land,2026-11-22,CC BY 4.0
+hud_urban_land_price_to_cost,ta,028,Gisborne District,2021-07-01,2022-06-30,year,june,1.64,ratio,ratio,Total,Total,Total,,,hud_urban_land,2026-11-22,CC BY 4.0
+hud_urban_land_price_to_cost,ta,028,Gisborne District,2022-07-01,2023-06-30,year,june,1.36,ratio,ratio,Total,Total,Total,,,hud_urban_land,2026-11-22,CC BY 4.0
+hud_urban_land_price_to_cost,ta,028,Gisborne District,2023-07-01,2024-06-30,year,june,1.15,ratio,ratio,Total,Total,Total,,,hud_urban_land,2026-11-22,CC BY 4.0
+hud_urban_land_price_to_cost,ta,028,Gisborne District,2024-07-01,2025-06-30,year,june,1.28,ratio,ratio,Total,Total,Total,,,hud_urban_land,2026-11-22,CC BY 4.0
 swimming_coastal_enterococci,site,GDC-00032,Hamanatua Stream at Okitu Bridge,2020-11-04,2020-11-04,sample,calendar,32.0,#/100 mL,concentration,Total,Total,Total,,,lawa_swimming,2026-11-22,CC BY 4.0
 swimming_coastal_enterococci,site,GDC-00032,Hamanatua Stream at Okitu Bridge,2020-11-12,2020-11-12,sample,calendar,2100.0,#/100 mL,concentration,Total,Total,Total,,,lawa_swimming,2026-11-22,CC BY 4.0
 swimming_coastal_enterococci,site,GDC-00032,Hamanatua Stream at Okitu Bridge,2020-11-17,2020-11-17,sample,calendar,170.0,#/100 mL,concentration,Total,Total,Total,,,lawa_swimming,2026-11-22,CC BY 4.0

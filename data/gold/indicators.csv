@@ -1,4 +1,5 @@
 indicator_id,name,domain,topic,direction,headline,format,caveat,display
+hud_urban_land_price_to_cost,New-build sale price to construction cost,Hapori,Housing affordability,neutral,False,dec2,"HUD's annual Gisborne District ratio for all residential building types, year ended June. New-build sale prices per square metre are divided by estimated construction costs per square metre, including HUD's cost allowances.",
 sa2_population,Usually resident population,Hapori,Population and age,neutral,False,int,Census usually resident population count.,places
 sa2_under_15,People aged under 15,Hapori,Population and age,neutral,False,pct,Share of the Census usually resident population.,places
 sa2_age_65_plus,People aged 65 and over,Hapori,Population and age,neutral,False,pct,Share of the Census usually resident population.,places
