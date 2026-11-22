@@ -32,12 +32,12 @@
  "healthnz_immunisation": {
   "source_id": "healthnz_immunisation",
   "ok": true,
-  "rows": 192,
+  "rows": 1220,
   "latest_period": "2026-06-30",
-  "message": "ok",
-  "checked": "2026-11-21T23:15:44+00:00",
-  "last_success": "2026-11-21T23:15:44+00:00",
-  "schema_hash": "ae3b4b9b64"
+  "message": "ok – indicator set changed since last run; check the connector",
+  "checked": "2026-11-22T01:12:26+00:00",
+  "last_success": "2026-11-22T01:12:26+00:00",
+  "schema_hash": "a55f03f190"
  },
  "nzta_cas": {
   "source_id": "nzta_cas",
@@ -294,5 +294,35 @@
   "checked": "2026-11-22T01:07:33+00:00",
   "last_success": "2026-11-22T01:07:33+00:00",
   "schema_hash": "f49429d627"
+ },
+ "healthnz_hpv": {
+  "source_id": "healthnz_hpv",
+  "ok": true,
+  "rows": 32,
+  "latest_period": "2026-06-30",
+  "message": "ok",
+  "checked": "2026-11-22T01:12:27+00:00",
+  "last_success": "2026-11-22T01:12:27+00:00",
+  "schema_hash": "fea3f1188a"
+ },
+ "healthnz_pho_enrolment": {
+  "source_id": "healthnz_pho_enrolment",
+  "ok": true,
+  "rows": 248,
+  "latest_period": "2026-10-01",
+  "message": "ok",
+  "checked": "2026-11-22T01:12:29+00:00",
+  "last_success": "2026-11-22T01:12:29+00:00",
+  "schema_hash": "f264230dc4"
+ },
+ "moh_nzhs_regional": {
+  "source_id": "moh_nzhs_regional",
+  "ok": true,
+  "rows": 56,
+  "latest_period": "2020-06-30",
+  "message": "ok",
+  "checked": "2026-11-22T01:12:49+00:00",
+  "last_success": "2026-11-22T01:12:49+00:00",
+  "schema_hash": "2ae1d5b5b5"
  }
 }

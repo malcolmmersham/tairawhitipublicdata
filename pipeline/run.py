@@ -29,7 +29,8 @@ SOURCES = ["statsnz_ade", "msd_benefits", "hud_housing", "healthnz_immunisation"
            "statsnz_monthly", "mbie_accommodation", "statsnz_census_households", "ea_residential",
            "statsnz_vital_statistics", "moe_rolls_ece", "statsnz_river_quality", "statsnz_council_finance",
            "moe_school_discipline", "lawa_swimming", "moe_maori_medium", "statsnz_sa2", "nzqa_secondary",
-           "statsnz_agriculture", "statsnz_leed", "nzta_mvr", "nzta_traffic", "moj_courts"]
+           "statsnz_agriculture", "statsnz_leed", "nzta_mvr", "nzta_traffic", "moj_courts",
+           "healthnz_hpv", "healthnz_pho_enrolment", "moh_nzhs_regional"]
 MODULES = {
     "statsnz_ade": "statsnz_ade", "msd_benefits": "msd_benefits", "hud_housing": "hud_housing",
     "healthnz_immunisation": "healthnz_immunisation", "nzta_cas": "nzta_cas", "mbie_bonds": "mbie_bonds",
@@ -49,6 +50,9 @@ MODULES = {
     "statsnz_agriculture": "statsnz_agriculture",
     "statsnz_leed": "statsnz_leed",
     "nzta_mvr": "nzta_mvr", "nzta_traffic": "nzta_traffic", "moj_courts": "moj_courts",
+    "healthnz_hpv": "healthnz_hpv",
+    "healthnz_pho_enrolment": "healthnz_pho_enrolment",
+    "moh_nzhs_regional": "moh_nzhs_regional",
 }
 STATUS_FILE = ROOT / "data" / "status.json"
 OBSERVATION_KEY = ["source_id", "indicator_id", "geo_type", "geo_code", "ethnicity", "age", "sex",
