@@ -660,7 +660,7 @@ indicators:
     direction: neutral
     headline: false
     format: pct
-    caveat: "The 2023 Census figure is for Gisborne Region. The question asks whether people can have a conversation about everyday things in te reo Māori."
+    caveat: "The 2023 Census figure is for Gisborne Region. The question asks whether people can have a conversation about everyday things in te reo Māori. Earlier census counts are not shown because their non-response and imputation methods differ."
 
   regional_ghg_emissions:
     name: Gross greenhouse gas emissions
