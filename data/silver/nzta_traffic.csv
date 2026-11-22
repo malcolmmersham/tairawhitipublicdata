@@ -1,0 +1,91 @@
+indicator_id,geo_type,geo_code,geo_name,period_start,period_end,period_type,year_basis,value,unit,measure,ethnicity,age,sex,suppression_flag,quality_flag,source_id,vintage_date,licence
+sh_traffic_aadt,site,00200390,SH2 100 m Sth of Parihohonu Bridge,2021-01-01,2021-12-31,year,calendar,1129,vehicles per day,mean,Total,Total,Total,,,nzta_traffic,2026-11-22,CC BY 4.0
+sh_traffic_aadt,site,00200390,SH2 100 m Sth of Parihohonu Bridge,2022-01-01,2022-12-31,year,calendar,1134,vehicles per day,mean,Total,Total,Total,,,nzta_traffic,2026-11-22,CC BY 4.0
+sh_traffic_aadt,site,00200390,SH2 100 m Sth of Parihohonu Bridge,2023-01-01,2023-12-31,year,calendar,1112,vehicles per day,mean,Total,Total,Total,,,nzta_traffic,2026-11-22,CC BY 4.0
+sh_traffic_aadt,site,00200390,SH2 100 m Sth of Parihohonu Bridge,2024-01-01,2024-12-31,year,calendar,1252,vehicles per day,mean,Total,Total,Total,,,nzta_traffic,2026-11-22,CC BY 4.0
+sh_traffic_aadt,site,00200390,SH2 100 m Sth of Parihohonu Bridge,2025-01-01,2025-12-31,year,calendar,1191,vehicles per day,mean,Total,Total,Total,,,nzta_traffic,2026-11-22,CC BY 4.0
+sh_traffic_aadt,site,00200411,SH2 140 m Nth of Graham Rd,2021-01-01,2021-12-31,year,calendar,1307,vehicles per day,mean,Total,Total,Total,,,nzta_traffic,2026-11-22,CC BY 4.0
+sh_traffic_aadt,site,00200411,SH2 140 m Nth of Graham Rd,2022-01-01,2022-12-31,year,calendar,1281,vehicles per day,mean,Total,Total,Total,,,nzta_traffic,2026-11-22,CC BY 4.0
+sh_traffic_aadt,site,00200411,SH2 140 m Nth of Graham Rd,2023-01-01,2023-12-31,year,calendar,1316,vehicles per day,mean,Total,Total,Total,,,nzta_traffic,2026-11-22,CC BY 4.0
+sh_traffic_aadt,site,00200411,SH2 140 m Nth of Graham Rd,2025-01-01,2025-12-31,year,calendar,1414,vehicles per day,mean,Total,Total,Total,,,nzta_traffic,2026-11-22,CC BY 4.0
+sh_traffic_aadt,site,00200428,SH2 ORMOND : Telemetry Site 26,2021-01-01,2021-12-31,year,calendar,3023,vehicles per day,mean,Total,Total,Total,,,nzta_traffic,2026-11-22,CC BY 4.0
+sh_traffic_aadt,site,00200428,SH2 ORMOND : Telemetry Site 26,2022-01-01,2022-12-31,year,calendar,2918,vehicles per day,mean,Total,Total,Total,,,nzta_traffic,2026-11-22,CC BY 4.0
+sh_traffic_aadt,site,00200428,SH2 ORMOND : Telemetry Site 26,2023-01-01,2023-12-31,year,calendar,2056,vehicles per day,mean,Total,Total,Total,,,nzta_traffic,2026-11-22,CC BY 4.0
+sh_traffic_aadt,site,00200428,SH2 ORMOND : Telemetry Site 26,2025-01-01,2025-12-31,year,calendar,3115,vehicles per day,mean,Total,Total,Total,,,nzta_traffic,2026-11-22,CC BY 4.0
+sh_traffic_aadt,site,00200441,SH2 Carringtons Culvert,2021-01-01,2021-12-31,year,calendar,2958,vehicles per day,mean,Total,Total,Total,,,nzta_traffic,2026-11-22,CC BY 4.0
+sh_traffic_aadt,site,00200441,SH2 Carringtons Culvert,2022-01-01,2022-12-31,year,calendar,2760,vehicles per day,mean,Total,Total,Total,,,nzta_traffic,2026-11-22,CC BY 4.0
+sh_traffic_aadt,site,00200441,SH2 Carringtons Culvert,2023-01-01,2023-12-31,year,calendar,2568,vehicles per day,mean,Total,Total,Total,,,nzta_traffic,2026-11-22,CC BY 4.0
+sh_traffic_aadt,site,00200441,SH2 Carringtons Culvert,2024-01-01,2024-12-31,year,calendar,3016,vehicles per day,mean,Total,Total,Total,,,nzta_traffic,2026-11-22,CC BY 4.0
+sh_traffic_aadt,site,00200441,SH2 Carringtons Culvert,2025-01-01,2025-12-31,year,calendar,2899,vehicles per day,mean,Total,Total,Total,,,nzta_traffic,2026-11-22,CC BY 4.0
+sh_traffic_aadt,site,00200444,SH2 200 m Nth of Bell Rd,2021-01-01,2021-12-31,year,calendar,6685,vehicles per day,mean,Total,Total,Total,,,nzta_traffic,2026-11-22,CC BY 4.0
+sh_traffic_aadt,site,00200444,SH2 200 m Nth of Bell Rd,2022-01-01,2022-12-31,year,calendar,6545,vehicles per day,mean,Total,Total,Total,,,nzta_traffic,2026-11-22,CC BY 4.0
+sh_traffic_aadt,site,00200444,SH2 200 m Nth of Bell Rd,2023-01-01,2023-12-31,year,calendar,6478,vehicles per day,mean,Total,Total,Total,,,nzta_traffic,2026-11-22,CC BY 4.0
+sh_traffic_aadt,site,00200444,SH2 200 m Nth of Bell Rd,2024-01-01,2024-12-31,year,calendar,6652,vehicles per day,mean,Total,Total,Total,,,nzta_traffic,2026-11-22,CC BY 4.0
+sh_traffic_aadt,site,00200444,SH2 200 m Nth of Bell Rd,2025-01-01,2025-12-31,year,calendar,6785,vehicles per day,mean,Total,Total,Total,,,nzta_traffic,2026-11-22,CC BY 4.0
+sh_traffic_aadt,site,00200448,SH2 Sth end of Whatatuna Bridge,2021-01-01,2021-12-31,year,calendar,4167,vehicles per day,mean,Total,Total,Total,,,nzta_traffic,2026-11-22,CC BY 4.0
+sh_traffic_aadt,site,00200448,SH2 Sth end of Whatatuna Bridge,2022-01-01,2022-12-31,year,calendar,4022,vehicles per day,mean,Total,Total,Total,,,nzta_traffic,2026-11-22,CC BY 4.0
+sh_traffic_aadt,site,00200448,SH2 Sth end of Whatatuna Bridge,2023-01-01,2023-12-31,year,calendar,3963,vehicles per day,mean,Total,Total,Total,,,nzta_traffic,2026-11-22,CC BY 4.0
+sh_traffic_aadt,site,00200448,SH2 Sth end of Whatatuna Bridge,2024-01-01,2024-12-31,year,calendar,4087,vehicles per day,mean,Total,Total,Total,,,nzta_traffic,2026-11-22,CC BY 4.0
+sh_traffic_aadt,site,00200448,SH2 Sth end of Whatatuna Bridge,2025-01-01,2025-12-31,year,calendar,4019,vehicles per day,mean,Total,Total,Total,,,nzta_traffic,2026-11-22,CC BY 4.0
+sh_traffic_aadt,site,00200452,SH2 Traffic Count Station 15,2021-01-01,2021-12-31,year,calendar,2367,vehicles per day,mean,Total,Total,Total,,,nzta_traffic,2026-11-22,CC BY 4.0
+sh_traffic_aadt,site,00200452,SH2 Traffic Count Station 15,2022-01-01,2022-12-31,year,calendar,2204,vehicles per day,mean,Total,Total,Total,,,nzta_traffic,2026-11-22,CC BY 4.0
+sh_traffic_aadt,site,00200452,SH2 Traffic Count Station 15,2023-01-01,2023-12-31,year,calendar,2065,vehicles per day,mean,Total,Total,Total,,,nzta_traffic,2026-11-22,CC BY 4.0
+sh_traffic_aadt,site,00200452,SH2 Traffic Count Station 15,2024-01-01,2024-12-31,year,calendar,2363,vehicles per day,mean,Total,Total,Total,,,nzta_traffic,2026-11-22,CC BY 4.0
+sh_traffic_aadt,site,00200452,SH2 Traffic Count Station 15,2025-01-01,2025-12-31,year,calendar,2299,vehicles per day,mean,Total,Total,Total,,,nzta_traffic,2026-11-22,CC BY 4.0
+sh_traffic_aadt,site,00200482,SH2 Wairoa/Gisborne District Council boundary,2021-01-01,2021-12-31,year,calendar,1483,vehicles per day,mean,Total,Total,Total,,,nzta_traffic,2026-11-22,CC BY 4.0
+sh_traffic_aadt,site,00200482,SH2 Wairoa/Gisborne District Council boundary,2022-01-01,2022-12-31,year,calendar,1540,vehicles per day,mean,Total,Total,Total,,,nzta_traffic,2026-11-22,CC BY 4.0
+sh_traffic_aadt,site,00200482,SH2 Wairoa/Gisborne District Council boundary,2023-01-01,2023-12-31,year,calendar,1321,vehicles per day,mean,Total,Total,Total,,,nzta_traffic,2026-11-22,CC BY 4.0
+sh_traffic_aadt,site,00200482,SH2 Wairoa/Gisborne District Council boundary,2024-01-01,2024-12-31,year,calendar,1590,vehicles per day,mean,Total,Total,Total,,,nzta_traffic,2026-11-22,CC BY 4.0
+sh_traffic_aadt,site,00200482,SH2 Wairoa/Gisborne District Council boundary,2025-01-01,2025-12-31,year,calendar,1564,vehicles per day,mean,Total,Total,Total,,,nzta_traffic,2026-11-22,CC BY 4.0
+sh_traffic_aadt,site,03500180,SH35 450 m Sth of Poroporo Bridge,2021-01-01,2021-12-31,year,calendar,424,vehicles per day,mean,Total,Total,Total,,,nzta_traffic,2026-11-22,CC BY 4.0
+sh_traffic_aadt,site,03500180,SH35 450 m Sth of Poroporo Bridge,2022-01-01,2022-12-31,year,calendar,361,vehicles per day,mean,Total,Total,Total,,,nzta_traffic,2026-11-22,CC BY 4.0
+sh_traffic_aadt,site,03500180,SH35 450 m Sth of Poroporo Bridge,2023-01-01,2023-12-31,year,calendar,407,vehicles per day,mean,Total,Total,Total,,,nzta_traffic,2026-11-22,CC BY 4.0
+sh_traffic_aadt,site,03500237,SH35 100 m Sth of Marotiri Culvert,2021-01-01,2021-12-31,year,calendar,1134,vehicles per day,mean,Total,Total,Total,,,nzta_traffic,2026-11-22,CC BY 4.0
+sh_traffic_aadt,site,03500237,SH35 100 m Sth of Marotiri Culvert,2022-01-01,2022-12-31,year,calendar,960,vehicles per day,mean,Total,Total,Total,,,nzta_traffic,2026-11-22,CC BY 4.0
+sh_traffic_aadt,site,03500237,SH35 100 m Sth of Marotiri Culvert,2023-01-01,2023-12-31,year,calendar,1278,vehicles per day,mean,Total,Total,Total,,,nzta_traffic,2026-11-22,CC BY 4.0
+sh_traffic_aadt,site,03500237,SH35 100 m Sth of Marotiri Culvert,2024-01-01,2024-12-31,year,calendar,1046,vehicles per day,mean,Total,Total,Total,,,nzta_traffic,2026-11-22,CC BY 4.0
+sh_traffic_aadt,site,03500237,SH35 100 m Sth of Marotiri Culvert,2025-01-01,2025-12-31,year,calendar,1105,vehicles per day,mean,Total,Total,Total,,,nzta_traffic,2026-11-22,CC BY 4.0
+sh_traffic_aadt,site,03500270,SH35 North of Tolaga Bay - Telemetry Site 115 (New Apr 2014),2021-01-01,2021-12-31,year,calendar,1266,vehicles per day,mean,Total,Total,Total,,,nzta_traffic,2026-11-22,CC BY 4.0
+sh_traffic_aadt,site,03500270,SH35 North of Tolaga Bay - Telemetry Site 115 (New Apr 2014),2022-01-01,2022-12-31,year,calendar,1089,vehicles per day,mean,Total,Total,Total,,,nzta_traffic,2026-11-22,CC BY 4.0
+sh_traffic_aadt,site,03500270,SH35 North of Tolaga Bay - Telemetry Site 115 (New Apr 2014),2023-01-01,2023-12-31,year,calendar,1241,vehicles per day,mean,Total,Total,Total,,,nzta_traffic,2026-11-22,CC BY 4.0
+sh_traffic_aadt,site,03500270,SH35 North of Tolaga Bay - Telemetry Site 115 (New Apr 2014),2024-01-01,2024-12-31,year,calendar,1127,vehicles per day,mean,Total,Total,Total,,,nzta_traffic,2026-11-22,CC BY 4.0
+sh_traffic_aadt,site,03500270,SH35 North of Tolaga Bay - Telemetry Site 115 (New Apr 2014),2025-01-01,2025-12-31,year,calendar,1146,vehicles per day,mean,Total,Total,Total,,,nzta_traffic,2026-11-22,CC BY 4.0
+sh_traffic_aadt,site,03500272,SH35 60 m Sth of Dosli BM GF 82,2021-01-01,2021-12-31,year,calendar,1383,vehicles per day,mean,Total,Total,Total,,,nzta_traffic,2026-11-22,CC BY 4.0
+sh_traffic_aadt,site,03500272,SH35 60 m Sth of Dosli BM GF 82,2022-01-01,2022-12-31,year,calendar,1208,vehicles per day,mean,Total,Total,Total,,,nzta_traffic,2026-11-22,CC BY 4.0
+sh_traffic_aadt,site,03500272,SH35 60 m Sth of Dosli BM GF 82,2023-01-01,2023-12-31,year,calendar,1359,vehicles per day,mean,Total,Total,Total,,,nzta_traffic,2026-11-22,CC BY 4.0
+sh_traffic_aadt,site,03500274,SH35 Uawa River Bridge,2021-01-01,2021-12-31,year,calendar,2564,vehicles per day,mean,Total,Total,Total,,,nzta_traffic,2026-11-22,CC BY 4.0
+sh_traffic_aadt,site,03500274,SH35 Uawa River Bridge,2022-01-01,2022-12-31,year,calendar,2423,vehicles per day,mean,Total,Total,Total,,,nzta_traffic,2026-11-22,CC BY 4.0
+sh_traffic_aadt,site,03500274,SH35 Uawa River Bridge,2023-01-01,2023-12-31,year,calendar,2517,vehicles per day,mean,Total,Total,Total,,,nzta_traffic,2026-11-22,CC BY 4.0
+sh_traffic_aadt,site,03500295,SH35 1.3k south of Mangakuri Bridge,2021-01-01,2021-12-31,year,calendar,1721,vehicles per day,mean,Total,Total,Total,,,nzta_traffic,2026-11-22,CC BY 4.0
+sh_traffic_aadt,site,03500295,SH35 1.3k south of Mangakuri Bridge,2022-01-01,2022-12-31,year,calendar,1643,vehicles per day,mean,Total,Total,Total,,,nzta_traffic,2026-11-22,CC BY 4.0
+sh_traffic_aadt,site,03500295,SH35 1.3k south of Mangakuri Bridge,2023-01-01,2023-12-31,year,calendar,1757,vehicles per day,mean,Total,Total,Total,,,nzta_traffic,2026-11-22,CC BY 4.0
+sh_traffic_aadt,site,03500295,SH35 1.3k south of Mangakuri Bridge,2024-01-01,2024-12-31,year,calendar,1506,vehicles per day,mean,Total,Total,Total,,,nzta_traffic,2026-11-22,CC BY 4.0
+sh_traffic_aadt,site,03500295,SH35 1.3k south of Mangakuri Bridge,2025-01-01,2025-12-31,year,calendar,1687,vehicles per day,mean,Total,Total,Total,,,nzta_traffic,2026-11-22,CC BY 4.0
+sh_traffic_aadt,site,03500314,SH35 200 m Sth of Top of Makorori Hill,2021-01-01,2021-12-31,year,calendar,2224,vehicles per day,mean,Total,Total,Total,,,nzta_traffic,2026-11-22,CC BY 4.0
+sh_traffic_aadt,site,03500314,SH35 200 m Sth of Top of Makorori Hill,2022-01-01,2022-12-31,year,calendar,2096,vehicles per day,mean,Total,Total,Total,,,nzta_traffic,2026-11-22,CC BY 4.0
+sh_traffic_aadt,site,03500314,SH35 200 m Sth of Top of Makorori Hill,2023-01-01,2023-12-31,year,calendar,2244,vehicles per day,mean,Total,Total,Total,,,nzta_traffic,2026-11-22,CC BY 4.0
+sh_traffic_aadt,site,03500314,SH35 200 m Sth of Top of Makorori Hill,2024-01-01,2024-12-31,year,calendar,2369,vehicles per day,mean,Total,Total,Total,,,nzta_traffic,2026-11-22,CC BY 4.0
+sh_traffic_aadt,site,03500314,SH35 200 m Sth of Top of Makorori Hill,2025-01-01,2025-12-31,year,calendar,2252,vehicles per day,mean,Total,Total,Total,,,nzta_traffic,2026-11-22,CC BY 4.0
+sh_traffic_aadt,site,03500318,SH35 Gisborne: Okitu Reserve,2023-01-01,2023-12-31,year,calendar,4054,vehicles per day,mean,Total,Total,Total,,,nzta_traffic,2026-11-22,CC BY 4.0
+sh_traffic_aadt,site,03500321,SH35 HAMANATUA BRIDGE - Telemetry Site 108 WIM,2021-01-01,2021-12-31,year,calendar,5700,vehicles per day,mean,Total,Total,Total,,,nzta_traffic,2026-11-22,CC BY 4.0
+sh_traffic_aadt,site,03500321,SH35 HAMANATUA BRIDGE - Telemetry Site 108 WIM,2022-01-01,2022-12-31,year,calendar,5525,vehicles per day,mean,Total,Total,Total,,,nzta_traffic,2026-11-22,CC BY 4.0
+sh_traffic_aadt,site,03500321,SH35 HAMANATUA BRIDGE - Telemetry Site 108 WIM,2023-01-01,2023-12-31,year,calendar,5266,vehicles per day,mean,Total,Total,Total,,,nzta_traffic,2026-11-22,CC BY 4.0
+sh_traffic_aadt,site,03500321,SH35 HAMANATUA BRIDGE - Telemetry Site 108 WIM,2024-01-01,2024-12-31,year,calendar,5567,vehicles per day,mean,Total,Total,Total,,,nzta_traffic,2026-11-22,CC BY 4.0
+sh_traffic_aadt,site,03500321,SH35 HAMANATUA BRIDGE - Telemetry Site 108 WIM,2025-01-01,2025-12-31,year,calendar,5613,vehicles per day,mean,Total,Total,Total,,,nzta_traffic,2026-11-22,CC BY 4.0
+sh_traffic_aadt,site,03500324,SH35 Gisborne City Boundary,2021-01-01,2021-12-31,year,calendar,7964,vehicles per day,mean,Total,Total,Total,,,nzta_traffic,2026-11-22,CC BY 4.0
+sh_traffic_aadt,site,03500324,SH35 Gisborne City Boundary,2022-01-01,2022-12-31,year,calendar,7330,vehicles per day,mean,Total,Total,Total,,,nzta_traffic,2026-11-22,CC BY 4.0
+sh_traffic_aadt,site,03500324,SH35 Gisborne City Boundary,2023-01-01,2023-12-31,year,calendar,7695,vehicles per day,mean,Total,Total,Total,,,nzta_traffic,2026-11-22,CC BY 4.0
+sh_traffic_aadt,site,03500324,SH35 Gisborne City Boundary,2024-01-01,2024-12-31,year,calendar,7826,vehicles per day,mean,Total,Total,Total,,,nzta_traffic,2026-11-22,CC BY 4.0
+sh_traffic_aadt,site,03500324,SH35 Gisborne City Boundary,2025-01-01,2025-12-31,year,calendar,8046,vehicles per day,mean,Total,Total,Total,,,nzta_traffic,2026-11-22,CC BY 4.0
+sh_traffic_aadt,site,03500327,SH35 Sth of Harris St,2021-01-01,2021-12-31,year,calendar,20998,vehicles per day,mean,Total,Total,Total,,,nzta_traffic,2026-11-22,CC BY 4.0
+sh_traffic_aadt,site,03500327,SH35 Sth of Harris St,2022-01-01,2022-12-31,year,calendar,20232,vehicles per day,mean,Total,Total,Total,,,nzta_traffic,2026-11-22,CC BY 4.0
+sh_traffic_aadt,site,03500327,SH35 Sth of Harris St,2023-01-01,2023-12-31,year,calendar,20319,vehicles per day,mean,Total,Total,Total,,,nzta_traffic,2026-11-22,CC BY 4.0
+sh_traffic_aadt,site,03500327,SH35 Sth of Harris St,2025-01-01,2025-12-31,year,calendar,20891,vehicles per day,mean,Total,Total,Total,,,nzta_traffic,2026-11-22,CC BY 4.0
+sh_traffic_aadt,site,03500328,SH35 Awapuni Rd 200m east of Grey St intersection,2022-01-01,2022-12-31,year,calendar,6911,vehicles per day,mean,Total,Total,Total,,,nzta_traffic,2026-11-22,CC BY 4.0
+sh_traffic_aadt,site,03500328,SH35 Awapuni Rd 200m east of Grey St intersection,2023-01-01,2023-12-31,year,calendar,7115,vehicles per day,mean,Total,Total,Total,,,nzta_traffic,2026-11-22,CC BY 4.0
+sh_traffic_aadt,site,03500328,SH35 Awapuni Rd 200m east of Grey St intersection,2025-01-01,2025-12-31,year,calendar,6005,vehicles per day,mean,Total,Total,Total,,,nzta_traffic,2026-11-22,CC BY 4.0
+sh_traffic_aadt,site,03500332,SH35 170 m Nth of Runway Lighting Towers -LHS,2021-01-01,2021-12-31,year,calendar,5343,vehicles per day,mean,Total,Total,Total,,,nzta_traffic,2026-11-22,CC BY 4.0
+sh_traffic_aadt,site,03500332,SH35 170 m Nth of Runway Lighting Towers -LHS,2022-01-01,2022-12-31,year,calendar,5387,vehicles per day,mean,Total,Total,Total,,,nzta_traffic,2026-11-22,CC BY 4.0
+sh_traffic_aadt,site,03500332,SH35 170 m Nth of Runway Lighting Towers -LHS,2023-01-01,2023-12-31,year,calendar,5503,vehicles per day,mean,Total,Total,Total,,,nzta_traffic,2026-11-22,CC BY 4.0
+sh_traffic_aadt,site,03500332,SH35 170 m Nth of Runway Lighting Towers -LHS,2024-01-01,2024-12-31,year,calendar,5472,vehicles per day,mean,Total,Total,Total,,,nzta_traffic,2026-11-22,CC BY 4.0
+sh_traffic_aadt,site,03500332,SH35 170 m Nth of Runway Lighting Towers -LHS,2025-01-01,2025-12-31,year,calendar,5704,vehicles per day,mean,Total,Total,Total,,,nzta_traffic,2026-11-22,CC BY 4.0

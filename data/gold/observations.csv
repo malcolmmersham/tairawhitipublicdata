@@ -7579,6 +7579,46 @@ gisborne_suspension_cases,ta,028,Gisborne District,2022-01-01,2022-12-31,year,ca
 gisborne_suspension_cases,ta,028,Gisborne District,2023-01-01,2023-12-31,year,calendar,32.0,cases,count,Total,Total,Total,,,moe_school_discipline,2026-11-20,CC BY 4.0
 gisborne_suspension_cases,ta,028,Gisborne District,2024-01-01,2024-12-31,year,calendar,31.0,cases,count,Total,Total,Total,,,moe_school_discipline,2026-11-20,CC BY 4.0
 gisborne_suspension_cases,ta,028,Gisborne District,2025-01-01,2025-12-31,year,calendar,23.0,cases,count,Total,Total,Total,,,moe_school_discipline,2026-11-20,CC BY 4.0
+court_people_convicted,site,court-gisborne,Gisborne court,2016-07-01,2017-06-30,year,june,1113.0,people,count,Total,Total,Total,,,moj_courts,2026-11-22,CC BY 4.0
+court_people_convicted,site,court-gisborne,Gisborne court,2017-07-01,2018-06-30,year,june,1177.0,people,count,Total,Total,Total,,,moj_courts,2026-11-22,CC BY 4.0
+court_people_convicted,site,court-gisborne,Gisborne court,2018-07-01,2019-06-30,year,june,1033.0,people,count,Total,Total,Total,,,moj_courts,2026-11-22,CC BY 4.0
+court_people_convicted,site,court-gisborne,Gisborne court,2019-07-01,2020-06-30,year,june,1039.0,people,count,Total,Total,Total,,,moj_courts,2026-11-22,CC BY 4.0
+court_people_convicted,site,court-gisborne,Gisborne court,2020-07-01,2021-06-30,year,june,1012.0,people,count,Total,Total,Total,,,moj_courts,2026-11-22,CC BY 4.0
+court_people_convicted,site,court-gisborne,Gisborne court,2021-07-01,2022-06-30,year,june,817.0,people,count,Total,Total,Total,,,moj_courts,2026-11-22,CC BY 4.0
+court_people_convicted,site,court-gisborne,Gisborne court,2022-07-01,2023-06-30,year,june,739.0,people,count,Total,Total,Total,,,moj_courts,2026-11-22,CC BY 4.0
+court_people_convicted,site,court-gisborne,Gisborne court,2023-07-01,2024-06-30,year,june,857.0,people,count,Total,Total,Total,,,moj_courts,2026-11-22,CC BY 4.0
+court_people_convicted,site,court-gisborne,Gisborne court,2024-07-01,2025-06-30,year,june,870.0,people,count,Total,Total,Total,,,moj_courts,2026-11-22,CC BY 4.0
+court_people_convicted,site,court-gisborne,Gisborne court,2025-07-01,2026-06-30,year,june,833.0,people,count,Total,Total,Total,,,moj_courts,2026-11-22,CC BY 4.0
+court_people_convicted,site,court-ruatoria,Ruatōria court,2016-07-01,2017-06-30,year,june,87.0,people,count,Total,Total,Total,,,moj_courts,2026-11-22,CC BY 4.0
+court_people_convicted,site,court-ruatoria,Ruatōria court,2017-07-01,2018-06-30,year,june,76.0,people,count,Total,Total,Total,,,moj_courts,2026-11-22,CC BY 4.0
+court_people_convicted,site,court-ruatoria,Ruatōria court,2018-07-01,2019-06-30,year,june,54.0,people,count,Total,Total,Total,,,moj_courts,2026-11-22,CC BY 4.0
+court_people_convicted,site,court-ruatoria,Ruatōria court,2019-07-01,2020-06-30,year,june,50.0,people,count,Total,Total,Total,,,moj_courts,2026-11-22,CC BY 4.0
+court_people_convicted,site,court-ruatoria,Ruatōria court,2020-07-01,2021-06-30,year,june,70.0,people,count,Total,Total,Total,,,moj_courts,2026-11-22,CC BY 4.0
+court_people_convicted,site,court-ruatoria,Ruatōria court,2021-07-01,2022-06-30,year,june,36.0,people,count,Total,Total,Total,,,moj_courts,2026-11-22,CC BY 4.0
+court_people_convicted,site,court-ruatoria,Ruatōria court,2022-07-01,2023-06-30,year,june,36.0,people,count,Total,Total,Total,,,moj_courts,2026-11-22,CC BY 4.0
+court_people_convicted,site,court-ruatoria,Ruatōria court,2023-07-01,2024-06-30,year,june,53.0,people,count,Total,Total,Total,,,moj_courts,2026-11-22,CC BY 4.0
+court_people_convicted,site,court-ruatoria,Ruatōria court,2024-07-01,2025-06-30,year,june,54.0,people,count,Total,Total,Total,,,moj_courts,2026-11-22,CC BY 4.0
+court_people_convicted,site,court-ruatoria,Ruatōria court,2025-07-01,2026-06-30,year,june,50.0,people,count,Total,Total,Total,,,moj_courts,2026-11-22,CC BY 4.0
+court_people_finalised,site,court-gisborne,Gisborne court,2016-07-01,2017-06-30,year,june,1407.0,people,count,Total,Total,Total,,,moj_courts,2026-11-22,CC BY 4.0
+court_people_finalised,site,court-gisborne,Gisborne court,2017-07-01,2018-06-30,year,june,1441.0,people,count,Total,Total,Total,,,moj_courts,2026-11-22,CC BY 4.0
+court_people_finalised,site,court-gisborne,Gisborne court,2018-07-01,2019-06-30,year,june,1294.0,people,count,Total,Total,Total,,,moj_courts,2026-11-22,CC BY 4.0
+court_people_finalised,site,court-gisborne,Gisborne court,2019-07-01,2020-06-30,year,june,1295.0,people,count,Total,Total,Total,,,moj_courts,2026-11-22,CC BY 4.0
+court_people_finalised,site,court-gisborne,Gisborne court,2020-07-01,2021-06-30,year,june,1265.0,people,count,Total,Total,Total,,,moj_courts,2026-11-22,CC BY 4.0
+court_people_finalised,site,court-gisborne,Gisborne court,2021-07-01,2022-06-30,year,june,998.0,people,count,Total,Total,Total,,,moj_courts,2026-11-22,CC BY 4.0
+court_people_finalised,site,court-gisborne,Gisborne court,2022-07-01,2023-06-30,year,june,1042.0,people,count,Total,Total,Total,,,moj_courts,2026-11-22,CC BY 4.0
+court_people_finalised,site,court-gisborne,Gisborne court,2023-07-01,2024-06-30,year,june,1183.0,people,count,Total,Total,Total,,,moj_courts,2026-11-22,CC BY 4.0
+court_people_finalised,site,court-gisborne,Gisborne court,2024-07-01,2025-06-30,year,june,1176.0,people,count,Total,Total,Total,,,moj_courts,2026-11-22,CC BY 4.0
+court_people_finalised,site,court-gisborne,Gisborne court,2025-07-01,2026-06-30,year,june,1247.0,people,count,Total,Total,Total,,,moj_courts,2026-11-22,CC BY 4.0
+court_people_finalised,site,court-ruatoria,Ruatōria court,2016-07-01,2017-06-30,year,june,108.0,people,count,Total,Total,Total,,,moj_courts,2026-11-22,CC BY 4.0
+court_people_finalised,site,court-ruatoria,Ruatōria court,2017-07-01,2018-06-30,year,june,88.0,people,count,Total,Total,Total,,,moj_courts,2026-11-22,CC BY 4.0
+court_people_finalised,site,court-ruatoria,Ruatōria court,2018-07-01,2019-06-30,year,june,63.0,people,count,Total,Total,Total,,,moj_courts,2026-11-22,CC BY 4.0
+court_people_finalised,site,court-ruatoria,Ruatōria court,2019-07-01,2020-06-30,year,june,62.0,people,count,Total,Total,Total,,,moj_courts,2026-11-22,CC BY 4.0
+court_people_finalised,site,court-ruatoria,Ruatōria court,2020-07-01,2021-06-30,year,june,80.0,people,count,Total,Total,Total,,,moj_courts,2026-11-22,CC BY 4.0
+court_people_finalised,site,court-ruatoria,Ruatōria court,2021-07-01,2022-06-30,year,june,44.0,people,count,Total,Total,Total,,,moj_courts,2026-11-22,CC BY 4.0
+court_people_finalised,site,court-ruatoria,Ruatōria court,2022-07-01,2023-06-30,year,june,46.0,people,count,Total,Total,Total,,,moj_courts,2026-11-22,CC BY 4.0
+court_people_finalised,site,court-ruatoria,Ruatōria court,2023-07-01,2024-06-30,year,june,60.0,people,count,Total,Total,Total,,,moj_courts,2026-11-22,CC BY 4.0
+court_people_finalised,site,court-ruatoria,Ruatōria court,2024-07-01,2025-06-30,year,june,69.0,people,count,Total,Total,Total,,,moj_courts,2026-11-22,CC BY 4.0
+court_people_finalised,site,court-ruatoria,Ruatōria court,2025-07-01,2026-06-30,year,june,74.0,people,count,Total,Total,Total,,,moj_courts,2026-11-22,CC BY 4.0
 msd_jobseeker,region,05,Gisborne / Tairāwhiti,2013-07-01,2013-09-30,quarter,calendar,1518.0,people,count,Māori,Total,Total,,MSD random-rounds counts to base 3,msd_benefits,2026-11-20,CC BY 4.0
 msd_jobseeker,region,05,Gisborne / Tairāwhiti,2013-10-01,2013-12-31,quarter,calendar,1568.0,people,count,Māori,Total,Total,,MSD random-rounds counts to base 3,msd_benefits,2026-11-20,CC BY 4.0
 msd_jobseeker,region,05,Gisborne / Tairāwhiti,2014-01-01,2014-03-31,quarter,calendar,1285.0,people,count,Māori,Total,Total,,MSD random-rounds counts to base 3,msd_benefits,2026-11-20,CC BY 4.0
@@ -8127,6 +8167,100 @@ cas_injury_crashes,region,05,Gisborne / Tairāwhiti,2023-01-01,2023-12-31,year,c
 cas_injury_crashes,region,05,Gisborne / Tairāwhiti,2024-01-01,2024-12-31,year,calendar,116.0,crashes,count,Total,Total,Total,,,nzta_cas,2026-11-20,CC BY 4.0
 cas_injury_crashes,region,05,Gisborne / Tairāwhiti,2025-01-01,2025-12-31,year,calendar,118.0,crashes,count,Total,Total,Total,,,nzta_cas,2026-11-20,CC BY 4.0
 cas_injury_crashes,region,05,Gisborne / Tairāwhiti,2026-01-01,2026-12-31,year,calendar,86.0,crashes,count,Total,Total,Total,,partial year; CAS is live and late reports are added,nzta_cas,2026-11-20,CC BY 4.0
+mvr_light_fleet,ta,028,Gisborne District,2026-10-01,2026-10-31,month,calendar,38344.0,vehicles,count,Total,Total,Total,,,nzta_mvr,2026-11-22,CC BY 4.0
+mvr_light_fleet_age,ta,028,Gisborne District,2026-10-01,2026-10-31,month,calendar,14.0,years,mean,Total,Total,Total,,,nzta_mvr,2026-11-22,CC BY 4.0
+mvr_light_hybrid_share,ta,028,Gisborne District,2026-10-01,2026-10-31,month,calendar,5.93,percent,share,Total,Total,Total,,,nzta_mvr,2026-11-22,CC BY 4.0
+mvr_light_plugin_share,ta,028,Gisborne District,2026-10-01,2026-10-31,month,calendar,1.31,percent,share,Total,Total,Total,,,nzta_mvr,2026-11-22,CC BY 4.0
+sh_traffic_aadt,site,00200390,SH2 100 m Sth of Parihohonu Bridge,2021-01-01,2021-12-31,year,calendar,1129.0,vehicles per day,mean,Total,Total,Total,,,nzta_traffic,2026-11-22,CC BY 4.0
+sh_traffic_aadt,site,00200390,SH2 100 m Sth of Parihohonu Bridge,2022-01-01,2022-12-31,year,calendar,1134.0,vehicles per day,mean,Total,Total,Total,,,nzta_traffic,2026-11-22,CC BY 4.0
+sh_traffic_aadt,site,00200390,SH2 100 m Sth of Parihohonu Bridge,2023-01-01,2023-12-31,year,calendar,1112.0,vehicles per day,mean,Total,Total,Total,,,nzta_traffic,2026-11-22,CC BY 4.0
+sh_traffic_aadt,site,00200390,SH2 100 m Sth of Parihohonu Bridge,2024-01-01,2024-12-31,year,calendar,1252.0,vehicles per day,mean,Total,Total,Total,,,nzta_traffic,2026-11-22,CC BY 4.0
+sh_traffic_aadt,site,00200390,SH2 100 m Sth of Parihohonu Bridge,2025-01-01,2025-12-31,year,calendar,1191.0,vehicles per day,mean,Total,Total,Total,,,nzta_traffic,2026-11-22,CC BY 4.0
+sh_traffic_aadt,site,00200411,SH2 140 m Nth of Graham Rd,2021-01-01,2021-12-31,year,calendar,1307.0,vehicles per day,mean,Total,Total,Total,,,nzta_traffic,2026-11-22,CC BY 4.0
+sh_traffic_aadt,site,00200411,SH2 140 m Nth of Graham Rd,2022-01-01,2022-12-31,year,calendar,1281.0,vehicles per day,mean,Total,Total,Total,,,nzta_traffic,2026-11-22,CC BY 4.0
+sh_traffic_aadt,site,00200411,SH2 140 m Nth of Graham Rd,2023-01-01,2023-12-31,year,calendar,1316.0,vehicles per day,mean,Total,Total,Total,,,nzta_traffic,2026-11-22,CC BY 4.0
+sh_traffic_aadt,site,00200411,SH2 140 m Nth of Graham Rd,2025-01-01,2025-12-31,year,calendar,1414.0,vehicles per day,mean,Total,Total,Total,,,nzta_traffic,2026-11-22,CC BY 4.0
+sh_traffic_aadt,site,00200428,SH2 ORMOND : Telemetry Site 26,2021-01-01,2021-12-31,year,calendar,3023.0,vehicles per day,mean,Total,Total,Total,,,nzta_traffic,2026-11-22,CC BY 4.0
+sh_traffic_aadt,site,00200428,SH2 ORMOND : Telemetry Site 26,2022-01-01,2022-12-31,year,calendar,2918.0,vehicles per day,mean,Total,Total,Total,,,nzta_traffic,2026-11-22,CC BY 4.0
+sh_traffic_aadt,site,00200428,SH2 ORMOND : Telemetry Site 26,2023-01-01,2023-12-31,year,calendar,2056.0,vehicles per day,mean,Total,Total,Total,,,nzta_traffic,2026-11-22,CC BY 4.0
+sh_traffic_aadt,site,00200428,SH2 ORMOND : Telemetry Site 26,2025-01-01,2025-12-31,year,calendar,3115.0,vehicles per day,mean,Total,Total,Total,,,nzta_traffic,2026-11-22,CC BY 4.0
+sh_traffic_aadt,site,00200441,SH2 Carringtons Culvert,2021-01-01,2021-12-31,year,calendar,2958.0,vehicles per day,mean,Total,Total,Total,,,nzta_traffic,2026-11-22,CC BY 4.0
+sh_traffic_aadt,site,00200441,SH2 Carringtons Culvert,2022-01-01,2022-12-31,year,calendar,2760.0,vehicles per day,mean,Total,Total,Total,,,nzta_traffic,2026-11-22,CC BY 4.0
+sh_traffic_aadt,site,00200441,SH2 Carringtons Culvert,2023-01-01,2023-12-31,year,calendar,2568.0,vehicles per day,mean,Total,Total,Total,,,nzta_traffic,2026-11-22,CC BY 4.0
+sh_traffic_aadt,site,00200441,SH2 Carringtons Culvert,2024-01-01,2024-12-31,year,calendar,3016.0,vehicles per day,mean,Total,Total,Total,,,nzta_traffic,2026-11-22,CC BY 4.0
+sh_traffic_aadt,site,00200441,SH2 Carringtons Culvert,2025-01-01,2025-12-31,year,calendar,2899.0,vehicles per day,mean,Total,Total,Total,,,nzta_traffic,2026-11-22,CC BY 4.0
+sh_traffic_aadt,site,00200444,SH2 200 m Nth of Bell Rd,2021-01-01,2021-12-31,year,calendar,6685.0,vehicles per day,mean,Total,Total,Total,,,nzta_traffic,2026-11-22,CC BY 4.0
+sh_traffic_aadt,site,00200444,SH2 200 m Nth of Bell Rd,2022-01-01,2022-12-31,year,calendar,6545.0,vehicles per day,mean,Total,Total,Total,,,nzta_traffic,2026-11-22,CC BY 4.0
+sh_traffic_aadt,site,00200444,SH2 200 m Nth of Bell Rd,2023-01-01,2023-12-31,year,calendar,6478.0,vehicles per day,mean,Total,Total,Total,,,nzta_traffic,2026-11-22,CC BY 4.0
+sh_traffic_aadt,site,00200444,SH2 200 m Nth of Bell Rd,2024-01-01,2024-12-31,year,calendar,6652.0,vehicles per day,mean,Total,Total,Total,,,nzta_traffic,2026-11-22,CC BY 4.0
+sh_traffic_aadt,site,00200444,SH2 200 m Nth of Bell Rd,2025-01-01,2025-12-31,year,calendar,6785.0,vehicles per day,mean,Total,Total,Total,,,nzta_traffic,2026-11-22,CC BY 4.0
+sh_traffic_aadt,site,00200448,SH2 Sth end of Whatatuna Bridge,2021-01-01,2021-12-31,year,calendar,4167.0,vehicles per day,mean,Total,Total,Total,,,nzta_traffic,2026-11-22,CC BY 4.0
+sh_traffic_aadt,site,00200448,SH2 Sth end of Whatatuna Bridge,2022-01-01,2022-12-31,year,calendar,4022.0,vehicles per day,mean,Total,Total,Total,,,nzta_traffic,2026-11-22,CC BY 4.0
+sh_traffic_aadt,site,00200448,SH2 Sth end of Whatatuna Bridge,2023-01-01,2023-12-31,year,calendar,3963.0,vehicles per day,mean,Total,Total,Total,,,nzta_traffic,2026-11-22,CC BY 4.0
+sh_traffic_aadt,site,00200448,SH2 Sth end of Whatatuna Bridge,2024-01-01,2024-12-31,year,calendar,4087.0,vehicles per day,mean,Total,Total,Total,,,nzta_traffic,2026-11-22,CC BY 4.0
+sh_traffic_aadt,site,00200448,SH2 Sth end of Whatatuna Bridge,2025-01-01,2025-12-31,year,calendar,4019.0,vehicles per day,mean,Total,Total,Total,,,nzta_traffic,2026-11-22,CC BY 4.0
+sh_traffic_aadt,site,00200452,SH2 Traffic Count Station 15,2021-01-01,2021-12-31,year,calendar,2367.0,vehicles per day,mean,Total,Total,Total,,,nzta_traffic,2026-11-22,CC BY 4.0
+sh_traffic_aadt,site,00200452,SH2 Traffic Count Station 15,2022-01-01,2022-12-31,year,calendar,2204.0,vehicles per day,mean,Total,Total,Total,,,nzta_traffic,2026-11-22,CC BY 4.0
+sh_traffic_aadt,site,00200452,SH2 Traffic Count Station 15,2023-01-01,2023-12-31,year,calendar,2065.0,vehicles per day,mean,Total,Total,Total,,,nzta_traffic,2026-11-22,CC BY 4.0
+sh_traffic_aadt,site,00200452,SH2 Traffic Count Station 15,2024-01-01,2024-12-31,year,calendar,2363.0,vehicles per day,mean,Total,Total,Total,,,nzta_traffic,2026-11-22,CC BY 4.0
+sh_traffic_aadt,site,00200452,SH2 Traffic Count Station 15,2025-01-01,2025-12-31,year,calendar,2299.0,vehicles per day,mean,Total,Total,Total,,,nzta_traffic,2026-11-22,CC BY 4.0
+sh_traffic_aadt,site,00200482,SH2 Wairoa/Gisborne District Council boundary,2021-01-01,2021-12-31,year,calendar,1483.0,vehicles per day,mean,Total,Total,Total,,,nzta_traffic,2026-11-22,CC BY 4.0
+sh_traffic_aadt,site,00200482,SH2 Wairoa/Gisborne District Council boundary,2022-01-01,2022-12-31,year,calendar,1540.0,vehicles per day,mean,Total,Total,Total,,,nzta_traffic,2026-11-22,CC BY 4.0
+sh_traffic_aadt,site,00200482,SH2 Wairoa/Gisborne District Council boundary,2023-01-01,2023-12-31,year,calendar,1321.0,vehicles per day,mean,Total,Total,Total,,,nzta_traffic,2026-11-22,CC BY 4.0
+sh_traffic_aadt,site,00200482,SH2 Wairoa/Gisborne District Council boundary,2024-01-01,2024-12-31,year,calendar,1590.0,vehicles per day,mean,Total,Total,Total,,,nzta_traffic,2026-11-22,CC BY 4.0
+sh_traffic_aadt,site,00200482,SH2 Wairoa/Gisborne District Council boundary,2025-01-01,2025-12-31,year,calendar,1564.0,vehicles per day,mean,Total,Total,Total,,,nzta_traffic,2026-11-22,CC BY 4.0
+sh_traffic_aadt,site,03500180,SH35 450 m Sth of Poroporo Bridge,2021-01-01,2021-12-31,year,calendar,424.0,vehicles per day,mean,Total,Total,Total,,,nzta_traffic,2026-11-22,CC BY 4.0
+sh_traffic_aadt,site,03500180,SH35 450 m Sth of Poroporo Bridge,2022-01-01,2022-12-31,year,calendar,361.0,vehicles per day,mean,Total,Total,Total,,,nzta_traffic,2026-11-22,CC BY 4.0
+sh_traffic_aadt,site,03500180,SH35 450 m Sth of Poroporo Bridge,2023-01-01,2023-12-31,year,calendar,407.0,vehicles per day,mean,Total,Total,Total,,,nzta_traffic,2026-11-22,CC BY 4.0
+sh_traffic_aadt,site,03500237,SH35 100 m Sth of Marotiri Culvert,2021-01-01,2021-12-31,year,calendar,1134.0,vehicles per day,mean,Total,Total,Total,,,nzta_traffic,2026-11-22,CC BY 4.0
+sh_traffic_aadt,site,03500237,SH35 100 m Sth of Marotiri Culvert,2022-01-01,2022-12-31,year,calendar,960.0,vehicles per day,mean,Total,Total,Total,,,nzta_traffic,2026-11-22,CC BY 4.0
+sh_traffic_aadt,site,03500237,SH35 100 m Sth of Marotiri Culvert,2023-01-01,2023-12-31,year,calendar,1278.0,vehicles per day,mean,Total,Total,Total,,,nzta_traffic,2026-11-22,CC BY 4.0
+sh_traffic_aadt,site,03500237,SH35 100 m Sth of Marotiri Culvert,2024-01-01,2024-12-31,year,calendar,1046.0,vehicles per day,mean,Total,Total,Total,,,nzta_traffic,2026-11-22,CC BY 4.0
+sh_traffic_aadt,site,03500237,SH35 100 m Sth of Marotiri Culvert,2025-01-01,2025-12-31,year,calendar,1105.0,vehicles per day,mean,Total,Total,Total,,,nzta_traffic,2026-11-22,CC BY 4.0
+sh_traffic_aadt,site,03500270,SH35 North of Tolaga Bay - Telemetry Site 115 (New Apr 2014),2021-01-01,2021-12-31,year,calendar,1266.0,vehicles per day,mean,Total,Total,Total,,,nzta_traffic,2026-11-22,CC BY 4.0
+sh_traffic_aadt,site,03500270,SH35 North of Tolaga Bay - Telemetry Site 115 (New Apr 2014),2022-01-01,2022-12-31,year,calendar,1089.0,vehicles per day,mean,Total,Total,Total,,,nzta_traffic,2026-11-22,CC BY 4.0
+sh_traffic_aadt,site,03500270,SH35 North of Tolaga Bay - Telemetry Site 115 (New Apr 2014),2023-01-01,2023-12-31,year,calendar,1241.0,vehicles per day,mean,Total,Total,Total,,,nzta_traffic,2026-11-22,CC BY 4.0
+sh_traffic_aadt,site,03500270,SH35 North of Tolaga Bay - Telemetry Site 115 (New Apr 2014),2024-01-01,2024-12-31,year,calendar,1127.0,vehicles per day,mean,Total,Total,Total,,,nzta_traffic,2026-11-22,CC BY 4.0
+sh_traffic_aadt,site,03500270,SH35 North of Tolaga Bay - Telemetry Site 115 (New Apr 2014),2025-01-01,2025-12-31,year,calendar,1146.0,vehicles per day,mean,Total,Total,Total,,,nzta_traffic,2026-11-22,CC BY 4.0
+sh_traffic_aadt,site,03500272,SH35 60 m Sth of Dosli BM GF 82,2021-01-01,2021-12-31,year,calendar,1383.0,vehicles per day,mean,Total,Total,Total,,,nzta_traffic,2026-11-22,CC BY 4.0
+sh_traffic_aadt,site,03500272,SH35 60 m Sth of Dosli BM GF 82,2022-01-01,2022-12-31,year,calendar,1208.0,vehicles per day,mean,Total,Total,Total,,,nzta_traffic,2026-11-22,CC BY 4.0
+sh_traffic_aadt,site,03500272,SH35 60 m Sth of Dosli BM GF 82,2023-01-01,2023-12-31,year,calendar,1359.0,vehicles per day,mean,Total,Total,Total,,,nzta_traffic,2026-11-22,CC BY 4.0
+sh_traffic_aadt,site,03500274,SH35 Uawa River Bridge,2021-01-01,2021-12-31,year,calendar,2564.0,vehicles per day,mean,Total,Total,Total,,,nzta_traffic,2026-11-22,CC BY 4.0
+sh_traffic_aadt,site,03500274,SH35 Uawa River Bridge,2022-01-01,2022-12-31,year,calendar,2423.0,vehicles per day,mean,Total,Total,Total,,,nzta_traffic,2026-11-22,CC BY 4.0
+sh_traffic_aadt,site,03500274,SH35 Uawa River Bridge,2023-01-01,2023-12-31,year,calendar,2517.0,vehicles per day,mean,Total,Total,Total,,,nzta_traffic,2026-11-22,CC BY 4.0
+sh_traffic_aadt,site,03500295,SH35 1.3k south of Mangakuri Bridge,2021-01-01,2021-12-31,year,calendar,1721.0,vehicles per day,mean,Total,Total,Total,,,nzta_traffic,2026-11-22,CC BY 4.0
+sh_traffic_aadt,site,03500295,SH35 1.3k south of Mangakuri Bridge,2022-01-01,2022-12-31,year,calendar,1643.0,vehicles per day,mean,Total,Total,Total,,,nzta_traffic,2026-11-22,CC BY 4.0
+sh_traffic_aadt,site,03500295,SH35 1.3k south of Mangakuri Bridge,2023-01-01,2023-12-31,year,calendar,1757.0,vehicles per day,mean,Total,Total,Total,,,nzta_traffic,2026-11-22,CC BY 4.0
+sh_traffic_aadt,site,03500295,SH35 1.3k south of Mangakuri Bridge,2024-01-01,2024-12-31,year,calendar,1506.0,vehicles per day,mean,Total,Total,Total,,,nzta_traffic,2026-11-22,CC BY 4.0
+sh_traffic_aadt,site,03500295,SH35 1.3k south of Mangakuri Bridge,2025-01-01,2025-12-31,year,calendar,1687.0,vehicles per day,mean,Total,Total,Total,,,nzta_traffic,2026-11-22,CC BY 4.0
+sh_traffic_aadt,site,03500314,SH35 200 m Sth of Top of Makorori Hill,2021-01-01,2021-12-31,year,calendar,2224.0,vehicles per day,mean,Total,Total,Total,,,nzta_traffic,2026-11-22,CC BY 4.0
+sh_traffic_aadt,site,03500314,SH35 200 m Sth of Top of Makorori Hill,2022-01-01,2022-12-31,year,calendar,2096.0,vehicles per day,mean,Total,Total,Total,,,nzta_traffic,2026-11-22,CC BY 4.0
+sh_traffic_aadt,site,03500314,SH35 200 m Sth of Top of Makorori Hill,2023-01-01,2023-12-31,year,calendar,2244.0,vehicles per day,mean,Total,Total,Total,,,nzta_traffic,2026-11-22,CC BY 4.0
+sh_traffic_aadt,site,03500314,SH35 200 m Sth of Top of Makorori Hill,2024-01-01,2024-12-31,year,calendar,2369.0,vehicles per day,mean,Total,Total,Total,,,nzta_traffic,2026-11-22,CC BY 4.0
+sh_traffic_aadt,site,03500314,SH35 200 m Sth of Top of Makorori Hill,2025-01-01,2025-12-31,year,calendar,2252.0,vehicles per day,mean,Total,Total,Total,,,nzta_traffic,2026-11-22,CC BY 4.0
+sh_traffic_aadt,site,03500318,SH35 Gisborne: Okitu Reserve,2023-01-01,2023-12-31,year,calendar,4054.0,vehicles per day,mean,Total,Total,Total,,,nzta_traffic,2026-11-22,CC BY 4.0
+sh_traffic_aadt,site,03500321,SH35 HAMANATUA BRIDGE - Telemetry Site 108 WIM,2021-01-01,2021-12-31,year,calendar,5700.0,vehicles per day,mean,Total,Total,Total,,,nzta_traffic,2026-11-22,CC BY 4.0
+sh_traffic_aadt,site,03500321,SH35 HAMANATUA BRIDGE - Telemetry Site 108 WIM,2022-01-01,2022-12-31,year,calendar,5525.0,vehicles per day,mean,Total,Total,Total,,,nzta_traffic,2026-11-22,CC BY 4.0
+sh_traffic_aadt,site,03500321,SH35 HAMANATUA BRIDGE - Telemetry Site 108 WIM,2023-01-01,2023-12-31,year,calendar,5266.0,vehicles per day,mean,Total,Total,Total,,,nzta_traffic,2026-11-22,CC BY 4.0
+sh_traffic_aadt,site,03500321,SH35 HAMANATUA BRIDGE - Telemetry Site 108 WIM,2024-01-01,2024-12-31,year,calendar,5567.0,vehicles per day,mean,Total,Total,Total,,,nzta_traffic,2026-11-22,CC BY 4.0
+sh_traffic_aadt,site,03500321,SH35 HAMANATUA BRIDGE - Telemetry Site 108 WIM,2025-01-01,2025-12-31,year,calendar,5613.0,vehicles per day,mean,Total,Total,Total,,,nzta_traffic,2026-11-22,CC BY 4.0
+sh_traffic_aadt,site,03500324,SH35 Gisborne City Boundary,2021-01-01,2021-12-31,year,calendar,7964.0,vehicles per day,mean,Total,Total,Total,,,nzta_traffic,2026-11-22,CC BY 4.0
+sh_traffic_aadt,site,03500324,SH35 Gisborne City Boundary,2022-01-01,2022-12-31,year,calendar,7330.0,vehicles per day,mean,Total,Total,Total,,,nzta_traffic,2026-11-22,CC BY 4.0
+sh_traffic_aadt,site,03500324,SH35 Gisborne City Boundary,2023-01-01,2023-12-31,year,calendar,7695.0,vehicles per day,mean,Total,Total,Total,,,nzta_traffic,2026-11-22,CC BY 4.0
+sh_traffic_aadt,site,03500324,SH35 Gisborne City Boundary,2024-01-01,2024-12-31,year,calendar,7826.0,vehicles per day,mean,Total,Total,Total,,,nzta_traffic,2026-11-22,CC BY 4.0
+sh_traffic_aadt,site,03500324,SH35 Gisborne City Boundary,2025-01-01,2025-12-31,year,calendar,8046.0,vehicles per day,mean,Total,Total,Total,,,nzta_traffic,2026-11-22,CC BY 4.0
+sh_traffic_aadt,site,03500327,SH35 Sth of Harris St,2021-01-01,2021-12-31,year,calendar,20998.0,vehicles per day,mean,Total,Total,Total,,,nzta_traffic,2026-11-22,CC BY 4.0
+sh_traffic_aadt,site,03500327,SH35 Sth of Harris St,2022-01-01,2022-12-31,year,calendar,20232.0,vehicles per day,mean,Total,Total,Total,,,nzta_traffic,2026-11-22,CC BY 4.0
+sh_traffic_aadt,site,03500327,SH35 Sth of Harris St,2023-01-01,2023-12-31,year,calendar,20319.0,vehicles per day,mean,Total,Total,Total,,,nzta_traffic,2026-11-22,CC BY 4.0
+sh_traffic_aadt,site,03500327,SH35 Sth of Harris St,2025-01-01,2025-12-31,year,calendar,20891.0,vehicles per day,mean,Total,Total,Total,,,nzta_traffic,2026-11-22,CC BY 4.0
+sh_traffic_aadt,site,03500328,SH35 Awapuni Rd 200m east of Grey St intersection,2022-01-01,2022-12-31,year,calendar,6911.0,vehicles per day,mean,Total,Total,Total,,,nzta_traffic,2026-11-22,CC BY 4.0
+sh_traffic_aadt,site,03500328,SH35 Awapuni Rd 200m east of Grey St intersection,2023-01-01,2023-12-31,year,calendar,7115.0,vehicles per day,mean,Total,Total,Total,,,nzta_traffic,2026-11-22,CC BY 4.0
+sh_traffic_aadt,site,03500328,SH35 Awapuni Rd 200m east of Grey St intersection,2025-01-01,2025-12-31,year,calendar,6005.0,vehicles per day,mean,Total,Total,Total,,,nzta_traffic,2026-11-22,CC BY 4.0
+sh_traffic_aadt,site,03500332,SH35 170 m Nth of Runway Lighting Towers -LHS,2021-01-01,2021-12-31,year,calendar,5343.0,vehicles per day,mean,Total,Total,Total,,,nzta_traffic,2026-11-22,CC BY 4.0
+sh_traffic_aadt,site,03500332,SH35 170 m Nth of Runway Lighting Towers -LHS,2022-01-01,2022-12-31,year,calendar,5387.0,vehicles per day,mean,Total,Total,Total,,,nzta_traffic,2026-11-22,CC BY 4.0
+sh_traffic_aadt,site,03500332,SH35 170 m Nth of Runway Lighting Towers -LHS,2023-01-01,2023-12-31,year,calendar,5503.0,vehicles per day,mean,Total,Total,Total,,,nzta_traffic,2026-11-22,CC BY 4.0
+sh_traffic_aadt,site,03500332,SH35 170 m Nth of Runway Lighting Towers -LHS,2024-01-01,2024-12-31,year,calendar,5472.0,vehicles per day,mean,Total,Total,Total,,,nzta_traffic,2026-11-22,CC BY 4.0
+sh_traffic_aadt,site,03500332,SH35 170 m Nth of Runway Lighting Towers -LHS,2025-01-01,2025-12-31,year,calendar,5704.0,vehicles per day,mean,Total,Total,Total,,,nzta_traffic,2026-11-22,CC BY 4.0
 bds_employee_count,ta,028,Gisborne District,2000-02-01,2000-02-28,year,february,18800.0,employees,count,Total,Total,Total,,random rounding,statsnz_ade,2026-11-20,CC BY 4.0
 bds_employee_count,ta,028,Gisborne District,2001-02-01,2001-02-28,year,february,18900.0,employees,count,Total,Total,Total,,random rounding,statsnz_ade,2026-11-20,CC BY 4.0
 bds_employee_count,ta,028,Gisborne District,2002-02-01,2002-02-28,year,february,19600.0,employees,count,Total,Total,Total,,random rounding,statsnz_ade,2026-11-20,CC BY 4.0

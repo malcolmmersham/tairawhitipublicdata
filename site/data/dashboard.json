@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-22T01:00:13+00:00",
+ "generated": "2026-11-22T01:07:34+00:00",
  "indicators": {
   "sa2_population": {
    "name": "Usually resident population",
@@ -841,6 +841,79 @@
    "direction": "down",
    "headline": false,
    "format": "int"
+  },
+  "mvr_light_fleet": {
+   "name": "Registered light vehicles",
+   "domain": "Hapori",
+   "topic": "Transport",
+   "display": "snapshot",
+   "direction": "neutral",
+   "headline": false,
+   "format": "int",
+   "caveat": "Light passenger and light goods vehicles (classes MA, MB, MC and NA) on the Motor Vehicle Register at the end of the month, by the registered owner's address in Gisborne District. Vehicles with a confidential owner listing are excluded. Monthly snapshots accumulate from October 2026."
+  },
+  "mvr_light_fleet_age": {
+   "name": "Average age of light vehicles",
+   "domain": "Hapori",
+   "topic": "Transport",
+   "display": "snapshot",
+   "direction": "down",
+   "headline": false,
+   "format": "dec1",
+   "caveat": "Years. Snapshot year minus the average vehicle year (year of manufacture) of registered light vehicles with an owner address in Gisborne District."
+  },
+  "mvr_light_plugin_share": {
+   "name": "Plug-in share of light vehicles",
+   "domain": "Hapori",
+   "topic": "Transport",
+   "display": "snapshot",
+   "direction": "up",
+   "headline": false,
+   "format": "pct",
+   "caveat": "Battery electric and plug-in hybrid vehicles as a share of registered light vehicles with an owner address in Gisborne District, from the register's motive power field."
+  },
+  "mvr_light_hybrid_share": {
+   "name": "Hybrid share of light vehicles",
+   "domain": "Hapori",
+   "topic": "Transport",
+   "display": "snapshot",
+   "direction": "neutral",
+   "headline": false,
+   "format": "pct",
+   "caveat": "Petrol and diesel hybrids that do not plug in, as a share of registered light vehicles with an owner address in Gisborne District."
+  },
+  "sh_traffic_aadt": {
+   "name": "State highway traffic by monitoring site",
+   "domain": "Hapori",
+   "topic": "Transport",
+   "display": "sites",
+   "site_label": "State highway monitoring site",
+   "direction": "neutral",
+   "headline": false,
+   "format": "int",
+   "caveat": "Annual average daily traffic (vehicles per day, both directions) published for state highway sites in NZTA's Gisborne region, by calendar year. Non-continuous sites are counted for some weeks and adjusted by NZTA. Blank cells have no published count."
+  },
+  "court_people_finalised": {
+   "name": "People with finalised charges by court",
+   "domain": "Hapori",
+   "topic": "Courts",
+   "display": "sites",
+   "site_label": "Court location",
+   "direction": "neutral",
+   "headline": false,
+   "format": "int",
+   "caveat": "People of all ages, counted once a year at the court of their most serious finalised charge, for years ended June. Court location is where the final hearing was held, not where people live. Gisborne and Ruatōria courts can serve people who live outside Gisborne District."
+  },
+  "court_people_convicted": {
+   "name": "People convicted by court",
+   "domain": "Hapori",
+   "topic": "Courts",
+   "display": "sites",
+   "site_label": "Court location",
+   "direction": "neutral",
+   "headline": false,
+   "format": "int",
+   "caveat": "People of all ages whose most serious finalised charge ended in conviction, by court location, for years ended June. Court location is where the final hearing was held, not where people live."
   }
  },
  "sources": {
@@ -1037,6 +1110,27 @@
    "attribution": "Contains Census data from Stats NZ, licensed under CC BY 4.0.",
    "cadence": "five-yearly",
    "check_every_days": 30
+  },
+  "nzta_mvr": {
+   "name": "NZ Transport Agency Waka Kotahi – Motor Vehicle Register",
+   "url": "https://opendata-nzta.opendata.arcgis.com/datasets/7b4df667d5014f1a93e6050b31d18407_0/about",
+   "attribution": "Source: NZ Transport Agency Waka Kotahi, licensed under CC BY 4.0",
+   "cadence": "monthly",
+   "check_every_days": 7
+  },
+  "nzta_traffic": {
+   "name": "NZ Transport Agency Waka Kotahi – State highway traffic monitoring sites",
+   "url": "https://opendata-nzta.opendata.arcgis.com/datasets/b90f8908910f44a493c6501c3565ed2d_0/about",
+   "attribution": "Source: NZ Transport Agency Waka Kotahi, licensed under CC BY 4.0",
+   "cadence": "annual",
+   "check_every_days": 7
+  },
+  "moj_courts": {
+   "name": "Ministry of Justice – People with finalised charges by court",
+   "url": "https://www.justice.govt.nz/justice-sector-policy/research-data/justice-statistics/data-tables/",
+   "attribution": "Source: Ministry of Justice, licensed under CC BY 4.0",
+   "cadence": "annual",
+   "check_every_days": 7
   }
  },
  "series": [
@@ -39925,6 +40019,254 @@
    ]
   },
   {
+   "indicator": "court_people_convicted",
+   "geo": "court-gisborne",
+   "geo_type": "site",
+   "geo_name": "Gisborne court",
+   "ethnicity": "Total",
+   "source": "moj_courts",
+   "period_type": "year",
+   "unit": "people",
+   "points": [
+    [
+     "2017-06-30",
+     1113.0,
+     null
+    ],
+    [
+     "2018-06-30",
+     1177.0,
+     null
+    ],
+    [
+     "2019-06-30",
+     1033.0,
+     null
+    ],
+    [
+     "2020-06-30",
+     1039.0,
+     null
+    ],
+    [
+     "2021-06-30",
+     1012.0,
+     null
+    ],
+    [
+     "2022-06-30",
+     817.0,
+     null
+    ],
+    [
+     "2023-06-30",
+     739.0,
+     null
+    ],
+    [
+     "2024-06-30",
+     857.0,
+     null
+    ],
+    [
+     "2025-06-30",
+     870.0,
+     null
+    ],
+    [
+     "2026-06-30",
+     833.0,
+     null
+    ]
+   ]
+  },
+  {
+   "indicator": "court_people_convicted",
+   "geo": "court-ruatoria",
+   "geo_type": "site",
+   "geo_name": "Ruatōria court",
+   "ethnicity": "Total",
+   "source": "moj_courts",
+   "period_type": "year",
+   "unit": "people",
+   "points": [
+    [
+     "2017-06-30",
+     87.0,
+     null
+    ],
+    [
+     "2018-06-30",
+     76.0,
+     null
+    ],
+    [
+     "2019-06-30",
+     54.0,
+     null
+    ],
+    [
+     "2020-06-30",
+     50.0,
+     null
+    ],
+    [
+     "2021-06-30",
+     70.0,
+     null
+    ],
+    [
+     "2022-06-30",
+     36.0,
+     null
+    ],
+    [
+     "2023-06-30",
+     36.0,
+     null
+    ],
+    [
+     "2024-06-30",
+     53.0,
+     null
+    ],
+    [
+     "2025-06-30",
+     54.0,
+     null
+    ],
+    [
+     "2026-06-30",
+     50.0,
+     null
+    ]
+   ]
+  },
+  {
+   "indicator": "court_people_finalised",
+   "geo": "court-gisborne",
+   "geo_type": "site",
+   "geo_name": "Gisborne court",
+   "ethnicity": "Total",
+   "source": "moj_courts",
+   "period_type": "year",
+   "unit": "people",
+   "points": [
+    [
+     "2017-06-30",
+     1407.0,
+     null
+    ],
+    [
+     "2018-06-30",
+     1441.0,
+     null
+    ],
+    [
+     "2019-06-30",
+     1294.0,
+     null
+    ],
+    [
+     "2020-06-30",
+     1295.0,
+     null
+    ],
+    [
+     "2021-06-30",
+     1265.0,
+     null
+    ],
+    [
+     "2022-06-30",
+     998.0,
+     null
+    ],
+    [
+     "2023-06-30",
+     1042.0,
+     null
+    ],
+    [
+     "2024-06-30",
+     1183.0,
+     null
+    ],
+    [
+     "2025-06-30",
+     1176.0,
+     null
+    ],
+    [
+     "2026-06-30",
+     1247.0,
+     null
+    ]
+   ]
+  },
+  {
+   "indicator": "court_people_finalised",
+   "geo": "court-ruatoria",
+   "geo_type": "site",
+   "geo_name": "Ruatōria court",
+   "ethnicity": "Total",
+   "source": "moj_courts",
+   "period_type": "year",
+   "unit": "people",
+   "points": [
+    [
+     "2017-06-30",
+     108.0,
+     null
+    ],
+    [
+     "2018-06-30",
+     88.0,
+     null
+    ],
+    [
+     "2019-06-30",
+     63.0,
+     null
+    ],
+    [
+     "2020-06-30",
+     62.0,
+     null
+    ],
+    [
+     "2021-06-30",
+     80.0,
+     null
+    ],
+    [
+     "2022-06-30",
+     44.0,
+     null
+    ],
+    [
+     "2023-06-30",
+     46.0,
+     null
+    ],
+    [
+     "2024-06-30",
+     60.0,
+     null
+    ],
+    [
+     "2025-06-30",
+     69.0,
+     null
+    ],
+    [
+     "2026-06-30",
+     74.0,
+     null
+    ]
+   ]
+  },
+  {
    "indicator": "msd_jobseeker",
    "geo": "05",
    "geo_type": "region",
@@ -42853,6 +43195,776 @@
      "2026-12-31",
      86.0,
      "partial year; CAS is live and late reports are added"
+    ]
+   ]
+  },
+  {
+   "indicator": "mvr_light_fleet",
+   "geo": "028",
+   "geo_type": "ta",
+   "geo_name": "Gisborne District",
+   "ethnicity": "Total",
+   "source": "nzta_mvr",
+   "period_type": "month",
+   "unit": "vehicles",
+   "points": [
+    [
+     "2026-10-31",
+     38344.0,
+     null
+    ]
+   ]
+  },
+  {
+   "indicator": "mvr_light_fleet_age",
+   "geo": "028",
+   "geo_type": "ta",
+   "geo_name": "Gisborne District",
+   "ethnicity": "Total",
+   "source": "nzta_mvr",
+   "period_type": "month",
+   "unit": "years",
+   "points": [
+    [
+     "2026-10-31",
+     14.0,
+     null
+    ]
+   ]
+  },
+  {
+   "indicator": "mvr_light_hybrid_share",
+   "geo": "028",
+   "geo_type": "ta",
+   "geo_name": "Gisborne District",
+   "ethnicity": "Total",
+   "source": "nzta_mvr",
+   "period_type": "month",
+   "unit": "percent",
+   "points": [
+    [
+     "2026-10-31",
+     5.93,
+     null
+    ]
+   ]
+  },
+  {
+   "indicator": "mvr_light_plugin_share",
+   "geo": "028",
+   "geo_type": "ta",
+   "geo_name": "Gisborne District",
+   "ethnicity": "Total",
+   "source": "nzta_mvr",
+   "period_type": "month",
+   "unit": "percent",
+   "points": [
+    [
+     "2026-10-31",
+     1.31,
+     null
+    ]
+   ]
+  },
+  {
+   "indicator": "sh_traffic_aadt",
+   "geo": "00200390",
+   "geo_type": "site",
+   "geo_name": "SH2 100 m Sth of Parihohonu Bridge",
+   "ethnicity": "Total",
+   "source": "nzta_traffic",
+   "period_type": "year",
+   "unit": "vehicles per day",
+   "points": [
+    [
+     "2021-12-31",
+     1129.0,
+     null
+    ],
+    [
+     "2022-12-31",
+     1134.0,
+     null
+    ],
+    [
+     "2023-12-31",
+     1112.0,
+     null
+    ],
+    [
+     "2024-12-31",
+     1252.0,
+     null
+    ],
+    [
+     "2025-12-31",
+     1191.0,
+     null
+    ]
+   ]
+  },
+  {
+   "indicator": "sh_traffic_aadt",
+   "geo": "00200411",
+   "geo_type": "site",
+   "geo_name": "SH2 140 m Nth of Graham Rd",
+   "ethnicity": "Total",
+   "source": "nzta_traffic",
+   "period_type": "year",
+   "unit": "vehicles per day",
+   "points": [
+    [
+     "2021-12-31",
+     1307.0,
+     null
+    ],
+    [
+     "2022-12-31",
+     1281.0,
+     null
+    ],
+    [
+     "2023-12-31",
+     1316.0,
+     null
+    ],
+    [
+     "2025-12-31",
+     1414.0,
+     null
+    ]
+   ]
+  },
+  {
+   "indicator": "sh_traffic_aadt",
+   "geo": "00200428",
+   "geo_type": "site",
+   "geo_name": "SH2 ORMOND : Telemetry Site 26",
+   "ethnicity": "Total",
+   "source": "nzta_traffic",
+   "period_type": "year",
+   "unit": "vehicles per day",
+   "points": [
+    [
+     "2021-12-31",
+     3023.0,
+     null
+    ],
+    [
+     "2022-12-31",
+     2918.0,
+     null
+    ],
+    [
+     "2023-12-31",
+     2056.0,
+     null
+    ],
+    [
+     "2025-12-31",
+     3115.0,
+     null
+    ]
+   ]
+  },
+  {
+   "indicator": "sh_traffic_aadt",
+   "geo": "00200441",
+   "geo_type": "site",
+   "geo_name": "SH2 Carringtons Culvert",
+   "ethnicity": "Total",
+   "source": "nzta_traffic",
+   "period_type": "year",
+   "unit": "vehicles per day",
+   "points": [
+    [
+     "2021-12-31",
+     2958.0,
+     null
+    ],
+    [
+     "2022-12-31",
+     2760.0,
+     null
+    ],
+    [
+     "2023-12-31",
+     2568.0,
+     null
+    ],
+    [
+     "2024-12-31",
+     3016.0,
+     null
+    ],
+    [
+     "2025-12-31",
+     2899.0,
+     null
+    ]
+   ]
+  },
+  {
+   "indicator": "sh_traffic_aadt",
+   "geo": "00200444",
+   "geo_type": "site",
+   "geo_name": "SH2 200 m Nth of Bell Rd",
+   "ethnicity": "Total",
+   "source": "nzta_traffic",
+   "period_type": "year",
+   "unit": "vehicles per day",
+   "points": [
+    [
+     "2021-12-31",
+     6685.0,
+     null
+    ],
+    [
+     "2022-12-31",
+     6545.0,
+     null
+    ],
+    [
+     "2023-12-31",
+     6478.0,
+     null
+    ],
+    [
+     "2024-12-31",
+     6652.0,
+     null
+    ],
+    [
+     "2025-12-31",
+     6785.0,
+     null
+    ]
+   ]
+  },
+  {
+   "indicator": "sh_traffic_aadt",
+   "geo": "00200448",
+   "geo_type": "site",
+   "geo_name": "SH2 Sth end of Whatatuna Bridge",
+   "ethnicity": "Total",
+   "source": "nzta_traffic",
+   "period_type": "year",
+   "unit": "vehicles per day",
+   "points": [
+    [
+     "2021-12-31",
+     4167.0,
+     null
+    ],
+    [
+     "2022-12-31",
+     4022.0,
+     null
+    ],
+    [
+     "2023-12-31",
+     3963.0,
+     null
+    ],
+    [
+     "2024-12-31",
+     4087.0,
+     null
+    ],
+    [
+     "2025-12-31",
+     4019.0,
+     null
+    ]
+   ]
+  },
+  {
+   "indicator": "sh_traffic_aadt",
+   "geo": "00200452",
+   "geo_type": "site",
+   "geo_name": "SH2 Traffic Count Station 15",
+   "ethnicity": "Total",
+   "source": "nzta_traffic",
+   "period_type": "year",
+   "unit": "vehicles per day",
+   "points": [
+    [
+     "2021-12-31",
+     2367.0,
+     null
+    ],
+    [
+     "2022-12-31",
+     2204.0,
+     null
+    ],
+    [
+     "2023-12-31",
+     2065.0,
+     null
+    ],
+    [
+     "2024-12-31",
+     2363.0,
+     null
+    ],
+    [
+     "2025-12-31",
+     2299.0,
+     null
+    ]
+   ]
+  },
+  {
+   "indicator": "sh_traffic_aadt",
+   "geo": "00200482",
+   "geo_type": "site",
+   "geo_name": "SH2 Wairoa/Gisborne District Council boundary",
+   "ethnicity": "Total",
+   "source": "nzta_traffic",
+   "period_type": "year",
+   "unit": "vehicles per day",
+   "points": [
+    [
+     "2021-12-31",
+     1483.0,
+     null
+    ],
+    [
+     "2022-12-31",
+     1540.0,
+     null
+    ],
+    [
+     "2023-12-31",
+     1321.0,
+     null
+    ],
+    [
+     "2024-12-31",
+     1590.0,
+     null
+    ],
+    [
+     "2025-12-31",
+     1564.0,
+     null
+    ]
+   ]
+  },
+  {
+   "indicator": "sh_traffic_aadt",
+   "geo": "03500180",
+   "geo_type": "site",
+   "geo_name": "SH35 450 m Sth of Poroporo Bridge",
+   "ethnicity": "Total",
+   "source": "nzta_traffic",
+   "period_type": "year",
+   "unit": "vehicles per day",
+   "points": [
+    [
+     "2021-12-31",
+     424.0,
+     null
+    ],
+    [
+     "2022-12-31",
+     361.0,
+     null
+    ],
+    [
+     "2023-12-31",
+     407.0,
+     null
+    ]
+   ]
+  },
+  {
+   "indicator": "sh_traffic_aadt",
+   "geo": "03500237",
+   "geo_type": "site",
+   "geo_name": "SH35 100 m Sth of Marotiri Culvert",
+   "ethnicity": "Total",
+   "source": "nzta_traffic",
+   "period_type": "year",
+   "unit": "vehicles per day",
+   "points": [
+    [
+     "2021-12-31",
+     1134.0,
+     null
+    ],
+    [
+     "2022-12-31",
+     960.0,
+     null
+    ],
+    [
+     "2023-12-31",
+     1278.0,
+     null
+    ],
+    [
+     "2024-12-31",
+     1046.0,
+     null
+    ],
+    [
+     "2025-12-31",
+     1105.0,
+     null
+    ]
+   ]
+  },
+  {
+   "indicator": "sh_traffic_aadt",
+   "geo": "03500270",
+   "geo_type": "site",
+   "geo_name": "SH35 North of Tolaga Bay - Telemetry Site 115 (New Apr 2014)",
+   "ethnicity": "Total",
+   "source": "nzta_traffic",
+   "period_type": "year",
+   "unit": "vehicles per day",
+   "points": [
+    [
+     "2021-12-31",
+     1266.0,
+     null
+    ],
+    [
+     "2022-12-31",
+     1089.0,
+     null
+    ],
+    [
+     "2023-12-31",
+     1241.0,
+     null
+    ],
+    [
+     "2024-12-31",
+     1127.0,
+     null
+    ],
+    [
+     "2025-12-31",
+     1146.0,
+     null
+    ]
+   ]
+  },
+  {
+   "indicator": "sh_traffic_aadt",
+   "geo": "03500272",
+   "geo_type": "site",
+   "geo_name": "SH35 60 m Sth of Dosli BM GF 82",
+   "ethnicity": "Total",
+   "source": "nzta_traffic",
+   "period_type": "year",
+   "unit": "vehicles per day",
+   "points": [
+    [
+     "2021-12-31",
+     1383.0,
+     null
+    ],
+    [
+     "2022-12-31",
+     1208.0,
+     null
+    ],
+    [
+     "2023-12-31",
+     1359.0,
+     null
+    ]
+   ]
+  },
+  {
+   "indicator": "sh_traffic_aadt",
+   "geo": "03500274",
+   "geo_type": "site",
+   "geo_name": "SH35 Uawa River Bridge",
+   "ethnicity": "Total",
+   "source": "nzta_traffic",
+   "period_type": "year",
+   "unit": "vehicles per day",
+   "points": [
+    [
+     "2021-12-31",
+     2564.0,
+     null
+    ],
+    [
+     "2022-12-31",
+     2423.0,
+     null
+    ],
+    [
+     "2023-12-31",
+     2517.0,
+     null
+    ]
+   ]
+  },
+  {
+   "indicator": "sh_traffic_aadt",
+   "geo": "03500295",
+   "geo_type": "site",
+   "geo_name": "SH35 1.3k south of Mangakuri Bridge",
+   "ethnicity": "Total",
+   "source": "nzta_traffic",
+   "period_type": "year",
+   "unit": "vehicles per day",
+   "points": [
+    [
+     "2021-12-31",
+     1721.0,
+     null
+    ],
+    [
+     "2022-12-31",
+     1643.0,
+     null
+    ],
+    [
+     "2023-12-31",
+     1757.0,
+     null
+    ],
+    [
+     "2024-12-31",
+     1506.0,
+     null
+    ],
+    [
+     "2025-12-31",
+     1687.0,
+     null
+    ]
+   ]
+  },
+  {
+   "indicator": "sh_traffic_aadt",
+   "geo": "03500314",
+   "geo_type": "site",
+   "geo_name": "SH35 200 m Sth of Top of Makorori Hill",
+   "ethnicity": "Total",
+   "source": "nzta_traffic",
+   "period_type": "year",
+   "unit": "vehicles per day",
+   "points": [
+    [
+     "2021-12-31",
+     2224.0,
+     null
+    ],
+    [
+     "2022-12-31",
+     2096.0,
+     null
+    ],
+    [
+     "2023-12-31",
+     2244.0,
+     null
+    ],
+    [
+     "2024-12-31",
+     2369.0,
+     null
+    ],
+    [
+     "2025-12-31",
+     2252.0,
+     null
+    ]
+   ]
+  },
+  {
+   "indicator": "sh_traffic_aadt",
+   "geo": "03500318",
+   "geo_type": "site",
+   "geo_name": "SH35 Gisborne: Okitu Reserve",
+   "ethnicity": "Total",
+   "source": "nzta_traffic",
+   "period_type": "year",
+   "unit": "vehicles per day",
+   "points": [
+    [
+     "2023-12-31",
+     4054.0,
+     null
+    ]
+   ]
+  },
+  {
+   "indicator": "sh_traffic_aadt",
+   "geo": "03500321",
+   "geo_type": "site",
+   "geo_name": "SH35 HAMANATUA BRIDGE - Telemetry Site 108 WIM",
+   "ethnicity": "Total",
+   "source": "nzta_traffic",
+   "period_type": "year",
+   "unit": "vehicles per day",
+   "points": [
+    [
+     "2021-12-31",
+     5700.0,
+     null
+    ],
+    [
+     "2022-12-31",
+     5525.0,
+     null
+    ],
+    [
+     "2023-12-31",
+     5266.0,
+     null
+    ],
+    [
+     "2024-12-31",
+     5567.0,
+     null
+    ],
+    [
+     "2025-12-31",
+     5613.0,
+     null
+    ]
+   ]
+  },
+  {
+   "indicator": "sh_traffic_aadt",
+   "geo": "03500324",
+   "geo_type": "site",
+   "geo_name": "SH35 Gisborne City Boundary",
+   "ethnicity": "Total",
+   "source": "nzta_traffic",
+   "period_type": "year",
+   "unit": "vehicles per day",
+   "points": [
+    [
+     "2021-12-31",
+     7964.0,
+     null
+    ],
+    [
+     "2022-12-31",
+     7330.0,
+     null
+    ],
+    [
+     "2023-12-31",
+     7695.0,
+     null
+    ],
+    [
+     "2024-12-31",
+     7826.0,
+     null
+    ],
+    [
+     "2025-12-31",
+     8046.0,
+     null
+    ]
+   ]
+  },
+  {
+   "indicator": "sh_traffic_aadt",
+   "geo": "03500327",
+   "geo_type": "site",
+   "geo_name": "SH35 Sth of Harris St",
+   "ethnicity": "Total",
+   "source": "nzta_traffic",
+   "period_type": "year",
+   "unit": "vehicles per day",
+   "points": [
+    [
+     "2021-12-31",
+     20998.0,
+     null
+    ],
+    [
+     "2022-12-31",
+     20232.0,
+     null
+    ],
+    [
+     "2023-12-31",
+     20319.0,
+     null
+    ],
+    [
+     "2025-12-31",
+     20891.0,
+     null
+    ]
+   ]
+  },
+  {
+   "indicator": "sh_traffic_aadt",
+   "geo": "03500328",
+   "geo_type": "site",
+   "geo_name": "SH35 Awapuni Rd 200m east of Grey St intersection",
+   "ethnicity": "Total",
+   "source": "nzta_traffic",
+   "period_type": "year",
+   "unit": "vehicles per day",
+   "points": [
+    [
+     "2022-12-31",
+     6911.0,
+     null
+    ],
+    [
+     "2023-12-31",
+     7115.0,
+     null
+    ],
+    [
+     "2025-12-31",
+     6005.0,
+     null
+    ]
+   ]
+  },
+  {
+   "indicator": "sh_traffic_aadt",
+   "geo": "03500332",
+   "geo_type": "site",
+   "geo_name": "SH35 170 m Nth of Runway Lighting Towers -LHS",
+   "ethnicity": "Total",
+   "source": "nzta_traffic",
+   "period_type": "year",
+   "unit": "vehicles per day",
+   "points": [
+    [
+     "2021-12-31",
+     5343.0,
+     null
+    ],
+    [
+     "2022-12-31",
+     5387.0,
+     null
+    ],
+    [
+     "2023-12-31",
+     5503.0,
+     null
+    ],
+    [
+     "2024-12-31",
+     5472.0,
+     null
+    ],
+    [
+     "2025-12-31",
+     5704.0,
+     null
     ]
    ]
   },
@@ -58254,6 +59366,36 @@
    "checked": "2026-11-22T01:00:12+00:00",
    "last_success": "2026-11-22T01:00:12+00:00",
    "schema_hash": "b6833a02c0"
+  },
+  "nzta_mvr": {
+   "source_id": "nzta_mvr",
+   "ok": true,
+   "rows": 4,
+   "latest_period": "2026-10-31",
+   "message": "ok",
+   "checked": "2026-11-22T01:07:31+00:00",
+   "last_success": "2026-11-22T01:07:31+00:00",
+   "schema_hash": "18cd8d86f0"
+  },
+  "nzta_traffic": {
+   "source_id": "nzta_traffic",
+   "ok": true,
+   "rows": 90,
+   "latest_period": "2025-12-31",
+   "message": "ok",
+   "checked": "2026-11-22T01:07:32+00:00",
+   "last_success": "2026-11-22T01:07:32+00:00",
+   "schema_hash": "1abb15206d"
+  },
+  "moj_courts": {
+   "source_id": "moj_courts",
+   "ok": true,
+   "rows": 40,
+   "latest_period": "2026-06-30",
+   "message": "ok",
+   "checked": "2026-11-22T01:07:33+00:00",
+   "last_success": "2026-11-22T01:07:33+00:00",
+   "schema_hash": "f49429d627"
   }
  },
  "catalogue": [
@@ -58533,7 +59675,9 @@
    "frequency": "Quarterly",
    "phase": 2,
    "status": "planned",
-   "release": 3
+   "release": 3,
+   "note": "HUD publishes the urban development dashboard as an interactive app without a downloadable Gisborne series. Other connectors already cover several of its market indicators.",
+   "url": "https://www.hud.govt.nz/stats-and-insights/urban-development-dashboard"
   },
   {
    "id": "H11",
@@ -58687,10 +59831,10 @@
    "domain": "Hapori",
    "frequency": "Annual",
    "phase": 1,
-   "status": "reference",
+   "status": "live",
    "release": 2,
-   "note": "Use the Ministry of Justice court tables for figures by court location. The court of the most serious offence can serve people who live outside Gisborne District.",
-   "url": "https://www.justice.govt.nz/justice-sector-policy/research-data/justice-statistics/adults-with-finalised-charges-in-court/"
+   "note": "People of all ages with finalised and convicted charges at the Gisborne and Ruatōria courts from 2016/17, from the Ministry of Justice people workbook. Court location is not residence.",
+   "url": "https://www.justice.govt.nz/justice-sector-policy/research-data/justice-statistics/data-tables/"
   },
   {
    "id": "H26",
@@ -58709,8 +59853,10 @@
    "domain": "Hapori",
    "frequency": "Monthly",
    "phase": 2,
-   "status": "planned",
-   "release": 3
+   "status": "live",
+   "release": 3,
+   "note": "Monthly Gisborne District light-fleet snapshots from October 2026 and published AADT at state highway sites in NZTA's Gisborne region from 2021.",
+   "url": "https://opendata-nzta.opendata.arcgis.com/"
   },
   {
    "id": "M1",
@@ -58958,7 +60104,7 @@
    "frequency": "Triennial",
    "phase": 3,
    "status": "manual",
-   "note": "2022 and 2025 contested mayoral turnout snapshots are published. Verify earlier releases before charting a trend.",
+   "note": "2022 and 2025 contested mayoral turnout snapshots are published. Earlier releases from 2013 to 2019 still need verification against the official statistics.",
    "url": "https://www.mcert.govt.nz/our-work/local-government/local-elections-and-voting/local-authority-election-statistics/",
    "published": true,
    "release": 1
@@ -58972,7 +60118,7 @@
    "phase": 3,
    "status": "reference",
    "release": 3,
-   "note": "The Electoral Commission publishes enrolment and turnout for East Coast General electorate, a wider geography than Gisborne District.",
+   "note": "The Electoral Commission publishes enrolment and turnout for the East Coast and Ikaroa-Rāwhiti electorates, which are wider than Gisborne District. The results and enrolment sites block automated downloads.",
    "url": "https://www.electionresults.govt.nz/electionresults_2023/statistics/party-votes-and-turnout-by-electorate.html"
   },
   {

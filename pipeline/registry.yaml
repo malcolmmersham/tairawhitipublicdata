@@ -180,6 +180,25 @@ sources:
     cadence: five-yearly
     check_every_days: 30
 
+  nzta_mvr:
+    name: NZ Transport Agency Waka Kotahi – Motor Vehicle Register
+    url: https://opendata-nzta.opendata.arcgis.com/datasets/7b4df667d5014f1a93e6050b31d18407_0/about
+    attribution: "Source: NZ Transport Agency Waka Kotahi, licensed under CC BY 4.0"
+    cadence: monthly
+    check_every_days: 7
+  nzta_traffic:
+    name: NZ Transport Agency Waka Kotahi – State highway traffic monitoring sites
+    url: https://opendata-nzta.opendata.arcgis.com/datasets/b90f8908910f44a493c6501c3565ed2d_0/about
+    attribution: "Source: NZ Transport Agency Waka Kotahi, licensed under CC BY 4.0"
+    cadence: annual
+    check_every_days: 7
+  moj_courts:
+    name: Ministry of Justice – People with finalised charges by court
+    url: https://www.justice.govt.nz/justice-sector-policy/research-data/justice-statistics/data-tables/
+    attribution: "Source: Ministry of Justice, licensed under CC BY 4.0"
+    cadence: annual
+    check_every_days: 7
+
 indicators:
   sa2_population:
     name: Usually resident population
@@ -951,3 +970,71 @@ indicators:
     direction: down
     headline: false
     format: int
+
+  # ---- Hapori: transport and courts ----
+  mvr_light_fleet:
+    name: Registered light vehicles
+    domain: Hapori
+    topic: Transport
+    display: snapshot
+    direction: neutral
+    headline: false
+    format: int
+    caveat: "Light passenger and light goods vehicles (classes MA, MB, MC and NA) on the Motor Vehicle Register at the end of the month, by the registered owner's address in Gisborne District. Vehicles with a confidential owner listing are excluded. Monthly snapshots accumulate from October 2026."
+  mvr_light_fleet_age:
+    name: Average age of light vehicles
+    domain: Hapori
+    topic: Transport
+    display: snapshot
+    direction: down
+    headline: false
+    format: dec1
+    caveat: "Years. Snapshot year minus the average vehicle year (year of manufacture) of registered light vehicles with an owner address in Gisborne District."
+  mvr_light_plugin_share:
+    name: Plug-in share of light vehicles
+    domain: Hapori
+    topic: Transport
+    display: snapshot
+    direction: up
+    headline: false
+    format: pct
+    caveat: "Battery electric and plug-in hybrid vehicles as a share of registered light vehicles with an owner address in Gisborne District, from the register's motive power field."
+  mvr_light_hybrid_share:
+    name: Hybrid share of light vehicles
+    domain: Hapori
+    topic: Transport
+    display: snapshot
+    direction: neutral
+    headline: false
+    format: pct
+    caveat: "Petrol and diesel hybrids that do not plug in, as a share of registered light vehicles with an owner address in Gisborne District."
+  sh_traffic_aadt:
+    name: State highway traffic by monitoring site
+    domain: Hapori
+    topic: Transport
+    display: sites
+    site_label: State highway monitoring site
+    direction: neutral
+    headline: false
+    format: int
+    caveat: "Annual average daily traffic (vehicles per day, both directions) published for state highway sites in NZTA's Gisborne region, by calendar year. Non-continuous sites are counted for some weeks and adjusted by NZTA. Blank cells have no published count."
+  court_people_finalised:
+    name: People with finalised charges by court
+    domain: Hapori
+    topic: Courts
+    display: sites
+    site_label: Court location
+    direction: neutral
+    headline: false
+    format: int
+    caveat: "People of all ages, counted once a year at the court of their most serious finalised charge, for years ended June. Court location is where the final hearing was held, not where people live. Gisborne and Ruatōria courts can serve people who live outside Gisborne District."
+  court_people_convicted:
+    name: People convicted by court
+    domain: Hapori
+    topic: Courts
+    display: sites
+    site_label: Court location
+    direction: neutral
+    headline: false
+    format: int
+    caveat: "People of all ages whose most serious finalised charge ended in conviction, by court location, for years ended June. Court location is where the final hearing was held, not where people live."

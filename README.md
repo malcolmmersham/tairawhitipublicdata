@@ -38,6 +38,9 @@ copied to `data/raw/` during a run. That folder is ignored by Git and is tempora
 | M8 | Māori-medium enrolment at schools in Gisborne District, immersion levels 1–2 | Ministry of Education | 2000–2025 | Annual | Reviewed workbook |
 | T1 | Median river E. coli by monitoring site | Stats NZ and Ministry for the Environment | 2020–2024 | Irregular | Published monitoring window |
 | T2 | Routine river E. coli and coastal enterococci samples by site and date | LAWA and Gisborne District Council | 2020–2026 | Annual | Reviewed monitoring release |
+| H27 | Light vehicle fleet, average age and plug-in and hybrid shares, Gisborne District | NZTA Motor Vehicle Register | Oct 2026 → (monthly snapshots accumulate) | Monthly | Automated |
+| H27 | Annual average daily traffic at state highway monitoring sites in NZTA's Gisborne region | NZTA | 2021 → | Annual | Automated |
+| H25 | People with finalised charges and people convicted, Gisborne and Ruatōria courts | Ministry of Justice | 2016/17 → | Annual (June years) | Automated |
 | R5 | Gisborne mayoral turnout | Department of Internal Affairs | 2022 and 2025 | Triennial | Reviewed snapshots |
 | R4 | People who can speak te reo Māori | Stats NZ | 2023 Census | Five-yearly | Reviewed snapshot |
 | SA2 | Gisborne District place profiles | Stats NZ | 2013–2023 population and age, 2023 other measures | Five-yearly | Automated |
@@ -60,7 +63,7 @@ list and was checked spatially against the official 2023 boundary for Gisborne D
   geography and suppression, then rebuild. Verify the chart and both CSVs after the workflow deploys.
 - PHO enrolment (H18) needs a reviewed district workbook with the release date and district definition. [Health NZ quarterly releases](https://www.healthnz.govt.nz/about-us/health-data/data-sets-and-collections/primary-care-data-and-statistics/enrolment-with-a-general-practice-and-primary-health-organisation)
 - Victimisations (H22) needs a repeatable monthly Gisborne District export. The public geographic reports exclude most dwelling offences. [Police statistics](https://www.police.govt.nz/stats-data-category/victimisations-rcvs) · [Geographic reporting coverage](https://data.govt.nz/datasetrequest/show/1078)
-- Finalised charges (H25) links to the court-location tables as a reference. [Ministry of Justice tables](https://www.justice.govt.nz/justice-sector-policy/research-data/justice-statistics/adults-with-finalised-charges-in-court/) · [Stats NZ methodology](https://datainfoplus.stats.govt.nz/item/nz.govt.stats/c4adb79f-4d9c-4109-914e-bf2973f79102/6)
+- Finalised charges (H25) are published by court location from the Ministry of Justice people workbook. Court location is not residence. [Ministry of Justice tables](https://www.justice.govt.nz/justice-sector-policy/research-data/justice-statistics/adults-with-finalised-charges-in-court/) · [Stats NZ methodology](https://datainfoplus.stats.govt.nz/item/nz.govt.stats/c4adb79f-4d9c-4109-914e-bf2973f79102/6)
 - For the Trust survey, start from the [public Trust dashboard](https://trusttairawhiti.nz/what-we-do/wellbeing-data).
   A Trust-approved aggregate export must identify the survey years, weighting method, permitted
   breakdowns, and suppression rules. Keep response data and working files outside this repository.
@@ -158,6 +161,13 @@ before they can be added here.
   different layout, not yet parsed.
 - **NZTA CAS** is live data: past years can change, and the current year is year-to-date. The
   public layer has `region = "Gisborne Region"` from 2006.
+- **Motor Vehicle Register (H27)** is a current snapshot. Past fleets cannot be rebuilt from it, so
+  the connector keeps earlier monthly snapshots from the committed silver file. The register service
+  is renamed with each vintage and is resolved from its NZTA open data item.
+- **State highway AADT (H27).** The sites layer labels years relative to the release. The connector
+  anchors them to calendar years with the TMS daily counts and keeps years that leave the five-year window.
+- **Court tables (H25)** count people of all ages at the court of their most serious finalised charge.
+  Gisborne and Ruatōria courts can serve people who live outside Gisborne District.
 - **Local election turnout (R5).** The published snapshots use the overall turnout from the mayoral
   section of each official CSV. Check earlier contested elections before charting a longer series.
   [Official 2022 and 2025 election data](https://www.mcert.govt.nz/our-work/local-government/local-elections-and-voting/local-authority-election-statistics/)
