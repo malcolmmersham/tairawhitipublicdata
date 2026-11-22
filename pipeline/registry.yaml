@@ -152,6 +152,24 @@ sources:
     licence_url: https://creativecommons.org/licenses/by/4.0/
     cadence: annual
     check_every_days: 7
+  healthnz_hpv:
+    name: Health New Zealand | Te Whatu Ora – HPV immunisation coverage
+    url: https://www.healthnz.govt.nz/about-us/health-data/data-sets-and-collections/immunisation-data-and-statistics/hpv-immunisation-coverage-data
+    attribution: "Source: Health New Zealand | Te Whatu Ora, licensed under CC BY 4.0"
+    cadence: quarterly
+    check_every_days: 7
+  healthnz_pho_enrolment:
+    name: Health New Zealand | Te Whatu Ora – Enrolment with a general practice and PHO
+    url: https://www.healthnz.govt.nz/about-us/health-data/data-sets-and-collections/primary-care-data-and-statistics/enrolment-with-a-general-practice-and-primary-health-organisation
+    attribution: "Source: Health New Zealand | Te Whatu Ora, licensed under CC BY 4.0"
+    cadence: quarterly
+    check_every_days: 7
+  moh_nzhs_regional:
+    name: Ministry of Health – New Zealand Health Survey Regional Data Explorer 2017–20
+    url: https://minhealthnz.shinyapps.io/nz-health-survey-2017-20-regional-update/
+    attribution: "Source: Ministry of Health, New Zealand Health Survey, licensed under CC BY 4.0"
+    cadence: irregular
+    check_every_days: 30
 
 indicators:
   gisborne_stand_down_cases:
@@ -665,6 +683,102 @@ indicators:
     direction: up
     headline: false
     format: pct
+  imms_6m_qtr:
+    name: Children fully immunised at 6 months (quarterly)
+    domain: Hapori
+    topic: Health
+    direction: up
+    headline: false
+    format: pct
+    caveat: "Quarterly cohort (children reaching the milestone in the three months), by district of residence, from April–June 2009. Single quarters are noisier than the rolling 12-month series; do not add quarters together. Schedule changes and new reporting systems from 2020 affect comparison with earlier years; the page links no files for July–December 2020 or April–June 2023."
+  imms_12m_qtr:
+    name: Children fully immunised at 12 months (quarterly)
+    domain: Hapori
+    topic: Health
+    direction: up
+    headline: false
+    format: pct
+    caveat: "Quarterly cohort (children reaching the milestone in the three months), by district of residence, from April–June 2009. Single quarters are noisier than the rolling 12-month series; do not add quarters together. Schedule changes and new reporting systems from 2020 affect comparison with earlier years; the page links no files for July–December 2020 or April–June 2023."
+  imms_24m_qtr:
+    name: Children fully immunised at 24 months (quarterly)
+    domain: Hapori
+    topic: Health
+    direction: up
+    headline: false
+    format: pct
+    caveat: "Quarterly cohort (children reaching the milestone in the three months), by district of residence, from April–June 2009. Single quarters are noisier than the rolling 12-month series; do not add quarters together. Schedule changes and new reporting systems from 2020 affect comparison with earlier years; the page links no files for July–December 2020 or April–June 2023."
+  imms_5y_qtr:
+    name: Children fully immunised at 5 years (quarterly)
+    domain: Hapori
+    topic: Health
+    direction: up
+    headline: false
+    format: pct
+    caveat: "Quarterly cohort (children reaching the milestone in the three months), by district of residence, from April–June 2009. Single quarters are noisier than the rolling 12-month series; do not add quarters together. Schedule changes and new reporting systems from 2020 affect comparison with earlier years; the page links no files for July–December 2020 or April–June 2023. Not published for Tairāwhiti in April–June 2010 (shown as a gap)."
+  hpv_14:
+    name: Rangatahi fully immunised against HPV by age 14
+    domain: Hapori
+    topic: Health
+    direction: up
+    headline: false
+    format: pct
+    caveat: "Young people who turned 14 in the quarter and had all required HPV doses, by district of residence, from July–September 2024. Earlier cohort-based files use a different measure."
+  pho_enrolled_pct:
+    name: Population enrolled with a PHO
+    domain: Hapori
+    topic: Health
+    direction: up
+    headline: false
+    format: pct
+    caveat: "Enrolled people as a share of Health NZ's projected district population, at the start of each quarter from April 2019. The population base is updated about yearly, so the rate can step; it can exceed 100% because enrolments and projections come from different sources."
+  pho_enrolled:
+    name: People enrolled with a PHO
+    domain: Hapori
+    topic: Health
+    direction: up
+    headline: false
+    format: int
+    caveat: "Enrolled people by district of domicile at the start of each quarter, from April 2019."
+  nzhs_smoking:
+    name: Adults who currently smoke
+    domain: Hapori
+    topic: Health
+    direction: down
+    headline: false
+    format: pct
+    caveat: "Three-year pooled NZ Health Survey estimate (July–June years) for the former Tairāwhiti DHB, adults 15+, unadjusted. Hollow points mark low-precision estimates (RSE about 30% or more, from the published 95% confidence interval); see the source for intervals. Pooled periods do not overlap and are not combined."
+  nzhs_hazardous_drinking:
+    name: Adults with a hazardous drinking pattern
+    domain: Hapori
+    topic: Health
+    direction: down
+    headline: false
+    format: pct
+    caveat: "Three-year pooled NZ Health Survey estimate (July–June years) for the former Tairāwhiti DHB, adults 15+, unadjusted. Hollow points mark low-precision estimates (RSE about 30% or more, from the published 95% confidence interval); see the source for intervals. Pooled periods do not overlap and are not combined. Total adult population (AUDIT score 8+); first pooled period 2014–17."
+  nzhs_obesity:
+    name: Adults with obesity
+    domain: Hapori
+    topic: Health
+    direction: down
+    headline: false
+    format: pct
+    caveat: "Three-year pooled NZ Health Survey estimate (July–June years) for the former Tairāwhiti DHB, adults 15+, unadjusted. Hollow points mark low-precision estimates (RSE about 30% or more, from the published 95% confidence interval); see the source for intervals. Pooled periods do not overlap and are not combined."
+  nzhs_unmet_gp_cost:
+    name: Adults who did not visit a GP due to cost
+    domain: Hapori
+    topic: Health
+    direction: down
+    headline: false
+    format: pct
+    caveat: "Three-year pooled NZ Health Survey estimate (July–June years) for the former Tairāwhiti DHB, adults 15+, unadjusted. Hollow points mark low-precision estimates (RSE about 30% or more, from the published 95% confidence interval); see the source for intervals. Pooled periods do not overlap and are not combined. Past 12 months."
+  nzhs_psych_distress:
+    name: Adults with high or very high psychological distress
+    domain: Hapori
+    topic: Health
+    direction: down
+    headline: false
+    format: pct
+    caveat: "Three-year pooled NZ Health Survey estimate (July–June years) for the former Tairāwhiti DHB, adults 15+, unadjusted. Hollow points mark low-precision estimates (RSE about 30% or more, from the published 95% confidence interval); see the source for intervals. Pooled periods do not overlap and are not combined. Kessler 10 score of 12 or more in the past four weeks."
 
   # ---- Hapori: safety ----
   cas_dsi:

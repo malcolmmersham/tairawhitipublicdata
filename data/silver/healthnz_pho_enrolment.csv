@@ -1,0 +1,249 @@
+indicator_id,geo_type,geo_code,geo_name,period_start,period_end,period_type,year_basis,value,unit,measure,ethnicity,age,sex,suppression_flag,quality_flag,source_id,vintage_date,licence
+pho_enrolled,national,NZ,Aotearoa New Zealand,2019-04-01,2019-04-01,point,calendar,693734.0,people,count,Māori,Total,Total,,,healthnz_pho_enrolment,2026-11-22,CC BY 4.0
+pho_enrolled,national,NZ,Aotearoa New Zealand,2019-07-01,2019-07-01,point,calendar,702460.0,people,count,Māori,Total,Total,,,healthnz_pho_enrolment,2026-11-22,CC BY 4.0
+pho_enrolled,national,NZ,Aotearoa New Zealand,2019-10-01,2019-10-01,point,calendar,712095.0,people,count,Māori,Total,Total,,,healthnz_pho_enrolment,2026-11-22,CC BY 4.0
+pho_enrolled,national,NZ,Aotearoa New Zealand,2020-01-01,2020-01-01,point,calendar,718427.0,people,count,Māori,Total,Total,,,healthnz_pho_enrolment,2026-11-22,CC BY 4.0
+pho_enrolled,national,NZ,Aotearoa New Zealand,2020-04-01,2020-04-01,point,calendar,722825.0,people,count,Māori,Total,Total,,,healthnz_pho_enrolment,2026-11-22,CC BY 4.0
+pho_enrolled,national,NZ,Aotearoa New Zealand,2020-07-01,2020-07-01,point,calendar,724139.0,people,count,Māori,Total,Total,,,healthnz_pho_enrolment,2026-11-22,CC BY 4.0
+pho_enrolled,national,NZ,Aotearoa New Zealand,2020-10-01,2020-10-01,point,calendar,726925.0,people,count,Māori,Total,Total,,,healthnz_pho_enrolment,2026-11-22,CC BY 4.0
+pho_enrolled,national,NZ,Aotearoa New Zealand,2021-01-01,2021-01-01,point,calendar,728875.0,people,count,Māori,Total,Total,,,healthnz_pho_enrolment,2026-11-22,CC BY 4.0
+pho_enrolled,national,NZ,Aotearoa New Zealand,2021-04-01,2021-04-01,point,calendar,730612.0,people,count,Māori,Total,Total,,,healthnz_pho_enrolment,2026-11-22,CC BY 4.0
+pho_enrolled,national,NZ,Aotearoa New Zealand,2021-07-01,2021-07-01,point,calendar,732272.0,people,count,Māori,Total,Total,,,healthnz_pho_enrolment,2026-11-22,CC BY 4.0
+pho_enrolled,national,NZ,Aotearoa New Zealand,2021-10-01,2021-10-01,point,calendar,733333.0,people,count,Māori,Total,Total,,,healthnz_pho_enrolment,2026-11-22,CC BY 4.0
+pho_enrolled,national,NZ,Aotearoa New Zealand,2022-01-01,2022-01-01,point,calendar,734065.0,people,count,Māori,Total,Total,,,healthnz_pho_enrolment,2026-11-22,CC BY 4.0
+pho_enrolled,national,NZ,Aotearoa New Zealand,2022-04-01,2022-04-01,point,calendar,733702.0,people,count,Māori,Total,Total,,,healthnz_pho_enrolment,2026-11-22,CC BY 4.0
+pho_enrolled,national,NZ,Aotearoa New Zealand,2022-07-01,2022-07-01,point,calendar,736051.0,people,count,Māori,Total,Total,,,healthnz_pho_enrolment,2026-11-22,CC BY 4.0
+pho_enrolled,national,NZ,Aotearoa New Zealand,2022-10-01,2022-10-01,point,calendar,739296.0,people,count,Māori,Total,Total,,,healthnz_pho_enrolment,2026-11-22,CC BY 4.0
+pho_enrolled,national,NZ,Aotearoa New Zealand,2023-01-01,2023-01-01,point,calendar,743651.0,people,count,Māori,Total,Total,,,healthnz_pho_enrolment,2026-11-22,CC BY 4.0
+pho_enrolled,national,NZ,Aotearoa New Zealand,2023-04-01,2023-04-01,point,calendar,747738.0,people,count,Māori,Total,Total,,,healthnz_pho_enrolment,2026-11-22,CC BY 4.0
+pho_enrolled,national,NZ,Aotearoa New Zealand,2023-07-01,2023-07-01,point,calendar,753838.0,people,count,Māori,Total,Total,,,healthnz_pho_enrolment,2026-11-22,CC BY 4.0
+pho_enrolled,national,NZ,Aotearoa New Zealand,2023-10-01,2023-10-01,point,calendar,758526.0,people,count,Māori,Total,Total,,,healthnz_pho_enrolment,2026-11-22,CC BY 4.0
+pho_enrolled,national,NZ,Aotearoa New Zealand,2024-01-01,2024-01-01,point,calendar,762553.0,people,count,Māori,Total,Total,,,healthnz_pho_enrolment,2026-11-22,CC BY 4.0
+pho_enrolled,national,NZ,Aotearoa New Zealand,2024-04-01,2024-04-01,point,calendar,767087.0,people,count,Māori,Total,Total,,,healthnz_pho_enrolment,2026-11-22,CC BY 4.0
+pho_enrolled,national,NZ,Aotearoa New Zealand,2024-07-01,2024-07-01,point,calendar,772378.0,people,count,Māori,Total,Total,,,healthnz_pho_enrolment,2026-11-22,CC BY 4.0
+pho_enrolled,national,NZ,Aotearoa New Zealand,2024-10-01,2024-10-01,point,calendar,779788.0,people,count,Māori,Total,Total,,,healthnz_pho_enrolment,2026-11-22,CC BY 4.0
+pho_enrolled,national,NZ,Aotearoa New Zealand,2025-01-01,2025-01-01,point,calendar,785110.0,people,count,Māori,Total,Total,,,healthnz_pho_enrolment,2026-11-22,CC BY 4.0
+pho_enrolled,national,NZ,Aotearoa New Zealand,2025-04-01,2025-04-01,point,calendar,788568.0,people,count,Māori,Total,Total,,,healthnz_pho_enrolment,2026-11-22,CC BY 4.0
+pho_enrolled,national,NZ,Aotearoa New Zealand,2025-07-01,2025-07-01,point,calendar,791949.0,people,count,Māori,Total,Total,,,healthnz_pho_enrolment,2026-11-22,CC BY 4.0
+pho_enrolled,national,NZ,Aotearoa New Zealand,2025-10-01,2025-10-01,point,calendar,796702.0,people,count,Māori,Total,Total,,,healthnz_pho_enrolment,2026-11-22,CC BY 4.0
+pho_enrolled,national,NZ,Aotearoa New Zealand,2026-01-01,2026-01-01,point,calendar,799458.0,people,count,Māori,Total,Total,,,healthnz_pho_enrolment,2026-11-22,CC BY 4.0
+pho_enrolled,national,NZ,Aotearoa New Zealand,2026-04-01,2026-04-01,point,calendar,804082.0,people,count,Māori,Total,Total,,,healthnz_pho_enrolment,2026-11-22,CC BY 4.0
+pho_enrolled,national,NZ,Aotearoa New Zealand,2026-07-01,2026-07-01,point,calendar,808430.0,people,count,Māori,Total,Total,,,healthnz_pho_enrolment,2026-11-22,CC BY 4.0
+pho_enrolled,national,NZ,Aotearoa New Zealand,2026-10-01,2026-10-01,point,calendar,812908.0,people,count,Māori,Total,Total,,,healthnz_pho_enrolment,2026-11-22,CC BY 4.0
+pho_enrolled,national,NZ,Aotearoa New Zealand,2019-04-01,2019-04-01,point,calendar,4622921.0,people,count,Total,Total,Total,,,healthnz_pho_enrolment,2026-11-22,CC BY 4.0
+pho_enrolled,national,NZ,Aotearoa New Zealand,2019-07-01,2019-07-01,point,calendar,4659064.0,people,count,Total,Total,Total,,,healthnz_pho_enrolment,2026-11-22,CC BY 4.0
+pho_enrolled,national,NZ,Aotearoa New Zealand,2019-10-01,2019-10-01,point,calendar,4691374.0,people,count,Total,Total,Total,,,healthnz_pho_enrolment,2026-11-22,CC BY 4.0
+pho_enrolled,national,NZ,Aotearoa New Zealand,2020-01-01,2020-01-01,point,calendar,4715811.0,people,count,Total,Total,Total,,,healthnz_pho_enrolment,2026-11-22,CC BY 4.0
+pho_enrolled,national,NZ,Aotearoa New Zealand,2020-04-01,2020-04-01,point,calendar,4745431.0,people,count,Total,Total,Total,,,healthnz_pho_enrolment,2026-11-22,CC BY 4.0
+pho_enrolled,national,NZ,Aotearoa New Zealand,2020-07-01,2020-07-01,point,calendar,4757705.0,people,count,Total,Total,Total,,,healthnz_pho_enrolment,2026-11-22,CC BY 4.0
+pho_enrolled,national,NZ,Aotearoa New Zealand,2020-10-01,2020-10-01,point,calendar,4773331.0,people,count,Total,Total,Total,,,healthnz_pho_enrolment,2026-11-22,CC BY 4.0
+pho_enrolled,national,NZ,Aotearoa New Zealand,2021-01-01,2021-01-01,point,calendar,4785369.0,people,count,Total,Total,Total,,,healthnz_pho_enrolment,2026-11-22,CC BY 4.0
+pho_enrolled,national,NZ,Aotearoa New Zealand,2021-04-01,2021-04-01,point,calendar,4796156.0,people,count,Total,Total,Total,,,healthnz_pho_enrolment,2026-11-22,CC BY 4.0
+pho_enrolled,national,NZ,Aotearoa New Zealand,2021-07-01,2021-07-01,point,calendar,4806396.0,people,count,Total,Total,Total,,,healthnz_pho_enrolment,2026-11-22,CC BY 4.0
+pho_enrolled,national,NZ,Aotearoa New Zealand,2021-10-01,2021-10-01,point,calendar,4812468.0,people,count,Total,Total,Total,,,healthnz_pho_enrolment,2026-11-22,CC BY 4.0
+pho_enrolled,national,NZ,Aotearoa New Zealand,2022-01-01,2022-01-01,point,calendar,4817233.0,people,count,Total,Total,Total,,,healthnz_pho_enrolment,2026-11-22,CC BY 4.0
+pho_enrolled,national,NZ,Aotearoa New Zealand,2022-04-01,2022-04-01,point,calendar,4815351.0,people,count,Total,Total,Total,,,healthnz_pho_enrolment,2026-11-22,CC BY 4.0
+pho_enrolled,national,NZ,Aotearoa New Zealand,2022-07-01,2022-07-01,point,calendar,4822327.0,people,count,Total,Total,Total,,,healthnz_pho_enrolment,2026-11-22,CC BY 4.0
+pho_enrolled,national,NZ,Aotearoa New Zealand,2022-10-01,2022-10-01,point,calendar,4832212.0,people,count,Total,Total,Total,,,healthnz_pho_enrolment,2026-11-22,CC BY 4.0
+pho_enrolled,national,NZ,Aotearoa New Zealand,2023-01-01,2023-01-01,point,calendar,4845664.0,people,count,Total,Total,Total,,,healthnz_pho_enrolment,2026-11-22,CC BY 4.0
+pho_enrolled,national,NZ,Aotearoa New Zealand,2023-04-01,2023-04-01,point,calendar,4871757.0,people,count,Total,Total,Total,,,healthnz_pho_enrolment,2026-11-22,CC BY 4.0
+pho_enrolled,national,NZ,Aotearoa New Zealand,2023-07-01,2023-07-01,point,calendar,4909551.0,people,count,Total,Total,Total,,,healthnz_pho_enrolment,2026-11-22,CC BY 4.0
+pho_enrolled,national,NZ,Aotearoa New Zealand,2023-10-01,2023-10-01,point,calendar,4943113.0,people,count,Total,Total,Total,,,healthnz_pho_enrolment,2026-11-22,CC BY 4.0
+pho_enrolled,national,NZ,Aotearoa New Zealand,2024-01-01,2024-01-01,point,calendar,4971575.0,people,count,Total,Total,Total,,,healthnz_pho_enrolment,2026-11-22,CC BY 4.0
+pho_enrolled,national,NZ,Aotearoa New Zealand,2024-04-01,2024-04-01,point,calendar,5003057.0,people,count,Total,Total,Total,,,healthnz_pho_enrolment,2026-11-22,CC BY 4.0
+pho_enrolled,national,NZ,Aotearoa New Zealand,2024-07-01,2024-07-01,point,calendar,5029000.0,people,count,Total,Total,Total,,,healthnz_pho_enrolment,2026-11-22,CC BY 4.0
+pho_enrolled,national,NZ,Aotearoa New Zealand,2024-10-01,2024-10-01,point,calendar,5059031.0,people,count,Total,Total,Total,,,healthnz_pho_enrolment,2026-11-22,CC BY 4.0
+pho_enrolled,national,NZ,Aotearoa New Zealand,2025-01-01,2025-01-01,point,calendar,5075491.0,people,count,Total,Total,Total,,,healthnz_pho_enrolment,2026-11-22,CC BY 4.0
+pho_enrolled,national,NZ,Aotearoa New Zealand,2025-04-01,2025-04-01,point,calendar,5088376.0,people,count,Total,Total,Total,,,healthnz_pho_enrolment,2026-11-22,CC BY 4.0
+pho_enrolled,national,NZ,Aotearoa New Zealand,2025-07-01,2025-07-01,point,calendar,5097065.0,people,count,Total,Total,Total,,,healthnz_pho_enrolment,2026-11-22,CC BY 4.0
+pho_enrolled,national,NZ,Aotearoa New Zealand,2025-10-01,2025-10-01,point,calendar,5109880.0,people,count,Total,Total,Total,,,healthnz_pho_enrolment,2026-11-22,CC BY 4.0
+pho_enrolled,national,NZ,Aotearoa New Zealand,2026-01-01,2026-01-01,point,calendar,5115872.0,people,count,Total,Total,Total,,,healthnz_pho_enrolment,2026-11-22,CC BY 4.0
+pho_enrolled,national,NZ,Aotearoa New Zealand,2026-04-01,2026-04-01,point,calendar,5128776.0,people,count,Total,Total,Total,,,healthnz_pho_enrolment,2026-11-22,CC BY 4.0
+pho_enrolled,national,NZ,Aotearoa New Zealand,2026-07-01,2026-07-01,point,calendar,5138675.0,people,count,Total,Total,Total,,,healthnz_pho_enrolment,2026-11-22,CC BY 4.0
+pho_enrolled,national,NZ,Aotearoa New Zealand,2026-10-01,2026-10-01,point,calendar,5147089.0,people,count,Total,Total,Total,,,healthnz_pho_enrolment,2026-11-22,CC BY 4.0
+pho_enrolled,district,TRW,Tairāwhiti district,2019-04-01,2019-04-01,point,calendar,24082.0,people,count,Māori,Total,Total,,,healthnz_pho_enrolment,2026-11-22,CC BY 4.0
+pho_enrolled,district,TRW,Tairāwhiti district,2019-07-01,2019-07-01,point,calendar,24360.0,people,count,Māori,Total,Total,,,healthnz_pho_enrolment,2026-11-22,CC BY 4.0
+pho_enrolled,district,TRW,Tairāwhiti district,2019-10-01,2019-10-01,point,calendar,24476.0,people,count,Māori,Total,Total,,,healthnz_pho_enrolment,2026-11-22,CC BY 4.0
+pho_enrolled,district,TRW,Tairāwhiti district,2020-01-01,2020-01-01,point,calendar,24586.0,people,count,Māori,Total,Total,,,healthnz_pho_enrolment,2026-11-22,CC BY 4.0
+pho_enrolled,district,TRW,Tairāwhiti district,2020-04-01,2020-04-01,point,calendar,24728.0,people,count,Māori,Total,Total,,,healthnz_pho_enrolment,2026-11-22,CC BY 4.0
+pho_enrolled,district,TRW,Tairāwhiti district,2020-07-01,2020-07-01,point,calendar,24706.0,people,count,Māori,Total,Total,,,healthnz_pho_enrolment,2026-11-22,CC BY 4.0
+pho_enrolled,district,TRW,Tairāwhiti district,2020-10-01,2020-10-01,point,calendar,24760.0,people,count,Māori,Total,Total,,,healthnz_pho_enrolment,2026-11-22,CC BY 4.0
+pho_enrolled,district,TRW,Tairāwhiti district,2021-01-01,2021-01-01,point,calendar,24869.0,people,count,Māori,Total,Total,,,healthnz_pho_enrolment,2026-11-22,CC BY 4.0
+pho_enrolled,district,TRW,Tairāwhiti district,2021-04-01,2021-04-01,point,calendar,24954.0,people,count,Māori,Total,Total,,,healthnz_pho_enrolment,2026-11-22,CC BY 4.0
+pho_enrolled,district,TRW,Tairāwhiti district,2021-07-01,2021-07-01,point,calendar,24825.0,people,count,Māori,Total,Total,,,healthnz_pho_enrolment,2026-11-22,CC BY 4.0
+pho_enrolled,district,TRW,Tairāwhiti district,2021-10-01,2021-10-01,point,calendar,24813.0,people,count,Māori,Total,Total,,,healthnz_pho_enrolment,2026-11-22,CC BY 4.0
+pho_enrolled,district,TRW,Tairāwhiti district,2022-01-01,2022-01-01,point,calendar,24840.0,people,count,Māori,Total,Total,,,healthnz_pho_enrolment,2026-11-22,CC BY 4.0
+pho_enrolled,district,TRW,Tairāwhiti district,2022-04-01,2022-04-01,point,calendar,24712.0,people,count,Māori,Total,Total,,,healthnz_pho_enrolment,2026-11-22,CC BY 4.0
+pho_enrolled,district,TRW,Tairāwhiti district,2022-07-01,2022-07-01,point,calendar,24596.0,people,count,Māori,Total,Total,,,healthnz_pho_enrolment,2026-11-22,CC BY 4.0
+pho_enrolled,district,TRW,Tairāwhiti district,2022-10-01,2022-10-01,point,calendar,24572.0,people,count,Māori,Total,Total,,,healthnz_pho_enrolment,2026-11-22,CC BY 4.0
+pho_enrolled,district,TRW,Tairāwhiti district,2023-01-01,2023-01-01,point,calendar,24644.0,people,count,Māori,Total,Total,,,healthnz_pho_enrolment,2026-11-22,CC BY 4.0
+pho_enrolled,district,TRW,Tairāwhiti district,2023-04-01,2023-04-01,point,calendar,24588.0,people,count,Māori,Total,Total,,,healthnz_pho_enrolment,2026-11-22,CC BY 4.0
+pho_enrolled,district,TRW,Tairāwhiti district,2023-07-01,2023-07-01,point,calendar,24640.0,people,count,Māori,Total,Total,,,healthnz_pho_enrolment,2026-11-22,CC BY 4.0
+pho_enrolled,district,TRW,Tairāwhiti district,2023-10-01,2023-10-01,point,calendar,24729.0,people,count,Māori,Total,Total,,,healthnz_pho_enrolment,2026-11-22,CC BY 4.0
+pho_enrolled,district,TRW,Tairāwhiti district,2024-01-01,2024-01-01,point,calendar,24816.0,people,count,Māori,Total,Total,,,healthnz_pho_enrolment,2026-11-22,CC BY 4.0
+pho_enrolled,district,TRW,Tairāwhiti district,2024-04-01,2024-04-01,point,calendar,24894.0,people,count,Māori,Total,Total,,,healthnz_pho_enrolment,2026-11-22,CC BY 4.0
+pho_enrolled,district,TRW,Tairāwhiti district,2024-07-01,2024-07-01,point,calendar,24918.0,people,count,Māori,Total,Total,,,healthnz_pho_enrolment,2026-11-22,CC BY 4.0
+pho_enrolled,district,TRW,Tairāwhiti district,2024-10-01,2024-10-01,point,calendar,24943.0,people,count,Māori,Total,Total,,,healthnz_pho_enrolment,2026-11-22,CC BY 4.0
+pho_enrolled,district,TRW,Tairāwhiti district,2025-01-01,2025-01-01,point,calendar,24969.0,people,count,Māori,Total,Total,,,healthnz_pho_enrolment,2026-11-22,CC BY 4.0
+pho_enrolled,district,TRW,Tairāwhiti district,2025-04-01,2025-04-01,point,calendar,25020.0,people,count,Māori,Total,Total,,,healthnz_pho_enrolment,2026-11-22,CC BY 4.0
+pho_enrolled,district,TRW,Tairāwhiti district,2025-07-01,2025-07-01,point,calendar,25037.0,people,count,Māori,Total,Total,,,healthnz_pho_enrolment,2026-11-22,CC BY 4.0
+pho_enrolled,district,TRW,Tairāwhiti district,2025-10-01,2025-10-01,point,calendar,25035.0,people,count,Māori,Total,Total,,,healthnz_pho_enrolment,2026-11-22,CC BY 4.0
+pho_enrolled,district,TRW,Tairāwhiti district,2026-01-01,2026-01-01,point,calendar,25052.0,people,count,Māori,Total,Total,,,healthnz_pho_enrolment,2026-11-22,CC BY 4.0
+pho_enrolled,district,TRW,Tairāwhiti district,2026-04-01,2026-04-01,point,calendar,25172.0,people,count,Māori,Total,Total,,,healthnz_pho_enrolment,2026-11-22,CC BY 4.0
+pho_enrolled,district,TRW,Tairāwhiti district,2026-07-01,2026-07-01,point,calendar,25201.0,people,count,Māori,Total,Total,,,healthnz_pho_enrolment,2026-11-22,CC BY 4.0
+pho_enrolled,district,TRW,Tairāwhiti district,2026-10-01,2026-10-01,point,calendar,25225.0,people,count,Māori,Total,Total,,,healthnz_pho_enrolment,2026-11-22,CC BY 4.0
+pho_enrolled,district,TRW,Tairāwhiti district,2019-04-01,2019-04-01,point,calendar,47995.0,people,count,Total,Total,Total,,,healthnz_pho_enrolment,2026-11-22,CC BY 4.0
+pho_enrolled,district,TRW,Tairāwhiti district,2019-07-01,2019-07-01,point,calendar,48445.0,people,count,Total,Total,Total,,,healthnz_pho_enrolment,2026-11-22,CC BY 4.0
+pho_enrolled,district,TRW,Tairāwhiti district,2019-10-01,2019-10-01,point,calendar,48621.0,people,count,Total,Total,Total,,,healthnz_pho_enrolment,2026-11-22,CC BY 4.0
+pho_enrolled,district,TRW,Tairāwhiti district,2020-01-01,2020-01-01,point,calendar,48860.0,people,count,Total,Total,Total,,,healthnz_pho_enrolment,2026-11-22,CC BY 4.0
+pho_enrolled,district,TRW,Tairāwhiti district,2020-04-01,2020-04-01,point,calendar,49157.0,people,count,Total,Total,Total,,,healthnz_pho_enrolment,2026-11-22,CC BY 4.0
+pho_enrolled,district,TRW,Tairāwhiti district,2020-07-01,2020-07-01,point,calendar,49188.0,people,count,Total,Total,Total,,,healthnz_pho_enrolment,2026-11-22,CC BY 4.0
+pho_enrolled,district,TRW,Tairāwhiti district,2020-10-01,2020-10-01,point,calendar,49279.0,people,count,Total,Total,Total,,,healthnz_pho_enrolment,2026-11-22,CC BY 4.0
+pho_enrolled,district,TRW,Tairāwhiti district,2021-01-01,2021-01-01,point,calendar,49530.0,people,count,Total,Total,Total,,,healthnz_pho_enrolment,2026-11-22,CC BY 4.0
+pho_enrolled,district,TRW,Tairāwhiti district,2021-04-01,2021-04-01,point,calendar,49618.0,people,count,Total,Total,Total,,,healthnz_pho_enrolment,2026-11-22,CC BY 4.0
+pho_enrolled,district,TRW,Tairāwhiti district,2021-07-01,2021-07-01,point,calendar,49429.0,people,count,Total,Total,Total,,,healthnz_pho_enrolment,2026-11-22,CC BY 4.0
+pho_enrolled,district,TRW,Tairāwhiti district,2021-10-01,2021-10-01,point,calendar,49344.0,people,count,Total,Total,Total,,,healthnz_pho_enrolment,2026-11-22,CC BY 4.0
+pho_enrolled,district,TRW,Tairāwhiti district,2022-01-01,2022-01-01,point,calendar,49503.0,people,count,Total,Total,Total,,,healthnz_pho_enrolment,2026-11-22,CC BY 4.0
+pho_enrolled,district,TRW,Tairāwhiti district,2022-04-01,2022-04-01,point,calendar,49322.0,people,count,Total,Total,Total,,,healthnz_pho_enrolment,2026-11-22,CC BY 4.0
+pho_enrolled,district,TRW,Tairāwhiti district,2022-07-01,2022-07-01,point,calendar,49062.0,people,count,Total,Total,Total,,,healthnz_pho_enrolment,2026-11-22,CC BY 4.0
+pho_enrolled,district,TRW,Tairāwhiti district,2022-10-01,2022-10-01,point,calendar,48880.0,people,count,Total,Total,Total,,,healthnz_pho_enrolment,2026-11-22,CC BY 4.0
+pho_enrolled,district,TRW,Tairāwhiti district,2023-01-01,2023-01-01,point,calendar,48965.0,people,count,Total,Total,Total,,,healthnz_pho_enrolment,2026-11-22,CC BY 4.0
+pho_enrolled,district,TRW,Tairāwhiti district,2023-04-01,2023-04-01,point,calendar,48872.0,people,count,Total,Total,Total,,,healthnz_pho_enrolment,2026-11-22,CC BY 4.0
+pho_enrolled,district,TRW,Tairāwhiti district,2023-07-01,2023-07-01,point,calendar,48980.0,people,count,Total,Total,Total,,,healthnz_pho_enrolment,2026-11-22,CC BY 4.0
+pho_enrolled,district,TRW,Tairāwhiti district,2023-10-01,2023-10-01,point,calendar,49085.0,people,count,Total,Total,Total,,,healthnz_pho_enrolment,2026-11-22,CC BY 4.0
+pho_enrolled,district,TRW,Tairāwhiti district,2024-01-01,2024-01-01,point,calendar,49346.0,people,count,Total,Total,Total,,,healthnz_pho_enrolment,2026-11-22,CC BY 4.0
+pho_enrolled,district,TRW,Tairāwhiti district,2024-04-01,2024-04-01,point,calendar,49477.0,people,count,Total,Total,Total,,,healthnz_pho_enrolment,2026-11-22,CC BY 4.0
+pho_enrolled,district,TRW,Tairāwhiti district,2024-07-01,2024-07-01,point,calendar,49538.0,people,count,Total,Total,Total,,,healthnz_pho_enrolment,2026-11-22,CC BY 4.0
+pho_enrolled,district,TRW,Tairāwhiti district,2024-10-01,2024-10-01,point,calendar,49574.0,people,count,Total,Total,Total,,,healthnz_pho_enrolment,2026-11-22,CC BY 4.0
+pho_enrolled,district,TRW,Tairāwhiti district,2025-01-01,2025-01-01,point,calendar,49603.0,people,count,Total,Total,Total,,,healthnz_pho_enrolment,2026-11-22,CC BY 4.0
+pho_enrolled,district,TRW,Tairāwhiti district,2025-04-01,2025-04-01,point,calendar,49651.0,people,count,Total,Total,Total,,,healthnz_pho_enrolment,2026-11-22,CC BY 4.0
+pho_enrolled,district,TRW,Tairāwhiti district,2025-07-01,2025-07-01,point,calendar,49584.0,people,count,Total,Total,Total,,,healthnz_pho_enrolment,2026-11-22,CC BY 4.0
+pho_enrolled,district,TRW,Tairāwhiti district,2025-10-01,2025-10-01,point,calendar,49496.0,people,count,Total,Total,Total,,,healthnz_pho_enrolment,2026-11-22,CC BY 4.0
+pho_enrolled,district,TRW,Tairāwhiti district,2026-01-01,2026-01-01,point,calendar,49498.0,people,count,Total,Total,Total,,,healthnz_pho_enrolment,2026-11-22,CC BY 4.0
+pho_enrolled,district,TRW,Tairāwhiti district,2026-04-01,2026-04-01,point,calendar,49550.0,people,count,Total,Total,Total,,,healthnz_pho_enrolment,2026-11-22,CC BY 4.0
+pho_enrolled,district,TRW,Tairāwhiti district,2026-07-01,2026-07-01,point,calendar,49460.0,people,count,Total,Total,Total,,,healthnz_pho_enrolment,2026-11-22,CC BY 4.0
+pho_enrolled,district,TRW,Tairāwhiti district,2026-10-01,2026-10-01,point,calendar,49390.0,people,count,Total,Total,Total,,,healthnz_pho_enrolment,2026-11-22,CC BY 4.0
+pho_enrolled_pct,national,NZ,Aotearoa New Zealand,2019-04-01,2019-04-01,point,calendar,89.4,%,rate,Māori,Total,Total,,,healthnz_pho_enrolment,2026-11-22,CC BY 4.0
+pho_enrolled_pct,national,NZ,Aotearoa New Zealand,2019-07-01,2019-07-01,point,calendar,90.2,%,rate,Māori,Total,Total,,,healthnz_pho_enrolment,2026-11-22,CC BY 4.0
+pho_enrolled_pct,national,NZ,Aotearoa New Zealand,2019-10-01,2019-10-01,point,calendar,91.0,%,rate,Māori,Total,Total,,,healthnz_pho_enrolment,2026-11-22,CC BY 4.0
+pho_enrolled_pct,national,NZ,Aotearoa New Zealand,2020-01-01,2020-01-01,point,calendar,91.4,%,rate,Māori,Total,Total,,,healthnz_pho_enrolment,2026-11-22,CC BY 4.0
+pho_enrolled_pct,national,NZ,Aotearoa New Zealand,2020-04-01,2020-04-01,point,calendar,87.7,%,rate,Māori,Total,Total,,,healthnz_pho_enrolment,2026-11-22,CC BY 4.0
+pho_enrolled_pct,national,NZ,Aotearoa New Zealand,2020-07-01,2020-07-01,point,calendar,87.5,%,rate,Māori,Total,Total,,,healthnz_pho_enrolment,2026-11-22,CC BY 4.0
+pho_enrolled_pct,national,NZ,Aotearoa New Zealand,2020-10-01,2020-10-01,point,calendar,87.4,%,rate,Māori,Total,Total,,,healthnz_pho_enrolment,2026-11-22,CC BY 4.0
+pho_enrolled_pct,national,NZ,Aotearoa New Zealand,2021-01-01,2021-01-01,point,calendar,84.7,%,rate,Māori,Total,Total,,,healthnz_pho_enrolment,2026-11-22,CC BY 4.0
+pho_enrolled_pct,national,NZ,Aotearoa New Zealand,2021-04-01,2021-04-01,point,calendar,84.5,%,rate,Māori,Total,Total,,,healthnz_pho_enrolment,2026-11-22,CC BY 4.0
+pho_enrolled_pct,national,NZ,Aotearoa New Zealand,2021-07-01,2021-07-01,point,calendar,84.3,%,rate,Māori,Total,Total,,,healthnz_pho_enrolment,2026-11-22,CC BY 4.0
+pho_enrolled_pct,national,NZ,Aotearoa New Zealand,2021-10-01,2021-10-01,point,calendar,84.0,%,rate,Māori,Total,Total,,,healthnz_pho_enrolment,2026-11-22,CC BY 4.0
+pho_enrolled_pct,national,NZ,Aotearoa New Zealand,2022-01-01,2022-01-01,point,calendar,83.1,%,rate,Māori,Total,Total,,,healthnz_pho_enrolment,2026-11-22,CC BY 4.0
+pho_enrolled_pct,national,NZ,Aotearoa New Zealand,2022-04-01,2022-04-01,point,calendar,82.6,%,rate,Māori,Total,Total,,,healthnz_pho_enrolment,2026-11-22,CC BY 4.0
+pho_enrolled_pct,national,NZ,Aotearoa New Zealand,2022-07-01,2022-07-01,point,calendar,82.5,%,rate,Māori,Total,Total,,,healthnz_pho_enrolment,2026-11-22,CC BY 4.0
+pho_enrolled_pct,national,NZ,Aotearoa New Zealand,2022-10-01,2022-10-01,point,calendar,82.5,%,rate,Māori,Total,Total,,,healthnz_pho_enrolment,2026-11-22,CC BY 4.0
+pho_enrolled_pct,national,NZ,Aotearoa New Zealand,2023-01-01,2023-01-01,point,calendar,82.6,%,rate,Māori,Total,Total,,,healthnz_pho_enrolment,2026-11-22,CC BY 4.0
+pho_enrolled_pct,national,NZ,Aotearoa New Zealand,2023-04-01,2023-04-01,point,calendar,82.9,%,rate,Māori,Total,Total,,,healthnz_pho_enrolment,2026-11-22,CC BY 4.0
+pho_enrolled_pct,national,NZ,Aotearoa New Zealand,2023-07-01,2023-07-01,point,calendar,83.2,%,rate,Māori,Total,Total,,,healthnz_pho_enrolment,2026-11-22,CC BY 4.0
+pho_enrolled_pct,national,NZ,Aotearoa New Zealand,2023-10-01,2023-10-01,point,calendar,83.3,%,rate,Māori,Total,Total,,,healthnz_pho_enrolment,2026-11-22,CC BY 4.0
+pho_enrolled_pct,national,NZ,Aotearoa New Zealand,2024-01-01,2024-01-01,point,calendar,83.4,%,rate,Māori,Total,Total,,,healthnz_pho_enrolment,2026-11-22,CC BY 4.0
+pho_enrolled_pct,national,NZ,Aotearoa New Zealand,2024-04-01,2024-04-01,point,calendar,83.9,%,rate,Māori,Total,Total,,,healthnz_pho_enrolment,2026-11-22,CC BY 4.0
+pho_enrolled_pct,national,NZ,Aotearoa New Zealand,2024-07-01,2024-07-01,point,calendar,84.1,%,rate,Māori,Total,Total,,,healthnz_pho_enrolment,2026-11-22,CC BY 4.0
+pho_enrolled_pct,national,NZ,Aotearoa New Zealand,2024-10-01,2024-10-01,point,calendar,84.5,%,rate,Māori,Total,Total,,,healthnz_pho_enrolment,2026-11-22,CC BY 4.0
+pho_enrolled_pct,national,NZ,Aotearoa New Zealand,2025-01-01,2025-01-01,point,calendar,84.7,%,rate,Māori,Total,Total,,,healthnz_pho_enrolment,2026-11-22,CC BY 4.0
+pho_enrolled_pct,national,NZ,Aotearoa New Zealand,2025-04-01,2025-04-01,point,calendar,85.6,%,rate,Māori,Total,Total,,,healthnz_pho_enrolment,2026-11-22,CC BY 4.0
+pho_enrolled_pct,national,NZ,Aotearoa New Zealand,2025-07-01,2025-07-01,point,calendar,84.4,%,rate,Māori,Total,Total,,,healthnz_pho_enrolment,2026-11-22,CC BY 4.0
+pho_enrolled_pct,national,NZ,Aotearoa New Zealand,2025-10-01,2025-10-01,point,calendar,84.6,%,rate,Māori,Total,Total,,,healthnz_pho_enrolment,2026-11-22,CC BY 4.0
+pho_enrolled_pct,national,NZ,Aotearoa New Zealand,2026-01-01,2026-01-01,point,calendar,85.8,%,rate,Māori,Total,Total,,,healthnz_pho_enrolment,2026-11-22,CC BY 4.0
+pho_enrolled_pct,national,NZ,Aotearoa New Zealand,2026-04-01,2026-04-01,point,calendar,85.4,%,rate,Māori,Total,Total,,,healthnz_pho_enrolment,2026-11-22,CC BY 4.0
+pho_enrolled_pct,national,NZ,Aotearoa New Zealand,2026-07-01,2026-07-01,point,calendar,85.6,%,rate,Māori,Total,Total,,,healthnz_pho_enrolment,2026-11-22,CC BY 4.0
+pho_enrolled_pct,national,NZ,Aotearoa New Zealand,2026-10-01,2026-10-01,point,calendar,85.7,%,rate,Māori,Total,Total,,,healthnz_pho_enrolment,2026-11-22,CC BY 4.0
+pho_enrolled_pct,national,NZ,Aotearoa New Zealand,2019-04-01,2019-04-01,point,calendar,93.5,%,rate,Total,Total,Total,,,healthnz_pho_enrolment,2026-11-22,CC BY 4.0
+pho_enrolled_pct,national,NZ,Aotearoa New Zealand,2019-07-01,2019-07-01,point,calendar,93.8,%,rate,Total,Total,Total,,,healthnz_pho_enrolment,2026-11-22,CC BY 4.0
+pho_enrolled_pct,national,NZ,Aotearoa New Zealand,2019-10-01,2019-10-01,point,calendar,94.1,%,rate,Total,Total,Total,,,healthnz_pho_enrolment,2026-11-22,CC BY 4.0
+pho_enrolled_pct,national,NZ,Aotearoa New Zealand,2020-01-01,2020-01-01,point,calendar,94.3,%,rate,Total,Total,Total,,,healthnz_pho_enrolment,2026-11-22,CC BY 4.0
+pho_enrolled_pct,national,NZ,Aotearoa New Zealand,2020-04-01,2020-04-01,point,calendar,95.5,%,rate,Total,Total,Total,,,healthnz_pho_enrolment,2026-11-22,CC BY 4.0
+pho_enrolled_pct,national,NZ,Aotearoa New Zealand,2020-07-01,2020-07-01,point,calendar,95.4,%,rate,Total,Total,Total,,,healthnz_pho_enrolment,2026-11-22,CC BY 4.0
+pho_enrolled_pct,national,NZ,Aotearoa New Zealand,2020-10-01,2020-10-01,point,calendar,95.5,%,rate,Total,Total,Total,,,healthnz_pho_enrolment,2026-11-22,CC BY 4.0
+pho_enrolled_pct,national,NZ,Aotearoa New Zealand,2021-01-01,2021-01-01,point,calendar,93.7,%,rate,Total,Total,Total,,,healthnz_pho_enrolment,2026-11-22,CC BY 4.0
+pho_enrolled_pct,national,NZ,Aotearoa New Zealand,2021-04-01,2021-04-01,point,calendar,93.8,%,rate,Total,Total,Total,,,healthnz_pho_enrolment,2026-11-22,CC BY 4.0
+pho_enrolled_pct,national,NZ,Aotearoa New Zealand,2021-07-01,2021-07-01,point,calendar,93.8,%,rate,Total,Total,Total,,,healthnz_pho_enrolment,2026-11-22,CC BY 4.0
+pho_enrolled_pct,national,NZ,Aotearoa New Zealand,2021-10-01,2021-10-01,point,calendar,93.7,%,rate,Total,Total,Total,,,healthnz_pho_enrolment,2026-11-22,CC BY 4.0
+pho_enrolled_pct,national,NZ,Aotearoa New Zealand,2022-01-01,2022-01-01,point,calendar,93.8,%,rate,Total,Total,Total,,,healthnz_pho_enrolment,2026-11-22,CC BY 4.0
+pho_enrolled_pct,national,NZ,Aotearoa New Zealand,2022-04-01,2022-04-01,point,calendar,93.6,%,rate,Total,Total,Total,,,healthnz_pho_enrolment,2026-11-22,CC BY 4.0
+pho_enrolled_pct,national,NZ,Aotearoa New Zealand,2022-07-01,2022-07-01,point,calendar,93.6,%,rate,Total,Total,Total,,,healthnz_pho_enrolment,2026-11-22,CC BY 4.0
+pho_enrolled_pct,national,NZ,Aotearoa New Zealand,2022-10-01,2022-10-01,point,calendar,93.6,%,rate,Total,Total,Total,,,healthnz_pho_enrolment,2026-11-22,CC BY 4.0
+pho_enrolled_pct,national,NZ,Aotearoa New Zealand,2023-01-01,2023-01-01,point,calendar,93.7,%,rate,Total,Total,Total,,,healthnz_pho_enrolment,2026-11-22,CC BY 4.0
+pho_enrolled_pct,national,NZ,Aotearoa New Zealand,2023-04-01,2023-04-01,point,calendar,94.8,%,rate,Total,Total,Total,,,healthnz_pho_enrolment,2026-11-22,CC BY 4.0
+pho_enrolled_pct,national,NZ,Aotearoa New Zealand,2023-07-01,2023-07-01,point,calendar,95.4,%,rate,Total,Total,Total,,,healthnz_pho_enrolment,2026-11-22,CC BY 4.0
+pho_enrolled_pct,national,NZ,Aotearoa New Zealand,2023-10-01,2023-10-01,point,calendar,95.9,%,rate,Total,Total,Total,,,healthnz_pho_enrolment,2026-11-22,CC BY 4.0
+pho_enrolled_pct,national,NZ,Aotearoa New Zealand,2024-01-01,2024-01-01,point,calendar,96.4,%,rate,Total,Total,Total,,,healthnz_pho_enrolment,2026-11-22,CC BY 4.0
+pho_enrolled_pct,national,NZ,Aotearoa New Zealand,2024-04-01,2024-04-01,point,calendar,94.4,%,rate,Total,Total,Total,,,healthnz_pho_enrolment,2026-11-22,CC BY 4.0
+pho_enrolled_pct,national,NZ,Aotearoa New Zealand,2024-07-01,2024-07-01,point,calendar,94.4,%,rate,Total,Total,Total,,,healthnz_pho_enrolment,2026-11-22,CC BY 4.0
+pho_enrolled_pct,national,NZ,Aotearoa New Zealand,2024-10-01,2024-10-01,point,calendar,94.7,%,rate,Total,Total,Total,,,healthnz_pho_enrolment,2026-11-22,CC BY 4.0
+pho_enrolled_pct,national,NZ,Aotearoa New Zealand,2025-01-01,2025-01-01,point,calendar,94.7,%,rate,Total,Total,Total,,,healthnz_pho_enrolment,2026-11-22,CC BY 4.0
+pho_enrolled_pct,national,NZ,Aotearoa New Zealand,2025-04-01,2025-04-01,point,calendar,94.3,%,rate,Total,Total,Total,,,healthnz_pho_enrolment,2026-11-22,CC BY 4.0
+pho_enrolled_pct,national,NZ,Aotearoa New Zealand,2025-07-01,2025-07-01,point,calendar,94.2,%,rate,Total,Total,Total,,,healthnz_pho_enrolment,2026-11-22,CC BY 4.0
+pho_enrolled_pct,national,NZ,Aotearoa New Zealand,2025-10-01,2025-10-01,point,calendar,94.3,%,rate,Total,Total,Total,,,healthnz_pho_enrolment,2026-11-22,CC BY 4.0
+pho_enrolled_pct,national,NZ,Aotearoa New Zealand,2026-01-01,2026-01-01,point,calendar,94.1,%,rate,Total,Total,Total,,,healthnz_pho_enrolment,2026-11-22,CC BY 4.0
+pho_enrolled_pct,national,NZ,Aotearoa New Zealand,2026-04-01,2026-04-01,point,calendar,95.6,%,rate,Total,Total,Total,,,healthnz_pho_enrolment,2026-11-22,CC BY 4.0
+pho_enrolled_pct,national,NZ,Aotearoa New Zealand,2026-07-01,2026-07-01,point,calendar,95.5,%,rate,Total,Total,Total,,,healthnz_pho_enrolment,2026-11-22,CC BY 4.0
+pho_enrolled_pct,national,NZ,Aotearoa New Zealand,2026-10-01,2026-10-01,point,calendar,95.4,%,rate,Total,Total,Total,,,healthnz_pho_enrolment,2026-11-22,CC BY 4.0
+pho_enrolled_pct,district,TRW,Tairāwhiti district,2019-04-01,2019-04-01,point,calendar,97.5,%,rate,Māori,Total,Total,,,healthnz_pho_enrolment,2026-11-22,CC BY 4.0
+pho_enrolled_pct,district,TRW,Tairāwhiti district,2019-07-01,2019-07-01,point,calendar,98.3,%,rate,Māori,Total,Total,,,healthnz_pho_enrolment,2026-11-22,CC BY 4.0
+pho_enrolled_pct,district,TRW,Tairāwhiti district,2019-10-01,2019-10-01,point,calendar,98.5,%,rate,Māori,Total,Total,,,healthnz_pho_enrolment,2026-11-22,CC BY 4.0
+pho_enrolled_pct,district,TRW,Tairāwhiti district,2020-01-01,2020-01-01,point,calendar,98.7,%,rate,Māori,Total,Total,,,healthnz_pho_enrolment,2026-11-22,CC BY 4.0
+pho_enrolled_pct,district,TRW,Tairāwhiti district,2020-04-01,2020-04-01,point,calendar,93.8,%,rate,Māori,Total,Total,,,healthnz_pho_enrolment,2026-11-22,CC BY 4.0
+pho_enrolled_pct,district,TRW,Tairāwhiti district,2020-07-01,2020-07-01,point,calendar,93.5,%,rate,Māori,Total,Total,,,healthnz_pho_enrolment,2026-11-22,CC BY 4.0
+pho_enrolled_pct,district,TRW,Tairāwhiti district,2020-10-01,2020-10-01,point,calendar,93.4,%,rate,Māori,Total,Total,,,healthnz_pho_enrolment,2026-11-22,CC BY 4.0
+pho_enrolled_pct,district,TRW,Tairāwhiti district,2021-01-01,2021-01-01,point,calendar,89.5,%,rate,Māori,Total,Total,,,healthnz_pho_enrolment,2026-11-22,CC BY 4.0
+pho_enrolled_pct,district,TRW,Tairāwhiti district,2021-04-01,2021-04-01,point,calendar,89.3,%,rate,Māori,Total,Total,,,healthnz_pho_enrolment,2026-11-22,CC BY 4.0
+pho_enrolled_pct,district,TRW,Tairāwhiti district,2021-07-01,2021-07-01,point,calendar,88.4,%,rate,Māori,Total,Total,,,healthnz_pho_enrolment,2026-11-22,CC BY 4.0
+pho_enrolled_pct,district,TRW,Tairāwhiti district,2021-10-01,2021-10-01,point,calendar,88.1,%,rate,Māori,Total,Total,,,healthnz_pho_enrolment,2026-11-22,CC BY 4.0
+pho_enrolled_pct,district,TRW,Tairāwhiti district,2022-01-01,2022-01-01,point,calendar,87.5,%,rate,Māori,Total,Total,,,healthnz_pho_enrolment,2026-11-22,CC BY 4.0
+pho_enrolled_pct,district,TRW,Tairāwhiti district,2022-04-01,2022-04-01,point,calendar,86.7,%,rate,Māori,Total,Total,,,healthnz_pho_enrolment,2026-11-22,CC BY 4.0
+pho_enrolled_pct,district,TRW,Tairāwhiti district,2022-07-01,2022-07-01,point,calendar,85.9,%,rate,Māori,Total,Total,,,healthnz_pho_enrolment,2026-11-22,CC BY 4.0
+pho_enrolled_pct,district,TRW,Tairāwhiti district,2022-10-01,2022-10-01,point,calendar,85.4,%,rate,Māori,Total,Total,,,healthnz_pho_enrolment,2026-11-22,CC BY 4.0
+pho_enrolled_pct,district,TRW,Tairāwhiti district,2023-01-01,2023-01-01,point,calendar,85.3,%,rate,Māori,Total,Total,,,healthnz_pho_enrolment,2026-11-22,CC BY 4.0
+pho_enrolled_pct,district,TRW,Tairāwhiti district,2023-04-01,2023-04-01,point,calendar,83.7,%,rate,Māori,Total,Total,,,healthnz_pho_enrolment,2026-11-22,CC BY 4.0
+pho_enrolled_pct,district,TRW,Tairāwhiti district,2023-07-01,2023-07-01,point,calendar,83.4,%,rate,Māori,Total,Total,,,healthnz_pho_enrolment,2026-11-22,CC BY 4.0
+pho_enrolled_pct,district,TRW,Tairāwhiti district,2023-10-01,2023-10-01,point,calendar,83.5,%,rate,Māori,Total,Total,,,healthnz_pho_enrolment,2026-11-22,CC BY 4.0
+pho_enrolled_pct,district,TRW,Tairāwhiti district,2024-01-01,2024-01-01,point,calendar,83.5,%,rate,Māori,Total,Total,,,healthnz_pho_enrolment,2026-11-22,CC BY 4.0
+pho_enrolled_pct,district,TRW,Tairāwhiti district,2024-04-01,2024-04-01,point,calendar,83.9,%,rate,Māori,Total,Total,,,healthnz_pho_enrolment,2026-11-22,CC BY 4.0
+pho_enrolled_pct,district,TRW,Tairāwhiti district,2024-07-01,2024-07-01,point,calendar,83.7,%,rate,Māori,Total,Total,,,healthnz_pho_enrolment,2026-11-22,CC BY 4.0
+pho_enrolled_pct,district,TRW,Tairāwhiti district,2024-10-01,2024-10-01,point,calendar,83.5,%,rate,Māori,Total,Total,,,healthnz_pho_enrolment,2026-11-22,CC BY 4.0
+pho_enrolled_pct,district,TRW,Tairāwhiti district,2025-01-01,2025-01-01,point,calendar,83.4,%,rate,Māori,Total,Total,,,healthnz_pho_enrolment,2026-11-22,CC BY 4.0
+pho_enrolled_pct,district,TRW,Tairāwhiti district,2025-04-01,2025-04-01,point,calendar,85.0,%,rate,Māori,Total,Total,,,healthnz_pho_enrolment,2026-11-22,CC BY 4.0
+pho_enrolled_pct,district,TRW,Tairāwhiti district,2025-07-01,2025-07-01,point,calendar,82.7,%,rate,Māori,Total,Total,,,healthnz_pho_enrolment,2026-11-22,CC BY 4.0
+pho_enrolled_pct,district,TRW,Tairāwhiti district,2025-10-01,2025-10-01,point,calendar,82.5,%,rate,Māori,Total,Total,,,healthnz_pho_enrolment,2026-11-22,CC BY 4.0
+pho_enrolled_pct,district,TRW,Tairāwhiti district,2026-01-01,2026-01-01,point,calendar,84.6,%,rate,Māori,Total,Total,,,healthnz_pho_enrolment,2026-11-22,CC BY 4.0
+pho_enrolled_pct,district,TRW,Tairāwhiti district,2026-04-01,2026-04-01,point,calendar,85.8,%,rate,Māori,Total,Total,,,healthnz_pho_enrolment,2026-11-22,CC BY 4.0
+pho_enrolled_pct,district,TRW,Tairāwhiti district,2026-07-01,2026-07-01,point,calendar,85.8,%,rate,Māori,Total,Total,,,healthnz_pho_enrolment,2026-11-22,CC BY 4.0
+pho_enrolled_pct,district,TRW,Tairāwhiti district,2026-10-01,2026-10-01,point,calendar,85.5,%,rate,Māori,Total,Total,,,healthnz_pho_enrolment,2026-11-22,CC BY 4.0
+pho_enrolled_pct,district,TRW,Tairāwhiti district,2019-04-01,2019-04-01,point,calendar,97.2,%,rate,Total,Total,Total,,,healthnz_pho_enrolment,2026-11-22,CC BY 4.0
+pho_enrolled_pct,district,TRW,Tairāwhiti district,2019-07-01,2019-07-01,point,calendar,97.8,%,rate,Total,Total,Total,,,healthnz_pho_enrolment,2026-11-22,CC BY 4.0
+pho_enrolled_pct,district,TRW,Tairāwhiti district,2019-10-01,2019-10-01,point,calendar,98.0,%,rate,Total,Total,Total,,,healthnz_pho_enrolment,2026-11-22,CC BY 4.0
+pho_enrolled_pct,district,TRW,Tairāwhiti district,2020-01-01,2020-01-01,point,calendar,98.3,%,rate,Total,Total,Total,,,healthnz_pho_enrolment,2026-11-22,CC BY 4.0
+pho_enrolled_pct,district,TRW,Tairāwhiti district,2020-04-01,2020-04-01,point,calendar,99.2,%,rate,Total,Total,Total,,,healthnz_pho_enrolment,2026-11-22,CC BY 4.0
+pho_enrolled_pct,district,TRW,Tairāwhiti district,2020-07-01,2020-07-01,point,calendar,99.1,%,rate,Total,Total,Total,,,healthnz_pho_enrolment,2026-11-22,CC BY 4.0
+pho_enrolled_pct,district,TRW,Tairāwhiti district,2020-10-01,2020-10-01,point,calendar,99.2,%,rate,Total,Total,Total,,,healthnz_pho_enrolment,2026-11-22,CC BY 4.0
+pho_enrolled_pct,district,TRW,Tairāwhiti district,2021-01-01,2021-01-01,point,calendar,97.1,%,rate,Total,Total,Total,,,healthnz_pho_enrolment,2026-11-22,CC BY 4.0
+pho_enrolled_pct,district,TRW,Tairāwhiti district,2021-04-01,2021-04-01,point,calendar,97.1,%,rate,Total,Total,Total,,,healthnz_pho_enrolment,2026-11-22,CC BY 4.0
+pho_enrolled_pct,district,TRW,Tairāwhiti district,2021-07-01,2021-07-01,point,calendar,96.5,%,rate,Total,Total,Total,,,healthnz_pho_enrolment,2026-11-22,CC BY 4.0
+pho_enrolled_pct,district,TRW,Tairāwhiti district,2021-10-01,2021-10-01,point,calendar,96.2,%,rate,Total,Total,Total,,,healthnz_pho_enrolment,2026-11-22,CC BY 4.0
+pho_enrolled_pct,district,TRW,Tairāwhiti district,2022-01-01,2022-01-01,point,calendar,95.9,%,rate,Total,Total,Total,,,healthnz_pho_enrolment,2026-11-22,CC BY 4.0
+pho_enrolled_pct,district,TRW,Tairāwhiti district,2022-04-01,2022-04-01,point,calendar,95.4,%,rate,Total,Total,Total,,,healthnz_pho_enrolment,2026-11-22,CC BY 4.0
+pho_enrolled_pct,district,TRW,Tairāwhiti district,2022-07-01,2022-07-01,point,calendar,94.7,%,rate,Total,Total,Total,,,healthnz_pho_enrolment,2026-11-22,CC BY 4.0
+pho_enrolled_pct,district,TRW,Tairāwhiti district,2022-10-01,2022-10-01,point,calendar,94.2,%,rate,Total,Total,Total,,,healthnz_pho_enrolment,2026-11-22,CC BY 4.0
+pho_enrolled_pct,district,TRW,Tairāwhiti district,2023-01-01,2023-01-01,point,calendar,94.2,%,rate,Total,Total,Total,,,healthnz_pho_enrolment,2026-11-22,CC BY 4.0
+pho_enrolled_pct,district,TRW,Tairāwhiti district,2023-04-01,2023-04-01,point,calendar,94.0,%,rate,Total,Total,Total,,,healthnz_pho_enrolment,2026-11-22,CC BY 4.0
+pho_enrolled_pct,district,TRW,Tairāwhiti district,2023-07-01,2023-07-01,point,calendar,94.2,%,rate,Total,Total,Total,,,healthnz_pho_enrolment,2026-11-22,CC BY 4.0
+pho_enrolled_pct,district,TRW,Tairāwhiti district,2023-10-01,2023-10-01,point,calendar,94.4,%,rate,Total,Total,Total,,,healthnz_pho_enrolment,2026-11-22,CC BY 4.0
+pho_enrolled_pct,district,TRW,Tairāwhiti district,2024-01-01,2024-01-01,point,calendar,94.9,%,rate,Total,Total,Total,,,healthnz_pho_enrolment,2026-11-22,CC BY 4.0
+pho_enrolled_pct,district,TRW,Tairāwhiti district,2024-04-01,2024-04-01,point,calendar,92.5,%,rate,Total,Total,Total,,,healthnz_pho_enrolment,2026-11-22,CC BY 4.0
+pho_enrolled_pct,district,TRW,Tairāwhiti district,2024-07-01,2024-07-01,point,calendar,92.4,%,rate,Total,Total,Total,,,healthnz_pho_enrolment,2026-11-22,CC BY 4.0
+pho_enrolled_pct,district,TRW,Tairāwhiti district,2024-10-01,2024-10-01,point,calendar,92.3,%,rate,Total,Total,Total,,,healthnz_pho_enrolment,2026-11-22,CC BY 4.0
+pho_enrolled_pct,district,TRW,Tairāwhiti district,2025-01-01,2025-01-01,point,calendar,92.2,%,rate,Total,Total,Total,,,healthnz_pho_enrolment,2026-11-22,CC BY 4.0
+pho_enrolled_pct,district,TRW,Tairāwhiti district,2025-04-01,2025-04-01,point,calendar,91.8,%,rate,Total,Total,Total,,,healthnz_pho_enrolment,2026-11-22,CC BY 4.0
+pho_enrolled_pct,district,TRW,Tairāwhiti district,2025-07-01,2025-07-01,point,calendar,91.6,%,rate,Total,Total,Total,,,healthnz_pho_enrolment,2026-11-22,CC BY 4.0
+pho_enrolled_pct,district,TRW,Tairāwhiti district,2025-10-01,2025-10-01,point,calendar,91.5,%,rate,Total,Total,Total,,,healthnz_pho_enrolment,2026-11-22,CC BY 4.0
+pho_enrolled_pct,district,TRW,Tairāwhiti district,2026-01-01,2026-01-01,point,calendar,91.3,%,rate,Total,Total,Total,,,healthnz_pho_enrolment,2026-11-22,CC BY 4.0
+pho_enrolled_pct,district,TRW,Tairāwhiti district,2026-04-01,2026-04-01,point,calendar,93.6,%,rate,Total,Total,Total,,,healthnz_pho_enrolment,2026-11-22,CC BY 4.0
+pho_enrolled_pct,district,TRW,Tairāwhiti district,2026-07-01,2026-07-01,point,calendar,93.3,%,rate,Total,Total,Total,,,healthnz_pho_enrolment,2026-11-22,CC BY 4.0
+pho_enrolled_pct,district,TRW,Tairāwhiti district,2026-10-01,2026-10-01,point,calendar,93.1,%,rate,Total,Total,Total,,,healthnz_pho_enrolment,2026-11-22,CC BY 4.0

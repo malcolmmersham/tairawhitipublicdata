@@ -1,0 +1,57 @@
+indicator_id,geo_type,geo_code,geo_name,period_start,period_end,period_type,year_basis,value,unit,measure,ethnicity,age,sex,suppression_flag,quality_flag,source_id,vintage_date,licence
+nzhs_hazardous_drinking,national,NZ,Aotearoa New Zealand,2014-07-01,2017-06-30,multi_year,july,32.7,%,prevalence,Māori,15+,Total,,,moh_nzhs_regional,2026-11-22,CC BY 4.0
+nzhs_hazardous_drinking,national,NZ,Aotearoa New Zealand,2017-07-01,2020-06-30,multi_year,july,33.8,%,prevalence,Māori,15+,Total,,,moh_nzhs_regional,2026-11-22,CC BY 4.0
+nzhs_hazardous_drinking,national,NZ,Aotearoa New Zealand,2014-07-01,2017-06-30,multi_year,july,20.2,%,prevalence,Total,15+,Total,,,moh_nzhs_regional,2026-11-22,CC BY 4.0
+nzhs_hazardous_drinking,national,NZ,Aotearoa New Zealand,2017-07-01,2020-06-30,multi_year,july,20.6,%,prevalence,Total,15+,Total,,,moh_nzhs_regional,2026-11-22,CC BY 4.0
+nzhs_hazardous_drinking,district,TRW,Tairāwhiti district,2014-07-01,2017-06-30,multi_year,july,41.9,%,prevalence,Māori,15+,Total,,,moh_nzhs_regional,2026-11-22,CC BY 4.0
+nzhs_hazardous_drinking,district,TRW,Tairāwhiti district,2017-07-01,2020-06-30,multi_year,july,42.4,%,prevalence,Māori,15+,Total,,,moh_nzhs_regional,2026-11-22,CC BY 4.0
+nzhs_hazardous_drinking,district,TRW,Tairāwhiti district,2014-07-01,2017-06-30,multi_year,july,30.4,%,prevalence,Total,15+,Total,,,moh_nzhs_regional,2026-11-22,CC BY 4.0
+nzhs_hazardous_drinking,district,TRW,Tairāwhiti district,2017-07-01,2020-06-30,multi_year,july,33.7,%,prevalence,Total,15+,Total,,,moh_nzhs_regional,2026-11-22,CC BY 4.0
+nzhs_obesity,national,NZ,Aotearoa New Zealand,2011-07-01,2014-06-30,multi_year,july,45.2,%,prevalence,Māori,15+,Total,,,moh_nzhs_regional,2026-11-22,CC BY 4.0
+nzhs_obesity,national,NZ,Aotearoa New Zealand,2014-07-01,2017-06-30,multi_year,july,47.9,%,prevalence,Māori,15+,Total,,,moh_nzhs_regional,2026-11-22,CC BY 4.0
+nzhs_obesity,national,NZ,Aotearoa New Zealand,2017-07-01,2020-06-30,multi_year,july,48.0,%,prevalence,Māori,15+,Total,,,moh_nzhs_regional,2026-11-22,CC BY 4.0
+nzhs_obesity,national,NZ,Aotearoa New Zealand,2011-07-01,2014-06-30,multi_year,july,30.0,%,prevalence,Total,15+,Total,,,moh_nzhs_regional,2026-11-22,CC BY 4.0
+nzhs_obesity,national,NZ,Aotearoa New Zealand,2014-07-01,2017-06-30,multi_year,july,31.7,%,prevalence,Total,15+,Total,,,moh_nzhs_regional,2026-11-22,CC BY 4.0
+nzhs_obesity,national,NZ,Aotearoa New Zealand,2017-07-01,2020-06-30,multi_year,july,31.7,%,prevalence,Total,15+,Total,,,moh_nzhs_regional,2026-11-22,CC BY 4.0
+nzhs_obesity,district,TRW,Tairāwhiti district,2011-07-01,2014-06-30,multi_year,july,41.8,%,prevalence,Māori,15+,Total,,,moh_nzhs_regional,2026-11-22,CC BY 4.0
+nzhs_obesity,district,TRW,Tairāwhiti district,2014-07-01,2017-06-30,multi_year,july,50.6,%,prevalence,Māori,15+,Total,,,moh_nzhs_regional,2026-11-22,CC BY 4.0
+nzhs_obesity,district,TRW,Tairāwhiti district,2017-07-01,2020-06-30,multi_year,july,49.9,%,prevalence,Māori,15+,Total,,,moh_nzhs_regional,2026-11-22,CC BY 4.0
+nzhs_obesity,district,TRW,Tairāwhiti district,2011-07-01,2014-06-30,multi_year,july,37.8,%,prevalence,Total,15+,Total,,,moh_nzhs_regional,2026-11-22,CC BY 4.0
+nzhs_obesity,district,TRW,Tairāwhiti district,2014-07-01,2017-06-30,multi_year,july,39.8,%,prevalence,Total,15+,Total,,,moh_nzhs_regional,2026-11-22,CC BY 4.0
+nzhs_obesity,district,TRW,Tairāwhiti district,2017-07-01,2020-06-30,multi_year,july,42.3,%,prevalence,Total,15+,Total,,,moh_nzhs_regional,2026-11-22,CC BY 4.0
+nzhs_psych_distress,national,NZ,Aotearoa New Zealand,2011-07-01,2014-06-30,multi_year,july,8.9,%,prevalence,Māori,15+,Total,,,moh_nzhs_regional,2026-11-22,CC BY 4.0
+nzhs_psych_distress,national,NZ,Aotearoa New Zealand,2014-07-01,2017-06-30,multi_year,july,10.5,%,prevalence,Māori,15+,Total,,,moh_nzhs_regional,2026-11-22,CC BY 4.0
+nzhs_psych_distress,national,NZ,Aotearoa New Zealand,2017-07-01,2020-06-30,multi_year,july,13.5,%,prevalence,Māori,15+,Total,,,moh_nzhs_regional,2026-11-22,CC BY 4.0
+nzhs_psych_distress,national,NZ,Aotearoa New Zealand,2011-07-01,2014-06-30,multi_year,july,5.6,%,prevalence,Total,15+,Total,,,moh_nzhs_regional,2026-11-22,CC BY 4.0
+nzhs_psych_distress,national,NZ,Aotearoa New Zealand,2014-07-01,2017-06-30,multi_year,july,6.9,%,prevalence,Total,15+,Total,,,moh_nzhs_regional,2026-11-22,CC BY 4.0
+nzhs_psych_distress,national,NZ,Aotearoa New Zealand,2017-07-01,2020-06-30,multi_year,july,8.1,%,prevalence,Total,15+,Total,,,moh_nzhs_regional,2026-11-22,CC BY 4.0
+nzhs_psych_distress,district,TRW,Tairāwhiti district,2011-07-01,2014-06-30,multi_year,july,7.4,%,prevalence,Māori,15+,Total,,low precision: RSE ≈30% or more (from 95% CI),moh_nzhs_regional,2026-11-22,CC BY 4.0
+nzhs_psych_distress,district,TRW,Tairāwhiti district,2014-07-01,2017-06-30,multi_year,july,5.6,%,prevalence,Māori,15+,Total,,,moh_nzhs_regional,2026-11-22,CC BY 4.0
+nzhs_psych_distress,district,TRW,Tairāwhiti district,2017-07-01,2020-06-30,multi_year,july,12.9,%,prevalence,Māori,15+,Total,,,moh_nzhs_regional,2026-11-22,CC BY 4.0
+nzhs_psych_distress,district,TRW,Tairāwhiti district,2011-07-01,2014-06-30,multi_year,july,6.1,%,prevalence,Total,15+,Total,,,moh_nzhs_regional,2026-11-22,CC BY 4.0
+nzhs_psych_distress,district,TRW,Tairāwhiti district,2014-07-01,2017-06-30,multi_year,july,4.5,%,prevalence,Total,15+,Total,,,moh_nzhs_regional,2026-11-22,CC BY 4.0
+nzhs_psych_distress,district,TRW,Tairāwhiti district,2017-07-01,2020-06-30,multi_year,july,9.6,%,prevalence,Total,15+,Total,,,moh_nzhs_regional,2026-11-22,CC BY 4.0
+nzhs_smoking,national,NZ,Aotearoa New Zealand,2011-07-01,2014-06-30,multi_year,july,40.2,%,prevalence,Māori,15+,Total,,,moh_nzhs_regional,2026-11-22,CC BY 4.0
+nzhs_smoking,national,NZ,Aotearoa New Zealand,2014-07-01,2017-06-30,multi_year,july,37.3,%,prevalence,Māori,15+,Total,,,moh_nzhs_regional,2026-11-22,CC BY 4.0
+nzhs_smoking,national,NZ,Aotearoa New Zealand,2017-07-01,2020-06-30,multi_year,july,32.6,%,prevalence,Māori,15+,Total,,,moh_nzhs_regional,2026-11-22,CC BY 4.0
+nzhs_smoking,national,NZ,Aotearoa New Zealand,2011-07-01,2014-06-30,multi_year,july,17.9,%,prevalence,Total,15+,Total,,,moh_nzhs_regional,2026-11-22,CC BY 4.0
+nzhs_smoking,national,NZ,Aotearoa New Zealand,2014-07-01,2017-06-30,multi_year,july,16.4,%,prevalence,Total,15+,Total,,,moh_nzhs_regional,2026-11-22,CC BY 4.0
+nzhs_smoking,national,NZ,Aotearoa New Zealand,2017-07-01,2020-06-30,multi_year,july,14.5,%,prevalence,Total,15+,Total,,,moh_nzhs_regional,2026-11-22,CC BY 4.0
+nzhs_smoking,district,TRW,Tairāwhiti district,2011-07-01,2014-06-30,multi_year,july,45.2,%,prevalence,Māori,15+,Total,,,moh_nzhs_regional,2026-11-22,CC BY 4.0
+nzhs_smoking,district,TRW,Tairāwhiti district,2014-07-01,2017-06-30,multi_year,july,44.9,%,prevalence,Māori,15+,Total,,,moh_nzhs_regional,2026-11-22,CC BY 4.0
+nzhs_smoking,district,TRW,Tairāwhiti district,2017-07-01,2020-06-30,multi_year,july,40.0,%,prevalence,Māori,15+,Total,,,moh_nzhs_regional,2026-11-22,CC BY 4.0
+nzhs_smoking,district,TRW,Tairāwhiti district,2011-07-01,2014-06-30,multi_year,july,34.9,%,prevalence,Total,15+,Total,,,moh_nzhs_regional,2026-11-22,CC BY 4.0
+nzhs_smoking,district,TRW,Tairāwhiti district,2014-07-01,2017-06-30,multi_year,july,31.1,%,prevalence,Total,15+,Total,,,moh_nzhs_regional,2026-11-22,CC BY 4.0
+nzhs_smoking,district,TRW,Tairāwhiti district,2017-07-01,2020-06-30,multi_year,july,27.8,%,prevalence,Total,15+,Total,,,moh_nzhs_regional,2026-11-22,CC BY 4.0
+nzhs_unmet_gp_cost,national,NZ,Aotearoa New Zealand,2011-07-01,2014-06-30,multi_year,july,23.0,%,prevalence,Māori,15+,Total,,,moh_nzhs_regional,2026-11-22,CC BY 4.0
+nzhs_unmet_gp_cost,national,NZ,Aotearoa New Zealand,2014-07-01,2017-06-30,multi_year,july,21.6,%,prevalence,Māori,15+,Total,,,moh_nzhs_regional,2026-11-22,CC BY 4.0
+nzhs_unmet_gp_cost,national,NZ,Aotearoa New Zealand,2017-07-01,2020-06-30,multi_year,july,21.5,%,prevalence,Māori,15+,Total,,,moh_nzhs_regional,2026-11-22,CC BY 4.0
+nzhs_unmet_gp_cost,national,NZ,Aotearoa New Zealand,2011-07-01,2014-06-30,multi_year,july,14.1,%,prevalence,Total,15+,Total,,,moh_nzhs_regional,2026-11-22,CC BY 4.0
+nzhs_unmet_gp_cost,national,NZ,Aotearoa New Zealand,2014-07-01,2017-06-30,multi_year,july,14.2,%,prevalence,Total,15+,Total,,,moh_nzhs_regional,2026-11-22,CC BY 4.0
+nzhs_unmet_gp_cost,national,NZ,Aotearoa New Zealand,2017-07-01,2020-06-30,multi_year,july,14.0,%,prevalence,Total,15+,Total,,,moh_nzhs_regional,2026-11-22,CC BY 4.0
+nzhs_unmet_gp_cost,district,TRW,Tairāwhiti district,2011-07-01,2014-06-30,multi_year,july,15.0,%,prevalence,Māori,15+,Total,,,moh_nzhs_regional,2026-11-22,CC BY 4.0
+nzhs_unmet_gp_cost,district,TRW,Tairāwhiti district,2014-07-01,2017-06-30,multi_year,july,15.5,%,prevalence,Māori,15+,Total,,,moh_nzhs_regional,2026-11-22,CC BY 4.0
+nzhs_unmet_gp_cost,district,TRW,Tairāwhiti district,2017-07-01,2020-06-30,multi_year,july,10.1,%,prevalence,Māori,15+,Total,,low precision: RSE ≈30% or more (from 95% CI),moh_nzhs_regional,2026-11-22,CC BY 4.0
+nzhs_unmet_gp_cost,district,TRW,Tairāwhiti district,2011-07-01,2014-06-30,multi_year,july,12.7,%,prevalence,Total,15+,Total,,,moh_nzhs_regional,2026-11-22,CC BY 4.0
+nzhs_unmet_gp_cost,district,TRW,Tairāwhiti district,2014-07-01,2017-06-30,multi_year,july,12.1,%,prevalence,Total,15+,Total,,,moh_nzhs_regional,2026-11-22,CC BY 4.0
+nzhs_unmet_gp_cost,district,TRW,Tairāwhiti district,2017-07-01,2020-06-30,multi_year,july,8.2,%,prevalence,Total,15+,Total,,,moh_nzhs_regional,2026-11-22,CC BY 4.0
