@@ -100,6 +100,13 @@ td.num, th.num { text-align: right; font-family: var(--f-data); font-variant-num
 .pill.fail { color: var(--bad); background: var(--bad-bg); }
 .filters { display: flex; flex-wrap: wrap; gap: 8px 16px; align-items: center; margin-bottom: 12px; font-size: 13px; color: var(--ink-2); }
 select { font: inherit; color: var(--ink); background: var(--surface); border: 1px solid var(--line); border-radius: 6px; padding: 4px 8px; }
+.sampling-controls { margin-bottom: 0; }
+.sample-card { grid-template-columns: minmax(0, 1fr); }
+.sampling-field { display: grid; grid-template-columns: minmax(0, 1fr); gap: 3px; min-width: 0; }
+.sampling-controls select { max-width: 100%; }
+.sample-meta { margin: 0; }
+.sample-results summary { color: var(--accent); cursor: pointer; font-size: 13px; }
+.sample-results .tbl-wrap { margin-top: 8px; }
 .empty { padding: 40px 0; color: var(--ink-3); }
 footer { color: var(--ink-3); font-size: 12px; border-top: 1px solid var(--line); padding-block: 16px 32px; }
 @media (prefers-reduced-motion: no-preference) { .tile, .card { transition: border-color .15s; } }
@@ -159,11 +166,16 @@ function fmt(v, format, unit) {
 }
 function periodLabel(end, ptype) {
   const d = parseD(end), m = d.toLocaleString("en-NZ", { month: "short" });
+  if (ptype === "sample") return d.toLocaleDateString("en-NZ", { day: "numeric", month: "short", year: "numeric" });
   if (ptype === "year") return String(d.getFullYear());
   if (ptype === "rolling_12m") return "12 months to " + m + " " + d.getFullYear();
   if (ptype === "quarter") return m + " " + d.getFullYear() + " qtr";
   if (ptype === "term") return `Term ${Math.floor(d.getMonth() / 3) + 1}, ${d.getFullYear()}`;
   return m + " " + d.getFullYear();
+}
+function sampleResult(value, flag, format) {
+  const limits = { less_than: "<", greater_than: ">" };
+  return (limits[flag] || "") + fmt(value, format);
 }
 
 function seriesFor(ind) { return BY[ind] || []; }
@@ -194,8 +206,10 @@ function changeChip(ind, h) {
 }
 
 /* ---------- SVG line chart with crosshair tooltip ---------- */
-function lineChart(lines, meta, { height = 220, spark = false } = {}) {
+function lineChart(lines, meta, { height = 220, spark = false, logScale = false } = {}) {
   const box = el("div", { class: "chart" });
+  const samples = lines[0].ptype === "sample";
+  const scale = logScale ? value => Math.log10(1 + value) : value => value;
   const draw = () => {
     box.innerHTML = "";
     const W = Math.max(box.clientWidth || 300, 200), H = spark ? 44 : height;
@@ -205,30 +219,50 @@ function lineChart(lines, meta, { height = 220, spark = false } = {}) {
     const xs = all.map(p => +parseD(p[0])), ys = all.map(p => p[1]);
     const x0 = Math.min(...xs), x1 = Math.max(...xs);
     let y0 = Math.min(...ys), y1 = Math.max(...ys);
-    if (meta.format === "pct") { y0 = Math.max(0, Math.floor((y0 - 5) / 10) * 10); y1 = Math.min(100, Math.ceil((y1 + 2) / 10) * 10); }
+    if (samples) { y0 = 0; y1 = Math.max(1, y1) * 1.08; }
+    else if (meta.format === "pct") { y0 = Math.max(0, Math.floor((y0 - 5) / 10) * 10); y1 = Math.min(100, Math.ceil((y1 + 2) / 10) * 10); }
     else { y0 = y0 >= 0 && y0 < (y1 - y0) * 1.2 ? 0 : y0 - (y1 - y0) * 0.1; y1 = y1 + (y1 - y0) * 0.06 || 1; }
     const X = v => m.l + (x1 === x0 ? 0.5 : (v - x0) / (x1 - x0)) * (W - m.l - m.r);
-    const Y = v => m.t + (1 - (v - y0) / (y1 - y0 || 1)) * (H - m.t - m.b);
+    const Y = v => m.t + (1 - (scale(v) - scale(y0)) / (scale(y1) - scale(y0) || 1)) * (H - m.t - m.b);
     const NS = "http://www.w3.org/2000/svg";
     const svg = document.createElementNS(NS, "svg");
     svg.setAttribute("viewBox", `0 0 ${W} ${H}`); svg.setAttribute("role", "img");
-    svg.setAttribute("aria-label", meta.name + " chart");
+    svg.setAttribute("aria-label", samples
+      ? `${meta.name} sample history at ${lines[0].label}, ${logScale ? "logarithmic" : "linear"} scale`
+      : meta.name + " chart");
     const add = (tag, a) => { const n = document.createElementNS(NS, tag); for (const k in a) n.setAttribute(k, a[k]); svg.append(n); return n; };
     if (!spark) {
-      const ticks = niceTicks(y0, y1, 4);
+      const ticks = logScale
+        ? [0, ...Array.from({ length: Math.floor(Math.log10(y1)) + 1 }, (_, i) => 10 ** i)]
+        : niceTicks(y0, y1, 4);
       for (const t of ticks) {
         add("line", { x1: m.l, x2: W - m.r, y1: Y(t), y2: Y(t), stroke: "var(--grid)", "stroke-width": 1 });
         const tx = add("text", { x: m.l - 8, y: Y(t) + 4, "text-anchor": "end" }); tx.textContent = shortNum(t, meta.format);
       }
       const ya = new Date(x0).getFullYear(), yb = new Date(x1).getFullYear();
       const step = Math.max(1, Math.ceil((yb - ya + 1) / Math.max(2, Math.floor((W - 80) / 60))));
-      for (let y = ya; y <= yb; y += step) {
-        const xv = +new Date(y, 0, 1); if (xv < x0 || xv > x1) continue;
-        const tx = add("text", { x: X(xv), y: H - 6, "text-anchor": "middle" }); tx.textContent = y;
+      if (samples && yb - ya <= 1) {
+        const ends = x0 === x1 ? [x0] : [x0, x1];
+        for (const [i, date] of ends.entries()) {
+          const tx = add("text", { x: X(date), y: H - 6, "text-anchor": ends.length === 1 ? "middle" : i === 0 ? "start" : "end" });
+          tx.textContent = new Date(date).toLocaleDateString("en-NZ", { month: "short", year: "numeric" });
+        }
+      } else {
+        for (let y = ya; y <= yb; y += step) {
+          const xv = +new Date(y, 0, 1); if (xv < x0 || xv > x1) continue;
+          const tx = add("text", { x: X(xv), y: H - 6, "text-anchor": "middle" }); tx.textContent = y;
+        }
       }
     }
     lines.forEach((l, i) => {
       const pts = l.points.filter(p => p[1] != null);
+      if (samples) {
+        for (const [day, value, flag] of pts) {
+          add("circle", { cx: X(+parseD(day)), cy: Y(value), r: flag ? 3.3 : 2.6,
+            fill: flag ? "var(--surface)" : l.color, stroke: l.color, "stroke-width": 1.2 });
+        }
+        return;
+      }
       const d = pts.map((p, j) => (j ? "L" : "M") + X(+parseD(p[0])).toFixed(1) + "," + Y(p[1]).toFixed(1)).join("");
       if (i === 0 && !spark) {
         const area = d + `L${X(+parseD(pts[pts.length - 1][0]))},${Y(y0)}L${X(+parseD(pts[0][0]))},${Y(y0)}Z`;
@@ -254,7 +288,9 @@ function lineChart(lines, meta, { height = 220, spark = false } = {}) {
       tip.append(el("div", { text: periodLabel(best, lines[0].ptype) }));
       for (const l of lines) {
         const p = l.points.find(q => q[0] === best); if (!p) continue;
-        tip.append(el("div", { text: `${l.label}: ${p[1] == null ? "suppressed" : fmt(p[1], meta.format)}` }));
+        const text = samples ? `${sampleResult(p[1], p[2], meta.format)} ${l.unit}`
+          : `${l.label}: ${p[1] == null ? "suppressed" : fmt(p[1], meta.format)}`;
+        tip.append(el("div", { text }));
       }
       const left = cx / W * r.width;
       tip.style.left = Math.min(Math.max(left, 70), r.width - 70) + "px"; tip.style.top = "0px";
@@ -263,7 +299,10 @@ function lineChart(lines, meta, { height = 220, spark = false } = {}) {
     svg.addEventListener("pointerleave", () => { tip.hidden = true; cross.setAttribute("visibility", "hidden"); });
   };
   requestAnimationFrame(draw);
-  new ResizeObserver(() => draw()).observe(box);
+  new ResizeObserver((_, observer) => {
+    if (box.isConnected) draw();
+    else observer.disconnect();
+  }).observe(box);
   return box;
 }
 function niceTicks(a, b, n) {
@@ -325,34 +364,68 @@ function siteCard(ind) {
     .sort((a, b) => a.geo_name.localeCompare(b.geo_name, "en-NZ"));
   const source = D.sources[sites[0].source];
   const sample = sites[0].period_type === "sample";
-  const limits = { less_than: "<", greater_than: ">" };
   const rows = sites.flatMap(site => {
     const points = sample ? site.points.slice(-1) : site.points;
     return points.map(([end, value, flag]) => {
-      const period = sample
-        ? parseD(end).toLocaleDateString("en-NZ", { day: "numeric", month: "short", year: "numeric" })
-        : `${site.period_start.slice(0, 4)}–${end.slice(0, 4)}`;
+      const period = sample ? periodLabel(end, "sample") : `${site.period_start.slice(0, 4)}–${end.slice(0, 4)}`;
       return el("tr", {}, el("td", { text: site.geo_name }), el("td", { text: period }),
-        el("td", { class: "num", text: (limits[flag] || "") + fmt(value, meta.format) }));
+        el("td", { class: "num", text: sample ? sampleResult(value, flag, meta.format) : fmt(value, meta.format) }));
     });
   });
-  return el("article", { class: "card", id: "ind-" + ind },
+  const latest = el("div", { class: "tbl-wrap" }, el("table", {}, el("thead", {}, el("tr", {},
+    el("th", { text: "Monitoring site" }), el("th", { text: sample ? "Sample date" : "Period" }),
+    el("th", { class: "num", text: sample ? `Result (${sites[0].unit})` : "Median per 100 mL" }))),
+    el("tbody", {}, rows)));
+  return el("article", { class: sample ? "card sample-card" : "card", id: "ind-" + ind },
     el("h3", { text: meta.name }), el("p", { class: "note", text: meta.caveat }),
     meta.advice_url && el("p", { class: "note" }, el("a", { href: meta.advice_url, text: "Check current swimming advice" })),
-    el("div", { class: "tbl-wrap" }, el("table", {}, el("thead", {}, el("tr", {},
-      el("th", { text: "Monitoring site" }), el("th", { text: sample ? "Sample date" : "Period" }),
-      el("th", { class: "num", text: sample ? `Result (${sites[0].unit})` : "Median per 100 mL" }))),
-      el("tbody", {}, rows))),
+    sample ? sampleHistory(ind, sites, meta) : null,
+    sample ? el("details", { class: "sample-results" }, el("summary", { text: "Latest samples by site" }), latest) : latest,
     el("div", { class: "src" }, source.attribution, el("a", { href: source.url, text: "Publisher" }),
       source.licence_url && el("a", { href: source.licence_url, text: "Licence" }),
       sample ? el("a", { href: "data/observations.csv", download: "observations.csv", text: "Download observations (CSV)" }) : null));
 }
+function sampleHistory(ind, sites, meta) {
+  const siteSelect = el("select", { id: ind + "-site" }, sites.map(site => el("option", { value: site.geo, text: site.geo_name })));
+  siteSelect.value = sites.reduce((longest, site) => site.points.length > longest.points.length ? site : longest).geo;
+  const scaleSelect = el("select", { id: ind + "-scale" },
+    el("option", { value: "log", text: "Logarithmic" }), el("option", { value: "linear", text: "Linear" }));
+  const range = el("p", { class: "note sample-meta", role: "status" });
+  const plot = el("div", {});
+  const history = el("div", {});
+  const draw = () => {
+    const site = sites.find(site => site.geo === siteSelect.value);
+    const line = { label: site.geo_name, color: "var(--s1)", points: site.points, ptype: "sample", unit: site.unit };
+    const first = periodLabel(site.points[0][0], "sample"), last = periodLabel(site.points.at(-1)[0], "sample");
+    range.textContent = `${site.points.length} samples · ${first === last ? last : first + " to " + last} · ${site.unit}`;
+    plot.replaceChildren(lineChart([line], meta, { logScale: scaleSelect.value === "log" }));
+    history.replaceChildren(table([line], meta));
+  };
+  siteSelect.addEventListener("change", draw);
+  scaleSelect.addEventListener("change", draw);
+  draw();
+  return [
+    el("div", { class: "filters sampling-controls" },
+      el("div", { class: "sampling-field" }, el("label", { for: siteSelect.id, text: "Monitoring site" }), siteSelect),
+      el("div", { class: "sampling-field" }, el("label", { for: scaleSelect.id, text: "Result scale" }), scaleSelect)),
+    range,
+    plot,
+    el("p", { class: "note sample-meta", text: "Each point is one sample. Open markers show lab reporting limits. Select a linear scale to see absolute differences." }),
+    el("details", { class: "sample-results" }, el("summary", { text: "Sample history table" }), history),
+  ];
+}
 function table(lines, meta) {
+  const sample = lines[0].ptype === "sample";
   const dates = [...new Set(lines.flatMap(l => l.points.map(p => p[0])))].sort().reverse();
-  const t = el("table", {}, el("thead", {}, el("tr", {}, el("th", { text: "Period" }), lines.map(l => el("th", { class: "num", text: l.label })))));
+  const t = el("table", {}, el("thead", {}, el("tr", {}, el("th", { text: sample ? "Sample date" : "Period" }),
+    lines.map(l => el("th", { class: "num", text: sample ? `Result (${l.unit})` : l.label })))));
   const tb = el("tbody");
   for (const d of dates) tb.append(el("tr", {}, el("td", { text: periodLabel(d, lines[0].ptype) }),
-    lines.map(l => { const p = l.points.find(q => q[0] === d); return el("td", { class: "num", text: !p ? "" : p[1] == null ? "s" : fmt(p[1], meta.format) }); })));
+    lines.map(l => {
+      const p = l.points.find(q => q[0] === d);
+      const result = !p ? "" : sample ? sampleResult(p[1], p[2], meta.format) : p[1] == null ? "s" : fmt(p[1], meta.format);
+      return el("td", { class: "num", text: result });
+    })));
   t.append(tb);
   return el("div", { class: "tbl-wrap" }, t);
 }

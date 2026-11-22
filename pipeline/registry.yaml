@@ -221,7 +221,7 @@ indicators:
     direction: neutral
     headline: false
     format: dec1
-    caveat: "Latest routine sample per river site in the reviewed LAWA release. The observations CSV contains the available dates and measurements. The < and > signs identify lab reporting limits."
+    caveat: "Historical routine samples by river site from the reviewed LAWA release. The < and > signs identify lab reporting limits."
     advice_url: https://www.gdc.govt.nz/recreation/can-i-swim-here
   swimming_coastal_enterococci:
     name: Coastal swimming sites · enterococci
@@ -231,7 +231,7 @@ indicators:
     direction: neutral
     headline: false
     format: dec1
-    caveat: "Latest routine sample per coastal site in the reviewed LAWA release. The observations CSV contains the available dates and measurements. The < and > signs identify lab reporting limits."
+    caveat: "Historical routine samples by coastal site from the reviewed LAWA release. The < and > signs identify lab reporting limits."
     advice_url: https://www.gdc.govt.nz/recreation/can-i-swim-here
 
   gisborne_live_births:
