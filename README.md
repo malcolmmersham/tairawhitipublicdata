@@ -6,6 +6,8 @@ A self-updating dashboard of public, regularly updated data for Te Tairāwhiti, 
 
 [Open the dashboard](https://malcolmmersham.github.io/tairawhitipublicdata/).
 
+[Master plan](docs/MASTER_PLAN.md) · [Agent contributor guide](AGENTS.md) · [Workstream issues](https://github.com/malcolmmersham/tairawhitipublicdata/issues)
+
 GitHub Actions is scheduled daily at 18:17 UTC (6:17 am NZST or 7:17 am NZDT the next day).
 It refreshes the sources, validates the processed observations, commits the processed data and
 publishes the static dashboard. Git records the revisions to processed data. Raw downloads are
