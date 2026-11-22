@@ -376,7 +376,7 @@ imms_24m,national,NZ,Aotearoa New Zealand,2025-07-01,2026-06-30,rolling_12m,roll
 imms_24m,district,TRW,Tairāwhiti district,2022-10-01,2023-09-30,rolling_12m,rolling,66.0,%,rate,Māori,Total,Total,,,healthnz_immunisation,2026-11-20,CC BY 4.0
 imms_24m,district,TRW,Tairāwhiti district,2023-01-01,2023-12-31,rolling_12m,rolling,62.4,%,rate,Māori,Total,Total,,,healthnz_immunisation,2026-11-20,CC BY 4.0
 imms_24m,district,TRW,Tairāwhiti district,2023-04-01,2024-03-31,rolling_12m,rolling,58.8,%,rate,Māori,Total,Total,,,healthnz_immunisation,2026-11-20,CC BY 4.0
-imms_24m,district,TRW,Tairāwhiti district,2023-07-01,2024-06-30,rolling_12m,rolling,57.7,%,rate,Māori,Total,Total,,,healthnz_immunisation,2026-11-22,CC BY 4.0
+imms_24m,district,TRW,Tairāwhiti district,2023-07-01,2024-06-30,rolling_12m,rolling,57.699999999999996,%,rate,Māori,Total,Total,,,healthnz_immunisation,2026-11-22,CC BY 4.0
 imms_24m,district,TRW,Tairāwhiti district,2023-10-01,2024-09-30,rolling_12m,rolling,55.400000000000006,%,rate,Māori,Total,Total,,,healthnz_immunisation,2026-11-20,CC BY 4.0
 imms_24m,district,TRW,Tairāwhiti district,2024-01-01,2024-12-31,rolling_12m,rolling,56.3,%,rate,Māori,Total,Total,,,healthnz_immunisation,2026-11-20,CC BY 4.0
 imms_24m,district,TRW,Tairāwhiti district,2024-04-01,2025-03-31,rolling_12m,rolling,57.4,%,rate,Māori,Total,Total,,,healthnz_immunisation,2026-11-20,CC BY 4.0
@@ -664,7 +664,7 @@ imms_5y,national,NZ,Aotearoa New Zealand,2023-07-01,2024-06-30,rolling_12m,rolli
 imms_5y,national,NZ,Aotearoa New Zealand,2023-10-01,2024-09-30,rolling_12m,rolling,66.0,%,rate,Māori,Total,Total,,,healthnz_immunisation,2026-11-20,CC BY 4.0
 imms_5y,national,NZ,Aotearoa New Zealand,2024-01-01,2024-12-31,rolling_12m,rolling,64.9,%,rate,Māori,Total,Total,,,healthnz_immunisation,2026-11-20,CC BY 4.0
 imms_5y,national,NZ,Aotearoa New Zealand,2024-04-01,2025-03-31,rolling_12m,rolling,64.2,%,rate,Māori,Total,Total,,,healthnz_immunisation,2026-11-20,CC BY 4.0
-imms_5y,national,NZ,Aotearoa New Zealand,2024-07-01,2025-06-30,rolling_12m,rolling,63.8,%,rate,Māori,Total,Total,,,healthnz_immunisation,2026-11-22,CC BY 4.0
+imms_5y,national,NZ,Aotearoa New Zealand,2024-07-01,2025-06-30,rolling_12m,rolling,63.800000000000004,%,rate,Māori,Total,Total,,,healthnz_immunisation,2026-11-22,CC BY 4.0
 imms_5y,national,NZ,Aotearoa New Zealand,2024-10-01,2025-09-30,rolling_12m,rolling,63.6,%,rate,Māori,Total,Total,,,healthnz_immunisation,2026-11-20,CC BY 4.0
 imms_5y,national,NZ,Aotearoa New Zealand,2025-01-01,2025-12-31,rolling_12m,rolling,63.3,%,rate,Māori,Total,Total,,,healthnz_immunisation,2026-11-20,CC BY 4.0
 imms_5y,national,NZ,Aotearoa New Zealand,2025-04-01,2026-03-31,rolling_12m,rolling,63.4,%,rate,Māori,Total,Total,,,healthnz_immunisation,2026-11-20,CC BY 4.0
@@ -687,7 +687,7 @@ imms_5y,district,TRW,Tairāwhiti district,2023-04-01,2024-03-31,rolling_12m,roll
 imms_5y,district,TRW,Tairāwhiti district,2023-07-01,2024-06-30,rolling_12m,rolling,64.5,%,rate,Māori,Total,Total,,,healthnz_immunisation,2026-11-20,CC BY 4.0
 imms_5y,district,TRW,Tairāwhiti district,2023-10-01,2024-09-30,rolling_12m,rolling,64.2,%,rate,Māori,Total,Total,,,healthnz_immunisation,2026-11-20,CC BY 4.0
 imms_5y,district,TRW,Tairāwhiti district,2024-01-01,2024-12-31,rolling_12m,rolling,61.9,%,rate,Māori,Total,Total,,,healthnz_immunisation,2026-11-20,CC BY 4.0
-imms_5y,district,TRW,Tairāwhiti district,2024-04-01,2025-03-31,rolling_12m,rolling,59.7,%,rate,Māori,Total,Total,,,healthnz_immunisation,2026-11-22,CC BY 4.0
+imms_5y,district,TRW,Tairāwhiti district,2024-04-01,2025-03-31,rolling_12m,rolling,59.699999999999996,%,rate,Māori,Total,Total,,,healthnz_immunisation,2026-11-22,CC BY 4.0
 imms_5y,district,TRW,Tairāwhiti district,2024-07-01,2025-06-30,rolling_12m,rolling,62.3,%,rate,Māori,Total,Total,,,healthnz_immunisation,2026-11-20,CC BY 4.0
 imms_5y,district,TRW,Tairāwhiti district,2024-10-01,2025-09-30,rolling_12m,rolling,63.7,%,rate,Māori,Total,Total,,,healthnz_immunisation,2026-11-20,CC BY 4.0
 imms_5y,district,TRW,Tairāwhiti district,2025-01-01,2025-12-31,rolling_12m,rolling,62.2,%,rate,Māori,Total,Total,,,healthnz_immunisation,2026-11-20,CC BY 4.0
@@ -953,13 +953,13 @@ imms_5y_qtr,district,TRW,Tairāwhiti district,2025-07-01,2025-09-30,quarter,cale
 imms_5y_qtr,district,TRW,Tairāwhiti district,2025-10-01,2025-12-31,quarter,calendar,67.6,%,rate,Total,Total,Total,,,healthnz_immunisation,2026-11-22,CC BY 4.0
 imms_5y_qtr,district,TRW,Tairāwhiti district,2026-01-01,2026-03-31,quarter,calendar,67.0,%,rate,Total,Total,Total,,,healthnz_immunisation,2026-11-22,CC BY 4.0
 imms_5y_qtr,district,TRW,Tairāwhiti district,2026-04-01,2026-06-30,quarter,calendar,62.7,%,rate,Total,Total,Total,,,healthnz_immunisation,2026-11-22,CC BY 4.0
-imms_6m,national,NZ,Aotearoa New Zealand,2022-10-01,2023-09-30,rolling_12m,rolling,48.2,%,rate,Māori,Total,Total,,,healthnz_immunisation,2026-11-22,CC BY 4.0
+imms_6m,national,NZ,Aotearoa New Zealand,2022-10-01,2023-09-30,rolling_12m,rolling,48.199999999999996,%,rate,Māori,Total,Total,,,healthnz_immunisation,2026-11-22,CC BY 4.0
 imms_6m,national,NZ,Aotearoa New Zealand,2023-01-01,2023-12-31,rolling_12m,rolling,46.9,%,rate,Māori,Total,Total,,,healthnz_immunisation,2026-11-20,CC BY 4.0
 imms_6m,national,NZ,Aotearoa New Zealand,2023-04-01,2024-03-31,rolling_12m,rolling,45.7,%,rate,Māori,Total,Total,,,healthnz_immunisation,2026-11-20,CC BY 4.0
 imms_6m,national,NZ,Aotearoa New Zealand,2023-07-01,2024-06-30,rolling_12m,rolling,45.1,%,rate,Māori,Total,Total,,,healthnz_immunisation,2026-11-20,CC BY 4.0
 imms_6m,national,NZ,Aotearoa New Zealand,2023-10-01,2024-09-30,rolling_12m,rolling,45.1,%,rate,Māori,Total,Total,,,healthnz_immunisation,2026-11-20,CC BY 4.0
 imms_6m,national,NZ,Aotearoa New Zealand,2024-01-01,2024-12-31,rolling_12m,rolling,46.400000000000006,%,rate,Māori,Total,Total,,,healthnz_immunisation,2026-11-20,CC BY 4.0
-imms_6m,national,NZ,Aotearoa New Zealand,2024-04-01,2025-03-31,rolling_12m,rolling,47.2,%,rate,Māori,Total,Total,,,healthnz_immunisation,2026-11-22,CC BY 4.0
+imms_6m,national,NZ,Aotearoa New Zealand,2024-04-01,2025-03-31,rolling_12m,rolling,47.199999999999996,%,rate,Māori,Total,Total,,,healthnz_immunisation,2026-11-22,CC BY 4.0
 imms_6m,national,NZ,Aotearoa New Zealand,2024-07-01,2025-06-30,rolling_12m,rolling,47.8,%,rate,Māori,Total,Total,,,healthnz_immunisation,2026-11-20,CC BY 4.0
 imms_6m,national,NZ,Aotearoa New Zealand,2024-10-01,2025-09-30,rolling_12m,rolling,48.6,%,rate,Māori,Total,Total,,,healthnz_immunisation,2026-11-20,CC BY 4.0
 imms_6m,national,NZ,Aotearoa New Zealand,2025-01-01,2025-12-31,rolling_12m,rolling,48.8,%,rate,Māori,Total,Total,,,healthnz_immunisation,2026-11-20,CC BY 4.0
@@ -1000,7 +1000,7 @@ imms_6m,district,TRW,Tairāwhiti district,2024-07-01,2025-06-30,rolling_12m,roll
 imms_6m,district,TRW,Tairāwhiti district,2024-10-01,2025-09-30,rolling_12m,rolling,46.7,%,rate,Total,Total,Total,,,healthnz_immunisation,2026-11-20,CC BY 4.0
 imms_6m,district,TRW,Tairāwhiti district,2025-01-01,2025-12-31,rolling_12m,rolling,46.7,%,rate,Total,Total,Total,,,healthnz_immunisation,2026-11-20,CC BY 4.0
 imms_6m,district,TRW,Tairāwhiti district,2025-04-01,2026-03-31,rolling_12m,rolling,43.9,%,rate,Total,Total,Total,,,healthnz_immunisation,2026-11-20,CC BY 4.0
-imms_6m,district,TRW,Tairāwhiti district,2025-07-01,2026-06-30,rolling_12m,rolling,42.7,%,rate,Total,Total,Total,,,healthnz_immunisation,2026-11-22,CC BY 4.0
+imms_6m,district,TRW,Tairāwhiti district,2025-07-01,2026-06-30,rolling_12m,rolling,42.699999999999996,%,rate,Total,Total,Total,,,healthnz_immunisation,2026-11-22,CC BY 4.0
 imms_6m_qtr,national,NZ,Aotearoa New Zealand,2009-04-01,2009-06-30,quarter,calendar,48.7,%,rate,Māori,Total,Total,,,healthnz_immunisation,2026-11-22,CC BY 4.0
 imms_6m_qtr,national,NZ,Aotearoa New Zealand,2009-10-01,2009-12-31,quarter,calendar,53.9,%,rate,Māori,Total,Total,,,healthnz_immunisation,2026-11-22,CC BY 4.0
 imms_6m_qtr,national,NZ,Aotearoa New Zealand,2010-01-01,2010-03-31,quarter,calendar,52.6,%,rate,Māori,Total,Total,,,healthnz_immunisation,2026-11-22,CC BY 4.0
