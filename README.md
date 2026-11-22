@@ -31,6 +31,7 @@ copied to `data/raw/` during a run. That folder is ignored by Git and is tempora
 | H28 | New-build sale price to construction cost ratio, Gisborne District | HUD | 2002–2025 | Annual | Automated |
 | E5, E13 | Filled jobs and building consents | Stats NZ | May 2019 / Apr 1990 → | Monthly | Automated |
 | E10 | Commercial guest nights and active accommodation establishments | MBIE | June 2020 → | Monthly | Automated |
+| E9 | Tourism card spend by domestic and international visitors, Gisborne Region | MBIE | Jan 2018 – Dec 2025 | Monthly (resumes early 2027) | Automated |
 | E14 | Average residential electricity off-take | Electricity Authority | 2016 → | Annual | Automated |
 | E4 | LEED filled jobs, median quarterly earnings and worker turnover | Stats NZ ADE | June 1999 qtr → | Quarterly | Automated |
 | E12 | Sheep, beef cattle, horticulture area and exotic timber harvested | Stats NZ ADE | 1994 → (timber 2005–2018) | Annual | Automated |
