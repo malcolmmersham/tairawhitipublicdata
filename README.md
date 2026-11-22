@@ -28,6 +28,7 @@ copied to `data/raw/` during a run. That folder is ignored by Git and is tempora
 | M3 | NCEA Level 2 or above | Ministry of Education | 2015 → | Annual | Reviewed workbook fallback |
 | E1 | Regional GDP and GDP per person at current prices | Stats NZ | 2000 → | Annual | Automated |
 | H8, H9 | House price to income ratio and changes in housing affordability | HUD | 2001 → | Quarterly | Automated |
+| H28 | New-build sale price to construction cost ratio, Gisborne District | HUD | 2002–2025 | Annual | Automated |
 | E5, E13 | Filled jobs and building consents | Stats NZ | May 2019 / Apr 1990 → | Monthly | Automated |
 | E10 | Commercial guest nights and active accommodation establishments | MBIE | June 2020 → | Monthly | Automated |
 | E14 | Average residential electricity off-take | Electricity Authority | 2016 → | Annual | Automated |

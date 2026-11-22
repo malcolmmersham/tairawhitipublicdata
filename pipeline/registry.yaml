@@ -62,6 +62,12 @@ sources:
     attribution: "This work includes Stats NZ data licensed for reuse under CC BY 4.0"
     cadence: annual
     check_every_days: 7
+  hud_urban_land:
+    name: HUD – Urban Land Dashboard price-to-cost ratios
+    url: https://www.hud.govt.nz/stats-and-insights/urban-land-dashboard/data-download
+    attribution: "Source: Ministry of Housing and Urban Development, licensed under CC BY 4.0."
+    cadence: annual
+    check_every_days: 7
   hud_affordability:
     name: HUD – Local housing statistics and affordability indicators
     url: https://www.hud.govt.nz/stats-and-insights/change-in-housing-affordability-indicators/about-the-indicators
@@ -218,6 +224,14 @@ sources:
     check_every_days: 30
 
 indicators:
+  hud_urban_land_price_to_cost:
+    name: New-build sale price to construction cost
+    domain: Hapori
+    topic: Housing affordability
+    direction: neutral
+    headline: false
+    format: dec2
+    caveat: "HUD's annual Gisborne District ratio for all residential building types, year ended June. New-build sale prices per square metre are divided by estimated construction costs per square metre, including HUD's cost allowances."
   sa2_population:
     name: Usually resident population
     domain: Hapori
