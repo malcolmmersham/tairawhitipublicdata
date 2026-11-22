@@ -132,6 +132,13 @@ sources:
     cadence: irregular
     check_every_days: 30
 
+  statsnz_climate:
+    name: Stats NZ and Ministry for the Environment – Rainfall and temperature indicators
+    url: https://www.stats.govt.nz/indicators/rainfall/
+    attribution: "Source: Stats NZ and Ministry for the Environment, using NIWA (now Earth Sciences New Zealand) data, licensed under CC BY 4.0"
+    cadence: irregular
+    check_every_days: 30
+
   statsnz_council_finance:
     name: Stats NZ – Local authority financial statistics
     url: https://www.stats.govt.nz/large-datasets/csv-files-for-download/
@@ -441,6 +448,22 @@ indicators:
     headline: false
     format: dec1
     caveat: "Measured site medians per 100 mL over 2020–2024. This monitoring-period snapshot differs from current conditions. See the publisher for methods."
+  climate_annual_rainfall:
+    name: Annual rainfall at the Gisborne climate site
+    domain: Taiao
+    topic: Climate
+    direction: neutral
+    headline: false
+    format: int
+    caveat: "Calendar-year rainfall in millimetres at the NIWA climate site Stats NZ labels Gisborne, 1960–2022. One site describes local conditions, not the whole region. Stats NZ published data to 2025 as charts only in October 2026."
+  climate_annual_mean_temperature:
+    name: Annual mean temperature at the Gisborne climate site
+    domain: Taiao
+    topic: Climate
+    direction: neutral
+    headline: false
+    format: dec1
+    caveat: "Mean of daily average temperature in °C at the NIWA climate site Stats NZ labels Gisborne, from 1941 to 2022. Years with missing days are flagged, and 1957 is unavailable. Stats NZ published data to 2025 as charts only in October 2026."
   swimming_freshwater_ecoli:
     name: Freshwater swimming sites · E. coli
     domain: Taiao

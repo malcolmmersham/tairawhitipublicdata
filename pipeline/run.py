@@ -31,7 +31,7 @@ SOURCES = ["statsnz_ade", "msd_benefits", "hud_housing", "healthnz_immunisation"
            "moe_school_discipline", "lawa_swimming", "lawa_groundwater", "moe_maori_medium", "statsnz_sa2", "nzqa_secondary",
            "statsnz_agriculture", "statsnz_leed", "nzta_mvr", "nzta_traffic", "moj_courts",
            "healthnz_hpv", "healthnz_pho_enrolment", "moh_nzhs_regional", "mbie_tect",
-           "statsnz_sa2_population"]
+           "statsnz_sa2_population", "statsnz_climate"]
 MODULES = {
     "statsnz_ade": "statsnz_ade", "msd_benefits": "msd_benefits", "hud_housing": "hud_housing",
     "healthnz_immunisation": "healthnz_immunisation", "nzta_cas": "nzta_cas", "mbie_bonds": "mbie_bonds",
@@ -60,6 +60,7 @@ MODULES = {
     "moe_tertiary": "moe_tertiary",
     "mbie_tect": "mbie_tect",
     "statsnz_sa2_population": "statsnz_sa2_population",
+    "statsnz_climate": "statsnz_climate",
 }
 STATUS_FILE = ROOT / "data" / "status.json"
 OBSERVATION_KEY = ["source_id", "indicator_id", "geo_type", "geo_code", "ethnicity", "age", "sex",
