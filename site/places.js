@@ -33,7 +33,7 @@ function viewPlaces() {
   const byIndicator = new Map(indicators.map(([id]) =>
     [id, new Map(seriesFor(id).filter(s => s.geo_type === "sa2").map(s => [s.geo, s]))]));
   const indicator = placeSelect("places-indicator", "Indicator", indicators.map(([id, meta]) => [id, meta.name]));
-  const year = placeSelect("places-year", "Census year", []);
+  const year = placeSelect("places-year", "Year", []);
   const area = placeSelect("places-area", "Area", areas.map(({ code, name }) => [code, name]));
   area.select.value = population.reduce((largest, s) => s.points.at(-1)[1] > largest.points.at(-1)[1] ? s : largest).geo;
   const definition = el("p", { class: "note" });
@@ -70,7 +70,7 @@ function viewPlaces() {
         el("article", { class: "card" }, el("h3", { text: "2023 place profile" }), el("div", { class: "tbl-wrap" }, summary)),
         el("article", { class: "card" }, el("h3", { text: meta.name }), history,
           el("div", { class: "tbl-wrap" }, el("table", {}, el("thead", {}, el("tr", {},
-            el("th", { text: "Census year" }), el("th", { class: "num", text: series?.unit || "Value" }))),
+            el("th", { text: "Year" }), el("th", { class: "num", text: series?.unit || "Value" }))),
           el("tbody", {}, census.map(([date, value]) => el("tr", {},
             el("td", { text: date.slice(0, 4) }), el("td", { class: "num", text: valueText(value, meta) })))))))));
     for (const marks of [mapMarks, rankMarks]) {
@@ -93,7 +93,7 @@ function viewPlaces() {
     const colour = v => v == null ? "var(--grid)" :
       PLACE_COLOURS[Math.min(4, Math.floor(5 * (v - min) / (max - min || 1)))];
     const unit = data.values().next().value?.unit;
-    definition.replaceChildren(`${selectedYear} Census${unit ? ` · ${unit}` : ""} · ${meta.caveat} `,
+    definition.replaceChildren(`${selectedYear} ${meta.period_label || "Census"}${unit ? ` · ${unit}` : ""} · ${meta.caveat} `,
       el("a", { href: meta.url, text: "Stats NZ source" }));
     legend.replaceChildren(...(available.length ? [
       el("span", { text: valueText(min, meta) }),
