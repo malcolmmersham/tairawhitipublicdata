@@ -9,8 +9,11 @@ total population and Māori. The file carries 95% confidence intervals but no RS
 precision is flagged from the interval: an approximate RSE of (upper − lower) / 3.92 / estimate
 of 30% or more marks the estimate as low precision (NZHS practice for RSE 30–100%).
 
-The newer regional release (2011/12–2023/24) is published on health.govt.nz, which refuses
-automated requests; it needs a reviewed manual file before it can be added.
+The newer three-year rolling regional release by health district is published on health.govt.nz,
+which refuses automated requests (Cloudflare challenge, reviewed November 2026); it needs a reviewed
+manual file before it can be added, with its pooled periods kept separate from this series. The
+2025/26 Annual Data Explorer CSV has national and health-region estimates only, so it has no
+Tairāwhiti cells.
 """
 from __future__ import annotations
 

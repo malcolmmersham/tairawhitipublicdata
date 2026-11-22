@@ -165,9 +165,15 @@ before they can be added here.
   and three-month cohorts from April–June 2009 (parsed from the older quarterly .xls/.xlsx files,
   which need `xlrd`). Keep them separate; schedule and reporting changes from 2020 affect comparisons.
 - **NZ Health Survey (H17).** The automated series is the 2017–20 Regional Data Explorer CSV
-  (pooled 2011–14, 2014–17, 2017–20). The 2011/12–2023/24 regional release on health.govt.nz
-  refuses automated requests, so it needs a reviewed manual file. Precision flags are derived from
+  (pooled 2011–14, 2014–17, 2017–20). The newer three-year rolling regional release by health
+  district is on health.govt.nz, which refuses automated requests, so it needs a reviewed manual
+  file. Keep its pooled periods separate from the 2017–20 series. The 2025/26 Annual Data Explorer
+  CSV reports health regions only. Precision flags are derived from
   the published 95% confidence intervals because the file has no RSE column.
+- **Health targets (H15)** district results are published only in quarterly PDF factsheets. The
+  waitlist XLSX extract has no district total, and its specialty cells are suppressed below 5.
+  **ASH (H16)** district rates appeared only as chart images in 2024/25 and were dropped from the
+  2025/26 quarterly reports.
 - **Health NZ web tools (H19–H21)** and the flu vaccine page publish no repeatable aggregate download
   (session-bound Shiny downloads; a current-season HTML page with no archive).
 - **NZTA CAS** is live data: past years can change, and the current year is year-to-date. The
