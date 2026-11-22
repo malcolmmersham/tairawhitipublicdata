@@ -55,6 +55,8 @@ MODULES = {
     "healthnz_hpv": "healthnz_hpv",
     "healthnz_pho_enrolment": "healthnz_pho_enrolment",
     "moh_nzhs_regional": "moh_nzhs_regional",
+    # Not in SOURCES until the first reviewed M7 extract is in data/manual/moe_tertiary/.
+    "moe_tertiary": "moe_tertiary",
 }
 STATUS_FILE = ROOT / "data" / "status.json"
 OBSERVATION_KEY = ["source_id", "indicator_id", "geo_type", "geo_code", "ethnicity", "age", "sex",

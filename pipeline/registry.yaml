@@ -186,6 +186,14 @@ sources:
     cadence: annual
     check_every_days: 7
 
+  moe_tertiary:
+    name: Ministry of Education – Tertiary participation
+    url: https://www.educationcounts.govt.nz/statistics/tertiary-participation
+    attribution: "Source: Ministry of Education, Education Counts, licensed under CC BY 4.0"
+    licence_url: https://creativecommons.org/licenses/by/4.0/
+    cadence: annual
+    check_every_days: 7
+
   statsnz_sa2:
     name: Stats NZ – Census totals by topic for statistical areas
     url: https://datafinder.stats.govt.nz/layer/120897-2023-census-totals-by-topic-for-individuals-by-statistical-area-2-part-1/
@@ -705,6 +713,25 @@ indicators:
     format: pct
     url: https://www2.nzqa.govt.nz/ncea/understanding-secondary-quals/secondary-school-stats/
     caveat: "Enrolment-based: share of all Year 13 students who attained University Entrance. NZQA secondary school statistics for its Gisborne region, defined by the location of the student's school. Cumulative attainment by the end of the year for domestic students aged under 19 enrolled at a secondary school. NZQA attainment differs from the Ministry of Education school-leaver measure, which counts the highest qualification held when students leave school. NZQA does not publish regional attainment by ethnicity."
+
+  gisborne_tertiary_participation_rate:
+    name: Tertiary participation rate, Gisborne Region residents
+    domain: Mātauranga
+    topic: Tertiary participation
+    direction: up
+    headline: false
+    format: pct
+    url: https://www.educationcounts.govt.nz/statistics/tertiary-participation
+    caveat: "Domestic students enrolled in formal tertiary education at any time in the calendar year, as a share of the resident population in the age group shown, by the student's region of residence (not the provider's location). Published Education Counts rate transcribed from a reviewed workbook. Separate from school-leaver progression to tertiary study and from secondary school attainment."
+  gisborne_tertiary_domestic_students:
+    name: Domestic tertiary students, Gisborne Region residents
+    domain: Mātauranga
+    topic: Tertiary participation
+    direction: neutral
+    headline: false
+    format: int
+    url: https://www.educationcounts.govt.nz/statistics/tertiary-participation
+    caveat: "Published count of domestic students enrolled in formal tertiary education at any time in the calendar year whose region of residence is Gisborne Region. Transcribed from a reviewed Education Counts workbook."
 
   gisborne_mayoral_turnout:
     name: Gisborne mayoral turnout
