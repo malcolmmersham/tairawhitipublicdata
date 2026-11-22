@@ -29,6 +29,8 @@ copied to `data/raw/` during a run. That folder is ignored by Git and is tempora
 | E5, E13 | Filled jobs and building consents | Stats NZ | May 2019 / Apr 1990 → | Monthly | Automated |
 | E10 | Commercial guest nights and active accommodation establishments | MBIE | June 2020 → | Monthly | Automated |
 | E14 | Average residential electricity off-take | Electricity Authority | 2016 → | Annual | Automated |
+| E4 | LEED filled jobs, median quarterly earnings and worker turnover | Stats NZ ADE | June 1999 qtr → | Quarterly | Automated |
+| E12 | Sheep, beef cattle, horticulture area and exotic timber harvested | Stats NZ ADE | 1994 → (timber 2005–2018) | Annual | Automated |
 | G2 | Council operating income and expenditure | Stats NZ | Annual coverage | Annual | Automated |
 | H2 | 2023-base population projections | Stats NZ | 2028–2053 | Irregular | Reviewed scenarios |
 | H3, H4 | Registered births and deaths, and census household counts | Stats NZ | 2012 / 2013 → | Annual / Five-yearly | Automated |

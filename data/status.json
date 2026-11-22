@@ -224,5 +224,25 @@
   "last_success": "2026-11-22T00:28:57+00:00",
   "mode": "manual",
   "schema_hash": "b82f5b5156"
+ },
+ "statsnz_agriculture": {
+  "source_id": "statsnz_agriculture",
+  "ok": true,
+  "rows": 120,
+  "latest_period": "2025-06-30",
+  "message": "ok",
+  "checked": "2026-11-22T00:58:07+00:00",
+  "last_success": "2026-11-22T00:58:07+00:00",
+  "schema_hash": "338fab5ec5"
+ },
+ "statsnz_leed": {
+  "source_id": "statsnz_leed",
+  "ok": true,
+  "rows": 314,
+  "latest_period": "2025-06-30",
+  "message": "ok",
+  "checked": "2026-11-22T00:58:07+00:00",
+  "last_success": "2026-11-22T00:58:07+00:00",
+  "schema_hash": "b6833a02c0"
  }
 }

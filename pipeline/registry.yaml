@@ -152,6 +152,18 @@ sources:
     licence_url: https://creativecommons.org/licenses/by/4.0/
     cadence: annual
     check_every_days: 7
+  statsnz_agriculture:
+    name: Stats NZ – Agricultural production statistics (Aotearoa Data Explorer)
+    url: https://explore.data.stats.govt.nz/
+    attribution: "This work includes Stats NZ data licensed for reuse under CC BY 4.0"
+    cadence: annual
+    check_every_days: 7
+  statsnz_leed:
+    name: Stats NZ – Linked employer-employee data (Aotearoa Data Explorer)
+    url: https://explore.data.stats.govt.nz/
+    attribution: "This work includes Stats NZ data licensed for reuse under CC BY 4.0"
+    cadence: quarterly
+    check_every_days: 7
 
 indicators:
   gisborne_stand_down_cases:
@@ -499,6 +511,96 @@ indicators:
     headline: false
     format: int
     caveat: "Employee count at February. Counts randomly rounded."
+  leed_filled_jobs:
+    name: Filled jobs (LEED, quarterly)
+    domain: Ōhanga
+    topic: Employment
+    direction: up
+    headline: false
+    format: int
+    url: https://explore.data.stats.govt.nz/
+    caveat: "Total filled jobs in Gisborne Region from Stats NZ linked employer-employee data (LEED table 05). Jobs are counted rather than people. Published values are rounded. This quarterly series lags the monthly filled jobs series."
+  leed_median_quarterly_earnings:
+    name: Median quarterly earnings, full-quarter jobs (LEED)
+    domain: Ōhanga
+    topic: Employment
+    direction: up
+    headline: false
+    format: currency
+    url: https://explore.data.stats.govt.nz/
+    caveat: "Median earnings for the quarter from jobs held for the full quarter in Gisborne Region, from Stats NZ LEED table 05. Gross earnings at current prices, not adjusted for inflation or hours worked. Published values are rounded."
+  leed_worker_turnover_rate:
+    name: Worker turnover rate (LEED)
+    domain: Ōhanga
+    topic: Employment
+    direction: neutral
+    headline: false
+    format: pct
+    url: https://explore.data.stats.govt.nz/
+    caveat: "Quarterly worker turnover rate (%) for Gisborne Region as published in Stats NZ LEED table 05. Turnover is seasonal, so compare the same quarter across years."
+  agr_sheep:
+    name: Sheep
+    domain: Ōhanga
+    topic: Agriculture
+    direction: neutral
+    headline: false
+    format: int
+    url: https://explore.data.stats.govt.nz/
+    caveat: "Total sheep in Gisborne Region at 30 June, from Stats NZ Agricultural Production Statistics (ADE AGR_AGR_003). Census years (2002, 2007, 2012, 2017, 2022) are full counts; other years are survey estimates."
+  agr_beef_cattle:
+    name: Beef cattle
+    domain: Ōhanga
+    topic: Agriculture
+    direction: neutral
+    headline: false
+    format: int
+    url: https://explore.data.stats.govt.nz/
+    caveat: "Total beef cattle in Gisborne Region at 30 June, from Stats NZ Agricultural Production Statistics (ADE AGR_AGR_003). Census years are full counts; other years are survey estimates."
+  agr_kiwifruit_area:
+    name: Kiwifruit area (hectares)
+    domain: Ōhanga
+    topic: Agriculture
+    direction: neutral
+    headline: false
+    format: int
+    url: https://explore.data.stats.govt.nz/
+    caveat: "Kiwifruit area in Gisborne Region at 30 June, from Stats NZ Agricultural Production Statistics (ADE AGR_AGR_002). Horticulture is collected only in some years. Suppressed cells are left blank."
+  agr_apples_area:
+    name: Apple orchard area (hectares)
+    domain: Ōhanga
+    topic: Agriculture
+    direction: neutral
+    headline: false
+    format: int
+    url: https://explore.data.stats.govt.nz/
+    caveat: "Apple area in Gisborne Region at 30 June, from Stats NZ Agricultural Production Statistics (ADE AGR_AGR_002). Horticulture is collected only in some years. Suppressed cells are left blank."
+  agr_wine_grapes_area:
+    name: Wine grape area (hectares)
+    domain: Ōhanga
+    topic: Agriculture
+    direction: neutral
+    headline: false
+    format: int
+    url: https://explore.data.stats.govt.nz/
+    caveat: "Wine grape area in Gisborne Region at 30 June, from Stats NZ Agricultural Production Statistics (ADE AGR_AGR_002). Horticulture is collected only in some years. Suppressed cells are left blank."
+  agr_squash_area:
+    name: Squash area (hectares)
+    domain: Ōhanga
+    topic: Agriculture
+    direction: neutral
+    headline: false
+    format: int
+    url: https://explore.data.stats.govt.nz/
+    caveat: "Squash area in Gisborne Region at 30 June, from Stats NZ Agricultural Production Statistics (ADE AGR_AGR_002). Horticulture is collected only in some years. Suppressed cells are left blank."
+  agr_timber_harvested:
+    name: Exotic timber harvested (cubic metres)
+    domain: Ōhanga
+    topic: Agriculture
+    direction: neutral
+    headline: false
+    format: int
+    url: https://explore.data.stats.govt.nz/
+    caveat: "Exotic timber harvested in Gisborne Region in the year ended 31 March, from Stats NZ Agricultural Production Statistics (ADE AGR_AGR_001). The published table ends at the year ended March 2018."
   msd_main_benefits_total:
     name: Working-age people on a main benefit
     domain: Ōhanga

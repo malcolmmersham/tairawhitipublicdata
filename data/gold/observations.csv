@@ -84,7 +84,7 @@ imms_24m,national,NZ,Aotearoa New Zealand,2025-07-01,2026-06-30,rolling_12m,roll
 imms_24m,district,TRW,Tairāwhiti district,2022-10-01,2023-09-30,rolling_12m,rolling,66.0,%,rate,Māori,Total,Total,,,healthnz_immunisation,2026-11-20,CC BY 4.0
 imms_24m,district,TRW,Tairāwhiti district,2023-01-01,2023-12-31,rolling_12m,rolling,62.4,%,rate,Māori,Total,Total,,,healthnz_immunisation,2026-11-20,CC BY 4.0
 imms_24m,district,TRW,Tairāwhiti district,2023-04-01,2024-03-31,rolling_12m,rolling,58.8,%,rate,Māori,Total,Total,,,healthnz_immunisation,2026-11-20,CC BY 4.0
-imms_24m,district,TRW,Tairāwhiti district,2023-07-01,2024-06-30,rolling_12m,rolling,57.699999999999996,%,rate,Māori,Total,Total,,,healthnz_immunisation,2026-11-20,CC BY 4.0
+imms_24m,district,TRW,Tairāwhiti district,2023-07-01,2024-06-30,rolling_12m,rolling,57.7,%,rate,Māori,Total,Total,,,healthnz_immunisation,2026-11-20,CC BY 4.0
 imms_24m,district,TRW,Tairāwhiti district,2023-10-01,2024-09-30,rolling_12m,rolling,55.400000000000006,%,rate,Māori,Total,Total,,,healthnz_immunisation,2026-11-20,CC BY 4.0
 imms_24m,district,TRW,Tairāwhiti district,2024-01-01,2024-12-31,rolling_12m,rolling,56.3,%,rate,Māori,Total,Total,,,healthnz_immunisation,2026-11-20,CC BY 4.0
 imms_24m,district,TRW,Tairāwhiti district,2024-04-01,2025-03-31,rolling_12m,rolling,57.4,%,rate,Māori,Total,Total,,,healthnz_immunisation,2026-11-20,CC BY 4.0
@@ -112,7 +112,7 @@ imms_5y,national,NZ,Aotearoa New Zealand,2023-07-01,2024-06-30,rolling_12m,rolli
 imms_5y,national,NZ,Aotearoa New Zealand,2023-10-01,2024-09-30,rolling_12m,rolling,66.0,%,rate,Māori,Total,Total,,,healthnz_immunisation,2026-11-20,CC BY 4.0
 imms_5y,national,NZ,Aotearoa New Zealand,2024-01-01,2024-12-31,rolling_12m,rolling,64.9,%,rate,Māori,Total,Total,,,healthnz_immunisation,2026-11-20,CC BY 4.0
 imms_5y,national,NZ,Aotearoa New Zealand,2024-04-01,2025-03-31,rolling_12m,rolling,64.2,%,rate,Māori,Total,Total,,,healthnz_immunisation,2026-11-20,CC BY 4.0
-imms_5y,national,NZ,Aotearoa New Zealand,2024-07-01,2025-06-30,rolling_12m,rolling,63.800000000000004,%,rate,Māori,Total,Total,,,healthnz_immunisation,2026-11-20,CC BY 4.0
+imms_5y,national,NZ,Aotearoa New Zealand,2024-07-01,2025-06-30,rolling_12m,rolling,63.8,%,rate,Māori,Total,Total,,,healthnz_immunisation,2026-11-20,CC BY 4.0
 imms_5y,national,NZ,Aotearoa New Zealand,2024-10-01,2025-09-30,rolling_12m,rolling,63.6,%,rate,Māori,Total,Total,,,healthnz_immunisation,2026-11-20,CC BY 4.0
 imms_5y,national,NZ,Aotearoa New Zealand,2025-01-01,2025-12-31,rolling_12m,rolling,63.3,%,rate,Māori,Total,Total,,,healthnz_immunisation,2026-11-20,CC BY 4.0
 imms_5y,national,NZ,Aotearoa New Zealand,2025-04-01,2026-03-31,rolling_12m,rolling,63.4,%,rate,Māori,Total,Total,,,healthnz_immunisation,2026-11-20,CC BY 4.0
@@ -135,7 +135,7 @@ imms_5y,district,TRW,Tairāwhiti district,2023-04-01,2024-03-31,rolling_12m,roll
 imms_5y,district,TRW,Tairāwhiti district,2023-07-01,2024-06-30,rolling_12m,rolling,64.5,%,rate,Māori,Total,Total,,,healthnz_immunisation,2026-11-20,CC BY 4.0
 imms_5y,district,TRW,Tairāwhiti district,2023-10-01,2024-09-30,rolling_12m,rolling,64.2,%,rate,Māori,Total,Total,,,healthnz_immunisation,2026-11-20,CC BY 4.0
 imms_5y,district,TRW,Tairāwhiti district,2024-01-01,2024-12-31,rolling_12m,rolling,61.9,%,rate,Māori,Total,Total,,,healthnz_immunisation,2026-11-20,CC BY 4.0
-imms_5y,district,TRW,Tairāwhiti district,2024-04-01,2025-03-31,rolling_12m,rolling,59.699999999999996,%,rate,Māori,Total,Total,,,healthnz_immunisation,2026-11-20,CC BY 4.0
+imms_5y,district,TRW,Tairāwhiti district,2024-04-01,2025-03-31,rolling_12m,rolling,59.7,%,rate,Māori,Total,Total,,,healthnz_immunisation,2026-11-20,CC BY 4.0
 imms_5y,district,TRW,Tairāwhiti district,2024-07-01,2025-06-30,rolling_12m,rolling,62.3,%,rate,Māori,Total,Total,,,healthnz_immunisation,2026-11-20,CC BY 4.0
 imms_5y,district,TRW,Tairāwhiti district,2024-10-01,2025-09-30,rolling_12m,rolling,63.7,%,rate,Māori,Total,Total,,,healthnz_immunisation,2026-11-20,CC BY 4.0
 imms_5y,district,TRW,Tairāwhiti district,2025-01-01,2025-12-31,rolling_12m,rolling,62.2,%,rate,Māori,Total,Total,,,healthnz_immunisation,2026-11-20,CC BY 4.0
@@ -153,13 +153,13 @@ imms_5y,district,TRW,Tairāwhiti district,2024-10-01,2025-09-30,rolling_12m,roll
 imms_5y,district,TRW,Tairāwhiti district,2025-01-01,2025-12-31,rolling_12m,rolling,66.60000000000001,%,rate,Total,Total,Total,,,healthnz_immunisation,2026-11-20,CC BY 4.0
 imms_5y,district,TRW,Tairāwhiti district,2025-04-01,2026-03-31,rolling_12m,rolling,67.0,%,rate,Total,Total,Total,,,healthnz_immunisation,2026-11-20,CC BY 4.0
 imms_5y,district,TRW,Tairāwhiti district,2025-07-01,2026-06-30,rolling_12m,rolling,67.80000000000001,%,rate,Total,Total,Total,,,healthnz_immunisation,2026-11-20,CC BY 4.0
-imms_6m,national,NZ,Aotearoa New Zealand,2022-10-01,2023-09-30,rolling_12m,rolling,48.199999999999996,%,rate,Māori,Total,Total,,,healthnz_immunisation,2026-11-20,CC BY 4.0
+imms_6m,national,NZ,Aotearoa New Zealand,2022-10-01,2023-09-30,rolling_12m,rolling,48.2,%,rate,Māori,Total,Total,,,healthnz_immunisation,2026-11-20,CC BY 4.0
 imms_6m,national,NZ,Aotearoa New Zealand,2023-01-01,2023-12-31,rolling_12m,rolling,46.9,%,rate,Māori,Total,Total,,,healthnz_immunisation,2026-11-20,CC BY 4.0
 imms_6m,national,NZ,Aotearoa New Zealand,2023-04-01,2024-03-31,rolling_12m,rolling,45.7,%,rate,Māori,Total,Total,,,healthnz_immunisation,2026-11-20,CC BY 4.0
 imms_6m,national,NZ,Aotearoa New Zealand,2023-07-01,2024-06-30,rolling_12m,rolling,45.1,%,rate,Māori,Total,Total,,,healthnz_immunisation,2026-11-20,CC BY 4.0
 imms_6m,national,NZ,Aotearoa New Zealand,2023-10-01,2024-09-30,rolling_12m,rolling,45.1,%,rate,Māori,Total,Total,,,healthnz_immunisation,2026-11-20,CC BY 4.0
 imms_6m,national,NZ,Aotearoa New Zealand,2024-01-01,2024-12-31,rolling_12m,rolling,46.400000000000006,%,rate,Māori,Total,Total,,,healthnz_immunisation,2026-11-20,CC BY 4.0
-imms_6m,national,NZ,Aotearoa New Zealand,2024-04-01,2025-03-31,rolling_12m,rolling,47.199999999999996,%,rate,Māori,Total,Total,,,healthnz_immunisation,2026-11-20,CC BY 4.0
+imms_6m,national,NZ,Aotearoa New Zealand,2024-04-01,2025-03-31,rolling_12m,rolling,47.2,%,rate,Māori,Total,Total,,,healthnz_immunisation,2026-11-20,CC BY 4.0
 imms_6m,national,NZ,Aotearoa New Zealand,2024-07-01,2025-06-30,rolling_12m,rolling,47.8,%,rate,Māori,Total,Total,,,healthnz_immunisation,2026-11-20,CC BY 4.0
 imms_6m,national,NZ,Aotearoa New Zealand,2024-10-01,2025-09-30,rolling_12m,rolling,48.6,%,rate,Māori,Total,Total,,,healthnz_immunisation,2026-11-20,CC BY 4.0
 imms_6m,national,NZ,Aotearoa New Zealand,2025-01-01,2025-12-31,rolling_12m,rolling,48.8,%,rate,Māori,Total,Total,,,healthnz_immunisation,2026-11-20,CC BY 4.0
@@ -200,7 +200,7 @@ imms_6m,district,TRW,Tairāwhiti district,2024-07-01,2025-06-30,rolling_12m,roll
 imms_6m,district,TRW,Tairāwhiti district,2024-10-01,2025-09-30,rolling_12m,rolling,46.7,%,rate,Total,Total,Total,,,healthnz_immunisation,2026-11-20,CC BY 4.0
 imms_6m,district,TRW,Tairāwhiti district,2025-01-01,2025-12-31,rolling_12m,rolling,46.7,%,rate,Total,Total,Total,,,healthnz_immunisation,2026-11-20,CC BY 4.0
 imms_6m,district,TRW,Tairāwhiti district,2025-04-01,2026-03-31,rolling_12m,rolling,43.9,%,rate,Total,Total,Total,,,healthnz_immunisation,2026-11-20,CC BY 4.0
-imms_6m,district,TRW,Tairāwhiti district,2025-07-01,2026-06-30,rolling_12m,rolling,42.699999999999996,%,rate,Total,Total,Total,,,healthnz_immunisation,2026-11-20,CC BY 4.0
+imms_6m,district,TRW,Tairāwhiti district,2025-07-01,2026-06-30,rolling_12m,rolling,42.7,%,rate,Total,Total,Total,,,healthnz_immunisation,2026-11-20,CC BY 4.0
 hud_deposit_affordability,ta,028,Gisborne District,2001-01-01,2001-03-31,quarter,calendar,1.3271,index,affordability,Total,Total,Total,,,hud_affordability,2026-11-20,CC BY 4.0
 hud_deposit_affordability,ta,028,Gisborne District,2001-04-01,2001-06-30,quarter,calendar,1.3767,index,affordability,Total,Total,Total,,,hud_affordability,2026-11-20,CC BY 4.0
 hud_deposit_affordability,ta,028,Gisborne District,2001-07-01,2001-09-30,quarter,calendar,1.4303,index,affordability,Total,Total,Total,,,hud_affordability,2026-11-20,CC BY 4.0
@@ -8203,6 +8203,126 @@ pop_median_age,ta,028,Gisborne District,2023-01-01,2023-06-30,year,june,36.4,yea
 pop_median_age,ta,028,Gisborne District,2024-01-01,2024-06-30,year,june,36.6,years,median,Total,Total,Total,,,statsnz_ade,2026-11-20,CC BY 4.0
 pop_median_age,ta,028,Gisborne District,2025-01-01,2025-06-30,year,june,37.0,years,median,Total,Total,Total,,,statsnz_ade,2026-11-20,CC BY 4.0
 pop_median_age,ta,028,Gisborne District,2026-01-01,2026-06-30,year,june,37.4,years,median,Total,Total,Total,,,statsnz_ade,2026-11-20,CC BY 4.0
+agr_apples_area,region,05,Gisborne Region,1994-06-30,1994-06-30,year,june,249.0,hectares,area,Total,Total,Total,,,statsnz_agriculture,2026-11-22,CC BY 4.0
+agr_apples_area,region,05,Gisborne Region,2002-06-30,2002-06-30,year,june,280.0,hectares,area,Total,Total,Total,,,statsnz_agriculture,2026-11-22,CC BY 4.0
+agr_apples_area,region,05,Gisborne Region,2003-06-30,2003-06-30,year,june,260.0,hectares,area,Total,Total,Total,,,statsnz_agriculture,2026-11-22,CC BY 4.0
+agr_apples_area,region,05,Gisborne Region,2005-06-30,2005-06-30,year,june,256.0,hectares,area,Total,Total,Total,,,statsnz_agriculture,2026-11-22,CC BY 4.0
+agr_apples_area,region,05,Gisborne Region,2007-06-30,2007-06-30,year,june,190.0,hectares,area,Total,Total,Total,,,statsnz_agriculture,2026-11-22,CC BY 4.0
+agr_apples_area,region,05,Gisborne Region,2009-06-30,2009-06-30,year,june,116.0,hectares,area,Total,Total,Total,,,statsnz_agriculture,2026-11-22,CC BY 4.0
+agr_apples_area,region,05,Gisborne Region,2011-06-30,2011-06-30,year,june,105.0,hectares,area,Total,Total,Total,,,statsnz_agriculture,2026-11-22,CC BY 4.0
+agr_apples_area,region,05,Gisborne Region,2012-06-30,2012-06-30,year,june,110.0,hectares,area,Total,Total,Total,,,statsnz_agriculture,2026-11-22,CC BY 4.0
+agr_apples_area,region,05,Gisborne Region,2014-06-30,2014-06-30,year,june,87.0,hectares,area,Total,Total,Total,,,statsnz_agriculture,2026-11-22,CC BY 4.0
+agr_apples_area,region,05,Gisborne Region,2017-06-30,2017-06-30,year,june,186.0,hectares,area,Total,Total,Total,,,statsnz_agriculture,2026-11-22,CC BY 4.0
+agr_apples_area,region,05,Gisborne Region,2019-06-30,2019-06-30,year,june,284.0,hectares,area,Total,Total,Total,,,statsnz_agriculture,2026-11-22,CC BY 4.0
+agr_apples_area,region,05,Gisborne Region,2020-06-30,2020-06-30,year,june,310.0,hectares,area,Total,Total,Total,,,statsnz_agriculture,2026-11-22,CC BY 4.0
+agr_apples_area,region,05,Gisborne Region,2022-06-30,2022-06-30,year,june,625.0,hectares,area,Total,Total,Total,,,statsnz_agriculture,2026-11-22,CC BY 4.0
+agr_apples_area,region,05,Gisborne Region,2024-06-30,2024-06-30,year,june,464.0,hectares,area,Total,Total,Total,,,statsnz_agriculture,2026-11-22,CC BY 4.0
+agr_beef_cattle,region,05,Gisborne Region,1994-06-30,1994-06-30,year,june,351384.0,beef cattle,count,Total,Total,Total,,,statsnz_agriculture,2026-11-22,CC BY 4.0
+agr_beef_cattle,region,05,Gisborne Region,2002-06-30,2002-06-30,year,june,309823.0,beef cattle,count,Total,Total,Total,,,statsnz_agriculture,2026-11-22,CC BY 4.0
+agr_beef_cattle,region,05,Gisborne Region,2003-06-30,2003-06-30,year,june,349913.0,beef cattle,count,Total,Total,Total,,,statsnz_agriculture,2026-11-22,CC BY 4.0
+agr_beef_cattle,region,05,Gisborne Region,2004-06-30,2004-06-30,year,june,341676.0,beef cattle,count,Total,Total,Total,,,statsnz_agriculture,2026-11-22,CC BY 4.0
+agr_beef_cattle,region,05,Gisborne Region,2005-06-30,2005-06-30,year,june,300670.0,beef cattle,count,Total,Total,Total,,,statsnz_agriculture,2026-11-22,CC BY 4.0
+agr_beef_cattle,region,05,Gisborne Region,2006-06-30,2006-06-30,year,june,305050.0,beef cattle,count,Total,Total,Total,,,statsnz_agriculture,2026-11-22,CC BY 4.0
+agr_beef_cattle,region,05,Gisborne Region,2007-06-30,2007-06-30,year,june,287296.0,beef cattle,count,Total,Total,Total,,,statsnz_agriculture,2026-11-22,CC BY 4.0
+agr_beef_cattle,region,05,Gisborne Region,2008-06-30,2008-06-30,year,june,287079.0,beef cattle,count,Total,Total,Total,,,statsnz_agriculture,2026-11-22,CC BY 4.0
+agr_beef_cattle,region,05,Gisborne Region,2009-06-30,2009-06-30,year,june,249657.0,beef cattle,count,Total,Total,Total,,,statsnz_agriculture,2026-11-22,CC BY 4.0
+agr_beef_cattle,region,05,Gisborne Region,2010-06-30,2010-06-30,year,june,262073.0,beef cattle,count,Total,Total,Total,,,statsnz_agriculture,2026-11-22,CC BY 4.0
+agr_beef_cattle,region,05,Gisborne Region,2011-06-30,2011-06-30,year,june,272017.0,beef cattle,count,Total,Total,Total,,,statsnz_agriculture,2026-11-22,CC BY 4.0
+agr_beef_cattle,region,05,Gisborne Region,2012-06-30,2012-06-30,year,june,267599.0,beef cattle,count,Total,Total,Total,,,statsnz_agriculture,2026-11-22,CC BY 4.0
+agr_beef_cattle,region,05,Gisborne Region,2013-06-30,2013-06-30,year,june,260456.0,beef cattle,count,Total,Total,Total,,,statsnz_agriculture,2026-11-22,CC BY 4.0
+agr_beef_cattle,region,05,Gisborne Region,2014-06-30,2014-06-30,year,june,277484.0,beef cattle,count,Total,Total,Total,,,statsnz_agriculture,2026-11-22,CC BY 4.0
+agr_beef_cattle,region,05,Gisborne Region,2015-06-30,2015-06-30,year,june,244826.0,beef cattle,count,Total,Total,Total,,,statsnz_agriculture,2026-11-22,CC BY 4.0
+agr_beef_cattle,region,05,Gisborne Region,2016-06-30,2016-06-30,year,june,243273.0,beef cattle,count,Total,Total,Total,,,statsnz_agriculture,2026-11-22,CC BY 4.0
+agr_beef_cattle,region,05,Gisborne Region,2017-06-30,2017-06-30,year,june,247238.0,beef cattle,count,Total,Total,Total,,,statsnz_agriculture,2026-11-22,CC BY 4.0
+agr_beef_cattle,region,05,Gisborne Region,2018-06-30,2018-06-30,year,june,261384.0,beef cattle,count,Total,Total,Total,,,statsnz_agriculture,2026-11-22,CC BY 4.0
+agr_beef_cattle,region,05,Gisborne Region,2019-06-30,2019-06-30,year,june,254428.0,beef cattle,count,Total,Total,Total,,,statsnz_agriculture,2026-11-22,CC BY 4.0
+agr_beef_cattle,region,05,Gisborne Region,2020-06-30,2020-06-30,year,june,249615.0,beef cattle,count,Total,Total,Total,,,statsnz_agriculture,2026-11-22,CC BY 4.0
+agr_beef_cattle,region,05,Gisborne Region,2021-06-30,2021-06-30,year,june,261018.0,beef cattle,count,Total,Total,Total,,,statsnz_agriculture,2026-11-22,CC BY 4.0
+agr_beef_cattle,region,05,Gisborne Region,2022-06-30,2022-06-30,year,june,234366.0,beef cattle,count,Total,Total,Total,,,statsnz_agriculture,2026-11-22,CC BY 4.0
+agr_beef_cattle,region,05,Gisborne Region,2023-06-30,2023-06-30,year,june,227786.0,beef cattle,count,Total,Total,Total,,,statsnz_agriculture,2026-11-22,CC BY 4.0
+agr_beef_cattle,region,05,Gisborne Region,2024-06-30,2024-06-30,year,june,217117.0,beef cattle,count,Total,Total,Total,,,statsnz_agriculture,2026-11-22,CC BY 4.0
+agr_beef_cattle,region,05,Gisborne Region,2025-06-30,2025-06-30,year,june,227439.0,beef cattle,count,Total,Total,Total,,,statsnz_agriculture,2026-11-22,CC BY 4.0
+agr_kiwifruit_area,region,05,Gisborne Region,1994-06-30,1994-06-30,year,june,325.0,hectares,area,Total,Total,Total,,,statsnz_agriculture,2026-11-22,CC BY 4.0
+agr_kiwifruit_area,region,05,Gisborne Region,2002-06-30,2002-06-30,year,june,295.0,hectares,area,Total,Total,Total,,,statsnz_agriculture,2026-11-22,CC BY 4.0
+agr_kiwifruit_area,region,05,Gisborne Region,2003-06-30,2003-06-30,year,june,268.0,hectares,area,Total,Total,Total,,,statsnz_agriculture,2026-11-22,CC BY 4.0
+agr_kiwifruit_area,region,05,Gisborne Region,2005-06-30,2005-06-30,year,june,272.0,hectares,area,Total,Total,Total,,,statsnz_agriculture,2026-11-22,CC BY 4.0
+agr_kiwifruit_area,region,05,Gisborne Region,2007-06-30,2007-06-30,year,june,284.0,hectares,area,Total,Total,Total,,,statsnz_agriculture,2026-11-22,CC BY 4.0
+agr_kiwifruit_area,region,05,Gisborne Region,2009-06-30,2009-06-30,year,june,273.0,hectares,area,Total,Total,Total,,,statsnz_agriculture,2026-11-22,CC BY 4.0
+agr_kiwifruit_area,region,05,Gisborne Region,2011-06-30,2011-06-30,year,june,321.0,hectares,area,Total,Total,Total,,,statsnz_agriculture,2026-11-22,CC BY 4.0
+agr_kiwifruit_area,region,05,Gisborne Region,2012-06-30,2012-06-30,year,june,326.0,hectares,area,Total,Total,Total,,,statsnz_agriculture,2026-11-22,CC BY 4.0
+agr_kiwifruit_area,region,05,Gisborne Region,2014-06-30,2014-06-30,year,june,269.0,hectares,area,Total,Total,Total,,,statsnz_agriculture,2026-11-22,CC BY 4.0
+agr_kiwifruit_area,region,05,Gisborne Region,2017-06-30,2017-06-30,year,june,282.0,hectares,area,Total,Total,Total,,,statsnz_agriculture,2026-11-22,CC BY 4.0
+agr_kiwifruit_area,region,05,Gisborne Region,2019-06-30,2019-06-30,year,june,323.0,hectares,area,Total,Total,Total,,,statsnz_agriculture,2026-11-22,CC BY 4.0
+agr_kiwifruit_area,region,05,Gisborne Region,2020-06-30,2020-06-30,year,june,384.0,hectares,area,Total,Total,Total,,,statsnz_agriculture,2026-11-22,CC BY 4.0
+agr_kiwifruit_area,region,05,Gisborne Region,2022-06-30,2022-06-30,year,june,572.0,hectares,area,Total,Total,Total,,,statsnz_agriculture,2026-11-22,CC BY 4.0
+agr_kiwifruit_area,region,05,Gisborne Region,2024-06-30,2024-06-30,year,june,586.0,hectares,area,Total,Total,Total,,,statsnz_agriculture,2026-11-22,CC BY 4.0
+agr_sheep,region,05,Gisborne Region,1994-06-30,1994-06-30,year,june,2088870.0,sheep,count,Total,Total,Total,,,statsnz_agriculture,2026-11-22,CC BY 4.0
+agr_sheep,region,05,Gisborne Region,2002-06-30,2002-06-30,year,june,1679377.0,sheep,count,Total,Total,Total,,,statsnz_agriculture,2026-11-22,CC BY 4.0
+agr_sheep,region,05,Gisborne Region,2003-06-30,2003-06-30,year,june,1869777.0,sheep,count,Total,Total,Total,,,statsnz_agriculture,2026-11-22,CC BY 4.0
+agr_sheep,region,05,Gisborne Region,2004-06-30,2004-06-30,year,june,1847723.0,sheep,count,Total,Total,Total,,,statsnz_agriculture,2026-11-22,CC BY 4.0
+agr_sheep,region,05,Gisborne Region,2005-06-30,2005-06-30,year,june,1717266.0,sheep,count,Total,Total,Total,,,statsnz_agriculture,2026-11-22,CC BY 4.0
+agr_sheep,region,05,Gisborne Region,2006-06-30,2006-06-30,year,june,1833833.0,sheep,count,Total,Total,Total,,,statsnz_agriculture,2026-11-22,CC BY 4.0
+agr_sheep,region,05,Gisborne Region,2007-06-30,2007-06-30,year,june,1825496.0,sheep,count,Total,Total,Total,,,statsnz_agriculture,2026-11-22,CC BY 4.0
+agr_sheep,region,05,Gisborne Region,2008-06-30,2008-06-30,year,june,1679670.0,sheep,count,Total,Total,Total,,,statsnz_agriculture,2026-11-22,CC BY 4.0
+agr_sheep,region,05,Gisborne Region,2009-06-30,2009-06-30,year,june,1548344.0,sheep,count,Total,Total,Total,,,statsnz_agriculture,2026-11-22,CC BY 4.0
+agr_sheep,region,05,Gisborne Region,2010-06-30,2010-06-30,year,june,1589785.0,sheep,count,Total,Total,Total,,,statsnz_agriculture,2026-11-22,CC BY 4.0
+agr_sheep,region,05,Gisborne Region,2011-06-30,2011-06-30,year,june,1517015.0,sheep,count,Total,Total,Total,,,statsnz_agriculture,2026-11-22,CC BY 4.0
+agr_sheep,region,05,Gisborne Region,2012-06-30,2012-06-30,year,june,1547294.0,sheep,count,Total,Total,Total,,,statsnz_agriculture,2026-11-22,CC BY 4.0
+agr_sheep,region,05,Gisborne Region,2013-06-30,2013-06-30,year,june,1503378.0,sheep,count,Total,Total,Total,,,statsnz_agriculture,2026-11-22,CC BY 4.0
+agr_sheep,region,05,Gisborne Region,2014-06-30,2014-06-30,year,june,1602270.0,sheep,count,Total,Total,Total,,,statsnz_agriculture,2026-11-22,CC BY 4.0
+agr_sheep,region,05,Gisborne Region,2015-06-30,2015-06-30,year,june,1472423.0,sheep,count,Total,Total,Total,,,statsnz_agriculture,2026-11-22,CC BY 4.0
+agr_sheep,region,05,Gisborne Region,2016-06-30,2016-06-30,year,june,1515181.0,sheep,count,Total,Total,Total,,,statsnz_agriculture,2026-11-22,CC BY 4.0
+agr_sheep,region,05,Gisborne Region,2017-06-30,2017-06-30,year,june,1412045.0,sheep,count,Total,Total,Total,,,statsnz_agriculture,2026-11-22,CC BY 4.0
+agr_sheep,region,05,Gisborne Region,2018-06-30,2018-06-30,year,june,1457321.0,sheep,count,Total,Total,Total,,,statsnz_agriculture,2026-11-22,CC BY 4.0
+agr_sheep,region,05,Gisborne Region,2019-06-30,2019-06-30,year,june,1380146.0,sheep,count,Total,Total,Total,,,statsnz_agriculture,2026-11-22,CC BY 4.0
+agr_sheep,region,05,Gisborne Region,2020-06-30,2020-06-30,year,june,1365329.0,sheep,count,Total,Total,Total,,,statsnz_agriculture,2026-11-22,CC BY 4.0
+agr_sheep,region,05,Gisborne Region,2021-06-30,2021-06-30,year,june,1446290.0,sheep,count,Total,Total,Total,,,statsnz_agriculture,2026-11-22,CC BY 4.0
+agr_sheep,region,05,Gisborne Region,2022-06-30,2022-06-30,year,june,1321554.0,sheep,count,Total,Total,Total,,,statsnz_agriculture,2026-11-22,CC BY 4.0
+agr_sheep,region,05,Gisborne Region,2023-06-30,2023-06-30,year,june,1267839.0,sheep,count,Total,Total,Total,,,statsnz_agriculture,2026-11-22,CC BY 4.0
+agr_sheep,region,05,Gisborne Region,2024-06-30,2024-06-30,year,june,1233096.0,sheep,count,Total,Total,Total,,,statsnz_agriculture,2026-11-22,CC BY 4.0
+agr_sheep,region,05,Gisborne Region,2025-06-30,2025-06-30,year,june,1175255.0,sheep,count,Total,Total,Total,,,statsnz_agriculture,2026-11-22,CC BY 4.0
+agr_squash_area,region,05,Gisborne Region,1994-06-30,1994-06-30,year,june,1593.0,hectares,area,Total,Total,Total,,,statsnz_agriculture,2026-11-22,CC BY 4.0
+agr_squash_area,region,05,Gisborne Region,2002-06-30,2002-06-30,year,june,2427.0,hectares,area,Total,Total,Total,,,statsnz_agriculture,2026-11-22,CC BY 4.0
+agr_squash_area,region,05,Gisborne Region,2003-06-30,2003-06-30,year,june,2447.0,hectares,area,Total,Total,Total,,,statsnz_agriculture,2026-11-22,CC BY 4.0
+agr_squash_area,region,05,Gisborne Region,2005-06-30,2005-06-30,year,june,2005.0,hectares,area,Total,Total,Total,,,statsnz_agriculture,2026-11-22,CC BY 4.0
+agr_squash_area,region,05,Gisborne Region,2007-06-30,2007-06-30,year,june,2773.0,hectares,area,Total,Total,Total,,,statsnz_agriculture,2026-11-22,CC BY 4.0
+agr_squash_area,region,05,Gisborne Region,2009-06-30,2009-06-30,year,june,1589.0,hectares,area,Total,Total,Total,,,statsnz_agriculture,2026-11-22,CC BY 4.0
+agr_squash_area,region,05,Gisborne Region,2011-06-30,2011-06-30,year,june,2300.0,hectares,area,Total,Total,Total,,,statsnz_agriculture,2026-11-22,CC BY 4.0
+agr_squash_area,region,05,Gisborne Region,2012-06-30,2012-06-30,year,june,2406.0,hectares,area,Total,Total,Total,,,statsnz_agriculture,2026-11-22,CC BY 4.0
+agr_squash_area,region,05,Gisborne Region,2014-06-30,2014-06-30,year,june,2070.0,hectares,area,Total,Total,Total,,,statsnz_agriculture,2026-11-22,CC BY 4.0
+agr_squash_area,region,05,Gisborne Region,2017-06-30,2017-06-30,year,june,1920.0,hectares,area,Total,Total,Total,,,statsnz_agriculture,2026-11-22,CC BY 4.0
+agr_squash_area,region,05,Gisborne Region,2019-06-30,2019-06-30,year,june,2282.0,hectares,area,Total,Total,Total,,,statsnz_agriculture,2026-11-22,CC BY 4.0
+agr_squash_area,region,05,Gisborne Region,2020-06-30,2020-06-30,year,june,2148.0,hectares,area,Total,Total,Total,,,statsnz_agriculture,2026-11-22,CC BY 4.0
+agr_squash_area,region,05,Gisborne Region,2022-06-30,2022-06-30,year,june,1421.0,hectares,area,Total,Total,Total,,,statsnz_agriculture,2026-11-22,CC BY 4.0
+agr_squash_area,region,05,Gisborne Region,2024-06-30,2024-06-30,year,june,1390.0,hectares,area,Total,Total,Total,,,statsnz_agriculture,2026-11-22,CC BY 4.0
+agr_timber_harvested,region,05,Gisborne Region,2004-04-01,2005-03-31,year,march,655080.0,cubic metres,count,Total,Total,Total,,,statsnz_agriculture,2026-11-22,CC BY 4.0
+agr_timber_harvested,region,05,Gisborne Region,2005-04-01,2006-03-31,year,march,743117.0,cubic metres,count,Total,Total,Total,,,statsnz_agriculture,2026-11-22,CC BY 4.0
+agr_timber_harvested,region,05,Gisborne Region,2006-04-01,2007-03-31,year,march,727848.0,cubic metres,count,Total,Total,Total,,,statsnz_agriculture,2026-11-22,CC BY 4.0
+agr_timber_harvested,region,05,Gisborne Region,2007-04-01,2008-03-31,year,march,960801.0,cubic metres,count,Total,Total,Total,,,statsnz_agriculture,2026-11-22,CC BY 4.0
+agr_timber_harvested,region,05,Gisborne Region,2008-04-01,2009-03-31,year,march,1088828.0,cubic metres,count,Total,Total,Total,,,statsnz_agriculture,2026-11-22,CC BY 4.0
+agr_timber_harvested,region,05,Gisborne Region,2009-04-01,2010-03-31,year,march,1328211.0,cubic metres,count,Total,Total,Total,,,statsnz_agriculture,2026-11-22,CC BY 4.0
+agr_timber_harvested,region,05,Gisborne Region,2010-04-01,2011-03-31,year,march,1466310.0,cubic metres,count,Total,Total,Total,,,statsnz_agriculture,2026-11-22,CC BY 4.0
+agr_timber_harvested,region,05,Gisborne Region,2011-04-01,2012-03-31,year,march,1567699.0,cubic metres,count,Total,Total,Total,,,statsnz_agriculture,2026-11-22,CC BY 4.0
+agr_timber_harvested,region,05,Gisborne Region,2012-04-01,2013-03-31,year,march,1746983.0,cubic metres,count,Total,Total,Total,,,statsnz_agriculture,2026-11-22,CC BY 4.0
+agr_timber_harvested,region,05,Gisborne Region,2013-04-01,2014-03-31,year,march,2145494.0,cubic metres,count,Total,Total,Total,,,statsnz_agriculture,2026-11-22,CC BY 4.0
+agr_timber_harvested,region,05,Gisborne Region,2014-04-01,2015-03-31,year,march,1894070.0,cubic metres,count,Total,Total,Total,,,statsnz_agriculture,2026-11-22,CC BY 4.0
+agr_timber_harvested,region,05,Gisborne Region,2015-04-01,2016-03-31,year,march,2140922.0,cubic metres,count,Total,Total,Total,,,statsnz_agriculture,2026-11-22,CC BY 4.0
+agr_timber_harvested,region,05,Gisborne Region,2016-04-01,2017-03-31,year,march,2082972.0,cubic metres,count,Total,Total,Total,,,statsnz_agriculture,2026-11-22,CC BY 4.0
+agr_timber_harvested,region,05,Gisborne Region,2017-04-01,2018-03-31,year,march,2318442.0,cubic metres,count,Total,Total,Total,,,statsnz_agriculture,2026-11-22,CC BY 4.0
+agr_wine_grapes_area,region,05,Gisborne Region,1994-06-30,1994-06-30,year,june,1245.0,hectares,area,Total,Total,Total,,,statsnz_agriculture,2026-11-22,CC BY 4.0
+agr_wine_grapes_area,region,05,Gisborne Region,2002-06-30,2002-06-30,year,june,1743.0,hectares,area,Total,Total,Total,,,statsnz_agriculture,2026-11-22,CC BY 4.0
+agr_wine_grapes_area,region,05,Gisborne Region,2003-06-30,2003-06-30,year,june,1595.0,hectares,area,Total,Total,Total,,,statsnz_agriculture,2026-11-22,CC BY 4.0
+agr_wine_grapes_area,region,05,Gisborne Region,2005-06-30,2005-06-30,year,june,1718.0,hectares,area,Total,Total,Total,,,statsnz_agriculture,2026-11-22,CC BY 4.0
+agr_wine_grapes_area,region,05,Gisborne Region,2007-06-30,2007-06-30,year,june,1812.0,hectares,area,Total,Total,Total,,,statsnz_agriculture,2026-11-22,CC BY 4.0
+agr_wine_grapes_area,region,05,Gisborne Region,2009-06-30,2009-06-30,year,june,2217.0,hectares,area,Total,Total,Total,,,statsnz_agriculture,2026-11-22,CC BY 4.0
+agr_wine_grapes_area,region,05,Gisborne Region,2011-06-30,2011-06-30,year,june,1807.0,hectares,area,Total,Total,Total,,,statsnz_agriculture,2026-11-22,CC BY 4.0
+agr_wine_grapes_area,region,05,Gisborne Region,2012-06-30,2012-06-30,year,june,1685.0,hectares,area,Total,Total,Total,,,statsnz_agriculture,2026-11-22,CC BY 4.0
+agr_wine_grapes_area,region,05,Gisborne Region,2014-06-30,2014-06-30,year,june,1759.0,hectares,area,Total,Total,Total,,,statsnz_agriculture,2026-11-22,CC BY 4.0
+agr_wine_grapes_area,region,05,Gisborne Region,2017-06-30,2017-06-30,year,june,1245.0,hectares,area,Total,Total,Total,,,statsnz_agriculture,2026-11-22,CC BY 4.0
+agr_wine_grapes_area,region,05,Gisborne Region,2019-06-30,2019-06-30,year,june,1230.0,hectares,area,Total,Total,Total,,,statsnz_agriculture,2026-11-22,CC BY 4.0
+agr_wine_grapes_area,region,05,Gisborne Region,2020-06-30,2020-06-30,year,june,1256.0,hectares,area,Total,Total,Total,,,statsnz_agriculture,2026-11-22,CC BY 4.0
+agr_wine_grapes_area,region,05,Gisborne Region,2022-06-30,2022-06-30,year,june,1229.0,hectares,area,Total,Total,Total,,,statsnz_agriculture,2026-11-22,CC BY 4.0
+agr_wine_grapes_area,region,05,Gisborne Region,2024-06-30,2024-06-30,year,june,1322.0,hectares,area,Total,Total,Total,,,statsnz_agriculture,2026-11-22,CC BY 4.0
 gisborne_census_families,region,05,Gisborne Region,2013-01-01,2013-12-31,year,calendar,11370.0,families,count,Total,Total,Total,,,statsnz_census_households,2026-11-20,CC BY 4.0
 gisborne_census_families,region,05,Gisborne Region,2018-01-01,2018-12-31,year,calendar,11469.0,families,count,Total,Total,Total,,,statsnz_census_households,2026-11-20,CC BY 4.0
 gisborne_census_families,region,05,Gisborne Region,2023-01-01,2023-12-31,year,calendar,12258.0,families,count,Total,Total,Total,,,statsnz_census_households,2026-11-20,CC BY 4.0
@@ -8295,6 +8415,320 @@ regional_ghg_emissions,region,05,Gisborne Region,2022-01-01,2022-12-31,year,cale
 regional_ghg_emissions,region,05,Gisborne Region,2023-01-01,2023-12-31,year,calendar,1281.07,kt CO₂-e,total,Total,Total,Total,,,statsnz_emissions,2026-11-20,CC BY 4.0
 regional_ghg_emissions,region,05,Gisborne Region,2024-01-01,2024-12-31,year,calendar,1247.75,kt CO₂-e,total,Total,Total,Total,,,statsnz_emissions,2026-11-20,CC BY 4.0
 regional_ghg_emissions,region,05,Gisborne Region,2025-01-01,2025-12-31,year,calendar,1224.51,kt CO₂-e,total,Total,Total,Total,,,statsnz_emissions,2026-11-20,CC BY 4.0
+leed_filled_jobs,region,05,Gisborne Region,1999-04-01,1999-06-30,quarter,calendar,15450.0,jobs,count,Total,Total,Total,,rounded by Stats NZ,statsnz_leed,2026-11-22,CC BY 4.0
+leed_filled_jobs,region,05,Gisborne Region,1999-07-01,1999-09-30,quarter,calendar,14950.0,jobs,count,Total,Total,Total,,rounded by Stats NZ,statsnz_leed,2026-11-22,CC BY 4.0
+leed_filled_jobs,region,05,Gisborne Region,1999-10-01,1999-12-31,quarter,calendar,16040.0,jobs,count,Total,Total,Total,,rounded by Stats NZ,statsnz_leed,2026-11-22,CC BY 4.0
+leed_filled_jobs,region,05,Gisborne Region,2000-01-01,2000-03-31,quarter,calendar,15640.0,jobs,count,Total,Total,Total,,rounded by Stats NZ,statsnz_leed,2026-11-22,CC BY 4.0
+leed_filled_jobs,region,05,Gisborne Region,2000-04-01,2000-06-30,quarter,calendar,15580.0,jobs,count,Total,Total,Total,,rounded by Stats NZ,statsnz_leed,2026-11-22,CC BY 4.0
+leed_filled_jobs,region,05,Gisborne Region,2000-07-01,2000-09-30,quarter,calendar,15280.0,jobs,count,Total,Total,Total,,rounded by Stats NZ,statsnz_leed,2026-11-22,CC BY 4.0
+leed_filled_jobs,region,05,Gisborne Region,2000-10-01,2000-12-31,quarter,calendar,16010.0,jobs,count,Total,Total,Total,,rounded by Stats NZ,statsnz_leed,2026-11-22,CC BY 4.0
+leed_filled_jobs,region,05,Gisborne Region,2001-01-01,2001-03-31,quarter,calendar,15930.0,jobs,count,Total,Total,Total,,rounded by Stats NZ,statsnz_leed,2026-11-22,CC BY 4.0
+leed_filled_jobs,region,05,Gisborne Region,2001-04-01,2001-06-30,quarter,calendar,16090.0,jobs,count,Total,Total,Total,,rounded by Stats NZ,statsnz_leed,2026-11-22,CC BY 4.0
+leed_filled_jobs,region,05,Gisborne Region,2001-07-01,2001-09-30,quarter,calendar,15860.0,jobs,count,Total,Total,Total,,rounded by Stats NZ,statsnz_leed,2026-11-22,CC BY 4.0
+leed_filled_jobs,region,05,Gisborne Region,2001-10-01,2001-12-31,quarter,calendar,16600.0,jobs,count,Total,Total,Total,,rounded by Stats NZ,statsnz_leed,2026-11-22,CC BY 4.0
+leed_filled_jobs,region,05,Gisborne Region,2002-01-01,2002-03-31,quarter,calendar,17020.0,jobs,count,Total,Total,Total,,rounded by Stats NZ,statsnz_leed,2026-11-22,CC BY 4.0
+leed_filled_jobs,region,05,Gisborne Region,2002-04-01,2002-06-30,quarter,calendar,16260.0,jobs,count,Total,Total,Total,,rounded by Stats NZ,statsnz_leed,2026-11-22,CC BY 4.0
+leed_filled_jobs,region,05,Gisborne Region,2002-07-01,2002-09-30,quarter,calendar,15990.0,jobs,count,Total,Total,Total,,rounded by Stats NZ,statsnz_leed,2026-11-22,CC BY 4.0
+leed_filled_jobs,region,05,Gisborne Region,2002-10-01,2002-12-31,quarter,calendar,16550.0,jobs,count,Total,Total,Total,,rounded by Stats NZ,statsnz_leed,2026-11-22,CC BY 4.0
+leed_filled_jobs,region,05,Gisborne Region,2003-01-01,2003-03-31,quarter,calendar,16560.0,jobs,count,Total,Total,Total,,rounded by Stats NZ,statsnz_leed,2026-11-22,CC BY 4.0
+leed_filled_jobs,region,05,Gisborne Region,2003-04-01,2003-06-30,quarter,calendar,16870.0,jobs,count,Total,Total,Total,,rounded by Stats NZ,statsnz_leed,2026-11-22,CC BY 4.0
+leed_filled_jobs,region,05,Gisborne Region,2003-07-01,2003-09-30,quarter,calendar,17040.0,jobs,count,Total,Total,Total,,rounded by Stats NZ,statsnz_leed,2026-11-22,CC BY 4.0
+leed_filled_jobs,region,05,Gisborne Region,2003-10-01,2003-12-31,quarter,calendar,17210.0,jobs,count,Total,Total,Total,,rounded by Stats NZ,statsnz_leed,2026-11-22,CC BY 4.0
+leed_filled_jobs,region,05,Gisborne Region,2004-01-01,2004-03-31,quarter,calendar,17440.0,jobs,count,Total,Total,Total,,rounded by Stats NZ,statsnz_leed,2026-11-22,CC BY 4.0
+leed_filled_jobs,region,05,Gisborne Region,2004-04-01,2004-06-30,quarter,calendar,17260.0,jobs,count,Total,Total,Total,,rounded by Stats NZ,statsnz_leed,2026-11-22,CC BY 4.0
+leed_filled_jobs,region,05,Gisborne Region,2004-07-01,2004-09-30,quarter,calendar,17220.0,jobs,count,Total,Total,Total,,rounded by Stats NZ,statsnz_leed,2026-11-22,CC BY 4.0
+leed_filled_jobs,region,05,Gisborne Region,2004-10-01,2004-12-31,quarter,calendar,17960.0,jobs,count,Total,Total,Total,,rounded by Stats NZ,statsnz_leed,2026-11-22,CC BY 4.0
+leed_filled_jobs,region,05,Gisborne Region,2005-01-01,2005-03-31,quarter,calendar,18440.0,jobs,count,Total,Total,Total,,rounded by Stats NZ,statsnz_leed,2026-11-22,CC BY 4.0
+leed_filled_jobs,region,05,Gisborne Region,2005-04-01,2005-06-30,quarter,calendar,17390.0,jobs,count,Total,Total,Total,,rounded by Stats NZ,statsnz_leed,2026-11-22,CC BY 4.0
+leed_filled_jobs,region,05,Gisborne Region,2005-07-01,2005-09-30,quarter,calendar,17220.0,jobs,count,Total,Total,Total,,rounded by Stats NZ,statsnz_leed,2026-11-22,CC BY 4.0
+leed_filled_jobs,region,05,Gisborne Region,2005-10-01,2005-12-31,quarter,calendar,17850.0,jobs,count,Total,Total,Total,,rounded by Stats NZ,statsnz_leed,2026-11-22,CC BY 4.0
+leed_filled_jobs,region,05,Gisborne Region,2006-01-01,2006-03-31,quarter,calendar,17790.0,jobs,count,Total,Total,Total,,rounded by Stats NZ,statsnz_leed,2026-11-22,CC BY 4.0
+leed_filled_jobs,region,05,Gisborne Region,2006-04-01,2006-06-30,quarter,calendar,17640.0,jobs,count,Total,Total,Total,,rounded by Stats NZ,statsnz_leed,2026-11-22,CC BY 4.0
+leed_filled_jobs,region,05,Gisborne Region,2006-07-01,2006-09-30,quarter,calendar,18010.0,jobs,count,Total,Total,Total,,rounded by Stats NZ,statsnz_leed,2026-11-22,CC BY 4.0
+leed_filled_jobs,region,05,Gisborne Region,2006-10-01,2006-12-31,quarter,calendar,18180.0,jobs,count,Total,Total,Total,,rounded by Stats NZ,statsnz_leed,2026-11-22,CC BY 4.0
+leed_filled_jobs,region,05,Gisborne Region,2007-01-01,2007-03-31,quarter,calendar,18070.0,jobs,count,Total,Total,Total,,rounded by Stats NZ,statsnz_leed,2026-11-22,CC BY 4.0
+leed_filled_jobs,region,05,Gisborne Region,2007-04-01,2007-06-30,quarter,calendar,17790.0,jobs,count,Total,Total,Total,,rounded by Stats NZ,statsnz_leed,2026-11-22,CC BY 4.0
+leed_filled_jobs,region,05,Gisborne Region,2007-07-01,2007-09-30,quarter,calendar,17810.0,jobs,count,Total,Total,Total,,rounded by Stats NZ,statsnz_leed,2026-11-22,CC BY 4.0
+leed_filled_jobs,region,05,Gisborne Region,2007-10-01,2007-12-31,quarter,calendar,18380.0,jobs,count,Total,Total,Total,,rounded by Stats NZ,statsnz_leed,2026-11-22,CC BY 4.0
+leed_filled_jobs,region,05,Gisborne Region,2008-01-01,2008-03-31,quarter,calendar,18240.0,jobs,count,Total,Total,Total,,rounded by Stats NZ,statsnz_leed,2026-11-22,CC BY 4.0
+leed_filled_jobs,region,05,Gisborne Region,2008-04-01,2008-06-30,quarter,calendar,17890.0,jobs,count,Total,Total,Total,,rounded by Stats NZ,statsnz_leed,2026-11-22,CC BY 4.0
+leed_filled_jobs,region,05,Gisborne Region,2008-07-01,2008-09-30,quarter,calendar,17430.0,jobs,count,Total,Total,Total,,rounded by Stats NZ,statsnz_leed,2026-11-22,CC BY 4.0
+leed_filled_jobs,region,05,Gisborne Region,2008-10-01,2008-12-31,quarter,calendar,18100.0,jobs,count,Total,Total,Total,,rounded by Stats NZ,statsnz_leed,2026-11-22,CC BY 4.0
+leed_filled_jobs,region,05,Gisborne Region,2009-01-01,2009-03-31,quarter,calendar,17990.0,jobs,count,Total,Total,Total,,rounded by Stats NZ,statsnz_leed,2026-11-22,CC BY 4.0
+leed_filled_jobs,region,05,Gisborne Region,2009-04-01,2009-06-30,quarter,calendar,17610.0,jobs,count,Total,Total,Total,,rounded by Stats NZ,statsnz_leed,2026-11-22,CC BY 4.0
+leed_filled_jobs,region,05,Gisborne Region,2009-07-01,2009-09-30,quarter,calendar,17420.0,jobs,count,Total,Total,Total,,rounded by Stats NZ,statsnz_leed,2026-11-22,CC BY 4.0
+leed_filled_jobs,region,05,Gisborne Region,2009-10-01,2009-12-31,quarter,calendar,18100.0,jobs,count,Total,Total,Total,,rounded by Stats NZ,statsnz_leed,2026-11-22,CC BY 4.0
+leed_filled_jobs,region,05,Gisborne Region,2010-01-01,2010-03-31,quarter,calendar,18000.0,jobs,count,Total,Total,Total,,rounded by Stats NZ,statsnz_leed,2026-11-22,CC BY 4.0
+leed_filled_jobs,region,05,Gisborne Region,2010-04-01,2010-06-30,quarter,calendar,17580.0,jobs,count,Total,Total,Total,,rounded by Stats NZ,statsnz_leed,2026-11-22,CC BY 4.0
+leed_filled_jobs,region,05,Gisborne Region,2010-07-01,2010-09-30,quarter,calendar,17270.0,jobs,count,Total,Total,Total,,rounded by Stats NZ,statsnz_leed,2026-11-22,CC BY 4.0
+leed_filled_jobs,region,05,Gisborne Region,2010-10-01,2010-12-31,quarter,calendar,17870.0,jobs,count,Total,Total,Total,,rounded by Stats NZ,statsnz_leed,2026-11-22,CC BY 4.0
+leed_filled_jobs,region,05,Gisborne Region,2011-01-01,2011-03-31,quarter,calendar,17620.0,jobs,count,Total,Total,Total,,rounded by Stats NZ,statsnz_leed,2026-11-22,CC BY 4.0
+leed_filled_jobs,region,05,Gisborne Region,2011-04-01,2011-06-30,quarter,calendar,17340.0,jobs,count,Total,Total,Total,,rounded by Stats NZ,statsnz_leed,2026-11-22,CC BY 4.0
+leed_filled_jobs,region,05,Gisborne Region,2011-07-01,2011-09-30,quarter,calendar,17270.0,jobs,count,Total,Total,Total,,rounded by Stats NZ,statsnz_leed,2026-11-22,CC BY 4.0
+leed_filled_jobs,region,05,Gisborne Region,2011-10-01,2011-12-31,quarter,calendar,17850.0,jobs,count,Total,Total,Total,,rounded by Stats NZ,statsnz_leed,2026-11-22,CC BY 4.0
+leed_filled_jobs,region,05,Gisborne Region,2012-01-01,2012-03-31,quarter,calendar,17400.0,jobs,count,Total,Total,Total,,rounded by Stats NZ,statsnz_leed,2026-11-22,CC BY 4.0
+leed_filled_jobs,region,05,Gisborne Region,2012-04-01,2012-06-30,quarter,calendar,17400.0,jobs,count,Total,Total,Total,,rounded by Stats NZ,statsnz_leed,2026-11-22,CC BY 4.0
+leed_filled_jobs,region,05,Gisborne Region,2012-07-01,2012-09-30,quarter,calendar,17120.0,jobs,count,Total,Total,Total,,rounded by Stats NZ,statsnz_leed,2026-11-22,CC BY 4.0
+leed_filled_jobs,region,05,Gisborne Region,2012-10-01,2012-12-31,quarter,calendar,17530.0,jobs,count,Total,Total,Total,,rounded by Stats NZ,statsnz_leed,2026-11-22,CC BY 4.0
+leed_filled_jobs,region,05,Gisborne Region,2013-01-01,2013-03-31,quarter,calendar,17710.0,jobs,count,Total,Total,Total,,rounded by Stats NZ,statsnz_leed,2026-11-22,CC BY 4.0
+leed_filled_jobs,region,05,Gisborne Region,2013-04-01,2013-06-30,quarter,calendar,17500.0,jobs,count,Total,Total,Total,,rounded by Stats NZ,statsnz_leed,2026-11-22,CC BY 4.0
+leed_filled_jobs,region,05,Gisborne Region,2013-07-01,2013-09-30,quarter,calendar,17190.0,jobs,count,Total,Total,Total,,rounded by Stats NZ,statsnz_leed,2026-11-22,CC BY 4.0
+leed_filled_jobs,region,05,Gisborne Region,2013-10-01,2013-12-31,quarter,calendar,17860.0,jobs,count,Total,Total,Total,,rounded by Stats NZ,statsnz_leed,2026-11-22,CC BY 4.0
+leed_filled_jobs,region,05,Gisborne Region,2014-01-01,2014-03-31,quarter,calendar,17980.0,jobs,count,Total,Total,Total,,rounded by Stats NZ,statsnz_leed,2026-11-22,CC BY 4.0
+leed_filled_jobs,region,05,Gisborne Region,2014-04-01,2014-06-30,quarter,calendar,17740.0,jobs,count,Total,Total,Total,,rounded by Stats NZ,statsnz_leed,2026-11-22,CC BY 4.0
+leed_filled_jobs,region,05,Gisborne Region,2014-07-01,2014-09-30,quarter,calendar,17540.0,jobs,count,Total,Total,Total,,rounded by Stats NZ,statsnz_leed,2026-11-22,CC BY 4.0
+leed_filled_jobs,region,05,Gisborne Region,2014-10-01,2014-12-31,quarter,calendar,18210.0,jobs,count,Total,Total,Total,,rounded by Stats NZ,statsnz_leed,2026-11-22,CC BY 4.0
+leed_filled_jobs,region,05,Gisborne Region,2015-01-01,2015-03-31,quarter,calendar,18180.0,jobs,count,Total,Total,Total,,rounded by Stats NZ,statsnz_leed,2026-11-22,CC BY 4.0
+leed_filled_jobs,region,05,Gisborne Region,2015-04-01,2015-06-30,quarter,calendar,18000.0,jobs,count,Total,Total,Total,,rounded by Stats NZ,statsnz_leed,2026-11-22,CC BY 4.0
+leed_filled_jobs,region,05,Gisborne Region,2015-07-01,2015-09-30,quarter,calendar,17690.0,jobs,count,Total,Total,Total,,rounded by Stats NZ,statsnz_leed,2026-11-22,CC BY 4.0
+leed_filled_jobs,region,05,Gisborne Region,2015-10-01,2015-12-31,quarter,calendar,18470.0,jobs,count,Total,Total,Total,,rounded by Stats NZ,statsnz_leed,2026-11-22,CC BY 4.0
+leed_filled_jobs,region,05,Gisborne Region,2016-01-01,2016-03-31,quarter,calendar,18390.0,jobs,count,Total,Total,Total,,rounded by Stats NZ,statsnz_leed,2026-11-22,CC BY 4.0
+leed_filled_jobs,region,05,Gisborne Region,2016-04-01,2016-06-30,quarter,calendar,18070.0,jobs,count,Total,Total,Total,,rounded by Stats NZ,statsnz_leed,2026-11-22,CC BY 4.0
+leed_filled_jobs,region,05,Gisborne Region,2016-07-01,2016-09-30,quarter,calendar,18010.0,jobs,count,Total,Total,Total,,rounded by Stats NZ,statsnz_leed,2026-11-22,CC BY 4.0
+leed_filled_jobs,region,05,Gisborne Region,2016-10-01,2016-12-31,quarter,calendar,18760.0,jobs,count,Total,Total,Total,,rounded by Stats NZ,statsnz_leed,2026-11-22,CC BY 4.0
+leed_filled_jobs,region,05,Gisborne Region,2017-01-01,2017-03-31,quarter,calendar,19610.0,jobs,count,Total,Total,Total,,rounded by Stats NZ,statsnz_leed,2026-11-22,CC BY 4.0
+leed_filled_jobs,region,05,Gisborne Region,2017-04-01,2017-06-30,quarter,calendar,18500.0,jobs,count,Total,Total,Total,,rounded by Stats NZ,statsnz_leed,2026-11-22,CC BY 4.0
+leed_filled_jobs,region,05,Gisborne Region,2017-07-01,2017-09-30,quarter,calendar,18200.0,jobs,count,Total,Total,Total,,rounded by Stats NZ,statsnz_leed,2026-11-22,CC BY 4.0
+leed_filled_jobs,region,05,Gisborne Region,2017-10-01,2017-12-31,quarter,calendar,18930.0,jobs,count,Total,Total,Total,,rounded by Stats NZ,statsnz_leed,2026-11-22,CC BY 4.0
+leed_filled_jobs,region,05,Gisborne Region,2018-01-01,2018-03-31,quarter,calendar,18980.0,jobs,count,Total,Total,Total,,rounded by Stats NZ,statsnz_leed,2026-11-22,CC BY 4.0
+leed_filled_jobs,region,05,Gisborne Region,2018-04-01,2018-06-30,quarter,calendar,19010.0,jobs,count,Total,Total,Total,,rounded by Stats NZ,statsnz_leed,2026-11-22,CC BY 4.0
+leed_filled_jobs,region,05,Gisborne Region,2018-07-01,2018-09-30,quarter,calendar,18790.0,jobs,count,Total,Total,Total,,rounded by Stats NZ,statsnz_leed,2026-11-22,CC BY 4.0
+leed_filled_jobs,region,05,Gisborne Region,2018-10-01,2018-12-31,quarter,calendar,19420.0,jobs,count,Total,Total,Total,,rounded by Stats NZ,statsnz_leed,2026-11-22,CC BY 4.0
+leed_filled_jobs,region,05,Gisborne Region,2019-01-01,2019-03-31,quarter,calendar,19720.0,jobs,count,Total,Total,Total,,rounded by Stats NZ,statsnz_leed,2026-11-22,CC BY 4.0
+leed_filled_jobs,region,05,Gisborne Region,2019-04-01,2019-06-30,quarter,calendar,19730.0,jobs,count,Total,Total,Total,,rounded by Stats NZ,statsnz_leed,2026-11-22,CC BY 4.0
+leed_filled_jobs,region,05,Gisborne Region,2019-07-01,2019-09-30,quarter,calendar,19530.0,jobs,count,Total,Total,Total,,rounded by Stats NZ,statsnz_leed,2026-11-22,CC BY 4.0
+leed_filled_jobs,region,05,Gisborne Region,2019-10-01,2019-12-31,quarter,calendar,20100.0,jobs,count,Total,Total,Total,,rounded by Stats NZ,statsnz_leed,2026-11-22,CC BY 4.0
+leed_filled_jobs,region,05,Gisborne Region,2020-01-01,2020-03-31,quarter,calendar,20220.0,jobs,count,Total,Total,Total,,rounded by Stats NZ,statsnz_leed,2026-11-22,CC BY 4.0
+leed_filled_jobs,region,05,Gisborne Region,2020-04-01,2020-06-30,quarter,calendar,19960.0,jobs,count,Total,Total,Total,,rounded by Stats NZ,statsnz_leed,2026-11-22,CC BY 4.0
+leed_filled_jobs,region,05,Gisborne Region,2020-07-01,2020-09-30,quarter,calendar,20140.0,jobs,count,Total,Total,Total,,rounded by Stats NZ,statsnz_leed,2026-11-22,CC BY 4.0
+leed_filled_jobs,region,05,Gisborne Region,2020-10-01,2020-12-31,quarter,calendar,20740.0,jobs,count,Total,Total,Total,,rounded by Stats NZ,statsnz_leed,2026-11-22,CC BY 4.0
+leed_filled_jobs,region,05,Gisborne Region,2021-01-01,2021-03-31,quarter,calendar,20830.0,jobs,count,Total,Total,Total,,rounded by Stats NZ,statsnz_leed,2026-11-22,CC BY 4.0
+leed_filled_jobs,region,05,Gisborne Region,2021-04-01,2021-06-30,quarter,calendar,21040.0,jobs,count,Total,Total,Total,,rounded by Stats NZ,statsnz_leed,2026-11-22,CC BY 4.0
+leed_filled_jobs,region,05,Gisborne Region,2021-07-01,2021-09-30,quarter,calendar,20940.0,jobs,count,Total,Total,Total,,rounded by Stats NZ,statsnz_leed,2026-11-22,CC BY 4.0
+leed_filled_jobs,region,05,Gisborne Region,2021-10-01,2021-12-31,quarter,calendar,21600.0,jobs,count,Total,Total,Total,,rounded by Stats NZ,statsnz_leed,2026-11-22,CC BY 4.0
+leed_filled_jobs,region,05,Gisborne Region,2022-01-01,2022-03-31,quarter,calendar,21150.0,jobs,count,Total,Total,Total,,rounded by Stats NZ,statsnz_leed,2026-11-22,CC BY 4.0
+leed_filled_jobs,region,05,Gisborne Region,2022-04-01,2022-06-30,quarter,calendar,21250.0,jobs,count,Total,Total,Total,,rounded by Stats NZ,statsnz_leed,2026-11-22,CC BY 4.0
+leed_filled_jobs,region,05,Gisborne Region,2022-07-01,2022-09-30,quarter,calendar,21110.0,jobs,count,Total,Total,Total,,rounded by Stats NZ,statsnz_leed,2026-11-22,CC BY 4.0
+leed_filled_jobs,region,05,Gisborne Region,2022-10-01,2022-12-31,quarter,calendar,21280.0,jobs,count,Total,Total,Total,,rounded by Stats NZ,statsnz_leed,2026-11-22,CC BY 4.0
+leed_filled_jobs,region,05,Gisborne Region,2023-01-01,2023-03-31,quarter,calendar,20660.0,jobs,count,Total,Total,Total,,rounded by Stats NZ,statsnz_leed,2026-11-22,CC BY 4.0
+leed_filled_jobs,region,05,Gisborne Region,2023-04-01,2023-06-30,quarter,calendar,21430.0,jobs,count,Total,Total,Total,,rounded by Stats NZ,statsnz_leed,2026-11-22,CC BY 4.0
+leed_filled_jobs,region,05,Gisborne Region,2023-07-01,2023-09-30,quarter,calendar,21000.0,jobs,count,Total,Total,Total,,rounded by Stats NZ,statsnz_leed,2026-11-22,CC BY 4.0
+leed_filled_jobs,region,05,Gisborne Region,2023-10-01,2023-12-31,quarter,calendar,21820.0,jobs,count,Total,Total,Total,,rounded by Stats NZ,statsnz_leed,2026-11-22,CC BY 4.0
+leed_filled_jobs,region,05,Gisborne Region,2024-01-01,2024-03-31,quarter,calendar,21360.0,jobs,count,Total,Total,Total,,rounded by Stats NZ,statsnz_leed,2026-11-22,CC BY 4.0
+leed_filled_jobs,region,05,Gisborne Region,2024-04-01,2024-06-30,quarter,calendar,21830.0,jobs,count,Total,Total,Total,,rounded by Stats NZ,statsnz_leed,2026-11-22,CC BY 4.0
+leed_filled_jobs,region,05,Gisborne Region,2024-07-01,2024-09-30,quarter,calendar,20860.0,jobs,count,Total,Total,Total,,rounded by Stats NZ,statsnz_leed,2026-11-22,CC BY 4.0
+leed_filled_jobs,region,05,Gisborne Region,2024-10-01,2024-12-31,quarter,calendar,21490.0,jobs,count,Total,Total,Total,,rounded by Stats NZ,statsnz_leed,2026-11-22,CC BY 4.0
+leed_filled_jobs,region,05,Gisborne Region,2025-01-01,2025-03-31,quarter,calendar,20760.0,jobs,count,Total,Total,Total,,rounded by Stats NZ,statsnz_leed,2026-11-22,CC BY 4.0
+leed_filled_jobs,region,05,Gisborne Region,2025-04-01,2025-06-30,quarter,calendar,20860.0,jobs,count,Total,Total,Total,,rounded by Stats NZ,statsnz_leed,2026-11-22,CC BY 4.0
+leed_median_quarterly_earnings,region,05,Gisborne Region,1999-04-01,1999-06-30,quarter,calendar,5890.0,NZD,median,Total,Total,Total,,rounded by Stats NZ,statsnz_leed,2026-11-22,CC BY 4.0
+leed_median_quarterly_earnings,region,05,Gisborne Region,1999-07-01,1999-09-30,quarter,calendar,6020.0,NZD,median,Total,Total,Total,,rounded by Stats NZ,statsnz_leed,2026-11-22,CC BY 4.0
+leed_median_quarterly_earnings,region,05,Gisborne Region,1999-10-01,1999-12-31,quarter,calendar,6660.0,NZD,median,Total,Total,Total,,rounded by Stats NZ,statsnz_leed,2026-11-22,CC BY 4.0
+leed_median_quarterly_earnings,region,05,Gisborne Region,2000-01-01,2000-03-31,quarter,calendar,6240.0,NZD,median,Total,Total,Total,,rounded by Stats NZ,statsnz_leed,2026-11-22,CC BY 4.0
+leed_median_quarterly_earnings,region,05,Gisborne Region,2000-04-01,2000-06-30,quarter,calendar,6440.0,NZD,median,Total,Total,Total,,rounded by Stats NZ,statsnz_leed,2026-11-22,CC BY 4.0
+leed_median_quarterly_earnings,region,05,Gisborne Region,2000-07-01,2000-09-30,quarter,calendar,6250.0,NZD,median,Total,Total,Total,,rounded by Stats NZ,statsnz_leed,2026-11-22,CC BY 4.0
+leed_median_quarterly_earnings,region,05,Gisborne Region,2000-10-01,2000-12-31,quarter,calendar,6760.0,NZD,median,Total,Total,Total,,rounded by Stats NZ,statsnz_leed,2026-11-22,CC BY 4.0
+leed_median_quarterly_earnings,region,05,Gisborne Region,2001-01-01,2001-03-31,quarter,calendar,6290.0,NZD,median,Total,Total,Total,,rounded by Stats NZ,statsnz_leed,2026-11-22,CC BY 4.0
+leed_median_quarterly_earnings,region,05,Gisborne Region,2001-04-01,2001-06-30,quarter,calendar,6510.0,NZD,median,Total,Total,Total,,rounded by Stats NZ,statsnz_leed,2026-11-22,CC BY 4.0
+leed_median_quarterly_earnings,region,05,Gisborne Region,2001-07-01,2001-09-30,quarter,calendar,6340.0,NZD,median,Total,Total,Total,,rounded by Stats NZ,statsnz_leed,2026-11-22,CC BY 4.0
+leed_median_quarterly_earnings,region,05,Gisborne Region,2001-10-01,2001-12-31,quarter,calendar,7010.0,NZD,median,Total,Total,Total,,rounded by Stats NZ,statsnz_leed,2026-11-22,CC BY 4.0
+leed_median_quarterly_earnings,region,05,Gisborne Region,2002-01-01,2002-03-31,quarter,calendar,6540.0,NZD,median,Total,Total,Total,,rounded by Stats NZ,statsnz_leed,2026-11-22,CC BY 4.0
+leed_median_quarterly_earnings,region,05,Gisborne Region,2002-04-01,2002-06-30,quarter,calendar,6720.0,NZD,median,Total,Total,Total,,rounded by Stats NZ,statsnz_leed,2026-11-22,CC BY 4.0
+leed_median_quarterly_earnings,region,05,Gisborne Region,2002-07-01,2002-09-30,quarter,calendar,6690.0,NZD,median,Total,Total,Total,,rounded by Stats NZ,statsnz_leed,2026-11-22,CC BY 4.0
+leed_median_quarterly_earnings,region,05,Gisborne Region,2002-10-01,2002-12-31,quarter,calendar,7340.0,NZD,median,Total,Total,Total,,rounded by Stats NZ,statsnz_leed,2026-11-22,CC BY 4.0
+leed_median_quarterly_earnings,region,05,Gisborne Region,2003-01-01,2003-03-31,quarter,calendar,6870.0,NZD,median,Total,Total,Total,,rounded by Stats NZ,statsnz_leed,2026-11-22,CC BY 4.0
+leed_median_quarterly_earnings,region,05,Gisborne Region,2003-04-01,2003-06-30,quarter,calendar,7000.0,NZD,median,Total,Total,Total,,rounded by Stats NZ,statsnz_leed,2026-11-22,CC BY 4.0
+leed_median_quarterly_earnings,region,05,Gisborne Region,2003-07-01,2003-09-30,quarter,calendar,6940.0,NZD,median,Total,Total,Total,,rounded by Stats NZ,statsnz_leed,2026-11-22,CC BY 4.0
+leed_median_quarterly_earnings,region,05,Gisborne Region,2003-10-01,2003-12-31,quarter,calendar,7780.0,NZD,median,Total,Total,Total,,rounded by Stats NZ,statsnz_leed,2026-11-22,CC BY 4.0
+leed_median_quarterly_earnings,region,05,Gisborne Region,2004-01-01,2004-03-31,quarter,calendar,7410.0,NZD,median,Total,Total,Total,,rounded by Stats NZ,statsnz_leed,2026-11-22,CC BY 4.0
+leed_median_quarterly_earnings,region,05,Gisborne Region,2004-04-01,2004-06-30,quarter,calendar,7360.0,NZD,median,Total,Total,Total,,rounded by Stats NZ,statsnz_leed,2026-11-22,CC BY 4.0
+leed_median_quarterly_earnings,region,05,Gisborne Region,2004-07-01,2004-09-30,quarter,calendar,7330.0,NZD,median,Total,Total,Total,,rounded by Stats NZ,statsnz_leed,2026-11-22,CC BY 4.0
+leed_median_quarterly_earnings,region,05,Gisborne Region,2004-10-01,2004-12-31,quarter,calendar,7920.0,NZD,median,Total,Total,Total,,rounded by Stats NZ,statsnz_leed,2026-11-22,CC BY 4.0
+leed_median_quarterly_earnings,region,05,Gisborne Region,2005-01-01,2005-03-31,quarter,calendar,7620.0,NZD,median,Total,Total,Total,,rounded by Stats NZ,statsnz_leed,2026-11-22,CC BY 4.0
+leed_median_quarterly_earnings,region,05,Gisborne Region,2005-04-01,2005-06-30,quarter,calendar,7490.0,NZD,median,Total,Total,Total,,rounded by Stats NZ,statsnz_leed,2026-11-22,CC BY 4.0
+leed_median_quarterly_earnings,region,05,Gisborne Region,2005-07-01,2005-09-30,quarter,calendar,7660.0,NZD,median,Total,Total,Total,,rounded by Stats NZ,statsnz_leed,2026-11-22,CC BY 4.0
+leed_median_quarterly_earnings,region,05,Gisborne Region,2005-10-01,2005-12-31,quarter,calendar,8090.0,NZD,median,Total,Total,Total,,rounded by Stats NZ,statsnz_leed,2026-11-22,CC BY 4.0
+leed_median_quarterly_earnings,region,05,Gisborne Region,2006-01-01,2006-03-31,quarter,calendar,7880.0,NZD,median,Total,Total,Total,,rounded by Stats NZ,statsnz_leed,2026-11-22,CC BY 4.0
+leed_median_quarterly_earnings,region,05,Gisborne Region,2006-04-01,2006-06-30,quarter,calendar,7880.0,NZD,median,Total,Total,Total,,rounded by Stats NZ,statsnz_leed,2026-11-22,CC BY 4.0
+leed_median_quarterly_earnings,region,05,Gisborne Region,2006-07-01,2006-09-30,quarter,calendar,8000.0,NZD,median,Total,Total,Total,,rounded by Stats NZ,statsnz_leed,2026-11-22,CC BY 4.0
+leed_median_quarterly_earnings,region,05,Gisborne Region,2006-10-01,2006-12-31,quarter,calendar,8750.0,NZD,median,Total,Total,Total,,rounded by Stats NZ,statsnz_leed,2026-11-22,CC BY 4.0
+leed_median_quarterly_earnings,region,05,Gisborne Region,2007-01-01,2007-03-31,quarter,calendar,8190.0,NZD,median,Total,Total,Total,,rounded by Stats NZ,statsnz_leed,2026-11-22,CC BY 4.0
+leed_median_quarterly_earnings,region,05,Gisborne Region,2007-04-01,2007-06-30,quarter,calendar,8400.0,NZD,median,Total,Total,Total,,rounded by Stats NZ,statsnz_leed,2026-11-22,CC BY 4.0
+leed_median_quarterly_earnings,region,05,Gisborne Region,2007-07-01,2007-09-30,quarter,calendar,8440.0,NZD,median,Total,Total,Total,,rounded by Stats NZ,statsnz_leed,2026-11-22,CC BY 4.0
+leed_median_quarterly_earnings,region,05,Gisborne Region,2007-10-01,2007-12-31,quarter,calendar,9020.0,NZD,median,Total,Total,Total,,rounded by Stats NZ,statsnz_leed,2026-11-22,CC BY 4.0
+leed_median_quarterly_earnings,region,05,Gisborne Region,2008-01-01,2008-03-31,quarter,calendar,8560.0,NZD,median,Total,Total,Total,,rounded by Stats NZ,statsnz_leed,2026-11-22,CC BY 4.0
+leed_median_quarterly_earnings,region,05,Gisborne Region,2008-04-01,2008-06-30,quarter,calendar,8750.0,NZD,median,Total,Total,Total,,rounded by Stats NZ,statsnz_leed,2026-11-22,CC BY 4.0
+leed_median_quarterly_earnings,region,05,Gisborne Region,2008-07-01,2008-09-30,quarter,calendar,8840.0,NZD,median,Total,Total,Total,,rounded by Stats NZ,statsnz_leed,2026-11-22,CC BY 4.0
+leed_median_quarterly_earnings,region,05,Gisborne Region,2008-10-01,2008-12-31,quarter,calendar,9670.0,NZD,median,Total,Total,Total,,rounded by Stats NZ,statsnz_leed,2026-11-22,CC BY 4.0
+leed_median_quarterly_earnings,region,05,Gisborne Region,2009-01-01,2009-03-31,quarter,calendar,8750.0,NZD,median,Total,Total,Total,,rounded by Stats NZ,statsnz_leed,2026-11-22,CC BY 4.0
+leed_median_quarterly_earnings,region,05,Gisborne Region,2009-04-01,2009-06-30,quarter,calendar,8930.0,NZD,median,Total,Total,Total,,rounded by Stats NZ,statsnz_leed,2026-11-22,CC BY 4.0
+leed_median_quarterly_earnings,region,05,Gisborne Region,2009-07-01,2009-09-30,quarter,calendar,9240.0,NZD,median,Total,Total,Total,,rounded by Stats NZ,statsnz_leed,2026-11-22,CC BY 4.0
+leed_median_quarterly_earnings,region,05,Gisborne Region,2009-10-01,2009-12-31,quarter,calendar,9490.0,NZD,median,Total,Total,Total,,rounded by Stats NZ,statsnz_leed,2026-11-22,CC BY 4.0
+leed_median_quarterly_earnings,region,05,Gisborne Region,2010-01-01,2010-03-31,quarter,calendar,9100.0,NZD,median,Total,Total,Total,,rounded by Stats NZ,statsnz_leed,2026-11-22,CC BY 4.0
+leed_median_quarterly_earnings,region,05,Gisborne Region,2010-04-01,2010-06-30,quarter,calendar,9040.0,NZD,median,Total,Total,Total,,rounded by Stats NZ,statsnz_leed,2026-11-22,CC BY 4.0
+leed_median_quarterly_earnings,region,05,Gisborne Region,2010-07-01,2010-09-30,quarter,calendar,9240.0,NZD,median,Total,Total,Total,,rounded by Stats NZ,statsnz_leed,2026-11-22,CC BY 4.0
+leed_median_quarterly_earnings,region,05,Gisborne Region,2010-10-01,2010-12-31,quarter,calendar,9750.0,NZD,median,Total,Total,Total,,rounded by Stats NZ,statsnz_leed,2026-11-22,CC BY 4.0
+leed_median_quarterly_earnings,region,05,Gisborne Region,2011-01-01,2011-03-31,quarter,calendar,9400.0,NZD,median,Total,Total,Total,,rounded by Stats NZ,statsnz_leed,2026-11-22,CC BY 4.0
+leed_median_quarterly_earnings,region,05,Gisborne Region,2011-04-01,2011-06-30,quarter,calendar,9400.0,NZD,median,Total,Total,Total,,rounded by Stats NZ,statsnz_leed,2026-11-22,CC BY 4.0
+leed_median_quarterly_earnings,region,05,Gisborne Region,2011-07-01,2011-09-30,quarter,calendar,9420.0,NZD,median,Total,Total,Total,,rounded by Stats NZ,statsnz_leed,2026-11-22,CC BY 4.0
+leed_median_quarterly_earnings,region,05,Gisborne Region,2011-10-01,2011-12-31,quarter,calendar,10050.0,NZD,median,Total,Total,Total,,rounded by Stats NZ,statsnz_leed,2026-11-22,CC BY 4.0
+leed_median_quarterly_earnings,region,05,Gisborne Region,2012-01-01,2012-03-31,quarter,calendar,9600.0,NZD,median,Total,Total,Total,,rounded by Stats NZ,statsnz_leed,2026-11-22,CC BY 4.0
+leed_median_quarterly_earnings,region,05,Gisborne Region,2012-04-01,2012-06-30,quarter,calendar,9690.0,NZD,median,Total,Total,Total,,rounded by Stats NZ,statsnz_leed,2026-11-22,CC BY 4.0
+leed_median_quarterly_earnings,region,05,Gisborne Region,2012-07-01,2012-09-30,quarter,calendar,9600.0,NZD,median,Total,Total,Total,,rounded by Stats NZ,statsnz_leed,2026-11-22,CC BY 4.0
+leed_median_quarterly_earnings,region,05,Gisborne Region,2012-10-01,2012-12-31,quarter,calendar,10630.0,NZD,median,Total,Total,Total,,rounded by Stats NZ,statsnz_leed,2026-11-22,CC BY 4.0
+leed_median_quarterly_earnings,region,05,Gisborne Region,2013-01-01,2013-03-31,quarter,calendar,9920.0,NZD,median,Total,Total,Total,,rounded by Stats NZ,statsnz_leed,2026-11-22,CC BY 4.0
+leed_median_quarterly_earnings,region,05,Gisborne Region,2013-04-01,2013-06-30,quarter,calendar,9880.0,NZD,median,Total,Total,Total,,rounded by Stats NZ,statsnz_leed,2026-11-22,CC BY 4.0
+leed_median_quarterly_earnings,region,05,Gisborne Region,2013-07-01,2013-09-30,quarter,calendar,9890.0,NZD,median,Total,Total,Total,,rounded by Stats NZ,statsnz_leed,2026-11-22,CC BY 4.0
+leed_median_quarterly_earnings,region,05,Gisborne Region,2013-10-01,2013-12-31,quarter,calendar,11020.0,NZD,median,Total,Total,Total,,rounded by Stats NZ,statsnz_leed,2026-11-22,CC BY 4.0
+leed_median_quarterly_earnings,region,05,Gisborne Region,2014-01-01,2014-03-31,quarter,calendar,10080.0,NZD,median,Total,Total,Total,,rounded by Stats NZ,statsnz_leed,2026-11-22,CC BY 4.0
+leed_median_quarterly_earnings,region,05,Gisborne Region,2014-04-01,2014-06-30,quarter,calendar,10230.0,NZD,median,Total,Total,Total,,rounded by Stats NZ,statsnz_leed,2026-11-22,CC BY 4.0
+leed_median_quarterly_earnings,region,05,Gisborne Region,2014-07-01,2014-09-30,quarter,calendar,10400.0,NZD,median,Total,Total,Total,,rounded by Stats NZ,statsnz_leed,2026-11-22,CC BY 4.0
+leed_median_quarterly_earnings,region,05,Gisborne Region,2014-10-01,2014-12-31,quarter,calendar,11130.0,NZD,median,Total,Total,Total,,rounded by Stats NZ,statsnz_leed,2026-11-22,CC BY 4.0
+leed_median_quarterly_earnings,region,05,Gisborne Region,2015-01-01,2015-03-31,quarter,calendar,10180.0,NZD,median,Total,Total,Total,,rounded by Stats NZ,statsnz_leed,2026-11-22,CC BY 4.0
+leed_median_quarterly_earnings,region,05,Gisborne Region,2015-04-01,2015-06-30,quarter,calendar,10370.0,NZD,median,Total,Total,Total,,rounded by Stats NZ,statsnz_leed,2026-11-22,CC BY 4.0
+leed_median_quarterly_earnings,region,05,Gisborne Region,2015-07-01,2015-09-30,quarter,calendar,10660.0,NZD,median,Total,Total,Total,,rounded by Stats NZ,statsnz_leed,2026-11-22,CC BY 4.0
+leed_median_quarterly_earnings,region,05,Gisborne Region,2015-10-01,2015-12-31,quarter,calendar,10980.0,NZD,median,Total,Total,Total,,rounded by Stats NZ,statsnz_leed,2026-11-22,CC BY 4.0
+leed_median_quarterly_earnings,region,05,Gisborne Region,2016-01-01,2016-03-31,quarter,calendar,10730.0,NZD,median,Total,Total,Total,,rounded by Stats NZ,statsnz_leed,2026-11-22,CC BY 4.0
+leed_median_quarterly_earnings,region,05,Gisborne Region,2016-04-01,2016-06-30,quarter,calendar,10520.0,NZD,median,Total,Total,Total,,rounded by Stats NZ,statsnz_leed,2026-11-22,CC BY 4.0
+leed_median_quarterly_earnings,region,05,Gisborne Region,2016-07-01,2016-09-30,quarter,calendar,10620.0,NZD,median,Total,Total,Total,,rounded by Stats NZ,statsnz_leed,2026-11-22,CC BY 4.0
+leed_median_quarterly_earnings,region,05,Gisborne Region,2016-10-01,2016-12-31,quarter,calendar,11280.0,NZD,median,Total,Total,Total,,rounded by Stats NZ,statsnz_leed,2026-11-22,CC BY 4.0
+leed_median_quarterly_earnings,region,05,Gisborne Region,2017-01-01,2017-03-31,quarter,calendar,10890.0,NZD,median,Total,Total,Total,,rounded by Stats NZ,statsnz_leed,2026-11-22,CC BY 4.0
+leed_median_quarterly_earnings,region,05,Gisborne Region,2017-04-01,2017-06-30,quarter,calendar,11060.0,NZD,median,Total,Total,Total,,rounded by Stats NZ,statsnz_leed,2026-11-22,CC BY 4.0
+leed_median_quarterly_earnings,region,05,Gisborne Region,2017-07-01,2017-09-30,quarter,calendar,11140.0,NZD,median,Total,Total,Total,,rounded by Stats NZ,statsnz_leed,2026-11-22,CC BY 4.0
+leed_median_quarterly_earnings,region,05,Gisborne Region,2017-10-01,2017-12-31,quarter,calendar,11810.0,NZD,median,Total,Total,Total,,rounded by Stats NZ,statsnz_leed,2026-11-22,CC BY 4.0
+leed_median_quarterly_earnings,region,05,Gisborne Region,2018-01-01,2018-03-31,quarter,calendar,11310.0,NZD,median,Total,Total,Total,,rounded by Stats NZ,statsnz_leed,2026-11-22,CC BY 4.0
+leed_median_quarterly_earnings,region,05,Gisborne Region,2018-04-01,2018-06-30,quarter,calendar,11620.0,NZD,median,Total,Total,Total,,rounded by Stats NZ,statsnz_leed,2026-11-22,CC BY 4.0
+leed_median_quarterly_earnings,region,05,Gisborne Region,2018-07-01,2018-09-30,quarter,calendar,11750.0,NZD,median,Total,Total,Total,,rounded by Stats NZ,statsnz_leed,2026-11-22,CC BY 4.0
+leed_median_quarterly_earnings,region,05,Gisborne Region,2018-10-01,2018-12-31,quarter,calendar,12770.0,NZD,median,Total,Total,Total,,rounded by Stats NZ,statsnz_leed,2026-11-22,CC BY 4.0
+leed_median_quarterly_earnings,region,05,Gisborne Region,2019-01-01,2019-03-31,quarter,calendar,11660.0,NZD,median,Total,Total,Total,,rounded by Stats NZ,statsnz_leed,2026-11-22,CC BY 4.0
+leed_median_quarterly_earnings,region,05,Gisborne Region,2019-04-01,2019-06-30,quarter,calendar,12240.0,NZD,median,Total,Total,Total,,rounded by Stats NZ,statsnz_leed,2026-11-22,CC BY 4.0
+leed_median_quarterly_earnings,region,05,Gisborne Region,2019-07-01,2019-09-30,quarter,calendar,12250.0,NZD,median,Total,Total,Total,,rounded by Stats NZ,statsnz_leed,2026-11-22,CC BY 4.0
+leed_median_quarterly_earnings,region,05,Gisborne Region,2019-10-01,2019-12-31,quarter,calendar,13500.0,NZD,median,Total,Total,Total,,rounded by Stats NZ,statsnz_leed,2026-11-22,CC BY 4.0
+leed_median_quarterly_earnings,region,05,Gisborne Region,2020-01-01,2020-03-31,quarter,calendar,12370.0,NZD,median,Total,Total,Total,,rounded by Stats NZ,statsnz_leed,2026-11-22,CC BY 4.0
+leed_median_quarterly_earnings,region,05,Gisborne Region,2020-04-01,2020-06-30,quarter,calendar,12160.0,NZD,median,Total,Total,Total,,rounded by Stats NZ,statsnz_leed,2026-11-22,CC BY 4.0
+leed_median_quarterly_earnings,region,05,Gisborne Region,2020-07-01,2020-09-30,quarter,calendar,13260.0,NZD,median,Total,Total,Total,,rounded by Stats NZ,statsnz_leed,2026-11-22,CC BY 4.0
+leed_median_quarterly_earnings,region,05,Gisborne Region,2020-10-01,2020-12-31,quarter,calendar,13410.0,NZD,median,Total,Total,Total,,rounded by Stats NZ,statsnz_leed,2026-11-22,CC BY 4.0
+leed_median_quarterly_earnings,region,05,Gisborne Region,2021-01-01,2021-03-31,quarter,calendar,13090.0,NZD,median,Total,Total,Total,,rounded by Stats NZ,statsnz_leed,2026-11-22,CC BY 4.0
+leed_median_quarterly_earnings,region,05,Gisborne Region,2021-04-01,2021-06-30,quarter,calendar,13330.0,NZD,median,Total,Total,Total,,rounded by Stats NZ,statsnz_leed,2026-11-22,CC BY 4.0
+leed_median_quarterly_earnings,region,05,Gisborne Region,2021-07-01,2021-09-30,quarter,calendar,13660.0,NZD,median,Total,Total,Total,,rounded by Stats NZ,statsnz_leed,2026-11-22,CC BY 4.0
+leed_median_quarterly_earnings,region,05,Gisborne Region,2021-10-01,2021-12-31,quarter,calendar,14580.0,NZD,median,Total,Total,Total,,rounded by Stats NZ,statsnz_leed,2026-11-22,CC BY 4.0
+leed_median_quarterly_earnings,region,05,Gisborne Region,2022-01-01,2022-03-31,quarter,calendar,14070.0,NZD,median,Total,Total,Total,,rounded by Stats NZ,statsnz_leed,2026-11-22,CC BY 4.0
+leed_median_quarterly_earnings,region,05,Gisborne Region,2022-04-01,2022-06-30,quarter,calendar,14240.0,NZD,median,Total,Total,Total,,rounded by Stats NZ,statsnz_leed,2026-11-22,CC BY 4.0
+leed_median_quarterly_earnings,region,05,Gisborne Region,2022-07-01,2022-09-30,quarter,calendar,14560.0,NZD,median,Total,Total,Total,,rounded by Stats NZ,statsnz_leed,2026-11-22,CC BY 4.0
+leed_median_quarterly_earnings,region,05,Gisborne Region,2022-10-01,2022-12-31,quarter,calendar,15150.0,NZD,median,Total,Total,Total,,rounded by Stats NZ,statsnz_leed,2026-11-22,CC BY 4.0
+leed_median_quarterly_earnings,region,05,Gisborne Region,2023-01-01,2023-03-31,quarter,calendar,14650.0,NZD,median,Total,Total,Total,,rounded by Stats NZ,statsnz_leed,2026-11-22,CC BY 4.0
+leed_median_quarterly_earnings,region,05,Gisborne Region,2023-04-01,2023-06-30,quarter,calendar,15220.0,NZD,median,Total,Total,Total,,rounded by Stats NZ,statsnz_leed,2026-11-22,CC BY 4.0
+leed_median_quarterly_earnings,region,05,Gisborne Region,2023-07-01,2023-09-30,quarter,calendar,15580.0,NZD,median,Total,Total,Total,,rounded by Stats NZ,statsnz_leed,2026-11-22,CC BY 4.0
+leed_median_quarterly_earnings,region,05,Gisborne Region,2023-10-01,2023-12-31,quarter,calendar,16300.0,NZD,median,Total,Total,Total,,rounded by Stats NZ,statsnz_leed,2026-11-22,CC BY 4.0
+leed_median_quarterly_earnings,region,05,Gisborne Region,2024-01-01,2024-03-31,quarter,calendar,15750.0,NZD,median,Total,Total,Total,,rounded by Stats NZ,statsnz_leed,2026-11-22,CC BY 4.0
+leed_median_quarterly_earnings,region,05,Gisborne Region,2024-04-01,2024-06-30,quarter,calendar,15670.0,NZD,median,Total,Total,Total,,rounded by Stats NZ,statsnz_leed,2026-11-22,CC BY 4.0
+leed_median_quarterly_earnings,region,05,Gisborne Region,2024-07-01,2024-09-30,quarter,calendar,15940.0,NZD,median,Total,Total,Total,,rounded by Stats NZ,statsnz_leed,2026-11-22,CC BY 4.0
+leed_median_quarterly_earnings,region,05,Gisborne Region,2024-10-01,2024-12-31,quarter,calendar,17350.0,NZD,median,Total,Total,Total,,rounded by Stats NZ,statsnz_leed,2026-11-22,CC BY 4.0
+leed_median_quarterly_earnings,region,05,Gisborne Region,2025-01-01,2025-03-31,quarter,calendar,15600.0,NZD,median,Total,Total,Total,,rounded by Stats NZ,statsnz_leed,2026-11-22,CC BY 4.0
+leed_median_quarterly_earnings,region,05,Gisborne Region,2025-04-01,2025-06-30,quarter,calendar,16240.0,NZD,median,Total,Total,Total,,rounded by Stats NZ,statsnz_leed,2026-11-22,CC BY 4.0
+leed_worker_turnover_rate,region,05,Gisborne Region,1999-07-01,1999-09-30,quarter,calendar,21.7,percent,rate,Total,Total,Total,,,statsnz_leed,2026-11-22,CC BY 4.0
+leed_worker_turnover_rate,region,05,Gisborne Region,1999-10-01,1999-12-31,quarter,calendar,19.6,percent,rate,Total,Total,Total,,,statsnz_leed,2026-11-22,CC BY 4.0
+leed_worker_turnover_rate,region,05,Gisborne Region,2000-01-01,2000-03-31,quarter,calendar,27.2,percent,rate,Total,Total,Total,,,statsnz_leed,2026-11-22,CC BY 4.0
+leed_worker_turnover_rate,region,05,Gisborne Region,2000-04-01,2000-06-30,quarter,calendar,23.5,percent,rate,Total,Total,Total,,,statsnz_leed,2026-11-22,CC BY 4.0
+leed_worker_turnover_rate,region,05,Gisborne Region,2000-07-01,2000-09-30,quarter,calendar,20.4,percent,rate,Total,Total,Total,,,statsnz_leed,2026-11-22,CC BY 4.0
+leed_worker_turnover_rate,region,05,Gisborne Region,2000-10-01,2000-12-31,quarter,calendar,19.5,percent,rate,Total,Total,Total,,,statsnz_leed,2026-11-22,CC BY 4.0
+leed_worker_turnover_rate,region,05,Gisborne Region,2001-01-01,2001-03-31,quarter,calendar,28.8,percent,rate,Total,Total,Total,,,statsnz_leed,2026-11-22,CC BY 4.0
+leed_worker_turnover_rate,region,05,Gisborne Region,2001-04-01,2001-06-30,quarter,calendar,24.2,percent,rate,Total,Total,Total,,,statsnz_leed,2026-11-22,CC BY 4.0
+leed_worker_turnover_rate,region,05,Gisborne Region,2001-07-01,2001-09-30,quarter,calendar,21.7,percent,rate,Total,Total,Total,,,statsnz_leed,2026-11-22,CC BY 4.0
+leed_worker_turnover_rate,region,05,Gisborne Region,2001-10-01,2001-12-31,quarter,calendar,19.1,percent,rate,Total,Total,Total,,,statsnz_leed,2026-11-22,CC BY 4.0
+leed_worker_turnover_rate,region,05,Gisborne Region,2002-01-01,2002-03-31,quarter,calendar,25.2,percent,rate,Total,Total,Total,,,statsnz_leed,2026-11-22,CC BY 4.0
+leed_worker_turnover_rate,region,05,Gisborne Region,2002-04-01,2002-06-30,quarter,calendar,24.4,percent,rate,Total,Total,Total,,,statsnz_leed,2026-11-22,CC BY 4.0
+leed_worker_turnover_rate,region,05,Gisborne Region,2002-07-01,2002-09-30,quarter,calendar,20.8,percent,rate,Total,Total,Total,,,statsnz_leed,2026-11-22,CC BY 4.0
+leed_worker_turnover_rate,region,05,Gisborne Region,2002-10-01,2002-12-31,quarter,calendar,19.4,percent,rate,Total,Total,Total,,,statsnz_leed,2026-11-22,CC BY 4.0
+leed_worker_turnover_rate,region,05,Gisborne Region,2003-01-01,2003-03-31,quarter,calendar,23.3,percent,rate,Total,Total,Total,,,statsnz_leed,2026-11-22,CC BY 4.0
+leed_worker_turnover_rate,region,05,Gisborne Region,2003-04-01,2003-06-30,quarter,calendar,23.7,percent,rate,Total,Total,Total,,,statsnz_leed,2026-11-22,CC BY 4.0
+leed_worker_turnover_rate,region,05,Gisborne Region,2003-07-01,2003-09-30,quarter,calendar,19.5,percent,rate,Total,Total,Total,,,statsnz_leed,2026-11-22,CC BY 4.0
+leed_worker_turnover_rate,region,05,Gisborne Region,2003-10-01,2003-12-31,quarter,calendar,19.5,percent,rate,Total,Total,Total,,,statsnz_leed,2026-11-22,CC BY 4.0
+leed_worker_turnover_rate,region,05,Gisborne Region,2004-01-01,2004-03-31,quarter,calendar,23.9,percent,rate,Total,Total,Total,,,statsnz_leed,2026-11-22,CC BY 4.0
+leed_worker_turnover_rate,region,05,Gisborne Region,2004-04-01,2004-06-30,quarter,calendar,23.0,percent,rate,Total,Total,Total,,,statsnz_leed,2026-11-22,CC BY 4.0
+leed_worker_turnover_rate,region,05,Gisborne Region,2004-07-01,2004-09-30,quarter,calendar,19.4,percent,rate,Total,Total,Total,,,statsnz_leed,2026-11-22,CC BY 4.0
+leed_worker_turnover_rate,region,05,Gisborne Region,2004-10-01,2004-12-31,quarter,calendar,18.8,percent,rate,Total,Total,Total,,,statsnz_leed,2026-11-22,CC BY 4.0
+leed_worker_turnover_rate,region,05,Gisborne Region,2005-01-01,2005-03-31,quarter,calendar,24.5,percent,rate,Total,Total,Total,,,statsnz_leed,2026-11-22,CC BY 4.0
+leed_worker_turnover_rate,region,05,Gisborne Region,2005-04-01,2005-06-30,quarter,calendar,24.8,percent,rate,Total,Total,Total,,,statsnz_leed,2026-11-22,CC BY 4.0
+leed_worker_turnover_rate,region,05,Gisborne Region,2005-07-01,2005-09-30,quarter,calendar,20.9,percent,rate,Total,Total,Total,,,statsnz_leed,2026-11-22,CC BY 4.0
+leed_worker_turnover_rate,region,05,Gisborne Region,2005-10-01,2005-12-31,quarter,calendar,19.5,percent,rate,Total,Total,Total,,,statsnz_leed,2026-11-22,CC BY 4.0
+leed_worker_turnover_rate,region,05,Gisborne Region,2006-01-01,2006-03-31,quarter,calendar,22.9,percent,rate,Total,Total,Total,,,statsnz_leed,2026-11-22,CC BY 4.0
+leed_worker_turnover_rate,region,05,Gisborne Region,2006-04-01,2006-06-30,quarter,calendar,23.0,percent,rate,Total,Total,Total,,,statsnz_leed,2026-11-22,CC BY 4.0
+leed_worker_turnover_rate,region,05,Gisborne Region,2006-07-01,2006-09-30,quarter,calendar,19.4,percent,rate,Total,Total,Total,,,statsnz_leed,2026-11-22,CC BY 4.0
+leed_worker_turnover_rate,region,05,Gisborne Region,2006-10-01,2006-12-31,quarter,calendar,20.3,percent,rate,Total,Total,Total,,,statsnz_leed,2026-11-22,CC BY 4.0
+leed_worker_turnover_rate,region,05,Gisborne Region,2007-01-01,2007-03-31,quarter,calendar,22.9,percent,rate,Total,Total,Total,,,statsnz_leed,2026-11-22,CC BY 4.0
+leed_worker_turnover_rate,region,05,Gisborne Region,2007-04-01,2007-06-30,quarter,calendar,22.6,percent,rate,Total,Total,Total,,,statsnz_leed,2026-11-22,CC BY 4.0
+leed_worker_turnover_rate,region,05,Gisborne Region,2007-07-01,2007-09-30,quarter,calendar,20.0,percent,rate,Total,Total,Total,,,statsnz_leed,2026-11-22,CC BY 4.0
+leed_worker_turnover_rate,region,05,Gisborne Region,2007-10-01,2007-12-31,quarter,calendar,19.6,percent,rate,Total,Total,Total,,,statsnz_leed,2026-11-22,CC BY 4.0
+leed_worker_turnover_rate,region,05,Gisborne Region,2008-01-01,2008-03-31,quarter,calendar,22.8,percent,rate,Total,Total,Total,,,statsnz_leed,2026-11-22,CC BY 4.0
+leed_worker_turnover_rate,region,05,Gisborne Region,2008-04-01,2008-06-30,quarter,calendar,22.8,percent,rate,Total,Total,Total,,,statsnz_leed,2026-11-22,CC BY 4.0
+leed_worker_turnover_rate,region,05,Gisborne Region,2008-07-01,2008-09-30,quarter,calendar,18.4,percent,rate,Total,Total,Total,,,statsnz_leed,2026-11-22,CC BY 4.0
+leed_worker_turnover_rate,region,05,Gisborne Region,2008-10-01,2008-12-31,quarter,calendar,17.8,percent,rate,Total,Total,Total,,,statsnz_leed,2026-11-22,CC BY 4.0
+leed_worker_turnover_rate,region,05,Gisborne Region,2009-01-01,2009-03-31,quarter,calendar,21.3,percent,rate,Total,Total,Total,,,statsnz_leed,2026-11-22,CC BY 4.0
+leed_worker_turnover_rate,region,05,Gisborne Region,2009-04-01,2009-06-30,quarter,calendar,20.7,percent,rate,Total,Total,Total,,,statsnz_leed,2026-11-22,CC BY 4.0
+leed_worker_turnover_rate,region,05,Gisborne Region,2009-07-01,2009-09-30,quarter,calendar,16.7,percent,rate,Total,Total,Total,,,statsnz_leed,2026-11-22,CC BY 4.0
+leed_worker_turnover_rate,region,05,Gisborne Region,2009-10-01,2009-12-31,quarter,calendar,17.4,percent,rate,Total,Total,Total,,,statsnz_leed,2026-11-22,CC BY 4.0
+leed_worker_turnover_rate,region,05,Gisborne Region,2010-01-01,2010-03-31,quarter,calendar,22.9,percent,rate,Total,Total,Total,,,statsnz_leed,2026-11-22,CC BY 4.0
+leed_worker_turnover_rate,region,05,Gisborne Region,2010-04-01,2010-06-30,quarter,calendar,23.7,percent,rate,Total,Total,Total,,,statsnz_leed,2026-11-22,CC BY 4.0
+leed_worker_turnover_rate,region,05,Gisborne Region,2010-07-01,2010-09-30,quarter,calendar,17.6,percent,rate,Total,Total,Total,,,statsnz_leed,2026-11-22,CC BY 4.0
+leed_worker_turnover_rate,region,05,Gisborne Region,2010-10-01,2010-12-31,quarter,calendar,17.9,percent,rate,Total,Total,Total,,,statsnz_leed,2026-11-22,CC BY 4.0
+leed_worker_turnover_rate,region,05,Gisborne Region,2011-01-01,2011-03-31,quarter,calendar,22.4,percent,rate,Total,Total,Total,,,statsnz_leed,2026-11-22,CC BY 4.0
+leed_worker_turnover_rate,region,05,Gisborne Region,2011-04-01,2011-06-30,quarter,calendar,21.4,percent,rate,Total,Total,Total,,,statsnz_leed,2026-11-22,CC BY 4.0
+leed_worker_turnover_rate,region,05,Gisborne Region,2011-07-01,2011-09-30,quarter,calendar,17.5,percent,rate,Total,Total,Total,,,statsnz_leed,2026-11-22,CC BY 4.0
+leed_worker_turnover_rate,region,05,Gisborne Region,2011-10-01,2011-12-31,quarter,calendar,17.6,percent,rate,Total,Total,Total,,,statsnz_leed,2026-11-22,CC BY 4.0
+leed_worker_turnover_rate,region,05,Gisborne Region,2012-01-01,2012-03-31,quarter,calendar,22.2,percent,rate,Total,Total,Total,,,statsnz_leed,2026-11-22,CC BY 4.0
+leed_worker_turnover_rate,region,05,Gisborne Region,2012-04-01,2012-06-30,quarter,calendar,20.6,percent,rate,Total,Total,Total,,,statsnz_leed,2026-11-22,CC BY 4.0
+leed_worker_turnover_rate,region,05,Gisborne Region,2012-07-01,2012-09-30,quarter,calendar,16.8,percent,rate,Total,Total,Total,,,statsnz_leed,2026-11-22,CC BY 4.0
+leed_worker_turnover_rate,region,05,Gisborne Region,2012-10-01,2012-12-31,quarter,calendar,16.4,percent,rate,Total,Total,Total,,,statsnz_leed,2026-11-22,CC BY 4.0
+leed_worker_turnover_rate,region,05,Gisborne Region,2013-01-01,2013-03-31,quarter,calendar,20.4,percent,rate,Total,Total,Total,,,statsnz_leed,2026-11-22,CC BY 4.0
+leed_worker_turnover_rate,region,05,Gisborne Region,2013-04-01,2013-06-30,quarter,calendar,20.1,percent,rate,Total,Total,Total,,,statsnz_leed,2026-11-22,CC BY 4.0
+leed_worker_turnover_rate,region,05,Gisborne Region,2013-07-01,2013-09-30,quarter,calendar,17.7,percent,rate,Total,Total,Total,,,statsnz_leed,2026-11-22,CC BY 4.0
+leed_worker_turnover_rate,region,05,Gisborne Region,2013-10-01,2013-12-31,quarter,calendar,16.5,percent,rate,Total,Total,Total,,,statsnz_leed,2026-11-22,CC BY 4.0
+leed_worker_turnover_rate,region,05,Gisborne Region,2014-01-01,2014-03-31,quarter,calendar,21.1,percent,rate,Total,Total,Total,,,statsnz_leed,2026-11-22,CC BY 4.0
+leed_worker_turnover_rate,region,05,Gisborne Region,2014-04-01,2014-06-30,quarter,calendar,19.9,percent,rate,Total,Total,Total,,,statsnz_leed,2026-11-22,CC BY 4.0
+leed_worker_turnover_rate,region,05,Gisborne Region,2014-07-01,2014-09-30,quarter,calendar,17.3,percent,rate,Total,Total,Total,,,statsnz_leed,2026-11-22,CC BY 4.0
+leed_worker_turnover_rate,region,05,Gisborne Region,2014-10-01,2014-12-31,quarter,calendar,16.9,percent,rate,Total,Total,Total,,,statsnz_leed,2026-11-22,CC BY 4.0
+leed_worker_turnover_rate,region,05,Gisborne Region,2015-01-01,2015-03-31,quarter,calendar,20.1,percent,rate,Total,Total,Total,,,statsnz_leed,2026-11-22,CC BY 4.0
+leed_worker_turnover_rate,region,05,Gisborne Region,2015-04-01,2015-06-30,quarter,calendar,19.8,percent,rate,Total,Total,Total,,,statsnz_leed,2026-11-22,CC BY 4.0
+leed_worker_turnover_rate,region,05,Gisborne Region,2015-07-01,2015-09-30,quarter,calendar,17.1,percent,rate,Total,Total,Total,,,statsnz_leed,2026-11-22,CC BY 4.0
+leed_worker_turnover_rate,region,05,Gisborne Region,2015-10-01,2015-12-31,quarter,calendar,16.6,percent,rate,Total,Total,Total,,,statsnz_leed,2026-11-22,CC BY 4.0
+leed_worker_turnover_rate,region,05,Gisborne Region,2016-01-01,2016-03-31,quarter,calendar,21.2,percent,rate,Total,Total,Total,,,statsnz_leed,2026-11-22,CC BY 4.0
+leed_worker_turnover_rate,region,05,Gisborne Region,2016-04-01,2016-06-30,quarter,calendar,20.7,percent,rate,Total,Total,Total,,,statsnz_leed,2026-11-22,CC BY 4.0
+leed_worker_turnover_rate,region,05,Gisborne Region,2016-07-01,2016-09-30,quarter,calendar,18.0,percent,rate,Total,Total,Total,,,statsnz_leed,2026-11-22,CC BY 4.0
+leed_worker_turnover_rate,region,05,Gisborne Region,2016-10-01,2016-12-31,quarter,calendar,17.9,percent,rate,Total,Total,Total,,,statsnz_leed,2026-11-22,CC BY 4.0
+leed_worker_turnover_rate,region,05,Gisborne Region,2017-01-01,2017-03-31,quarter,calendar,23.2,percent,rate,Total,Total,Total,,,statsnz_leed,2026-11-22,CC BY 4.0
+leed_worker_turnover_rate,region,05,Gisborne Region,2017-04-01,2017-06-30,quarter,calendar,22.6,percent,rate,Total,Total,Total,,,statsnz_leed,2026-11-22,CC BY 4.0
+leed_worker_turnover_rate,region,05,Gisborne Region,2017-07-01,2017-09-30,quarter,calendar,17.6,percent,rate,Total,Total,Total,,,statsnz_leed,2026-11-22,CC BY 4.0
+leed_worker_turnover_rate,region,05,Gisborne Region,2017-10-01,2017-12-31,quarter,calendar,16.6,percent,rate,Total,Total,Total,,,statsnz_leed,2026-11-22,CC BY 4.0
+leed_worker_turnover_rate,region,05,Gisborne Region,2018-01-01,2018-03-31,quarter,calendar,22.3,percent,rate,Total,Total,Total,,,statsnz_leed,2026-11-22,CC BY 4.0
+leed_worker_turnover_rate,region,05,Gisborne Region,2018-04-01,2018-06-30,quarter,calendar,19.4,percent,rate,Total,Total,Total,,,statsnz_leed,2026-11-22,CC BY 4.0
+leed_worker_turnover_rate,region,05,Gisborne Region,2018-07-01,2018-09-30,quarter,calendar,17.0,percent,rate,Total,Total,Total,,,statsnz_leed,2026-11-22,CC BY 4.0
+leed_worker_turnover_rate,region,05,Gisborne Region,2018-10-01,2018-12-31,quarter,calendar,16.5,percent,rate,Total,Total,Total,,,statsnz_leed,2026-11-22,CC BY 4.0
+leed_worker_turnover_rate,region,05,Gisborne Region,2019-01-01,2019-03-31,quarter,calendar,19.5,percent,rate,Total,Total,Total,,,statsnz_leed,2026-11-22,CC BY 4.0
+leed_worker_turnover_rate,region,05,Gisborne Region,2019-04-01,2019-06-30,quarter,calendar,18.6,percent,rate,Total,Total,Total,,,statsnz_leed,2026-11-22,CC BY 4.0
+leed_worker_turnover_rate,region,05,Gisborne Region,2019-07-01,2019-09-30,quarter,calendar,16.7,percent,rate,Total,Total,Total,,,statsnz_leed,2026-11-22,CC BY 4.0
+leed_worker_turnover_rate,region,05,Gisborne Region,2019-10-01,2019-12-31,quarter,calendar,16.6,percent,rate,Total,Total,Total,,,statsnz_leed,2026-11-22,CC BY 4.0
+leed_worker_turnover_rate,region,05,Gisborne Region,2020-01-01,2020-03-31,quarter,calendar,18.6,percent,rate,Total,Total,Total,,,statsnz_leed,2026-11-22,CC BY 4.0
+leed_worker_turnover_rate,region,05,Gisborne Region,2020-04-01,2020-06-30,quarter,calendar,16.4,percent,rate,Total,Total,Total,,,statsnz_leed,2026-11-22,CC BY 4.0
+leed_worker_turnover_rate,region,05,Gisborne Region,2020-07-01,2020-09-30,quarter,calendar,16.2,percent,rate,Total,Total,Total,,,statsnz_leed,2026-11-22,CC BY 4.0
+leed_worker_turnover_rate,region,05,Gisborne Region,2020-10-01,2020-12-31,quarter,calendar,16.7,percent,rate,Total,Total,Total,,,statsnz_leed,2026-11-22,CC BY 4.0
+leed_worker_turnover_rate,region,05,Gisborne Region,2021-01-01,2021-03-31,quarter,calendar,18.9,percent,rate,Total,Total,Total,,,statsnz_leed,2026-11-22,CC BY 4.0
+leed_worker_turnover_rate,region,05,Gisborne Region,2021-04-01,2021-06-30,quarter,calendar,20.0,percent,rate,Total,Total,Total,,,statsnz_leed,2026-11-22,CC BY 4.0
+leed_worker_turnover_rate,region,05,Gisborne Region,2021-07-01,2021-09-30,quarter,calendar,16.7,percent,rate,Total,Total,Total,,,statsnz_leed,2026-11-22,CC BY 4.0
+leed_worker_turnover_rate,region,05,Gisborne Region,2021-10-01,2021-12-31,quarter,calendar,16.7,percent,rate,Total,Total,Total,,,statsnz_leed,2026-11-22,CC BY 4.0
+leed_worker_turnover_rate,region,05,Gisborne Region,2022-01-01,2022-03-31,quarter,calendar,19.2,percent,rate,Total,Total,Total,,,statsnz_leed,2026-11-22,CC BY 4.0
+leed_worker_turnover_rate,region,05,Gisborne Region,2022-04-01,2022-06-30,quarter,calendar,19.1,percent,rate,Total,Total,Total,,,statsnz_leed,2026-11-22,CC BY 4.0
+leed_worker_turnover_rate,region,05,Gisborne Region,2022-07-01,2022-09-30,quarter,calendar,16.6,percent,rate,Total,Total,Total,,,statsnz_leed,2026-11-22,CC BY 4.0
+leed_worker_turnover_rate,region,05,Gisborne Region,2022-10-01,2022-12-31,quarter,calendar,17.1,percent,rate,Total,Total,Total,,,statsnz_leed,2026-11-22,CC BY 4.0
+leed_worker_turnover_rate,region,05,Gisborne Region,2023-01-01,2023-03-31,quarter,calendar,18.3,percent,rate,Total,Total,Total,,,statsnz_leed,2026-11-22,CC BY 4.0
+leed_worker_turnover_rate,region,05,Gisborne Region,2023-04-01,2023-06-30,quarter,calendar,20.2,percent,rate,Total,Total,Total,,,statsnz_leed,2026-11-22,CC BY 4.0
+leed_worker_turnover_rate,region,05,Gisborne Region,2023-07-01,2023-09-30,quarter,calendar,16.1,percent,rate,Total,Total,Total,,,statsnz_leed,2026-11-22,CC BY 4.0
+leed_worker_turnover_rate,region,05,Gisborne Region,2023-10-01,2023-12-31,quarter,calendar,16.7,percent,rate,Total,Total,Total,,,statsnz_leed,2026-11-22,CC BY 4.0
+leed_worker_turnover_rate,region,05,Gisborne Region,2024-01-01,2024-03-31,quarter,calendar,19.4,percent,rate,Total,Total,Total,,,statsnz_leed,2026-11-22,CC BY 4.0
+leed_worker_turnover_rate,region,05,Gisborne Region,2024-04-01,2024-06-30,quarter,calendar,19.6,percent,rate,Total,Total,Total,,,statsnz_leed,2026-11-22,CC BY 4.0
+leed_worker_turnover_rate,region,05,Gisborne Region,2024-07-01,2024-09-30,quarter,calendar,15.3,percent,rate,Total,Total,Total,,,statsnz_leed,2026-11-22,CC BY 4.0
+leed_worker_turnover_rate,region,05,Gisborne Region,2024-10-01,2024-12-31,quarter,calendar,14.7,percent,rate,Total,Total,Total,,,statsnz_leed,2026-11-22,CC BY 4.0
+leed_worker_turnover_rate,region,05,Gisborne Region,2025-01-01,2025-03-31,quarter,calendar,16.6,percent,rate,Total,Total,Total,,,statsnz_leed,2026-11-22,CC BY 4.0
+leed_worker_turnover_rate,region,05,Gisborne Region,2025-04-01,2025-06-30,quarter,calendar,17.3,percent,rate,Total,Total,Total,,,statsnz_leed,2026-11-22,CC BY 4.0
 gisborne_building_consent_value,ta,028,Gisborne District,1990-04-01,1990-04-30,month,calendar,1003730.0,NZD,count,Total,Total,Total,,,statsnz_monthly,2026-11-20,CC BY 4.0
 gisborne_building_consent_value,ta,028,Gisborne District,1990-05-01,1990-05-31,month,calendar,1117654.0,NZD,count,Total,Total,Total,,,statsnz_monthly,2026-11-20,CC BY 4.0
 gisborne_building_consent_value,ta,028,Gisborne District,1990-06-01,1990-06-30,month,calendar,1695685.0,NZD,count,Total,Total,Total,,,statsnz_monthly,2026-11-20,CC BY 4.0
