@@ -1,4 +1,14 @@
 indicator_id,name,domain,topic,direction,headline,format,caveat,display
+sa2_population,Usually resident population,Hapori,Population and age,neutral,False,int,Census usually resident population count.,places
+sa2_under_15,People aged under 15,Hapori,Population and age,neutral,False,pct,Share of the Census usually resident population.,places
+sa2_age_65_plus,People aged 65 and over,Hapori,Population and age,neutral,False,pct,Share of the Census usually resident population.,places
+sa2_maori_ethnicity,Māori ethnicity,Hapori,Identity and language,neutral,False,pct,Share of people with a stated ethnicity. People can identify with more than one ethnicity.,places
+sa2_te_reo_maori,People who speak te reo Māori,Hapori,Identity and language,neutral,False,pct,Share of people with a stated language response who can hold an everyday conversation in te reo Māori.,places
+sa2_median_household_income,Median household income,Hapori,Income and housing,neutral,False,currency,"Median annual total household income in New Zealand dollars, for households in occupied private dwellings.",places
+sa2_home_ownership,Home owned or held in a family trust,Hapori,Income and housing,neutral,False,pct,"Share of households with stated tenure whose dwelling is owned, partly owned, or held in a family trust.",places
+sa2_household_crowding,Households that are crowded,Hapori,Income and housing,neutral,False,pct,Share of households with a stated crowding status that need at least one more bedroom under the Canadian National Occupancy Standard.,places
+sa2_dwelling_dampness,Dwellings that are damp,Hapori,Income and housing,neutral,False,pct,Share of occupied private dwellings with a stated response that are sometimes or always damp.,places
+sa2_internet_access,Households with internet access,Hapori,Income and housing,neutral,False,pct,Share of households with a stated telecommunications response that have internet access.,places
 gisborne_stand_down_cases,School stand-downs,Mātauranga,School disciplinary decisions,neutral,False,int,Published cases at schools in Gisborne District. Case counts describe school decisions and may count a student more than once.,
 gisborne_suspension_cases,School suspensions,Mātauranga,School disciplinary decisions,neutral,False,int,Published cases at schools in Gisborne District. Case counts describe school decisions and may count a student more than once.,
 gisborne_exclusion_cases,School exclusions,Mātauranga,School disciplinary decisions,neutral,False,int,Published cases at schools in Gisborne District. Exclusion is the formal removal of a student under 16.,

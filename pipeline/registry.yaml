@@ -173,7 +173,115 @@ sources:
     cadence: annual
     check_every_days: 7
 
+  statsnz_sa2:
+    name: Stats NZ – Census totals by topic for statistical areas
+    url: https://datafinder.stats.govt.nz/layer/120897-2023-census-totals-by-topic-for-individuals-by-statistical-area-2-part-1/
+    attribution: "Contains Census data from Stats NZ, licensed under CC BY 4.0."
+    cadence: five-yearly
+    check_every_days: 30
+
 indicators:
+  sa2_population:
+    name: Usually resident population
+    domain: Hapori
+    topic: Population and age
+    direction: neutral
+    headline: false
+    format: int
+    display: places
+    url: https://datafinder.stats.govt.nz/layer/120897-2023-census-totals-by-topic-for-individuals-by-statistical-area-2-part-1/
+    caveat: "Census usually resident population count."
+  sa2_under_15:
+    name: People aged under 15
+    domain: Hapori
+    topic: Population and age
+    direction: neutral
+    headline: false
+    format: pct
+    display: places
+    url: https://datafinder.stats.govt.nz/layer/120897-2023-census-totals-by-topic-for-individuals-by-statistical-area-2-part-1/
+    caveat: "Share of the Census usually resident population."
+  sa2_age_65_plus:
+    name: People aged 65 and over
+    domain: Hapori
+    topic: Population and age
+    direction: neutral
+    headline: false
+    format: pct
+    display: places
+    url: https://datafinder.stats.govt.nz/layer/120897-2023-census-totals-by-topic-for-individuals-by-statistical-area-2-part-1/
+    caveat: "Share of the Census usually resident population."
+  sa2_maori_ethnicity:
+    name: Māori ethnicity
+    domain: Hapori
+    topic: Identity and language
+    direction: neutral
+    headline: false
+    format: pct
+    display: places
+    url: https://datafinder.stats.govt.nz/layer/120897-2023-census-totals-by-topic-for-individuals-by-statistical-area-2-part-1/
+    caveat: "Share of people with a stated ethnicity. People can identify with more than one ethnicity."
+  sa2_te_reo_maori:
+    name: People who speak te reo Māori
+    domain: Hapori
+    topic: Identity and language
+    direction: neutral
+    headline: false
+    format: pct
+    display: places
+    url: https://datafinder.stats.govt.nz/layer/120897-2023-census-totals-by-topic-for-individuals-by-statistical-area-2-part-1/
+    caveat: "Share of people with a stated language response who can hold an everyday conversation in te reo Māori."
+  sa2_median_household_income:
+    name: Median household income
+    domain: Hapori
+    topic: Income and housing
+    direction: neutral
+    headline: false
+    format: currency
+    display: places
+    url: https://services2.arcgis.com/vKb0s8tBIA3bdocZ/ArcGIS/rest/services/2023_Census_totals_by_topic_for_households_by_SA2/FeatureServer/1
+    caveat: "Median annual total household income in New Zealand dollars, for households in occupied private dwellings."
+  sa2_home_ownership:
+    name: Home owned or held in a family trust
+    domain: Hapori
+    topic: Income and housing
+    direction: neutral
+    headline: false
+    format: pct
+    display: places
+    url: https://services2.arcgis.com/vKb0s8tBIA3bdocZ/ArcGIS/rest/services/2023_Census_totals_by_topic_for_households_by_SA2/FeatureServer/1
+    caveat: "Share of households with stated tenure whose dwelling is owned, partly owned, or held in a family trust."
+  sa2_household_crowding:
+    name: Households that are crowded
+    domain: Hapori
+    topic: Income and housing
+    direction: neutral
+    headline: false
+    format: pct
+    display: places
+    url: https://services2.arcgis.com/vKb0s8tBIA3bdocZ/ArcGIS/rest/services/2023_Census_totals_by_topic_for_households_by_SA2/FeatureServer/1
+    caveat: "Share of households with a stated crowding status that need at least one more bedroom under the Canadian National Occupancy Standard."
+  sa2_dwelling_dampness:
+    name: Dwellings that are damp
+    domain: Hapori
+    topic: Income and housing
+    direction: neutral
+    headline: false
+    format: pct
+    display: places
+    url: https://datafinder.stats.govt.nz/layer/120853-2023-census-totals-by-topic-for-dwellings-by-statistical-area-2/
+    caveat: "Share of occupied private dwellings with a stated response that are sometimes or always damp."
+  sa2_internet_access:
+    name: Households with internet access
+    domain: Hapori
+    topic: Income and housing
+    direction: neutral
+    headline: false
+    format: pct
+    display: places
+    url: https://services2.arcgis.com/vKb0s8tBIA3bdocZ/ArcGIS/rest/services/2023_Census_totals_by_topic_for_households_by_SA2/FeatureServer/1
+    caveat: "Share of households with a stated telecommunications response that have internet access."
+
   gisborne_stand_down_cases:
     name: School stand-downs
     domain: Mātauranga
