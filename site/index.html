@@ -172,7 +172,8 @@ const el = (tag, attrs = {}, ...kids) => {
   for (const k of kids.flat()) if (k != null) e.append(k.nodeType ? k : document.createTextNode(k));
   return e;
 };
-const parseD = s => new Date(s + "T00:00:00");
+// Dates are local calendar days; sample timestamps (YYYY-MM-DDTHH:MM) are kept as published.
+const parseD = s => new Date(s.length > 10 ? s : s + "T00:00:00");
 
 function fmt(v, format, unit) {
   if (v == null || isNaN(v)) return "–";
@@ -180,12 +181,14 @@ function fmt(v, format, unit) {
   if (format === "dec1") return v.toFixed(1);
   if (format === "dec2") return v.toFixed(2);
   if (format === "dec3") return v.toFixed(3);
+  if (format === "exact") return v.toLocaleString("en-NZ", { maximumFractionDigits: 6 });
   if (format === "currency") return "$" + (Math.abs(v) >= 10000 ? Math.round(v).toLocaleString("en-NZ") : v.toLocaleString("en-NZ", { maximumFractionDigits: 0 }));
   return Math.round(v).toLocaleString("en-NZ");
 }
 function periodLabel(end, ptype) {
   const d = parseD(end), m = d.toLocaleString("en-NZ", { month: "short" });
-  if (ptype === "sample") return d.toLocaleDateString("en-NZ", { day: "numeric", month: "short", year: "numeric" });
+  if (ptype === "sample") return d.toLocaleDateString("en-NZ", { day: "numeric", month: "short", year: "numeric" })
+    + (end.length > 10 ? " " + d.toLocaleTimeString("en-NZ", { hour: "2-digit", minute: "2-digit", hour12: false }) : "");
   if (ptype === "year") return String(d.getFullYear());
   if (ptype === "rolling_12m") return "12 months to " + m + " " + d.getFullYear();
   if (ptype === "quarter") return m + " " + d.getFullYear() + " qtr";
@@ -238,7 +241,7 @@ function lineChart(lines, meta, { height = 220, spark = false, logScale = false 
     const xs = all.map(p => +parseD(p[0])), ys = all.map(p => p[1]);
     const x0 = Math.min(...xs), x1 = Math.max(...xs);
     let y0 = Math.min(...ys), y1 = Math.max(...ys);
-    if (samples) { y0 = 0; y1 = Math.max(1, y1) * 1.08; }
+    if (samples) { y0 = 0; y1 = (logScale ? Math.max(1, y1) : y1 || 1) * 1.08; }
     else if (meta.format === "pct") { y0 = Math.max(0, Math.floor((y0 - 5) / 10) * 10); y1 = Math.min(100, Math.ceil((y1 + 2) / 10) * 10); }
     else { y0 = y0 >= 0 && y0 < (y1 - y0) * 1.2 ? 0 : y0 - (y1 - y0) * 0.1; y1 = y1 + (y1 - y0) * 0.06 || 1; }
     const X = v => m.l + (x1 === x0 ? 0.5 : (v - x0) / (x1 - x0)) * (W - m.l - m.r);
@@ -335,7 +338,7 @@ function shortNum(v, format) {
   const pre = format === "currency" ? "$" : "";
   if (Math.abs(v) >= 1e6) return pre + (v / 1e6).toFixed(1).replace(/\.0$/, "") + "m";
   if (Math.abs(v) >= 1e4) return pre + Math.round(v / 1e3) + "k";
-  return pre + v.toLocaleString("en-NZ");
+  return pre + v.toLocaleString("en-NZ", format === "exact" ? { maximumFractionDigits: 6 } : {});
 }
 
 /* ---------- views ---------- */
@@ -419,6 +422,7 @@ function sampleHistory(ind, sites, meta) {
   siteSelect.value = sites.reduce((longest, site) => site.points.length > longest.points.length ? site : longest).geo;
   const scaleSelect = el("select", { id: ind + "-scale" },
     el("option", { value: "log", text: "Logarithmic" }), el("option", { value: "linear", text: "Linear" }));
+  scaleSelect.value = meta.scale || "log";
   const range = el("p", { class: "note sample-meta", role: "status" });
   const plot = el("div", {});
   const history = el("div", {});
@@ -439,7 +443,7 @@ function sampleHistory(ind, sites, meta) {
       el("div", { class: "sampling-field" }, el("label", { for: scaleSelect.id, text: "Result scale" }), scaleSelect)),
     range,
     plot,
-    el("p", { class: "note sample-meta", text: "Each point is one sample. Open markers show lab reporting limits. Select a linear scale to see absolute differences." }),
+    el("p", { class: "note sample-meta", text: "Each point is one sample. Open markers show lab reporting limits. Switch scales to compare absolute and relative differences." }),
     el("details", { class: "sample-results" }, el("summary", { text: "Sample history table" }), history),
   ];
 }

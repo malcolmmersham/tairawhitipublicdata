@@ -41,6 +41,7 @@ copied to `data/raw/` during a run. That folder is ignored by Git and is tempora
 | M8 | Māori-medium enrolment at schools in Gisborne District, immersion levels 1–2 | Ministry of Education | 2000–2025 | Annual | Reviewed workbook |
 | T1 | Median river E. coli by monitoring site | Stats NZ and Ministry for the Environment | 2020–2024 | Irregular | Published monitoring window |
 | T2 | Routine river E. coli and coastal enterococci samples by site and date | LAWA and Gisborne District Council | 2020–2026 | Annual | Reviewed monitoring release |
+| T3 | Groundwater chloride, conductivity, nitrate nitrogen, DRP and E. coli samples by bore and time | LAWA and Gisborne District Council | 2004–2025 | Annual | Reviewed monitoring release |
 | H27 | Light vehicle fleet, average age and plug-in and hybrid shares, Gisborne District | NZTA Motor Vehicle Register | Oct 2026 → (monthly snapshots accumulate) | Monthly | Automated |
 | H27 | Annual average daily traffic at state highway monitoring sites in NZTA's Gisborne region | NZTA | 2021 → | Annual | Automated |
 | H25 | People with finalised charges and people convicted, Gisborne and Ruatōria courts | Ministry of Justice | 2016/17 → | Annual (June years) | Automated |
