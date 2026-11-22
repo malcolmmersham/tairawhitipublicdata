@@ -51,3 +51,29 @@ gisborne_nominal_gdp_per_person,region,05,Gisborne Region,2021-04-01,2022-03-31,
 gisborne_nominal_gdp_per_person,region,05,Gisborne Region,2022-04-01,2023-03-31,year,march,53674.0,NZD per person,current prices,Total,Total,Total,,revised,statsnz_regional_gdp,2026-11-20,CC BY 4.0
 gisborne_nominal_gdp_per_person,region,05,Gisborne Region,2023-04-01,2024-03-31,year,march,56046.0,NZD per person,current prices,Total,Total,Total,,revised,statsnz_regional_gdp,2026-11-20,CC BY 4.0
 gisborne_nominal_gdp_per_person,region,05,Gisborne Region,2024-04-01,2025-03-31,year,march,58588.0,NZD per person,current prices,Total,Total,Total,,provisional,statsnz_regional_gdp,2026-11-20,CC BY 4.0
+gisborne_nominal_gdp_per_person,national,NZ,Aotearoa New Zealand,1999-04-01,2000-03-31,year,march,29421.0,NZD per person,current prices,Total,Total,Total,,,statsnz_regional_gdp,2026-11-22,CC BY 4.0
+gisborne_nominal_gdp_per_person,national,NZ,Aotearoa New Zealand,2000-04-01,2001-03-31,year,march,30960.0,NZD per person,current prices,Total,Total,Total,,,statsnz_regional_gdp,2026-11-22,CC BY 4.0
+gisborne_nominal_gdp_per_person,national,NZ,Aotearoa New Zealand,2001-04-01,2002-03-31,year,march,32873.0,NZD per person,current prices,Total,Total,Total,,,statsnz_regional_gdp,2026-11-22,CC BY 4.0
+gisborne_nominal_gdp_per_person,national,NZ,Aotearoa New Zealand,2002-04-01,2003-03-31,year,march,33883.0,NZD per person,current prices,Total,Total,Total,,,statsnz_regional_gdp,2026-11-22,CC BY 4.0
+gisborne_nominal_gdp_per_person,national,NZ,Aotearoa New Zealand,2003-04-01,2004-03-31,year,march,35586.0,NZD per person,current prices,Total,Total,Total,,,statsnz_regional_gdp,2026-11-22,CC BY 4.0
+gisborne_nominal_gdp_per_person,national,NZ,Aotearoa New Zealand,2004-04-01,2005-03-31,year,march,37577.0,NZD per person,current prices,Total,Total,Total,,,statsnz_regional_gdp,2026-11-22,CC BY 4.0
+gisborne_nominal_gdp_per_person,national,NZ,Aotearoa New Zealand,2005-04-01,2006-03-31,year,march,39162.0,NZD per person,current prices,Total,Total,Total,,,statsnz_regional_gdp,2026-11-22,CC BY 4.0
+gisborne_nominal_gdp_per_person,national,NZ,Aotearoa New Zealand,2006-04-01,2007-03-31,year,march,40885.0,NZD per person,current prices,Total,Total,Total,,,statsnz_regional_gdp,2026-11-22,CC BY 4.0
+gisborne_nominal_gdp_per_person,national,NZ,Aotearoa New Zealand,2007-04-01,2008-03-31,year,march,43982.0,NZD per person,current prices,Total,Total,Total,,,statsnz_regional_gdp,2026-11-22,CC BY 4.0
+gisborne_nominal_gdp_per_person,national,NZ,Aotearoa New Zealand,2008-04-01,2009-03-31,year,march,44344.0,NZD per person,current prices,Total,Total,Total,,,statsnz_regional_gdp,2026-11-22,CC BY 4.0
+gisborne_nominal_gdp_per_person,national,NZ,Aotearoa New Zealand,2009-04-01,2010-03-31,year,march,44977.0,NZD per person,current prices,Total,Total,Total,,,statsnz_regional_gdp,2026-11-22,CC BY 4.0
+gisborne_nominal_gdp_per_person,national,NZ,Aotearoa New Zealand,2010-04-01,2011-03-31,year,march,46632.0,NZD per person,current prices,Total,Total,Total,,,statsnz_regional_gdp,2026-11-22,CC BY 4.0
+gisborne_nominal_gdp_per_person,national,NZ,Aotearoa New Zealand,2011-04-01,2012-03-31,year,march,48479.0,NZD per person,current prices,Total,Total,Total,,revised,statsnz_regional_gdp,2026-11-22,CC BY 4.0
+gisborne_nominal_gdp_per_person,national,NZ,Aotearoa New Zealand,2012-04-01,2013-03-31,year,march,49227.0,NZD per person,current prices,Total,Total,Total,,revised,statsnz_regional_gdp,2026-11-22,CC BY 4.0
+gisborne_nominal_gdp_per_person,national,NZ,Aotearoa New Zealand,2013-04-01,2014-03-31,year,march,51986.0,NZD per person,current prices,Total,Total,Total,,revised,statsnz_regional_gdp,2026-11-22,CC BY 4.0
+gisborne_nominal_gdp_per_person,national,NZ,Aotearoa New Zealand,2014-04-01,2015-03-31,year,march,53192.0,NZD per person,current prices,Total,Total,Total,,revised,statsnz_regional_gdp,2026-11-22,CC BY 4.0
+gisborne_nominal_gdp_per_person,national,NZ,Aotearoa New Zealand,2015-04-01,2016-03-31,year,march,54769.0,NZD per person,current prices,Total,Total,Total,,revised,statsnz_regional_gdp,2026-11-22,CC BY 4.0
+gisborne_nominal_gdp_per_person,national,NZ,Aotearoa New Zealand,2016-04-01,2017-03-31,year,march,56944.0,NZD per person,current prices,Total,Total,Total,,revised,statsnz_regional_gdp,2026-11-22,CC BY 4.0
+gisborne_nominal_gdp_per_person,national,NZ,Aotearoa New Zealand,2017-04-01,2018-03-31,year,march,59821.0,NZD per person,current prices,Total,Total,Total,,revised,statsnz_regional_gdp,2026-11-22,CC BY 4.0
+gisborne_nominal_gdp_per_person,national,NZ,Aotearoa New Zealand,2018-04-01,2019-03-31,year,march,61974.0,NZD per person,current prices,Total,Total,Total,,revised,statsnz_regional_gdp,2026-11-22,CC BY 4.0
+gisborne_nominal_gdp_per_person,national,NZ,Aotearoa New Zealand,2019-04-01,2020-03-31,year,march,64328.0,NZD per person,current prices,Total,Total,Total,,revised,statsnz_regional_gdp,2026-11-22,CC BY 4.0
+gisborne_nominal_gdp_per_person,national,NZ,Aotearoa New Zealand,2020-04-01,2021-03-31,year,march,64747.0,NZD per person,current prices,Total,Total,Total,,revised,statsnz_regional_gdp,2026-11-22,CC BY 4.0
+gisborne_nominal_gdp_per_person,national,NZ,Aotearoa New Zealand,2021-04-01,2022-03-31,year,march,70558.0,NZD per person,current prices,Total,Total,Total,,revised,statsnz_regional_gdp,2026-11-22,CC BY 4.0
+gisborne_nominal_gdp_per_person,national,NZ,Aotearoa New Zealand,2022-04-01,2023-03-31,year,march,76771.0,NZD per person,current prices,Total,Total,Total,,revised,statsnz_regional_gdp,2026-11-22,CC BY 4.0
+gisborne_nominal_gdp_per_person,national,NZ,Aotearoa New Zealand,2023-04-01,2024-03-31,year,march,79407.0,NZD per person,current prices,Total,Total,Total,,revised,statsnz_regional_gdp,2026-11-22,CC BY 4.0
+gisborne_nominal_gdp_per_person,national,NZ,Aotearoa New Zealand,2024-04-01,2025-03-31,year,march,81283.0,NZD per person,current prices,Total,Total,Total,,provisional,statsnz_regional_gdp,2026-11-22,CC BY 4.0

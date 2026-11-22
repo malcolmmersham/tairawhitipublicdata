@@ -222,6 +222,12 @@ sources:
     attribution: "Source: Ministry of Health, New Zealand Health Survey, licensed under CC BY 4.0"
     cadence: irregular
     check_every_days: 30
+  mbie_tect:
+    name: MBIE – Tourism Electronic Card Transactions
+    url: https://teic.mbie.govt.nz/teiccategories/datareleases/tects/
+    attribution: "Source: Ministry of Business, Innovation and Employment, Tourism Electronic Card Transactions, licensed under CC BY 4.0"
+    cadence: monthly
+    check_every_days: 7
 
 indicators:
   hud_urban_land_price_to_cost:
@@ -531,6 +537,22 @@ indicators:
     headline: false
     format: int
     caveat: "Gisborne Region estimates cover commercial accommodation with at least six stay units."
+  tect_gisborne_domestic_spend:
+    name: Tourism card spend by domestic visitors (NZ$ million)
+    domain: Ōhanga
+    topic: Tourism
+    direction: neutral
+    headline: false
+    format: dec2
+    caveat: "Electronic card spending in Gisborne Region by cardholders from other New Zealand regions, in millions of New Zealand dollars. Excludes local residents, cash and other non-card spending, so it is not total tourism expenditure. MBIE published January 2018 to December 2025 and plans to resume the series in early 2027. Separate from the paused Monthly Regional Tourism Estimates."
+  tect_gisborne_international_spend:
+    name: Tourism card spend by international visitors (NZ$ million)
+    domain: Ōhanga
+    topic: Tourism
+    direction: neutral
+    headline: false
+    format: dec2
+    caveat: "Electronic card spending in Gisborne Region on overseas-issued cards, in millions of New Zealand dollars. Excludes cash and other non-card spending, so it is not total tourism expenditure. MBIE published January 2018 to December 2025 and plans to resume the series in early 2027. Separate from the paused Monthly Regional Tourism Estimates."
   gisborne_census_families:
     name: Families in occupied private dwellings
     domain: Hapori
@@ -565,7 +587,7 @@ indicators:
     direction: neutral
     headline: false
     format: currency
-    caveat: "New Zealand dollars per person for the year ended March. Regional production per person differs from household income."
+    caveat: "New Zealand dollars per person for the year ended March. Regional production per person differs from household income. The dashed line is the national figure from the same Stats NZ release."
   hud_house_price_to_income:
     name: Median house price to median household income
     domain: Hapori
@@ -731,7 +753,7 @@ indicators:
     headline: false
     format: currency
     url: https://explore.data.stats.govt.nz/
-    caveat: "Median earnings for the quarter from jobs held for the full quarter in Gisborne Region, from Stats NZ LEED table 05. Gross earnings at current prices, not adjusted for inflation or hours worked. Published values are rounded."
+    caveat: "Median earnings for the quarter from jobs held for the full quarter in Gisborne Region, from Stats NZ LEED table 05. Gross earnings at current prices, not adjusted for inflation or hours worked. Published values are rounded. The dashed line is the New Zealand total from the same table."
   leed_worker_turnover_rate:
     name: Worker turnover rate (LEED)
     domain: Ōhanga
@@ -740,7 +762,7 @@ indicators:
     headline: false
     format: pct
     url: https://explore.data.stats.govt.nz/
-    caveat: "Quarterly worker turnover rate (%) for Gisborne Region as published in Stats NZ LEED table 05. Turnover is seasonal, so compare the same quarter across years."
+    caveat: "Quarterly worker turnover rate (%) for Gisborne Region as published in Stats NZ LEED table 05. Turnover is seasonal, so compare the same quarter across years. The dashed line is the New Zealand total from the same table."
   agr_sheep:
     name: Sheep
     domain: Ōhanga
