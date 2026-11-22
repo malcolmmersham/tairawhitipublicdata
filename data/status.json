@@ -224,5 +224,35 @@
   "last_success": "2026-11-22T00:28:57+00:00",
   "mode": "manual",
   "schema_hash": "b82f5b5156"
+ },
+ "nzta_mvr": {
+  "source_id": "nzta_mvr",
+  "ok": true,
+  "rows": 4,
+  "latest_period": "2026-10-31",
+  "message": "ok",
+  "checked": "2026-11-22T01:06:39+00:00",
+  "last_success": "2026-11-22T01:06:39+00:00",
+  "schema_hash": "18cd8d86f0"
+ },
+ "nzta_traffic": {
+  "source_id": "nzta_traffic",
+  "ok": true,
+  "rows": 90,
+  "latest_period": "2025-12-31",
+  "message": "ok",
+  "checked": "2026-11-22T01:06:41+00:00",
+  "last_success": "2026-11-22T01:06:41+00:00",
+  "schema_hash": "1abb15206d"
+ },
+ "moj_courts": {
+  "source_id": "moj_courts",
+  "ok": true,
+  "rows": 40,
+  "latest_period": "2026-06-30",
+  "message": "ok",
+  "checked": "2026-11-22T01:06:43+00:00",
+  "last_success": "2026-11-22T01:06:43+00:00",
+  "schema_hash": "f49429d627"
  }
 }

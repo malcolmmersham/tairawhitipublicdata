@@ -1,0 +1,5 @@
+indicator_id,geo_type,geo_code,geo_name,period_start,period_end,period_type,year_basis,value,unit,measure,ethnicity,age,sex,suppression_flag,quality_flag,source_id,vintage_date,licence
+mvr_light_fleet,ta,028,Gisborne District,2026-10-01,2026-10-31,month,calendar,38344.0,vehicles,count,Total,Total,Total,,,nzta_mvr,2026-11-22,CC BY 4.0
+mvr_light_fleet_age,ta,028,Gisborne District,2026-10-01,2026-10-31,month,calendar,14.0,years,mean,Total,Total,Total,,,nzta_mvr,2026-11-22,CC BY 4.0
+mvr_light_hybrid_share,ta,028,Gisborne District,2026-10-01,2026-10-31,month,calendar,5.93,percent,share,Total,Total,Total,,,nzta_mvr,2026-11-22,CC BY 4.0
+mvr_light_plugin_share,ta,028,Gisborne District,2026-10-01,2026-10-31,month,calendar,1.31,percent,share,Total,Total,Total,,,nzta_mvr,2026-11-22,CC BY 4.0

@@ -367,12 +367,12 @@ function siteCard(ind) {
   const rows = sites.flatMap(site => {
     const points = sample ? site.points.slice(-1) : site.points;
     return points.map(([end, value, flag]) => {
-      const period = sample ? periodLabel(end, "sample") : `${site.period_start.slice(0, 4)}–${end.slice(0, 4)}`;
+      const period = sample || !site.period_start ? periodLabel(end, site.period_type) : `${site.period_start.slice(0, 4)}–${end.slice(0, 4)}`;
       return el("tr", {}, el("td", { text: site.geo_name }), el("td", { text: period }),
         el("td", { class: "num", text: sample ? sampleResult(value, flag, meta.format) : fmt(value, meta.format) }));
     });
   });
-  const latest = el("div", { class: "tbl-wrap" }, el("table", {}, el("thead", {}, el("tr", {},
+  const latest = !sample && !sites[0].period_start ? siteGrid(sites, meta) : el("div", { class: "tbl-wrap" }, el("table", {}, el("thead", {}, el("tr", {},
     el("th", { text: "Monitoring site" }), el("th", { text: sample ? "Sample date" : "Period" }),
     el("th", { class: "num", text: sample ? `Result (${sites[0].unit})` : "Median per 100 mL" }))),
     el("tbody", {}, rows)));
@@ -384,6 +384,16 @@ function siteCard(ind) {
     el("div", { class: "src" }, source.attribution, el("a", { href: source.url, text: "Publisher" }),
       source.licence_url && el("a", { href: source.licence_url, text: "Licence" }),
       sample ? el("a", { href: "data/observations.csv", download: "observations.csv", text: "Download observations (CSV)" }) : null));
+}
+function siteGrid(sites, meta) {
+  const ends = [...new Set(sites.flatMap(s => s.points.map(p => p[0])))].sort().reverse();
+  return el("div", { class: "tbl-wrap" }, el("table", {},
+    el("thead", {}, el("tr", {}, el("th", { text: meta.site_label || "Site" }),
+      ends.map(end => el("th", { class: "num", text: periodLabel(end, sites[0].period_type) })))),
+    el("tbody", {}, sites.map(s => el("tr", {}, el("td", { text: s.geo_name }), ends.map(end => {
+      const p = s.points.find(q => q[0] === end);
+      return el("td", { class: "num", text: !p ? "" : p[1] == null ? "s" : fmt(p[1], meta.format) });
+    }))))));
 }
 function sampleHistory(ind, sites, meta) {
   const siteSelect = el("select", { id: ind + "-site" }, sites.map(site => el("option", { value: site.geo, text: site.geo_name })));
