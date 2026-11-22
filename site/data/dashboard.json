@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-22T00:37:57+00:00",
+ "generated": "2026-11-22T00:56:05+00:00",
  "indicators": {
   "gisborne_stand_down_cases": {
    "name": "School stand-downs",
@@ -50585,7 +50585,9 @@
    "frequency": "Annual",
    "phase": 2,
    "status": "planned",
-   "release": 3
+   "release": 3,
+   "note": "LAWA blocks automated downloads. A reviewed manual file is needed, as for recreational water.",
+   "url": "https://www.lawa.org.nz/download-data"
   },
   {
    "id": "T4",
@@ -50596,7 +50598,7 @@
    "phase": 3,
    "status": "planned",
    "release": 3,
-   "note": "Endpoint to confirm with GDC"
+   "note": "GDC has not published a public Hilltop endpoint. Confirm the server address and reuse terms with GDC before building annual rainfall and river flow aggregates."
   },
   {
    "id": "T5",
@@ -50606,7 +50608,9 @@
    "frequency": "Monthly",
    "phase": 3,
    "status": "planned",
-   "release": 3
+   "release": 3,
+   "note": "DataHub station downloads and its API need a free DataHub account and API key. The Ministry for the Environment data service also needs an API key for its 30-site rainfall and temperature tables.",
+   "url": "https://data.niwa.co.nz/collections/daily-climate-station"
   },
   {
    "id": "T6",
