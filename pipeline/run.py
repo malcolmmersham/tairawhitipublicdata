@@ -25,7 +25,7 @@ import yaml
 from .core import COLUMNS, GOLD_DIR, MANUAL_DIR, ROOT, SILVER_DIR, SITE_DATA, RunResult, SourceBlocked, to_frame, write_json
 
 SOURCES = ["statsnz_ade", "msd_benefits", "hud_housing", "healthnz_immunisation", "nzta_cas", "mbie_bonds",
-           "statsnz_emissions", "moe_attendance", "statsnz_regional_gdp", "hud_affordability", "moe_leavers",
+           "statsnz_emissions", "moe_attendance", "statsnz_regional_gdp", "hud_affordability", "hud_urban_land", "moe_leavers",
            "statsnz_monthly", "mbie_accommodation", "statsnz_census_households", "ea_residential",
            "statsnz_vital_statistics", "moe_rolls_ece", "statsnz_river_quality", "statsnz_council_finance",
            "moe_school_discipline", "lawa_swimming", "moe_maori_medium", "statsnz_sa2", "nzqa_secondary",
@@ -36,6 +36,7 @@ MODULES = {
     "healthnz_immunisation": "healthnz_immunisation", "nzta_cas": "nzta_cas", "mbie_bonds": "mbie_bonds",
     "statsnz_emissions": "statsnz_emissions", "moe_attendance": "moe_attendance",
     "statsnz_regional_gdp": "statsnz_regional_gdp", "hud_affordability": "hud_affordability", "moe_leavers": "moe_leavers",
+    "hud_urban_land": "hud_urban_land",
     "statsnz_monthly": "statsnz_monthly", "mbie_accommodation": "mbie_accommodation",
     "statsnz_census_households": "statsnz_census_households",
     "ea_residential": "ea_residential",

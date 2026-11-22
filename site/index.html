@@ -178,6 +178,7 @@ function fmt(v, format, unit) {
   if (v == null || isNaN(v)) return "–";
   if (format === "pct") return v.toFixed(1) + "%";
   if (format === "dec1") return v.toFixed(1);
+  if (format === "dec2") return v.toFixed(2);
   if (format === "dec3") return v.toFixed(3);
   if (format === "currency") return "$" + (Math.abs(v) >= 10000 ? Math.round(v).toLocaleString("en-NZ") : v.toLocaleString("en-NZ", { maximumFractionDigits: 0 }));
   return Math.round(v).toLocaleString("en-NZ");
