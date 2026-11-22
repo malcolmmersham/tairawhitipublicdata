@@ -185,6 +185,12 @@ sources:
     attribution: "Contains Census data from Stats NZ, licensed under CC BY 4.0."
     cadence: five-yearly
     check_every_days: 30
+  statsnz_sa2_population:
+    name: Stats NZ – Subnational population estimates by statistical area
+    url: https://explore.data.stats.govt.nz/
+    attribution: "Source: Stats NZ, licensed under CC BY 4.0"
+    cadence: annual
+    check_every_days: 7
 
   nzta_mvr:
     name: NZ Transport Agency Waka Kotahi – Motor Vehicle Register
@@ -332,6 +338,28 @@ indicators:
     display: places
     url: https://services2.arcgis.com/vKb0s8tBIA3bdocZ/ArcGIS/rest/services/2023_Census_totals_by_topic_for_households_by_SA2/FeatureServer/1
     caveat: "Share of households with a stated telecommunications response that have internet access."
+  sa2_pop_estimate:
+    name: Estimated resident population
+    domain: Hapori
+    topic: Population and age
+    direction: neutral
+    headline: false
+    format: int
+    display: places
+    period_label: estimate at 30 June
+    url: https://explore.data.stats.govt.nz/
+    caveat: "Stats NZ estimate of the population usually living in each SA2, rounded to the nearest 10. Estimates after 2023 are provisional and are revised in later releases. Not directly comparable with the Census usually resident population count."
+  sa2_pop_median_age:
+    name: Median age (estimate)
+    domain: Hapori
+    topic: Population and age
+    direction: neutral
+    headline: false
+    format: dec1
+    display: places
+    period_label: estimate at 30 June
+    url: https://explore.data.stats.govt.nz/
+    caveat: "Median age of the estimated resident population. Estimates after 2023 are provisional and are revised in later releases."
 
   gisborne_stand_down_cases:
     name: School stand-downs
