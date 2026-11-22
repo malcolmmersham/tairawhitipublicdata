@@ -33,7 +33,9 @@ copied to `data/raw/` during a run. That folder is ignored by Git and is tempora
 | H2 | 2023-base population projections | Stats NZ | 2028–2053 | Irregular | Reviewed scenarios |
 | H3, H4 | Registered births and deaths, and census household counts | Stats NZ | 2012 / 2013 → | Annual / Five-yearly | Automated |
 | M5, M8 | Prior early learning participation and July school rolls | Ministry of Education | 2018 / 1996 → | Quarterly / Annual | Reviewed workbook fallback |
+| M8 | Māori-medium enrolment at schools in Gisborne District, immersion levels 1–2 | Ministry of Education | 2000–2025 | Annual | Reviewed workbook |
 | T1 | Median river E. coli by monitoring site | Stats NZ and Ministry for the Environment | 2020–2024 | Irregular | Published monitoring window |
+| T2 | Routine river E. coli and coastal enterococci samples by site and date | LAWA and Gisborne District Council | 2020–2026 | Annual | Reviewed monitoring release |
 | R5 | Gisborne mayoral turnout | Department of Internal Affairs | 2022 and 2025 | Triennial | Reviewed snapshots |
 | R4 | People who can speak te reo Māori | Stats NZ | 2023 Census | Five-yearly | Reviewed snapshot |
 
@@ -47,6 +49,9 @@ along with downloads for the observations and indicator definitions.
 - The repository maintainer, `@malcolmmersham`, coordinates reviewed manual releases. Compare the
   first and latest periods and a local value to the publisher, record the licence, confirm source
   geography and suppression, then rebuild. Verify the chart and both CSVs after the workflow deploys.
+- PHO enrolment (H18) needs a reviewed district workbook with the release date and district definition. [Health NZ quarterly releases](https://www.healthnz.govt.nz/about-us/health-data/data-sets-and-collections/primary-care-data-and-statistics/enrolment-with-a-general-practice-and-primary-health-organisation)
+- Victimisations (H22) needs a repeatable monthly Gisborne District export. The public geographic reports exclude most dwelling offences. [Police statistics](https://www.police.govt.nz/stats-data-category/victimisations-rcvs) · [Geographic reporting coverage](https://data.govt.nz/datasetrequest/show/1078)
+- Finalised charges (H25) links to the court-location tables as a reference. [Ministry of Justice tables](https://www.justice.govt.nz/justice-sector-policy/research-data/justice-statistics/adults-with-finalised-charges-in-court/) · [Stats NZ methodology](https://datainfoplus.stats.govt.nz/item/nz.govt.stats/c4adb79f-4d9c-4109-914e-bf2973f79102/6)
 - For the Trust survey, start from the [public Trust dashboard](https://trusttairawhiti.nz/what-we-do/wellbeing-data).
   A Trust-approved aggregate export must identify the survey years, weighting method, permitted
   breakdowns, and suppression rules. Keep response data and working files outside this repository.

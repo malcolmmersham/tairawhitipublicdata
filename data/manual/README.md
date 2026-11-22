@@ -11,6 +11,13 @@ newest file in the folder automatically.
 | `moe_leavers/` | [Education Counts school leavers](https://www.educationcounts.govt.nz/statistics/school-leavers) | Save the latest Level 2 time-series XLSX with its publisher filename. Run `python -m pipeline.run moe_leavers`. |
 | `moe_rolls_ece/` | [School rolls](https://www.educationcounts.govt.nz/statistics/school-rolls) and [prior early learning participation](https://www.educationcounts.govt.nz/statistics/participation) | Save the latest school rolls trend XLSX and prior participation year-ended XLSX with publisher filenames. Run `python -m pipeline.run moe_rolls_ece`. |
 | `moe_school_discipline/` | [Education Counts disciplinary decisions](https://www.educationcounts.govt.nz/statistics/stand-downs%2C-suspensions%2C-exclusions-and-expulsions) | Save the four time-series workbooks for stand-downs, suspensions, exclusions and expulsions with their publisher filenames. Run `python -m pipeline.run moe_school_discipline`. |
+| `moe_maori_medium/` | [Education Counts Māori language in schooling](https://www.educationcounts.govt.nz/statistics/maori-language-in-schooling) | Save **Pivot table: Student numbers** with its publisher filename. Run `python -m pipeline.run moe_maori_medium`. The connector selects Gisborne District school locations and immersion levels 1 and 2. |
+| `lawa_swimming/` | [LAWA recreational water quality download](https://www.lawa.org.nz/download-data) | Review the workbook's Dataset Notices and row licences. From MonitoringData, select the Gisborne region, Gisborne District Council, Routine, and the River/E. coli and Coastal/Enterococci pairs. Keep the columns in the bundled extract, write SampleDate as YYYY-MM-DD, and save as `gisborne-swimming-samples-YYYY-MM-DD.csv` using the publisher's release date. Run `python -m pipeline.run lawa_swimming`. |
+
+The LAWA extract uses the [3 November 2026 workbook](https://www.lawa.org.nz/media/0ywltdvh/lawa-recreational-water-quality-monitoring-data-2020-2026_3nov2026.xlsx).
+LAWA and Gisborne District Council supply the samples under [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/).
+The extract selects local routine monitoring records and standardises dates. The observations CSV
+represents a lab reporting limit as the numeric boundary with a `less_than` or `greater_than` quality flag.
 
 Population projections use the reviewed Gisborne Region low, medium and high rows in Table 1 of
 the [Stats NZ 2023-base workbook](https://www.stats.govt.nz/information-releases/subnational-population-projections-2023base-2053/).

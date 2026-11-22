@@ -321,17 +321,31 @@ function card(ind) {
 }
 function siteCard(ind) {
   const meta = D.indicators[ind];
-  const sites = seriesFor(ind).filter(s => s.geo_type === "site");
+  const sites = seriesFor(ind).filter(s => s.geo_type === "site")
+    .sort((a, b) => a.geo_name.localeCompare(b.geo_name, "en-NZ"));
   const source = D.sources[sites[0].source];
-  const rows = sites.flatMap(site => site.points.map(([end, value]) => el("tr", {},
-    el("td", { text: site.geo_name }), el("td", { text: `${site.period_start.slice(0, 4)}–${end.slice(0, 4)}` }),
-    el("td", { class: "num", text: fmt(value, meta.format) }))));
+  const sample = sites[0].period_type === "sample";
+  const limits = { less_than: "<", greater_than: ">" };
+  const rows = sites.flatMap(site => {
+    const points = sample ? site.points.slice(-1) : site.points;
+    return points.map(([end, value, flag]) => {
+      const period = sample
+        ? parseD(end).toLocaleDateString("en-NZ", { day: "numeric", month: "short", year: "numeric" })
+        : `${site.period_start.slice(0, 4)}–${end.slice(0, 4)}`;
+      return el("tr", {}, el("td", { text: site.geo_name }), el("td", { text: period }),
+        el("td", { class: "num", text: (limits[flag] || "") + fmt(value, meta.format) }));
+    });
+  });
   return el("article", { class: "card", id: "ind-" + ind },
     el("h3", { text: meta.name }), el("p", { class: "note", text: meta.caveat }),
+    meta.advice_url && el("p", { class: "note" }, el("a", { href: meta.advice_url, text: "Check current swimming advice" })),
     el("div", { class: "tbl-wrap" }, el("table", {}, el("thead", {}, el("tr", {},
-      el("th", { text: "Monitoring site" }), el("th", { text: "Period" }), el("th", { class: "num", text: "Median per 100 mL" }))),
+      el("th", { text: "Monitoring site" }), el("th", { text: sample ? "Sample date" : "Period" }),
+      el("th", { class: "num", text: sample ? `Result (${sites[0].unit})` : "Median per 100 mL" }))),
       el("tbody", {}, rows))),
-    el("div", { class: "src" }, source.attribution, el("a", { href: source.url, text: "Publisher" })));
+    el("div", { class: "src" }, source.attribution, el("a", { href: source.url, text: "Publisher" }),
+      source.licence_url && el("a", { href: source.licence_url, text: "Licence" }),
+      sample ? el("a", { href: "data/observations.csv", download: "observations.csv", text: "Download observations (CSV)" }) : null));
 }
 function table(lines, meta) {
   const dates = [...new Set(lines.flatMap(l => l.points.map(p => p[0])))].sort().reverse();

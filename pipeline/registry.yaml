@@ -139,6 +139,19 @@ sources:
     attribution: "Source: Ministry of Education, Education Counts, licensed under CC BY 4.0"
     cadence: annual
     check_every_days: 7
+  moe_maori_medium:
+    name: Ministry of Education – Māori language in schooling
+    url: https://www.educationcounts.govt.nz/statistics/maori-language-in-schooling
+    attribution: "Source: Ministry of Education, Education Counts, licensed under CC BY 4.0"
+    cadence: annual
+    check_every_days: 7
+  lawa_swimming:
+    name: LAWA and Gisborne District Council – Recreational water monitoring
+    url: https://www.lawa.org.nz/download-data
+    attribution: "Source: LAWA and Gisborne District Council. Extracted routine sampling records under CC BY 4.0."
+    licence_url: https://creativecommons.org/licenses/by/4.0/
+    cadence: annual
+    check_every_days: 7
 
 indicators:
   gisborne_stand_down_cases:
@@ -200,6 +213,26 @@ indicators:
     headline: false
     format: dec1
     caveat: "Measured site medians per 100 mL over 2020–2024. This monitoring-period snapshot differs from current conditions. See the publisher for methods."
+  swimming_freshwater_ecoli:
+    name: Freshwater swimming sites · E. coli
+    domain: Taiao
+    topic: Recreational water quality
+    display: sites
+    direction: neutral
+    headline: false
+    format: dec1
+    caveat: "Latest routine sample per river site in the reviewed LAWA release. The observations CSV contains the available dates and measurements. The < and > signs identify lab reporting limits."
+    advice_url: https://www.gdc.govt.nz/recreation/can-i-swim-here
+  swimming_coastal_enterococci:
+    name: Coastal swimming sites · enterococci
+    domain: Taiao
+    topic: Recreational water quality
+    display: sites
+    direction: neutral
+    headline: false
+    format: dec1
+    caveat: "Latest routine sample per coastal site in the reviewed LAWA release. The observations CSV contains the available dates and measurements. The < and > signs identify lab reporting limits."
+    advice_url: https://www.gdc.govt.nz/recreation/can-i-swim-here
 
   gisborne_live_births:
     name: Registered live births
@@ -225,6 +258,14 @@ indicators:
     headline: false
     format: int
     caveat: "Published headcount as at 1 July for schools located in Gisborne District."
+  gisborne_maori_medium_roll:
+    name: Māori-medium school enrolment
+    domain: Mātauranga
+    topic: School enrolment
+    direction: neutral
+    headline: false
+    format: int
+    caveat: "Students enrolled as at 1 July at schools located in Gisborne District. Includes Māori-language immersion levels 1 and 2, where students are taught in te reo Māori for at least 51% of the time."
   gisborne_prior_ece_participation:
     name: Early learning participation before starting school
     domain: Mātauranga
