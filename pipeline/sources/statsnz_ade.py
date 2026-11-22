@@ -12,10 +12,11 @@ no Gisborne rows and the run fails loudly rather than silently changing the seri
 from __future__ import annotations
 
 import io
+import time
 
 import pandas as pd
 
-from ..core import env, fetch, land_raw, log, obs
+from ..core import SourceBlocked, env, fetch, land_raw, log, obs
 
 SOURCE_ID = "statsnz_ade"
 LICENCE = "CC BY 4.0"
@@ -37,15 +38,21 @@ QUERIES = [
 ]
 
 
-def _download(flow: str, key: str) -> pd.DataFrame:
+def _download(flow: str, key: str, source_id: str = SOURCE_ID) -> pd.DataFrame:
     headers = {"Accept": "application/vnd.sdmx.data+csv"}
     api_key = env("STATSNZ_API_KEY")
     if api_key:
         headers["Ocp-Apim-Subscription-Key"] = api_key
-    r = fetch(API.format(flow=flow, key=key), headers=headers,
-              params={"format": "csvfilewithlabels", "dimensionAtObservation": "AllDimensions"},
-              timeout=300)
-    land_raw(SOURCE_ID, f"{flow}.csv", r.content)
+    args = dict(headers=headers, timeout=300,
+                params={"format": "csvfilewithlabels", "dimensionAtObservation": "AllDimensions"})
+    try:
+        r = fetch(API.format(flow=flow, key=key), **args)
+    except SourceBlocked as e:  # the key-injecting proxy occasionally misses a request
+        if "subscription key" not in str(e).lower():
+            raise
+        time.sleep(30)
+        r = fetch(API.format(flow=flow, key=key), **args)
+    land_raw(source_id, f"{flow}.csv", r.content)
     return pd.read_csv(io.BytesIO(r.content), dtype=str)
 
 
