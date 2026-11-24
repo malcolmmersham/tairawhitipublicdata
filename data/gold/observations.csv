@@ -9554,7 +9554,7 @@ cas_injury_crashes,region,05,Gisborne / Tairāwhiti,2022-01-01,2022-12-31,year,c
 cas_injury_crashes,region,05,Gisborne / Tairāwhiti,2023-01-01,2023-12-31,year,calendar,135.0,crashes,count,Total,Total,Total,,,nzta_cas,2026-11-20,CC BY 4.0
 cas_injury_crashes,region,05,Gisborne / Tairāwhiti,2024-01-01,2024-12-31,year,calendar,116.0,crashes,count,Total,Total,Total,,,nzta_cas,2026-11-20,CC BY 4.0
 cas_injury_crashes,region,05,Gisborne / Tairāwhiti,2025-01-01,2025-12-31,year,calendar,118.0,crashes,count,Total,Total,Total,,,nzta_cas,2026-11-20,CC BY 4.0
-cas_injury_crashes,region,05,Gisborne / Tairāwhiti,2026-01-01,2026-12-31,year,calendar,86.0,crashes,count,Total,Total,Total,,partial year; CAS is live and late reports are added,nzta_cas,2026-11-20,CC BY 4.0
+cas_injury_crashes,region,05,Gisborne / Tairāwhiti,2026-01-01,2026-12-31,year,calendar,89.0,crashes,count,Total,Total,Total,,partial year; CAS is live and late reports are added,nzta_cas,2026-11-24,CC BY 4.0
 mvr_light_fleet,ta,028,Gisborne District,2026-10-01,2026-10-31,month,calendar,38344.0,vehicles,count,Total,Total,Total,,,nzta_mvr,2026-11-22,CC BY 4.0
 mvr_light_fleet_age,ta,028,Gisborne District,2026-10-01,2026-10-31,month,calendar,14.0,years,mean,Total,Total,Total,,,nzta_mvr,2026-11-22,CC BY 4.0
 mvr_light_hybrid_share,ta,028,Gisborne District,2026-10-01,2026-10-31,month,calendar,5.93,percent,share,Total,Total,Total,,,nzta_mvr,2026-11-22,CC BY 4.0
