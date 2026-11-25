@@ -225,6 +225,7 @@ hud_housing_register,ta,028,Gisborne District,2026-06-01,2026-06-30,month,calend
 hud_housing_register,ta,028,Gisborne District,2026-07-01,2026-07-31,month,calendar,373.0,applicants,count,Total,Total,Total,,,hud_housing,2026-11-20,CC BY 4.0
 hud_housing_register,ta,028,Gisborne District,2026-08-01,2026-08-31,month,calendar,374.0,applicants,count,Total,Total,Total,,,hud_housing,2026-11-20,CC BY 4.0
 hud_housing_register,ta,028,Gisborne District,2026-09-01,2026-09-30,month,calendar,353.0,applicants,count,Total,Total,Total,,,hud_housing,2026-11-20,CC BY 4.0
+hud_housing_register,ta,028,Gisborne District,2026-10-01,2026-10-31,month,calendar,360.0,applicants,count,Total,Total,Total,,,hud_housing,2026-11-25,CC BY 4.0
 hud_register_applicants,ta,028,Gisborne District,2017-06-01,2017-06-30,month,calendar,113.0,applicants,count,Total,Total,Total,,,hud_housing,2026-11-20,CC BY 4.0
 hud_register_applicants,ta,028,Gisborne District,2017-07-01,2017-07-31,month,calendar,121.0,applicants,count,Total,Total,Total,,,hud_housing,2026-11-20,CC BY 4.0
 hud_register_applicants,ta,028,Gisborne District,2017-08-01,2017-08-31,month,calendar,130.0,applicants,count,Total,Total,Total,,,hud_housing,2026-11-20,CC BY 4.0
@@ -337,6 +338,7 @@ hud_register_applicants,ta,028,Gisborne District,2026-06-01,2026-06-30,month,cal
 hud_register_applicants,ta,028,Gisborne District,2026-07-01,2026-07-31,month,calendar,482.0,applicants,count,Total,Total,Total,,,hud_housing,2026-11-20,CC BY 4.0
 hud_register_applicants,ta,028,Gisborne District,2026-08-01,2026-08-31,month,calendar,484.0,applicants,count,Total,Total,Total,,,hud_housing,2026-11-20,CC BY 4.0
 hud_register_applicants,ta,028,Gisborne District,2026-09-01,2026-09-30,month,calendar,459.0,applicants,count,Total,Total,Total,,,hud_housing,2026-11-20,CC BY 4.0
+hud_register_applicants,ta,028,Gisborne District,2026-10-01,2026-10-31,month,calendar,471.0,applicants,count,Total,Total,Total,,,hud_housing,2026-11-25,CC BY 4.0
 hud_social_housing_chp,ta,028,Gisborne District,2017-06-01,2017-06-30,month,calendar,5.0,places,count,Total,Total,Total,,,hud_housing,2026-11-20,CC BY 4.0
 hud_social_housing_chp,ta,028,Gisborne District,2017-07-01,2017-07-31,month,calendar,6.0,places,count,Total,Total,Total,,,hud_housing,2026-11-20,CC BY 4.0
 hud_social_housing_chp,ta,028,Gisborne District,2017-08-01,2017-08-31,month,calendar,6.0,places,count,Total,Total,Total,,,hud_housing,2026-11-20,CC BY 4.0
@@ -449,6 +451,7 @@ hud_social_housing_chp,ta,028,Gisborne District,2026-06-01,2026-06-30,month,cale
 hud_social_housing_chp,ta,028,Gisborne District,2026-07-01,2026-07-31,month,calendar,40.0,places,count,Total,Total,Total,,,hud_housing,2026-11-20,CC BY 4.0
 hud_social_housing_chp,ta,028,Gisborne District,2026-08-01,2026-08-31,month,calendar,42.0,places,count,Total,Total,Total,,,hud_housing,2026-11-20,CC BY 4.0
 hud_social_housing_chp,ta,028,Gisborne District,2026-09-01,2026-09-30,month,calendar,45.0,places,count,Total,Total,Total,,,hud_housing,2026-11-20,CC BY 4.0
+hud_social_housing_chp,ta,028,Gisborne District,2026-10-01,2026-10-31,month,calendar,46.0,places,count,Total,Total,Total,,,hud_housing,2026-11-25,CC BY 4.0
 hud_social_housing_kainga_ora,ta,028,Gisborne District,2017-06-01,2017-06-30,month,calendar,1262.0,places,count,Total,Total,Total,,,hud_housing,2026-11-20,CC BY 4.0
 hud_social_housing_kainga_ora,ta,028,Gisborne District,2017-07-01,2017-07-31,month,calendar,1262.0,places,count,Total,Total,Total,,,hud_housing,2026-11-20,CC BY 4.0
 hud_social_housing_kainga_ora,ta,028,Gisborne District,2017-08-01,2017-08-31,month,calendar,1261.0,places,count,Total,Total,Total,,,hud_housing,2026-11-20,CC BY 4.0
@@ -561,6 +564,7 @@ hud_social_housing_kainga_ora,ta,028,Gisborne District,2026-06-01,2026-06-30,mon
 hud_social_housing_kainga_ora,ta,028,Gisborne District,2026-07-01,2026-07-31,month,calendar,1452.0,places,count,Total,Total,Total,,,hud_housing,2026-11-20,CC BY 4.0
 hud_social_housing_kainga_ora,ta,028,Gisborne District,2026-08-01,2026-08-31,month,calendar,1450.0,places,count,Total,Total,Total,,,hud_housing,2026-11-20,CC BY 4.0
 hud_social_housing_kainga_ora,ta,028,Gisborne District,2026-09-01,2026-09-30,month,calendar,1460.0,places,count,Total,Total,Total,,,hud_housing,2026-11-20,CC BY 4.0
+hud_social_housing_kainga_ora,ta,028,Gisborne District,2026-10-01,2026-10-31,month,calendar,1460.0,places,count,Total,Total,Total,,,hud_housing,2026-11-25,CC BY 4.0
 hud_social_housing_stock,ta,028,Gisborne District,2017-06-01,2017-06-30,month,calendar,1267.0,places,count,Total,Total,Total,,,hud_housing,2026-11-20,CC BY 4.0
 hud_social_housing_stock,ta,028,Gisborne District,2017-07-01,2017-07-31,month,calendar,1268.0,places,count,Total,Total,Total,,,hud_housing,2026-11-20,CC BY 4.0
 hud_social_housing_stock,ta,028,Gisborne District,2017-08-01,2017-08-31,month,calendar,1267.0,places,count,Total,Total,Total,,,hud_housing,2026-11-20,CC BY 4.0
@@ -673,6 +677,7 @@ hud_social_housing_stock,ta,028,Gisborne District,2026-06-01,2026-06-30,month,ca
 hud_social_housing_stock,ta,028,Gisborne District,2026-07-01,2026-07-31,month,calendar,1492.0,places,count,Total,Total,Total,,,hud_housing,2026-11-20,CC BY 4.0
 hud_social_housing_stock,ta,028,Gisborne District,2026-08-01,2026-08-31,month,calendar,1492.0,places,count,Total,Total,Total,,,hud_housing,2026-11-20,CC BY 4.0
 hud_social_housing_stock,ta,028,Gisborne District,2026-09-01,2026-09-30,month,calendar,1505.0,places,count,Total,Total,Total,,,hud_housing,2026-11-20,CC BY 4.0
+hud_social_housing_stock,ta,028,Gisborne District,2026-10-01,2026-10-31,month,calendar,1506.0,places,count,Total,Total,Total,,,hud_housing,2026-11-25,CC BY 4.0
 hud_transfer_register,ta,028,Gisborne District,2017-06-01,2017-06-30,month,calendar,16.0,applicants,count,Total,Total,Total,,,hud_housing,2026-11-20,CC BY 4.0
 hud_transfer_register,ta,028,Gisborne District,2017-07-01,2017-07-31,month,calendar,17.0,applicants,count,Total,Total,Total,,,hud_housing,2026-11-20,CC BY 4.0
 hud_transfer_register,ta,028,Gisborne District,2017-08-01,2017-08-31,month,calendar,17.0,applicants,count,Total,Total,Total,,,hud_housing,2026-11-20,CC BY 4.0
@@ -785,6 +790,7 @@ hud_transfer_register,ta,028,Gisborne District,2026-06-01,2026-06-30,month,calen
 hud_transfer_register,ta,028,Gisborne District,2026-07-01,2026-07-31,month,calendar,109.0,applicants,count,Total,Total,Total,,,hud_housing,2026-11-20,CC BY 4.0
 hud_transfer_register,ta,028,Gisborne District,2026-08-01,2026-08-31,month,calendar,110.0,applicants,count,Total,Total,Total,,,hud_housing,2026-11-20,CC BY 4.0
 hud_transfer_register,ta,028,Gisborne District,2026-09-01,2026-09-30,month,calendar,106.0,applicants,count,Total,Total,Total,,,hud_housing,2026-11-20,CC BY 4.0
+hud_transfer_register,ta,028,Gisborne District,2026-10-01,2026-10-31,month,calendar,111.0,applicants,count,Total,Total,Total,,,hud_housing,2026-11-25,CC BY 4.0
 hud_transitional_places,ta,028,Gisborne District,2021-03-01,2021-03-31,month,calendar,35.0,places,count,Total,Total,Total,,,hud_housing,2026-11-20,CC BY 4.0
 hud_transitional_places,ta,028,Gisborne District,2021-04-01,2021-04-30,month,calendar,35.0,places,count,Total,Total,Total,,,hud_housing,2026-11-20,CC BY 4.0
 hud_transitional_places,ta,028,Gisborne District,2021-05-01,2021-05-31,month,calendar,35.0,places,count,Total,Total,Total,,,hud_housing,2026-11-20,CC BY 4.0
@@ -852,3 +858,4 @@ hud_transitional_places,ta,028,Gisborne District,2026-06-01,2026-06-30,month,cal
 hud_transitional_places,ta,028,Gisborne District,2026-07-01,2026-07-31,month,calendar,102.0,places,count,Total,Total,Total,,,hud_housing,2026-11-20,CC BY 4.0
 hud_transitional_places,ta,028,Gisborne District,2026-08-01,2026-08-31,month,calendar,102.0,places,count,Total,Total,Total,,,hud_housing,2026-11-20,CC BY 4.0
 hud_transitional_places,ta,028,Gisborne District,2026-09-01,2026-09-30,month,calendar,102.0,places,count,Total,Total,Total,,,hud_housing,2026-11-20,CC BY 4.0
+hud_transitional_places,ta,028,Gisborne District,2026-10-01,2026-10-31,month,calendar,102.0,places,count,Total,Total,Total,,,hud_housing,2026-11-25,CC BY 4.0
