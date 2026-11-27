@@ -5,8 +5,8 @@
   "rows": 116,
   "latest_period": "2026-06-30",
   "message": "ok",
-  "checked": "2026-11-26T01:46:49+00:00",
-  "last_success": "2026-11-26T01:46:49+00:00",
+  "checked": "2026-11-27T01:43:37+00:00",
+  "last_success": "2026-11-27T01:43:37+00:00",
   "schema_hash": "d3768badb5"
  },
  "msd_benefits": {
@@ -15,8 +15,8 @@
   "rows": 424,
   "latest_period": "2026-09-30",
   "message": "ok",
-  "checked": "2026-11-26T01:47:02+00:00",
-  "last_success": "2026-11-26T01:47:02+00:00",
+  "checked": "2026-11-27T01:43:51+00:00",
+  "last_success": "2026-11-27T01:43:51+00:00",
   "schema_hash": "3787ebb67c"
  },
  "hud_housing": {
@@ -25,8 +25,8 @@
   "rows": 860,
   "latest_period": "2026-10-31",
   "message": "ok",
-  "checked": "2026-11-26T01:47:10+00:00",
-  "last_success": "2026-11-26T01:47:10+00:00",
+  "checked": "2026-11-27T01:43:57+00:00",
+  "last_success": "2026-11-27T01:43:57+00:00",
   "schema_hash": "4f425f2bc0"
  },
  "healthnz_immunisation": {
@@ -35,8 +35,8 @@
   "rows": 1220,
   "latest_period": "2026-06-30",
   "message": "ok",
-  "checked": "2026-11-26T01:48:23+00:00",
-  "last_success": "2026-11-26T01:48:23+00:00",
+  "checked": "2026-11-27T01:45:19+00:00",
+  "last_success": "2026-11-27T01:45:19+00:00",
   "schema_hash": "a55f03f190"
  },
  "nzta_cas": {
@@ -45,8 +45,8 @@
   "rows": 84,
   "latest_period": "2026-12-31",
   "message": "ok",
-  "checked": "2026-11-26T01:48:24+00:00",
-  "last_success": "2026-11-26T01:48:24+00:00",
+  "checked": "2026-11-27T01:45:19+00:00",
+  "last_success": "2026-11-27T01:45:19+00:00",
   "schema_hash": "414f1d33dc"
  },
  "mbie_bonds": {
@@ -55,8 +55,8 @@
   "rows": 1616,
   "latest_period": "2026-09-30",
   "message": "ok",
-  "checked": "2026-11-26T01:48:26+00:00",
-  "last_success": "2026-11-26T01:48:26+00:00",
+  "checked": "2026-11-27T01:45:21+00:00",
+  "last_success": "2026-11-27T01:45:21+00:00",
   "schema_hash": "5333e7f5e7"
  },
  "statsnz_emissions": {
@@ -65,8 +65,8 @@
   "rows": 19,
   "latest_period": "2025-12-31",
   "message": "ok",
-  "checked": "2026-11-26T01:48:27+00:00",
-  "last_success": "2026-11-26T01:48:27+00:00",
+  "checked": "2026-11-27T01:45:22+00:00",
+  "last_success": "2026-11-27T01:45:22+00:00",
   "schema_hash": "2c54a02a42"
  },
  "moe_attendance": {
@@ -75,8 +75,8 @@
   "rows": 31,
   "latest_period": "2026-09-30",
   "message": "ok – published from reviewed publisher files",
-  "checked": "2026-11-26T01:48:28+00:00",
-  "last_success": "2026-11-26T01:48:28+00:00",
+  "checked": "2026-11-27T01:45:23+00:00",
+  "last_success": "2026-11-27T01:45:23+00:00",
   "mode": "manual",
   "schema_hash": "24635db9f2"
  },
